@@ -1198,7 +1198,7 @@ The commit creates the scenes, scripts and tests for both games and carries repe
 
 ### Critique result
 
-Manual review scores this audit **9/10** overall: novelty **9**, yield **9**, verification quality **10**, repeatability **9**, source quality **10**, and false-positive control **10**. Keep it.
+The critique agent scores this audit **9/10** overall: novelty **8**, yield **9**, verification quality **10**, repeatability **9**, source quality **10**, and false-positive control **9**. Keep it.
 
 ### Next experiment
 

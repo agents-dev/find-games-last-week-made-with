@@ -3900,7 +3900,7 @@
         "Keep rejecting CLAUDE.md-only instructions when commit history does not prove model use"
       ],
       "critique_scores": {
-        "novelty": 9,
+        "novelty": 8,
         "yield": 9,
         "verification_quality": 9,
         "repeatability": 8,
@@ -4109,12 +4109,44 @@
         "verification_quality": 10,
         "repeatability": 9,
         "source_quality": 10,
-        "false_positive_control": 10,
+        "false_positive_control": 9,
         "overall": 9,
         "decision": "keep"
       },
       "critique_note": "This is a high-confidence native-engine expansion: both units are directly created in the cited diff and have source/tests/game loops.",
-      "critic": "manual review"
+      "critic": "existing critique agent"
+    },
+    {
+      "source": "Exact Opus Godot milestone audit",
+      "query_key": "repo:sly-the-fox/geometry-quest Co-Authored-By Claude Opus 4.6",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/sly-the-fox/geometry-quest"
+      ],
+      "note": "The Godot milestone commit identifies a first playable third-person game with a Merkaba player, camera, WASD/gamepad input and main scene. A follow-up commit fixes enemy effects and verifies Godot 4.6.2 headless startup with zero errors. Both commits carry Claude Opus 4.7 trailers. Route the source-verified prototype to non-browser engines.",
+      "next_experiments": [
+        "Apply the exact Godot milestone audit to the next unseen repository",
+        "Require distinct player/scene/gameplay source and a successful engine check",
+        "Keep Opus 4.7 version labels separate from Opus 4.6 in research notes"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The milestone has real player, camera, input and engine verification. Count it as a prototype, not a finished game, and preserve the Opus 4.7 version label.",
+      "critic": "existing critique agent"
     }
   ],
   "frontier": [
