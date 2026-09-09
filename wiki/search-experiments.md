@@ -1318,3 +1318,23 @@ The critique agent scores this audit **9/10** overall: novelty **10**, yield **1
 ### Next experiment
 
 Run serial runtime validation for the accepted repositories. Install or inspect dependencies, launch the game or run tests, and record source-verified versus actually runnable games.
+
+### Cocos Creator native game commit audit
+
+Run the serial GitHub search `Cocos game Co-Authored-By Claude Opus`. Accept:
+
+- [Cat Dog Queue](https://github.com/Jinchaosss/cat-dog-queue) — Cocos Creator 4 scene and TypeScript game controller.
+- [Slide Jigsaw](https://github.com/Jinchaosss/slide-jigsaw) — Cocos Creator 4 sliding-jigsaw scene, controller, model, levels, daily puzzles and rewards.
+- [Twelve Fate](https://github.com/windy341524-glitch/twelve-fate-cocos) — Cocos Creator 3.8.8 narrative mini-game with event, choice, diary, oracle, resource, ending, achievement and UI systems.
+- [Association Sort](https://github.com/Jinchaosss/association-sort-cocos) — Cocos Creator 4 association-sorting game with scenes, level progression, daily puzzles and resource systems.
+- [Find Panda](https://github.com/Jinchaosss/find-panda) — Cocos Creator 4 12-level tap/drag puzzle with scene and controller source.
+
+The accepted projects have scene files, gameplay TypeScript and direct Opus 4.6/4.7 trailers. Their scene/source links returned HTTP 200. Reject asset-heavy repositories without clear gameplay scripts. This pass adds five source-verified native game units and raises the collection to 467 units across 404 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it. Runtime execution remains the next evidence step.
+
+### Next experiment
+
+Perform serial Cocos runtime validation by opening each project’s main scene or build target. Record source-verified versus successfully runnable games, and keep Opus 4.6 and 4.7 separate.
