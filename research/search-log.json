@@ -2583,12 +2583,111 @@
         "Prioritize exact GitHub repository queries and source-backed reverse links",
         "Follow catalog links only when they reach a direct game repository"
       ]
+    },
+    {
+      "source": "GitHub repository search: GPT-6 Astra playable game in README",
+      "query_key": "gh-repo-search|%22GPT-6+Astra%22+playable+game+in%3Areadme|all|2026-09-10",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 2,
+      "unseen_count": 4,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/NeoAiLabs/sidescroller",
+        "https://github.com/aaronshaver/dig-deep-descent"
+      ],
+      "rejected_repositories": [
+        "https://github.com/cagrikacmaz/gpt-6-astra-vs-gemini-3-8-flash",
+        "https://github.com/thepianistdirector/wonder-relay"
+      ],
+      "note": "The query exposed two new source-backed game artifacts. NeoAiLabs/sidescroller contains a GPT-6 Astra HTML result with platforming, enemies, checkpoints, a boss and terminal states. Dig: Deep Descent contains a playable Canvas mining game with an explicit GPT-6 Astra High update, a public GitHub Pages build and regression tests. Case-study-only and planning repositories remained rejected.",
+      "next_experiments": [
+        "Search a new engine-specific or model-alias partition",
+        "Inspect direct game links from a curated list only when source and attribution are both available"
+      ]
+    },
+    {
+      "source": "GitHub REST repository search: GPT-6 Astra Godot game in README",
+      "query_key": "gh-repo-search|%22GPT-6+Astra%22+Godot+game+in%3Areadme|all|2026-09-10",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "rejected_repositories": [
+        "https://github.com/waynchi/gamedevbench"
+      ],
+      "note": "The only unseen candidate was GameDevBench, a Godot benchmark with an aggregate GPT-6 Astra score. It does not contain a separately authored Astra game artifact, so it was rejected. Existing direct Godot games were already recorded.",
+      "next_experiments": [
+        "Do not repeat this exact query family without a changed date or source index",
+        "Use a different engine or alias partition"
+      ]
+    },
+    {
+      "source": "GitHub repository search: GPT6 Astra game in README",
+      "query_key": "gh-repo-search|%22GPT6+Astra%22+game+in%3Areadme|all|2026-09-10",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 3,
+      "unseen_count": 4,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/berlinbrown/vanus-toy-sim-gpt"
+      ],
+      "rejected_repositories": [
+        "https://github.com/pankourgiou/Gpt6_astra.seems.cool",
+        "https://github.com/luizguil99/Chess-comp",
+        "https://github.com/xrjjing/BigWaterMelon"
+      ],
+      "note": "The GPT6 alias exposed one new native non-browser game: VANUS // Steel Horizon, a C++20 SDL3/OpenGL mech-combat sandbox with explicit GPT6 Astra attribution, build instructions, deterministic autoplay and combat tests. A video-only repository, a chess replay tool and a derivative Melon Lab port were rejected.",
+      "next_experiments": [
+        "Search a new engine-specific partition such as C++ SDL, Unity, Unreal or other native runtime",
+        "Do not repeat this alias without a new date or source index"
+      ]
+    },
+    {
+      "source": "Critique of playable-game and Godot query methods",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "gpt6_astra_playable_game_readme": {
+          "novelty": 8,
+          "yield": 8,
+          "verification_quality": 9,
+          "repeatability": 9,
+          "source_quality": 9,
+          "false_positive_control": 9,
+          "overall": 9,
+          "decision": "keep"
+        },
+        "gpt6_astra_godot_game_readme": {
+          "novelty": 7,
+          "yield": 2,
+          "verification_quality": 8,
+          "repeatability": 9,
+          "source_quality": 8,
+          "false_positive_control": 9,
+          "overall": 7,
+          "decision": "drop_as_standalone_method"
+        }
+      },
+      "note": "The critique kept the playable-game query because it added two verified units from four inspected candidates. It dropped the standalone Godot query because its one unseen candidate was a benchmark and the pass yielded no game. Keep the same inspection and rejection rules when changing to another engine keyword.",
+      "next_experiments": [
+        "Run one different engine keyword with the same Astra and game constraints",
+        "Compare accepted-game yield and benchmark false-positive rate"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 371 across 321 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 374 across 324 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
-    "Next serial experiment: run a new exact GPT-6 Astra game-term query or inspect an unseen reverse-linked game folder",
+    "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
     "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"

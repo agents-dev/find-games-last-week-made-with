@@ -772,3 +772,31 @@ The critique scored the [BeatAPI/awesome-3d-prompts](https://github.com/BeatAPI/
 ### Next experiment
 
 Inspect page 3 of the same exact REST query. Review each unseen repository serially. Keep requiring direct source or a playable build, direct qualifying model evidence, and an actual game loop.
+
+### Engine and alias partition
+
+The serial `"GPT-6 Astra" playable game in:readme` repository search produced two new qualifying game artifacts. [NeoAiLabs/sidescroller](https://github.com/NeoAiLabs/sidescroller) contains a direct `gpt-6-astra.html` result with platforming, enemies, collectibles, checkpoints, a cyber-lobster boss, win and game-over states. [aaronshaver/dig-deep-descent](https://github.com/aaronshaver/dig-deep-descent) contains a public Canvas mining game and explicitly credits a GPT-6 Astra High update for the shop, upgrades, contracts, hazards, permadeath and saves. Both records are source-backed; Dig is also live on GitHub Pages. A case-study repository and a planning repository were rejected.
+
+The same-day Godot partition returned [GameDevBench](https://github.com/waynchi/gamedevbench), but it is a benchmark with an aggregate Astra score, not one authored game. Reject it. Keep the existing native Godot, Unity and Unreal records in **Non-Browser Engines** and keep browser artifacts separate.
+
+The Trial reverse-link check found [Alchemia](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/09-falling-sand-alchemy). It has excellent Canvas source and validation, but it is an open-ended particle sandbox with no objective or win/loss state. Do not count it under the strict game-loop rule.
+
+### Critique result
+
+The exact playable-game search remains useful because it added two verified units from four inspected candidates. The Godot partition had zero accepted units after excluding a benchmark. Keep the playable-game query as a supporting method, but do not broaden the Godot query without a new date, alias or source family. Continue with one changed engine or model-alias partition at a time.
+
+### Next experiment
+
+Run one non-overlapping `GPT6` or engine-specific repository partition. Inspect every unseen result serially. Accept only a real game artifact, direct Astra/Opus/Fable evidence and a documented game loop.
+
+### GPT6 alias partition
+
+The serial `"GPT6 Astra" game in:readme` query found one additional non-browser game: [VANUS // Steel Horizon](https://github.com/berlinbrown/vanus-toy-sim-gpt). The README explicitly credits GPT6 Astra and provides a C++20 / SDL3 / OpenGL mech-combat sandbox with movement, aiming, pulse weapons, 18 enemy bots, score, radar, restart, deterministic autoplay and combat tests. Add it to **Non-Browser Engines**. Reject a Facebook-video pointer, a chess replay tool, and the derivative WeChat port of the already counted Melon Lab.
+
+### Next experiment
+
+Use one new native-engine or model-alias partition. Inspect results serially, verify the exact repository, confirm a game loop and model evidence, then update `games.json` immediately after each pass.
+
+### Critique result
+
+The critique scored the playable-game query **9/10** and kept it. It scored the standalone Godot query **7/10** and dropped it because it inspected one benchmark and added no game. Use the same strict checks with a different engine keyword, and compare accepted-game yield rather than widening the Godot search cosmetically.

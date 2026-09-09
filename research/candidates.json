@@ -318,6 +318,31 @@
       "repository": "https://github.com/BeatAPI/awesome-3d-prompts",
       "source": "Reverse-link search: GitHub REST API Astra game results, page 1",
       "reason": "The repository is a 300+ prompt gallery. Its Game Engines catalog contains visual prompts and X posts, but the inspected City Above detail has no GitHub game source or playable repository artifact. Reject catalog entries unless a direct source-backed game repository is found."
+    },
+    {
+      "repository": "https://github.com/waynchi/gamedevbench",
+      "source": "GitHub REST API search: GPT-6 Astra Godot game in README",
+      "reason": "The repository is a Godot benchmark and task suite. Its GPT-6 Astra result is an aggregate score over 333 benchmark tasks, not a separately authored game repository or a source-backed game artifact. Reject the benchmark itself from the game collection."
+    },
+    {
+      "repository": "https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/09-falling-sand-alchemy",
+      "source": "Reverse-link inspection: pyros-projects/Trial GPT-6 Astra result folders",
+      "reason": "Alchemia is a strong, tested Canvas particle sandbox with materials, reactions, presets, saves and export, but its title and validation describe an open-ended simulation with no game objective, win/loss state or campaign. Keep it outside the strict game count and do not weaken the game-loop rule."
+    },
+    {
+      "repository": "https://github.com/pankourgiou/Gpt6_astra.seems.cool",
+      "source": "GitHub REST API search: GPT6 Astra game in README",
+      "reason": "The repository contains only a link to a Facebook video about a chess game and no source, build, playable artifact or direct game repository. Reject it as a reference-only post."
+    },
+    {
+      "repository": "https://github.com/luizguil99/Chess-comp",
+      "source": "GitHub REST API search: GPT6 Astra game in README",
+      "reason": "The repository is a React chess move recorder and replay UI for a match between two LLMs. It validates and displays stored moves, but it is not an independently authored playable game built by GPT-6 Astra. Reject it as a game-recording tool."
+    },
+    {
+      "repository": "https://github.com/xrjjing/BigWaterMelon",
+      "source": "GitHub REST API search: GPT6 Astra game in README",
+      "reason": "The repository is a WeChat Canvas port of the existing Ayi1337 Melon Lab game. It explicitly says it was migrated from the original Astra game and keeps the same physics and gameplay. Treat it as a derivative runtime, not an independent counted game, to avoid duplicate counting."
     }
   ]
 }
