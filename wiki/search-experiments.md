@@ -330,3 +330,57 @@ The same search exposed [kalelooz/game-x](https://github.com/kalelooz/game-x), w
 ### Next experiment
 
 Search the Anshu creator feed for more direct game repositories. Then search Claude Fable with one engine at a time: Godot, Unity or Unreal.
+
+## Anshu creator-feed follow-up — 2026-09-09
+
+Run `from:anshuc game github.com` and then `from:anshuc Astra github.com` in series.
+
+The first search confirmed the existing [The Long Silence](https://github.com/achimala/TheLongSilence) links and exposed no additional direct game repository. The second search exposed [achimala/dream-loop](https://github.com/achimala/dream-loop). GitHub verification shows that it is an agent skill and reusable workflow with a demo example, not an independently authored game. Reject it. The feed also showed a separate Astra game video without a direct repository link; do not add it until a repository is available.
+
+### Next experiment
+
+Search exact Claude Fable with Godot, then Unity, then Unreal. Run each query separately and verify each repository before adding it.
+
+## Split Claude Fable engine searches — 2026-09-09
+
+Run these queries in series:
+
+- `("Claude Fable" OR "Fable 5.1") Godot game github.com`
+- `("Claude Fable" OR "Fable 5.1") Unity game github.com`
+- `("Claude Fable" OR "Fable 5.1") (Unreal OR "Unreal Engine" OR UE5) game github.com`
+
+The Godot and Unreal searches returned articles. The Unity search returned no results. No direct Claude Fable game repository passed verification. Keep this as a low-yield engine probe. Do not infer that no Fable engine games exist.
+
+### Next experiment
+
+Run the same three engine probes for GPT-6 Astra, one query at a time. Verify direct repositories before adding them.
+
+## Split GPT-6 Astra engine searches — 2026-09-09
+
+Run these queries in series:
+
+- `("GPT-6 Astra" OR "GPT6 Astra") Godot game github.com`
+- `("GPT-6 Astra" OR "GPT6 Astra") Unity game github.com`
+- `("GPT-6 Astra" OR "GPT6 Astra") (Unreal OR "Unreal Engine" OR UE5) game github.com`
+
+The three searches returned articles or model discussions. No new direct engine game repository passed verification. Keep the separate **Non-Browser Engines** category. Do not infer that no Astra engine games exist.
+
+### Next experiment
+
+Run a sequential GitHub code search for exact Claude Fable attribution. Inspect direct repositories one at a time.
+
+## Sequential GitHub code search: model attribution plus game terms — 2026-09-09
+
+Run these searches one at a time:
+
+- `"Claude Fable 5.1"`
+- `"Fable 5.1" game`
+- `"Claude Fable" "Three.js"`
+- `"Claude Opus 5" game`
+- `"GPT-6 Astra" game`
+
+The broad Fable search returned model documentation and agent repositories. The narrowed searches returned no new game repositories. The Astra query only matched this project's own research log. Drop this code-search pattern from the primary rotation because it is dominated by documentation and has no game-specific filtering.
+
+### Next experiment
+
+Return to creator-first X searches with direct GitHub links. Search one known high-yield creator handle at a time.

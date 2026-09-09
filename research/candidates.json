@@ -203,6 +203,11 @@
       "repository": "https://github.com/kalelooz/game-x",
       "source": "X search: (Claude Fable OR Fable 5.1) game github.com",
       "reason": "The X post links a repository of AI game-development skills and audits, not an individual playable game. Do not count a toolkit or skill repository as a game."
+    },
+    {
+      "repository": "https://github.com/achimala/dream-loop",
+      "source": "X search: from:anshuc Astra github.com",
+      "reason": "The repository is an agent skill that builds games, apps or scenes. Its README contains a demo example, but the repository itself is a reusable skill and not an independently authored game. Do not count toolkits or example scenes as games."
     }
   ]
 }

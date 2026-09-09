@@ -842,6 +842,102 @@
         "Search exact Claude Fable plus Godot, Unity or Unreal one engine at a time",
         "Inspect direct repositories one at a time"
       ]
+    },
+    {
+      "source": "X creator feed: Anshu game links",
+      "query_key": "x-search|from:anshuc|game|github.com",
+      "query": "from:anshuc game github.com",
+      "status": "completed",
+      "received_count": 4,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 1,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The feed confirmed the existing TheLongSilence record and showed no additional direct game repository. A separate Astra game post had no visible GitHub link in the search result.",
+      "next_experiments": [
+        "Search from:anshuc Astra github.com",
+        "Search exact Claude Fable plus one engine at a time",
+        "Inspect direct repositories one at a time"
+      ]
+    },
+    {
+      "source": "X creator feed: Anshu Astra links",
+      "query_key": "x-search|from:anshuc|Astra|github.com",
+      "query": "from:anshuc Astra github.com",
+      "status": "completed",
+      "received_count": 4,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "note": "The search exposed achimala/dream-loop. GitHub verification confirms it is an agent skill and reusable workflow with a demo example, not an independently authored game. The same feed showed a separate Astra game video without a direct repository link, so it was not added.",
+      "next_experiments": [
+        "Search exact Claude Fable plus Godot",
+        "Search exact Claude Fable plus Unity",
+        "Search exact Claude Fable plus Unreal"
+      ]
+    },
+    {
+      "source": "Split X Claude Fable engine searches",
+      "query_key": "x-search|Claude Fable|Fable 5.1|Godot|Unity|Unreal|github.com",
+      "queries": [
+        "(\"Claude Fable\" OR \"Fable 5.1\") Godot game github.com",
+        "(\"Claude Fable\" OR \"Fable 5.1\") Unity game github.com",
+        "(\"Claude Fable\" OR \"Fable 5.1\") (Unreal OR \"Unreal Engine\" OR UE5) game github.com"
+      ],
+      "status": "completed",
+      "received_count": 4,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The serial Godot, Unity and Unreal searches returned articles or no results. No direct Claude Fable game repository passed verification. Keep this as a low-yield engine probe and do not infer that no Fable engine games exist.",
+      "next_experiments": [
+        "Search GPT-6 Astra plus Godot in one query",
+        "Search GPT-6 Astra plus Unity in one query",
+        "Search GPT-6 Astra plus Unreal in one query"
+      ]
+    },
+    {
+      "source": "Split X GPT-6 Astra engine searches",
+      "query_key": "x-search|GPT-6 Astra|GPT6 Astra|Godot|Unity|Unreal|github.com",
+      "queries": [
+        "(\"GPT-6 Astra\" OR \"GPT6 Astra\") Godot game github.com",
+        "(\"GPT-6 Astra\" OR \"GPT6 Astra\") Unity game github.com",
+        "(\"GPT-6 Astra\" OR \"GPT6 Astra\") (Unreal OR \"Unreal Engine\" OR UE5) game github.com"
+      ],
+      "status": "completed",
+      "received_count": 6,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The serial Astra Godot, Unity and Unreal searches returned articles or model discussions. No new direct engine game repository passed verification. Keep the separate Non-Browser Engines category and do not infer that no Astra engine games exist.",
+      "next_experiments": [
+        "Run sequential GitHub code search for exact Claude Fable attribution",
+        "Search direct creator handles from any new code-search hits",
+        "Inspect direct repositories one at a time"
+      ]
+    },
+    {
+      "source": "Sequential GitHub code search: model attribution plus game terms",
+      "query_key": "gh-code|Claude Fable 5.1|Claude Fable|Claude Opus 5|GPT-6 Astra|game|Three.js",
+      "queries": [
+        "\"Claude Fable 5.1\"",
+        "\"Fable 5.1\" game",
+        "\"Claude Fable\" \"Three.js\"",
+        "\"Claude Opus 5\" game",
+        "\"GPT-6 Astra\" game"
+      ],
+      "status": "completed",
+      "received_count": 1,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The broad Fable attribution query returned model documentation and agent repositories. The narrowed Fable/game, Fable/Three.js, Opus/game and Astra/game searches returned no new game repositories; the Astra query only matched this project's own research log. Drop this code-search pattern from the primary rotation because it is dominated by documentation and has no game-specific filtering.",
+      "next_experiments": [
+        "Return to creator-first X searches with direct GitHub links",
+        "Search one known high-yield creator handle at a time",
+        "Inspect direct repositories one at a time"
+      ]
     }
   ],
   "frontier": [
