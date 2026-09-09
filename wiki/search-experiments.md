@@ -1482,3 +1482,24 @@ The critique agent scores this audit **9/10** overall: novelty **10**, yield **1
 ### Next experiment
 
 Run serial native build or startup validation for the nine Raylib units. Keep web-only WASM Raylib projects in an exclusion category, then search another native engine.
+
+### Serial SDL native game audit
+
+Run the serial GitHub search `SDL game Co-Authored-By Claude Opus`. Require SDL2 source, a real game loop, gameplay documentation/assets or screenshots, and an exact Claude Opus trailer.
+
+Accept:
+
+- [Frog Hopper](https://github.com/Stephenson-Software/Frog-Hopper-2D) — C++/SDL2 Frogger-style game with traffic, collision, frog movement and win/lose screens.
+- [SDL Skyroads](https://github.com/carlosbravoa/SDL-skyroads) — C++17/SDL2 SkyRoads reimplementation with ship simulation, data loaders, renderer, HUD, audio and tests.
+- [Fruit Ninja](https://github.com/mariotaku/FruitNinja) — C++11/SDL2 Fruit Ninja port with fruit slicing, arcade mode, combos, animation, settings and screenshots.
+- [TAK Engine](https://github.com/pocketgeek/tak-engine) — C++20/SDL2 Total Annihilation: Kingdoms recreation with campaign, AI, units, maps, lobby, multiplayer lockstep, HUD and screenshots.
+
+Check source links one at a time. Frog Hopper is directly buildable. SkyRoads and Fruit Ninja are source-verified but data-gated because each requires user-supplied original game data. This pass adds four source-verified native-engine game units and raises the collection to 515 units across 447 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **9**, yield **8**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it. Classify data-gated projects separately during runtime validation.
+
+### Next experiment
+
+Run serial SDL2 build or startup validation. Record directly runnable, buildable with user-supplied data, and source-verified-only statuses, then search another native engine.
