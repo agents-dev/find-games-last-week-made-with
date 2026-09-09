@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 334 verified games. Real source. No prompt-only filler.
+### 371 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-334-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-239-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-170-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-371-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-269-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-186-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,17 +19,17 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 334 games. Yes, each one links to source.**
+**Yes, that is 371 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **334** |
-| 📦 Independent repositories | **239** |
-| 🧊 Three.js, WebGL, or WebGPU games | **170** |
-| 🛠️ Non-browser engine games | **34** |
-| 📸 Games with verified screenshot links | **13** |
+| 🎮 Independently counted games | **371** |
+| 📦 Independent repositories | **269** |
+| 🧊 Three.js, WebGL, or WebGPU games | **186** |
+| 🛠️ Non-browser engine games | **43** |
+| 📸 Games with verified screenshot links | **38** |
 | 🧠 Games with direct prompt links | **8** |
 
 ## 🏆 Top-rated picks
@@ -41,18 +41,18 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**SUNBREAK — Downhill Club**](https://github.com/Imirushik/sunbreak-downhill-3D-game) | ⭐ **9.5** | GPT-6 Astra |
 | [**THE LONG SILENCE**](https://github.com/achimala/TheLongSilence) | ⭐ **9.5** | Claude Opus 5, Claude Fable 5.1 |
 | [**The Simpsons: Hit & Run — Browser Reconstruction**](https://github.com/Vheissu/hit-and-run-web) | ⭐ **9.5** | GPT-6 Astra |
+| [**Gravity Box — Campaign 100**](https://github.com/nghienvothuat-a11y/GravityBox) | ⭐ **9.4** | GPT-6 Astra, GPT-5.6 Sol |
+| [**7 Minutes — City Crisis**](https://github.com/hlforever11/gpt6-city-crisis) | ⭐ **9.3** | GPT-6 |
+| [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) | ⭐ **9.3** | GPT-6 Astra, Codex |
+| [**Rift Chess**](https://github.com/HaileyStorm/rift-chess) | ⭐ **9.3** | GPT-6 Astra |
+| [**Robo Open**](https://github.com/az9713/gpt-6-astra-tennis-game) | ⭐ **9.3** | GPT-6 Astra, Codex |
+| [**Neural Sight**](https://github.com/monstercameron/Neural-Sight) | ⭐ **9.2** | GPT-6 Astra |
+| [**PULSEBREAK**](https://github.com/xindomusic/pulsebreak) | ⭐ **9.2** | GPT-6 Astra, Codex |
+| [**BLACKLINE — Stealth Heist**](https://github.com/pyros-projects/Trial) | ⭐ **9.1** | GPT-6 Astra |
+| [**Donify**](https://github.com/w4coder/donify) | ⭐ **9.1** | GPT-6 Astra |
+| [**Mangoidiots Solitaire**](https://github.com/venkatarangan/mangoidiots-solitaire) | ⭐ **9.1** | GPT-6 Astra |
+| [**Silent Meridian**](https://github.com/stackloomdev/silent-meridian) | ⭐ **9.1** | GPT-6 Astra |
 | [**AOT FABLE 5.1**](https://github.com/Ashen-Skool/Aot-Fable-5.1) | ⭐ **9.0** | Claude Fable 5.1 |
-| [**ASTRA AIR COMBAT**](https://github.com/FLYING37520/astra-air-combat) | ⭐ **9.0** | GPT-6 Astra |
-| [**FACET FIGHTER**](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark) | ⭐ **9.0** | GPT-6 Astra |
-| [**NEON WARDEN**](https://github.com/Nipale-ai/fable-5-1-one-prompt-game) | ⭐ **9.0** | Claude Fable 5.1 |
-| [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) | ⭐ **9.0** | GPT-6 Astra |
-| [**Rogue Squadron — The Battle of Yavin**](https://github.com/PhiloLabs/fable51-worlds) | ⭐ **9.0** | GPT-6 Astra |
-| [**Saber / Descent**](https://github.com/Vheissu/saber-battle) | ⭐ **9.0** | GPT-6 Astra |
-| [**Smash Karts Arena**](https://github.com/amsminn/gpt-6-astra-smash-karts) | ⭐ **9.0** | GPT-6 Astra |
-| [**Turbo Kart Rush**](https://github.com/bridge-mind/turbo-kart-rush) | ⭐ **9.0** | Claude Fable 5.1 |
-| [**VECTOR RUSH**](https://github.com/ToBeWin/vector-rush) | ⭐ **9.0** | GPT-6 Astra |
-| [**Airlock Escape**](https://github.com/shironagasu-ai/claude-fable5-3D-games) | ⭐ **8.5** | Claude Fable 5 |
-| [**Amp Build 1**](https://github.com/zuwasi/Baboons-Over-London) | ⭐ **8.5** | Claude Fable 5 |
 
 ## 📸 Screenshot spotlight
 
@@ -70,32 +70,41 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **34 games**
-- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **30 games**
-- 💥 [Action and Shooters](#action-and-shooters) — **73 games**
-- 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **24 games**
-- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **32 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **43 games**
+- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **34 games**
+- 💥 [Action and Shooters](#action-and-shooters) — **78 games**
+- 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **35 games**
+- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **37 games**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 games**
-- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **15 games**
+- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **18 games**
 - 🎮 [Other Browser Games](#other-browser-games) — **73 games**
 
 Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**, and any verified screenshot or prompt link. The layout wraps on narrow screens and avoids horizontal table scrolling.
 
 ## Non-Browser Engines
 
-> 🛠️ **34 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **43 verified games. Ranked by evidence-based quality score.**
 
+- [**Gravity Box — Campaign 100**](https://github.com/nghienvothuat-a11y/GravityBox) — ⭐ **9.4/10** · GPT-6 Astra, GPT-5.6 Sol · Unity 6000.3.19f1, C#, Rigidbody physics, Native Android, Native macOS, Windows editor · 5 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C010.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C050.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Mac/C100.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Images/Level16/Coop16BothOut.png)
+- [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) — ⭐ **9.3/10** · GPT-6 Astra, Codex · Godot 4.7.2, GDScript, Blender, GLB/glTF, Native Linux, Windows export, Android preview · 7 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/marius4lui/NULLSPACE/blob/main/docs/images/environment-preview.png)
+- [**Robo Open**](https://github.com/az9713/gpt-6-astra-tennis-game) — ⭐ **9.3/10** · GPT-6 Astra, Codex · Unity 6.0.5.7f1, C#, URP 17.5.0, Blender, Native Windows · 6 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png) · [📸 screenshot](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/play-report.png)
+- [**PULSEBREAK**](https://github.com/xindomusic/pulsebreak) — ⭐ **9.2/10** · GPT-6 Astra, Codex · Godot 4.7.2, GDScript, Godot Mobile renderer, Native macOS, Metal · 2.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/title.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/combat.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/boss.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/upgrades.png)
+- [**Donify**](https://github.com/w4coder/donify) — ⭐ **9.1/10** · GPT-6 Astra · Unreal Engine 5.8.1, C++, Vulkan, Native Linux · 9 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/w4coder/donify/blob/main/docs/media/gameplay-preview.jpg) · [📸 screenshot](https://github.com/w4coder/donify/blob/main/docs/media/indoor-flight.png)
 - [**AOT FABLE 5.1**](https://github.com/Ashen-Skool/Aot-Fable-5.1) — ⭐ **9.0/10** · Claude Fable 5.1 · Unity 6, C#, Universal Render Pipeline, WebGL, Native macOS · 6.50 GFLOPS · _confirmed_
 - [**FACET FIGHTER**](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark) — ⭐ **9.0/10** · GPT-6 Astra · C, PSn00bSDK, PlayStation 1, GitHub Actions, DuckStation · 20 MFLOPS · _creator-reported_
-- [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) — ⭐ **9.0/10** · GPT-6 Astra · Godot 4.7.2, GDScript, Blender, Forward+, Linux, Windows, Android · 2.40 GFLOPS · _creator-reported_
+- [**False Ritual**](https://github.com/lucas-wyd/False-Ritual) — ⭐ **9.0/10** · GPT-6 Astra, Codex · Godot 4.3, GDScript, Forward+ renderer, Native macOS, Native Windows · 6 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_exterior_front.png) · [📸 screenshot](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_dining.png) · [📸 screenshot](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_living.png) · [📸 screenshot](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_study.png)
+- [**SEABRIGHT — A Coastal City Builder**](https://github.com/codersusu/game-city-skylines) — ⭐ **9.0/10** · GPT-6 Astra, Codex · Unity 6.0.0f1, C#, Native macOS, Metal · 4.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/01-starter-settlement.png) · [📸 screenshot](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/07-grown-city.png) · [📸 screenshot](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/08-stadium-detail.png) · [📸 screenshot](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/09-modern-skyline.png)
 - [**VECTOR RUSH**](https://github.com/ToBeWin/vector-rush) — ⭐ **9.0/10** · GPT-6 Astra · Godot 4.7.2, GDScript, Blender, Native macOS, WebGL2, Browser · 2.40 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/menu.png) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/gameplay.gif) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/harbor.png) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/wall-ride.png) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/twilight.png)
+- [**ASTRA // First Village**](https://github.com/KLINEKRAFT/First-Village) — ⭐ **8.8/10** · GPT-6 Astra · Unreal Engine 5.8, C++, Node.js, Browser simulation, Native desktop project · 10 GFLOPS · _confirmed_ · [🔗 files](https://github.com/KLINEKRAFT/First-Village/tree/main/unreal)
+- [**Agentic APAR Demo**](https://github.com/fathahnoor/AgenticAPARDemo) — ⭐ **8.7/10** · GPT-6 Astra, Codex · Unity 6.0.6f1, C#, URP 17.6, Unity WebGL, Browser, Windows · 3.50 GFLOPS · _confirmed_
+- [**DECWAR**](https://github.com/erictfree/DECWAR) — ⭐ **8.7/10** · GPT-6 Astra · TypeScript, Node.js, TCP/Telnet, Terminal, Native server · 100 MFLOPS · _confirmed_
 - [**Astra Tetris**](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris) — ⭐ **8.5/10** · GPT-6 Astra · Minecraft Java datapack, mcfunction, Python, Three.js renderer · 600 MFLOPS · _creator-reported_
 - [**Block World CN**](https://github.com/vvvvvvvvvashhh/block-world-cn) — ⭐ **8.5/10** · GPT-6 Astra · Luanti 5.17.0, Mineclonia, Lua, Native desktop · 1.60 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/menu.png) · [📸 screenshot](https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/inventory.png)
 - [**Calude Kodo (狩人行動)**](https://github.com/GOROman/calude-famicom-game) — ⭐ **8.5/10** · Claude Fable 5 · 6502 Assembly, C, cc65, NES / Famicom, WASM emulator, Native console · 5 MFLOPS · _confirmed_ · [📸 screenshot](https://github.com/GOROman/calude-famicom-game/blob/main/docs/title_screen.png) · [📸 screenshot](https://github.com/GOROman/calude-famicom-game/blob/main/docs/screenshot.png) · [📸 screenshot](https://github.com/GOROman/calude-famicom-game/blob/main/docs/boss_fight.png)
-- [**False Ritual**](https://github.com/lucas-wyd/False-Ritual) — ⭐ **8.5/10** · GPT-6 Astra · Godot 4.3, GDScript, Forward+, macOS, Windows · 2.10 GFLOPS · _creator-reported_
 - [**Melodia Melusina**](https://github.com/fromage3900/MelodiaMelusinaV2) — ⭐ **8.5/10** · GPT-6 Astra · Unreal Engine 5.8, C++, Blueprints, Blender, Native desktop · 5.20 GFLOPS · _confirmed_
 - [**SHOVE**](https://github.com/robss2020/claude-fable-5-having-fun) — ⭐ **8.5/10** · Claude Fable 5, Claude Opus 4.8 · Python, CLI · 120 MFLOPS · _creator-reported_
 - [**The Free Game**](https://github.com/LucasMarquesShiva/the-free-game) — ⭐ **8.5/10** · GPT-6 Astra · Godot 4.7.2, GDScript, Web export, 3D simulation · 1.10 GFLOPS · _creator-reported_
+- [**Milady's Knight: Blightfall**](https://github.com/crousty24-bit/Milady-s-Knight-godot) — ⭐ **8.2/10** · GPT-6 Astra · Godot 4.5.1, GDScript, Native desktop · 900 MFLOPS · _confirmed_
 - [**Gallicus 2.0**](https://github.com/Faratas410/Gallicus-2.0) — ⭐ **8.0/10** · GPT-6 Astra · Godot, GDScript, Forward+, Windows, Steam target · 1.80 GFLOPS · _creator-reported_
 - [**GemMatch**](https://github.com/dylanmtaylor/gemmatch) — ⭐ **7.5/10** · Claude Opus 4.6 · Godot 4, GDScript · 350 MFLOPS · _creator-reported_
 - [**NEON DAWN // 夜明け前線**](https://github.com/bannzai/godotpractice) — ⭐ **7.5/10** · GPT-6 Astra · Godot 4.7, GDScript, GL Compatibility, Desktop export, Web export · 300 MFLOPS · _creator-reported_
@@ -124,8 +133,12 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Adventure, RPG, and Exploration
 
-> 🗺️ **30 verified games. Ranked by evidence-based quality score.**
+> 🗺️ **34 verified games. Ranked by evidence-based quality score.**
 
+- [**Mangoidiots Solitaire**](https://github.com/venkatarangan/mangoidiots-solitaire) — ⭐ **9.1/10** · GPT-6 Astra · Phaser, TypeScript, Vite, IndexedDB, Service Worker, Browser · 1.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-cover.png) · [📸 screenshot](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-105253.png) · [📸 screenshot](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-105311.png)
+- [**AZURA — L'île aux toits d'argile**](https://github.com/Orgxsm/azura) — ⭐ **8.7/10** · GPT-6 Astra, Claude Code · WebGL2, HTML, JavaScript, Python build script, Browser · 1.80 GFLOPS · _confirmed_
+- [**Bad Idea**](https://github.com/ToukoUrsin/bad-idea) — ⭐ **8.7/10** · GPT-6 Astra · TypeScript, Three.js, Rapier, Vite, Web browser · 2.60 GFLOPS · _confirmed_
+- [**Reigns CEO — GPT 6 Astra Founder**](https://github.com/GaintEnemyCrabBurger/reigns-ceo) — ⭐ **8.6/10** · GPT-6 Astra · HTML, CSS, JavaScript, Browser · 600 MFLOPS · _confirmed_ · [🔗 files](https://github.com/GaintEnemyCrabBurger/reigns-ceo/tree/main/game/versions/v5-sixthirty)
 - [**THORNMERE: The Founding Song**](https://github.com/dgahagan/THORNMERE) — ⭐ **8.5/10** · Claude Fable 5 · JavaScript, Canvas, Web Audio API · 1.10 GFLOPS · _creator-reported_
 - [**BLOCKS**](https://github.com/Nipale-ai/blocks-openworld) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Blender · 1.20 GFLOPS · _confirmed_
 - [**Hollow Pines**](https://github.com/karelpelcak/Hollow-Pines-Claude-Fable5-Game) — ⭐ **8.0/10** · Claude Fable 5 · Three.js, JavaScript, Web Audio API · 900 MFLOPS · _confirmed_
@@ -161,11 +174,15 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Action and Shooters
 
-> 💥 **73 verified games. Ranked by evidence-based quality score.**
+> 💥 **78 verified games. Ranked by evidence-based quality score.**
 
+- [**Neural Sight**](https://github.com/monstercameron/Neural-Sight) — ⭐ **9.2/10** · GPT-6 Astra · PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, Browser · 8 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/fort-clatsop.jpg) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/san-juan.jpg)
 - [**ASTRA AIR COMBAT**](https://github.com/FLYING37520/astra-air-combat) — ⭐ **9.0/10** · GPT-6 Astra · TypeScript, Three.js, WebGL, Vite, Web Audio API · 4.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/cockpit-rain-high.jpg) · [📸 screenshot](https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/islands-clear.jpg)
+- [**Fan Re-created Red Alert 2**](https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04) — ⭐ **9.0/10** · GPT-6 Astra · TypeScript, Vite, Canvas/WebGL, Web Workers, WebAssembly, Browser · 4.50 GFLOPS · _confirmed_
 - [**NEON WARDEN**](https://github.com/Nipale-ai/fable-5-1-one-prompt-game) — ⭐ **9.0/10** · Claude Fable 5.1 · Three.js, GLTFLoader, WebGL, HTML, JavaScript, Blender, Browser · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Nipale-ai/fable-5-1-one-prompt-game/tree/main/fable) · [🧠 prompt](https://github.com/Nipale-ai/fable-5-1-one-prompt-game/blob/main/prompt.txt)
 - [**Saber / Descent**](https://github.com/Vheissu/saber-battle) — ⭐ **9.0/10** · GPT-6 Astra · TypeScript, Three.js, WebGL2, Vite, Blender, Browser · 6.10 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/Vheissu/saber-battle/blob/main/screenshots/01-saber-descent-temple.png) · [📸 screenshot](https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png) · [📸 screenshot](https://github.com/Vheissu/saber-battle/blob/main/screenshots/02-saber-descent-armory.png) · [📸 screenshot](https://github.com/Vheissu/saber-battle/blob/main/screenshots/04-saber-descent-blade-effects.png)
+- [**VOIDRUNNER: Orbital Combat League**](https://github.com/alesha-pro/bench-portal) — ⭐ **8.7/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Web Audio, Browser · 5.50 GFLOPS · _creator-reported_ · [🔗 files](https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra) · [▶️ play](https://alesha-pro.github.io/bench-portal/games/voidrunner-astra/)
+- [**VOIDBOUND: The Choir of Ash**](https://github.com/alesha-pro/bench-portal) — ⭐ **8.6/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Web Audio, Browser · 5.20 GFLOPS · _creator-reported_ · [🔗 files](https://github.com/alesha-pro/bench-portal/tree/main/games/voidbound-choir-of-ash) · [▶️ play](https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/)
 - [**Amp Build 1**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
 - [**Amp Build 2**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
 - [**Amp Build 3**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
@@ -179,6 +196,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Emberlight**](https://github.com/LeiGaoRobot/emberlight) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, JavaScript, WebGL, Blender, Web Audio API, GitHub Pages · 3.50 GFLOPS · _creator-reported_
 - [**Swarm**](https://github.com/shironagasu-ai/claude-fable5-3D-games) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, cannon-es, JavaScript · 1.80 GFLOPS · _confirmed_
 - [**VESPER: The Hollow Earth**](https://github.com/EiNSTeiN-/astra-tomb-raider-test) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Vite, JavaScript, WebGL2, Web Audio API · 8 GFLOPS · _inferred_
+- [**Onslaught**](https://github.com/alesha-pro/bench-portal) — ⭐ **8.2/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Web Audio, Browser · 4.30 GFLOPS · _creator-reported_ · [🔗 files](https://github.com/alesha-pro/bench-portal/tree/main/games/onslaught-fable-5.1) · [▶️ play](https://alesha-pro.github.io/bench-portal/games/onslaught-fable-5.1/)
 - [**Astra — Chapter I: A delivery for Gundren**](https://github.com/LucasM25-max/dnd-astra) — ⭐ **8.0/10** · GPT-6 Astra · Three.js, TypeScript, Vite, WebGL, Web Audio API · 2.50 GFLOPS · _inferred_
 - [**Awawa Quest**](https://github.com/Rebell-Leader/claude-game) — ⭐ **8.0/10** · Claude Fable 5 · JavaScript, HTML, SVG · 500 MFLOPS · _creator-reported_
 - [**Cube Basher**](https://github.com/mreflow/cube-basher) — ⭐ **8.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 1.80 GFLOPS · _creator-reported_
@@ -241,16 +259,26 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Racing and Vehicles
 
-> 🏎️ **24 verified games. Ranked by evidence-based quality score.**
+> 🏎️ **35 verified games. Ranked by evidence-based quality score.**
 
 - [**THE LONG SILENCE**](https://github.com/achimala/TheLongSilence) — ⭐ **9.5/10** · Claude Opus 5, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Vite, Browser · 15 GFLOPS · _confirmed_
+- [**BLACKLINE — Stealth Heist**](https://github.com/pyros-projects/Trial) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · 650 MFLOPS · _confirmed_ · [🔗 files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/10-stealth-heist) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/12-rhythm-bullet-hell/evidence/screenshots/24-final-desktop-gameplay.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/13-drone-racing/evidence/finished-race-final.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/16-procedural-roguelike/evidence/screenshots/23-chronicle.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/17-echo-loop-puzzler/evidence/screenshots/42-final-desktop.png)
+- [**ECHO / SHIFT — Rhythm Bullet Hell**](https://github.com/pyros-projects/Trial) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/12-rhythm-bullet-hell) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/12-rhythm-bullet-hell/evidence/screenshots/24-final-desktop-gameplay.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/13-drone-racing/evidence/finished-race-final.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/16-procedural-roguelike/evidence/screenshots/23-chronicle.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/17-echo-loop-puzzler/evidence/screenshots/42-final-desktop.png)
+- [**Embervault — Procedural Roguelike**](https://github.com/pyros-projects/Trial) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · 600 MFLOPS · _confirmed_ · [🔗 files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/16-procedural-roguelike) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/12-rhythm-bullet-hell/evidence/screenshots/24-final-desktop-gameplay.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/13-drone-racing/evidence/finished-race-final.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/16-procedural-roguelike/evidence/screenshots/23-chronicle.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/17-echo-loop-puzzler/evidence/screenshots/42-final-desktop.png)
+- [**ECHO — Echo Loop Puzzler**](https://github.com/pyros-projects/Trial) — ⭐ **9.0/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · 500 MFLOPS · _confirmed_ · [🔗 files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/17-echo-loop-puzzler) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/12-rhythm-bullet-hell/evidence/screenshots/24-final-desktop-gameplay.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/13-drone-racing/evidence/finished-race-final.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/16-procedural-roguelike/evidence/screenshots/23-chronicle.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/17-echo-loop-puzzler/evidence/screenshots/42-final-desktop.png)
 - [**Rogue Squadron — The Battle of Yavin**](https://github.com/PhiloLabs/fable51-worlds) — ⭐ **9.0/10** · GPT-6 Astra · TypeScript, React, Three.js, WebGL, GLSL, Vite · 4.20 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/PhiloLabs/fable51-worlds/blob/main/death-star-trench-run-gpt-astra/media/preview.gif)
 - [**Smash Karts Arena**](https://github.com/amsminn/gpt-6-astra-smash-karts) — ⭐ **9.0/10** · GPT-6 Astra · Three.js, React, TypeScript, Vite, WebSocket, Node.js, Web Audio API · 2.20 GFLOPS · _creator-reported_
 - [**Turbo Kart Rush**](https://github.com/bridge-mind/turbo-kart-rush) — ⭐ **9.0/10** · Claude Fable 5.1 · Three.js, TypeScript, Vite, WebGL2, Web Audio API, Browser · 7 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/title.jpg) · [📸 screenshot](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/character-select.jpg) · [📸 screenshot](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/track-select.jpg) · [📸 screenshot](https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/race.jpg)
+- [**AERIS — Drone Racing**](https://github.com/pyros-projects/Trial) — ⭐ **8.9/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Browser · 2.40 GFLOPS · _confirmed_ · [🔗 files](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/13-drone-racing) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/10-stealth-heist/evidence/screenshots/27-delivered-desktop.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/12-rhythm-bullet-hell/evidence/screenshots/24-final-desktop-gameplay.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/13-drone-racing/evidence/finished-race-final.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/16-procedural-roguelike/evidence/screenshots/23-chronicle.png) · [📸 screenshot](https://github.com/pyros-projects/Trial/blob/main/results/gpt-6_astra/17-echo-loop-puzzler/evidence/screenshots/42-final-desktop.png)
+- [**APERTURE — Fly Around Sculpture**](https://github.com/565353780/fly-around-sculpture) — ⭐ **8.9/10** · GPT-6 · React, TypeScript, Three.js, Vite, glTF, WebGL 2, Browser · 6 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/sculpture.png) · [📸 screenshot](https://github.com/565353780/fly-around-sculpture/blob/main/public/references/character.png)
 - [**Drift Away Arrows**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Fable Kart**](https://github.com/koviq4/fable-sandbox) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, Vite, JavaScript · 900 MFLOPS · _confirmed_
 - [**Turbo Kart Grand Prix**](https://github.com/Franklin-C/turbo-kart-grand-prix) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Web Audio API · 2.40 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg) · [📸 screenshot](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/menu.jpg) · [📸 screenshot](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/hill.jpg) · [📸 screenshot](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/star.jpg)
+- [**Melon Lab — 瓜体实验室**](https://github.com/Ayi1337/gpt6-astra-one-shot-games) — ⭐ **8.4/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Three.js, Browser · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab) · [▶️ play](https://melon-game.jack-514.chatgpt.site/)
+- [**Mosswing**](https://github.com/Ayi1337/gpt6-astra-one-shot-games) — ⭐ **8.4/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Three.js, Browser · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing) · [▶️ play](https://mosswing-quiet-flight.jack-514.chatgpt.site/)
 - [**Frostline Kart**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.2/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Browser · 800 MFLOPS · _confirmed_ · [🔗 files](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow) · [▶️ play](https://sorrycc.github.io/fable-arcade/games/mario-kart-snow/)
+- [**Mosswing**](https://github.com/celia827/Game-Melon-Field-Lab) — ⭐ **8.1/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Three.js, Browser · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/celia827/Game-Melon-Field-Lab/tree/master/mosswing) · [📸 screenshot](https://github.com/celia827/Game-Melon-Field-Lab/blob/master/mosswing/src/design/play-mobile.png)
+- [**瓜体实验室 (Melon Lab)**](https://github.com/celia827/Game-Melon-Field-Lab) — ⭐ **8.1/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Three.js, Browser · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/celia827/Game-Melon-Field-Lab/tree/master/melon-lab) · [📸 screenshot](https://github.com/celia827/Game-Melon-Field-Lab/blob/master/mosswing/src/design/play-mobile.png)
 - [**Apex Formula**](https://github.com/bridge-mind/apex-formula) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, TypeScript, WebGL · 1.80 GFLOPS · _confirmed_
 - [**Clay Kart**](https://github.com/godmosword/clay-kart) — ⭐ **8.0/10** · Claude Opus 5 · JavaScript, HTML, CSS · 220 MFLOPS · _confirmed_
 - [**Fable Flight**](https://github.com/Arnie016/flight-simulator-fable5) — ⭐ **8.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 2.20 GFLOPS · _creator-reported_
@@ -258,6 +286,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Iron Man: Legion Protocol**](https://github.com/Aaryan-Kapoor/Iron-Man-Fable-5) — ⭐ **8.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 3.50 GFLOPS · _creator-reported_
 - [**Murmur**](https://github.com/pahorema/murmur) — ⭐ **8.0/10** · Claude Opus 5 · Three.js, WebGPU, JavaScript · 2.90 GFLOPS · _confirmed_
 - [**No AI's Sky**](https://github.com/jesuscurreripa/noaissky) — ⭐ **8.0/10** · GPT-6 Astra · Three.js, Vite, JavaScript, WebGL · 3 GFLOPS · _creator-reported_
+- [**Neon Drift**](https://github.com/codewithdivyasree/neon-drift) — ⭐ **7.9/10** · GPT-6 Astra · HTML, CSS, Vanilla JavaScript, Canvas 2D, Web Audio API, Browser · 700 MFLOPS · _confirmed_
 - [**AEON DRIFT**](https://github.com/TommyUSN/opus5-tech-demo) — ⭐ **7.5/10** · Claude Opus 5 · WebGL2, JavaScript, Web Audio API · 900 MFLOPS · _creator-reported_
 - [**DESCENT**](https://github.com/sjwebster-bne/downhillmtb) — ⭐ **7.5/10** · Claude Opus 5 · Three.js, JavaScript, Web Audio API · 1.20 GFLOPS · _creator-reported_
 - [**Sunset Flap**](https://github.com/5kahoisaac/sunset-flap) — ⭐ **7.5/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 700 MFLOPS · _creator-reported_
@@ -272,12 +301,17 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Puzzle, Arcade, and Platformers
 
-> 🧩 **32 verified games. Ranked by evidence-based quality score.**
+> 🧩 **37 verified games. Ranked by evidence-based quality score.**
 
-- [**CityMaker**](https://github.com/derek-wangpch/OpenCityMaker) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, React, TypeScript, Vite, WebGL, IndexedDB · 800 MFLOPS · _creator-reported_
+- [**Rift Chess**](https://github.com/HaileyStorm/rift-chess) — ⭐ **9.3/10** · GPT-6 Astra · Three.js, TypeScript, Vite, WebGL, Electron, Browser, Windows · 3.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png)
+- [**Silent Meridian**](https://github.com/stackloomdev/silent-meridian) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, WebGL, Browser · 1.10 GFLOPS · _confirmed_ · [▶️ play](https://silent-meridian.stackloom.org/) · [📸 screenshot](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png) · [📸 screenshot](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/ferry.png)
+- [**CityMaker — 3D Landmark 2048**](https://github.com/derek-wangpch/OpenCityMaker) — ⭐ **9.0/10** · GPT-6 Astra · Three.js, TypeScript, React, Vite, WebGL, Browser · 2.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-game.png) · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-gallery.png) · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-mobile-game.png)
+- [**Last Metro**](https://github.com/mgoyal98/last-metro) — ⭐ **9.0/10** · GPT-6 · TypeScript, Three.js, Rapier, Vite, Web browser · 2.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/mgoyal98/last-metro/blob/main/docs/media/phase4d-title.png)
+- [**SkySprout**](https://github.com/DUBSOpenHub/skysprout) — ⭐ **8.9/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Web Audio, Browser · 650 MFLOPS · _confirmed_ · [▶️ play](https://dubsopenhub.github.io/skysprout/) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-meadow.png) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-grotto.png) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-canopy.png)
+- [**LASTLIGHT**](https://github.com/bitofastickler/one-prompt-two-worlds) — ⭐ **8.8/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API, Browser · 1.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/bitofastickler/one-prompt-two-worlds/tree/main/games/lastlight)
+- [**Mechapede**](https://github.com/davbachman/Mechapede) — ⭐ **8.8/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API, Browser · 900 MFLOPS · _confirmed_ · [📸 screenshot](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png)
 - [**Frost Hop**](https://github.com/MrAllNeo/frost-hop) — ⭐ **8.5/10** · GPT-6 Astra · React, JavaScript, Canvas 2D, Web Audio API, Vite · 650 MFLOPS · _confirmed_
 - [**MirrorForge**](https://github.com/leonvanzyl/claude-fable-5-mirror-game) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, WebGPU, WGSL · 4.50 GFLOPS · _creator-reported_
-- [**Silent Meridian**](https://github.com/stackloomdev/silent-meridian) — ⭐ **8.5/10** · GPT-6 Astra · HTML, JavaScript, WebGL, Web Audio API, Vercel · 650 MFLOPS · _creator-reported_
 - [**Super Fable Bros. — World 1-1**](https://github.com/INONONO66/fable-5.1-mario) — ⭐ **8.5/10** · Claude Fable 5.1 · Canvas 2D, JavaScript, Web Audio API, Browser · 250 MFLOPS · _confirmed_ · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/title.png) · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/gameplay.png) · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/gameplay.gif)
 - [**Wormhole**](https://github.com/AidanHT/Wormhole) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, Vite, WebGL · 2.20 GFLOPS · _creator-reported_
 - [**Fable Theft Auto 5.1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.2/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Browser · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city) · [▶️ play](https://sorrycc.github.io/fable-arcade/games/voxel-gta-city/)
@@ -315,6 +349,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 - [**SUNBREAK — Downhill Club**](https://github.com/Imirushik/sunbreak-downhill-3D-game) — ⭐ **9.5/10** · GPT-6 Astra · Three.js, TypeScript, Vite, WebGL2, Web Audio API, Playwright · 7.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/Imirushik/sunbreak-downhill-3D-game/blob/main/media/SUNBREAK-showcase-poster.jpg)
 - [**The Simpsons: Hit & Run — Browser Reconstruction**](https://github.com/Vheissu/hit-and-run-web) — ⭐ **9.5/10** · GPT-6 Astra · TypeScript, Three.js, WebGL, Vite, Blender, Browser · 8.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/homer-and-marge.jpg) · [📸 screenshot](https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/downtown.jpg) · [📸 screenshot](https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/waterfront.jpg) · [📸 screenshot](https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/kwik-e-mart.jpg)
+- [**MICROSTRIDE — Run on Shoes**](https://github.com/565353780/run-on-shoes) — ⭐ **8.9/10** · GPT-6 · React, TypeScript, Three.js, Vite, glTF, WebGL, Browser · 7 GFLOPS · _confirmed_
 - [**Airlock Escape**](https://github.com/shironagasu-ai/claude-fable5-3D-games) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, cannon-es, JavaScript · 1.80 GFLOPS · _confirmed_
 - [**Astra Dash**](https://github.com/octopus7/astracraft) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Canvas 2D, WebGL, JavaScript · 1.20 GFLOPS · _confirmed_
 - [**Aurora Sea**](https://github.com/shironagasu-ai/claude-fable5-3D-games) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, cannon-es, JavaScript · 1.80 GFLOPS · _confirmed_
@@ -322,13 +357,12 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Cinder Yard**](https://github.com/octopus7/astracraft) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Canvas 2D, WebGL, JavaScript · 1.20 GFLOPS · _confirmed_
 - [**Fable City**](https://github.com/koviq4/fable-sandbox) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, Vite, JavaScript · 900 MFLOPS · _confirmed_
 - [**Flip Wall**](https://github.com/shironagasu-ai/claude-fable5-3D-games) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, cannon-es, JavaScript · 1.80 GFLOPS · _confirmed_
-- [**Mosswing**](https://github.com/Ayi1337/gpt6-astra-one-shot-games) — ⭐ **8.5/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Three.js · 900 MFLOPS · _confirmed_
-- [**Mosswing: Melon Lab**](https://github.com/Ayi1337/gpt6-astra-one-shot-games) — ⭐ **8.5/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Three.js · 900 MFLOPS · _confirmed_
 - [**Star Runner**](https://github.com/shironagasu-ai/claude-fable5-3D-games) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, cannon-es, JavaScript · 1.80 GFLOPS · _confirmed_
 - [**The Mender's Quarter**](https://github.com/octopus7/astracraft) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Canvas 2D, WebGL, JavaScript · 1.20 GFLOPS · _confirmed_
 - [**The Rain Court**](https://github.com/octopus7/astracraft) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Canvas 2D, WebGL, JavaScript · 1.20 GFLOPS · _confirmed_
 - [**VOIDWRENCH**](https://github.com/octopus7/astracraft) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Canvas 2D, WebGL, JavaScript · 1.60 GFLOPS · _confirmed_
 - [**Web-Slinger**](https://github.com/koviq4/fable-sandbox) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, Vite, JavaScript · 900 MFLOPS · _confirmed_
+- [**Wilderness**](https://github.com/lortkipa/minecraft-astra) — ⭐ **8.4/10** · GPT-6 Astra · JavaScript, Three.js, WebGL, Vite, Browser · 3.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/lortkipa/minecraft-astra/blob/main/index.html)
 - [**Celadon: The Long Ash**](https://github.com/winchxyz/celadon) — ⭐ **8.0/10** · Claude Opus 5 · JavaScript, WebGL, Canvas · 2.20 GFLOPS · _creator-reported_
 - [**Fable Katamari**](https://github.com/aieo-product/fableDemoGame) — ⭐ **8.0/10** · Claude Fable 5 · JavaScript, Vite, Three.js · 2.60 GFLOPS · _creator-reported_
 - [**FC 27**](https://github.com/Time-dev-alt/Fable-5.1-Games) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Canvas 2D · 1.20 GFLOPS · _creator-reported_
@@ -371,8 +405,11 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Strategy, Simulation, and Sports
 
-> ♟️ **15 verified games. Ranked by evidence-based quality score.**
+> ♟️ **18 verified games. Ranked by evidence-based quality score.**
 
+- [**7 Minutes — City Crisis**](https://github.com/hlforever11/gpt6-city-crisis) — ⭐ **9.3/10** · GPT-6 · Three.js, TypeScript, Vite, Web Audio API, LocalStorage, WebGL, Browser · 2.80 GFLOPS · _confirmed_
+- [**Failure is Not an Option**](https://github.com/dan-lee-odinson/failure-is-not-an-option) — ⭐ **9.0/10** · GPT-6 Astra, Claude Code · TypeScript, Vite, HTML/CSS, Browser · 900 MFLOPS · _confirmed_ · [▶️ play](https://finaogame.com/demo/) · [📸 screenshot](https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/main/docs/media/phase4d-title.png)
+- [**Little Flock · 小羊慢慢**](https://github.com/songkeys/little-flock) — ⭐ **9.0/10** · GPT-6 Astra · React 19, TypeScript, React Three Fiber, Drei, Go, WebSockets, PostgreSQL, Browser · 4.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/songkeys/little-flock/blob/main/docs/demo-poster.jpg)
 - [**Farm Game**](https://github.com/BrilZliaN/farm-game) — ⭐ **8.0/10** · Claude Opus 5 · TypeScript, Three.js, Vite · 1.50 GFLOPS · _creator-reported_
 - [**Tribal Gods**](https://github.com/br3nt/tribal-gods) — ⭐ **8.0/10** · Claude Fable 5 · TypeScript, Three.js · 3 GFLOPS · _creator-reported_
 - [**Bubble Wrap Simulator**](https://github.com/finktheartist/bubble-wrap-simulator) — ⭐ **7.5/10** · GPT-6 Astra · Three.js, React, Rapier, Web Audio API · 1.30 GFLOPS · _creator-reported_
@@ -395,6 +432,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 > 🎮 **73 verified games. Ranked by evidence-based quality score.**
 
+- [**Choplifter — Rescue Operations**](https://github.com/danielpradilla/choplifter) — ⭐ **8.8/10** · GPT-6 Astra · JavaScript, Phaser, HTML/CSS, Canvas, Browser · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/danielpradilla/choplifter/tree/main/choplifter-6-astra) · [▶️ play](https://www.danielpradilla.info/projects/choplifter/choplifter-6-astra/)
 - [**Blocky Obby Dash**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Bluff Circle**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Carnival Cannon Crush**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
@@ -404,7 +442,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**LUMA — The Garden of Light**](https://github.com/TetsuakiBaba/2DAction.bench) — ⭐ **8.5/10** · GPT-6 Astra · HTML, Vanilla JavaScript, Canvas 2D, Web Audio API · 320 MFLOPS · _confirmed_ · [📸 screenshot](https://github.com/TetsuakiBaba/2DAction.bench/blob/main/GPT6-Astra/screenshot.png)
 - [**Perfect Season Draft**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Purrfect Logic**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
-- [**Red Alert 2 Browser Recreation**](https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04) — ⭐ **8.5/10** · GPT-6 Astra · TypeScript, Vite, Canvas 2D, Web Audio API · 3.80 GFLOPS · _confirmed_
 - [**Seaside Scoop**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Slide & Exit**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Star Gulp**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_

@@ -588,3 +588,187 @@ The pair scored **3/10**. Exact URL and owner/repository searches are repeatable
 ### Next experiment
 
 Search another verified Unity, Godot, or Unreal seed with a broader list-oriented query. Prefer creator-source links, inspect each repository once, and keep the searches serial.
+
+## Astra catalog expansion — 2026-09-09
+
+Run the native-engine-oriented query `"GPT-6 Astra" Godot game in:readme` with updated sorting and a limit of 30. It exposed current Astra catalogs, known games, tools, and benchmarks. Treat catalog repositories as discovery sources only.
+
+Inspect [xianyu110/awesome-gpt-6-astra](https://github.com/xianyu110/awesome-gpt-6-astra). Its `PLAYABLE.md` contains 86 live demo entries, but most entries do not provide a public GitHub source. Do not add playable-only entries to `games.json`.
+
+Inspect the distinct [magiccreator-ai/awesome-gpt-6-astra](https://github.com/magiccreator-ai/awesome-gpt-6-astra) list. Its 42 game/demo entries include direct creator-code links. The list led to [alesha-pro/bench-portal](https://github.com/alesha-pro/bench-portal), whose tree contains separate game source and metadata for:
+
+- [VOIDRUNNER: Orbital Combat League](https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra) — [play](https://alesha-pro.github.io/bench-portal/games/voidrunner-astra/)
+- [VOIDBOUND: The Choir of Ash](https://github.com/alesha-pro/bench-portal/tree/main/games/voidbound-choir-of-ash) — [play](https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/)
+- [Onslaught](https://github.com/alesha-pro/bench-portal/tree/main/games/onslaught-fable-5.1) — [play](https://alesha-pro.github.io/bench-portal/games/onslaught-fable-5.1/)
+
+Browser verification started all three demos and showed gameplay state. Exclude the portal's RIG folders because they are 3D showcases without game rules. Add the three game units under one canonical repository record. Keep direct source and play links in the README.
+
+### Next experiment
+
+Critique this list-expansion method. Follow another distinct catalog only if the score is at least 8/10. Continue to require a canonical repository, actual game state, and Astra, Opus, or Fable evidence.
+
+### Critique result
+
+The method scored **8/10**. It produced three new game units and had strong false-positive control. Keep it in the primary rotation. The raw playable-URL count is not the useful metric: catalog entries are leads. Require direct source provenance and stronger runtime evidence than a page load before counting.
+
+### Next experiment
+
+Inspect [zlxxlz1026/awesome-gpt-6-astra-casebook](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook) as a distinct catalog. Extract direct creator-code links only, then verify each candidate serially.
+
+## Casebook catalog audit — 2026-09-09
+
+The casebook has 13 game and simulation cases, including Unity, Godot, and Three.js entries. Its game category supplies prompts, X posts, and demo references, but no direct GitHub game repositories. [VOIDRUNNER](https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra) is already recorded from the other catalog. Add no new record from this pass.
+
+### Next experiment
+
+Critique this zero-yield catalog pass. If it scores below 8/10, switch to another distinct catalog with direct source links or return to creator-source discovery.
+
+### Critique result
+
+The casebook audit scored **2.2/10**. It supplied no new direct GitHub game repository, so its verification and repeatability were weak. Drop it from the primary rotation. Keep it only as a low-priority lead list if a later source reveals direct repositories for its cases.
+
+### Next experiment
+
+Inspect [archorfight/awesome-gpt-6-astra](https://github.com/archorfight/awesome-gpt-6-astra) as another distinct catalog. Prefer entries with direct GitHub source links.
+
+## Archorfight catalog audit — 2026-09-10
+
+The catalog's games section contains two X/Reddit references, while its community-project section repeats known repositories and lists tools, benchmarks, and visual showcases. It exposed no unseen direct GitHub game repository. Add no records.
+
+### Next experiment
+
+Critique this zero-yield catalog pass. Then search a date-bounded GitHub repository window for `GPT-6 Astra` game attribution, using stable repository IDs and manual source verification.
+
+## Fresh Astra repository window — 2026-09-10
+
+Run `"GPT-6 Astra" game in:readme pushed:2026-09-09..2026-09-10`, sorted by updated time, with a limit of 50. The results were mixed: tools, catalogs, benchmarks, known games, and several fresh direct game candidates.
+
+Verify [Orgxsm/azura](https://github.com/Orgxsm/azura). Its README explicitly credits GPT-6 Astra for the island design and Claude Code for the engine, rendering and quests. The repository contains source modules and a public [WebGL2 build](https://orgxsm.github.io/azura/). Browser verification showed the HUD, quest objective, counters, map, controls and autosave state. Add one game unit.
+
+Verify [codersusu/game-city-skylines](https://github.com/codersusu/game-city-skylines). The README explicitly credits GPT-6 Astra and Codex for a Unity city-builder demo. The repository contains the Unity scene, C# simulation, screenshots, build scripts, and committed native macOS acceptance reports. The standalone playtest passed road construction, zoning, growth, save/load, traffic, pedestrians and progression from 24 to 609 residents with a working stadium. Add it under **Non-Browser Engines**. Do not claim a browser playtest because no public browser build is provided.
+
+### Next experiment
+
+Inspect [derek-wang/OpenCityMaker](https://github.com/derek-wang/OpenCityMaker) next. Verify whether it is an actual game and whether its GPT-6 Astra attribution is explicit rather than a generic tool mention.
+
+OpenCityMaker could not be verified. GitHub metadata, README, and tree requests all returned **404**. Keep it in `research/candidates.json` as an inaccessible rejection; do not infer a game from the search result description.
+
+### Next experiment
+
+Inspect the next fresh direct game candidate from the same date window. Require repository metadata before reading source files.
+
+### Critique result
+
+The audit scored **2/10**. It found no new direct GitHub game repository and produced weak, indirect social leads. Drop it from the primary rotation. Keep it only as a low-value community-signal reference.
+
+### Next experiment
+
+Search a date-bounded GitHub repository window for `GPT-6 Astra` game attribution. Inspect returned repositories one at a time, compare numeric IDs, and exclude tools, benchmarks, and visual showcases.
+
+The next result, [xzmzm/daily-slop](https://github.com/xzmzm/daily-slop), is a daily web-app gallery. Its current GPT-6 Astra entry is a typesetting playground; its game-like entry is attributed to GPT-5.6 Sol. Reject the gallery and unrelated apps.
+
+### Next experiment
+
+Inspect the next fresh direct game candidate from the same date window. Prefer repositories whose README names a qualifying game and model together.
+
+The fresh game-focused [MartinDelophy/awesome-gpt-6-astra](https://github.com/MartinDelophy/awesome-gpt-6-astra) catalog exposed a stale source link for OpenCityMaker. The live canonical repository is [derek-wangpch/OpenCityMaker](https://github.com/derek-wangpch/OpenCityMaker), not the 404 `derek-wang/OpenCityMaker` alias. Verify numeric repository IDs after following list links.
+
+CityMaker passed verification: it is a real Three.js 2048 game with twelve cities, 132 procedural models, scores, win/loss rules, saves, a public deployment, and GPT-6 Astra creation evidence. Browser verification showed the live board and controls. Add one browser game unit.
+
+### Next experiment
+
+Critique the fresh Astra repository window and canonical-link correction. Then inspect another unseen source only after the critique.
+
+## Exact September 8 REST search — 2026-09-10
+
+The CLI repeated the September 9 result set even when asked for the exact September 8 partition. Use the direct REST query instead:
+
+`"GPT-6 Astra" game in:readme pushed:2026-09-08..2026-09-08`
+
+The corrected results exposed fresh candidates. Verify [songkeys/little-flock](https://github.com/songkeys/little-flock): the README explicitly credits GPT-6 Astra in Codex for a one-shot cooperative sheep-farming game. The repository contains React Three Fiber frontend code, a Go server, WebSocket state, persistence, progression, tests, a gameplay video and a public deployment. The live page reached its account-creation play flow; no account was created, so authenticated gameplay remains untested. Add one browser game unit with that limitation.
+
+### Next experiment
+
+Inspect [xindomusic/pulsebreak](https://github.com/xindomusic/pulsebreak) next. Verify the Godot native game, its GPT-6 Astra evidence, and its actual game loop.
+
+Verify [xindomusic/pulsebreak](https://github.com/xindomusic/pulsebreak). The README explicitly credits GPT-6 Astra inside Codex for a native Godot 4.7.2 arena roguelite. Source, tests, save state, upgrades, a Reactor Guardian boss, four review rounds and an automated winning run are present. Add it under **Non-Browser Engines** because the packaged Mac app is not published as a browser build.
+
+Verify [davbachman/Mechapede](https://github.com/davbachman/Mechapede). The README explicitly credits GPT-6 Astra for a mechanical Centipede-style arcade game. The repository contains browser game systems, audio, collision and chain motion code, tests, stress tests and a public [GitHub Pages build](https://davbachman.github.io/Mechapede/). Browser verification showed the start screen, score, wave, tools, controls and firing instructions. Add one browser game unit.
+
+Verify [monstercameron/Neural-Sight](https://github.com/monstercameron/Neural-Sight). The README explicitly describes a playable first-person browser game built with GPT-6 Astra. The repository contains PlayCanvas/WebGPU rendering, Gaussian-splat levels, movement, ballistics, collisions, weapon state, audio, HUD and an experimental zombie encounter. The public [live build](https://monstercameron.github.io/Neural-Sight/) opened its level picker and scene-loading flow with gameplay instructions. Add one browser game unit.
+
+Verify [venkatarangan/mangoidiots-solitaire](https://github.com/venkatarangan/mangoidiots-solitaire). The README explicitly says it was generated with GPT-6 Astra. It is a complete offline-first Draw 1 Klondike game with solvable deals, hints, undo, auto-finish, IndexedDB saves, history, responsive input, two original themes and tests. The public [custom-domain build](https://solitaire.mangoidiots.com/) opened and showed its offline-game download flow. Add one browser game unit.
+
+### Critique result
+
+The pass scored **8/10**. AZURA and SEABRIGHT were strong direct finds; CityMaker was a useful catalog-derived find; and the stale 404 alias was rejected correctly. Keep the method. Treat `pushed` dates as activity dates, not creation dates, and label catalog-derived discoveries as secondary.
+
+### Next experiment
+
+Run a non-overlapping exact-date Astra repository query for `pushed:2026-09-08..2026-09-08`. Inspect repository creation dates, source, model evidence, and game state separately.
+
+### Exact-date batch extension
+
+The same REST batch yielded [PULSEBREAK](https://github.com/xindomusic/pulsebreak), [Mechapede](https://github.com/davbachman/Mechapede), and [Neural Sight](https://github.com/monstercameron/Neural-Sight) after serial repository checks. Keep the three records separate: PULSEBREAK is a native Godot game, while Mechapede and Neural Sight are browser games. Do not treat the REST query's pushed date as the creation date.
+
+### Next experiment
+
+The exact-date REST batch scored **8/10**. Keep it in the primary rotation. Repeat the query only as a comparison audit, and inspect the next unseen direct candidate from the same response without repeating known repositories. Use the fixed evidence matrix: repository content, playable deployment, and automated or test evidence.
+
+The next serial candidate, [venkatarangan/mangoidiots-solitaire](https://github.com/venkatarangan/mangoidiots-solitaire), passed the same matrix. Continue with the next unseen candidate, [HaileyStorm/rift-chess](https://github.com/HaileyStorm/rift-chess), and classify it after checking whether its README attribution, source and runtime evidence qualify.
+
+[HaileyStorm/rift-chess](https://github.com/HaileyStorm/rift-chess) passed verification as a Three.js 3D chess variant with a moving board, local bot, hotseat play, save/replay features, browser offline checks, source tests, a public browser build and an Electron Windows package. Browser verification opened the kinetic chess table. Keep it in **Browser Games** because the browser build is public, and record Electron as an additional runtime.
+
+[xinbenlv/ra2-gpt-6-astra-2026-09-04](https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04) also qualifies as an independent browser RTS recreation. Its README explicitly credits a one-shot GPT-6 Astra experiment and documents an independently written TypeScript engine, AI, rendering, map editor, skirmish play, pathfinding and combat. The public deployment opened its live shell, but first-run play requires local or Internet Archive asset preparation. Record that limitation and do not claim an immediate playable session.
+
+[marius4lui/NULLSPACE](https://github.com/marius4lui/NULLSPACE) qualifies as a native Godot game. Its README credits GPT-6 Astra through Codex and documents a first-person survival-horror loop with a threat AI, weapon, flashlight, connected rooms, circuits, difficulty modes and a v0.3 beta release for Linux, Windows and Android. The repository contains the Godot project, original assets, native QA, performance measurements and playtest documentation. Classify it under **Non-Browser Engines**.
+
+[codewithdivyasree/neon-drift](https://github.com/codewithdivyasree/neon-drift) qualifies as a lightweight browser runner. Its README explicitly credits GPT-6 Astra and documents three-lane movement, jump/slide hazards, power-ups, lives, missions, combo scoring, responsive controls and local persistence. The repository contains a complete `dist/index.html`, Canvas game code, CSS and state-validation notes. No hosted demo was found, so keep the verification note clear that the source is runnable but not live-deployed.
+
+[GaintEnemyCrabBurger/reigns-ceo](https://github.com/GaintEnemyCrabBurger/reigns-ceo) contains three variants, but only the dedicated **GPT 6 Astra** version is counted. Its source is under `game/versions/v5-sixthirty`; its public [Astra build](https://gaintenemycrabburger.github.io/reigns-ceo/gpt-6-astra/) opened with four resource bars, a founder story and a Start button. Count one Astra browser game, not the original or Claude variants.
+
+[erictfree/DECWAR](https://github.com/erictfree/DECWAR) qualifies as a non-browser terminal game. Its README credits OpenAI GPT-6 Astra and documents a playable multiplayer space battle with ships, scanning, weapons, planet capture, construction, messaging, scoring and a Romulan opponent. The TypeScript Node.js/Telnet runtime, preserved source provenance, two variants and real multiplayer tests are present. Classify it under **Non-Browser Engines**.
+
+[lucas-wyd/False-Ritual](https://github.com/lucas-wyd/False-Ritual) qualifies as a native Godot game. The README credits GPT-6 Astra in Codex for the playable Carter House prologue and documents exploration, environmental evidence, interactive rooms and a pursuit-and-ritual sequence. The repository contains a Godot 4.3 project, QA screenshots and a v0.1.0 release with macOS and Windows ZIPs. Classify it under **Non-Browser Engines**.
+
+[az9713/gpt-6-astra-tennis-game](https://github.com/az9713/gpt-6-astra-tennis-game) qualifies as a native Unity game. The README credits a largely autonomous Codex/GPT-6 Astra workflow for the Robo Open tennis prototype. It documents a Windows release, serving, volleys, scoring, CPU play, practice modes, learning reports and 156 validation checks. The repository contains the Unity project, C# controller, Blender assets, tests, screenshots and evidence receipts. Classify it under **Non-Browser Engines** because no browser build is included.
+
+[nghienvothuat-a11y/GravityBox](https://github.com/nghienvothuat-a11y/GravityBox) qualifies as a native Unity physics-puzzle game. Its README documents a 100-level campaign, 10 bosses, 23 lab stages and real rigid-body mechanics. It explicitly attributes 35 difficult levels and 10 bosses to GPT-6 Astra, with the remaining campaign work attributed to GPT-5.6 Sol. The repository contains Unity source, Android build evidence, screenshots, validators and solvability tests. Count one game unit and classify it under **Non-Browser Engines**.
+
+[KLINEKRAFT/First-Village](https://github.com/KLINEKRAFT/First-Village) qualifies as an Unreal Engine simulation/game prototype. Its README documents an embodied ancient-village world with survival resources, agent decisions, gathering, construction, navigation, HUD and a browser simulation surface. The Unreal 5.8 project contains C++ world, agent, resource, building and navigation systems, and explicitly integrates GPT-6 Astra through the Node bridge. Classify it under **Non-Browser Engines** and label it as an early simulation prototype.
+
+[w4coder/donify](https://github.com/w4coder/donify) qualifies as a native Unreal Engine game/simulator. The README credits GPT-6 Astra and documents six-degree-of-freedom drone flight, rotor dynamics, battery simulation, waypoint missions, telemetry, weather, audio and indoor village flight. It contains a C++ Unreal 5.8.1 project, screenshots, a native 4K gameplay recording, a source release and 23 validation markers. Classify it under **Non-Browser Engines**.
+
+[hlforever11/gpt6-city-crisis](https://github.com/hlforever11/gpt6-city-crisis) qualifies as a GPT-6 browser strategy game. Its README documents a seven-minute real-time city crisis, eight systems, limited resources, delayed causal rules, response teams, score, casualties, replay and local saves. The repository contains a Three.js/Vite runtime, deterministic simulation, audio, WebGL fallback, tests, Playwright checks, 100 seeded runs and a public [GitHub Pages build](https://hlforever11.github.io/gpt6-city-crisis/). Browser verification opened the intro, countdown, scenario and Take Control button.
+
+[565353780/run-on-shoes](https://github.com/565353780/run-on-shoes) qualifies as a GPT6 browser runner. Its README documents running, jumping and sprinting across a giant shoe, scale changes, laser and meteor hazards, touch controls, local assets and a complete React/TypeScript/Three.js build. The public [GitHub Pages game](https://565353780.github.io/run-on-shoes/) opened with the 3D shoe world, scale control, loading state and gameplay controls.
+
+[565353780/fly-around-sculpture](https://github.com/565353780/fly-around-sculpture) qualifies as a GPT6 browser flight game. Its README documents a 180-second session, six-axis flight, sculpture-aperture scoring, collision, cooldowns, combo multipliers, touch controls and a leaderboard. The public [GitHub Pages build](https://565353780.github.io/fly-around-sculpture/) opened with the sculpture flight screen, model-loading state, controls and GPT6 attribution.
+
+[Ayi1337/gpt6-astra-one-shot-games](https://github.com/Ayi1337/gpt6-astra-one-shot-games) contains two separate qualifying games: [Melon Lab](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/melon-lab) and [Mosswing](https://github.com/Ayi1337/gpt6-astra-one-shot-games/tree/main/mosswing). The README preserves the prompts and source for both. Their public demos opened successfully: Melon Lab showed fruit physics, score, energy and controls; Mosswing showed its canvas, score, start button and one-collision rules. Count two game units under one repository.
+
+[bitofastickler/one-prompt-two-worlds](https://github.com/bitofastickler/one-prompt-two-worlds) contains two preserved game builds, but only [LASTLIGHT](https://github.com/bitofastickler/one-prompt-two-worlds/tree/main/games/lastlight) is counted because the README labels it GPT-6 Astra. The companion Last Light Lancer is GPT-5.6 Sol and is excluded. LASTLIGHT has a skiff, lighthouse defense, five tides, a Leviathan boss, upgrades, salvage, difficulty modes and offline browser launch instructions. Do not count the editorial cover as a gameplay screenshot.
+
+[cagrikacmaz/gpt-6-astra-vs-gemini-3-8-flash](https://github.com/cagrikacmaz/gpt-6-astra-vs-gemini-3-8-flash) was rejected after a tree check. It documents an Astra browser civilization simulation and includes screenshots and recorded demonstrations, but it contains no game source, playable build or direct live-game link. Require one of those artifacts before counting a case study.
+
+[crousty24-bit/Milady-s-Knight-godot](https://github.com/crousty24-bit/Milady-s-Knight-godot) passed verification as a native Godot game. The README credits Astra GPT-6 and describes a playable 2D action-platformer vertical slice with a two-route level, sword combat, slimes, movement mechanics, a coin-and-gate objective, persistence and 150 passing engine-level tests. The repository contains the Godot project and launch scripts, but no hosted browser build or packaged export. Add one unit to **Non-Browser Engines**.
+
+The page-2 sweep for `"GPT-6" playable game in:readme` found five accepted game units across four new repositories: [Last Metro](https://github.com/mgoyal98/last-metro), [Game-Melon Field Lab](https://github.com/celia827/Game-Melon-Field-Lab) with two units, [Silent Meridian](https://github.com/stackloomdev/silent-meridian), [Bad Idea](https://github.com/ToukoUrsin/bad-idea), and [Failure is Not an Option](https://github.com/dan-lee-odinson/failure-is-not-an-option). Live browser verification passed for Silent Meridian and Failure is Not an Option. The others have source-backed local launch instructions; Bad Idea needs an API key for adaptive generation but keeps starter rooms playable.
+
+Reject [Neon Kart Rush](https://github.com/NguiWeily/Neon-Kart-Rush) because its README attributes the game to GPT-5.6 Sol. Reject [Bankhar Steppe](https://github.com/gaiahead/bankhar-steppe) because its own limits describe an exploration scene without objectives or saved progress. Reject [Theandril](https://github.com/ErikBurdett/Theandril) because its GPT-6 Astra text is a future build handoff, not evidence for the current implementation. Reject [Wonder Relay](https://github.com/thepianistdirector/wonder-relay) because its README says that no playable implementation exists.
+
+The reverse-link sweep also verified [Trial](https://github.com/pyros-projects/Trial). Its GPT-6 Astra result folders contain five separate source-backed browser games: [BLACKLINE](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/10-stealth-heist), [ECHO / SHIFT](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/12-rhythm-bullet-hell), [AERIS](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/13-drone-racing), [Embervault](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/16-procedural-roguelike), and [ECHO](https://github.com/pyros-projects/Trial/tree/main/results/gpt-6_astra/17-echo-loop-puzzler). Each folder contains an actual HTML artifact, game-specific source or embedded engine, validation evidence and screenshots. Exclude the repository's laboratories and studios.
+
+[danielpradilla/choplifter](https://github.com/danielpradilla/choplifter) passed as a multi-variant source repository. Count only its GPT-6 Astra [Rescue Operations](https://github.com/danielpradilla/choplifter/tree/main/choplifter-6-astra) build. The public Phaser game opened with the pilot briefing, rescue counters, hostage objective and mission controls. Exclude the GPT-5.3 Codex, GPT-5.4 and GPT-5.6 Sol variants.
+
+[lortkipa/minecraft-astra](https://github.com/lortkipa/minecraft-astra) passed source verification as **Wilderness**, a GPT-6 Astra Minecraft-style browser game with movement, mining, combat, block placement, inventory and crafting. Its advertised Netlify preview returned a 404 during the check. Keep the repository link, but label its deployment as unavailable until a new live URL is supplied.
+
+### Critique result
+
+The existing critique agent scored the broad GPT-6 page-2 query **8/10** and kept it for repeatable discovery with careful review. It scored the [Trial](https://github.com/pyros-projects/Trial) reverse-link method **9/10** and kept it as the strongest clustered-game method. It scored the exact GPT-6 Astra page-2 query **8/10** and kept it as a supporting method. Apply strict deduplication, separate source verification from live verification, and reject future handoff text, benchmarks without actual game artifacts, and duplicate variants.
+
+The critique scored the [BeatAPI/awesome-3d-prompts](https://github.com/BeatAPI/awesome-3d-prompts) reverse-link method **6/10**. Drop it as a primary method because the inspected game-engine detail yielded no repository-backed game. Keep it only as a secondary lead source, and follow a catalog entry only when it exposes direct game code.
+
+### Next experiment
+
+Inspect page 3 of the same exact REST query. Review each unseen repository serially. Keep requiring direct source or a playable build, direct qualifying model evidence, and an actual game loop.

@@ -238,6 +238,86 @@
       "repository": "https://github.com/0xlnz/rts-benchmark",
       "source": "GitHub API repository search: prior Fable 5.1 game window",
       "reason": "The repository is a real RTS benchmark and evaluation project, but it is a benchmark rather than an independently authored game. Do not count benchmark or evaluation repositories as games."
+    },
+    {
+      "repository": "https://github.com/derek-wang/OpenCityMaker",
+      "source": "GitHub repository search: fresh Astra game window",
+      "reason": "GitHub metadata, README, and repository tree returned 404 during verification. Do not count an inaccessible or deleted repository, even though the search result description suggested an OpenCityMaker game."
+    },
+    {
+      "repository": "https://github.com/xzmzm/daily-slop",
+      "source": "GitHub repository search: fresh Astra game window",
+      "reason": "The repository is a daily web-app gallery with many educational studios and toys, not an independently authored Astra game. Its only current GPT-6 Astra entry is a typesetting playground, and the game entry is attributed to GPT-5.6 Sol. Do not count the gallery repository or unrelated apps."
+    },
+    {
+      "repository": "https://github.com/PhiloLabs/fable51-worlds",
+      "source": "GitHub REST repository search: GPT-6 Astra game window pushed 2026-09-09",
+      "reason": "The repository contains three walkable Three.js worlds with GPT-6 Astra and Claude Fable comparisons, but its README classifies them as interactive scenes and visual world-generation experiments. It has no game loop, objectives, win/loss state or independent game structure. Reject as a visual exploration/world showcase, not a game."
+    },
+    {
+      "repository": "https://github.com/monotio/agi",
+      "source": "GitHub REST repository search: GPT-6 Astra game window pushed 2026-09-09",
+      "reason": "The repository is an AGI interpreter, browser authoring tool and game catalog with a bundled tutorial. GPT-6 Astra is the default authoring model, but the repository is primarily an engine/tool rather than one independently authored Astra game. Reject the engine and bundled tutorial from the game collection."
+    },
+    {
+      "repository": "https://github.com/aiedttech/gpt-6-godot-game",
+      "source": "GitHub REST API search: GPT-6 Astra Godot game in README",
+      "reason": "The repository contains only a README saying, in Russian, that a Godot game from a video was made with GPT-6 Astra. It has no Godot project, source, assets, release, playable build or verifiable game evidence. Reject as a reference/prompt-only repository."
+    },
+    {
+      "repository": "https://github.com/Mahgn/dream-loop-volnolom",
+      "source": "GitHub REST API search: GPT-6 Astra Godot game in README",
+      "reason": "The repository is a forked agent skill and visual review helper. Its README explicitly says the upstream example has no gameplay and the repository contains no independently authored game. Reject the skill and its demo links."
+    },
+    {
+      "repository": "https://github.com/jwgellard/crpg",
+      "source": "GitHub REST API search: GPT-6 Astra Godot game in README",
+      "reason": "The repository is an early-development CRPG engine and deterministic simulation skeleton. It has planned client/editor surfaces and test harnesses but no shipped campaign or playable game, and its README provides no GPT-6 Astra attribution. Reject as an engine/tool, not a game."
+    },
+    {
+      "repository": "https://github.com/Shashakar/RPG-Kingdom-Supervisor",
+      "source": "GitHub REST API search: GPT-6 Astra Unity game in README",
+      "reason": "The repository is a Symphony/Codex orchestration supervisor for a separate Unity game repository, not the game itself. The referenced Shashakar/RPG-Kingdom repository returned 404 during verification, so no accessible game source or playable build can be counted."
+    },
+    {
+      "repository": "https://github.com/Shashakar/RPG-Kingdom",
+      "source": "Referenced by https://github.com/Shashakar/RPG-Kingdom-Supervisor",
+      "reason": "The referenced Unity game repository returned 404 from GitHub metadata. Do not infer game evidence from the supervisor repository."
+    },
+    {
+      "repository": "https://github.com/soyrochus/gpt6-demos",
+      "source": "GitHub REST API search: GPT6 game in README",
+      "reason": "The repository is a multi-demo collection. It includes several interactive web experiences and an InfiniCave game, but it does not provide direct qualifying GPT-6 Astra attribution for that individual game. Keep catalogs and unproven contained demos out of games.json until the game has its own model evidence."
+    },
+    {
+      "repository": "https://github.com/cagrikacmaz/gpt-6-astra-vs-gemini-3-8-flash",
+      "source": "GitHub REST API search: GPT-6 playable game in README",
+      "reason": "The README documents an Astra browser civilization simulation and includes screenshots and recorded demonstrations, but the repository tree contains only case-study documents and media. It does not contain the game source, a playable build, or a direct live-game link. Reject it from the source-backed game list until those artifacts are accessible."
+    },
+    {
+      "repository": "https://github.com/NguiWeily/Neon-Kart-Rush",
+      "source": "GitHub REST API search: GPT-6 playable game in README, page 2",
+      "reason": "The repository contains a real Android and browser kart game, but its README explicitly attributes this build to GPT-5.6 Sol. Do not count it under the Astra/Opus/Fable collection."
+    },
+    {
+      "repository": "https://github.com/gaiahead/bankhar-steppe",
+      "source": "GitHub REST API search: GPT-6 playable game in README, page 2",
+      "reason": "The repository contains a playable WebGL2 dog exploration scene, but its own limits state that it is an open exploration scene without objectives or saved progress. Reject it as a visual exploration demo, not a game."
+    },
+    {
+      "repository": "https://github.com/ErikBurdett/Theandril",
+      "source": "GitHub REST API search: GPT-6 playable game in README, page 2",
+      "reason": "The repository contains a real hosted browser 4X prototype, but its GPT-6 Astra text is an original build handoff instructing a future agent rather than evidence that Astra made the current implementation. Reject until direct model contribution evidence is available."
+    },
+    {
+      "repository": "https://github.com/thepianistdirector/wonder-relay",
+      "source": "GitHub REST API search: GPT-6 playable game in README, page 2",
+      "reason": "The README explicitly says this is a public planning repository with no product implementation or playable build. GPT-6 Astra and Claude Fable appear as proposed task models, not as evidence for an existing game. Reject."
+    },
+    {
+      "repository": "https://github.com/BeatAPI/awesome-3d-prompts",
+      "source": "Reverse-link search: GitHub REST API Astra game results, page 1",
+      "reason": "The repository is a 300+ prompt gallery. Its Game Engines catalog contains visual prompts and X posts, but the inspected City Above detail has no GitHub game source or playable repository artifact. Reject catalog entries unless a direct source-backed game repository is found."
     }
   ]
 }
