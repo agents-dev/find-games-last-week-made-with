@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 377 verified games. Real source. No prompt-only filler.
+### 376 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-377-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-275-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-186-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-376-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-274-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-186-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,14 +19,14 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 377 games. Yes, each one links to source.**
+**Yes, that is 376 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **377** |
-| 📦 Independent repositories | **275** |
+| 🎮 Independently counted games | **376** |
+| 📦 Independent repositories | **274** |
 | 🧊 Three.js, WebGL, or WebGPU games | **186** |
 | 🛠️ Non-browser engine games | **46** |
 | 📸 Games with verified screenshot links | **39** |
@@ -72,7 +72,7 @@ Jump to a category:
 
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **46 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **34 games**
-- 💥 [Action and Shooters](#action-and-shooters) — **79 games**
+- 💥 [Action and Shooters](#action-and-shooters) — **78 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **35 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **38 games**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 games**
@@ -177,7 +177,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Action and Shooters
 
-> 💥 **79 verified games. Ranked by evidence-based quality score.**
+> 💥 **78 verified games. Ranked by evidence-based quality score.**
 
 - [**Neural Sight**](https://github.com/monstercameron/Neural-Sight) — ⭐ **9.2/10** · GPT-6 Astra · PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, Browser · 8 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/fort-clatsop.jpg) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/san-juan.jpg)
 - [**ASTRA AIR COMBAT**](https://github.com/FLYING37520/astra-air-combat) — ⭐ **9.0/10** · GPT-6 Astra · TypeScript, Three.js, WebGL, Vite, Web Audio API · 4.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/cockpit-rain-high.jpg) · [📸 screenshot](https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/islands-clear.jpg)
@@ -205,7 +205,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Awawa Quest**](https://github.com/Rebell-Leader/claude-game) — ⭐ **8.0/10** · Claude Fable 5 · JavaScript, HTML, SVG · 500 MFLOPS · _creator-reported_
 - [**Cube Basher**](https://github.com/mreflow/cube-basher) — ⭐ **8.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 1.80 GFLOPS · _creator-reported_
 - [**CUSTOMS — Escape Raid**](https://github.com/INONONO66/tarkov-customs) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D · 360 MFLOPS · _confirmed_
-- [**Dungeon of Opus**](https://github.com/joozio/dungeon-of-opus) — ⭐ **8.0/10** · Claude Opus 4.6 · TypeScript, Browser · 700 MFLOPS · _creator-reported_
 - [**Grid Wars**](https://github.com/loosecannons/grid-wars) — ⭐ **8.0/10** · Claude Fable 5, Claude Opus 4.8 · Three.js, JavaScript, WebGL · 1.50 GFLOPS · _confirmed_
 - [**HELLGRID**](https://github.com/markcastle/hellgrid) — ⭐ **8.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 1.80 GFLOPS · _creator-reported_
 - [**Neon Arena**](https://github.com/B-Blarr/Arena-Game) — ⭐ **8.0/10** · Claude Fable 5 · TypeScript, Vite, Three.js · 1.80 GFLOPS · _creator-reported_

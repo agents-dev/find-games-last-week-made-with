@@ -5045,40 +5045,6 @@
     "is_independent_game": true
   },
   {
-    "name": "Dungeon of Opus",
-    "repository_id": 1154889626,
-    "github_url": "https://github.com/joozio/dungeon-of-opus",
-    "evidence_url": "https://github.com/joozio/dungeon-of-opus",
-    "technology": [
-      "TypeScript",
-      "Browser"
-    ],
-    "model_family": [
-      "Claude Opus 4.6"
-    ],
-    "method_evidence": "creator-reported",
-    "game_count": 1,
-    "contained_games": [
-      "Dungeon of Opus"
-    ],
-    "verification_status": "verified",
-    "verified_on": "2026-09-09",
-    "repository_created_at": "2026-02-10T22:17:09Z",
-    "discovery_sources": [
-      "https://github.com/joozio/dungeon-of-opus"
-    ],
-    "verification_notes": "Repository description and TypeScript source contain a roguelike with procedural dungeons, seven enemy types, items, fog of war, and a boss fight, built entirely by Claude Opus 4.6.",
-    "gauntlet_loop": false,
-    "model_evidence": "creator-reported",
-    "flops_estimate_raw": 700000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "low",
-    "quality_estimate_10": 8,
-    "quality_estimate_basis": "Clear roguelike systems, source, and direct attribution.",
-    "counted_game_units": 1,
-    "is_independent_game": true
-  },
-  {
     "name": "Claude of Duty: Strike of the Boney Biker Bros",
     "repository_id": 1313102427,
     "github_url": "https://github.com/jordanpartridge/claude-of-duty",
