@@ -834,3 +834,13 @@ The serial `"built entirely by Claude Opus 4.6" game in:readme` search found [Mi
 Run one changed Opus/Fable build phrase or engine partition. Inspect each unseen candidate serially and deduplicate before counting.
 
 The critique scored the exact build-phrase method **9/10** and kept it. It produced one accepted game from one inspected candidate with strong source and attribution evidence. Test the alternate phrase `made with Claude Opus 4.6` next.
+
+### Made-with attribution query
+
+Run the serial GitHub repository query `"made with Claude Opus 4.6" game in:readme`. The current GitHub repository index returned zero matches. Do not treat an empty index result as proof that no such games exist. Record zero new repositories and zero new game units, then change the attribution phrase or source family.
+
+The existing critique agent scored the method as follows: novelty **1/10**, yield **1/10**, verification quality **3/10**, repeatability **9/10**, source quality **3/10**, false-positive control **8/10**, overall **4/10**. Drop this exact query under the below-8 rule. Keep its reproducibility as a diagnostic, not as a primary discovery method.
+
+### Next experiment
+
+Test the changed phrase `"built using Claude Opus 4.6" game in:readme` serially. If it also returns no useful unseen repositories, switch to reverse-link or curated-list discovery. Apply canonical deduplication before assigning yield or counting games.

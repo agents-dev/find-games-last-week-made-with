@@ -2869,6 +2869,45 @@
         "Run %22made with Claude Opus 4.6%22 game in:readme",
         "Deduplicate before scoring and counting"
       ]
+    },
+    {
+      "source": "GitHub repository search: made with Claude Opus 4.6 game in README",
+      "query_key": "gh-repo-search|made+with+Claude+Opus+4.6+game+in%3Areadme|all|2026-09-10",
+      "status": "completed",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "note": "The GitHub repository index returned zero matches for this exact attribution phrase. Treat this as an indexing result, not proof that no such games exist. Change the source family or use a different direct build phrase; do not repeat cosmetic variants indefinitely.",
+      "next_experiments": [
+        "Switch to a reverse-link or curated-list source",
+        "Do not repeat this exact phrase without a changed index or date partition"
+      ]
+    },
+    {
+      "source": "Critique of made-with Claude Opus 4.6 repository query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "made_with_claude_opus_4_6_game": {
+          "novelty": 1,
+          "yield": 1,
+          "verification_quality": 3,
+          "repeatability": 9,
+          "source_quality": 3,
+          "false_positive_control": 8,
+          "overall": 4,
+          "decision": "drop"
+        }
+      },
+      "note": "The critique dropped this exact phrase under the below-8 rule. The empty index result is not evidence that no games exist, but the method has no discovery value in the current index. Keep the reproducible query record and switch source family or attribution wording.",
+      "next_experiments": [
+        "Test the changed phrase %22built using Claude Opus 4.6%22 game in:readme",
+        "Use reverse-link or curated-list discovery if the changed phrase also returns no indexed repositories",
+        "Deduplicate before assigning yield or counting a result"
+      ]
     }
   ],
   "frontier": [
