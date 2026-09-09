@@ -1,5 +1,224 @@
 [
   {
+    "name": "STORMFALL, STRIKE PROTOCOL and TEACUP",
+    "github_url": "https://github.com/oh-ashen-one/Opus-5-Three-Games",
+    "game_links": [
+      "https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/01-stormfall-ue",
+      "https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/02-strike-godot",
+      "https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/03-teacup-godot"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/oh-ashen-one/Opus-5-Three-Games/commit/5df172a9840ce634020779f00affc05eac4fe9af",
+    "screenshot_urls": [],
+    "technology": [
+      "Unreal Engine 5.8",
+      "Godot 4.7",
+      "C++",
+      "GDScript",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 3,
+    "contained_games": [
+      "STORMFALL",
+      "STRIKE PROTOCOL",
+      "TEACUP"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unreal playable game Co-Authored-By Claude Opus",
+      "https://github.com/oh-ashen-one/Opus-5-Three-Games"
+    ],
+    "verification_notes": "The repository README identifies three separate games: STORMFALL in Unreal Engine 5.8, STRIKE PROTOCOL in Godot 4.7, and TEACUP in Godot 4.7. Each directory has engine project files, gameplay source, scenes or build scripts, tests and a running guide. The commit series shows direct Claude Opus 5 attribution. Count the three distinct games, not the repository as one game.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for a native Unreal shooter-survival game plus two Godot games with bots, combat, building, projectiles, HUD and scene simulation; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Three distinct game implementations with engine projects, substantial gameplay systems, tests, run instructions and direct Opus 5 attribution.",
+    "counted_game_units": 3,
+    "is_independent_game": true
+  },
+  {
+    "name": "MaskGame",
+    "github_url": "https://github.com/moeiscool/MaskGame",
+    "game_links": [
+      "https://github.com/moeiscool/MaskGame/blob/main/README.md",
+      "https://github.com/moeiscool/MaskGame/blob/main/Source/MaskGame/Character/MaskCharacter.cpp",
+      "https://github.com/moeiscool/MaskGame/blob/main/Source/MaskGame/Rules/MaskRules.cpp",
+      "https://github.com/moeiscool/MaskGame/blob/main/Source/MaskGame/World/MaskWorldGenerator.cpp"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/moeiscool/MaskGame/commit/fac98b30e70a8a3a51d81d0a816c5f355cab08f6",
+    "screenshot_urls": [],
+    "technology": [
+      "Unreal Engine 5.5",
+      "C++",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "MaskGame"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unreal playable game Co-Authored-By Claude Opus",
+      "https://github.com/moeiscool/MaskGame"
+    ],
+    "verification_notes": "The Unreal project README describes an action-adventure with a three-day clock, four masks, thirteen generated regions and four temples. C++ source contains player, enemy, game mode, quests, masks, songs, schedules, world generation, progression and tests. The README states that the runtime greybox builds the regions from data tables and lets the player walk them. The cited commit shows a direct Claude Opus 5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unreal C++ world generation, AI, schedules, quests, masks, audio-adjacent systems and runtime greybox rendering; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "Substantial Unreal game code, data-driven world and progression systems, tests and explicit runtime status, with direct Opus 5 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Zoo Keeper",
+    "github_url": "https://github.com/JamesTroy/ZooKeeper",
+    "game_links": [
+      "https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Core/ZooGameMode.cpp",
+      "https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Animals/AnimalBase.cpp",
+      "https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Subsystems/AnimalManagerSubsystem.cpp",
+      "https://github.com/JamesTroy/ZooKeeper/blob/main/Content/ZooKeeper.umap"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/JamesTroy/ZooKeeper/commit/b5471a06476f7f5f78989789469acf23cf18a47e",
+    "screenshot_urls": [],
+    "technology": [
+      "Unreal Engine 5",
+      "C++",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Zoo Keeper"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unreal playable game Co-Authored-By Claude Opus",
+      "https://github.com/JamesTroy/ZooKeeper"
+    ],
+    "verification_notes": "The Unreal project contains a ZooKeeper.uproject, a committed ZooKeeper.umap, and C++ gameplay for animals, animal needs and breeding, staff, visitors, buildings, interaction, economy, research, weather, milestones, saving, UI and game mode. The initial project commit shows a direct Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unreal C++ animal AI, visitors, staff, economy, simulation subsystems, UI and map rendering; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Complete Unreal project shape with committed map and broad simulation gameplay source plus direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "UE Challenge Game",
+    "github_url": "https://github.com/Yufang-cloud/Project2-UE-ChallengeGame",
+    "game_links": [
+      "https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/README.md",
+      "https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/Code/Mechanism/BP_Launch.uasset",
+      "https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/Code/Character/BP_ChallengeCharacter.uasset",
+      "https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/blob/main/Content/ChallengeGame/Maps/Level_Scene_01.umap"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Yufang-cloud/Project2-UE-ChallengeGame/commit/2a015331d8ef3424bd7da682081c8ba291cf142b",
+    "screenshot_urls": [],
+    "technology": [
+      "Unreal Engine 5.7",
+      "Blueprints",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "UE Challenge Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unreal playable game Co-Authored-By Claude Opus",
+      "https://github.com/Yufang-cloud/Project2-UE-ChallengeGame"
+    ],
+    "verification_notes": "The project README describes a simple Unreal Engine 5.7 challenge game built with Blueprints. It includes a committed uproject, main level, challenge character, enhanced input assets and mechanism Blueprints for checkpoints, launch pads and obstacles. The initial project commit shows a direct Claude Opus 4.7 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unreal Blueprint character, map, input, checkpoint and launch-mechanism rendering; not measured hardware throughput.",
+    "quality_estimate_10": 7.8,
+    "quality_estimate_basis": "Committed Unreal map and Blueprint gameplay assets with explicit project documentation and direct Opus 4.7 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Surgeon Simulator",
+    "github_url": "https://github.com/brenyade/SurgeonSimulator",
+    "game_links": [
+      "https://github.com/brenyade/SurgeonSimulator/blob/claude/surgeon-simulator-3d-game-5yzifc/README.md",
+      "https://github.com/brenyade/SurgeonSimulator/blob/claude/surgeon-simulator-3d-game-5yzifc/unreal/Source/SurgeonSimulator/Private/SSProcedureComponent.cpp",
+      "https://github.com/brenyade/SurgeonSimulator/blob/claude/surgeon-simulator-3d-game-5yzifc/unreal/Source/SurgeonSimulator/Private/SSSurgeonCharacter.cpp"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/brenyade/SurgeonSimulator/commit/847e22f6fc19ddcc3a58a262d5b0abe0f3ff7928",
+    "screenshot_urls": [],
+    "technology": [
+      "Unreal Engine 5",
+      "Three.js",
+      "WebGL",
+      "C++",
+      "Native engine port"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Surgeon Simulator"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unreal playable game Co-Authored-By Claude Opus",
+      "https://github.com/brenyade/SurgeonSimulator"
+    ],
+    "verification_notes": "The repository README documents a complete playable WebGL surgery game and an Unreal Engine 5 C++ port sharing procedure data. The Unreal source contains surgeon character, patient, surgical tools, wounds, vitals, hand interaction, game mode and procedure systems. The cited commit reports a playable WebGL build, a scripted pass covering grab/use/hold/drop and direct Claude Opus 5 attribution. Count one game, not two builds.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2100000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for browser WebGL surgery simulation plus Unreal C++ gameplay port, procedural anatomy, tools, physics-like hand interaction and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "Complete playable game, shared rules, Unreal gameplay port, documented controls and scripted verification with direct Opus 5 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
     "name": "Chinese Word Hunt",
     "repository_id": 1137971412,
     "github_url": "https://github.com/02dtan/ChineseWordHunt",

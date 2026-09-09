@@ -1359,3 +1359,27 @@ The critique agent scores this audit **9/10** overall: novelty **9**, yield **9*
 ### Next experiment
 
 Run serial build or startup validation for the six MonoGame games. Record which projects compile, launch or pass tests. Then apply a strict gameplay-source filter to another native engine.
+
+### Strict Unreal native game audit
+
+Run the serial GitHub search `Unreal playable game Co-Authored-By Claude Opus`. Require an Unreal project or a committed Unreal gameplay port, direct gameplay source, and a map, greybox, Blueprint mechanism or runnable reference before counting.
+
+Accept:
+
+- [STORMFALL](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/01-stormfall-ue) — Unreal Engine 5.8 third-person survival/shooter game with bots, combat, building, storm and tests.
+- [STRIKE PROTOCOL](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/02-strike-godot) — Godot 4.7 native tactical shooter with bots, economy, weapons, grenades and match scenes.
+- [TEACUP](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/03-teacup-godot) — Godot 4.7 2.5D boss game with player, boss, projectiles, stages, HUD and tests.
+- [MaskGame](https://github.com/moeiscool/MaskGame) — Unreal Engine 5.5 action-adventure greybox with a three-day clock, masks, quests, songs, enemies, world generation and progression systems.
+- [Zoo Keeper](https://github.com/JamesTroy/ZooKeeper) — Unreal Engine 5 zoo simulation with animals, breeding, staff, visitors, buildings, economy, research, weather, saving and a committed map.
+- [UE Challenge Game](https://github.com/Yufang-cloud/Project2-UE-ChallengeGame) — Unreal Engine 5.7 Blueprint challenge course with a character, main level, checkpoints, launch pads and obstacle mechanisms.
+- [Surgeon Simulator](https://github.com/brenyade/SurgeonSimulator) — one surgery game with a complete WebGL build and an Unreal Engine 5 C++ port sharing procedure data.
+
+Inspect the exact commit trailers and direct source links. Count the three games in `Opus-5-Three-Games` separately and count Surgeon Simulator once because its WebGL and Unreal implementations are two builds of one game. Reject `sparesparrow/1984` as a source-heavy scaffold without a committed playable map/assets, `jamesbell2021/unreal-cpp-intro` as teaching material with a browser example but no Unreal project, `allocatedribble/Vast` as a LogiUE plugin/tool, `MoreSalamander/vibe-engine` as a UE5 scaffold, and `danielbaldwin47/UE-MCP-Test` as an editor test project. This pass adds seven source-verified native game units and raises the collection to 480 units across 415 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it. Runtime validation is still required for a stronger status.
+
+### Next experiment
+
+Run serial Unreal build or startup validation for the accepted projects. Separately validate the three Opus 5 games so their unit count has individual runtime evidence. Then inspect another native engine using the same strict source filter.
