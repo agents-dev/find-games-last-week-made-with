@@ -4360,6 +4360,50 @@
       "critic": "existing critique agent"
     },
     {
+      "source": "Serial LÖVE native game audit",
+      "query_key": "Love2D game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 10,
+      "new_verified_repositories": 9,
+      "new_game_units": 9,
+      "new_rejected": 1,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/Corttezz/card-game-love2d",
+        "https://github.com/NAMYUNWOO/dotpio",
+        "https://github.com/ETdoFresh/asteroids-love2d",
+        "https://github.com/rhowell/voidash",
+        "https://github.com/TiagoBonamigo/TetrisLove2D",
+        "https://github.com/JohnVonDrashek/ora-et-labora",
+        "https://github.com/kurtmc/ball-game",
+        "https://github.com/Johnesco/pinball",
+        "https://github.com/chongdashu/love2d-pocket-bomber-game"
+      ],
+      "rejected_repositories": [
+        "https://github.com/maltasea/lua_of_ocaml"
+      ],
+      "held_repositories": [],
+      "note": "Serial inspection accepted nine LÖVE/Love2D projects with conf.lua, main.lua or equivalent gameplay source/assets and exact Claude Opus or Fable trailers. The accepted set covers card combat, roguelike, Asteroids, arena survival, Tetris, monastery management, brick breaker, pachinko and Bomberman. The compiler repository lua_of_ocaml was rejected because its LÖVE reference was an incomplete example rather than the repository's game.",
+      "next_experiments": [
+        "Perform serial LÖVE runtime validation for the nine games",
+        "Record valid configuration and successful launch status",
+        "Search another native engine with the same gameplay-source and exact-trailer filter"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "Nine distinct LÖVE games provide exceptional yield and strong direct source evidence. Keep the method and preserve separate Opus/Fable model labels; runtime execution is still pending.",
+      "critic": "existing critique agent"
+    },
+    {
       "source": "Serial Defold native game audit",
       "query_key": "Defold game Co-Authored-By Claude Opus",
       "status": "completed",
@@ -4559,7 +4603,7 @@
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 493 across 428 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 502 across 437 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

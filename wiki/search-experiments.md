@@ -1430,3 +1430,29 @@ The critique agent scores this audit **9/10** overall: novelty **9**, yield **9*
 ### Next experiment
 
 Run serial Defold startup or build validation for the four games. Record source-verified versus successfully runnable status, then search another native engine.
+
+### Serial LÖVE native game audit
+
+Run the serial GitHub search `Love2D game Co-Authored-By Claude Opus`. Require `conf.lua`, `main.lua` or an equivalent LÖVE entrypoint, direct gameplay source/assets, and an exact Claude Opus or Fable trailer.
+
+Accept:
+
+- [Card Game](https://github.com/Corttezz/card-game-love2d) — LÖVE strategic card combat game with attack, defense, Jokers, enemies, stages and deck systems.
+- [Dotpio](https://github.com/NAMYUNWOO/dotpio) — LÖVE roguelike with map, FOV, player, enemies, AI, combat, inventory, items, portals and HUD.
+- [Asteroids](https://github.com/ETdoFresh/asteroids-love2d) — LÖVE arcade Asteroids game with configuration, entrypoint and screenshot.
+- [Voidash](https://github.com/rhowell/voidash) — LÖVE arena survival game with dash combat, combo kills, waves, particles and invulnerability.
+- [TetrisLove2D](https://github.com/TiagoBonamigo/TetrisLove2D) — LÖVE NES-faithful Tetris with timing, DAS, rotation, gravity, scoring and palettes.
+- [Ora et Labora](https://github.com/JohnVonDrashek/ora-et-labora) — LÖVE monastery management simulator with monks, resources, projects, market, patrons, renown and saves.
+- [Ballz](https://github.com/kurtmc/ball-game) — LÖVE brick breaker with ball physics, grid, aiming, particles, state and UI modules.
+- [Pachinko Builder](https://github.com/Johnesco/pinball) — LÖVE pachinko/pinball builder with a direct game entrypoint.
+- [Pocket Bomber](https://github.com/chongdashu/love2d-pocket-bomber-game) — LÖVE Bomberman game with five levels, enemies, bombs, explosions, saves, preview GIF and iOS touch controls.
+
+Check every source link one at a time. Use `master` for Dotpio, TetrisLove2D, Ballz and Pachinko Builder after checking their default branches. Reject `maltasea/lua_of_ocaml` because it is a compiler repository with an incomplete reference example, not a game repository. This pass adds nine source-verified native-engine game units and raises the collection to 502 units across 437 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **10**, yield **10**, verification quality **9**, repeatability **9**, source quality **10**, and false-positive control **10**. Keep it. Runtime validation remains the next evidence step.
+
+### Next experiment
+
+Run serial LÖVE startup validation for the nine games. Record valid configuration and successful launch status, then search another native engine.
