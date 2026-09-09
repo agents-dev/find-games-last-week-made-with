@@ -1655,3 +1655,31 @@ The critique score is **8/10** overall: novelty **8**, yield **8**, verification
 ### Next experiment
 
 Run one serial exact native-engine query using a new alias such as Macroquad or Ebiten. Require actual gameplay source and exact Astra, Opus or Fable evidence. Reject model-as-player projects, frameworks, catalogs, tools and visual-only demos.
+
+### Dropped Macroquad/Opus code search
+
+Run the authenticated GitHub code search `Macroquad game Co-Authored-By Claude Opus`. It returns only this collection's own research files and one unrelated chatlog. It returns no external Macroquad game repository with Claude Opus evidence. Drop the query and do not count self-referential files.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **8**, repeatability **7**, source quality **5**, and false-positive control **10**. Keep the false-positive rule, but replace this exact query with a new engine alias.
+
+### Next experiment
+
+Run one serial exact native-engine query using Ebiten or another changed engine alias. Require actual gameplay source and exact Astra, Opus or Fable evidence.
+
+### Ebiten/Opus code-search audit
+
+Run the authenticated GitHub code search `Ebiten game Co-Authored-By Claude Opus`. Inspect the three external results one at a time and verify repository existence plus direct gameplay files.
+
+Accept:
+
+- [Ultima V: Warriors of Destiny — Traditional Chinese Remake](https://github.com/wicanr2/u5-cht) — Go/Ebitengine remake with world map, locations, dialogue, shops, combat, magic, dungeons, tests, native packages and WebAssembly support. The cited release commit carries Claude Opus 5 evidence.
+- [Dragon Quest III — Ebitengine Remake](https://github.com/wicanr2/kinginformation-dq3-re) — Go/Ebitengine remake with desktop and Android targets, world map, battles, game packs, tests and a documented 93/93 game-tester gate. The worklist records Claude Opus 4.8 project evidence.
+- [Africa 2 Ice: Paleolithic Dispersal](https://github.com/adsouza/africa2ice) — original turn-based eco-strategy game with deterministic simulation, climate map, campaign turns, saves, native/browser builds, tests and Ebitengine rendering. The cited commit carries Claude Opus 5 evidence.
+
+Verify all twelve direct gameplay and configuration links through the GitHub contents API. Count each repository once, and keep all three under **Non-Browser Engines**. This pass adds **three game units**, raising the collection to **541 counted game units across 469 repository records**.
+
+The critique score is **9/10** overall: novelty **9**, yield **10**, verification quality **9**, repeatability **9**, source quality **10**, and false-positive control **9**. Keep this exact engine-plus-model pattern and try another unused native engine next.
+
+### Next experiment
+
+Run one serial exact query for Ebiten/Fable or another unused engine. Require a real playable loop, direct source, and exact Astra, Opus or Fable evidence.

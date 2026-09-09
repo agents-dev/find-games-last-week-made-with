@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 538 verified games. Real source. No prompt-only filler.
+### 541 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-538-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-414-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-190-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-541-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-417-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-190-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,16 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 538 games. Yes, each one links to source.**
+**Yes, that is 541 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **538** |
-| 📦 Included repositories | **414** |
+| 🎮 Independently counted games | **541** |
+| 📦 Included repositories | **417** |
 | 🧊 Three.js, WebGL, or WebGPU games | **190** |
-| 🛠️ Non-browser engine games | **165** |
+| 🛠️ Non-browser engine games | **168** |
 | 📸 Games with verified screenshot links | **76** |
 | 🧠 Games with direct prompt links | **17** |
 
@@ -45,14 +45,14 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**THE LONG SILENCE**](https://github.com/achimala/TheLongSilence) | ⭐ **9.5** | Claude Opus 5, Claude Fable 5.1 |
 | [**The Simpsons: Hit & Run — Browser Reconstruction**](https://github.com/Vheissu/hit-and-run-web) | ⭐ **9.5** | GPT-6 Astra |
 | [**Gravity Box — Campaign 100**](https://github.com/nghienvothuat-a11y/GravityBox) | ⭐ **9.4** | GPT-6 Astra, GPT-5.6 Sol |
+| [**Ultima V: Warriors of Destiny — Traditional Chinese Remake**](https://github.com/wicanr2/u5-cht) | ⭐ **9.4** | Claude Opus 5 |
 | [**7 Minutes — City Crisis**](https://github.com/hlforever11/gpt6-city-crisis) | ⭐ **9.3** | GPT-6 |
+| [**Dragon Quest III — Ebitengine Remake**](https://github.com/wicanr2/kinginformation-dq3-re) | ⭐ **9.3** | Claude Opus 4.8 |
 | [**KamiKakushi — An Incremental RPG**](https://github.com/Raynos/kami-kakushi) | ⭐ **9.3** | Claude Opus, Claude Fable 5 |
 | [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) | ⭐ **9.3** | GPT-6 Astra, Codex |
 | [**Rift Chess**](https://github.com/HaileyStorm/rift-chess) | ⭐ **9.3** | GPT-6 Astra |
 | [**Robo Open**](https://github.com/az9713/gpt-6-astra-tennis-game) | ⭐ **9.3** | GPT-6 Astra, Codex |
 | [**Turbo Kart Rush**](https://github.com/claudio41cg-max/rio-rush-cross) | ⭐ **9.3** | Claude Fable 5.1 |
-| [**HOLDFAST**](https://github.com/nschmeller/holdfast) | ⭐ **9.2** | Claude Opus 5 |
-| [**Idle ARPG**](https://github.com/nodeJayS/idle-game) | ⭐ **9.2** | Claude Opus 5 |
 
 ## 📸 Screenshot spotlight
 
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **165 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **168 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **39 games**
 - 💥 [Action and Shooters](#action-and-shooters) — **95 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **36 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **165 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **168 verified games. Ranked by evidence-based quality score.**
 
 - [**Knife Dodge**](https://github.com/Karanvir1729/ninja-knife-dodge) — ⭐ **9.5/10** · Claude Fable 5.1 · Godot, GDScript, Native iOS, Native iPadOS · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/play_state.gd)
 - [**Quick Draw**](https://github.com/Karanvir1729/ninja-knife-dodge) — ⭐ **9.5/10** · Claude Fable 5.1 · Godot, GDScript, Native iOS, Native iPadOS · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/draw_play_state.gd)
@@ -92,6 +92,8 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Space Showdown**](https://github.com/GeorgeCottrell/SpaceShowdown) — ⭐ **9.5/10** · Claude Fable 5 · Pygame, Python, SDL2, C, Native desktop, Native Wii · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/space_showdown.py)
 - [**Star Cricket**](https://github.com/Karanvir1729/ninja-knife-dodge) — ⭐ **9.5/10** · Claude Fable 5.1 · Godot, GDScript, Native iOS, Native iPadOS · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/cricket_play_state.gd)
 - [**Gravity Box — Campaign 100**](https://github.com/nghienvothuat-a11y/GravityBox) — ⭐ **9.4/10** · GPT-6 Astra, GPT-5.6 Sol · Unity 6000.3.19f1, C#, Rigidbody physics, Native Android, Native macOS, Windows editor · 5 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C010.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C050.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Mac/C100.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Images/Level16/Coop16BothOut.png)
+- [**Ultima V: Warriors of Destiny — Traditional Chinese Remake**](https://github.com/wicanr2/u5-cht) — ⭐ **9.4/10** · Claude Opus 5 · Go, Ebitengine, Native desktop, WebAssembly · 1.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/wicanr2/u5-cht/blob/main/cmd/u5cht/main.go)
+- [**Dragon Quest III — Ebitengine Remake**](https://github.com/wicanr2/kinginformation-dq3-re) — ⭐ **9.3/10** · Claude Opus 4.8 · Go, Ebitengine, Native desktop, Android · 1.40 GFLOPS · _confirmed_ · [🔗 files](https://github.com/wicanr2/kinginformation-dq3-re/blob/main/dq3_remake_ebitan/main.go)
 - [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) — ⭐ **9.3/10** · GPT-6 Astra, Codex · Godot 4.7.2, GDScript, Blender, GLB/glTF, Native Linux, Windows export, Android preview · 7 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/marius4lui/NULLSPACE/blob/main/docs/images/environment-preview.png)
 - [**Robo Open**](https://github.com/az9713/gpt-6-astra-tennis-game) — ⭐ **9.3/10** · GPT-6 Astra, Codex · Unity 6.0.5.7f1, C#, URP 17.5.0, Blender, Native Windows · 6 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png) · [📸 screenshot](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/play-report.png)
 - [**HOLDFAST**](https://github.com/nschmeller/holdfast) — ⭐ **9.2/10** · Claude Opus 5 · Bevy 0.19, Rust, Native desktop, WebAssembly, iOS · 1.90 GFLOPS · _confirmed_ · [🔗 files](https://github.com/nschmeller/holdfast/blob/main/README.md) · [📸 screenshot](https://github.com/nschmeller/holdfast/blob/main/docs/ux-critique/12-results.jpg)
@@ -100,6 +102,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**STORMFALL**](https://github.com/oh-ashen-one/Opus-5-Three-Games) — ⭐ **9.2/10** · Claude Opus 5 · Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/01-stormfall-ue)
 - [**STRIKE PROTOCOL**](https://github.com/oh-ashen-one/Opus-5-Three-Games) — ⭐ **9.2/10** · Claude Opus 5 · Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/02-strike-godot)
 - [**TEACUP**](https://github.com/oh-ashen-one/Opus-5-Three-Games) — ⭐ **9.2/10** · Claude Opus 5 · Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/03-teacup-godot)
+- [**Africa 2 Ice: Paleolithic Dispersal**](https://github.com/adsouza/africa2ice) — ⭐ **9.1/10** · Claude Opus 5 · Go, Ebitengine, Native desktop, WebAssembly · 700 MFLOPS · _confirmed_ · [🔗 files](https://github.com/adsouza/africa2ice/blob/main/main.go)
 - [**Donify**](https://github.com/w4coder/donify) — ⭐ **9.1/10** · GPT-6 Astra · Unreal Engine 5.8.1, C++, Vulkan, Native Linux · 9 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/w4coder/donify/blob/main/docs/media/gameplay-preview.jpg) · [📸 screenshot](https://github.com/w4coder/donify/blob/main/docs/media/indoor-flight.png)
 - [**STARLANE — Fable 5.1 build**](https://github.com/mrfqcentic/blender-roblox-experiment) — ⭐ **9.1/10** · Claude Fable 5.1 · Roblox Engine, Luau, Rojo, Blender, Native platform · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/mrfqcentic/blender-roblox-experiment/tree/main/fable-5.1) · [📸 screenshot](https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/03-wave-1-incoming.png) · [📸 screenshot](https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/10-combat-incoming-fire.png) · [📸 screenshot](https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/04-run-over-summary.png)
 - [**Surgeon Simulator**](https://github.com/brenyade/SurgeonSimulator) — ⭐ **9.1/10** · Claude Opus 5 · Unreal Engine 5, Three.js, WebGL, C++, Native engine port · 2.10 GFLOPS · _confirmed_ · [🔗 files](https://github.com/brenyade/SurgeonSimulator/blob/claude/surgeon-simulator-3d-game-5yzifc/README.md)

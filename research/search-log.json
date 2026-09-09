@@ -4978,10 +4978,78 @@
       },
       "critique_note": "The query itself is noisy, but careful serial review produced two strong game records and rejected three non-game repositories. Keep the audit as a one-off incidental-yield pass, not as the default search pattern.",
       "critic": "existing critique agent; conservative score after completed review"
+    },
+    {
+      "source": "Macroquad/Opus code search",
+      "query_key": "Macroquad game Co-Authored-By Claude Opus",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The authenticated GitHub code search returned three hits: this collection's own research files and one unrelated chatlog. It returned no external Macroquad game repository with Claude Opus attribution. Drop this exact query unless a new indexed source or model alias changes the result set.",
+      "next_experiments": [
+        "Run a new exact native-engine query using Ebiten or another changed engine alias",
+        "Keep the query serial and inspect external repositories only",
+        "Do not count the collection's own research files as candidates"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_quality": 5,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The query is easy to repeat but produced no external candidates and surfaced self-referential documentation. Drop it as a collection method.",
+      "critic": "existing critique agent; conservative manual score after no-candidate result"
+    },
+    {
+      "source": "Ebiten/Opus code-search audit",
+      "query_key": "Ebiten game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 3,
+      "new_game_units": 3,
+      "new_rejected": 0,
+      "unseen_count": 3,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/wicanr2/u5-cht",
+        "https://github.com/wicanr2/kinginformation-dq3-re",
+        "https://github.com/adsouza/africa2ice"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The query returned three external repositories. Serial inspection verified two Go/Ebitengine remakes with direct Opus evidence and one original Go/Ebitengine strategy game with direct Opus 5 commit evidence. Each repository has a real game entry point and gameplay source. Verify all direct source URLs through the GitHub contents API before saving. Count each repository as one game and keep all three in the non-browser engine section.",
+      "next_experiments": [
+        "Run a new exact engine-plus-model query for Ebiten/Fable or another unused native engine",
+        "Inspect only external repositories and verify direct source paths before acceptance",
+        "Keep remakes and original games as one repository-level unit unless distinct games are directly proven"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 10,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This exact engine query produced three strong native-game records with direct gameplay files and Opus evidence. Keep it as a high-yield search pattern, while preserving the rule that platform builds and remakes do not create duplicate game units.",
+      "critic": "existing critique agent; conservative score after completed serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 538 across 466 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 541 across 469 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",
