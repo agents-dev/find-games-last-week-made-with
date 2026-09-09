@@ -844,3 +844,13 @@ The existing critique agent scored the method as follows: novelty **1/10**, yiel
 ### Next experiment
 
 Test the changed phrase `"built using Claude Opus 4.6" game in:readme` serially. If it also returns no useful unseen repositories, switch to reverse-link or curated-list discovery. Apply canonical deduplication before assigning yield or counting games.
+
+### Changed build-phrase query
+
+Run the serial query `"built using Claude Opus 4.6" game in:readme`. Inspect all three returned repositories. Reject [DnD-Forge](https://github.com/jgough-essextec/DnD-Forge) as a D&D character and campaign management application, [LinCaster](https://github.com/GrantAbell/LinCaster) as a virtual audio driver, and [formal-learning-theory-book](https://github.com/Zetetic-Dhruv/formal-learning-theory-book) as a textbook. The pass adds zero qualifying game units.
+
+The existing critique agent scored novelty **2/10**, yield **1/10**, verification quality **9/10**, repeatability **9/10**, source quality **6/10**, false-positive control **10/10**, overall **6/10**. Drop this exact phrase under the below-8 rule. Keep its rejection discipline and move to inbound-link discovery.
+
+### Next experiment
+
+Search inbound GitHub code links for one previously verified Claude-attributed game repository. Inspect every unseen linking repository serially. Require direct game source and playable or build evidence before acceptance.

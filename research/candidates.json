@@ -348,6 +348,21 @@
       "repository": "https://github.com/joozio/wiz-experiments",
       "source": "Reverse-link inspection from https://github.com/joozio/dungeon-of-opus",
       "reason": "The repository is a large collection of AI-built interactive experiments. Dungeon of Opus is a separate source-backed game repository and was accepted. Other entries, such as Ten-ish, have source and a live demo but do not provide exact Claude Opus/Fable model evidence, so do not count the collection or those entries without direct attribution."
+    },
+    {
+      "repository": "https://github.com/jgough-essextec/DnD-Forge",
+      "source": "GitHub REST API search: built using Claude Opus 4.6 game in README",
+      "reason": "The repository is a D&D 5e character and campaign management application with a dice roller and combat tracker, not an independently authored playable game. Its Claude Opus 4.6 attribution is valid for the application build, but the repository does not meet the strict game-loop collection rule."
+    },
+    {
+      "repository": "https://github.com/GrantAbell/LinCaster",
+      "source": "GitHub REST API search: built using Claude Opus 4.6 game in README",
+      "reason": "The repository is a Rust PipeWire virtual audio driver, GUI, and CLI for RØDECaster hardware. It is not a game, despite containing the word Game as one of its audio output names."
+    },
+    {
+      "repository": "https://github.com/Zetetic-Dhruv/formal-learning-theory-book",
+      "source": "GitHub REST API search: built using Claude Opus 4.6 game in README",
+      "reason": "The repository is a formal learning theory textbook and companion research program. It has no playable game artifact; the attribution phrase is unrelated to game development."
     }
   ]
 }

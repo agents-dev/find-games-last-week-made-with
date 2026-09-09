@@ -2908,6 +2908,51 @@
         "Use reverse-link or curated-list discovery if the changed phrase also returns no indexed repositories",
         "Deduplicate before assigning yield or counting a result"
       ]
+    },
+    {
+      "source": "GitHub repository search: built using Claude Opus 4.6 game in README",
+      "query_key": "gh-repo-search|%22built+using+Claude+Opus+4.6%22+game+in%3Areadme|all|2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 3,
+      "unseen_count": 3,
+      "overlap_ratio": 0.0,
+      "rejected_repositories": [
+        "https://github.com/jgough-essextec/DnD-Forge",
+        "https://github.com/GrantAbell/LinCaster",
+        "https://github.com/Zetetic-Dhruv/formal-learning-theory-book"
+      ],
+      "note": "The changed phrase returned three repositories, but serial inspection found a D&D management tool, a virtual audio driver and a textbook. None is a qualifying game. Keep the game-loop and attribution checks; do not count a tool merely because its README contains game-related words.",
+      "next_experiments": [
+        "Switch to reverse-link or curated-list discovery instead of another cosmetic attribution phrase",
+        "Inspect every unseen linked game repository serially",
+        "Deduplicate before assigning yield or counting a result"
+      ]
+    },
+    {
+      "source": "Critique of built-using Claude Opus 4.6 repository query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "built_using_claude_opus_4_6_game": {
+          "novelty": 2,
+          "yield": 1,
+          "verification_quality": 9,
+          "repeatability": 9,
+          "source_quality": 6,
+          "false_positive_control": 10,
+          "overall": 6,
+          "decision": "drop"
+        }
+      },
+      "note": "The critique dropped this phrase under the below-8 rule. Serial inspection correctly rejected all three results, but the method produced no qualifying game. Use a reverse-link anchor next.",
+      "next_experiments": [
+        "Search inbound GitHub code links for a previously verified Claude-attributed game repository",
+        "Inspect each unseen linking repository serially",
+        "Require direct game source plus playable or build evidence before acceptance"
+      ]
     }
   ],
   "frontier": [
