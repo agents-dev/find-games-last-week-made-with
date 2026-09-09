@@ -932,3 +932,16 @@ Run the serial query `"built with Claude Opus 4.6" game in:readme`. Accept five 
 ### Critique result
 
 Score this Opus method **9/10**: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it. It added five game units from five inspected repositories and widened the collection with Android and Pygame non-browser engines. Repeat the phrase on a later date window, then run the same checks for Claude Fable 5.1 native-engine projects.
+
+### Claude Fable direct attribution query
+
+Run the serial query `"Claude Fable 5.1" game in:readme`. After canonical deduplication, accept two new repositories:
+
+- [BuildYourTown](https://github.com/Rapsody09/buildyourtown) — live TypeScript/Canvas city-builder with zoning, roads, rails, electricity, water, economy, services, traffic, disasters, progression, bankruptcy and saves. The README explicitly credits Claude Fable 5.1 and links [buildyourtown.com](https://buildyourtown.com).
+- [SQL Boss Battle Game](https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-) — live single-file browser game with an eight-boss, 72-puzzle campaign, real SQL.js validation, endless runner, daily boss, sandbox, streaks and leaderboard. The README explicitly credits Claude Fable 5.1.
+
+The pass also confirmed existing [fable51-worlds](https://github.com/PhiloLabs/fable51-worlds), [fable-5.1-mario](https://github.com/INONONO66/fable-5.1-mario), [apex-formula](https://github.com/bridge-mind/apex-formula) and [turbo-kart-grand-prix](https://github.com/Franklin-C/turbo-kart-grand-prix). Do not count those repositories twice.
+
+### Critique result
+
+Score this Fable method **9/10** overall: novelty **8**, yield **8**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it. The next experiment should use engine-specific partitions such as `Claude Fable 5.1 Pygame game in:readme` and `Claude Fable 5.1 Godot game in:readme` to improve non-browser coverage.

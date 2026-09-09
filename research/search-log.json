@@ -3330,10 +3330,62 @@
         "Repeat the Opus phrase on a later push-date window",
         "Require direct source and build or live-demo evidence"
       ]
+    },
+    {
+      "source": "Claude Fable direct attribution query",
+      "query_key": "\"Claude Fable 5.1\" game in:readme",
+      "status": "sample_completed",
+      "results_inspected": 6,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 0,
+      "unseen_count": 2,
+      "overlap_ratio": 0.67,
+      "confirmed_existing_repositories": [
+        "https://github.com/PhiloLabs/fable51-worlds",
+        "https://github.com/INONONO66/fable-5.1-mario",
+        "https://github.com/bridge-mind/apex-formula",
+        "https://github.com/Franklin-C/turbo-kart-grand-prix"
+      ],
+      "accepted_repositories": [
+        "https://github.com/Rapsody09/buildyourtown",
+        "https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-"
+      ],
+      "accepted_game_units": [
+        "BuildYourTown",
+        "SQL Boss Battle Game"
+      ],
+      "note": "Serial inspection found two new live, source-backed browser games and confirmed four existing Fable records. BuildYourTown adds a full city-builder simulation; SQL Boss Battle adds a multi-mode educational game with live SQL validation. Existing Fable catalog entries were deduplicated before yield scoring.",
+      "next_experiments": [
+        "Inspect the next unseen Fable results serially",
+        "Run a native-engine keyword partition such as Fable 5.1 Pygame, Godot or Unity",
+        "Keep live-demo, source and explicit model attribution requirements"
+      ]
+    },
+    {
+      "source": "Critique of Claude Fable direct attribution query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "note": "The pass added two strong games from six serially inspected candidates and correctly deduplicated four existing repositories. Keep the query family and split the next pass by engine to increase non-browser coverage.",
+      "next_experiments": [
+        "Run Claude Fable 5.1 Pygame game in:readme",
+        "Run Claude Fable 5.1 Godot game in:readme",
+        "Inspect every unseen result serially"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 388 across 336 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 390 across 338 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

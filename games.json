@@ -12639,5 +12639,105 @@
     "quality_estimate_basis": "Complete Minesweeper rules, multiple boards and themes, win/loss progression, persistence, source and direct Opus attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "BuildYourTown",
+    "repository_id": 1357914069,
+    "github_url": "https://github.com/Rapsody09/buildyourtown",
+    "game_links": [
+      "https://github.com/Rapsody09/buildyourtown",
+      "https://buildyourtown.com"
+    ],
+    "live_demo_url": "https://buildyourtown.com",
+    "evidence_url": "https://github.com/Rapsody09/buildyourtown#jouer",
+    "screenshot_urls": [
+      "https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/overview.png",
+      "https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/budget.png",
+      "https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/traffic.png"
+    ],
+    "technology": [
+      "TypeScript",
+      "Vite",
+      "Canvas 2D",
+      "Docker",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "BuildYourTown"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-05T06:55:33Z",
+    "published_on": "2026-09-05",
+    "discovery_sources": [
+      "GitHub repository search: Claude Fable 5.1 game in:readme",
+      "https://github.com/Rapsody09/buildyourtown"
+    ],
+    "verification_notes": "The README provides a live demo and Docker run instructions for an isometric city-builder with roads, rails, zoning, electricity, water, budget, services, traffic, population unlocks, monthly simulation, disasters, three difficulty levels, bankruptcy and browser save state. It explicitly credits Claude Fable 5.1.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas isometric rendering, city simulation, traffic, services, disasters, UI charts and mobile input; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Live demo, source, screenshots, extensive simulation loop, economy, services, disasters, progression, saves and direct Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "SQL Boss Battle Game",
+    "repository_id": 1355303158,
+    "github_url": "https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-",
+    "game_links": [
+      "https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-",
+      "https://raishaldhawan23.github.io/SQL-Boss-Battle-Game-/"
+    ],
+    "live_demo_url": "https://raishaldhawan23.github.io/SQL-Boss-Battle-Game-/",
+    "evidence_url": "https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-#whats-inside",
+    "screenshot_urls": [
+      "https://github.com/user-attachments/assets/f1986481-3d0b-4d7f-9240-9a5be77148d9"
+    ],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas",
+      "sql.js",
+      "Web Audio API",
+      "Supabase",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "SQL Boss Battle Game"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-02T22:50:00Z",
+    "published_on": "2026-09-03",
+    "discovery_sources": [
+      "GitHub repository search: Claude Fable 5.1 game in:readme",
+      "https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-"
+    ],
+    "verification_notes": "The README links a live browser game with an eight-boss, 72-puzzle campaign, real SQL checking against an in-browser database, an endless SQL-lane runner, a daily boss, sandbox mode, streaks and leaderboard support. It is a complete educational game with source in one HTML file and explicit Claude Fable 5.1 attribution.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas runner rendering, SQL.js query evaluation, puzzle state, audio, local persistence and browser UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "Live demo, source, campaign structure, 72 checked puzzles, multiple modes, real query validation, screenshot and direct Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
