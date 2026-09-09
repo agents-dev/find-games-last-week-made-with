@@ -1383,3 +1383,29 @@ The critique agent scores this audit **9/10** overall: novelty **9**, yield **9*
 ### Next experiment
 
 Run serial Unreal build or startup validation for the accepted projects. Separately validate the three Opus 5 games so their unit count has individual runtime evidence. Then inspect another native engine using the same strict source filter.
+
+### Serial Bevy native game audit
+
+Run the serial GitHub search `Bevy game Co-Authored-By Claude Opus`. Require direct Bevy gameplay source, a documented or runnable game loop, and an exact Claude Opus trailer.
+
+Accept:
+
+- [Ages of Aether Native](https://github.com/kglazier/Ages-Of-Aether-Native) — Bevy tower-defense port with enemies, waypoints, towers, projectiles, waves, lives and win/lose flow.
+- [Hollow Lullaby](https://github.com/maweis1981/rust_bevy_lua_game) — Rust/Bevy game with Lua-driven packs, audio, desktop, iOS and WebAssembly targets.
+- [Shogun](https://github.com/zhubby/Shogun) — Bevy/egui turn-based Three Kingdoms strategy game with cities, officers, combat, diplomacy, AI, scenarios and saves.
+- [WriftHeart](https://github.com/Baz-Studios-LLC/wriftheart) — native Bevy action-adventure RPG with combat, bosses, towns, quests, achievements and save systems.
+- [Aliasing](https://github.com/taearls/bevy-2d-rpg-game) — Bevy turn-based RPG slice with menu, overworld, random encounters, battle and game-over flow.
+- [Voxelcraft](https://github.com/Eric-lab-star/voxelcraft) — Bevy voxel sandbox with procedural terrain, first-person movement, mining, building, collision, water and day/night.
+- [HOLDFAST](https://github.com/nschmeller/holdfast) — Bevy 3D survival command roguelite with five worlds, threat control, squads, forts, weapons and progression.
+- [Protocol Play](https://github.com/jjgarcianorway/protocol-play) — Bevy tile puzzle game with 149 levels, 13 chapters, colored bots and many puzzle mechanics.
+- [Roller](https://github.com/steve-berlin/roller) — Bevy/Avian 3D physics game with a rolling sphere, collectibles, arena, timer and persistent best time.
+
+Check the first source link and live demo serially. The Aliasing live URL is [aliasing.pages.dev](https://aliasing.pages.dev); the guessed GitHub Pages URL returned 404 and was removed. Reject `EMachad0/Monster-Master-Rust` because its current game crate shows cursor/player synchronization but no clear game loop. This pass adds nine source-verified native-engine game units and raises the collection to 489 units across 424 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **8**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it after canonical deduplication. Runtime validation is the next evidence step.
+
+### Next experiment
+
+Run serial build or startup validation for the nine Bevy games. Record native versus WebAssembly status, then search another engine with the same gameplay-source and exact-trailer filter.

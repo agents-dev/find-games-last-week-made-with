@@ -4360,6 +4360,50 @@
       "critic": "existing critique agent"
     },
     {
+      "source": "Serial Bevy native game audit",
+      "query_key": "Bevy game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 10,
+      "new_verified_repositories": 9,
+      "new_game_units": 9,
+      "new_rejected": 1,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/kglazier/Ages-Of-Aether-Native",
+        "https://github.com/maweis1981/rust_bevy_lua_game",
+        "https://github.com/zhubby/Shogun",
+        "https://github.com/Baz-Studios-LLC/wriftheart",
+        "https://github.com/taearls/bevy-2d-rpg-game",
+        "https://github.com/Eric-lab-star/voxelcraft",
+        "https://github.com/nschmeller/holdfast",
+        "https://github.com/jjgarcianorway/protocol-play",
+        "https://github.com/steve-berlin/roller"
+      ],
+      "rejected_repositories": [
+        "https://github.com/EMachad0/Monster-Master-Rust"
+      ],
+      "held_repositories": [],
+      "note": "Serial inspection accepted nine Bevy repositories with direct gameplay source, game documentation or runnable targets, and exact Claude Opus trailers. The accepted set covers tower defense, Lua-driven 2D packs, strategy, action RPG, turn-based RPG, voxel sandbox, survival roguelite, puzzle and 3D physics games. Monster Master was rejected because the current game crate only showed cursor/player synchronization and no clear game loop. Source links and live demo links were checked one at a time; the Aliasing demo was corrected to https://aliasing.pages.dev after the guessed GitHub Pages URL returned 404.",
+      "next_experiments": [
+        "Perform serial build or startup validation for the nine Bevy games",
+        "Record native versus WebAssembly runtime status",
+        "Search another engine with the same gameplay-source and exact-trailer filter"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "Nine Bevy units provide strong yield and source quality. Keep the batch after canonical deduplication; runtime validation remains pending.",
+      "critic": "existing critique agent"
+    },
+    {
       "source": "Strict Unreal native game audit",
       "query_key": "Unreal playable game Co-Authored-By Claude Opus",
       "status": "completed",
@@ -4478,7 +4522,7 @@
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 480 across 415 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 489 across 424 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",
