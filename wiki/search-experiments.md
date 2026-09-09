@@ -1259,3 +1259,37 @@ The critique agent scores this audit **10/10** overall: novelty **10**, yield **
 ### Next experiment
 
 Perform serial build or startup validation on the seven repositories. Record which projects are source-verified only and which also run successfully. Then search Unreal and other native-engine aliases serially.
+
+### Unreal false-positive audit
+
+Run the serial searches `Unreal game Co-Authored-By Claude Opus` and `Unreal Engine game Co-Authored-By Claude Opus`. Inspect every strong lead. Reject asset pipelines, documentation, plugins, MCP integrations, scaffolds, archived foundations and project setups that do not contain gameplay source. The seven inspected leads produced zero verified games.
+
+The critique agent scores this method **6/10** overall: novelty **2**, yield **1**, verification quality **9**, repeatability **8**, source quality **6**, and false-positive control **10**. Drop it as a primary discovery method. Keep its rejection rules.
+
+### Next experiment
+
+Use a strict Unreal implementation filter. Require a `.uproject`, gameplay classes such as `GameMode`, `Character` or `PlayerController`, and a map or gameplay asset before full inspection and counting.
+
+### LibGDX native game commit audit
+
+Run the serial GitHub search `LibGDX game Co-Authored-By Claude Opus`. Accept:
+
+- [EUC Lean Too Much](https://github.com/crcknaka/euc-lean-too-much) — Kotlin/libGDX driving and physics game for Android and desktop.
+- [Fieldrunners 2 Remake](https://github.com/TanBuiDev/fieldrunners2-remake) — Java/libGDX tower-defense remake with map/grid/path-planning, player, waves and gameplay screen.
+- [Jefftris](https://github.com/jabernathy/jefftris) — Java/libGDX Tetris clone with screens, engine, scoring, high scores, desktop launcher and tests.
+- [Cube Run](https://github.com/Eve-146T/cube-run) — Kotlin/libGDX three-lane endless runner with gameplay, session, scores, sound and Android host.
+- [Asteroids](https://github.com/markm692/asteroids) — Kotlin/libGDX Android asteroid shooter with ship, asteroid, bullet, power-up, particle, menu and game-over classes.
+- [The Unreliable Narrator](https://github.com/DevStreamLogica/The-Unreliable-Narrator) — Java/libGDX point-and-click murder mystery with rooms, suspects, evidence, interviews, contradictions, achievements and save/load.
+- [Dragons vs Machines](https://github.com/DavidIsaiah/dragons_vs_machines) — Java/libGDX + Box2D slingshot physics game with entities, levels, level select and gameplay screen.
+- [Star Jump](https://github.com/abo-code-1/JumpHooper) — Java/libGDX platform jumper with player/platform physics, collision, score, achievements and play/game-over states.
+- [Icy Penguin Slide](https://github.com/saleebm/PenguinSlide) — Kotlin/libGDX Android/Desktop action game with penguin motion, icicle hazards, scoring, audio, animation, overlays and tests.
+
+The commit pages show direct Opus trailers, and each first game-source link returned HTTP 200. Model versions range from Opus 4 through 4.8; preserve each exact version in the dataset. This pass adds nine source-verified native game units and raises the collection to 452 units across 389 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **10**, yield **10**, verification quality **9**, repeatability **9**, source quality **10**, and false-positive control **9**. Keep it. HTTP 200 confirms link availability, but runtime validation remains the next evidence step.
+
+### Next experiment
+
+Run serial build or startup validation for these nine repositories. Record which are source-verified only and which compile, launch or pass their tests. Then retry Unreal with the strict implementation filter.

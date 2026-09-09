@@ -4194,6 +4194,87 @@
       "critic": "existing critique agent"
     },
     {
+      "source": "Unreal game Opus false-positive audit",
+      "query_key": "Unreal game Co-Authored-By Claude Opus; Unreal Engine game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 7,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 7,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/adaybekovt-boop/Make-your-ai-UE5-",
+        "https://github.com/cryptochris8/unreal-gnarly",
+        "https://github.com/Yufang-cloud/Project2-UE-ChallengeGame",
+        "https://github.com/GrizzyVV/RUDE",
+        "https://github.com/dvddprm/game",
+        "https://github.com/Full-Stack-Assets/TheNarrows",
+        "https://github.com/skiddz0/blueprint-game"
+      ],
+      "held_repositories": [],
+      "note": "The Unreal searches returned asset pipelines, UE scaffolds, a project setup with map/assets but no gameplay source in the cited commit, an editor plugin, an MCP integration, an archived bootstrap and an agent documentation repository. No standalone playable Unreal game met the source threshold, so this experiment adds zero.",
+      "next_experiments": [
+        "Use a strict implementation filter for Unreal candidates",
+        "Require a .uproject, gameplay classes such as GameMode, Character or PlayerController, and a map or gameplay asset before full inspection",
+        "Keep scaffolds, plugins, asset packs and archived foundations rejected"
+      ],
+      "critique_scores": {
+        "novelty": 2,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 6,
+        "false_positive_control": 10,
+        "overall": 6,
+        "decision": "drop"
+      },
+      "critique_note": "The query had zero yield. Drop it as a primary discovery method. Keep the rejection rules and replace the broad query with a strict Unreal implementation filter.",
+      "critic": "existing critique agent"
+    },
+    {
+      "source": "LibGDX native game commit audit",
+      "query_key": "LibGDX game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 9,
+      "new_verified_repositories": 9,
+      "new_game_units": 9,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/crcknaka/euc-lean-too-much",
+        "https://github.com/TanBuiDev/fieldrunners2-remake",
+        "https://github.com/jabernathy/jefftris",
+        "https://github.com/Eve-146T/cube-run",
+        "https://github.com/markm692/asteroids",
+        "https://github.com/DevStreamLogica/The-Unreliable-Narrator",
+        "https://github.com/DavidIsaiah/dragons_vs_machines",
+        "https://github.com/abo-code-1/JumpHooper",
+        "https://github.com/saleebm/PenguinSlide"
+      ],
+      "held_repositories": [],
+      "note": "Serial commit-page inspection accepted nine distinct LibGDX games across driving, tower defense, Tetris, endless running, Asteroids, detective mystery, physics slingshot, platform jumping and penguin sliding. Each has game-specific source and a direct Opus trailer. The first game-source link for each repository returned HTTP 200. Model versions range from Opus 4 through 4.8 and remain separate in each record.",
+      "next_experiments": [
+        "Run serial build or startup validation for the nine repositories",
+        "Record source-only versus compile/launch/test success",
+        "Continue with gameplay-specific Unreal Blueprint/C++ searches"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "Nine distinct LibGDX repositories were verified across multiple genres. Direct source and HTTP 200 checks are strong, but successful runtime execution remains the main gap.",
+      "critic": "existing critique agent"
+    },
+    {
       "source": "Exact Opus Godot milestone audit",
       "query_key": "repo:sly-the-fox/geometry-quest Co-Authored-By Claude Opus 4.6",
       "status": "completed",
@@ -4227,7 +4308,7 @@
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 443 across 380 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 452 across 389 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

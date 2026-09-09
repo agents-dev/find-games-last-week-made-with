@@ -14724,5 +14724,380 @@
     "quality_estimate_basis": "Source-backed puzzle prototype with game assembly, puzzle images, popup flow and direct Opus 4.6 attribution; prototype scope remains limited.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "EUC Lean Too Much",
+    "github_url": "https://github.com/crcknaka/euc-lean-too-much",
+    "game_links": [
+      "https://github.com/crcknaka/euc-lean-too-much/tree/main/core/src/main/kotlin/com/eucleantoomuch/game",
+      "https://github.com/crcknaka/euc-lean-too-much/blob/main/core/src/main/kotlin/com/eucleantoomuch/game/EucGame.kt"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/crcknaka/euc-lean-too-much/commit/2dae5ec9e80a0cd506fba2b8cd9802c90e933b78",
+    "screenshot_urls": [],
+    "technology": [
+      "libGDX",
+      "Kotlin",
+      "Box2D-style physics",
+      "Native Android/Desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "EUC Lean Too Much"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/crcknaka/euc-lean-too-much"
+    ],
+    "verification_notes": "The initial commit is titled EUC Lean Too Much game and describes a LibGDX Kotlin game for Android and desktop. Source includes player/car/pedestrian entities, movement and collision systems, physics, AI, procedural world generation, camera, game session/state, high scores, HUD, menu and game-over rendering. The commit page shows a direct Claude Opus 4.5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX rendering, physics, vehicle/pedestrian AI, procedural world and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Complete multi-platform game source with entities, physics, AI, procedural world, state flow and desktop/mobile launchers, with direct Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Fieldrunners 2 Remake",
+    "github_url": "https://github.com/TanBuiDev/fieldrunners2-remake",
+    "game_links": [
+      "https://github.com/TanBuiDev/fieldrunners2-remake/tree/main/core/src/com/fieldrunners2",
+      "https://github.com/TanBuiDev/fieldrunners2-remake/blob/main/core/src/com/fieldrunners2/game/GameplayScreen.java"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/TanBuiDev/fieldrunners2-remake/commit/4da7db1c0ee00723245ab4e4d4c9e80f80bc0ca2",
+    "screenshot_urls": [],
+    "technology": [
+      "libGDX",
+      "Java",
+      "Native Android"
+    ],
+    "model_family": [
+      "Claude Opus 4"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Fieldrunners 2 Remake"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/TanBuiDev/fieldrunners2-remake"
+    ],
+    "verification_notes": "The cited commit is titled Fieldrunners 2 remake - libGDX 64-bit Android and describes a full game recreation. Source includes the main game, map/grid/path planner, player, wave data, gameplay screen and Android launcher. The commit page shows direct Claude Opus 4 attribution.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 700000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX tower-defense rendering, grid/path planning, waves and Android runtime; not measured hardware throughput.",
+    "quality_estimate_10": 8.2,
+    "quality_estimate_basis": "Full tower-defense game structure with gameplay screen, player, map/grid, path planning and waves, plus direct Opus 4 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Jefftris",
+    "github_url": "https://github.com/jabernathy/jefftris",
+    "game_links": [
+      "https://github.com/jabernathy/jefftris/tree/main/src/main/java/com/jefftris",
+      "https://github.com/jabernathy/jefftris/blob/main/src/main/java/com/jefftris/screen/GameScreen.java"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/jabernathy/jefftris/commit/aeb5f5af01b1f711db3bb3e4c81b13ba6399c6fc",
+    "screenshot_urls": [],
+    "technology": [
+      "libGDX",
+      "Java",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Jefftris"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/jabernathy/jefftris"
+    ],
+    "verification_notes": "The initial commit is titled Jefftris libgdx Tetris clone. Its source includes title/game/high-score screens, game engine, gravity, piece spawning, scoring, board/cell/game-state models, tetromino types, renderer, desktop launcher and unit tests. The commit page shows a direct Claude Opus 4.7 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 450000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX board rendering, gravity, piece spawning, scoring, high-score persistence and input; not measured hardware throughput.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "Complete Tetris implementation with screens, engine, scoring, models, desktop launcher and broad tests, plus direct Opus 4.7 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Cube Run",
+    "github_url": "https://github.com/Eve-146T/cube-run",
+    "game_links": [
+      "https://github.com/Eve-146T/cube-run/blob/main/app/src/main/kotlin/cube/run/game/CubeRun.kt",
+      "https://github.com/Eve-146T/cube-run/tree/main/app/src/main/kotlin/cube/run/core"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Eve-146T/cube-run/commit/eec2fef0c182d1b3817cea9970940dc8db2c7c31",
+    "screenshot_urls": [],
+    "technology": [
+      "libGDX",
+      "Kotlin",
+      "Native Android"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Cube Run"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/Eve-146T/cube-run"
+    ],
+    "verification_notes": "The initial commit is titled Cube Run standalone and describes a three-lane endless runner extracted as a standalone app. Source includes CubeRun gameplay, GameSession, scores, sound effects, haptics, 3D game host and Android activity. The commit page shows a direct Claude Opus 4.8 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX runner rendering, lane state, obstacles, score, sound and Android host; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Standalone three-lane runner with dedicated gameplay class, session, scores, sound and Android integration, plus direct Opus 4.8 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Asteroids",
+    "github_url": "https://github.com/markm692/asteroids",
+    "game_links": [
+      "https://github.com/markm692/asteroids/tree/main/core/src/main/kotlin/com/asteroids",
+      "https://github.com/markm692/asteroids/blob/main/core/src/main/kotlin/com/asteroids/GameScreen.kt"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/markm692/asteroids/commit/9bb542933d1498a4cd2e9bed442cc75f3b8d0371",
+    "screenshot_urls": [],
+    "technology": [
+      "libGDX",
+      "Kotlin",
+      "Native Android"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Asteroids"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/markm692/asteroids"
+    ],
+    "verification_notes": "The initial commit is titled Asteroids game and describes a LibGDX/Kotlin asteroid shooter for Android. Source includes asteroid, bullet, ship, power-up, particle, game, menu and game-over classes, touch controls and vector rendering. The commit page shows a direct Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX vector rendering, asteroid/bullet/ship simulation, particles, power-ups and touch input; not measured hardware throughput.",
+    "quality_estimate_10": 8.3,
+    "quality_estimate_basis": "Complete Android shooter source with gameplay entities, screens, particles, power-ups and input, plus direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "The Unreliable Narrator",
+    "github_url": "https://github.com/DevStreamLogica/The-Unreliable-Narrator",
+    "game_links": [
+      "https://github.com/DevStreamLogica/The-Unreliable-Narrator/tree/main/core/src/main/java/com/dsa/game",
+      "https://github.com/DevStreamLogica/The-Unreliable-Narrator/blob/main/core/src/main/java/com/dsa/game/screens/GameScreen.java"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/DevStreamLogica/The-Unreliable-Narrator/commit/5419bf6107e4855c31c311b4aa8bd143a991e4ff",
+    "screenshot_urls": [],
+    "technology": [
+      "libGDX",
+      "Java",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "The Unreliable Narrator"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/DevStreamLogica/The-Unreliable-Narrator"
+    ],
+    "verification_notes": "The initial commit is titled The Unreliable Narrator - 2D murder mystery game and describes a LibGDX point-and-click detective game with complete gameplay. Source includes rooms/navigation, suspects, evidence, contradictions, tape content, examination/interview/narrator systems, achievements, save/load, game screen and desktop launcher. The commit page shows a direct Claude Opus 4.5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 550000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX point-and-click rendering, navigation, dialogue/evidence systems, state, save/load and UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "Complete narrative game source with rooms, suspects, evidence, interviews, contradictions, achievements, save/load and desktop launcher, plus direct Opus 4.5 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Dragons vs Machines",
+    "github_url": "https://github.com/DavidIsaiah/dragons_vs_machines",
+    "game_links": [
+      "https://github.com/DavidIsaiah/dragons_vs_machines/tree/main/core/src/main/java/me/teamsupre/me/dragonsvsmachines",
+      "https://github.com/DavidIsaiah/dragons_vs_machines/blob/main/core/src/main/java/me/teamsupre/me/dragonsvsmachines/screens/GameScreen.java"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/DavidIsaiah/dragons_vs_machines/commit/dc2e7b4002baf7bf9c31c74af0e35bda3dec93fe",
+    "screenshot_urls": [],
+    "technology": [
+      "libGDX",
+      "Java",
+      "Box2D",
+      "Native Android/Desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Dragons vs Machines"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/DavidIsaiah/dragons_vs_machines"
+    ],
+    "verification_notes": "The cited commit is titled Angry Birds-style physics game with libGDX + Box2D. It describes a complete slingshot physics game with main menu, level select, physics, entities, levels and gameplay screen, with Android, desktop, HTML and iOS launchers. The commit page shows a direct Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 950000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX/Box2D physics, slingshot entities, levels, particles, cutscenes and multi-platform rendering; not measured hardware throughput.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "Complete physics-game structure with entities, level selection, gameplay screen, Box2D and multiple launchers, plus direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Star Jump",
+    "github_url": "https://github.com/abo-code-1/JumpHooper",
+    "game_links": [
+      "https://github.com/abo-code-1/JumpHooper/tree/main/core/src/com/starbots/starjump",
+      "https://github.com/abo-code-1/JumpHooper/blob/main/core/src/com/starbots/starjump/screens/PlayState.java"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/abo-code-1/JumpHooper/commit/9dea61cb98371226205c8711eb66b7056dd1a778",
+    "screenshot_urls": [
+      "https://github.com/abo-code-1/JumpHooper/blob/main/assets/astronaut.png"
+    ],
+    "technology": [
+      "libGDX",
+      "Java",
+      "Native Android/Desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Star Jump"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/abo-code-1/JumpHooper"
+    ],
+    "verification_notes": "The initial commit is titled Star Jump — Java/libGDX port. It describes a 1:1 reimplementation with player/world/platform models, moving and lava platforms, collision, play/menu/game-over/achievement states, score, tilt/keyboard input and Android/desktop launchers. The commit page shows a direct Claude Opus 4.7 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX platform rendering, player/platform physics, collision, score, achievements and input; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Coherent platform game with player/world/platform systems, states, scoring, achievements, controls, tests and multi-platform launchers, plus direct Opus 4.7 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Icy Penguin Slide",
+    "github_url": "https://github.com/saleebm/PenguinSlide",
+    "game_links": [
+      "https://github.com/saleebm/PenguinSlide/tree/main/android-libgdx/core/src/main/kotlin/dev/copt/penguinslide",
+      "https://github.com/saleebm/PenguinSlide/blob/main/android-libgdx/core/src/main/kotlin/dev/copt/penguinslide/GameScreen.kt"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/saleebm/PenguinSlide/commit/f5a28b05dcf1187011984a77c702814495f61b2d",
+    "screenshot_urls": [
+      "https://github.com/saleebm/PenguinSlide/blob/main/android-libgdx/assets/sprites/penguin_slide.png"
+    ],
+    "technology": [
+      "libGDX",
+      "Kotlin",
+      "Native Android/Desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Icy Penguin Slide"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for LibGDX game Co-Authored-By Claude Opus",
+      "https://github.com/saleebm/PenguinSlide"
+    ],
+    "verification_notes": "The cited commit is titled rebuild Icy Penguin Slide on libGDX and describes a Kotlin/libGDX Android and desktop port. Source includes GameScreen, penguin entities/motion, icicle system, scoring, high scores, audio, sprite animations, HUD/overlays, tests and Android/desktop launchers. The commit page shows a direct Claude Opus 4.8 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 700000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for libGDX sprite rendering, penguin motion, icicle hazards, scoring, animation, audio and overlays; not measured hardware throughput.",
+    "quality_estimate_10": 8.6,
+    "quality_estimate_basis": "Complete cross-platform action game port with gameplay screen, motion, hazards, scoring, audio, animations, overlays and tests, plus direct Opus 4.8 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
