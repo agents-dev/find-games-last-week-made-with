@@ -4681,10 +4681,56 @@
       },
       "critique_note": "The milestone has real player, camera, input and engine verification. Count it as a prototype, not a finished game, preserve the Opus 4.7 version label, and add interactive play checks where available.",
       "critic": "existing critique agent"
+    },
+    {
+      "source": "Exact Opus native engine audit",
+      "query_key": "Godot game Co-Authored-By Claude Opus; Stride game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 12,
+      "new_verified_repositories": 10,
+      "new_game_units": 10,
+      "new_rejected": 2,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/aalicia1208/stride-n-conquer",
+        "https://github.com/mcarthey/CascadeGame",
+        "https://github.com/JoeyDD27/Air-Strider",
+        "https://github.com/asg86260/Tongue",
+        "https://github.com/miromustafa/micro-game-jam",
+        "https://github.com/ArnasJuskevicius/dice-catcher",
+        "https://github.com/enricosaito/keyboard-idle",
+        "https://github.com/Math-Man/zuma3d",
+        "https://github.com/ayanamirei404/Pac_man_3d",
+        "https://github.com/daiSky88/godot-2048"
+      ],
+      "rejected_repositories": [
+        "https://github.com/Nicogo1705/StrideAssetStore",
+        "https://github.com/martinelola92-beep/underleague"
+      ],
+      "held_repositories": [],
+      "note": "Serial commit and tree inspection accepted ten native game repositories. Godot projects were required to contain project.godot, a main scene, direct gameplay scripts and named game systems. Cascade was accepted as a runnable Stride prototype. Stride 'n Conquer was accepted as a React Native mobile game, not as a Stride Engine project. The Stride asset store and the Underleague preproduction repository were rejected. The Air Strider, Chase Game and Zooma repositories contain separate Godot AI/MCP or tool content; those addons were excluded from game-unit counts.",
+      "next_experiments": [
+        "Perform serial startup or build validation for the ten native games",
+        "Continue with Unity, Unreal and another non-browser engine alias partition",
+        "Keep native mobile, Godot, Stride and other engines in the separate non-browser README section"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The pass adds ten distinct native game units with direct source paths and exact Claude Opus trailers. The main remaining risk is runtime status: several projects are explicitly prototypes or require native engine tooling. Keep them as verified_source entries and record runtime results separately.",
+      "critic": "existing critique agent"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 515 across 447 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 525 across 457 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

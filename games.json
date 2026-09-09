@@ -1,5 +1,435 @@
 [
   {
+    "name": "Stride 'n Conquer",
+    "github_url": "https://github.com/aalicia1208/stride-n-conquer",
+    "game_links": [
+      "https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/App.js",
+      "https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/src/context/GameContext.js",
+      "https://github.com/aalicia1208/stride-n-conquer/blob/c4ef156505bd4b3202f8e60940698902a24fd240/src/screens/MapScreen.js"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/aalicia1208/stride-n-conquer/commit/c4ef156505bd4b3202f8e60940698902a24fd240",
+    "screenshot_urls": [],
+    "technology": [
+      "React Native",
+      "Expo",
+      "JavaScript",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Stride 'n Conquer"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Stride game Co-Authored-By Claude Opus",
+      "https://github.com/aalicia1208/stride-n-conquer"
+    ],
+    "verification_notes": "The initial commit explicitly describes a mobile territory-claiming walking game with smart path routing, landmarks, tokens, pets shop and leaderboard. MapScreen implements movement tracking, token collection and territory capture; GameContext implements the game state and economy. The cited commit includes a direct Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 450000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for native map rendering, location updates, territory geometry, landmark UI and token interactions; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "The repository contains a clearly named mobile game with multiple gameplay systems and direct source evidence, plus explicit Claude Opus attribution in the initial commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Cascade",
+    "github_url": "https://github.com/mcarthey/CascadeGame",
+    "game_links": [
+      "https://github.com/mcarthey/CascadeGame/blob/de605f27a1e1ab871573c68237071b38ca771630/README.md",
+      "https://github.com/mcarthey/CascadeGame/blob/de605f27a1e1ab871573c68237071b38ca771630/Cascade.Game/CascadeApp.cs",
+      "https://github.com/mcarthey/CascadeGame/blob/de605f27a1e1ab871573c68237071b38ca771630/Cascade.Infrastructure/Stride/Scripts/MaterialSprayController.cs"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/mcarthey/CascadeGame/commit/de605f27a1e1ab871573c68237071b38ca771630",
+    "screenshot_urls": [],
+    "technology": [
+      "Stride",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Cascade"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Stride game Co-Authored-By Claude Opus",
+      "https://github.com/mcarthey/CascadeGame"
+    ],
+    "verification_notes": "The README identifies Cascade as a 2D physics-based action game and documents a runnable Stride game project with keyboard and mouse controls. CascadeApp configures the Stride runtime, while MaterialSprayController and the particle systems implement interactive material spraying. The cited Claude-authored commit improves the playable visual feedback; nearby source commits include a direct Claude Opus 4.5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Stride 2D rendering, particle simulation, spatial queries, material behavior and input systems; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "The repository has a runnable native Stride game project, documented controls, explicit action-game framing and source for rendering, physics and input; gameplay is still marked early development.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Air Strider",
+    "github_url": "https://github.com/JoeyDD27/Air-Strider",
+    "game_links": [
+      "https://github.com/JoeyDD27/Air-Strider/blob/439759f90c6a05b6efd433064f981655042ea46c/project.godot",
+      "https://github.com/JoeyDD27/Air-Strider/tree/439759f90c6a05b6efd433064f981655042ea46c/scenes",
+      "https://github.com/JoeyDD27/Air-Strider/tree/439759f90c6a05b6efd433064f981655042ea46c/scripts"
+    ],
+    "live_demo_url": "https://joeydd27.itch.io/air-strider",
+    "evidence_url": "https://github.com/JoeyDD27/Air-Strider/commit/439759f90c6a05b6efd433064f981655042ea46c",
+    "screenshot_urls": [
+      "https://raw.githubusercontent.com/JoeyDD27/Air-Strider/main/screen%20shots/%E6%88%AA%E5%B1%8F2026-02-02%20%E4%B8%8B%E5%8D%881.17.14.png",
+      "https://raw.githubusercontent.com/JoeyDD27/Air-Strider/main/screen%20shots/%E6%88%AA%E5%B1%8F2026-02-02%20%E4%B8%8B%E5%8D%881.18.58.png"
+    ],
+    "technology": [
+      "Godot",
+      "GDScript",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Air Strider"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Stride game Co-Authored-By Claude Opus",
+      "https://github.com/JoeyDD27/Air-Strider",
+      "https://joeydd27.itch.io/air-strider"
+    ],
+    "verification_notes": "The repository has a Godot project.godot with Air Strider as the project name and a main menu scene, extensive player/enemy/entity scenes, and gameplay scripts. The initial commit explicitly identifies it as a game and includes a direct Claude Opus 4.6 trailer. The linked itch.io page is the creator's download page.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D scene rendering, animated sprites, collisions, enemies, projectiles, rooms, effects and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "The repository contains a substantial Godot game with many rooms, enemies, player abilities, effects and a download page, plus explicit Claude Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Tongue",
+    "github_url": "https://github.com/asg86260/Tongue",
+    "game_links": [
+      "https://github.com/asg86260/Tongue/blob/83dc1afa3d6f762e38953feddde9d1c8618e9599/project.godot",
+      "https://github.com/asg86260/Tongue/blob/83dc1afa3d6f762e38953feddde9d1c8618e9599/Game.gd",
+      "https://github.com/asg86260/Tongue/blob/83dc1afa3d6f762e38953feddde9d1c8618e9599/Main.tscn"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/asg86260/Tongue/commit/83dc1afa3d6f762e38953feddde9d1c8618e9599",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot",
+      "GDScript",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Tongue"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Godot game Co-Authored-By Claude Opus",
+      "https://github.com/asg86260/Tongue"
+    ],
+    "verification_notes": "The README identifies Tongue as a physics tongue-swing game and gives Godot 4.7 run instructions. The repository contains project.godot, Main.tscn and Game.gd with grapple, swing, leap, movement, jump and reset controls. The initial commit includes a direct Claude Opus 4.8 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D rendering, tongue physics, collisions, frog movement and scene processing; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "The repository has a runnable Godot scene and explicit grapple/swing gameplay, but the creator labels it a greybox prototype.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Micro Game Jam",
+    "github_url": "https://github.com/miromustafa/micro-game-jam",
+    "game_links": [
+      "https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/project.godot",
+      "https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/Scenes/game.gd",
+      "https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/Scenes/game.tscn"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/miromustafa/micro-game-jam/commit/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot",
+      "GDScript",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Micro Game Jam"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Godot game Co-Authored-By Claude Opus",
+      "https://github.com/miromustafa/micro-game-jam"
+    ],
+    "verification_notes": "The initial commit is explicitly a Godot game project and contains project.godot, the game scene and controller scripts, plus player, plane, mover, bomb, bullet, explosion and game-over scenes. The commit includes a direct Claude Opus 5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1000000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D scene rendering, player/plane movement, projectiles, homing movers, bombs, explosions and game-over flow; not measured hardware throughput.",
+    "quality_estimate_10": 7.5,
+    "quality_estimate_basis": "The repository contains a concrete playable-scene structure with player, enemies, weapons and game-over flow, but it has no README or published demo.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Dice Catcher",
+    "github_url": "https://github.com/ArnasJuskevicius/dice-catcher",
+    "game_links": [
+      "https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/project.godot",
+      "https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/scenes/game/game.gd",
+      "https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/scenes/game/game.tscn"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/ArnasJuskevicius/dice-catcher/commit/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot",
+      "GDScript",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Dice Catcher"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Godot game Co-Authored-By Claude Opus",
+      "https://github.com/ArnasJuskevicius/dice-catcher"
+    ],
+    "verification_notes": "The commit describes a fox-catches-dice game and includes project.godot, game/fox/dice scenes, gameplay scripts, sprites, fonts and audio assets. The commit includes a direct Claude Opus 5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D scene rendering, dice spawning/collision, fox controls, score handling and audio; not measured hardware throughput.",
+    "quality_estimate_10": 7.5,
+    "quality_estimate_basis": "The repository has a focused game scene with named gameplay entities, scripts and bundled art/audio, but no README or published demo.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Keyboard Idle",
+    "github_url": "https://github.com/enricosaito/keyboard-idle",
+    "game_links": [
+      "https://github.com/enricosaito/keyboard-idle/blob/6edbfb6fe83e7b75bed4e5305fbdece93b1a5338/project.godot",
+      "https://github.com/enricosaito/keyboard-idle/blob/6edbfb6fe83e7b75bed4e5305fbdece93b1a5338/src/core/simulation.gd",
+      "https://github.com/enricosaito/keyboard-idle/blob/6edbfb6fe83e7b75bed4e5305fbdece93b1a5338/src/ui/main_ui.gd"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/enricosaito/keyboard-idle/commit/6edbfb6fe83e7b75bed4e5305fbdece93b1a5338",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot",
+      "GDScript",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Keyboard Idle"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Godot game Co-Authored-By Claude Opus",
+      "https://github.com/enricosaito/keyboard-idle"
+    ],
+    "verification_notes": "The README identifies Keyboard Idle as a Godot 4 incremental game targeting Steam and gives run instructions. The repository contains the main scene, autoload game state/save systems, simulation rules, typing input, upgrade catalogue and UI tabs. The initial commit includes a direct Claude Opus 5 trailer and a Claude session link.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 700000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot UI rendering, fixed-timestep simulation, typing input, upgrade logic, save system and statistics; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "The repository has a documented runnable Godot game with a clear incremental loop, simulation layer, upgrades, persistence and UI architecture, plus direct Claude Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Zooma",
+    "github_url": "https://github.com/Math-Man/zuma3d",
+    "game_links": [
+      "https://github.com/Math-Man/zuma3d/blob/e1105a16e8756a32088ebc8208f6f5a3d1ae33e9/project.godot",
+      "https://github.com/Math-Man/zuma3d/blob/e1105a16e8756a32088ebc8208f6f5a3d1ae33e9/Scenes/level.tscn",
+      "https://github.com/Math-Man/zuma3d/tree/e1105a16e8756a32088ebc8208f6f5a3d1ae33e9/Game"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Math-Man/zuma3d/commit/e1105a16e8756a32088ebc8208f6f5a3d1ae33e9",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot",
+      "C#",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Zooma"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Godot game Co-Authored-By Claude Opus",
+      "https://github.com/Math-Man/zuma3d"
+    ],
+    "verification_notes": "The Godot project configuration names the game Zooma and points to Scenes/level.tscn. The scene contains a 3D turret, ball queue, chain controller, shot, round controller, room and HUD; the Game directory contains C# aim, chain, ball, turret and projectile systems. The cited commit includes a direct Claude Opus 5 trailer. Exclude the bundled Godot AI addon from the game count.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 3200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 3D scene rendering, GLTF models, multi-mesh chain rendering, turret aiming, projectiles, collision and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "The repository contains a concrete 3D Zuma-style game scene with native C# systems, models and round flow; the repository also contains a separate AI addon that is excluded from the count.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Chase Game",
+    "github_url": "https://github.com/ayanamirei404/Pac_man_3d",
+    "game_links": [
+      "https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/project.godot",
+      "https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/scene/main_scene.tscn",
+      "https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/scene/player_3d.gd",
+      "https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/ghost/ghost.gd"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/ayanamirei404/Pac_man_3d/commit/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c",
+    "screenshot_urls": [
+      "https://raw.githubusercontent.com/ayanamirei404/Pac_man_3d/main/%E6%BC%94%E7%A4%BA%E7%85%A7%E7%89%87/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202026-06-04%20192312.gif"
+    ],
+    "technology": [
+      "Godot",
+      "GDScript",
+      "Jolt Physics",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Chase Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Godot game Co-Authored-By Claude Opus",
+      "https://github.com/ayanamirei404/Pac_man_3d"
+    ],
+    "verification_notes": "The README identifies a Godot 4.6 3D maze chase game and documents movement, flashlight, sprint, stamina, battery, ghost AI, procedural maze generation, game-over flow and mobile controls. The repository contains project.godot, main scene, player, ghost, maze, UI and control scripts, plus a creator-provided gameplay recording. The initial commit includes a direct Claude Opus 4.7 trailer. Exclude the bundled Godot MCP addon from the game count.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 4200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 3D rendering, Jolt physics, procedural maze generation, ghost AI, flashlight, stamina/battery systems and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "The repository contains a substantial 3D chase game with procedural levels, multi-state ghost AI, survival systems, mobile controls and a gameplay recording, with direct Claude Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Godot 2048",
+    "github_url": "https://github.com/daiSky88/godot-2048",
+    "game_links": [
+      "https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/project.godot",
+      "https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scripts/components/GridBoard.gd",
+      "https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scripts/components/Tile.gd",
+      "https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/scenes/main/Main.tscn"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/daiSky88/godot-2048/commit/3f3e4d9ce92182fed51f17d5c51132ecdc891036",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot",
+      "GDScript",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Godot 2048"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Godot game Co-Authored-By Claude Opus",
+      "https://github.com/daiSky88/godot-2048"
+    ],
+    "verification_notes": "The initial commit identifies a Godot 2048 game and includes project.godot, a main scene, game-over and win dialogs, a 4x4 GridBoard, tile logic, score display, game state manager and save manager. The repository README documents the 2048 merge/spawn game structure. The initial commit includes a direct Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 550000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot UI rendering, 4x4 board movement, tile merge animation, dialogs, score and persistence; not measured hardware throughput.",
+    "quality_estimate_10": 7.5,
+    "quality_estimate_basis": "The repository contains a focused 2048 implementation with the core board algorithm, tile scenes, win/game-over flow and persistence, but no published demo.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
     "name": "Frog Hopper",
     "github_url": "https://github.com/Stephenson-Software/Frog-Hopper-2D",
     "game_links": [

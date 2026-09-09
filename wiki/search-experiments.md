@@ -1503,3 +1503,32 @@ The critique agent scores this audit **9/10** overall: novelty **9**, yield **8*
 ### Next experiment
 
 Run serial SDL2 build or startup validation. Record directly runnable, buildable with user-supplied data, and source-verified-only statuses, then search another native engine.
+
+### Serial Godot and other native-engine audit
+
+Run the serial GitHub commit searches `Godot game Co-Authored-By Claude Opus` and `Stride game Co-Authored-By Claude Opus`. Require an actual engine project, a main scene or entrypoint, direct gameplay source, and an exact Claude Opus trailer. Route all accepted entries to the separate non-browser section.
+
+Accept:
+
+- [Stride 'n Conquer](https://github.com/aalicia1208/stride-n-conquer) — React Native/Expo mobile territory-claiming walking game with map movement, landmarks, tokens, pets shop and leaderboard.
+- [Cascade](https://github.com/mcarthey/CascadeGame) — Stride/C# 2D fluid action prototype with particle materials, spray controls and physics systems.
+- [Air Strider](https://github.com/JoeyDD27/Air-Strider) — Godot 2D action game with extensive rooms, player abilities, enemies, effects and an itch.io download page.
+- [Tongue](https://github.com/asg86260/Tongue) — Godot frog tongue-swing prototype with grapple, reel, jump, air-steer and reset gameplay.
+- [Micro Game Jam](https://github.com/miromustafa/micro-game-jam) — Godot shooter project with player, plane, movers, bombs, bullets, explosions and game-over scenes.
+- [Dice Catcher](https://github.com/ArnasJuskevicius/dice-catcher) — Godot fox-catches-dice game with game, fox and dice scenes, sprites, fonts and audio.
+- [Keyboard Idle](https://github.com/enricosaito/keyboard-idle) — Godot incremental typing game with fixed-timestep simulation, upgrades, statistics, UI and saves.
+- [Zooma](https://github.com/Math-Man/zuma3d) — Godot/C# 3D Zuma-style game with turret aiming, ball queue, chain controller, rounds, models and HUD.
+- [Chase Game](https://github.com/ayanamirei404/Pac_man_3d) — Godot 3D maze chase game with procedural mazes, ghost AI, flashlight, sprint, stamina, battery and mobile controls.
+- [Godot 2048](https://github.com/daiSky88/godot-2048) — Godot 2048 game with a 4x4 board, tile merging, score, win/game-over dialogs and save management.
+
+Reject [StrideAssetStore](https://github.com/Nicogo1705/StrideAssetStore) because it is an asset catalog and installer, not a game. Reject [Underleague](https://github.com/martinelola92-beep/underleague) because its current repository is preproduction documentation and a scene shell without enough direct gameplay implementation. Exclude bundled Godot AI/MCP addons from the game counts.
+
+This pass adds ten source-verified native game units and raises the collection to 525 units across 457 repositories. Keep `technology` values explicit so the generator places Godot, Stride, React Native, Unity, Unreal and other native engines under `Non-Browser Engines`.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it as a source-verified pass. Run native startup or build checks later and record those results separately from source verification.
+
+### Next experiment
+
+Run serial startup or build validation for the ten accepted native games. Continue with a Unity, Unreal or other-engine alias partition, and preserve the separate non-browser category.
