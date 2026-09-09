@@ -882,3 +882,15 @@ Recheck the recent Fable and MartinDelophy passes against canonical repository U
 The six direct repositories from the MartinDelophy catalog were also already present. Count zero new units from that expansion. The corrected critique scores the Fable method **8/10** overall and keeps it. It scores the MartinDelophy expansion **6/10** overall and drops it as a discovery method; keep it only for confirmation audits.
 
 Run the next catalog expansion against a different independent list. Deduplicate before inspection and count only new canonical repositories.
+
+### Dropped catalog methods
+
+Audit [archorfight/awesome-gpt-6-astra](https://github.com/archorfight/awesome-gpt-6-astra) direct project links. Confirm [Red Alert 2](https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04) and [NULLSPACE](https://github.com/marius4lui/NULLSPACE) as existing records. Reject [agent-bluff](https://github.com/paveljor/agent-bluff) because models are tournament players, not authors of the game engine. Add zero new units.
+
+Audit [MiaAI-Lab/GPT-6-Astra-100-HTML-Files](https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files). Inspect all 100 prompt metadata files. Confirm that they describe visual studies, interfaces, physics toys or art experiments, not objective-based games. Add zero units and reject the catalog.
+
+The existing critique agent scores both methods **6/10** overall and drops both under the below-8 rule. Keep their rejection evidence. Do not use broad visual-study or mixed tool catalogs as primary discovery sources.
+
+### Next experiment
+
+Inspect [helloianneo/awesome-gpt6-astra](https://github.com/helloianneo/awesome-gpt6-astra) or another explicit game catalog. Follow only direct GitHub game-source links. Deduplicate before counting and require a documented game loop.

@@ -378,6 +378,16 @@
       "repository": "https://github.com/nigrosimone/llms-robot-arena",
       "source": "GitHub REST API search: Fable 5.1 game in README, pushed 2026-09-09..2026-09-10",
       "reason": "The repository contains a real browser robot-arena game, but its model-attributed artifacts are submitted bot controllers. The README does not establish that GPT-6 Astra or Fable made the game engine itself. Reject to avoid counting a game merely because model-written bots compete inside it."
+    },
+    {
+      "repository": "https://github.com/paveljor/agent-bluff",
+      "source": "Direct project links from archorfight/awesome-gpt-6-astra",
+      "reason": "The repository is a deception tournament benchmark in which GPT-6 Astra and other models are players. It is not a game authored by those models, so reject it from the model-built game collection."
+    },
+    {
+      "repository": "https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files",
+      "source": "Direct project links from archorfight/awesome-gpt-6-astra",
+      "reason": "The repository is a catalog of 100 self-contained visual studies, interfaces, physics toys and art experiments. Serial inspection of the prompt metadata found no source-backed objective-based game collection; reject the catalog and its visual-only pieces."
     }
   ]
 }

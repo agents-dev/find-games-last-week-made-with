@@ -3105,6 +3105,82 @@
         "Expand a different independent catalog, such as xianyu110 or archorfight",
         "Count only new canonical repositories after inspection"
       ]
+    },
+    {
+      "source": "Curated-list expansion: archorfight/awesome-gpt-6-astra direct project links",
+      "query_key": "gh-readme|archorfight/awesome-gpt-6-astra|direct-project-links|2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "unseen_count": 4,
+      "overlap_ratio": 0.5,
+      "confirmed_existing_repositories": [
+        "https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04",
+        "https://github.com/marius4lui/NULLSPACE"
+      ],
+      "rejected_repositories": [
+        "https://github.com/paveljor/agent-bluff"
+      ],
+      "note": "The catalog's direct project table produced two known game records, one model-vs-model tournament and other scene/tool leads. No new game repository passed the model-authored-game rule. Keep catalog totals out of the count.",
+      "next_experiments": [
+        "Score this catalog expansion and drop it if the overall score is below 8",
+        "Inspect a different catalog's direct source links",
+        "Deduplicate before counting"
+      ]
+    },
+    {
+      "source": "Catalog audit: MiaAI-Lab/GPT-6-Astra-100-HTML-Files",
+      "query_key": "gh-readme|MiaAI-Lab/GPT-6-Astra-100-HTML-Files|all-100-pieces|2026-09-10",
+      "status": "completed",
+      "results_inspected": 100,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "rejected_repositories": [
+        "https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files"
+      ],
+      "note": "Serial metadata inspection confirmed that all 100 files are visual studies, art tools, interfaces or physics toys. The repository is not a source-backed game collection. Reject the catalog rather than splitting non-game pieces into false game records.",
+      "next_experiments": [
+        "Do not repeat broad visual-study catalogs",
+        "Use a direct game catalog with source links and objective-based entries"
+      ]
+    },
+    {
+      "source": "Critique of archorfight and MiaAI catalog methods",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "archorfight_awesome_gpt_6_astra_direct_links": {
+          "novelty": 2,
+          "yield": 1,
+          "verification_quality": 8,
+          "repeatability": 8,
+          "source_quality": 7,
+          "false_positive_control": 9,
+          "overall": 6,
+          "decision": "drop"
+        },
+        "miaai_100_html_catalog_audit": {
+          "novelty": 1,
+          "yield": 1,
+          "verification_quality": 10,
+          "repeatability": 9,
+          "source_quality": 6,
+          "false_positive_control": 10,
+          "overall": 6,
+          "decision": "drop"
+        }
+      },
+      "note": "Drop both methods under the below-8 rule. Keep their rejection evidence, but switch to a catalog with explicit game labels and direct repository links.",
+      "next_experiments": [
+        "Inspect helloianneo/awesome-gpt6-astra or another explicit game catalog",
+        "Follow only direct GitHub game-source links",
+        "Deduplicate before counting and require a documented game loop"
+      ]
     }
   ],
   "frontier": [
