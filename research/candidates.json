@@ -163,6 +163,16 @@
       "repository": "https://github.com/emollick/abyssal-living-deep",
       "source": "https://github.com/yangqiong/gpt6-astra-3d",
       "reason": "The repository is a substantial playable Three.js underwater exploration and visualization, but its README presents it as an interactive ecological world rather than a game with a player objective or game loop. Do not count visual worlds without game rules."
+    },
+    {
+      "repository": "https://github.com/Braffolk/fable5-world-demo",
+      "source": "GitHub code search: claude fable",
+      "reason": "The repository is a substantial walkable Three.js/WebGPU procedural open world, but its README describes an exploration scene and flythrough without a game objective or rules. Do not count visual worlds as games."
+    },
+    {
+      "repository": "https://github.com/marcusllittle/Astra-Valkyries",
+      "source": "GitHub code search: Astra Unreal",
+      "reason": "The repository contains a real React/TypeScript shmup, but Astra is the product or game name, not evidence of GPT-6 Astra, Claude Opus, or Claude Fable. Its Unreal roadmap describes a planned visual production layer and does not establish model attribution."
     }
   ]
 }

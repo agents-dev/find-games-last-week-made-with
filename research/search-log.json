@@ -466,12 +466,132 @@
         "Inspect additional direct game repositories from curated GPT-6 Astra lists",
         "Search README code for model-name variants and exclude known repositories"
       ]
+    },
+    {
+      "source": "GitHub incoming-link checks",
+      "query_key": "incoming-links|ASTRA AIR COMBAT|Block World CN",
+      "status": "completed",
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The incoming-link query for ASTRA AIR COMBAT returned no results. The Block World CN query returned only its own README and issue-template references. No new curated source was exposed.",
+      "next_experiments": [
+        "Inspect additional curated GPT-6 Astra lists",
+        "Search Claude Fable game repository metadata",
+        "Keep non-browser engine classification active"
+      ]
+    },
+    {
+      "source": "Curated GPT-6 Astra list expansion",
+      "query_key": "curated-lists|helloianneo|yestar2023-alt|Anil-matcha|direct-github-links",
+      "status": "completed",
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The inspected list READMEs contain X links and general catalog links but no additional direct GitHub game repositories beyond records already collected. Keep these lists as discovery context, not a high-yield source.",
+      "next_experiments": [
+        "Search repository metadata for Claude Fable game",
+        "Inspect direct candidates one at a time",
+        "Search code for Claude Fable plus Godot, Unity, and Unreal"
+      ]
+    },
+    {
+      "source": "Claude Fable repository and code search",
+      "query_key": "repo-search|Claude Fable game|fable5 game|code-search|claude fable|README.md",
+      "status": "completed",
+      "received_count": 101,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "note": "The exact Claude Fable repository search returned no results. The fable5 game variant repeated the already verified Hollow Pines repository. README code search returned many non-game references; Braffolk/fable5-world-demo was rejected as an exploration world without a game objective.",
+      "next_experiments": [
+        "Run code search for model attribution plus engine names",
+        "Inspect direct Unreal or Unity game repositories only when source evidence exists",
+        "Keep Fable list sources as supplemental context"
+      ]
+    },
+    {
+      "source": "Engine-specific GPT-6 Astra searches",
+      "query_key": "repo-search|Astra Unity game|Astra Unreal game|gpt6 astra unity|gpt6 astra godot|code-search|GPT-6 Astra Unreal|GPT-6 Astra Unity",
+      "status": "completed",
+      "received_count": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "Serial Unity, Unreal and Godot metadata searches and README code searches returned no new direct repositories. The current non-browser category remains populated from verified Godot, PlayStation, Minecraft, Pygame, Unity CLI and Luanti records.",
+      "next_experiments": [
+        "Search source files for model attribution without README filename restriction",
+        "Search incoming links to PhiloLabs/fable51-worlds and TetsuakiBaba/2DAction.bench",
+        "Inspect additional model-run monorepos with explicit game directories"
+      ]
+    },
+    {
+      "source": "GitHub source-file attribution search",
+      "query_key": "code-search|GPT-6 Astra game|all-paths|limit=100",
+      "query": "GPT-6 Astra game",
+      "requested_limit": 100,
+      "received_count": 5,
+      "status": "completed",
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "note": "Removing the README filename restriction exposed fromage3900/MelodiaMelusinaV2, a substantial Unreal Engine 5.8 rhythm-JRPG with a GPT-6 Astra game-state checkpoint. The other relevant result was a catalog. The repository itself appeared in self-search results and was ignored.",
+      "next_experiments": [
+        "Inspect more source-file attribution results without filename restriction",
+        "Search incoming links to the new Unreal repository",
+        "Search model attribution in project files such as uproject, project.godot and package manifests"
+      ]
+    },
+    {
+      "source": "Curated casebook expansion",
+      "query_key": "curated-list|zlxxlz1026/awesome-gpt-6-astra-casebook|direct-github-links",
+      "status": "completed",
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The casebook README has no direct GitHub game links beyond its own issue template. Keep it as a lead catalog only.",
+      "next_experiments": [
+        "Search incoming links to Melodia Melusina",
+        "Search project-file attribution across engine-specific repositories"
+      ]
+    },
+    {
+      "source": "GitHub source-file search critique",
+      "query_key": "critique|code-search|GPT-6 Astra game|all-paths",
+      "status": "completed",
+      "critique_score": 7,
+      "decision": "retain unrestricted code search provisionally and test an engine-specific variant",
+      "note": "The method found one substantial Unreal game repository that README-only search missed. Verification quality was scored 7/10 because the model-use checkpoint is first-party but self-reported and the runtime was not independently executed. Yield was 1/5 returned code results.",
+      "next_experiments": [
+        "Run unrestricted code search for GPT-6 Astra Unreal",
+        "Save the matching model-use passage and concrete gameplay file",
+        "Group individual code hits by repository before counting"
+      ]
+    },
+    {
+      "source": "Unrestricted Unreal attribution variant",
+      "query_key": "code-search|GPT-6 Astra Unreal|Astra Unreal|all-paths",
+      "queries": [
+        "GPT-6 Astra Unreal",
+        "Astra Unreal"
+      ],
+      "status": "completed",
+      "received_count": 6,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "note": "The exact GPT-6 Astra Unreal query returned no results. The broader Astra Unreal query returned a catalog, a model-name collision, and digest references. marcusllittle/Astra-Valkyries is a real web shmup but provides no GPT-6 Astra, Claude Opus, or Claude Fable attribution, so it was rejected. majiayu000/astra-gallery remains a social-lead catalog and was not counted.",
+      "next_experiments": [
+        "Search incoming links to fromage3900/MelodiaMelusinaV2",
+        "Search GPT-6 Astra project.godot and .uproject attribution serially",
+        "Inspect engine-specific project files only when they include both a playable game and model evidence"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 325 across 282 unique accessible repository records",
-    "Reverse-link chains are supplemental only; exact model-name repository search currently has the best yield",
-    "Next serial experiment: search the exact variant gpt6 astra game, then inspect the yangqiong 3D catalog for direct GitHub game links",
+    "Target: 900 independently counted game units; current: 328 across 285 unique accessible repository records",
+    "Reverse-link chains and curated lists are supplemental; exact model-name metadata search currently has the best yield",
+    "Next serial experiment: search incoming links to Melodia Melusina, then search GPT-6 Astra project.godot and .uproject attribution",
     "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
     "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"

@@ -10174,5 +10174,44 @@
     "quality_estimate_basis": "Evidence-based estimate from a complete one-stage platform game, clear objective, enemy and collectible systems, restart flow, tests, screenshot and explicit model-benchmark separation.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Melodia Melusina",
+    "repository_id": 1331271560,
+    "github_url": "https://github.com/fromage3900/MelodiaMelusinaV2",
+    "evidence_url": "https://github.com/fromage3900/MelodiaMelusinaV2",
+    "technology": [
+      "Unreal Engine 5.8",
+      "C++",
+      "Blueprints",
+      "Blender",
+      "Native desktop"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Melodia Melusina"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-08-11T19:11:41Z",
+    "discovery_sources": [
+      "https://github.com/fromage3900/MelodiaMelusinaV2",
+      "GitHub code search: GPT-6 Astra game"
+    ],
+    "verification_notes": "The repository contains a real Unreal Engine 5.8 project with BS_GodFile.uproject, tracked game content, C++ source, maps, a rhythm-JRPG combat loop, traversal abilities, narrative progression, save state and test/verification tooling. Its README documents the GPT-6 Astra historical game-state checkpoint and the current playable technical slice. Classified under Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 5200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unreal rendering, streamed environments, C++ gameplay systems, rhythm combat, materials, audio reactivity and native desktop GPU workload; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a substantial Unreal project, explicit gameplay systems, maps, source, historical Astra checkpoint, build evidence and current verification documents.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
