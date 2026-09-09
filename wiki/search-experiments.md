@@ -1338,3 +1338,24 @@ The critique agent scores this audit **9/10** overall: novelty **9**, yield **9*
 ### Next experiment
 
 Perform serial Cocos runtime validation by opening each project’s main scene or build target. Record source-verified versus successfully runnable games, and keep Opus 4.6 and 4.7 separate.
+
+### Exact Opus MonoGame native game audit
+
+Run the serial GitHub search `MonoGame game Co-Authored-By Claude Opus`. Accept:
+
+- [FarmGame](https://github.com/tsunejui/farm-game) — MonoGame farming prototype with a tile map, player movement and camera.
+- [DwarfMiner](https://github.com/dainedwards/DwarfMiner) — MonoGame procedural pixel game with a dwarf player, titan boss, ore, biomes and crafting.
+- [CRACKED](https://github.com/duke1937/Cracked) — MonoGame egg-production game with buying, hatching, chickens and passive money.
+- [HypeJumper](https://github.com/parkjongbin0520-spec/hypeJumper) — MonoGame platform game with player, enemies, hazards, jump pads, moving platforms and springs.
+- [UltraDarkNative](https://github.com/3disturbed/UltraDarkNative) — MonoGame client with vector rendering, prediction, input and a playable listen server.
+- [BattleGrid](https://github.com/DevDNE/MonoGame.GameFramework) — one playable tactical game inside a MonoGame framework repository, with battle state, player, enemy, projectile and rules components.
+
+Inspect the commit pages and gameplay source before counting. Use commit-pinned source links for FarmGame and BattleGrid because guessed branch paths returned 404. The accepted repositories provide direct MonoGame source and Claude Opus 4.6, 4.7, 4.8 or 5 trailers. Reject `Somnium-GH/Roguebane` as a scaffold without sufficient game evidence. This pass adds six source-verified native game units and raises the collection to 473 units across 410 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **9**, yield **9**, verification quality **8**, repeatability **8**, source quality **9**, and false-positive control **9**. Keep it. Perform build or startup checks next because the current evidence is source verification.
+
+### Next experiment
+
+Run serial build or startup validation for the six MonoGame games. Record which projects compile, launch or pass tests. Then apply a strict gameplay-source filter to another native engine.

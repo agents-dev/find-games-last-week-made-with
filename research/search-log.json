@@ -4360,6 +4360,47 @@
       "critic": "existing critique agent"
     },
     {
+      "source": "Exact Opus MonoGame native game audit",
+      "query_key": "MonoGame game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 7,
+      "new_verified_repositories": 6,
+      "new_game_units": 6,
+      "new_rejected": 1,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/tsunejui/farm-game",
+        "https://github.com/dainedwards/DwarfMiner",
+        "https://github.com/duke1937/Cracked",
+        "https://github.com/parkjongbin0520-spec/hypeJumper",
+        "https://github.com/3disturbed/UltraDarkNative",
+        "https://github.com/DevDNE/MonoGame.GameFramework"
+      ],
+      "rejected_repositories": [
+        "https://github.com/Somnium-GH/Roguebane"
+      ],
+      "held_repositories": [],
+      "note": "Serial commit-page inspection accepted six MonoGame repositories with direct gameplay source and exact Claude Opus trailers. FarmGame and BattleGrid use commit-pinned source evidence because guessed branch paths returned 404; their pinned source links returned HTTP 200. BattleGrid is counted as one game inside the framework repository. Roguebane was rejected as a scaffold without sufficient game evidence.",
+      "next_experiments": [
+        "Perform serial build or startup validation for all six accepted MonoGame games",
+        "Record source-verified versus runnable status",
+        "Continue with a strict implementation filter for another native engine"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 8,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "Six distinct MonoGame games plus one correctly rejected scaffold provide strong yield and source quality. The unit boundary for BattleGrid is controlled. Runtime validation is the main remaining evidence step.",
+      "critic": "existing critique agent"
+    },
+    {
       "source": "Exact Opus Godot milestone audit",
       "query_key": "repo:sly-the-fox/geometry-quest Co-Authored-By Claude Opus 4.6",
       "status": "completed",
@@ -4393,7 +4434,7 @@
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 467 across 404 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 473 across 410 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",
