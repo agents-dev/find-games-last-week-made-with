@@ -1532,3 +1532,26 @@ The critique agent scores this audit **9/10** overall: novelty **9**, yield **9*
 ### Next experiment
 
 Run serial startup or build validation for the ten accepted native games. Continue with a Unity, Unreal or other-engine alias partition, and preserve the separate non-browser category.
+
+### Serial Pygame native audit
+
+Run the serial GitHub commit search `pygame game Co-Authored-By Claude Opus`. Require a real Pygame entrypoint, direct game-loop or gameplay source, and an exact Claude Opus trailer. Keep every accepted project in `Non-Browser Engines`.
+
+Accept:
+
+- [Tiny Baby Snake](https://github.com/thanhkaist/tiny-baby-snake) — Pygame Snake game with five levels, portals, pause, persistence, tests and screenshots.
+- [8-Ball Pool](https://github.com/chrissfoss-nor/8ballpool) — Pygame local multiplayer pool game with spin, full rules, physics and AI shot search.
+- [Cờ ca rô VN](https://github.com/pMplayerI/cocarovn) — Pygame Vietnamese Gomoku game with board panning, five-in-a-row rules, restart and game-over flow.
+- [TetrisPython](https://github.com/fmam0126/TetrisPython) — Pygame Tetris with seven pieces, SRS wall kicks, hold/next pieces, line clearing, score, pause and game-over.
+- [Basketball Game](https://github.com/wlssss823/Basketball) — Pygame falling-basketball catcher with movement, score, lives, high score and reset.
+- [Racing Game Claude](https://github.com/srijan-vaddadi/Racing-Game-Claude) — Pygame racing game with selectable cars, NPC traffic, track checks, collision, laps and race persistence.
+
+Use `master` for [TetrisPython](https://github.com/fmam0126/TetrisPython) and [Racing Game Claude](https://github.com/srijan-vaddadi/Racing-Game-Claude) because their default branches are master. This pass adds three new source-verified native Pygame repository records and enriches three existing records. The collection now has 528 game units across 460 repositories. Keep one record per repository URL.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it. Treat Tiny Baby Snake as the strongest entry because it includes tests and screenshots. Keep smaller projects with lower quality estimates when the game loop and model evidence are explicit. Deduplicate repeated repositories and enrich the existing record instead of adding a second record.
+
+### Next experiment
+
+Run serial Pygame tests or startup checks for the six accepted games. Continue with another native engine alias and preserve the non-browser category.

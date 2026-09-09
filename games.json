@@ -430,6 +430,261 @@
     "is_independent_game": true
   },
   {
+    "name": "Tiny Baby Snake",
+    "github_url": "https://github.com/thanhkaist/tiny-baby-snake",
+    "game_links": [
+      "https://github.com/thanhkaist/tiny-baby-snake/blob/933ae2e40eb832bb65a9d47f1da2d07ac4d10893/main.py",
+      "https://github.com/thanhkaist/tiny-baby-snake/blob/933ae2e40eb832bb65a9d47f1da2d07ac4d10893/game.py",
+      "https://github.com/thanhkaist/tiny-baby-snake/blob/933ae2e40eb832bb65a9d47f1da2d07ac4d10893/snake.py"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/thanhkaist/tiny-baby-snake/commit/933ae2e40eb832bb65a9d47f1da2d07ac4d10893",
+    "screenshot_urls": [
+      "https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/menu.png",
+      "https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/gameplay.png",
+      "https://raw.githubusercontent.com/thanhkaist/tiny-baby-snake/main/assets/howtoplay.png"
+    ],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Tiny Baby Snake"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Opus",
+      "https://github.com/thanhkaist/tiny-baby-snake"
+    ],
+    "verification_notes": "The README explicitly identifies Tiny Baby Snake as a Python/Pygame Snake game and provides setup, play and test commands. The repository contains main.py, game.py, snake.py, food.py, renderer.py, five level layouts, portals, pause/restart flow and headless tests, plus creator-provided screenshots. The initial commit includes a direct Claude Opus 4.8 trailer and Claude session link.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame 2D rendering, snake updates, collision, five level layouts, portals, audio and menu/HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "The repository contains a polished, documented Pygame game with five levels, multiple mechanics, persistence, screenshots and headless tests, plus direct Claude Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "8-Ball Pool",
+    "github_url": "https://github.com/chrissfoss-nor/8ballpool",
+    "game_links": [
+      "https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/main.py",
+      "https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/game/game.py",
+      "https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/game/rules.py",
+      "https://github.com/chrissfoss-nor/8ballpool/blob/348a6cdeae435000e65b3801a5dd8347471bf98b/physics/engine.py"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/chrissfoss-nor/8ballpool/commit/348a6cdeae435000e65b3801a5dd8347471bf98b",
+    "screenshot_urls": [],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "8-Ball Pool"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Opus",
+      "https://github.com/chrissfoss-nor/8ballpool"
+    ],
+    "verification_notes": "The README identifies a local two-player Pygame 8-ball pool game and documents realistic collisions, cue-ball spin, full rules, mouse controls, AI shot search and run commands. The repository contains the Pygame entrypoint, game state/rules/turn systems, table/ball/cue entities, physics engine, renderer, HUD and AI packages. The cited commit includes a direct Claude Opus 5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1100000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame table rendering, ball collision/physics, cue spin, AI shot simulation, rules, HUD and animation; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "The repository contains a well-documented Pygame game with full 8-ball rules, local multiplayer, AI shot search, realistic physics, an entrypoint and modular source, plus direct Claude Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Cờ ca rô VN",
+    "github_url": "https://github.com/pMplayerI/cocarovn",
+    "game_links": [
+      "https://github.com/pMplayerI/cocarovn/blob/adea78a48201bd4c77efa6e0fc6741fa80da14c7/src/caro/__main__.py",
+      "https://github.com/pMplayerI/cocarovn/blob/adea78a48201bd4c77efa6e0fc6741fa80da14c7/src/caro/game.py",
+      "https://github.com/pMplayerI/cocarovn/blob/adea78a48201bd4c77efa6e0fc6741fa80da14c7/src/caro/rules.py",
+      "https://github.com/pMplayerI/cocarovn/blob/adea78a48201bd4c77efa6e0fc6741fa80da14c7/src/caro/ui.py"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/pMplayerI/cocarovn/commit/adea78a48201bd4c77efa6e0fc6741fa80da14c7",
+    "screenshot_urls": [],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Cờ ca rô VN"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Opus",
+      "https://github.com/pMplayerI/cocarovn"
+    ],
+    "verification_notes": "The Vietnamese README identifies a two-player Pygame Gomoku game, documents installation and the `python -m caro` run command, and describes five-in-a-row rules, camera movement, restart and game-over flow. The repository contains the package entrypoint, board model, game controller, rules, UI and tests. The initial commit includes a direct Claude Opus 4.7 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 450000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame board rendering, input, camera panning, rule checks, win detection and UI overlays; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "The repository contains a runnable, documented two-player Pygame game with separated board/rules/UI modules and tests, plus direct Claude Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "TetrisPython",
+    "github_url": "https://github.com/fmam0126/TetrisPython",
+    "game_links": [
+      "https://github.com/fmam0126/TetrisPython/blob/1248a9763cccb5780d2d44879b982050800bac6d/tetris.py"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/fmam0126/TetrisPython/commit/1248a9763cccb5780d2d44879b982050800bac6d",
+    "screenshot_urls": [],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "TetrisPython"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Opus",
+      "https://github.com/fmam0126/TetrisPython"
+    ],
+    "verification_notes": "The repository contains a complete Pygame Tetris implementation with a 60 FPS loop, seven tetromino shapes, SRS wall kicks, hold/next pieces, line clearing, level/score state, pause and game-over flow in tetris.py. The cited commit adds the game and includes a direct Claude Opus 4.7 trailer. The default branch is master, and the commit-pinned source link is verified.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame board rendering, tetromino collision/rotation, SRS kicks, line clearing, score, level, pause and game-over flow; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "The repository contains a self-contained, runnable Pygame Tetris game with standard rotation behavior, hold/next pieces and a complete game loop, but no README or screenshot.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Basketball Game",
+    "github_url": "https://github.com/wlssss823/Basketball",
+    "game_links": [
+      "https://github.com/wlssss823/Basketball/blob/14d5e347ae5764e041d2e9342dbd8d4803be908d/test_4.py"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/wlssss823/Basketball/commit/14d5e347ae5764e041d2e9342dbd8d4803be908d",
+    "screenshot_urls": [],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Basketball Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Opus",
+      "https://github.com/wlssss823/Basketball"
+    ],
+    "verification_notes": "The README identifies a Pygame catching game: move left/right, catch falling basketballs for points, lose lives when balls are missed, show game over and track a high score. It gives the `python test_4.py` run command and PyInstaller packaging instructions. The repository contains the game entrypoint and image assets. The initial commit includes a direct Claude Opus 4.7 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 350000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame sprite rendering, falling-ball updates, collision checks, score/life state and game-over reset; not measured hardware throughput.",
+    "quality_estimate_10": 7.0,
+    "quality_estimate_basis": "The repository contains a documented, runnable Pygame arcade game with score, lives, game-over and packaged assets, but it is a small single-file project.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Racing Game Claude",
+    "github_url": "https://github.com/srijan-vaddadi/Racing-Game-Claude",
+    "game_links": [
+      "https://github.com/srijan-vaddadi/Racing-Game-Claude/blob/master/main.py",
+      "https://github.com/srijan-vaddadi/Racing-Game-Claude/blob/master/src/car.py",
+      "https://github.com/srijan-vaddadi/Racing-Game-Claude/blob/master/src/npc_car.py",
+      "https://github.com/srijan-vaddadi/Racing-Game-Claude/blob/master/src/track.py"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/srijan-vaddadi/Racing-Game-Claude/commit/e18e0561b261f88a5d730750ea8a44e91d8c2ade",
+    "screenshot_urls": [],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Racing Game Claude"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Opus",
+      "https://github.com/srijan-vaddadi/Racing-Game-Claude"
+    ],
+    "verification_notes": "The repository contains a Pygame racing game entrypoint with a display/game loop, player car controls, selectable car types and colors, NPC cars, track/road checks, collisions, lap/race state, menu UI and race persistence. The initial setup commit explicitly adds a Pygame racing game and includes a direct Claude Opus 4.5 trailer. The default branch is master; current source links are verified there.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame track rendering, player/NPC car updates, collisions, lap logic, menu UI and race persistence; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "The repository contains a structured Pygame racing game with modular car, NPC, track, camera, database and menu code; model evidence is explicit, but no README or screenshot is published.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
     "name": "Frog Hopper",
     "github_url": "https://github.com/Stephenson-Software/Frog-Hopper-2D",
     "game_links": [
@@ -16794,66 +17049,6 @@
     "is_independent_game": true
   },
   {
-    "name": "Tiny Baby Snake",
-    "github_url": "https://github.com/thanhkaist/tiny-baby-snake",
-    "game_links": [
-      "https://github.com/thanhkaist/tiny-baby-snake/blob/main/main.py",
-      "https://github.com/thanhkaist/tiny-baby-snake/blob/main/game.py"
-    ],
-    "live_demo_url": null,
-    "evidence_url": "https://github.com/thanhkaist/tiny-baby-snake/commit/933ae2e40eb832bb65a9d47f1da2d07ac4d10893",
-    "screenshot_urls": [],
-    "technology": ["Pygame", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.8"],
-    "method_evidence": "confirmed",
-    "game_count": 1,
-    "contained_games": ["Tiny Baby Snake"],
-    "verification_status": "verified_source",
-    "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/thanhkaist/tiny-baby-snake"],
-    "verification_notes": "The initial commit is titled Tiny Baby Snake and describes a Pygame Snake game with start menu, instructions, wrap-around edges, pause and persistent high score. Source includes game, snake, food, input, renderer, storage and headless tests. The commit page shows a direct Claude Opus 4.8 trailer.",
-    "gauntlet_loop": false,
-    "model_evidence": "confirmed",
-    "flops_estimate_raw": 300000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static estimate for Pygame grid rendering, snake/food state, input, pause/menu and persistence; not measured hardware throughput.",
-    "quality_estimate_10": 8.3,
-    "quality_estimate_basis": "Complete small game with menus, pause, persistence, decoupled logic and tests, plus direct Opus attribution.",
-    "counted_game_units": 1,
-    "is_independent_game": true
-  },
-  {
-    "name": "Cờ Caro",
-    "github_url": "https://github.com/pMplayerI/cocarovn",
-    "game_links": [
-      "https://github.com/pMplayerI/cocarovn/blob/main/src/caro/game.py",
-      "https://github.com/pMplayerI/cocarovn/blob/main/src/caro/board.py"
-    ],
-    "live_demo_url": null,
-    "evidence_url": "https://github.com/pMplayerI/cocarovn/commit/adea78a48201bd4c77efa6e0fc6741fa80da14c7",
-    "screenshot_urls": [],
-    "technology": ["Pygame", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
-    "method_evidence": "confirmed",
-    "game_count": 1,
-    "contained_games": ["Cờ Caro"],
-    "verification_status": "verified_source",
-    "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/pMplayerI/cocarovn"],
-    "verification_notes": "The initial commit is titled initial cờ ca rô pygame game and contains board, game, models, rules and module entrypoint source. The commit page shows a direct Claude Opus 4.7 trailer.",
-    "gauntlet_loop": false,
-    "model_evidence": "confirmed",
-    "flops_estimate_raw": 350000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static estimate for Pygame board rendering, Gomoku rules, turn state and input; not measured hardware throughput.",
-    "quality_estimate_10": 7.6,
-    "quality_estimate_basis": "Game-specific board/rules source with direct Opus attribution; compact prototype scope.",
-    "counted_game_units": 1,
-    "is_independent_game": true
-  },
-  {
     "name": "2048",
     "github_url": "https://github.com/alanwengyh-art/2048",
     "game_links": [
@@ -16880,36 +17075,6 @@
     "flops_estimate_basis": "Static estimate for Pygame tile rendering, grid merges, score and input; not measured hardware throughput.",
     "quality_estimate_10": 7.7,
     "quality_estimate_basis": "Dedicated Pygame game implementation and README with direct Opus attribution.",
-    "counted_game_units": 1,
-    "is_independent_game": true
-  },
-  {
-    "name": "Pygame Tetris",
-    "github_url": "https://github.com/fmam0126/TetrisPython",
-    "game_links": [
-      "https://github.com/fmam0126/TetrisPython/blob/master/tetris.py",
-      "https://github.com/fmam0126/TetrisPython"
-    ],
-    "live_demo_url": null,
-    "evidence_url": "https://github.com/fmam0126/TetrisPython/commit/1248a9763cccb5780d2d44879b982050800bac6d",
-    "screenshot_urls": [],
-    "technology": ["Pygame", "Python", "Native desktop"],
-    "model_family": ["Claude Opus 4.7"],
-    "method_evidence": "confirmed",
-    "game_count": 1,
-    "contained_games": ["Pygame Tetris"],
-    "verification_status": "verified_source",
-    "verified_on": "2026-09-10",
-    "discovery_sources": ["GitHub commit search for Pygame game Co-Authored-By Claude Opus", "https://github.com/fmam0126/TetrisPython"],
-    "verification_notes": "The cited commit adds a Tetris game with Pygame. The commit page shows a direct Claude Opus 4.7 trailer.",
-    "gauntlet_loop": false,
-    "model_evidence": "confirmed",
-    "flops_estimate_raw": 350000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static estimate for Pygame board rendering, falling pieces, line clearing, scoring and input; not measured hardware throughput.",
-    "quality_estimate_10": 7.7,
-    "quality_estimate_basis": "Directly added Pygame Tetris source with model attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   },

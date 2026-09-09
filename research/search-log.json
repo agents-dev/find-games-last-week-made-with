@@ -4614,8 +4614,8 @@
       "query_key": "MonoGame game Co-Authored-By Claude Opus",
       "status": "completed",
       "results_inspected": 7,
-      "new_verified_repositories": 6,
-      "new_game_units": 6,
+      "new_verified_repositories": 3,
+      "new_game_units": 3,
       "new_rejected": 1,
       "unseen_count": 0,
       "overlap_ratio": 0.0,
@@ -4727,10 +4727,49 @@
       },
       "critique_note": "The pass adds ten distinct native game units with direct source paths and exact Claude Opus trailers. The main remaining risk is runtime status: several projects are explicitly prototypes or require native engine tooling. Keep them as verified_source entries and record runtime results separately.",
       "critic": "existing critique agent"
+    },
+    {
+      "source": "Exact Opus Pygame native audit",
+      "query_key": "pygame game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 6,
+      "new_verified_repositories": 6,
+      "new_game_units": 6,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/thanhkaist/tiny-baby-snake",
+        "https://github.com/chrissfoss-nor/8ballpool",
+        "https://github.com/pMplayerI/cocarovn",
+        "https://github.com/fmam0126/TetrisPython",
+        "https://github.com/wlssss823/Basketball",
+        "https://github.com/srijan-vaddadi/Racing-Game-Claude"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Serial commit and source inspection accepted six native Pygame games. Three repositories were new in this pass: 8-Ball Pool, Basketball and Racing Game Claude. Tiny Baby Snake, Cờ ca rô VN and TetrisPython were already present, so their records were enriched instead of duplicated. Tiny Baby Snake has a README, five levels, headless tests and screenshots. 8-Ball Pool has full rules, physics and AI shot search. Cờ ca rô VN, TetrisPython, Basketball and Racing Game Claude have direct runnable entrypoints and documented or explicit gameplay source. The default master branch was used for TetrisPython and Racing Game Claude where main was unavailable.",
+      "next_experiments": [
+        "Perform serial Pygame startup or test validation for the six audited games",
+        "Continue with a different native engine or alias partition",
+        "Keep Pygame entries in the separate non-browser README section"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The six audited entries have clear Pygame loops, source paths and exact Claude Opus trailers. Tiny Baby Snake provides the strongest independent runtime evidence. Keep smaller single-file games with lower quality estimates when the game loop and model evidence are explicit. Deduplicate by repository URL and enrich existing records when a later pass provides better evidence.",
+      "critic": "existing critique agent"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 525 across 457 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 528 across 460 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",
