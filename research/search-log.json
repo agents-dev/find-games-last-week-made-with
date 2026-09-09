@@ -972,12 +972,619 @@
         "Use direct GitHub links from new X posts only",
         "Inspect direct repositories one at a time"
       ]
+    },
+    {
+      "source": "X creator direct-link search: GOROman",
+      "query_key": "x-search|from:GOROman|github.com",
+      "query": "from:GOROman github.com",
+      "status": "completed",
+      "received_count": 7,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 1,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The direct-link query returned the already verified FACET FIGHTER repository and no new game. The low yield led to a targeted broader creator search.",
+      "next_experiments": [
+        "Search from:GOROman (game OR ゲーム) without a GitHub filter",
+        "Inspect relevant replies and linked pages",
+        "Score the broader creator search"
+      ]
+    },
+    {
+      "source": "X broader creator game search: GOROman",
+      "query_key": "x-search|from:GOROman|game|ゲーム",
+      "query": "from:GOROman (game OR ゲーム)",
+      "status": "completed",
+      "received_count": 10,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "note": "The broader search exposed a relevant PlayStation/Famicom development thread. Inspecting the thread found a direct link to GOROman/calude-famicom-game. GitHub verification confirms a playable four-stage Famicom action game with a ROM, source, browser WASM emulator, screenshots and README attribution to Claude Code (Fable 5). Add one game unit under Non-Browser Engines. The direct-link requirement would have missed this result because the relevant game post and the repository link were separate posts in the thread.",
+      "next_experiments": [
+        "Critique the broader creator search and score it",
+        "Search another known creator with game terms before requiring github.com",
+        "Inspect repository links one at a time"
+      ]
+    },
+    {
+      "source": "X cross-author model search",
+      "query_key": "x-search|Astra|Claude Opus|Claude Fable|game|playable|demo",
+      "query": "(Astra OR \"Claude Opus\" OR \"Claude Fable\") (game OR playable OR demo)",
+      "status": "completed",
+      "received_count": 12,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 1,
+      "note": "The serial cross-author search found WoahWurdz posts for Hiraeth010/blackwater and Hiraeth010/blacksite. GitHub and live-demo verification confirmed two independent playable Three.js FPS games. It also found Braffolk/fable5-world-demo, which was verified as a substantial visual exploration demo but rejected because it has no game loop or objective.",
+      "evidence_urls": [
+        "https://x.com/WoahWurdz/status/2095958882732355908",
+        "https://x.com/WoahWurdz/status/2095959107215798447",
+        "https://x.com/WoahWurdz/status/2094971419977269476",
+        "https://x.com/WoahWurdz/status/2094971737028931954",
+        "https://github.com/Hiraeth010/blackwater",
+        "https://github.com/Hiraeth010/blacksite",
+        "https://github.com/Braffolk/fable5-world-demo"
+      ],
+      "next_experiments": [
+        "Critique this cross-author search and score it",
+        "If the score is at least 8/10, apply the same method to one creator handle",
+        "Inspect one direct repository at a time"
+      ]
+    },
+    {
+      "source": "X creator search: WoahWurdz game posts",
+      "query_key": "x-search|from:WoahWurdz|game|playable|demo",
+      "query": "from:WoahWurdz (game OR playable OR demo)",
+      "status": "completed",
+      "received_count": 8,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 0,
+      "note": "The creator feed supplied direct repository links for BLACKWATER and BLACKSITE. BLACKWATER was verified as a single-player tactical FPS with a public demo. BLACKSITE was verified by starting its public demo and reaching Wave 01 with weapon, health, ammunition, score, objective and hostile-wave HUD state.",
+      "evidence_urls": [
+        "https://x.com/WoahWurdz/status/2095958882732355908",
+        "https://x.com/WoahWurdz/status/2095959107215798447",
+        "https://x.com/WoahWurdz/status/2094971419977269476",
+        "https://x.com/WoahWurdz/status/2094971737028931954",
+        "https://github.com/Hiraeth010/blackwater",
+        "https://github.com/Hiraeth010/blacksite",
+        "https://blackwater-roan.vercel.app/",
+        "https://blacksite-one.vercel.app/"
+      ],
+      "next_experiments": [
+        "Score the parent cross-author method before repeating it",
+        "Search another known creator only if the score is at least 8/10",
+        "Keep model attribution and game-play verification as separate checks"
+      ]
+    },
+    {
+      "source": "Critique gate: X cross-author model search",
+      "query_key": "critique|x-search|Astra|Claude Opus|Claude Fable|game|playable|demo",
+      "status": "completed",
+      "score_10": 7.0,
+      "decision": "drop-primary-rotation",
+      "note": "The critique rated the method 7/10. Repository and live-demo verification were strong, but both additions came through one X account, the sample was small, and the search did not demonstrate broad repeatability. Keep the two verified games, but do not use this query as a primary rotation without a diversity test.",
+      "criteria": {
+        "novelty": 7,
+        "verification_quality": 9,
+        "yield": 7,
+        "repeatability": 5,
+        "source_reliability": 6,
+        "false_positive_control": 8
+      },
+      "next_experiments": [
+        "Repeat the X query with -from:WoahWurdz",
+        "Use a fixed seven-day date range and Latest mode",
+        "Inspect up to 30 unique posts and record every post URL, owner, duplicate status and decision"
+      ]
+    },
+    {
+      "source": "X controlled diversity search",
+      "query_key": "x-search|Astra|Claude Opus|Claude Fable|game|playable|demo|-from:WoahWurdz|since:2026-09-02|until:2026-09-10|Latest",
+      "query": "(Astra OR \"Claude Opus\" OR \"Claude Fable\") (game OR playable OR demo) -from:WoahWurdz since:2026-09-02 until:2026-09-10",
+      "mode": "Latest",
+      "status": "completed",
+      "received_count": 6,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The fixed seven-day Latest search excluding WoahWurdz showed six accessible posts. They were generic model discussion, news, or video-editing references and contained no direct GitHub game repository. No candidate was added. The result confirms source concentration in the previous pass but is too small to estimate broad X yield.",
+      "post_urls": [
+        "https://x.com/itsthedonhashim/status/2097719944880267453",
+        "https://x.com/tech_id19/status/2097719816018972699",
+        "https://x.com/_andrewthecoder/status/2097719715367911697",
+        "https://x.com/FoxRick01/status/2097719674343444722",
+        "https://x.com/professorclawai/status/2097718998955651119",
+        "https://x.com/chefbrent/status/2097718942512910735"
+      ],
+      "next_experiments": [
+        "Search the same date window with github.com required and -from:WoahWurdz",
+        "Use one engine or model phrase at a time if the direct-link search is empty",
+        "Critique this controlled diversity result before broadening"
+      ]
+    },
+    {
+      "source": "X controlled direct-link search",
+      "query_key": "x-search|Astra|Claude Opus|Claude Fable|game|playable|demo|github.com|-from:WoahWurdz|since:2026-09-02|until:2026-09-10|Latest",
+      "query": "(Astra OR \"Claude Opus\" OR \"Claude Fable\") (game OR playable OR demo) github.com -from:WoahWurdz since:2026-09-02 until:2026-09-10",
+      "mode": "Latest",
+      "status": "completed",
+      "received_count": 5,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The direct-link refinement returned five accessible posts. The relevant posts all pointed to kalelooz/game-x, already rejected as a game-development skill toolkit rather than an individual game. No repository passed the collection criteria. Do not count toolkits, prompts or example scenes.",
+      "post_urls": [
+        "https://x.com/karabolamani/status/2097701576538255626",
+        "https://x.com/AsphaltCowb0y/status/2097701001234874767",
+        "https://x.com/gippp69/status/2097696163424014406",
+        "https://x.com/karabolamani/status/2097671370453008714",
+        "https://x.com/karabolamani/status/2097641168431726743"
+      ],
+      "next_experiments": [
+        "Critique the controlled direct-link result",
+        "Drop this query family if the score is below 8/10",
+        "Switch to GitHub reverse-link or creator-source expansion"
+      ]
+    },
+    {
+      "source": "Critique gate: controlled direct-link search",
+      "query_key": "critique|x-search|direct-link|Astra|Claude Opus|Claude Fable|Latest",
+      "status": "completed",
+      "score_10": 4.0,
+      "decision": "drop-primary-rotation",
+      "note": "The critique rated the pass 4/10. It controlled false positives well, but five posts produced no new game, all relevant hits pointed to an already rejected toolkit, and source reliability was limited to X leads. Keep the negative result, but stop repeating this query family.",
+      "criteria": {
+        "novelty": 1,
+        "yield": 1,
+        "verification_quality": 7,
+        "repeatability": 7,
+        "source_reliability": 5,
+        "false_positive_control": 9
+      },
+      "next_experiments": [
+        "Keep the same X Latest date window",
+        "Require play-now or playable-demo evidence",
+        "Exclude kalelooz/game-x and inspect up to 20 accessible posts"
+      ]
+    },
+    {
+      "source": "X playable-claim search",
+      "query_key": "x-search|Astra|Claude Opus|Claude Fable|play-now|playable-demo|play-here|github.com|-kalelooz/game-x|-from:WoahWurdz|since:2026-09-02|until:2026-09-10|Latest",
+      "query": "(Astra OR \"Claude Opus\" OR \"Claude Fable\") (\"play now\" OR \"playable demo\" OR \"play here\") github.com -\"kalelooz/game-x\" -from:WoahWurdz since:2026-09-02 until:2026-09-10",
+      "mode": "Latest",
+      "status": "completed",
+      "received_count": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "X returned no results for the stricter playable-claim query in the fixed seven-day window. Do not infer that no such games exist; treat this as an indexing or wording limitation and switch source family after critique.",
+      "next_experiments": [
+        "Critique the empty playable-claim pass",
+        "Switch to GitHub reverse-link search from verified game seeds",
+        "Search creator-source pages only when they expose a repository URL"
+      ]
+    },
+    {
+      "source": "Critique gate: X playable-claim search",
+      "query_key": "critique|x-search|play-now|playable-demo|play-here|github.com",
+      "status": "completed",
+      "score_10": 5.0,
+      "decision": "drop-primary-rotation",
+      "note": "The critique rated the empty result 5/10. The query was repeatable and had better noise control, but the three required phrases plus a GitHub link created low recall and yielded no candidates. Do not infer absence from the empty X result.",
+      "criteria": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 2,
+        "repeatability": 8,
+        "source_reliability": 4,
+        "false_positive_control": 7
+      },
+      "next_experiments": [
+        "Search GitHub repositories and READMEs one model phrase at a time",
+        "Use pushed:2026-09-02..2026-09-09 only as a discovery filter",
+        "Check model attribution and playability separately"
+      ]
+    },
+    {
+      "source": "GitHub repository search: Astra game README",
+      "query_key": "gh-repos|Astra|game|in:readme|pushed:2026-09-02..2026-09-09|limit:20",
+      "query": "Astra game in:readme pushed:2026-09-02..2026-09-09",
+      "status": "completed",
+      "requested_limit": 20,
+      "received_count": 20,
+      "unseen_count": 1,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 2,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "note": "The sample returned known curated lists and known game repositories, including Ayi1337/gpt6-astra-one-shot-games and PhiloLabs/fable51-worlds. Direct README inspection verified that both are already recorded. ScottStevenson/SuperAstra was rejected as a companion tool, not an independent game. This bounded README search produced no new game record.",
+      "known_matches": [
+        "https://github.com/Ayi1337/gpt6-astra-one-shot-games",
+        "https://github.com/PhiloLabs/fable51-worlds",
+        "https://github.com/ScottStevenson/SuperAstra",
+        "https://github.com/achimala/dream-loop",
+        "https://github.com/MartinDelophy/awesome-gpt-6-astra"
+      ],
+      "next_experiments": [
+        "Run the exact Claude Opus game README search",
+        "Inspect only unseen repositories before expanding the result limit",
+        "Keep catalogs, skills, companion tools and visual worlds out of games.json"
+      ]
+    },
+    {
+      "source": "GitHub repository search: Claude Opus game README",
+      "query_key": "gh-repos|Claude Opus|game|in:readme|pushed:2026-09-02..2026-09-09|limit:20",
+      "query": "Claude Opus game in:readme pushed:2026-09-02..2026-09-09",
+      "status": "completed",
+      "requested_limit": 20,
+      "received_count": 20,
+      "unseen_count": 0,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The bounded repository search was dominated by AI documentation, benchmarks, catalogs and old projects. One apparent game result, maciej-trebacz/tower-of-time-game, returned 404 when inspected. No accessible repository passed the explicit Claude Opus game criteria.",
+      "next_experiments": [
+        "Run the exact Claude Fable game README search",
+        "Record inaccessible repository URLs separately from verified games",
+        "Keep model attribution separate from generic vibe-coding claims"
+      ]
+    },
+    {
+      "source": "GitHub repository search: Claude Fable game README",
+      "query_key": "gh-repos|Claude Fable|game|in:readme|pushed:2026-09-02..2026-09-09|limit:20",
+      "query": "Claude Fable game in:readme pushed:2026-09-02..2026-09-09",
+      "status": "completed",
+      "requested_limit": 20,
+      "received_count": 20,
+      "unseen_count": 1,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 1,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "note": "The search rediscovered the already recorded sorrycc/fable-arcade repository. README and repository-tree verification confirmed eight separate self-contained HTML games, each with a model/date/prompt README, source index.html and public GitHub Pages play URL. Upgrade the existing record with direct per-game source and play links; do not create a duplicate or add eight new units. SansNope/UnleashedRecomp-Android was rejected from the independent total because it is a port of the existing Sonic Unleashed game, despite real Fable-assisted Android work.",
+      "verified_repositories": [
+        "https://github.com/sorrycc/fable-arcade"
+      ],
+      "rejected_repositories": [
+        "https://github.com/SansNope/UnleashedRecomp-Android"
+      ],
+      "next_experiments": [
+        "Critique the Claude Fable README search",
+        "Search incoming links to sorrycc/fable-arcade for related lists",
+        "Use the eight direct game links in the README output"
+      ]
+    },
+    {
+      "source": "Critique gate: Claude Fable README search",
+      "query_key": "critique|gh-repos|Claude Fable|game|in:readme|pushed:2026-09-02..2026-09-09",
+      "status": "completed",
+      "score_10": 6.0,
+      "decision": "drop-primary-rotation",
+      "note": "After duplicate reconciliation, correct the initial critique result: the search found an already recorded repository and added zero new game units. It improved the existing record with direct per-game links and confirmed strong source/provenance evidence, but its observed discovery yield was zero.",
+      "criteria": {
+        "novelty": 4,
+        "yield": 2,
+        "verification_quality": 8,
+        "repeatability": 8,
+        "source_reliability": 8,
+        "false_positive_control": 9
+      },
+      "next_experiments": [
+        "Do not repeat the same Fable README query without a changed date window",
+        "Search incoming links to sorrycc/fable-arcade",
+        "Verify direct per-game links when upgrading an existing record"
+      ]
+    },
+    {
+      "source": "GitHub repository search: Fable game README",
+      "query_key": "gh-repos|Fable|game|in:readme|pushed:2026-09-02..2026-09-09|limit:20",
+      "query": "Fable game in:readme pushed:2026-09-02..2026-09-09",
+      "status": "completed",
+      "requested_limit": 20,
+      "received_count": 20,
+      "unseen_count": 0,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 1,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "Removing Claude did not expose a new game repository. Results were dominated by F# Fable software, catalogs, skills, benchmarks, old ports and the already recorded PhiloLabs/fable51-worlds repository. Keep the Claude qualifier for precision; do not treat the F# language ecosystem or a repository name as Claude Fable evidence.",
+      "next_experiments": [
+        "Critique the Fable alias search",
+        "Search incoming links to sorrycc/fable-arcade",
+        "Extract only direct game repositories from relevant list files"
+      ]
+    },
+    {
+      "source": "Critique gate: Fable alias search",
+      "query_key": "critique|gh-repos|Fable|game|in:readme|pushed:2026-09-02..2026-09-09",
+      "status": "completed",
+      "score_10": 4.0,
+      "decision": "drop-primary-rotation",
+      "note": "The critique rated the alias query 4/10. GitHub was a reliable source, but the word Fable strongly matched the unrelated F# ecosystem, produced no new game repository, and had weak false-positive control. Keep the Claude-qualified query and do not repeat this alias alone.",
+      "criteria": {
+        "novelty": 1,
+        "yield": 1,
+        "verification_quality": 4,
+        "repeatability": 8,
+        "source_reliability": 8,
+        "false_positive_control": 2
+      },
+      "next_experiments": [
+        "Search Fable gameplay in:readme with the same date window",
+        "Compare against the saved repository set",
+        "Search incoming links to sorrycc/fable-arcade"
+      ]
+    },
+    {
+      "source": "GitHub repository search: Fable gameplay README",
+      "query_key": "gh-repos|Fable|gameplay|in:readme|pushed:2026-09-02..2026-09-09|sort:updated|limit:20",
+      "query": "Fable gameplay in:readme pushed:2026-09-02..2026-09-09",
+      "sort": "updated",
+      "status": "completed",
+      "requested_limit": 20,
+      "received_count": 20,
+      "unseen_count": 3,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 2,
+      "note": "The gameplay qualifier reduced some F# noise but still returned catalogs, skills, unrelated Fable projects and model-adjacent repositories. Willowbrook was verified as a real Three.js game but rejected because Fable was only an in-game building name and no target-model attribution was present. Untitled FPS was verified as a real browser FPS but rejected from the independent total because its README describes it as a fork and extension of an existing Fable-generated game. No new independent game passed.",
+      "next_experiments": [
+        "Critique the Fable gameplay search",
+        "Search incoming links to sorrycc/fable-arcade using the full URL",
+        "Use repository IDs to deduplicate list hits"
+      ]
+    },
+    {
+      "source": "GitHub incoming-link search: sorrycc/fable-arcade",
+      "query_key": "gh-code|github.com/sorrycc/fable-arcade|limit:100",
+      "query": "github.com/sorrycc/fable-arcade",
+      "status": "completed",
+      "requested_limit": 100,
+      "received_count": 2,
+      "unseen_count": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "note": "The incoming-link search found only this collection's README and an older research-output file. It exposed no external awesome list or new game repository.",
+      "next_experiments": [
+        "Search the owner/repository form sorrycc/fable-arcade",
+        "Inspect relevant list files only",
+        "Follow list links to direct repositories"
+      ]
+    },
+    {
+      "source": "GitHub incoming-link search: owner/repository form",
+      "query_key": "gh-code|sorrycc/fable-arcade|limit:100",
+      "query": "sorrycc/fable-arcade",
+      "status": "completed",
+      "requested_limit": 100,
+      "received_count": 2,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "note": "The owner/repository form returned the same two internal files as the full-URL search. No external list or new game repository was indexed. Treat both forms as equivalent for this seed and switch to another source family.",
+      "next_experiments": [
+        "Search incoming links to a different verified Fable repository",
+        "Use curated list expansion only when the file is external",
+        "Keep the eight direct Fable Arcade game links in the README"
+      ]
+    },
+    {
+      "source": "GitHub repository search: explicit Fable 5.1 attribution",
+      "query_key": "gh-repos|Fable 5.1|in:readme|pushed:2026-09-02..2026-09-09|sort:updated|limit:20",
+      "query": "Fable 5.1 in:readme pushed:2026-09-02..2026-09-09",
+      "sort": "updated",
+      "status": "completed",
+      "requested_limit": 20,
+      "received_count": 20,
+      "unseen_count": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The explicit attribution search returned workflow tools, agent skills, documentation, catalogs and infrastructure. It exposed no unseen accessible game repository. Keep explicit attribution as a verification requirement, but do not use this unfiltered query as a primary discovery family.",
+      "next_experiments": [
+        "Critique the explicit Fable 5.1 search",
+        "Use a new verified game seed for incoming-link expansion",
+        "Return to serial creator-source searches when a direct repository link appears"
+      ]
+    },
+    {
+      "source": "Critique gate: Fable gameplay README search",
+      "query_key": "critique|gh-repos|Fable|gameplay|in:readme|pushed:2026-09-02..2026-09-09",
+      "status": "completed",
+      "score_10": 6.0,
+      "decision": "drop-primary-rotation",
+      "note": "The critique rated the search 6/10. It had strong false-positive control and clear README-backed exclusions, but found zero new independent games. Do not repeat this wording without a changed partition.",
+      "criteria": {
+        "novelty": 2,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_reliability": 8,
+        "false_positive_control": 10
+      },
+      "next_experiments": [
+        "Search explicit Fable 5.1 attribution in READMEs",
+        "Check original-game lineage before counting derivatives",
+        "Use updated-descending results and compare repository IDs"
+      ]
+    },
+    {
+      "source": "Critique gate: explicit Fable 5.1 attribution search",
+      "query_key": "critique|gh-repos|Fable 5.1|in:readme|pushed:2026-09-02..2026-09-09|sort:updated",
+      "status": "completed",
+      "score_10": 4.0,
+      "decision": "drop-primary-rotation",
+      "note": "The critique rated the unfiltered exact-attribution search 4/10. Query repeatability was strong, but it returned no unseen accessible game repository and was dominated by tools, skills, documentation, catalogs and infrastructure. Keep the attribution term, but add a game-specific qualifier before repeating.",
+      "criteria": {
+        "novelty": 2,
+        "yield": 1,
+        "verification_quality": 4,
+        "repeatability": 9,
+        "source_reliability": 7,
+        "false_positive_control": 3
+      },
+      "next_experiments": [
+        "Search Fable 5.1 game in:readme with the same date window",
+        "Compare repository IDs with the saved set",
+        "Inspect source files for actual game mechanics"
+      ]
+    },
+    {
+      "source": "GitHub repository search: Fable 5.1 game README",
+      "query_key": "gh-repos|Fable 5.1|game|in:readme|pushed:2026-09-02..2026-09-09|sort:updated|limit:20",
+      "query": "Fable 5.1 game in:readme pushed:2026-09-02..2026-09-09",
+      "sort": "updated",
+      "status": "completed",
+      "requested_limit": 20,
+      "received_count": 20,
+      "unseen_count": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "note": "The game-specific exact attribution search exposed Ashen-Skool/Aot-Fable-5.1. Repository and public project-page verification confirmed a real Unity 6 action game with ODM traversal, combat, Titan objectives, native/WebGL builds, tests and a Fable 5.1 builder/critic gauntlet. Add one game unit under Non-Browser Engines. Other visible results were tools, catalogs, benchmarks, infrastructure or already known records.",
+      "verified_repositories": [
+        "https://github.com/Ashen-Skool/Aot-Fable-5.1"
+      ],
+      "next_experiments": [
+        "Critique this exact game-specific attribution search",
+        "Inspect incoming links to the new Unity game",
+        "Keep native and browser exports separated by primary engine"
+      ]
+    },
+    {
+      "source": "Critique gate: Fable 5.1 game search",
+      "query_key": "critique|gh-repos|Fable 5.1|game|in:readme|pushed:2026-09-02..2026-09-09|sort:updated",
+      "status": "completed",
+      "score_10": 8.0,
+      "decision": "keep-primary-rotation",
+      "note": "The critique rated the game-specific exact search 8/10. It found one new repository with strong README evidence for a Unity game, native/WebGL builds, tests and direct Fable 5.1 gauntlet attribution. Yield was low, but false-positive control and repeatability were good. Keep the method with non-overlapping date partitions and stable repository IDs.",
+      "criteria": {
+        "novelty": 9,
+        "yield": 5,
+        "verification_quality": 8,
+        "repeatability": 9,
+        "source_reliability": 8,
+        "false_positive_control": 9
+      },
+      "next_experiments": [
+        "Run Fable 5.1 game in:readme for pushed:2026-08-25..2026-09-01",
+        "Keep sort updated and limit 20",
+        "Use stable repository IDs and record all rejection reasons"
+      ]
+    },
+    {
+      "source": "GitHub API repository search: prior Fable 5.1 game window",
+      "query_key": "gh-api-repos|Fable 5.1|game|in:readme|pushed:2026-08-25..2026-09-01|limit:20",
+      "query": "\"Fable 5.1\" game in:readme pushed:2026-08-25..2026-09-01",
+      "sort": "updated",
+      "status": "completed",
+      "requested_limit": 20,
+      "received_count": 4,
+      "unseen_count": 0,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 3,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "note": "The gh CLI wrapper did not reliably honor the non-overlapping pushed range and repeated current results. A direct GitHub REST API query corrected the experiment: it returned three already-recorded Fable 5.1 games (Turbo Kart Rush, SUPER FABLE BROS., and NEON WARDEN) plus one benchmark. No new independent game unit was added. Use the direct API for future date-partition checks.",
+      "verified_repositories": [
+        "https://github.com/bridge-mind/turbo-kart-rush",
+        "https://github.com/INONONO66/fable-5.1-mario",
+        "https://github.com/Nipale-ai/fable-5-1-one-prompt-game"
+      ],
+      "rejected_repositories": [
+        "https://github.com/0xlnz/rts-benchmark"
+      ],
+      "next_experiments": [
+        "Critique the direct API date-partition result",
+        "Search incoming links to Ashen-Skool/Aot-Fable-5.1",
+        "Keep engine classification based on the primary runtime"
+      ]
+    },
+    {
+      "source": "GitHub incoming-link search: AOT full URL",
+      "query_key": "gh-code|https://github.com/Ashen-Skool/Aot-Fable-5.1|limit:100",
+      "query": "https://github.com/Ashen-Skool/Aot-Fable-5.1",
+      "status": "completed",
+      "requested_limit": 100,
+      "received_count": 1,
+      "unseen_count": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "note": "The exact repository URL matched only the repository's own README. It exposed no external awesome list, reverse-link source, or new game repository.",
+      "next_experiments": [
+        "Search the owner/repository form Ashen-Skool/Aot-Fable-5.1",
+        "Do not count self-links as external discovery",
+        "Switch to a different verified non-browser engine seed if the owner form overlaps"
+      ]
+    },
+    {
+      "source": "GitHub incoming-link search: AOT owner/repository form",
+      "query_key": "gh-code|Ashen-Skool/Aot-Fable-5.1|limit:100",
+      "query": "Ashen-Skool/Aot-Fable-5.1",
+      "status": "completed",
+      "requested_limit": 100,
+      "received_count": 1,
+      "unseen_count": 0,
+      "new_verified_repositories": 0,
+      "overlap_ratio": 1.0,
+      "new_game_units": 0,
+      "note": "The owner/repository form returned the same self-reference as the full URL search. No external list or new game repository was indexed. Mark both AOT incoming-link forms as exhausted for this seed.",
+      "next_experiments": [
+        "Critique the AOT incoming-link pair",
+        "Search another verified Unity, Godot, or Unreal seed only after the critique",
+        "Keep non-browser engine classification based on primary runtime"
+      ]
+    },
+    {
+      "source": "Critique gate: direct API Fable 5.1 date partition",
+      "query_key": "critique|gh-api-repos|Fable 5.1|game|in:readme|pushed:2026-08-25..2026-09-01",
+      "status": "completed",
+      "score_10": 3.0,
+      "decision": "drop-primary-rotation",
+      "note": "The critique rated this audit 3/10. It found zero new game units, repeated three known projects, exposed unreliable CLI date filtering, and returned a benchmark false positive. Keep REST API date partitions only as a secondary audit after adding stronger game-type filters and manual verification.",
+      "criteria": {
+        "novelty": 2,
+        "yield": 1,
+        "verification_quality": 6,
+        "repeatability": 2,
+        "source_reliability": 5,
+        "false_positive_control": 3
+      },
+      "next_experiments": [
+        "Search incoming links to Ashen-Skool/Aot-Fable-5.1",
+        "Use serial creator-source discovery with direct repository links",
+        "Keep REST API date partitions as secondary audits only"
+      ]
+    },
+    {
+      "source": "Critique gate: AOT incoming-link pair",
+      "query_key": "critique|gh-code|Ashen-Skool/Aot-Fable-5.1|full-url+owner-form",
+      "status": "completed",
+      "score_10": 3.0,
+      "decision": "drop-primary-rotation",
+      "note": "Both exact incoming-link forms scored 3/10. They were repeatable and had strong false-positive control, but returned only the repository's own README, with no external source or new game. Keep them only as a low-cost identity preflight before broader reverse-link methods.",
+      "criteria": {
+        "novelty": 1,
+        "yield": 1,
+        "verification_quality": 4,
+        "repeatability": 8,
+        "source_reliability": 7,
+        "false_positive_control": 9
+      },
+      "next_experiments": [
+        "Search another verified Unity, Godot, or Unreal seed with a broader list-oriented query",
+        "Use creator-source links before exact incoming-link checks",
+        "Keep searches serial and inspect each repository once"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 332 across 289 unique accessible repository records",
-    "Reverse-link chains and curated lists are supplemental; exact model-name metadata search currently has the best yield",
-    "Next serial experiment: search the Anshu creator feed for direct game repositories, then search exact Claude Fable plus one engine at a time",
+    "Target: 900 independently counted game units; current: 334 across 291 unique accessible repository records",
+    "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
+    "Next serial experiment: search another verified Unity, Godot, or Unreal seed with a broader list-oriented query",
     "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
     "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"

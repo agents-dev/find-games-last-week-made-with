@@ -208,6 +208,36 @@
       "repository": "https://github.com/achimala/dream-loop",
       "source": "X search: from:anshuc Astra github.com",
       "reason": "The repository is an agent skill that builds games, apps or scenes. Its README contains a demo example, but the repository itself is a reusable skill and not an independently authored game. Do not count toolkits or example scenes as games."
+    },
+    {
+      "repository": "https://github.com/Braffolk/fable5-world-demo",
+      "source": "X search: (Astra OR Claude Opus OR Claude Fable) (game OR playable OR demo)",
+      "reason": "The repository is a real Claude Fable 5 Three.js/WebGPU project with walking, flying and procedural exploration, but its README describes it as a 3D world capability test. It has no game loop, objectives or independent game structure, so reject it as a visual exploration demo."
+    },
+    {
+      "repository": "https://github.com/ScottStevenson/SuperAstra",
+      "source": "GitHub repository search: Astra game in:readme pushed:2026-09-02..2026-09-09",
+      "reason": "The repository is a desktop companion and BizHawk integration tool that lets GPT-6 Astra alter an externally loaded SNES game. It is not an independently authored game, so do not count the companion or the referenced ROMs as games in this collection."
+    },
+    {
+      "repository": "https://github.com/SansNope/UnleashedRecomp-Android",
+      "source": "GitHub repository search: Claude Fable game in:readme pushed:2026-09-02..2026-09-09",
+      "reason": "The repository is a substantial playable Android port, and its README attributes AI-assisted development to Claude Fable 5. However, it ports the existing Sonic Unleashed game and does not independently author the game content. Keep it outside the independently counted game total."
+    },
+    {
+      "repository": "https://github.com/almightymoon/willowbrook",
+      "source": "GitHub repository search: Fable gameplay in:readme pushed:2026-09-02..2026-09-09",
+      "reason": "The repository is a real playable Three.js town exploration game, but the Fable match comes from the in-game building name Fern & Fable. The README provides no Claude Fable, Claude Opus or GPT-6 Astra attribution, so do not count it."
+    },
+    {
+      "repository": "https://github.com/Spartacau5/untitled-fps",
+      "source": "GitHub repository search: Fable gameplay in:readme pushed:2026-09-02..2026-09-09",
+      "reason": "The repository is a real playable browser FPS, but its README says it is a fork and extension of the existing Fable-generated Onslaught game and that the maintainer did not write the original arena. Do not count this derivative as an independent Fable game; retain only the original source if independently verified."
+    },
+    {
+      "repository": "https://github.com/0xlnz/rts-benchmark",
+      "source": "GitHub API repository search: prior Fable 5.1 game window",
+      "reason": "The repository is a real RTS benchmark and evaluation project, but it is a benchmark rather than an independently authored game. Do not count benchmark or evaluation repositories as games."
     }
   ]
 }

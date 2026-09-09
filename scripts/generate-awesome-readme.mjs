@@ -36,6 +36,8 @@ function units(record) {
       name,
       rating: estimate.quality_estimate_10 ?? record.quality_estimate_10 ?? 0,
       flops: estimate.flops_estimate_raw ?? record.flops_estimate_raw ?? 0,
+      gameLink: (record.game_links ?? [])[index],
+      demoLink: (record.live_demo_urls ?? [])[index],
       record,
     };
   });
@@ -128,7 +130,11 @@ for (const [title, group] of groups) {
   for (const row of group) {
     const r = row.record;
     const extra = iconLinks(r);
-    output += `- [**${esc(row.name)}**](${r.github_url}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r))} · ${esc(techText(r))} · ${formatFlops(row.flops)} · _${esc(evidenceText(r))}_${extra ? ` · ${extra}` : ''}\n`;
+    const directLinks = [
+      row.gameLink ? `[🔗 files](${row.gameLink})` : '',
+      row.demoLink ? `[▶️ play](${row.demoLink})` : '',
+    ].filter(Boolean).join(' · ');
+    output += `- [**${esc(row.name)}**](${r.github_url}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r))} · ${esc(techText(r))} · ${formatFlops(row.flops)} · _${esc(evidenceText(r))}_${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
   }
   output += `\n[⬆️ Back to game library](#game-library)\n\n`;
 }

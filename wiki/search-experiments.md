@@ -394,3 +394,197 @@ The CtrlAltDwayne feed returned only the existing [emerald-bayou](https://github
 ### Next experiment
 
 Search another known Astra creator handle. Use direct GitHub links from new X posts only, and inspect each repository one at a time.
+
+## GOROman broader creator search — 2026-09-09
+
+The first query, `from:GOROman github.com`, returned only the existing [FACET FIGHTER](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark) record. Its score was low because it required the repository URL in the original post.
+
+Run the broader query `from:GOROman (game OR ゲーム)`.
+
+This exposed a relevant Famicom/PlayStation development thread. Inspect the thread and its replies. The thread linked [GOROman/calude-famicom-game](https://github.com/GOROman/calude-famicom-game) in a separate post. GitHub verification confirms a four-stage side-scrolling Famicom action game with a ROM, 6502 source, browser WASM emulator, controls, build instructions and three screenshots. The README identifies Claude Code (Fable 5). Add it under **Non-Browser Engines**.
+
+This result changes the method: search creator game posts first, then follow thread links. Do not require `github.com` in the original search hit.
+
+### Next experiment
+
+Critique the broader creator search. If the score is at least 8/10, apply the method to another known creator. If it is below 8/10, drop it from the primary rotation and retain only targeted follow-up use.
+
+## Cross-author model search — 2026-09-09
+
+Run the serial X search `(Astra OR "Claude Opus" OR "Claude Fable") (game OR playable OR demo)`.
+
+The search exposed WoahWurdz posts for [BLACKWATER](https://github.com/Hiraeth010/blackwater) and [BLACKSITE](https://github.com/Hiraeth010/blacksite). Verify the repository, model attribution, game loop and live deployment separately. BLACKWATER is a playable Three.js tactical FPS. BLACKSITE is a playable Three.js wave-survival FPS with Rapier physics. Start the BLACKSITE demo and confirm its Wave 01 HUD state before counting it.
+
+The same search exposed [Braffolk/fable5-world-demo](https://github.com/Braffolk/fable5-world-demo). Verify it, but reject it because it is a visual exploration and capability demo without a game loop or objective.
+
+Keep the two verified FPS projects in the browser-game category. Keep [CALUDE KODO](https://github.com/GOROman/calude-famicom-game) in **Non-Browser Engines** because its primary runtime is a Famicom ROM, even though it also has a browser emulator.
+
+### Next experiment
+
+Critique this cross-author method. Apply it to one known creator only if the score is at least 8/10. Keep searches serial and inspect each direct repository once.
+
+## Critique gate: cross-author model search — 2026-09-09
+
+The critique scored the cross-author search **7/10**, so drop it from the primary rotation.
+
+- Novelty: 7. Two new game units, but both came from one repository owner and one X account.
+- Verification quality: 9. Repository inspection and live-demo checks were strong.
+- Yield: 7. Two additions came from twelve visible posts, but the sample was small.
+- Repeatability: 5. The search lacked a fixed date range, Latest-mode rule, post ledger and time limit.
+- Source reliability: 6. X supplied leads; the repositories supplied stronger evidence.
+- False-positive control: 8. The game-loop test correctly rejected the visual exploration demo.
+
+Keep BLACKWATER and BLACKSITE. Do not treat the method as broad evidence until it passes a source-diversity test.
+
+### Next experiment
+
+Repeat the query with `-from:WoahWurdz`, a fixed seven-day window ending 2026-09-09, and Latest mode. Inspect up to 30 unique posts within 30 minutes. Record each post URL, repository owner, duplicate status and decision. Verify each repository and live demo separately.
+
+## Controlled diversity search — 2026-09-09
+
+Run the Latest-mode query `(Astra OR "Claude Opus" OR "Claude Fable") (game OR playable OR demo) -from:WoahWurdz since:2026-09-02 until:2026-09-10`.
+
+The search exposed six accessible posts. They discussed Astra, games, or AI demos, but none linked a direct GitHub game repository. Do not add a candidate from a model discussion or a video-editing reference. This pass produced zero new records.
+
+### Next experiment
+
+Run the same fixed date window with `github.com` required and `-from:WoahWurdz`. If it remains empty, split the query by model or engine. Critique this controlled pass before broadening the search.
+
+## Controlled direct-link search — 2026-09-09
+
+Run `(Astra OR "Claude Opus" OR "Claude Fable") (game OR playable OR demo) github.com -from:WoahWurdz since:2026-09-02 until:2026-09-10` in Latest mode.
+
+The search returned five accessible posts. The relevant posts all linked [kalelooz/game-x](https://github.com/kalelooz/game-x), which is a reusable game-development skill toolkit. It is not an individual game, so do not count it. This pass produced zero new game records.
+
+### Next experiment
+
+Score this direct-link pass. If it scores below 8/10, stop repeating this query family and switch to GitHub reverse-link or creator-source expansion.
+
+## Critique gate: controlled direct-link search — 2026-09-09
+
+The critique scored this pass **4/10**, so drop it from the primary rotation.
+
+- Novelty: 1. Every relevant hit pointed to the known toolkit.
+- Yield: 1. Five posts produced zero new game records.
+- Verification quality: 7. The toolkit classification was already verified.
+- Repeatability: 7. The query, date window and Latest mode were recorded.
+- Source reliability: 5. X supplied leads; no new repository evidence was found.
+- False-positive control: 9. Do not count a repeated toolkit as a new game or rejection.
+
+### Next experiment
+
+Keep X Latest and the same seven-day window. Require `"play now"`, `"playable demo"` or `"play here"`, require `github.com`, exclude `kalelooz/game-x` and `WoahWurdz`, inspect up to 20 accessible posts, and deduplicate repository URLs before verification.
+
+## Playable-claim search — 2026-09-09
+
+Run `(Astra OR "Claude Opus" OR "Claude Fable") ("play now" OR "playable demo" OR "play here") github.com -"kalelooz/game-x" -from:WoahWurdz since:2026-09-02 until:2026-09-10` in Latest mode.
+
+X returned no results. Record this as a query limitation, not evidence that no matching games exist. Stop this wording variant after critique and switch to GitHub reverse-link expansion.
+
+## Critique gate: playable-claim search — 2026-09-09
+
+The critique scored the empty playable-claim query **5/10**, so drop it from the primary rotation.
+
+The exact wording and GitHub requirement improved noise control, but the three play phrases reduced recall and gave no candidate to verify. Do not infer absence from an empty X result.
+
+### Next experiment
+
+Search GitHub repository READMEs for `Astra`, `Claude Opus` and `Claude Fable` in separate serial queries. Use `pushed:2026-09-02..2026-09-09` as a discovery filter only. Check model attribution and playability as separate claims.
+
+## Critique gate: Claude Fable README search — 2026-09-09
+
+The initial critique scored the search 8/10, but duplicate reconciliation corrected the result: `sorrycc/fable-arcade` was already recorded. The corrected score is **6/10**, so drop this unchanged query from the primary rotation.
+
+The pass improved the existing record with eight direct source links and eight public play URLs. Repository source and model/date/prompt records are strong, but the search added zero new game units and all eight games still come from one repository.
+
+### Next experiment
+
+Do not repeat the same query without a changed date window. Inspect incoming links to [sorrycc/fable-arcade](https://github.com/sorrycc/fable-arcade), then switch to a new seed or date partition.
+
+## Fable alias search — 2026-09-09
+
+Run `Fable game in:readme pushed:2026-09-02..2026-09-09`.
+
+The search returned no new game repository. Results were dominated by F# Fable software, catalogs, skills, benchmarks, old ports and the existing `PhiloLabs/fable51-worlds` record. Do not treat the word `Fable` alone as Claude Fable evidence.
+
+### Next experiment
+
+Critique the alias search. Then search incoming links to [sorrycc/fable-arcade](https://github.com/sorrycc/fable-arcade). Extract only direct game repositories from relevant list files.
+
+## Critique gate: Fable alias search — 2026-09-09
+
+The critique scored the alias query **4/10**, so drop it from the primary rotation. The word `Fable` matched unrelated F# software and reference material. GitHub was a reliable source, but false-positive control was weak and the pass found zero new game repositories.
+
+### Next experiment
+
+Search `"Fable" "gameplay" in:readme pushed:2026-09-02..2026-09-09` with the same limit and recent-update sort. Compare against the saved set. Then inspect incoming links to [sorrycc/fable-arcade](https://github.com/sorrycc/fable-arcade).
+
+## Critique gate: Fable gameplay search — 2026-09-09
+
+The critique scored the search **6/10**, so drop this wording from the primary rotation. The pass found zero new independent games, but it correctly rejected a name collision and a derivative game with clear README evidence. Keep the exclusion rules.
+
+### Next experiment
+
+Run `"Fable 5.1" in:readme pushed:2026-09-02..2026-09-09`, sorted by updated descending, with limit 20. Save all returned repositories. Check original-game lineage, model attribution and playable evidence before counting anything.
+
+## Explicit Fable 5.1 search — 2026-09-09
+
+Run `Fable 5.1 in:readme pushed:2026-09-02..2026-09-09`, sorted by updated descending, with limit 20.
+
+The search returned workflow tools, agent skills, documentation, catalogs and infrastructure. It exposed no unseen accessible game repository. Keep explicit model attribution as a verification rule, but do not use this unfiltered query as a primary discovery family.
+
+### Next experiment
+
+Critique this search. Use a new verified game seed for incoming-link expansion, or return to serial creator-source searches when a direct repository link appears.
+
+## Fable 5.1 game search — 2026-09-09
+
+Run `Fable 5.1 game in:readme pushed:2026-09-02..2026-09-09`, sorted by updated descending, with limit 20.
+
+This game-specific exact search exposed [Ashen-Skool/Aot-Fable-5.1](https://github.com/Ashen-Skool/Aot-Fable-5.1). Verify its public project page and README. It documents a playable Unity 6 action game with ODM traversal, combat, Titan objectives, native/WebGL builds, tests, screenshots and a Claude Fable 5.1 builder/critic gauntlet. Add it under **Non-Browser Engines**.
+
+### Next experiment
+
+Critique this result. Then search incoming links to the new Unity game. Keep native and browser exports separated by primary engine.
+
+## Critique gate: Fable 5.1 game search — 2026-09-09
+
+The critique scored the game-specific exact search **8/10**, so keep it in the primary rotation. It found one new repository with strong README evidence for a Unity game, native/WebGL builds, tests and direct Fable 5.1 gauntlet attribution. Keep the method with non-overlapping date partitions and stable repository IDs.
+
+### Next experiment
+
+Run `Fable 5.1 game in:readme pushed:2026-08-25..2026-09-01`, sorted by updated descending, with limit 20. Record all rejection reasons and compare repository IDs with the current set.
+
+## API date-partition audit — 2026-09-09
+
+The `gh` CLI wrapper did not reliably apply the prior non-overlapping `pushed` range. Run the equivalent direct GitHub REST API query:
+
+`"Fable 5.1" game in:readme pushed:2026-08-25..2026-09-01`
+
+The API returned three already-recorded games — [Turbo Kart Rush](https://github.com/bridge-mind/turbo-kart-rush), [SUPER FABLE BROS.](https://github.com/INONONO66/fable-5.1-mario), and [NEON WARDEN](https://github.com/Nipale-ai/fable-5-1-one-prompt-game) — plus [rts-benchmark](https://github.com/0xlnz/rts-benchmark). The benchmark is an evaluation project, not an independently authored game. Add no new game unit. Keep the three known records, including their upgraded live/source evidence.
+
+### Critique gate
+
+Score this experiment **3/10**. It found zero new games, repeated known records, exposed unreliable CLI date filtering, and produced a benchmark false positive. Drop it from the primary rotation. Keep direct REST date partitions only as secondary audits after stronger game-type filtering.
+
+### Next experiment
+
+Inspect incoming links to [Ashen-Skool/Aot-Fable-5.1](https://github.com/Ashen-Skool/Aot-Fable-5.1) one search at a time. Continue to classify Unity, Godot, Unreal, console, and other native-engine projects under **Non-Browser Engines**.
+
+## AOT incoming-link pair — 2026-09-09
+
+Search the exact URL `https://github.com/Ashen-Skool/Aot-Fable-5.1`, then search `Ashen-Skool/Aot-Fable-5.1`.
+
+Both queries returned only the repository's own README self-reference. They exposed no external list, reverse-link source, or new game repository. Mark this seed exhausted for incoming-link discovery. Keep the AOT record under **Non-Browser Engines** because Unity 6 and native macOS are its primary runtime evidence, even though it also documents a WebGL build.
+
+### Next experiment
+
+Critique the AOT incoming-link pair. If it scores below 8/10, switch to another verified Unity, Godot, or Unreal seed and keep each search serial.
+
+### Critique result
+
+The pair scored **3/10**. Exact URL and owner/repository searches are repeatable and have strong false-positive control, but they returned only the repository's own README and zero new games. Drop them from the primary rotation. Keep them only as a low-cost identity preflight before broader reverse-link searches.
+
+### Next experiment
+
+Search another verified Unity, Godot, or Unreal seed with a broader list-oriented query. Prefer creator-source links, inspect each repository once, and keep the searches serial.

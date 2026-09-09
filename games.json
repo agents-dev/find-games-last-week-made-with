@@ -11,7 +11,7 @@
     "model_family": [
       "Claude Opus 4.5"
     ],
-    "method_evidence": "creator-reported",
+    "method_evidence": "confirmed",
     "game_count": 1,
     "contained_games": [
       "Chinese Word Hunt"
@@ -1151,11 +1151,18 @@
     "name": "Super Fable Bros. — World 1-1",
     "repository_id": 1353906481,
     "github_url": "https://github.com/INONONO66/fable-5.1-mario",
-    "evidence_url": "https://github.com/INONONO66/fable-5.1-mario",
+    "evidence_url": "https://github.com/INONONO66/fable-5.1-mario#features",
+    "live_demo_url": "https://inonono66.github.io/fable-5.1-mario/",
+    "screenshot_urls": [
+      "https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/title.png",
+      "https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/gameplay.png",
+      "https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/gameplay.gif"
+    ],
     "technology": [
       "Canvas 2D",
       "JavaScript",
-      "Web Audio API"
+      "Web Audio API",
+      "Browser"
     ],
     "model_family": [
       "Claude Fable 5.1"
@@ -1170,12 +1177,12 @@
     "verification_notes": "Playable one-file platform game with level, physics, enemies, power-ups, controls, gameplay recording, and full Fable 5.1 trajectory evidence.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
-    "flops_estimate_raw": 320000000,
+    "flops_estimate_raw": 250000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static workload estimate from documented renderer, simulation, effects, and entity complexity; not measured hardware throughput.",
-    "quality_estimate_10": 8,
-    "quality_estimate_basis": "Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.",
+    "flops_estimate_basis": "Static workload estimate for Canvas tile rendering, sprite synthesis, fixed-timestep physics, collision, enemy logic, WebAudio synthesis and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a complete platforming loop, enemies, power-ups, level finish, source-only build, scripted full run, screenshots, public demo and direct one-shot Fable 5.1 attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   },
@@ -1876,25 +1883,33 @@
     "is_independent_game": true
   },
   {
-    "name": "One Prompt, One Game",
+    "name": "NEON WARDEN",
     "repository_id": 1353952903,
     "github_url": "https://github.com/Nipale-ai/fable-5-1-one-prompt-game",
-    "evidence_url": "https://github.com/Nipale-ai/fable-5-1-one-prompt-game/blob/main/README.md",
+    "evidence_url": "https://github.com/Nipale-ai/fable-5-1-one-prompt-game#what-it-built-itself",
+    "game_links": [
+      "https://github.com/Nipale-ai/fable-5-1-one-prompt-game/tree/main/fable"
+    ],
+    "live_demo_url": "https://nipale-ai.github.io/fable-5-1-one-prompt-game/fable/",
     "prompt_urls": [
       "https://github.com/Nipale-ai/fable-5-1-one-prompt-game/blob/main/prompt.txt"
     ],
     "technology": [
+      "Three.js",
+      "GLTFLoader",
+      "WebGL",
       "HTML",
       "JavaScript",
-      "Blender"
+      "Blender",
+      "Browser"
     ],
     "model_family": [
       "Claude Fable 5.1"
     ],
-    "method_evidence": "creator-reported",
+    "method_evidence": "confirmed",
     "game_count": 1,
     "contained_games": [
-      "One Prompt, One Game"
+      "NEON WARDEN"
     ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
@@ -1902,14 +1917,15 @@
     "discovery_sources": [
       "https://github.com/Nipale-ai/fable-5-1-one-prompt-game"
     ],
-    "verification_notes": "README, index.html, fable folder, prompt, and live page contain a playable one-file 3D game and document the single-prompt Fable 5.1 build.",
+    "verification_notes": "The README documents a self-contained 3D browser game with a floating arena, mech movement, mouse aiming, cannon fire, phase dash, ten hostile waves, cores, upgrades, generated assets, audio and video. It explicitly identifies Claude Fable 5.1, a one-prompt 24-minute build, Three.js/GLTFLoader/UnrealBloom, Playwright wave tests and a public demo. Browser verification opened the game, showed the deploy screen and started Wave 1 with hull, hostiles, score, cores, controls and objective HUD.",
     "gauntlet_loop": false,
-    "model_evidence": "creator-reported",
-    "flops_estimate_raw": 1800000000,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 5000000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
-    "quality_estimate_10": 7.5,
-    "quality_estimate_basis": "Playable source, live link, prompt record, and direct attribution.",
+    "flops_estimate_basis": "Static workload estimate for Three.js/GLTF WebGL rendering, procedural arena and effects, enemy waves, physics, post-processing, video, audio and UI; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Evidence-based estimate from a complete ten-wave combat loop, upgrade shop, generated 3D assets, public demo, asset verification, Playwright wave tests and direct one-shot Fable 5.1 attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   },
@@ -1960,7 +1976,7 @@
     "model_family": [
       "Claude Fable 5"
     ],
-    "method_evidence": "creator-reported",
+    "method_evidence": "confirmed",
     "game_count": 1,
     "verification_status": "verified",
     "verified_on": "2026-09-09",
@@ -3494,11 +3510,21 @@
     "name": "Turbo Kart Rush",
     "repository_id": 1354037078,
     "github_url": "https://github.com/bridge-mind/turbo-kart-rush",
-    "evidence_url": "https://github.com/bridge-mind/turbo-kart-rush",
+    "evidence_url": "https://github.com/bridge-mind/turbo-kart-rush#play",
+    "live_demo_url": "https://bridge-mind.github.io/turbo-kart-rush/",
+    "screenshot_urls": [
+      "https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/title.jpg",
+      "https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/character-select.jpg",
+      "https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/track-select.jpg",
+      "https://github.com/bridge-mind/turbo-kart-rush/blob/main/docs/screenshots/race.jpg"
+    ],
     "technology": [
       "Three.js",
-      "JavaScript",
-      "WebGL"
+      "TypeScript",
+      "Vite",
+      "WebGL2",
+      "Web Audio API",
+      "Browser"
     ],
     "model_family": [
       "Claude Fable 5.1"
@@ -3510,15 +3536,15 @@
     "discovery_sources": [
       "https://github.com/bridge-mind/turbo-kart-rush"
     ],
-    "verification_notes": "Playable Three.js arcade kart racer with procedural assets and explicit Fable 5.1 sub-agent build attribution.",
-    "gauntlet_loop": false,
+    "verification_notes": "The README documents a complete Three.js kart racer with four circuits, eight racers, seven AI drivers, three laps, drift, mini-turbo, ten items, collisions, scoring, HUD, gamepad support and source modules. It explicitly states that five Claude Fable 5.1 sub-agents built the game from one prompt. Browser verification loaded the public demo, entered racer selection, circuit selection and the Sunny Circuit race-loading screen.",
+    "gauntlet_loop": true,
     "model_evidence": "confirmed",
-    "flops_estimate_raw": 900000000,
+    "flops_estimate_raw": 7000000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static workload estimate from documented renderer, simulation, effects, and entity complexity; not measured hardware throughput.",
-    "quality_estimate_10": 8,
-    "quality_estimate_basis": "Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.",
+    "flops_estimate_basis": "Static workload estimate for Three.js/WebGL2 track and kart rendering, seven AI drivers, 6000-particle effects, shadows, post-processing, physics, audio and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Evidence-based estimate from a complete multi-lap racing loop, four circuits, AI opponents, items, drift, gamepad support, source modules, public demo, screenshots and direct Fable 5.1 sub-agent attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   },
@@ -7678,15 +7704,75 @@
     "canonical_repository_id": 1312257227
   },
   {
+    "name": "AOT FABLE 5.1",
+    "repository_id": 1354041528,
+    "github_url": "https://github.com/Ashen-Skool/Aot-Fable-5.1",
+    "evidence_url": "https://github.com/Ashen-Skool/Aot-Fable-5.1#state-2026-09-06-read-this-the-rest-of-this-file-is-history",
+    "technology": [
+      "Unity 6",
+      "C#",
+      "Universal Render Pipeline",
+      "WebGL",
+      "Native macOS"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "AOT FABLE 5.1"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-01T21:24:59Z",
+    "published_on": "2026-09-01",
+    "discovery_sources": [
+      "https://github.com/Ashen-Skool/Aot-Fable-5.1"
+    ],
+    "verification_notes": "The repository README and public project page document a real ten-minute Unity 6 game with a three-minute loop, Mikasa ODM movement, hooks, gas, aerial steering, attacks, a 15 m Titan boss, hamstring and nape objectives, cannon interactions, health, respawn, death, restart, HUD, audio, tests and native/WebGL builds. The README explicitly identifies a Claude Fable 5.1 builder/critic gauntlet and records command-line self-checks, screenshots and a verified WebGL build. Classified under Non-Browser Engines.",
+    "gauntlet_loop": true,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 6500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for Unity URP scene rendering, rigged characters, shadows, SSAO, post-processing, particles, physics, AI, audio and WebGL/native presentation; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Evidence-based estimate from a substantial Unity action loop, boss objectives, ODM traversal, combat, native and WebGL builds, self-check harness, screenshots, tests and direct Fable 5.1 gauntlet attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
     "name": "Fable Arcade",
     "repository_id": 1355756148,
     "github_url": "https://github.com/sorrycc/fable-arcade",
-    "evidence_url": "https://github.com/sorrycc/fable-arcade",
+    "evidence_url": "https://github.com/sorrycc/fable-arcade#games",
+    "game_links": [
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city"
+    ],
+    "live_demo_urls": [
+      "https://sorrycc.github.io/fable-arcade/games/flappy-bird/",
+      "https://sorrycc.github.io/fable-arcade/games/mario-1-1/",
+      "https://sorrycc.github.io/fable-arcade/games/mario-kart-snow/",
+      "https://sorrycc.github.io/fable-arcade/games/robot-tennis/",
+      "https://sorrycc.github.io/fable-arcade/games/subway-runner/",
+      "https://sorrycc.github.io/fable-arcade/games/crossy-farm-car/",
+      "https://sorrycc.github.io/fable-arcade/games/terraria-sandbox/",
+      "https://sorrycc.github.io/fable-arcade/games/voxel-gta-city/"
+    ],
     "technology": [
       "HTML",
       "JavaScript",
       "Canvas 2D",
-      "WebGL"
+      "WebGL",
+      "Browser"
     ],
     "model_family": [
       "Claude Fable 5.1"
@@ -7705,61 +7791,31 @@
     ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-03T09:11:24Z",
+    "published_on": "2026-09-02",
     "discovery_sources": [
       "https://github.com/sorrycc/fable-arcade"
     ],
-    "verification_notes": "Repository README lists eight single-file browser games and identifies Fable 5.1+ generation.",
+    "verification_notes": "The repository README lists eight separate single-file HTML games, each with its own folder, source index.html, model/date/prompt README, GitHub Pages play URL and game-specific mechanics. The README states that each game was generated one-shot by Claude Fable 5.1 or later. The repository tree contains all eight game folders, so count eight game units under one canonical repository.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
-    "flops_estimate_raw": 900000000,
+    "flops_estimate_raw": 700000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static workload estimate from documented renderer, simulation, effects, and entity complexity; not measured hardware throughput.",
+    "flops_estimate_basis": "Static workload estimate for the documented Canvas/JavaScript arcade, platform, racing, sports, runner, sandbox and voxel scenes; not measured hardware throughput.",
     "quality_estimate_10": 8,
     "quality_estimate_basis": "Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.",
     "counted_game_units": 8,
     "is_independent_game": true,
     "contained_game_estimates": [
-      {
-        "name": "Flappy Skies",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8
-      },
-      {
-        "name": "World 1-1",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8
-      },
-      {
-        "name": "Frostline Kart",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8
-      },
-      {
-        "name": "Robo Tennis",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8
-      },
-      {
-        "name": "Rail Rush",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8
-      },
-      {
-        "name": "Crossy Farm",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8
-      },
-      {
-        "name": "Hollowmere",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8
-      },
-      {
-        "name": "Fable Theft Auto 5.1",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8
-      }
+      {"name": "Flappy Skies", "flops_estimate_raw": 350000000, "quality_estimate_10": 7.5},
+      {"name": "World 1-1", "flops_estimate_raw": 500000000, "quality_estimate_10": 7.8},
+      {"name": "Frostline Kart", "flops_estimate_raw": 800000000, "quality_estimate_10": 8.2},
+      {"name": "Robo Tennis", "flops_estimate_raw": 500000000, "quality_estimate_10": 7.8},
+      {"name": "Rail Rush", "flops_estimate_raw": 450000000, "quality_estimate_10": 7.8},
+      {"name": "Crossy Farm", "flops_estimate_raw": 350000000, "quality_estimate_10": 7.5},
+      {"name": "Hollowmere", "flops_estimate_raw": 700000000, "quality_estimate_10": 8},
+      {"name": "Fable Theft Auto 5.1", "flops_estimate_raw": 900000000, "quality_estimate_10": 8.2}
     ]
   },
   {
@@ -9293,48 +9349,6 @@
     "is_independent_game": true
   },
   {
-    "name": "BLACKWATER — Silent Harbor",
-    "repository_id": 1357520718,
-    "github_url": "https://github.com/Hiraeth010/blackwater",
-    "evidence_url": "https://github.com/Hiraeth010/blackwater/blob/main/README.md",
-    "technology": [
-      "Three.js",
-      "React",
-      "TypeScript",
-      "Vite",
-      "Web Audio API",
-      "WebGL"
-    ],
-    "model_family": [
-      "GPT-6 Astra"
-    ],
-    "method_evidence": "creator-reported",
-    "game_count": 1,
-    "contained_games": [
-      "BLACKWATER — Silent Harbor"
-    ],
-    "verification_status": "verified",
-    "verified_on": "2026-09-09",
-    "repository_created_at": "2026-09-04T19:26:17Z",
-    "published_on": "2026-09-04",
-    "discovery_sources": [
-      "https://github.com/MartinDelophy/awesome-gpt-6-astra",
-      "https://github.com/Hiraeth010/blackwater",
-      "https://x.com/WoahWurdz/status/2095958882732355908"
-    ],
-    "verification_notes": "README documents a playable single-player Three.js tactical FPS with procedural terminal assets, weapons, enemies, mission completion, controls, tests, and build scripts. The curated source note links the creator public GPT-6 Astra statement and records browser combat and death-state verification.",
-    "gauntlet_loop": false,
-    "model_evidence": "creator-reported",
-    "flops_estimate_raw": 1800000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static estimate for Three.js/WebGL scene rendering, procedural terminal, rain, lighting, weapon effects, enemy navigation, collision, audio, and UI; not measured hardware throughput.",
-    "quality_estimate_10": 8.5,
-    "quality_estimate_basis": "Strong playable source, complete FPS loop, procedural assets, controls, tests, build path, public demo, and direct creator model attribution.",
-    "counted_game_units": 1,
-    "is_independent_game": true
-  },
-  {
     "name": "The Free Game",
     "repository_id": 1359587011,
     "github_url": "https://github.com/LucasMarquesShiva/the-free-game",
@@ -10325,6 +10339,137 @@
     "flops_estimate_basis": "Static workload estimate for a procedural WebGL2 space renderer with custom GLSL, atmospheric raymarching, terrain cubemaps, floating-origin flight, post-processing, instancing, AI traffic and procedural audio; not measured hardware throughput.",
     "quality_estimate_10": 9.5,
     "quality_estimate_basis": "Evidence-based estimate from a complete exploration loop, procedural universe, flight and landing systems, scanning, encounters, custom rendering pipeline, live demo, 50-commit public repository, automated browser verification and direct Opus/Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "BLACKWATER — Silent Harbor",
+    "repository_id": 1357520718,
+    "github_url": "https://github.com/Hiraeth010/blackwater",
+    "evidence_url": "https://github.com/Hiraeth010/blackwater/blob/main/README.md",
+    "live_demo_url": "https://blackwater-roan.vercel.app/",
+    "technology": [
+      "Three.js",
+      "React",
+      "TypeScript",
+      "WebGL",
+      "Vite",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "BLACKWATER — Silent Harbor"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-04T19:26:17Z",
+    "discovery_sources": [
+      "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "https://x.com/WoahWurdz/status/2095958882732355908",
+      "https://x.com/WoahWurdz/status/2095959107215798447",
+      "https://github.com/Hiraeth010/blackwater"
+    ],
+    "verification_notes": "The creator's X post explicitly says GPT-6 Astra one-shotted the Call of Duty-style game and the follow-up post links the source repository. GitHub verification confirms a complete Three.js/React/TypeScript tactical FPS with procedural environment and assets, nine hostiles, weapons, cover-aware enemy navigation, extraction, death/restart, synthesized audio, a live Vercel demo, source modules and automated combat/world tests.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 8500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for Three.js/WebGL tactical FPS rendering, procedural terminal geometry, rain, wet surfaces, lighting, weapon effects, nine enemy agents, collision, audio and browser UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a complete single-player mission, nine enemies, cover-aware combat, weapons, extraction, death/restart, automated combat and world tests, live deployment and direct creator/model attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "BLACKSITE",
+    "repository_id": 1354197125,
+    "github_url": "https://github.com/Hiraeth010/blacksite",
+    "evidence_url": "https://github.com/Hiraeth010/blacksite",
+    "live_demo_url": "https://blacksite-one.vercel.app/",
+    "technology": [
+      "Three.js",
+      "TypeScript",
+      "Vite",
+      "Rapier",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "BLACKSITE"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-02T01:42:22Z",
+    "discovery_sources": [
+      "https://x.com/WoahWurdz/status/2094971419977269476",
+      "https://x.com/WoahWurdz/status/2094971737028931954",
+      "https://github.com/Hiraeth010/blacksite"
+    ],
+    "verification_notes": "The creator's X post says Claude Fable 5.1 one-shotted this Call of Duty-style game and the follow-up links the repository. GitHub metadata and source confirm a substantial Three.js wave-survival FPS with procedural assets, Rapier physics, TypeScript/Vite source, a public Vercel deployment, waves, enemies, weapons, scoring, killstreaks, difficulty and restart state. Browser verification started the live demo and reached Wave 01 with an M4A1, hostiles inbound, objective, health, ammunition and score HUD.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 8000000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for Three.js/WebGL FPS rendering, procedural assets, Rapier physics, enemy waves, weapons, lighting, audio and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a public playable wave-survival loop, live deployment, source modules, physics integration, weapons, enemies, scoring, difficulty and direct creator/model attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "CALUDE KODO (狩人行動)",
+    "repository_id": 1309420555,
+    "github_url": "https://github.com/GOROman/calude-famicom-game",
+    "evidence_url": "https://github.com/GOROman/calude-famicom-game",
+    "live_demo_url": "https://goroman.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/GOROman/calude-famicom-game/main/roms/50-coin-shine.nes",
+    "screenshot_urls": [
+      "https://github.com/GOROman/calude-famicom-game/blob/main/docs/title_screen.png",
+      "https://github.com/GOROman/calude-famicom-game/blob/main/docs/screenshot.png",
+      "https://github.com/GOROman/calude-famicom-game/blob/main/docs/boss_fight.png"
+    ],
+    "technology": [
+      "6502 Assembly",
+      "C",
+      "cc65",
+      "NES / Famicom",
+      "WASM emulator",
+      "Native console"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Calude Kodo (狩人行動)"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-07-23T01:54:52Z",
+    "discovery_sources": [
+      "https://x.com/GOROman/status/2093108358349992084",
+      "https://github.com/GOROman/calude-famicom-game"
+    ],
+    "verification_notes": "The repository contains a real side-scrolling Famicom action game built from scratch in 6502 assembly, a game.nes ROM, source, four stages, controls, a browser-playable WASM emulator, build instructions, automated verification notes and three committed screenshots. The README says it was developed with Claude Code (Fable 5). The creator's X post links the repository and presents the game as an AI-built Famicom project. Classified under Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 5000000,
+    "flops_estimate_unit": "estimated FP32-equivalent operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for an NES-class 6502 game loop, sprite/OAM updates, scrolling, collision, audio driver and emulator presentation; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a complete side-scrolling action loop, four stages, native ROM, source and build chain, browser emulator, controls, screenshots and direct Fable 5 attribution in the README plus creator-linked X evidence.",
     "counted_game_units": 1,
     "is_independent_game": true
   },
