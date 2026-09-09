@@ -3382,10 +3382,58 @@
         "Run Claude Fable 5.1 Godot game in:readme",
         "Inspect every unseen result serially"
       ]
+    },
+    {
+      "source": "Claude Fable date-window and engine triage",
+      "query_key": "\"Claude Fable 5.1\" game in:readme pushed:2026-09-09..2026-09-10; Pygame; Godot",
+      "status": "sample_completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "unseen_count": 1,
+      "overlap_ratio": 0.67,
+      "accepted_repositories": [
+        "https://github.com/gavilanbe/glup"
+      ],
+      "accepted_game_units": [
+        "GLUP — Nila y el pez gato"
+      ],
+      "confirmed_existing_repositories": [
+        "https://github.com/PhiloLabs/fable51-worlds",
+        "https://github.com/Nipale-ai/blocks-openworld"
+      ],
+      "note": "The date-window sample added GLUP, a source-backed live PWA platformer with abilities, hazards, checkpoints and a boss. The separate Pygame and Godot queries returned mostly catalogs, star lists and tooling in the inspected result slice, with no new accepted repository.",
+      "next_experiments": [
+        "Drop the exact Pygame and Godot query forms because of low direct-game precision",
+        "Use a changed Fable phrase or direct source-link query",
+        "Inspect only unseen direct repositories serially"
+      ]
+    },
+    {
+      "source": "Critique of Claude Fable date-window and engine triage",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 8,
+        "yield": 7,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "note": "Keep the date-window search because it found one strong new game, but drop the broad Pygame and Godot forms as standalone methods because their top results are dominated by catalogs and tooling. Use a changed direct-source or build-phrase partition next.",
+      "next_experiments": [
+        "Search `Claude Fable 5.1 built game` with a narrow date window",
+        "Expand direct source links from a new Fable catalog",
+        "Keep the non-browser engine category and require explicit engine evidence"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 390 across 338 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 391 across 339 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

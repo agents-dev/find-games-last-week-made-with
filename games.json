@@ -12739,5 +12739,52 @@
     "quality_estimate_basis": "Live demo, source, campaign structure, 72 checked puzzles, multiple modes, real query validation, screenshot and direct Fable attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "GLUP — Nila y el pez gato",
+    "repository_id": 1361611010,
+    "github_url": "https://github.com/gavilanbe/glup",
+    "game_links": [
+      "https://github.com/gavilanbe/glup",
+      "https://gavilanbe.github.io/glup/"
+    ],
+    "live_demo_url": "https://gavilanbe.github.io/glup/",
+    "evidence_url": "https://github.com/gavilanbe/glup#las-habilidades-de-bigotes",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas 2D",
+      "Web Audio API",
+      "PWA",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "GLUP — Nila y el pez gato"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-08T16:04:58Z",
+    "published_on": "2026-09-09",
+    "discovery_sources": [
+      "GitHub repository search: Claude Fable 5.1 game in:readme pushed:2026-09-09..2026-09-10",
+      "https://github.com/gavilanbe/glup"
+    ],
+    "verification_notes": "The README links a live PWA and documents a complete 2D pixel-platformer with four themed levels, checkpoints, collectible abilities, suction and projectile combat, destructible terrain, moving platforms, hazards, health, a heron boss, level summaries, progress and saved best times. It contains source files for physics, input, enemies, levels, audio and UI and explicitly credits Claude Fable 5.1.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for 2D Canvas platform physics, procedural sprites, particles, audio synthesis, enemy behavior and PWA UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.9,
+    "quality_estimate_basis": "Live demo, complete level and ability structure, boss encounter, progression, checkpoints, saved times, source and direct Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

@@ -945,3 +945,13 @@ The pass also confirmed existing [fable51-worlds](https://github.com/PhiloLabs/f
 ### Critique result
 
 Score this Fable method **9/10** overall: novelty **8**, yield **8**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it. The next experiment should use engine-specific partitions such as `Claude Fable 5.1 Pygame game in:readme` and `Claude Fable 5.1 Godot game in:readme` to improve non-browser coverage.
+
+### Fable date-window and engine triage
+
+The date-window search `"Claude Fable 5.1" game in:readme pushed:2026-09-09..2026-09-10` produced one new direct game after serial inspection: [GLUP — Nila y el pez gato](https://github.com/gavilanbe/glup). It is a live HTML/JavaScript Canvas PWA platformer with four themed levels, collectible abilities, hazards, checkpoints, saved times, enemies and a heron boss. The README explicitly credits Claude Fable 5.1.
+
+The narrower `Pygame` and `Godot` variants produced mostly star lists, catalogs and tools in the inspected slice, with no new accepted repository. Do not use those broad forms as primary methods.
+
+### Critique result
+
+Score the combined pass **8/10**: novelty **8**, yield **7**, verification quality **9**, repeatability **8**, source quality **9**, and false-positive control **9**. Keep the date-window search, but drop the broad Pygame and Godot forms. Use a narrow Fable build phrase or a new direct-source catalog expansion next.
