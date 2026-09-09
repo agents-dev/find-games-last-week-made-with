@@ -8,13 +8,13 @@ const esc = (value) => String(value ?? '')
   .replaceAll('\n', ' ')
   .trim();
 
-const techText = (record) => (record.technology ?? []).join(', ') || 'Browser';
+const techText = (record, technology = null) => (technology ?? record.technology ?? []).join(', ') || 'Browser';
 const modelText = (record) => (record.model_family ?? []).join(', ') || 'Unspecified';
 const evidenceText = (record) => record.model_evidence ?? record.method_evidence ?? 'unknown';
 
-function category(record, gameName) {
-  const text = `${gameName} ${record.name} ${record.verification_notes ?? ''} ${techText(record)}`.toLowerCase();
-  const runtimeText = techText(record).toLowerCase();
+function category(record, gameName, technology = null) {
+  const text = `${gameName} ${record.name} ${record.verification_notes ?? ''} ${techText(record, technology)}`.toLowerCase();
+  const runtimeText = techText(record, technology).toLowerCase();
   if (/godot|unity|unreal|pygame|playstation|ps1|minecraft|mcfunction|datapack|cocos|libgdx|monogame|love2d|sdl|raylib|bevy|defold|rpg maker|game maker|python, cli|c\+\+|native|luanti|mineclonia|psn00bsdk|duckstation|desktop export/.test(runtimeText)) return 'Non-Browser Engines';
   if (/racing|racer|kart|car game|drift|flight|mountain-bike|motorbike|formula/.test(text)) return 'Racing and Vehicles';
   if (/shooter|fps|doom|assault|zombie|surviv|combat|war|iron man|invader|battle|arena/.test(text)) return 'Action and Shooters';
@@ -36,8 +36,9 @@ function units(record) {
       name,
       rating: estimate.quality_estimate_10 ?? record.quality_estimate_10 ?? 0,
       flops: estimate.flops_estimate_raw ?? record.flops_estimate_raw ?? 0,
+      technology: estimate.technology ?? record.technology,
       gameLink: (record.game_links ?? [])[index],
-      demoLink: (record.live_demo_urls ?? [])[index],
+      demoLink: (record.live_demo_urls ?? [record.live_demo_url])[index],
       record,
     };
   });
@@ -45,7 +46,7 @@ function units(record) {
 
 const rows = games.flatMap(units).map((unit) => ({
   ...unit,
-  category: category(unit.record, unit.name),
+  category: category(unit.record, unit.name, unit.technology),
 }));
 const groups = new Map();
 for (const row of rows) {
@@ -79,7 +80,7 @@ const topPicks = rankedRows.filter((row) => {
   featuredRepos.add(row.record.github_url);
   return true;
 }).slice(0, 15);
-const threeCount = rows.filter((row) => /three\.js|threejs|webgl|webgpu/i.test(techText(row.record))).length;
+const threeCount = rows.filter((row) => /three\.js|threejs|webgl|webgpu/i.test(techText(row.record, row.technology))).length;
 const nonBrowserCount = rows.filter((row) => row.category === 'Non-Browser Engines').length;
 const promptCount = rows.filter((row) => row.record.prompt_urls?.length).length;
 const screenshotCount = rows.filter((row) => row.record.screenshot_urls?.length).length;
@@ -134,7 +135,7 @@ for (const [title, group] of groups) {
       row.gameLink ? `[🔗 files](${row.gameLink})` : '',
       row.demoLink ? `[▶️ play](${row.demoLink})` : '',
     ].filter(Boolean).join(' · ');
-    output += `- [**${esc(row.name)}**](${r.github_url}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r))} · ${esc(techText(r))} · ${formatFlops(row.flops)} · _${esc(evidenceText(r))}_${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
+    output += `- [**${esc(row.name)}**](${r.github_url}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r))} · ${esc(techText(r, row.technology))} · ${formatFlops(row.flops)} · _${esc(evidenceText(r))}_${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
   }
   output += `\n[⬆️ Back to game library](#game-library)\n\n`;
 }

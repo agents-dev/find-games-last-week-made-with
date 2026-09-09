@@ -3571,10 +3571,316 @@
         "Expand a new direct Fable source catalog",
         "Inspect every unseen result serially"
       ]
+    },
+    {
+      "source": "Claude Fable Roblox build comparison query",
+      "query_key": "\"Fable 5.1\" game in:readme pushed:2026-09-08..2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/mrfqcentic/blender-roblox-experiment"
+      ],
+      "accepted_game_units": [
+        "STARLANE — Fable 5.1 build"
+      ],
+      "note": "Serial inspection verified a Roblox rail-shooter build with direct Fable 5.1 authorship, an isolated source directory, a documented combat and progression loop, 242 green tests and real gameplay screenshots. The separate GLM comparison build was excluded.",
+      "next_experiments": [
+        "Repeat the Fable query with Roblox, Unity, Godot and Unreal partitions",
+        "Inspect the next unseen direct repository serially",
+        "Keep counting only the model-attributed workspace in multi-model comparison repositories"
+      ]
+    },
+    {
+      "source": "Critique of Claude Fable Roblox build comparison query",
+      "status": "completed",
+      "critic": "manual evidence review pending existing critique-agent response",
+      "scores": {
+        "novelty": 9,
+        "yield": 8,
+        "verification_quality": 10,
+        "repeatability": 8,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "note": "The repository is a strong new engine-specific result. The README separates the Fable workspace from a different GLM workspace, provides source, tests and gameplay screenshots, and describes a complete game loop.",
+      "next_experiments": [
+        "Run engine-specific Fable searches for Roblox, Unity, Godot and Unreal",
+        "Use direct source paths and model-authorship evidence as acceptance requirements",
+        "Reject comparison builds that are not attributed to the requested model"
+      ]
+    },
+    {
+      "source": "Claude Fable multi-game code-search audit",
+      "query_key": "\"Claude Fable 5.1\" game",
+      "status": "sample_completed",
+      "results_inspected": 8,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 2,
+      "unseen_count": 8,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/sorrycc/fable-arcade"
+      ],
+      "accepted_game_units": [
+        "Flappy Skies",
+        "World 1-1",
+        "Frostline Kart",
+        "Robo Tennis",
+        "Rail Rush",
+        "Crossy Farm",
+        "Hollowmere",
+        "Fable Theft Auto 5.1"
+      ],
+      "rejected_repositories": [
+        "https://github.com/ERN-Studios/ERN-Roblox-Horror",
+        "https://github.com/Anil-matcha/awesome-claude-fable-5"
+      ],
+      "note": "Serial source inspection reconfirmed an existing high-yield repository: eight self-contained Fable 5.1 HTML games, eight live GitHub Pages builds, and per-game prompt provenance. Deduplication added zero new units. A Roblox project was rejected because Fable appeared only as a review prompt; a large Fable catalog was rejected because its game cases link to demos and X posts rather than direct game source.",
+      "next_experiments": [
+        "Search the same phrase with HTML and GitHub Pages qualifiers",
+        "Exclude sorrycc/fable-arcade and inspect every new multi-game repository serially",
+        "Keep per-file source checks when one repository contains multiple games"
+      ]
+    },
+    {
+      "source": "Critique of Claude Fable multi-game code-search audit",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 4,
+        "yield": 1,
+        "verification_quality": 10,
+        "repeatability": 8,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 7,
+        "decision": "keep_as_confirmation_only"
+      },
+      "note": "The eight confirmed units have direct source folders, live builds and prompt provenance, but canonical deduplication produced zero new units in this pass. Keep the method only for confirmation audits until an excluded search finds new repositories.",
+      "next_experiments": [
+        "Run \"Claude Fable 5.1\" HTML GitHub Pages game and exclude sorrycc/fable-arcade",
+        "Inspect additional multi-game repositories one at a time",
+        "Retain source-level game-loop checks"
+      ]
+    },
+    {
+      "source": "Claude Fable HTML and GitHub Pages query",
+      "query_key": "\"Claude Fable 5.1\" HTML \"GitHub Pages\" game",
+      "status": "sample_completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 1,
+      "unseen_count": 3,
+      "overlap_ratio": 0.33,
+      "accepted_repositories": [
+        "https://github.com/boromisp/pacman-clone"
+      ],
+      "accepted_game_units": [
+        "PAC-CLONE"
+      ],
+      "rejected_repositories": [
+        "https://github.com/tdimino/open-rebellion"
+      ],
+      "confirmed_existing_repositories": [
+        "https://github.com/bridge-mind/turbo-kart-rush"
+      ],
+      "note": "Serial inspection accepted PAC-CLONE: direct Fable 5.1 attribution, complete Canvas arcade loop, modular source, PWA behavior and a live GitHub Pages build. Turbo Kart Rush was already present. Open Rebellion was rejected because it is a model-unattributed reimplementation of an existing game.",
+      "next_experiments": [
+        "Run \"Claude Fable 5.1\" Canvas \"GitHub Pages\" game",
+        "Exclude every canonical repository already in games.json before inspection",
+        "Keep the live-build and source-loop checks"
+      ]
+    },
+    {
+      "source": "Critique of Claude Fable HTML and GitHub Pages query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "note": "The pass found one new live Fable game after deduplicating a known Turbo Kart record and rejecting a non-Fable reimplementation.",
+      "next_experiments": [
+        "Run \"Claude Fable 5.1\" Canvas \"GitHub Pages\" game",
+        "Exclude all known repositories before counting",
+        "Require direct model authorship and a complete live game loop"
+      ]
+    },
+    {
+      "source": "Claude Opus engine and game code-search pass",
+      "query_key": "\"Claude Opus 4.6\" game",
+      "status": "sample_completed",
+      "results_inspected": 11,
+      "new_verified_repositories": 3,
+      "new_game_units": 3,
+      "new_rejected": 8,
+      "unseen_count": 11,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/boobcactus/fw16-pongwars",
+        "https://github.com/petersomerville/mysnowboard",
+        "https://github.com/trieuwu/Gnivol"
+      ],
+      "accepted_game_units": [
+        "FW16 Pong Wars",
+        "My Snowboard",
+        "Reverse Loving — Gnivol"
+      ],
+      "rejected_repositories": [
+        "https://github.com/Mahgn/dream-loop-volnolom",
+        "https://github.com/DeiuVRG/CFD_Game",
+        "https://github.com/augustallen/polytopia-claude",
+        "https://github.com/lout33/so-long-sucker",
+        "https://github.com/vibe-code-repo/worldofvikings",
+        "https://github.com/nicholasspencer/vibeslinger",
+        "https://github.com/buzzer-re/Rikugan",
+        "https://github.com/YX-S-Z/texas-holdem-arena"
+      ],
+      "note": "The pass widened the collection with a native Rust game, a live Canvas game and a LibGDX game. It also reinforced rejection of model-as-player, model-as-supervisor, incomplete scene, interactive tutorial and tooling projects.",
+      "next_experiments": [
+        "Run a date-windowed Opus query on newly pushed repositories",
+        "Search direct build phrases such as \"built with Claude Opus 4.6\" game",
+        "Keep native engine records in the separate README category"
+      ]
+    },
+    {
+      "source": "Critique of Claude Opus engine and game code-search pass",
+      "status": "completed",
+      "critic": "existing critique agent pending response",
+      "scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "note": "Manual provisional score records the three new source-backed games and the strong separation of model-authored games from model-as-player and non-game repositories.",
+      "next_experiments": [
+        "Run a date-windowed Opus query on newly pushed repositories",
+        "Search direct build-attribution phrases",
+        "Continue serial engine partitions"
+      ]
+    },
+    {
+      "source": "Reverse-link expansion from jphein/opus",
+      "query_key": "jphein/opus libraryData game entries",
+      "status": "sample_completed",
+      "results_inspected": 6,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 4,
+      "unseen_count": 6,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/echosoar/raft",
+        "https://github.com/dmbartles/math-defense-the-last-frontier"
+      ],
+      "accepted_game_units": [
+        "Raft",
+        "Math Defense: The Last Frontier"
+      ],
+      "rejected_repositories": [
+        "https://github.com/exactlyallan/DodgeRock",
+        "https://github.com/jphein/artcardsv5",
+        "https://github.com/liquidsnakeblue/Zork-Opus",
+        "https://github.com/jorgoose/marketmon"
+      ],
+      "note": "The Opus census exposed direct game entries. Serial inspection accepted a live Three.js raft survival/building game and a source-verified Canvas math-defense game. It rejected a Cursor-attributed game, an art carousel, an Opus agent playing existing Zork, and a financial card game without direct Opus authorship evidence.",
+      "next_experiments": [
+        "Expand a different established Opus catalog or project with direct links",
+        "Exclude all canonical records before inspecting links",
+        "Require direct Opus/Fable/Astra authorship evidence, not catalog descriptions alone"
+      ]
+    },
+    {
+      "source": "Critique of reverse-link expansion from jphein/opus",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 9,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "note": "The expansion found two new Opus-attributed games and correctly rejected unsupported or model-as-player links.",
+      "next_experiments": [
+        "Expand a different established Opus repository or catalog",
+        "Inspect direct links one at a time",
+        "Keep the authorship and game-loop checks"
+      ]
+    },
+    {
+      "source": "Low-yield Canvas, engine and date-window partitions",
+      "query_key": "Claude Fable/Opus Canvas, Godot, Unreal and pushed-date partitions",
+      "status": "batch_completed",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "rejected_repositories": [
+        "https://github.com/makseq/freewill"
+      ],
+      "note": "The Canvas plus GitHub Pages query reached known records and catalogs only. Godot and Unreal partitions reached catalogs, skills, incomplete demos and tools. The date-windowed Opus query produced no new qualifying game. The date-windowed Fable query produced makseq/freewill, which is seven simulations rather than games. Drop all four as primary discovery methods.",
+      "critique_scores": {
+        "canvas_github_pages_overall": 5,
+        "godot_unreal_overall": 5,
+        "opus_date_window_overall": 5,
+        "fable_date_window_overall": 5
+      },
+      "next_experiments": [
+        "Use reverse-link expansion from a high-yield Opus or Fable anchor",
+        "Exclude all known canonical repositories before inspection",
+        "Require direct source plus playable or build evidence"
+      ]
+    },
+    {
+      "source": "Critique of low-yield Canvas, engine and date-window partitions",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 2,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 9,
+        "source_quality": 6,
+        "false_positive_control": 9,
+        "overall": 5,
+        "decision": "drop"
+      },
+      "note": "All four partitions had zero new qualifying yield. Rejection control was strong, but the searches were inefficient as primary discovery methods.",
+      "next_experiments": [
+        "Perform a new reverse-link expansion from a high-yield Opus or Fable anchor",
+        "Inspect direct links one at a time",
+        "Preserve strict authorship and game-loop checks"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 394 across 342 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 401 across 349 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

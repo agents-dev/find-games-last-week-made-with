@@ -448,6 +448,86 @@
       "repository": "https://github.com/thepianistdirector/drift-concord",
       "source": "Claude Fable 5.1 playable game query",
       "reason": "The README explicitly says this is a public planning repository with no working product or playable build. Its Fable references are future task preferences, not evidence of a completed Fable-authored game."
+    },
+    {
+      "repository": "https://github.com/ERN-Studios/ERN-Roblox-Horror",
+      "source": "GitHub code search: \"Claude Fable 5.1\" Roblox",
+      "reason": "This is a real Roblox co-op horror game with source and a published build, but the Fable reference is a Danish read-only review prompt asking Claude Fable 5.1 to inspect the existing project. It is not authorship evidence, so reject it under the model-authored-game rule."
+    },
+    {
+      "repository": "https://github.com/Anil-matcha/awesome-claude-fable-5",
+      "source": "GitHub code search: \"Claude Fable 5.1\" Unity game",
+      "reason": "This repository is a catalog of 94 Fable use cases. Its game entries point to public demos and X posts rather than direct source repositories, so it is a lead source, not a verified game record."
+    },
+    {
+      "repository": "https://github.com/tdimino/open-rebellion",
+      "source": "GitHub code search: \"Claude Fable 5.1\" HTML GitHub Pages game",
+      "reason": "This is a substantial Rust/macroquad reimplementation of Star Wars Rebellion with native and WASM builds, but the inspected README contains no Claude Fable 5.1 authorship evidence. It is a reimplementation of an existing game and does not meet the model-authored-game rule."
+    },
+    {
+      "repository": "https://github.com/Mahgn/dream-loop-volnolom",
+      "source": "GitHub repository search: \"Claude Fable 5.1\" Godot game in:readme",
+      "reason": "This repository is an agent skill and bounded scene-review helper. Its README explicitly says the example has no gameplay and is a graphics demo, so reject it as a skill/visual scene rather than a game."
+    },
+    {
+      "repository": "https://github.com/DeiuVRG/CFD_Game",
+      "source": "GitHub code search: \"Claude Fable 5.1\" game",
+      "reason": "The repository contains a real trading-weight game, but Claude Fable 5.1 is used as a sentinel to approve or reject signals in a trading system. It is model-as-player/supervisor evidence, not evidence that Fable authored the game."
+    },
+    {
+      "repository": "https://github.com/augustallen/polytopia-claude",
+      "source": "GitHub code search: \"Claude Opus 4.6\" game",
+      "reason": "This is a real harness for models playing the existing Steam game The Battle of Polytopia. Claude Opus and Fable are player backends, not authors of the game, so reject it."
+    },
+    {
+      "repository": "https://github.com/lout33/so-long-sucker",
+      "source": "GitHub code search: \"Claude Opus 4.6\" game",
+      "reason": "This is a real browser board game and research benchmark, but Claude models are participants in the game and evaluation, not authors of the game implementation. Reject model-as-player evidence."
+    },
+    {
+      "repository": "https://github.com/vibe-code-repo/worldofvikings",
+      "source": "GitHub code search: \"Claude Fable 5.1\" game",
+      "reason": "The README describes only a Phase 1 placeholder capsule and explicitly says there is no character model, combat or authored world yet. It also lacks direct Fable authorship evidence. Reject as incomplete and unverified."
+    },
+    {
+      "repository": "https://github.com/nicholasspencer/vibeslinger",
+      "source": "GitHub code search: \"Claude Opus 4.6\" game",
+      "reason": "This is an interactive visual tutorial about AI inference, not an objective-based game. Reject the visual tutorial despite its live demo."
+    },
+    {
+      "repository": "https://github.com/buzzer-re/Rikugan",
+      "source": "GitHub code search: \"Claude Opus 4.6\" game",
+      "reason": "This is an IDA Pro and Binary Ninja reverse-engineering agent. A maze GIF appears only as a tool-use example; the repository is not a game. Reject it."
+    },
+    {
+      "repository": "https://github.com/YX-S-Z/texas-holdem-arena",
+      "source": "GitHub code search: \"Claude Opus 4.6\" game",
+      "reason": "This is a real poker game, but Claude Opus is a selectable player backend. The README provides no evidence that Opus authored the game. Reject model-as-player evidence."
+    },
+    {
+      "repository": "https://github.com/makseq/freewill",
+      "source": "GitHub repository search: \"Claude Fable 5.1\" built game in:readme pushed:2026-09-09..2026-09-10",
+      "reason": "The repository contains seven deterministic interactive simulations, not objective-based games. Its README explicitly describes Petri Dish, Babel, Trust, Trails, Market and Neighbours as simulations and a report/essay, so exclude it from the game collection."
+    },
+    {
+      "repository": "https://github.com/exactlyallan/DodgeRock",
+      "source": "Reverse-link expansion from https://github.com/jphein/opus",
+      "reason": "The census description says PixiJS plus Opus 4.6, but the repository README says Built With Cursor and the repository code search found no Opus 4.6 attribution. Reject until direct model evidence is available."
+    },
+    {
+      "repository": "https://github.com/jphein/artcardsv5",
+      "source": "Reverse-link expansion from https://github.com/jphein/opus",
+      "reason": "This is a 3D artwork carousel and card dock. It has no game objective, challenge, progression or game-over state, so reject it as an interactive viewer."
+    },
+    {
+      "repository": "https://github.com/liquidsnakeblue/Zork-Opus",
+      "source": "Reverse-link expansion from https://github.com/jphein/opus",
+      "reason": "This repository is an autonomous LLM agent that plays the existing Zork I text adventure through Jericho/Frotz. Claude Opus is a player backend, not the author of the game, so reject model-as-player evidence."
+    },
+    {
+      "repository": "https://github.com/jorgoose/marketmon",
+      "source": "Reverse-link expansion from https://github.com/jphein/opus",
+      "reason": "This is a real Pokémon-style financial trading-card game, but the repository contains no direct Opus 4.6, Fable or Astra authorship evidence. Reject the catalog's unverified hackathon classification."
     }
   ]
 }

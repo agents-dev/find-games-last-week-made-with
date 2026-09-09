@@ -988,3 +988,90 @@ Reject [Wonder Relay](https://github.com/thepianistdirector/wonder-relay) and [D
 ### Critique result
 
 Score this playable-game query **8/10**: novelty **8**, yield **8**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it with strict live-demo and implementation checks. The next pass should use a later push-date window or a new direct Fable source catalog.
+
+### Claude Fable Roblox build comparison query
+
+Run the serial query `"Fable 5.1" game in:readme pushed:2026-09-08..2026-09-10`. Inspect [blender-roblox-experiment](https://github.com/mrfqcentic/blender-roblox-experiment). Accept one unit: [STARLANE — Fable 5.1 build](https://github.com/mrfqcentic/blender-roblox-experiment/tree/main/fable-5.1). The README identifies Run A as a fully autonomous Claude Fable 5.1 build and describes a Roblox rail shooter with formations, rail-camera flight, combat, enemy fire, damage, emergency warp, run-over scoring, hangar upgrades, shipyard, loadouts, missions and a leaderboard. It provides an isolated source tree, Roblox/Luau/Rojo tooling, 242 green tests and real Fable-build screenshots. Exclude the separate GLM 5.3 Flash workspace in the same repository.
+
+### Critique result
+
+Score this method **9/10**: novelty **9**, yield **8**, verification quality **10**, repeatability **8**, source quality **10**, and false-positive control **10**. Keep it. The result validates engine-specific searches and the rule to count only the explicitly attributed workspace in multi-model comparison repositories.
+
+### Next experiment
+
+Run narrow serial searches for `"Claude Fable 5.1" Roblox game in:readme`, `"Claude Fable 5.1" Unity game in:readme`, `"Claude Fable 5.1" Godot game in:readme`, and `"Claude Fable 5.1" Unreal game in:readme`. Inspect every unseen repository one at a time. Require a real game loop, source, and direct authorship evidence.
+
+### Claude Fable multi-game code-search audit
+
+Run the serial code search `"Claude Fable 5.1" game`. Inspect [Fable Arcade](https://github.com/sorrycc/fable-arcade) at repository, directory, and source-file level. Confirm the eight existing units: [Flappy Skies](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird), [World 1-1](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1), [Frostline Kart](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow), [Robo Tennis](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis), [Rail Rush](https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner), [Crossy Farm](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car), [Hollowmere](https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox), and [Fable Theft Auto 5.1](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city). The repository README gives model, date, exact-prompt provenance and a live GitHub Pages URL for every unit. Each source file is a self-contained HTML game with rendering, input or interaction, state, and an objective, score, progression or end-state condition. Three units use Three.js/WebGL; the others use Canvas or DOM rendering. After canonical deduplication, this pass added zero new units.
+
+Reject [ERN-Roblox-Horror](https://github.com/ERN-Studios/ERN-Roblox-Horror): its Fable text is a review prompt for an existing game, not authorship evidence. Reject [awesome-claude-fable-5](https://github.com/Anil-matcha/awesome-claude-fable-5) as a catalog because its game cases point to demos and X posts instead of direct GitHub game source.
+
+### Critique result
+
+Score this pass **7/10**: novelty **4**, yield **1**, verification quality **10**, repeatability **8**, source quality **10**, and false-positive control **10**. Keep it only as a confirmation audit. Preserve the per-file audit rule for future multi-game repositories, but do not count confirmed repositories twice.
+
+### Next experiment
+
+Run `"Claude Fable 5.1" HTML GitHub Pages game`, exclude [sorrycc/fable-arcade](https://github.com/sorrycc/fable-arcade), and inspect every new repository serially. Continue the engine-specific Roblox, Unity, Godot, and Unreal searches after this high-yield path.
+
+### Claude Fable HTML and GitHub Pages query
+
+Run `"Claude Fable 5.1" HTML "GitHub Pages" game` and exclude canonical repositories already in `games.json`. Accept [PAC-CLONE](https://github.com/boromisp/pacman-clone). Its README directly credits Claude Fable 5.1 and documents a complete Pac-Man ruleset, Canvas rendering, four ghost targeting personalities, scatter/chase waves, levels, lives, scoring, sound, input, pause, leaderboard, PWA behavior and a live [GitHub Pages build](https://boromisp.github.io/pacman-clone/). Confirm the source modules and game-state loop before counting it.
+
+Confirm [Turbo Kart Rush](https://github.com/bridge-mind/turbo-kart-rush) as an existing record. Reject [Open Rebellion](https://github.com/tdimino/open-rebellion): it is a substantial Rust/macroquad reimplementation, but the inspected repository does not provide Claude Fable 5.1 authorship evidence.
+
+### Critique result
+
+Score this method **9/10**: novelty **8**, yield **8**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it. The next test should use the narrower Canvas plus GitHub Pages partition, with full canonical deduplication before counting.
+
+### Next experiment
+
+Run `"Claude Fable 5.1" Canvas "GitHub Pages" game`. Inspect every unseen result serially. Require direct source, model authorship, a complete game loop, and a working or documented live build.
+
+### Claude Opus engine and game code-search pass
+
+Run the serial code search `"Claude Opus 4.6" game`. Accept three new games after checking the repository README and implementation evidence:
+
+- [FW16 Pong Wars](https://github.com/boobcactus/fw16-pongwars) — Rust native Windows game for one or two Framework Laptop 16 LED Matrix modules, with configurable balls, speed, brightness, pause, reset, settings and release artifacts. The README credits Claude Opus 4.6.
+- [My Snowboard](https://github.com/petersomerville/mysnowboard) — live [Canvas browser game](https://my-snowboard.vercel.app/) with rider setup, hill difficulty, weather, trick charging, landing timing, health, game over, coins, gear upgrades, two-player mode and leaderboard. The README says it was built with Claude Opus 4.6 and Cursor.
+- [Reverse Loving — Gnivol](https://github.com/trieuwu/Gnivol) — Java/LibGDX 2D point-and-click meta-horror demo with Reality Stability, persistent memory and operating-system interaction. The README credits Claude Opus 4.6 Extended among its AI-assisted development tools.
+
+Reject model-as-player or model-as-supervisor projects such as [Polytopia Claude](https://github.com/augustallen/polytopia-claude), [So Long Sucker](https://github.com/lout33/so-long-sucker), [CFD_Game](https://github.com/DeiuVRG/CFD_Game), and [Texas Hold'em Arena](https://github.com/YX-S-Z/texas-holdem-arena). Reject [dream-loop-volnolom](https://github.com/Mahgn/dream-loop-volnolom) as a skill/visual demo, [Vibeslinger](https://github.com/nicholasspencer/vibeslinger) as an AI tutorial, [Rikugan](https://github.com/buzzer-re/Rikugan) as reverse-engineering tooling, and [World of Vikings](https://github.com/vibe-code-repo/worldofvikings) as an incomplete placeholder without direct Fable authorship evidence.
+
+### Critique result
+
+Score this pass provisionally **9/10**: novelty **9**, yield **9**, verification quality **9**, repeatability **8**, source quality **9**, and false-positive control **10**. Keep it. It adds browser and non-browser engine coverage while preserving the model-authorship rule.
+
+### Next experiment
+
+Run a date-windowed Opus search over newly pushed repositories, then search direct phrases such as `"built with Claude Opus 4.6" game`. Inspect every unseen repository serially and keep native-engine games in the dedicated README category.
+
+### Reverse-link expansion from the Claude Opus census
+
+Expand the direct game entries in [jphein/opus](https://github.com/jphein/opus). Inspect [Raft](https://github.com/echosoar/raft) and [Math Defense: The Last Frontier](https://github.com/dmbartles/math-defense-the-last-frontier) serially.
+
+- [Raft](https://github.com/echosoar/raft) — single-file Three.js/WebGL survival and building game. The README explicitly says it was written entirely with Claude Opus 4.6. It has collection, rowing, movement, raft expansion, multi-level structures, demolition, source and a live [demo](http://aiznb.com/raft/).
+- [Math Defense: The Last Frontier](https://github.com/dmbartles/math-defense-the-last-frontier) — single-file Canvas defense game. Its README identifies it as a Claude Opus 4.6 experiment. Source inspection confirms a title screen, HUD, answer grid, math interactions, waves, score, ammo, narrative choices, collision and game-over state. No live deployment was found.
+
+Reject [DodgeRock](https://github.com/exactlyallan/DodgeRock) because its README says it was built with Cursor and the repository has no Opus attribution. Reject [artcardsv5](https://github.com/jphein/artcardsv5) as an artwork carousel, [Zork-Opus](https://github.com/liquidsnakeblue/Zork-Opus) as an Opus agent playing the existing Zork game, and [Marketmon](https://github.com/jorgoose/marketmon) because it has no direct Opus authorship evidence.
+
+### Critique result
+
+Score this method **9/10**: novelty **9**, yield **8**, verification quality **9**, repeatability **8**, source quality **9**, and false-positive control **10**. Keep it. A maintained Opus census can produce direct game repositories, but every link still needs source-level authorship and game-loop verification.
+
+### Next experiment
+
+Expand a different established Opus catalog or project with direct links. Exclude all canonical records first. Inspect each new repository serially and require direct Astra, Opus or Fable authorship evidence.
+
+### Dropped low-yield partitions
+
+Run the Canvas plus GitHub Pages, Godot, Unreal, date-windowed Opus, and date-windowed Fable partitions serially. They produced no new qualifying games after deduplication. The Fable date-window pass found [Free Will](https://github.com/makseq/freewill), but its seven entries are deterministic research simulations, not objective-based games. The Godot and Unreal searches returned catalogs, skills, incomplete demos and tools. The date-windowed Opus search returned no new qualifying game.
+
+### Critique result
+
+Drop all four partition methods. The critic scored the batch **5/10** overall: novelty **2**, yield **1**, verification quality **8**, repeatability **9**, source quality **6**, and false-positive control **9**. Keep the rejection rules, but stop using these partitions as primary discovery paths.
+
+### Next experiment
+
+Start a new reverse-link expansion from a high-yield Opus or Fable anchor. Exclude every canonical repository before inspection. Require direct source plus playable or build evidence.

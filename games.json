@@ -7686,8 +7686,6 @@
     "technology": [
       "HTML",
       "JavaScript",
-      "Canvas 2D",
-      "WebGL",
       "Browser"
     ],
     "model_family": [
@@ -7724,14 +7722,24 @@
     "counted_game_units": 8,
     "is_independent_game": true,
     "contained_game_estimates": [
-      {"name": "Flappy Skies", "flops_estimate_raw": 350000000, "quality_estimate_10": 7.5},
-      {"name": "World 1-1", "flops_estimate_raw": 500000000, "quality_estimate_10": 7.8},
-      {"name": "Frostline Kart", "flops_estimate_raw": 800000000, "quality_estimate_10": 8.2},
-      {"name": "Robo Tennis", "flops_estimate_raw": 500000000, "quality_estimate_10": 7.8},
-      {"name": "Rail Rush", "flops_estimate_raw": 450000000, "quality_estimate_10": 7.8},
-      {"name": "Crossy Farm", "flops_estimate_raw": 350000000, "quality_estimate_10": 7.5},
-      {"name": "Hollowmere", "flops_estimate_raw": 700000000, "quality_estimate_10": 8},
-      {"name": "Fable Theft Auto 5.1", "flops_estimate_raw": 900000000, "quality_estimate_10": 8.2}
+      {"name": "Flappy Skies", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 220000000, "quality_estimate_10": 7.8},
+      {"name": "World 1-1", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 240000000, "quality_estimate_10": 8.0},
+      {"name": "Frostline Kart", "technology": ["HTML", "JavaScript", "Three.js", "WebGL", "Browser"], "flops_estimate_raw": 2200000000, "quality_estimate_10": 8.5},
+      {"name": "Robo Tennis", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 260000000, "quality_estimate_10": 7.8},
+      {"name": "Rail Rush", "technology": ["HTML", "JavaScript", "Three.js", "WebGL", "Browser"], "flops_estimate_raw": 1900000000, "quality_estimate_10": 8.3},
+      {"name": "Crossy Farm", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 230000000, "quality_estimate_10": 7.8},
+      {"name": "Hollowmere", "technology": ["HTML", "JavaScript", "Canvas", "Browser"], "flops_estimate_raw": 320000000, "quality_estimate_10": 8.1},
+      {"name": "Fable Theft Auto 5.1", "technology": ["HTML", "JavaScript", "Three.js", "WebGL", "Browser"], "flops_estimate_raw": 2600000000, "quality_estimate_10": 8.6}
+    ],
+    "prompt_urls": [
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox",
+      "https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city"
     ]
   },
   {
@@ -12926,6 +12934,331 @@
     "flops_estimate_basis": "Static estimate for a lightweight static PWA card interface, local state, animations and input; not measured hardware throughput.",
     "quality_estimate_10": 8.6,
     "quality_estimate_basis": "Live demo, clear turn-based rules, large content set, progressive difficulty, pass rule, custom decks, offline behavior, screenshots and explicit Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "STARLANE — Fable 5.1 build",
+    "repository_id": 1361238093,
+    "github_url": "https://github.com/mrfqcentic/blender-roblox-experiment",
+    "game_links": [
+      "https://github.com/mrfqcentic/blender-roblox-experiment/tree/main/fable-5.1"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/mrfqcentic/blender-roblox-experiment#run-a--fable-51-autonomous",
+    "screenshot_urls": [
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/03-wave-1-incoming.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/10-combat-incoming-fire.png",
+      "https://github.com/mrfqcentic/blender-roblox-experiment/blob/main/fable-assets/04-run-over-summary.png"
+    ],
+    "technology": [
+      "Roblox Engine",
+      "Luau",
+      "Rojo",
+      "Blender",
+      "Native platform"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "STARLANE — Fable 5.1 build"
+    ],
+    "verification_status": "verified_source_and_screenshots",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-08T10:30:13Z",
+    "published_on": "2026-09-08",
+    "discovery_sources": [
+      "GitHub repository search: \"Fable 5.1\" game in:readme pushed:2026-09-08..2026-09-10",
+      "https://github.com/mrfqcentic/blender-roblox-experiment"
+    ],
+    "verification_notes": "The repository README explicitly identifies Run A as a fully autonomous Claude Fable 5.1 build and links its isolated fable-5.1 Roblox project. It documents STARLANE as a behind-the-ship rail shooter with Galaga-style formations, Star Fox-style rail camera, combat, waves, enemy fire, damage, emergency warp, run-over scoring, hangar upgrades, shipyard, loadouts, missions and a leaderboard. The README includes source layout, Roblox/Luau/Rojo tooling, 242 green tests and multiple screenshots from the Fable build. Count only this Fable workspace; exclude the separate GLM 5.3 Flash comparison build.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Roblox rendering, Luau gameplay simulation, enemy waves, projectiles, particles, UI, audio and hangar systems; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "Direct Fable attribution, complete documented shooter loop, isolated source tree, 242 passing tests, real gameplay screenshots, progression systems and reproducible Roblox tooling.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "PAC-CLONE",
+    "repository_id": 1358628868,
+    "github_url": "https://github.com/boromisp/pacman-clone",
+    "game_links": [
+      "https://github.com/boromisp/pacman-clone"
+    ],
+    "live_demo_url": "https://boromisp.github.io/pacman-clone/",
+    "evidence_url": "https://github.com/boromisp/pacman-clone#pac-clone",
+    "screenshot_urls": [],
+    "prompt_urls": [
+      "https://github.com/boromisp/pacman-clone#development"
+    ],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas 2D",
+      "Web Audio API",
+      "PWA",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "PAC-CLONE"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-05T23:18:14Z",
+    "published_on": "2026-09-05",
+    "discovery_sources": [
+      "GitHub code search: \"Claude Fable 5.1\" HTML GitHub Pages game",
+      "https://github.com/boromisp/pacman-clone"
+    ],
+    "verification_notes": "The README explicitly says the entire repository was written by Claude Code using Claude Fable 5.1 in one session from one prompt. It documents a complete Pac-Man-style game: a 28x31 maze, 244 dots, four ghost targeting personalities, scatter/chase waves, level speed and fright-time tables, tunnel behavior, fruit, extra lives, scoring, local high scores, synthesized audio, keyboard and touch input, pause, fullscreen and an installable offline PWA. GitHub Pages is enabled and exposes the live demo URL.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 250000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas maze rendering, ghost AI, collision checks, audio scheduling, touch input and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Direct Fable attribution, live GitHub Pages build, complete arcade ruleset, structured source modules, offline PWA behavior and explicit controls.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "FW16 Pong Wars",
+    "repository_id": 1083834562,
+    "github_url": "https://github.com/boobcactus/fw16-pongwars",
+    "game_links": [
+      "https://github.com/boobcactus/fw16-pongwars",
+      "https://github.com/boobcactus/fw16-pongwars/releases"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/boobcactus/fw16-pongwars#usage",
+    "screenshot_urls": [
+      "https://github.com/user-attachments/assets/85d59a7b-30c6-42e0-a397-b23e60094e47"
+    ],
+    "technology": [
+      "Rust",
+      "Native desktop",
+      "Windows",
+      "Framework Laptop 16 LED Matrix"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "FW16 Pong Wars"
+    ],
+    "verification_status": "verified_source_and_release",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2025-10-26T19:58:07Z",
+    "published_on": "2025-10-26",
+    "discovery_sources": [
+      "GitHub code search: \"Claude Opus 4.6\" game",
+      "https://github.com/boobcactus/fw16-pongwars"
+    ],
+    "verification_notes": "The README documents a real Rust Pong Wars game with one- or two-module play, configurable balls, speed, brightness, pause/resume, reset, settings and a Windows executable or installer release. It provides controls, installation, source build instructions and a screenshot. The acknowledgements explicitly credit Windsurf and Claude Opus 4.6 as enabling the build. Classify it as a non-browser native engine game.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 120000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Rust Pong Wars simulation, LED-matrix rendering, collision checks, settings UI and Windows presentation; not measured hardware throughput.",
+    "quality_estimate_10": 7.8,
+    "quality_estimate_basis": "Direct game source, release artifacts, clear controls and configuration, real hardware target, screenshot and explicit Opus build credit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "My Snowboard",
+    "repository_id": 1164101292,
+    "github_url": "https://github.com/petersomerville/mysnowboard",
+    "game_links": [
+      "https://github.com/petersomerville/mysnowboard"
+    ],
+    "live_demo_url": "https://my-snowboard.vercel.app/",
+    "evidence_url": "https://github.com/petersomerville/mysnowboard#how-to-play",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas 2D",
+      "Web Audio API",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "My Snowboard"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-02-22T16:36:08Z",
+    "published_on": "2026-02-22",
+    "discovery_sources": [
+      "GitHub code search: \"Claude Opus 4.6\" game",
+      "https://github.com/petersomerville/mysnowboard"
+    ],
+    "verification_notes": "The README links a live browser build and documents a complete snowboarding game loop: name and mode selection, hill difficulty, weather, trick choice, charge-and-release launch, timed landing, health, game over, coins, chalet food, permanent gear upgrades, trick combos and a local leaderboard. It explicitly says the game was built with the help of Claude Opus 4.6 and Cursor, and identifies the Canvas, Web Audio and JavaScript implementation.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 220000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas jump animation, weather effects, state transitions, audio, input and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Live demo, explicit Opus build evidence, clear multi-stage game loop, health and game-over state, progression shop, weather, two-player mode and leaderboard.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Reverse Loving — Gnivol",
+    "repository_id": 1178017273,
+    "github_url": "https://github.com/trieuwu/Gnivol",
+    "game_links": [
+      "https://github.com/trieuwu/Gnivol"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/trieuwu/Gnivol#2-gi%E1%BB%9Bi-thi%E1%BB%87u-d%E1%BB%B1-%C3%A1n",
+    "screenshot_urls": [],
+    "technology": [
+      "Java",
+      "LibGDX",
+      "Desktop export",
+      "Native platform"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Reverse Loving — Gnivol"
+    ],
+    "verification_status": "verified_source_and_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-03-10T15:50:56Z",
+    "published_on": "2026-03-10",
+    "discovery_sources": [
+      "GitHub code search: \"Claude Opus 4.6\" game",
+      "https://github.com/trieuwu/Gnivol"
+    ],
+    "verification_notes": "The README identifies Reverse Loving — Gnivol as a 2D point-and-click meta-horror game built with Java and LibGDX. It documents a playable demo, story-driven choices, Reality Stability state, fourth-wall interactions with the operating system, persistent memory and an approximately one-eighth implemented story. The project credits Claude Opus 4.6 Extended among its AI-assisted development tools. Classify it as a non-browser engine game.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for LibGDX desktop rendering, point-and-click state, audio, persistence and meta-horror effects; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Direct LibGDX source, explicit demo status, documented game systems, persistent state, narrative mechanics and direct Opus-assisted development evidence.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Raft",
+    "repository_id": 1157091673,
+    "github_url": "https://github.com/echosoar/raft",
+    "game_links": [
+      "https://github.com/echosoar/raft"
+    ],
+    "live_demo_url": "http://aiznb.com/raft/",
+    "evidence_url": "https://github.com/echosoar/raft#raft",
+    "screenshot_urls": [
+      "https://github.com/echosoar/raft/blob/main/image.png"
+    ],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Three.js",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Raft"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-02-13T12:22:15Z",
+    "published_on": "2026-02-13",
+    "discovery_sources": [
+      "Reverse-link expansion from https://github.com/jphein/opus",
+      "https://github.com/echosoar/raft"
+    ],
+    "verification_notes": "The README explicitly says this is a single-file 3D game written entirely with Claude Opus 4.6. It documents a complete survival and building loop on an infinite ocean: walk on a raft, use a hook to collect supplies, row, expand the raft through a building panel, add multi-level floors, columns and stairs, and demolish structures. The repository contains index.html and a live deployed build at http://aiznb.com/raft/.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js ocean rendering, procedural resource spawning, character movement, hook interactions, raft construction, multi-level geometry and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Direct Opus attribution, single-file source, live build, screenshot and a clear survival, collection and construction loop with multi-level structures.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Math Defense: The Last Frontier",
+    "repository_id": 1159422747,
+    "github_url": "https://github.com/dmbartles/math-defense-the-last-frontier",
+    "game_links": [
+      "https://github.com/dmbartles/math-defense-the-last-frontier/blob/main/index.html"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/dmbartles/math-defense-the-last-frontier/blob/main/index.html",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas 2D",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Math Defense: The Last Frontier"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-02-16T17:57:30Z",
+    "published_on": "2026-02-16",
+    "discovery_sources": [
+      "Reverse-link expansion from https://github.com/jphein/opus",
+      "https://github.com/dmbartles/math-defense-the-last-frontier"
+    ],
+    "verification_notes": "The README identifies the repository as a Claude Opus 4.6 experiment. Its 55 KB index.html contains a complete Canvas defense game with a title screen, HUD, score, ammo, waves, a trail map, narrative choices, answer grid, wave banner and game-over screen. The source implements player input, math-answer interactions, enemy/wave progression, collision and win/loss state. No live deployment was found, so count it as source-verified only.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas rendering, answer validation, wave logic, collision, narrative UI and audio or effects; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Direct Opus experiment label, complete single-file source, defense/wave loop, score, ammo, narrative choices, answer grid and game-over state.",
     "counted_game_units": 1,
     "is_independent_game": true
   }
