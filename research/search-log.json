@@ -3181,10 +3181,159 @@
         "Follow only direct GitHub game-source links",
         "Deduplicate before counting and require a documented game loop"
       ]
+    },
+    {
+      "source": "GitHub code search plus direct-file audit",
+      "query_key": "\"GPT-6 Astra\" game -> buildfastwithai/gen-ai-experiments",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 1,
+      "new_game_units": 3,
+      "new_rejected": 1,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/buildfastwithai/gen-ai-experiments"
+      ],
+      "accepted_game_units": [
+        "Bengaluru — After the Rain",
+        "BLR / After Hours — Open World",
+        "Phosphor Siege"
+      ],
+      "rejected_repositories": [
+        "https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/gpt%206%20astra/ramayana.html"
+      ],
+      "note": "The repository source index explicitly maps two playable Three.js Astra games and one playable Canvas Fable 5.1 game. Raw HTML inspection confirmed controls, game state, progression or end states. Ramayana is a cinematic and was excluded. Count three units under Browser Games.",
+      "next_experiments": [
+        "Run a changed direct-file search for GPT-6 Astra, GPT6 Astra, Claude Opus or Claude Fable game source",
+        "Prefer repositories with a model-labeled source index and separate playable files",
+        "Deduplicate canonical repository URLs before yield scoring"
+      ]
+    },
+    {
+      "source": "Critique of buildfastwithai direct-file audit",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "note": "The method produced three new game units from one source repository and rejected the adjacent cinematic. Keep the method, but repeat it with a changed model alias or direct HTML-source partition. Its main risk is counting open-world scenes without a clear objective, so require controls plus state, progression, combat, challenge or end-state evidence.",
+      "next_experiments": [
+        "Search GPT6 Astra game source without the hyphen",
+        "Search Claude Opus game source with direct HTML or engine files",
+        "Inspect each unseen repository serially and score only canonical new units"
+      ]
+    },
+    {
+      "source": "GPT6 Astra engine-catalog expansion",
+      "query_key": "\"GPT6 Astra\" \"Unreal Engine\" game in:readme + direct links from magiccreator-ai/awesome-gpt-6-astra",
+      "status": "completed",
+      "results_inspected": 6,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 4,
+      "unseen_count": 4,
+      "overlap_ratio": 0.5,
+      "confirmed_existing_repositories": [
+        "https://github.com/KLINEKRAFT/First-Village",
+        "https://github.com/w4coder/donify"
+      ],
+      "rejected_repositories": [
+        "https://github.com/EverettFish/holo-card-studio",
+        "https://github.com/ashemag/model-x-studio",
+        "https://github.com/emollick/abyssal-living-deep",
+        "https://github.com/wangruofeng/orbital-core-showcase"
+      ],
+      "note": "The query and catalog links mainly surfaced existing Unreal records. The unseen repositories were a card-generation tool, a vehicle viewer, an open-ended underwater simulation and a 3D showcase. None met the strict model-authored objective-based game rule.",
+      "next_experiments": [
+        "Drop this exact engine-catalog combination under the below-8 rule",
+        "Run a changed Claude Opus or Claude Fable native-engine query",
+        "Keep canonical deduplication before yield scoring"
+      ]
+    },
+    {
+      "source": "Critique of GPT6 Astra engine-catalog expansion",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 2,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 8,
+        "false_positive_control": 10,
+        "overall": 6,
+        "decision": "drop"
+      },
+      "note": "The pass confirmed two existing non-browser engine games but produced zero new units. Reject the exact method as a primary discovery path while retaining its negative evidence.",
+      "next_experiments": [
+        "Use Claude Opus or Claude Fable with an engine-specific search",
+        "Prefer direct playable source over mixed 3D catalogs",
+        "Inspect all unseen candidates serially"
+      ]
+    },
+    {
+      "source": "Claude Opus direct attribution query",
+      "query_key": "\"built with Claude Opus 4.6\" game in:readme",
+      "status": "completed",
+      "results_inspected": 5,
+      "new_verified_repositories": 5,
+      "new_game_units": 5,
+      "new_rejected": 0,
+      "unseen_count": 5,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/ehewlett3/AI-Choose-Now",
+        "https://github.com/UniverseKing4/arena-shooter-3d",
+        "https://github.com/argusbrown/missile_command",
+        "https://github.com/sfgeekgit/game_e",
+        "https://github.com/Fable-11/minesweeper"
+      ],
+      "accepted_game_units": [
+        "AI Choose Now!",
+        "Arena Shooter 3D",
+        "Missile Command",
+        "A Game",
+        "Minesweeper"
+      ],
+      "note": "All five unseen repositories contain source-backed games, explicit Claude Opus 4.6 attribution and documented gameplay loops. The Android and Pygame entries are classified under Non-Browser Engines; the other three are browser or local web games.",
+      "next_experiments": [
+        "Keep the exact build-with Opus query and test a non-overlapping date window",
+        "Run the same source and game-loop checks for Claude Fable 5.1 native engines",
+        "Continue serial inspection and canonical deduplication"
+      ]
+    },
+    {
+      "source": "Critique of Claude Opus direct attribution query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "note": "The phrase produced five new source-backed games from five inspected repositories across browser, Android and Pygame targets. Keep it as a primary method. Test the same phrase in a changed date window or pair it with Claude Fable 5.1 while preserving the explicit attribution and game-loop rules.",
+      "next_experiments": [
+        "Run a fresh Claude Fable 5.1 native-engine partition",
+        "Repeat the Opus phrase on a later push-date window",
+        "Require direct source and build or live-demo evidence"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 380 across 330 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 388 across 336 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

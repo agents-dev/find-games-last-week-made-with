@@ -388,6 +388,41 @@
       "repository": "https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files",
       "source": "Direct project links from archorfight/awesome-gpt-6-astra",
       "reason": "The repository is a catalog of 100 self-contained visual studies, interfaces, physics toys and art experiments. Serial inspection of the prompt metadata found no source-backed objective-based game collection; reject the catalog and its visual-only pieces."
+    },
+    {
+      "repository": "https://github.com/helloianneo/awesome-gpt6-astra",
+      "source": "Explicit Astra game catalog expansion",
+      "reason": "The catalog lists games and playable prototypes from X posts, but it provides no direct GitHub game source repositories for those entries. Reject the catalog itself and do not count X-only demos without a source-backed repository."
+    },
+    {
+      "repository": "https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook",
+      "source": "GitHub code search: GPT-6 Astra game",
+      "reason": "The casebook has 13 game and simulation entries, but each inspected entry links to an X post and video rather than a direct GitHub game repository. It is useful for leads and prompt research, not for verified repository collection."
+    },
+    {
+      "repository": "https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/gpt%206%20astra/ramayana.html",
+      "source": "GitHub code search: GPT-6 Astra game",
+      "reason": "The file is a 90-second Three.js cinematic titled VĀNARA — The Eternal Guardian with play/pause, seek and chapter controls. It has no player objective, game state or win/loss loop, so exclude it from the game count."
+    },
+    {
+      "repository": "https://github.com/EverettFish/holo-card-studio",
+      "source": "Direct-link expansion from yangqiong/gpt6-astra-3d and magiccreator-ai/awesome-gpt-6-astra",
+      "reason": "This repository is a Blender-to-Three.js holographic trading-card generation and viewer pipeline. It is a creative tool and interactive viewer, not a game with an objective or game loop."
+    },
+    {
+      "repository": "https://github.com/ashemag/model-x-studio",
+      "source": "Direct-link expansion from magiccreator-ai/awesome-gpt-6-astra",
+      "reason": "This repository is an educational Tesla Model X 3D viewer with 334-piece isolation and an explosion slider. It has no game objective, progression or model-authored game evidence."
+    },
+    {
+      "repository": "https://github.com/emollick/abyssal-living-deep",
+      "source": "Direct-link expansion from magiccreator-ai/awesome-gpt-6-astra",
+      "reason": "This repository is an open-ended Three.js underwater exploration and ecology simulation. Its README calls it an artistic simulation and provides no GPT-6 Astra attribution or objective-based game loop."
+    },
+    {
+      "repository": "https://github.com/wangruofeng/orbital-core-showcase",
+      "source": "Direct-link expansion from magiccreator-ai/awesome-gpt-6-astra",
+      "reason": "This repository is an interactive Three.js Blender-model showcase with orbit controls. It contains no game objective, progression, challenge or model attribution."
     }
   ]
 }

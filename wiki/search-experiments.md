@@ -894,3 +894,41 @@ The existing critique agent scores both methods **6/10** overall and drops both 
 ### Next experiment
 
 Inspect [helloianneo/awesome-gpt6-astra](https://github.com/helloianneo/awesome-gpt6-astra) or another explicit game catalog. Follow only direct GitHub game-source links. Deduplicate before counting and require a documented game loop.
+
+### Direct-file audit from GitHub code search
+
+Search for `"GPT-6 Astra" game` and follow the direct source hit [buildfastwithai/gen-ai-experiments](https://github.com/buildfastwithai/gen-ai-experiments). Its [AI Arcade index](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/index.html) maps model labels to separate playable HTML files. Verify each file serially from the repository tree and raw source:
+
+- [Bengaluru — After the Rain](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/gpt%206%20astra/bangalore.html) — GPT-6 Astra, Three.js, open-world movement, vehicles, health/stamina, police and respawn.
+- [BLR / After Hours — Open World](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/gpt%206%20astra/gta.html) — GPT-6 Astra, Three.js, driving, vehicle entry/exit, punching, police, WASTED and respawn.
+- [Phosphor Siege](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/fable%205.1/space-invaders.html) — Claude Fable 5.1, Canvas arcade waves, shields, shooting and game-over progression.
+
+Exclude the adjacent [Ramayana cinematic](https://github.com/buildfastwithai/gen-ai-experiments/blob/main/ai-creations/gpt%206%20astra/ramayana.html). Its play/pause and seek controls operate a 90-second cinematic, not a player game loop.
+
+### Critique result
+
+Score this direct-file method **8/10** overall: novelty **8**, yield **8**, verification quality **9**, repeatability **8**, source quality **9**, and false-positive control **9**. Keep it. It added three units from one canonical repository and rejected the cinematic. The next pass must use a changed Astra alias or an Opus/Fable direct-source query, and it must keep the same objective/state/end-state checks for open-world entries.
+
+The explicit game catalogs [helloianneo/awesome-gpt6-astra](https://github.com/helloianneo/awesome-gpt6-astra) and [zlxxlz1026/awesome-gpt-6-astra-casebook](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook) were also inspected. They contain X links, screenshots, prompts and videos, but no direct GitHub game repositories for their listed game entries. Reject them as primary collection sources; retain them only for lead generation.
+
+### Dropped GPT6 Astra engine-catalog combination
+
+Run the serial query `"GPT6 Astra" "Unreal Engine" game in:readme`, then expand direct links from [magiccreator-ai/awesome-gpt-6-astra](https://github.com/magiccreator-ai/awesome-gpt-6-astra). The search confirmed existing [First Village](https://github.com/KLINEKRAFT/First-Village) and [Donify](https://github.com/w4coder/donify). Four unseen links were rejected: [holo-card-studio](https://github.com/EverettFish/holo-card-studio) is a card-generation tool, [model-x-studio](https://github.com/ashemag/model-x-studio) is a vehicle viewer, [abyssal-living-deep](https://github.com/emollick/abyssal-living-deep) is an open-ended artistic ecology simulation, and [orbital-core-showcase](https://github.com/wangruofeng/orbital-core-showcase) is a Three.js model showcase.
+
+### Critique result
+
+Score this combined method **6/10**: novelty **2**, yield **1**, verification quality **9**, repeatability **8**, source quality **8**, and false-positive control **10**. Drop it as a primary discovery method. Keep the two confirmations and rejection evidence. Change both the model family and the source pattern next: search direct Claude Opus or Fable native-engine repositories, and require source plus a game loop before counting.
+
+### Claude Opus direct build-attribution query
+
+Run the serial query `"built with Claude Opus 4.6" game in:readme`. Accept five unseen repositories after checking their README, source layout and run or demo evidence:
+
+- [AI Choose Now!](https://github.com/ehewlett3/AI-Choose-Now) — local-AI branching adventure with streaming narrative, choices, undo, persistence and export.
+- [Arena Shooter 3D](https://github.com/UniverseKing4/arena-shooter-3d) — native Android Kotlin/OpenGL ES wave shooter with weapons, enemies, power-ups, scores and game-over progression.
+- [Missile Command](https://github.com/argusbrown/missile_command) — single-file Canvas game with cities, bases, counter-missiles, chain explosions, waves, MIRVs and scoring.
+- [A Game](https://github.com/sfgeekgit/game_e) — live React/Django clicker with anonymous accounts and persistent server-side points.
+- [Minesweeper](https://github.com/Fable-11/minesweeper) — Pygame Minesweeper with three difficulties, eight themes, win/loss state, streaks, statistics and saved best times.
+
+### Critique result
+
+Score this Opus method **9/10**: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it. It added five game units from five inspected repositories and widened the collection with Android and Pygame non-browser engines. Repeat the phrase on a later date window, then run the same checks for Claude Fable 5.1 native-engine projects.
