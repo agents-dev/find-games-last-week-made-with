@@ -2828,10 +2828,51 @@
         "Run %22Claude Opus 4.6%22 browser game in:readme as a changed platform partition",
         "Deduplicate before assigning yield or counting a result"
       ]
+    },
+    {
+      "source": "GitHub repository search: built entirely by Claude Opus 4.6 game in README",
+      "query_key": "gh-repo-search|%22built+entirely+by+Claude+Opus+4.6%22+game+in%3Areadme|all|2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/snek-git/mineclaude"
+      ],
+      "note": "The exact build phrase exposed MineClaude, a source-backed Rust/Bevy survival game with direct Claude Opus 4.6 attribution, screenshots, extensive gameplay systems and native run instructions. Other returned entries were known or clearly non-game/tool repositories and were not re-read in this serial sample.",
+      "next_experiments": [
+        "Inspect a changed Opus/Fable game phrase or engine partition",
+        "Keep native engine games in the separate non-browser section"
+      ]
+    },
+    {
+      "source": "Critique of exact Claude Opus build-phrase query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "built_entirely_by_claude_opus_4_6_game": {
+          "novelty": 9,
+          "yield": 8,
+          "verification_quality": 9,
+          "repeatability": 9,
+          "source_quality": 9,
+          "false_positive_control": 8,
+          "overall": 9,
+          "decision": "keep"
+        }
+      },
+      "note": "The critique kept the exact build-phrase method. It added MineClaude with strong native source and attribution evidence. Keep the same checks and test a different attribution phrase next.",
+      "next_experiments": [
+        "Run %22made with Claude Opus 4.6%22 game in:readme",
+        "Deduplicate before scoring and counting"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 376 across 326 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 377 across 327 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

@@ -824,3 +824,13 @@ Run one new Opus/Fable query or reverse-link pass. Inspect each unseen repositor
 The initial critique scored the precision query **9/10**, but canonical deduplication corrected this pass to zero new units. Re-score the method using the corrected yield before deciding whether to keep it as a primary search.
 
 The correction audit scored the deduplicated method **6/10** and dropped it. Its verification and false-positive controls were strong, but it had zero novelty and zero new-game yield. Keep deduplication as a rule, not this exact query as a primary method. Change the platform term next.
+
+### Exact build-phrase partition
+
+The serial `"built entirely by Claude Opus 4.6" game in:readme` search found [MineClaude](https://github.com/snek-git/mineclaude). The README directly credits Claude Opus 4.6 and documents a native Rust/Bevy survival game with voxel terrain, caves, mining, crafting, combat, mobs, hunger, farming, storage, saves and death/respawn. It includes screenshots and native build instructions. Add it to **Non-Browser Engines**.
+
+### Next experiment
+
+Run one changed Opus/Fable build phrase or engine partition. Inspect each unseen candidate serially and deduplicate before counting.
+
+The critique scored the exact build-phrase method **9/10** and kept it. It produced one accepted game from one inspected candidate with strong source and attribution evidence. Test the alternate phrase `made with Claude Opus 4.6` next.

@@ -12187,5 +12187,51 @@
     "quality_estimate_basis": "Direct Opus attribution, complete roguelike loop, source, local run instructions and public live demo.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "MineClaude",
+    "repository_id": 1151499882,
+    "github_url": "https://github.com/snek-git/mineclaude",
+    "game_links": [
+      "https://github.com/snek-git/mineclaude/tree/master/src"
+    ],
+    "evidence_url": "https://github.com/snek-git/mineclaude#what-is-this",
+    "screenshot_urls": [
+      "https://github.com/snek-git/mineclaude/blob/master/assets/screenshots/screenshot2.jpg",
+      "https://github.com/snek-git/mineclaude/blob/master/assets/screenshots/screenshot1.jpg"
+    ],
+    "technology": [
+      "Rust",
+      "Bevy 0.18",
+      "WGSL",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "MineClaude"
+    ],
+    "verification_status": "verified_source_build_instructions",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-02-06T14:45:43Z",
+    "published_on": "2026-02-06",
+    "discovery_sources": [
+      "https://api.github.com/search/repositories?q=%22built+entirely+by+Claude+Opus+4.6%22+game+in%3Areadme",
+      "https://github.com/snek-git/mineclaude"
+    ],
+    "verification_notes": "The README explicitly says MineClaude was built entirely by Claude Opus 4.6 using Claude Code. It is a real Rust/Bevy survival game with infinite voxel terrain, caves, mining, building, crafting, combat, mobs, hunger, farming, storage, saves and a death/respawn loop. The repository contains about 24,000 lines across 41 source files, screenshots, Cargo run instructions and the complete native game source. Classify it under Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 5200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for Bevy voxel rendering, greedy meshing, async chunks, terrain and cave generation, mob AI, physics, inventory, lighting and native input; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Strong direct attribution, large native source base, complete survival loop, screenshots, gameplay systems and documented human playtesting; no packaged release was supplied.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
