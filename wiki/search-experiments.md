@@ -1409,3 +1409,24 @@ The critique agent scores this audit **9/10** overall: novelty **8**, yield **9*
 ### Next experiment
 
 Run serial build or startup validation for the nine Bevy games. Record native versus WebAssembly status, then search another engine with the same gameplay-source and exact-trailer filter.
+
+### Serial Defold native game audit
+
+Run the serial GitHub search `Defold game Co-Authored-By Claude Opus`. Require `game.project`, a collection, direct gameplay scripts/assets, and an exact Claude Opus trailer.
+
+Accept:
+
+- [Mind The Tower](https://github.com/Vineethk08/mind-the-tower-defold) — Defold memory and block-stacking game with a falling-block tower, climbing, score, replay and screenshots.
+- [Rummy 500](https://github.com/SkipSupreme/rummy-500) — Defold card game with deck, hand, meld rules, AI, engine state, GUI and full-game tests.
+- [Soliter](https://github.com/ErrorSoul/soliter) — Defold solitaire game with board slots, cards, game manager, tutorial, win state and solver/replay tests.
+- [Ourcade](https://github.com/aniche/ourcade-defold) — Defold mobile beat-em-up with player, enemies, rooms, menus, game-over UI, remote player and Android artifacts.
+
+Check source links one at a time. Use `master` for Soliter and `v0` for Ourcade after checking each repository's default branch. This pass adds four source-verified native-engine game units and raises the collection to 493 units across 428 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it. Runtime validation is the next evidence step.
+
+### Next experiment
+
+Run serial Defold startup or build validation for the four games. Record source-verified versus successfully runnable status, then search another native engine.
