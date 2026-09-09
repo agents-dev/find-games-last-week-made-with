@@ -1456,3 +1456,29 @@ The critique agent scores this audit **9/10** overall: novelty **10**, yield **1
 ### Next experiment
 
 Run serial LÖVE startup validation for the nine games. Record valid configuration and successful launch status, then search another native engine.
+
+### Serial raylib native game audit
+
+Run the serial GitHub search `raylib game Co-Authored-By Claude Opus`. Require Raylib source, a real game loop, README or screenshot evidence, and an exact Claude Opus or Fable trailer.
+
+Accept:
+
+- [Tenaoshi](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/tenaoshi) — C/Raylib neighborhood renovation game with exploration, repair tasks, tools and happiness score.
+- [Namioto](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/namioto) — C/Raylib breathing and ocean meditation game with wave state, calm score and procedural sea/sky.
+- [TsunDoku](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/tsundoku) — C/Raylib book-stacking Tetris puzzle with shelf layouts, falling books, rows, rounds and score.
+- [RonriRoom](https://github.com/NaoyaNakagawa0124/auto-dev-projects/tree/master/ronriroom) — C/Raylib office escape puzzle with five logic rooms and puzzle types.
+- [Merchant's Keep](https://github.com/Afillex/merchants-keep) — C99/Raylib merchant trading game with economy, traders, events, reputation, balance and saves.
+- [DogFighter](https://github.com/mokguylee-prog/dogfighter) — C/Raylib 3D paper-airplane combat game with AI, shooting, particles, HUD and radar.
+- [Energy Clicker](https://github.com/ferranrigual/raylib-clicker) — Python Raylib clicker economy game with energy sources, upgrades and pollution state.
+- [SCUMM Game](https://github.com/binRick/scumm-game) — C/Raylib point-and-click adventure with pathfinding, verbs, animated sprites and live editors.
+- [Caro / Gomoku](https://github.com/nhannht/caro-game) — C++14/Raylib board game with a CMake project and AI/game implementation.
+
+Inspect each game directory or source link serially. Count the four auto-dev-projects directories as four distinct units inside one repository. Reject [Wallop](https://github.com/Mertan2/wallop) from the native section because its current target is web-only WASM; reject compiler examples, templates and scaffolds. This pass adds nine source-verified native-engine game units and raises the collection to 511 units across 443 repositories.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **10**, yield **10**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it. Runtime validation remains the next evidence step.
+
+### Next experiment
+
+Run serial native build or startup validation for the nine Raylib units. Keep web-only WASM Raylib projects in an exclusion category, then search another native engine.

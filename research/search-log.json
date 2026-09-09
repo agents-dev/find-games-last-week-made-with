@@ -4360,6 +4360,50 @@
       "critic": "existing critique agent"
     },
     {
+      "source": "Serial raylib native game audit",
+      "query_key": "raylib game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 10,
+      "new_verified_repositories": 6,
+      "new_game_units": 9,
+      "new_rejected": 4,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/NaoyaNakagawa0124/auto-dev-projects",
+        "https://github.com/Afillex/merchants-keep",
+        "https://github.com/mokguylee-prog/dogfighter",
+        "https://github.com/ferranrigual/raylib-clicker",
+        "https://github.com/binRick/scumm-game",
+        "https://github.com/nhannht/caro-game"
+      ],
+      "rejected_repositories": [
+        "https://github.com/Mertan2/wallop",
+        "https://github.com/maltasea/lua_of_ocaml",
+        "https://github.com/vasanthsarathy/odin-raylib-game-template",
+        "https://github.com/samizard-1/sam-card-game"
+      ],
+      "held_repositories": [],
+      "note": "Serial inspection accepted six Raylib repositories containing nine game units. auto-dev-projects contains four distinct C/Raylib games: Tenaoshi, Namioto, TsunDoku and RonriRoom. The other accepted projects are Merchant's Keep, DogFighter, Energy Clicker, SCUMM Game and Caro/Gomoku. Source links and default branches were checked one at a time. Exclude Wallop from the native section because its current build target is web-only WASM; exclude compiler examples, templates and scaffolds.",
+      "next_experiments": [
+        "Perform serial native build or startup validation for the nine Raylib units",
+        "Keep web-only WASM Raylib projects in an exclusion category",
+        "Search another native engine with the same gameplay-source and exact-trailer filter"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "Nine distinct Raylib games provide exceptional yield with strong source and screenshot evidence. Excluding web-only WASM, compiler examples, scaffolds and tools is correct for the native audit.",
+      "critic": "existing critique agent"
+    },
+    {
       "source": "Serial LÖVE native game audit",
       "query_key": "Love2D game Co-Authored-By Claude Opus",
       "status": "completed",
@@ -4603,7 +4647,7 @@
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 502 across 437 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 511 across 443 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",
