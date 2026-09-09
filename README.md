@@ -2,14 +2,14 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 293 verified games. Real source. No prompt-only filler.
+### 300 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-293-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-207-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-149-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-300-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-214-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-154-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
 > **A source-verified field guide to games built with GPT-6 Astra, Claude Opus, and Claude Fable.**<br />
-> Every counted entry has a real GitHub repository and playable game code.
+> Every counted entry has a real GitHub repository and playable game code. Browser and non-browser engines are separated.
 
 </div>
 
@@ -19,15 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 293 games. Yes, each one links to source.**
+**Yes, that is 300 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **293** |
-| 📦 Independent repositories | **207** |
-| 🧊 Three.js, WebGL, or WebGPU games | **149** |
+| 🎮 Independently counted games | **300** |
+| 📦 Independent repositories | **214** |
+| 🧊 Three.js, WebGL, or WebGPU games | **154** |
+| 🛠️ Non-browser engine games | **20** |
 | 📸 Games with verified screenshot links | **1** |
 | 🧠 Games with direct prompt links | **8** |
 
@@ -37,21 +38,21 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 | Game | Score | Built with |
 | --- | ---: | --- |
+| [**SUNBREAK — Downhill Club**](https://github.com/Imirushik/sunbreak-downhill-3D-game) | ⭐ **9.5** | GPT-6 Astra |
+| [**FACET FIGHTER**](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark) | ⭐ **9.0** | GPT-6 Astra |
+| [**Smash Karts Arena**](https://github.com/amsminn/gpt-6-astra-smash-karts) | ⭐ **9.0** | GPT-6 Astra |
 | [**Airlock Escape**](https://github.com/shironagasu-ai/claude-fable5-3D-games) | ⭐ **8.5** | Claude Fable 5 |
 | [**Amp Build 1**](https://github.com/zuwasi/Baboons-Over-London) | ⭐ **8.5** | Claude Fable 5 |
 | [**Astra Dash**](https://github.com/octopus7/astracraft) | ⭐ **8.5** | GPT-6 Astra |
 | [**Astra Tetris**](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris) | ⭐ **8.5** | GPT-6 Astra |
+| [**BLACKWATER — Silent Harbor**](https://github.com/Hiraeth010/blackwater) | ⭐ **8.5** | GPT-6 Astra |
 | [**Blocky Obby Dash**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) | ⭐ **8.5** | Claude Fable 5 |
+| [**CityMaker**](https://github.com/derek-wangpch/OpenCityMaker) | ⭐ **8.5** | GPT-6 Astra |
 | [**Fable City**](https://github.com/koviq4/fable-sandbox) | ⭐ **8.5** | Claude Fable 5.1 |
 | [**MirrorForge**](https://github.com/leonvanzyl/claude-fable-5-mirror-game) | ⭐ **8.5** | Claude Fable 5 |
 | [**Mosswing**](https://github.com/Ayi1337/gpt6-astra-one-shot-games) | ⭐ **8.5** | GPT-6 Astra |
 | [**SHOVE**](https://github.com/robss2020/claude-fable-5-having-fun) | ⭐ **8.5** | Claude Fable 5, Claude Opus 4.8 |
-| [**THORNMERE: The Founding Song**](https://github.com/dgahagan/THORNMERE) | ⭐ **8.5** | Claude Fable 5 |
-| [**VESPER: The Hollow Earth**](https://github.com/EiNSTeiN-/astra-tomb-raider-test) | ⭐ **8.5** | GPT-6 Astra |
-| [**Wormhole**](https://github.com/AidanHT/Wormhole) | ⭐ **8.5** | Claude Fable 5 |
-| [**Apex Formula**](https://github.com/bridge-mind/apex-formula) | ⭐ **8.0** | Claude Fable 5.1 |
-| [**Astra — Chapter I: A delivery for Gundren**](https://github.com/LucasM25-max/dnd-astra) | ⭐ **8.0** | GPT-6 Astra |
-| [**Awawa Quest**](https://github.com/Rebell-Leader/claude-game) | ⭐ **8.0** | Claude Fable 5 |
+| [**Silent Meridian**](https://github.com/stackloomdev/silent-meridian) | ⭐ **8.5** | GPT-6 Astra |
 
 ## 📸 Screenshot spotlight
 
@@ -69,62 +70,47 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **36 games**
-- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **29 games**
-- 💥 [Action and Shooters](#action-and-shooters) — **69 games**
-- 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **21 games**
-- 🧊 [Three.js and WebGL](#threejs-and-webgl) — **47 games**
-- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **16 games**
-- 🎮 [Other Browser Games](#other-browser-games) — **75 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **20 games**
+- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **28 games**
+- 💥 [Action and Shooters](#action-and-shooters) — **67 games**
+- 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **22 games**
+- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **31 games**
+- 🧊 [Three.js and WebGL](#threejs-and-webgl) — **45 games**
+- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **15 games**
+- 🎮 [Other Browser Games](#other-browser-games) — **72 games**
 
 Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**, and any verified screenshot or prompt link. The layout wraps on narrow screens and avoids horizontal table scrolling.
 
-## Puzzle, Arcade, and Platformers
+## Non-Browser Engines
 
-> 🧩 **36 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **20 verified games. Ranked by evidence-based quality score.**
 
+- [**FACET FIGHTER**](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark) — ⭐ **9.0/10** · GPT-6 Astra · C, PSn00bSDK, PlayStation 1, GitHub Actions, DuckStation · 20 MFLOPS · _creator-reported_
 - [**Astra Tetris**](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris) — ⭐ **8.5/10** · GPT-6 Astra · Minecraft Java datapack, mcfunction, Python, Three.js renderer · 600 MFLOPS · _creator-reported_
-- [**MirrorForge**](https://github.com/leonvanzyl/claude-fable-5-mirror-game) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, WebGPU, WGSL · 4.50 GFLOPS · _creator-reported_
 - [**SHOVE**](https://github.com/robss2020/claude-fable-5-having-fun) — ⭐ **8.5/10** · Claude Fable 5, Claude Opus 4.8 · Python, CLI · 120 MFLOPS · _creator-reported_
-- [**Wormhole**](https://github.com/AidanHT/Wormhole) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, Vite, WebGL · 2.20 GFLOPS · _creator-reported_
-- [**Crossy Farm**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
-- [**Fable Theft Auto 5.1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
-- [**Flappy Skies**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
-- [**Hollowmere**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
-- [**Rail Rush**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
-- [**Robo Tennis**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
-- [**Super Fable Bros. — World 1-1**](https://github.com/INONONO66/fable-5.1-mario) — ⭐ **8.0/10** · Claude Fable 5.1 · Canvas 2D, JavaScript, Web Audio API · 320 MFLOPS · _confirmed_
-- [**World 1-1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
-- [**Beyond Boring: The Game**](https://github.com/kolatts/beyond-boring-the-game) — ⭐ **7.5/10** · Claude Fable 5 · Three.js, TypeScript, Vite · 1.10 GFLOPS · _creator-reported_
-- [**Flip Match**](https://github.com/asmoyou/toy2game) — ⭐ **7.5/10** · GPT-6 Astra · Three.js, TypeScript, Vite, cannon-es · 1.80 GFLOPS · _repository/topic trail_
+- [**The Free Game**](https://github.com/LucasMarquesShiva/the-free-game) — ⭐ **8.5/10** · GPT-6 Astra · Godot 4.7.2, GDScript, Web export, 3D simulation · 1.10 GFLOPS · _creator-reported_
+- [**Hydra Minecraft**](https://github.com/nickthelegend/hydra-minecraft) — ⭐ **8.0/10** · Claude Fable 5 · JavaScript, Three.js, WebSockets · 4.20 GFLOPS · _creator-reported_
 - [**GemMatch**](https://github.com/dylanmtaylor/gemmatch) — ⭐ **7.5/10** · Claude Opus 4.6 · Godot 4, GDScript · 350 MFLOPS · _creator-reported_
-- [**Princess Puzzle Game**](https://github.com/AieatAssam/bejewelled-clone) — ⭐ **7.5/10** · Claude Opus 4.5 · TypeScript, Three.js · 900 MFLOPS · _creator-reported_
-- [**Tabularis Run**](https://github.com/TabularisDB/game) — ⭐ **7.5/10** · Claude Fable 5 · Canvas 2D, Web Audio API, JavaScript · 220 MFLOPS · _creator-reported_
-- [**Tether**](https://github.com/Barabosik/tether-demo) — ⭐ **7.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 260 MFLOPS · _creator-reported_
-- [**3D Minesweeper**](https://github.com/xoau79/3D-Minesweeper-Game-by-Fable-5) — ⭐ **7.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 900 MFLOPS · _creator-reported_
-- [**AstroHop**](https://github.com/nunoamorim99/AstroHop) — ⭐ **7.0/10** · Claude Fable 5 · JavaScript, Phaser 3, Vite · 650 MFLOPS · _creator-reported_
-- [**Breakout**](https://github.com/shironagasu-ai/claude-fable5-games) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Canvas 2D · 1.20 GFLOPS · _repository/topic trail_
-- [**Breakout — ChatGPT Gauntlet Loop Experiment**](https://github.com/marcosmallet/breakout-gauntlet-loop) — ⭐ **7.0/10** · Claude Opus 5 · HTML, CSS, JavaScript, Canvas 2D · 220 MFLOPS · _directory-method_
-- [**Mirror Breakout**](https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo) — ⭐ **7.0/10** · Claude Opus 4.7 · HTML, Canvas, JavaScript · 250 MFLOPS · _creator-reported_
-- [**Pocket Soccer**](https://github.com/sbugrayy/Pocket-Soccer) — ⭐ **7.0/10** · Claude Fable 5 · HTML, JavaScript, Canvas · 450 MFLOPS · _creator-reported_
-- [**Snake**](https://github.com/shironagasu-ai/claude-fable5-games) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Canvas 2D · 1.20 GFLOPS · _repository/topic trail_
-- [**Snake**](https://github.com/IshaqAlathamneh/claude-snake-game) — ⭐ **7.0/10** · Claude Fable 5 · TypeScript, Browser · 180 MFLOPS · _creator-reported_
-- [**Snaketris**](https://github.com/markstent/snaketris) — ⭐ **7.0/10** · Claude Fable 5 · JavaScript, Browser · 250 MFLOPS · _creator-reported_
+- [**Neon Overdrive**](https://github.com/adisagar2003/neon-top-down-shooter) — ⭐ **7.5/10** · Claude Opus 5 · Godot 4.7, GDScript · 380 MFLOPS · _creator-reported_
+- [**Batman 2D Game**](https://github.com/arnienemeth/PythonGameBatmanWithAI) — ⭐ **7.0/10** · Claude Opus 4.5 · Python, Pygame · 250 MFLOPS · _creator-reported_
+- [**Drawdown**](https://github.com/substrateagnostic/drawdown) — ⭐ **7.0/10** · Claude Opus 4.8 · Godot, GDScript · 500 MFLOPS · _creator-reported_
+- [**Fable5 Minecraft**](https://github.com/Angais/Fable5-mc) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.50 GFLOPS · _repository/topic trail_
+- [**Gauntlet Loop × Unity CLI — 2.5D RPG**](https://github.com/az9713/gauntlet-loop-unity-cli-demo) — ⭐ **7.0/10** · Claude Opus 5 · Unity, C# · 260 MFLOPS · _directory-method_
+- [**Minecraft Clone Fable5**](https://github.com/kengonakajima/mc_clone_fable5) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _repository/topic trail_
+- [**Neon Survivor**](https://github.com/zlip0/neon-survivor) — ⭐ **7.0/10** · Claude Opus 4.6 · Godot, C# · 550 MFLOPS · _creator-reported_
 - [**Steamed Hams: The Game**](https://github.com/Ran4/steamed_hams_the_game_claude_opus_4_6) — ⭐ **7.0/10** · Claude Opus 4.6 · Python, Pygame · 250 MFLOPS · _creator-reported_
-- [**Sudoku**](https://github.com/antoniosubasic/sudoku) — ⭐ **7.0/10** · Claude Opus 4.5 · Svelte, Rust, WebAssembly · 150 MFLOPS · _creator-reported_
-- [**Super Haaland Quest**](https://github.com/houssemeddinelassoued/haaland-quest-game) — ⭐ **7.0/10** · Claude Fable 5 · JavaScript, Canvas · 400 MFLOPS · _creator-reported_
-- [**Tres Breakout**](https://github.com/alvarosabu/tres-breakout) — ⭐ **7.0/10** · Claude Fable 5 · JavaScript, TresJS, Three.js · 700 MFLOPS · _creator-reported_
 - [**Breakout Pygame**](https://github.com/drjasonharrison/breakout-video-pygame) — ⭐ **6.5/10** · Claude Opus 4.5 · Python, Pygame · 180 MFLOPS · _creator-reported_
 - [**Chinese Word Hunt**](https://github.com/02dtan/ChineseWordHunt) — ⭐ **6.5/10** · Claude Opus 4.5 · Python, CLI · 120 MFLOPS · _creator-reported_
-- [**Flappy Bird Opus 4.7**](https://github.com/marcoakes/flappy-bird-opus-4-7) — ⭐ **6.5/10** · Claude Opus 4.7 · HTML5 Canvas, JavaScript · 220 MFLOPS · _creator-reported_
+- [**Doom Furniture Refurb**](https://github.com/cbx-nz/mrcrayfishfurniturerefurb-doom) — ⭐ **6.5/10** · Claude Opus 4.6 · Java, Minecraft mod · 900 MFLOPS · _creator-reported_
 - [**Tetris**](https://github.com/ChrisBayer42/tetris-Claude120226) — ⭐ **6.5/10** · Claude Opus 4.6 · Python, Pygame · 180 MFLOPS · _creator-reported_
-- [**VibePinball**](https://github.com/Randroids-Dojo/VibePinball) — ⭐ **6.5/10** · Claude Fable 5 · TypeScript, Canvas · 700 MFLOPS · _creator-reported_
+- [**Tic Tac Toe**](https://github.com/shuyangsun/az-game-tic-tac-toe) — ⭐ **6.5/10** · Claude Opus 4.7 · C++, AlphaZero API · 80 MFLOPS · _creator-reported_
+- [**Xiang Qi**](https://github.com/shuyangsun/az-game-xiang-qi) — ⭐ **6.5/10** · Claude Opus 4.7 · C++, AlphaZero API · 100 MFLOPS · _creator-reported_
 
 [⬆️ Back to game library](#game-library)
 
 ## Adventure, RPG, and Exploration
 
-> 🗺️ **29 verified games. Ranked by evidence-based quality score.**
+> 🗺️ **28 verified games. Ranked by evidence-based quality score.**
 
 - [**THORNMERE: The Founding Song**](https://github.com/dgahagan/THORNMERE) — ⭐ **8.5/10** · Claude Fable 5 · JavaScript, Canvas, Web Audio API · 1.10 GFLOPS · _creator-reported_
 - [**BLOCKS**](https://github.com/Nipale-ai/blocks-openworld) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Blender · 1.20 GFLOPS · _confirmed_
@@ -142,7 +128,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Space You Land**](https://github.com/JaronKBragg7337/SYL-Full-Game) — ⭐ **7.5/10** · Claude Fable 5 · JavaScript, WebGL · 4 GFLOPS · _creator-reported_
 - [**The Long Silence**](https://github.com/achimala/TheLongSilence) — ⭐ **7.5/10** · Claude Opus 5 · WebGL2, GLSL, JavaScript, Web Audio API · 900 MFLOPS · _creator-reported_
 - [**Ashlands**](https://github.com/PeterBlenessy/ashlands) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, TypeScript, WebGL2 · 1.10 GFLOPS · _directory-method_
-- [**Gauntlet Loop × Unity CLI — 2.5D RPG**](https://github.com/az9713/gauntlet-loop-unity-cli-demo) — ⭐ **7.0/10** · Claude Opus 5 · Unity, C# · 260 MFLOPS · _directory-method_
 - [**Hollow Road**](https://github.com/afteradier/first-prompt-game) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Web Audio API · 1.20 GFLOPS · _creator-reported_
 - [**Jelajah Antariksa**](https://github.com/RafiulM/3d-game-fable5.1) — ⭐ **7.0/10** · Claude Fable 5.1 · HTML, JavaScript, Three.js · 1.80 GFLOPS · _creator-reported_
 - [**Neon Precinct**](https://github.com/dylanhsieh/neon-precinct) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, JavaScript, WebGL · 900 MFLOPS · _directory-method_
@@ -160,11 +145,12 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Action and Shooters
 
-> 💥 **69 verified games. Ranked by evidence-based quality score.**
+> 💥 **67 verified games. Ranked by evidence-based quality score.**
 
 - [**Amp Build 1**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
 - [**Amp Build 2**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
 - [**Amp Build 3**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
+- [**BLACKWATER — Silent Harbor**](https://github.com/Hiraeth010/blackwater) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, React, TypeScript, Vite, Web Audio API, WebGL · 1.80 GFLOPS · _creator-reported_
 - [**Claude Build 1**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
 - [**Claude Build 2**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
 - [**Claude Build 3**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
@@ -196,7 +182,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Gogh Strike**](https://github.com/petergpt/gogh-strike) — ⭐ **7.5/10** · GPT-6 Astra · Three.js, WebGL, JavaScript · 1.50 GFLOPS · _creator-reported_
 - [**Malandro — Cidade Maravilhosa**](https://github.com/herval/gta3-rj-opus5) — ⭐ **7.5/10** · Claude Opus 5 · Three.js, WebGL, JavaScript, Web Audio API · 1.20 GFLOPS · _creator-reported_
 - [**Metal Assault**](https://github.com/AndreaZero/metal-assault-game-claude-fable) — ⭐ **7.5/10** · Claude Fable 5 · HTML5 Canvas, JavaScript, Web Audio API · 450 MFLOPS · _creator-reported_
-- [**Neon Overdrive**](https://github.com/adisagar2003/neon-top-down-shooter) — ⭐ **7.5/10** · Claude Opus 5 · Godot 4.7, GDScript · 380 MFLOPS · _creator-reported_
 - [**Nerd of Duty**](https://github.com/sytaylor/nerd-of-duty) — ⭐ **7.5/10** · Claude Opus 5 · Three.js, JavaScript, WebGL2 · 900 MFLOPS · _creator-reported_
 - [**Operation Blackout**](https://github.com/taozhuo/operation-blackout) — ⭐ **7.5/10** · Claude Opus 5 · Three.js, WebGL2, JavaScript · 900 MFLOPS · _creator-reported_
 - [**Operation Ironhold**](https://github.com/StarKnightt/operation-ironhold) — ⭐ **7.5/10** · Claude Opus 5 · Three.js, HTML, JavaScript · 900 MFLOPS · _creator-reported_
@@ -219,7 +204,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Forest Pests**](https://github.com/fjzeit/forest-pests) — ⭐ **7.0/10** · Claude Opus 4.5 · TypeScript, Browser · 350 MFLOPS · _creator-reported_
 - [**Group Survival Game**](https://github.com/kaykayyali/Group-Survival-Game) — ⭐ **7.0/10** · Claude Opus 5 · Phaser, JavaScript, WebSockets · 220 MFLOPS · _directory-method_
 - [**Iridium Reach**](https://github.com/jason-c-dev/iridium-reach-demo) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, JavaScript, Web Audio API · 1.50 GFLOPS · _directory-method_
-- [**Neon Survivor**](https://github.com/zlip0/neon-survivor) — ⭐ **7.0/10** · Claude Opus 4.6 · Godot, C# · 550 MFLOPS · _creator-reported_
 - [**Operation Blackout**](https://github.com/erekjiang/call-of-duty-opus5) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, WebGL, JavaScript, Web Audio API · 1.80 GFLOPS · _repository/topic trail_
 - [**Pastel Nuketown**](https://github.com/luckeyfaraday/pastel-nuketown) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, JavaScript, WebSockets · 1.20 GFLOPS · _creator-reported_
 - [**Riftbound: Meridian Trial**](https://github.com/TheXUMU9/TheXUMU9-Game_with-Gauntlet_Loop) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, JavaScript, Vite · 1.10 GFLOPS · _directory-method_
@@ -228,7 +212,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Turbo Turf Wars**](https://github.com/shreyasr25/TurboTurfWars) — ⭐ **7.0/10** · Claude Opus 4.6 · HTML, JavaScript · 400 MFLOPS · _creator-reported_
 - [**ZOF//DUTY**](https://github.com/mike007jd/ZofDuty) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, WebGL2 · 900 MFLOPS · _directory-method_
 - [**Claude of Duty**](https://github.com/mshumer/Claude-of-Duty) — ⭐ **6.5/10** · Claude Opus 5 · Three.js, WebGL2 · 900 MFLOPS · _directory-method_
-- [**Doom Furniture Refurb**](https://github.com/cbx-nz/mrcrayfishfurniturerefurb-doom) — ⭐ **6.5/10** · Claude Opus 4.6 · Java, Minecraft mod · 900 MFLOPS · _creator-reported_
 - [**Neon Dodge Arena**](https://github.com/Jabaraj16/neon-dodge-arena) — ⭐ **6.5/10** · Claude Opus 5 · TypeScript, Three.js · 1 GFLOPS · _creator-reported_
 - [**Warehouse FPS**](https://github.com/404-Repo/404-game-recipe) — ⭐ **6.5/10** · Claude Opus 5 · Three.js, JavaScript · 1.20 GFLOPS · _directory-method_
 
@@ -236,8 +219,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Racing and Vehicles
 
-> 🏎️ **21 verified games. Ranked by evidence-based quality score.**
+> 🏎️ **22 verified games. Ranked by evidence-based quality score.**
 
+- [**Smash Karts Arena**](https://github.com/amsminn/gpt-6-astra-smash-karts) — ⭐ **9.0/10** · GPT-6 Astra · Three.js, React, TypeScript, Vite, WebSocket, Node.js, Web Audio API · 2.20 GFLOPS · _creator-reported_
 - [**Drift Away Arrows**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Fable Kart**](https://github.com/koviq4/fable-sandbox) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, Vite, JavaScript · 900 MFLOPS · _confirmed_
 - [**Apex Formula**](https://github.com/bridge-mind/apex-formula) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, TypeScript, WebGL · 1.80 GFLOPS · _confirmed_
@@ -262,10 +246,49 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 [⬆️ Back to game library](#game-library)
 
+## Puzzle, Arcade, and Platformers
+
+> 🧩 **31 verified games. Ranked by evidence-based quality score.**
+
+- [**CityMaker**](https://github.com/derek-wangpch/OpenCityMaker) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, React, TypeScript, Vite, WebGL, IndexedDB · 800 MFLOPS · _creator-reported_
+- [**MirrorForge**](https://github.com/leonvanzyl/claude-fable-5-mirror-game) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, WebGPU, WGSL · 4.50 GFLOPS · _creator-reported_
+- [**Silent Meridian**](https://github.com/stackloomdev/silent-meridian) — ⭐ **8.5/10** · GPT-6 Astra · HTML, JavaScript, WebGL, Web Audio API, Vercel · 650 MFLOPS · _creator-reported_
+- [**Wormhole**](https://github.com/AidanHT/Wormhole) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, Vite, WebGL · 2.20 GFLOPS · _creator-reported_
+- [**Crossy Farm**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
+- [**Fable Theft Auto 5.1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
+- [**Flappy Skies**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
+- [**Hollowmere**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
+- [**Rail Rush**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
+- [**Robo Tennis**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
+- [**Super Fable Bros. — World 1-1**](https://github.com/INONONO66/fable-5.1-mario) — ⭐ **8.0/10** · Claude Fable 5.1 · Canvas 2D, JavaScript, Web Audio API · 320 MFLOPS · _confirmed_
+- [**World 1-1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
+- [**Beyond Boring: The Game**](https://github.com/kolatts/beyond-boring-the-game) — ⭐ **7.5/10** · Claude Fable 5 · Three.js, TypeScript, Vite · 1.10 GFLOPS · _creator-reported_
+- [**Flip Match**](https://github.com/asmoyou/toy2game) — ⭐ **7.5/10** · GPT-6 Astra · Three.js, TypeScript, Vite, cannon-es · 1.80 GFLOPS · _repository/topic trail_
+- [**Princess Puzzle Game**](https://github.com/AieatAssam/bejewelled-clone) — ⭐ **7.5/10** · Claude Opus 4.5 · TypeScript, Three.js · 900 MFLOPS · _creator-reported_
+- [**Tabularis Run**](https://github.com/TabularisDB/game) — ⭐ **7.5/10** · Claude Fable 5 · Canvas 2D, Web Audio API, JavaScript · 220 MFLOPS · _creator-reported_
+- [**Tether**](https://github.com/Barabosik/tether-demo) — ⭐ **7.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 260 MFLOPS · _creator-reported_
+- [**3D Minesweeper**](https://github.com/xoau79/3D-Minesweeper-Game-by-Fable-5) — ⭐ **7.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 900 MFLOPS · _creator-reported_
+- [**AstroHop**](https://github.com/nunoamorim99/AstroHop) — ⭐ **7.0/10** · Claude Fable 5 · JavaScript, Phaser 3, Vite · 650 MFLOPS · _creator-reported_
+- [**Breakout**](https://github.com/shironagasu-ai/claude-fable5-games) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Canvas 2D · 1.20 GFLOPS · _repository/topic trail_
+- [**Breakout — ChatGPT Gauntlet Loop Experiment**](https://github.com/marcosmallet/breakout-gauntlet-loop) — ⭐ **7.0/10** · Claude Opus 5 · HTML, CSS, JavaScript, Canvas 2D · 220 MFLOPS · _directory-method_
+- [**Mirror Breakout**](https://github.com/tbensonwest/claude-4-7-breakout-oneshot-demo) — ⭐ **7.0/10** · Claude Opus 4.7 · HTML, Canvas, JavaScript · 250 MFLOPS · _creator-reported_
+- [**Pocket Soccer**](https://github.com/sbugrayy/Pocket-Soccer) — ⭐ **7.0/10** · Claude Fable 5 · HTML, JavaScript, Canvas · 450 MFLOPS · _creator-reported_
+- [**Snake**](https://github.com/shironagasu-ai/claude-fable5-games) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Canvas 2D · 1.20 GFLOPS · _repository/topic trail_
+- [**Snake**](https://github.com/IshaqAlathamneh/claude-snake-game) — ⭐ **7.0/10** · Claude Fable 5 · TypeScript, Browser · 180 MFLOPS · _creator-reported_
+- [**Snaketris**](https://github.com/markstent/snaketris) — ⭐ **7.0/10** · Claude Fable 5 · JavaScript, Browser · 250 MFLOPS · _creator-reported_
+- [**Sudoku**](https://github.com/antoniosubasic/sudoku) — ⭐ **7.0/10** · Claude Opus 4.5 · Svelte, Rust, WebAssembly · 150 MFLOPS · _creator-reported_
+- [**Super Haaland Quest**](https://github.com/houssemeddinelassoued/haaland-quest-game) — ⭐ **7.0/10** · Claude Fable 5 · JavaScript, Canvas · 400 MFLOPS · _creator-reported_
+- [**Tres Breakout**](https://github.com/alvarosabu/tres-breakout) — ⭐ **7.0/10** · Claude Fable 5 · JavaScript, TresJS, Three.js · 700 MFLOPS · _creator-reported_
+- [**Flappy Bird Opus 4.7**](https://github.com/marcoakes/flappy-bird-opus-4-7) — ⭐ **6.5/10** · Claude Opus 4.7 · HTML5 Canvas, JavaScript · 220 MFLOPS · _creator-reported_
+- [**VibePinball**](https://github.com/Randroids-Dojo/VibePinball) — ⭐ **6.5/10** · Claude Fable 5 · TypeScript, Canvas · 700 MFLOPS · _creator-reported_
+
+[⬆️ Back to game library](#game-library)
+
 ## Three.js and WebGL
 
-> 🧊 **47 verified games. Ranked by evidence-based quality score.**
+> 🧊 **45 verified games. Ranked by evidence-based quality score.**
 
+- [**SUNBREAK — Downhill Club**](https://github.com/Imirushik/sunbreak-downhill-3D-game) — ⭐ **9.5/10** · GPT-6 Astra · Three.js, TypeScript, Vite, WebGL2, Web Audio API, Playwright · 4.50 GFLOPS · _creator-reported_
 - [**Airlock Escape**](https://github.com/shironagasu-ai/claude-fable5-3D-games) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, cannon-es, JavaScript · 1.80 GFLOPS · _confirmed_
 - [**Astra Dash**](https://github.com/octopus7/astracraft) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Canvas 2D, WebGL, JavaScript · 1.20 GFLOPS · _confirmed_
 - [**Aurora Sea**](https://github.com/shironagasu-ai/claude-fable5-3D-games) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, cannon-es, JavaScript · 1.80 GFLOPS · _confirmed_
@@ -282,7 +305,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Celadon: The Long Ash**](https://github.com/winchxyz/celadon) — ⭐ **8.0/10** · Claude Opus 5 · JavaScript, WebGL, Canvas · 2.20 GFLOPS · _creator-reported_
 - [**Fable Katamari**](https://github.com/aieo-product/fableDemoGame) — ⭐ **8.0/10** · Claude Fable 5 · JavaScript, Vite, Three.js · 2.60 GFLOPS · _creator-reported_
 - [**FC 27**](https://github.com/Time-dev-alt/Fable-5.1-Games) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Canvas 2D · 1.20 GFLOPS · _creator-reported_
-- [**Hydra Minecraft**](https://github.com/nickthelegend/hydra-minecraft) — ⭐ **8.0/10** · Claude Fable 5 · JavaScript, Three.js, WebSockets · 4.20 GFLOPS · _creator-reported_
 - [**Joyride**](https://github.com/nitzangames/joyride) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, Web Audio API · 1.80 GFLOPS · _confirmed_
 - [**Leonida**](https://github.com/AlfredBrowser/Leonida-GTA-6-Remake-Fable-5.1) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL · 900 MFLOPS · _confirmed_
 - [**Leonida Stories 3D**](https://github.com/marvijo-code/leonida-stories-3d) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, Cannon-es, Web Audio API · 2.40 GFLOPS · _confirmed_
@@ -302,12 +324,10 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Claude Bandicoot**](https://github.com/atiqur-rahman-pro/claude-bandicoot) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, Web Audio API · 900 MFLOPS · _directory-method_
 - [**Claude of Tanks**](https://github.com/Kevin-Liu-01/Claude-of-Tanks) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, TypeScript, Vite · 1.20 GFLOPS · _directory-method_
 - [**Deephaul**](https://github.com/TESTYEE-09/Deephaul-opus5-) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, TypeScript, Node.js, WebRTC · 900 MFLOPS · _repository/topic trail_
-- [**Fable5 Minecraft**](https://github.com/Angais/Fable5-mc) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.50 GFLOPS · _repository/topic trail_
 - [**Groot Theft Bakkie**](https://github.com/MichaelBernhardt/GTB6) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, TypeScript, Vite · 1.20 GFLOPS · _directory-method_
 - [**Gura Gura Iseki**](https://github.com/simosimo1333-png/5p-games-opus5) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, Rapier, JavaScript, WebSocket · 1.80 GFLOPS · _repository/topic trail_
 - [**Hitman 2016 Demo**](https://github.com/EricSpencer00/oneshot-hm2016) — ⭐ **7.0/10** · Claude Opus 4.5 · JavaScript, Three.js · 1.80 GFLOPS · _creator-reported_
 - [**Memory**](https://github.com/shironagasu-ai/claude-fable5-games) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Canvas 2D · 1.20 GFLOPS · _repository/topic trail_
-- [**Minecraft Clone Fable5**](https://github.com/kengonakajima/mc_clone_fable5) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _repository/topic trail_
 - [**Mirror Tap**](https://github.com/shironagasu-ai/claude-fable5-games) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Canvas 2D · 1.20 GFLOPS · _repository/topic trail_
 - [**NeonBeat**](https://github.com/OBdangshang07/Opus5_rhythm_game) — ⭐ **7.0/10** · Claude Opus 5 · Canvas 2D, WebGL2, Vue, TypeScript, Web Audio API · 900 MFLOPS · _repository/topic trail_
 - [**Reflex Tap**](https://github.com/shironagasu-ai/claude-fable5-games) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Canvas 2D · 1.20 GFLOPS · _repository/topic trail_
@@ -318,7 +338,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Strategy, Simulation, and Sports
 
-> ♟️ **16 verified games. Ranked by evidence-based quality score.**
+> ♟️ **15 verified games. Ranked by evidence-based quality score.**
 
 - [**Farm Game**](https://github.com/BrilZliaN/farm-game) — ⭐ **8.0/10** · Claude Opus 5 · TypeScript, Three.js, Vite · 1.50 GFLOPS · _creator-reported_
 - [**Tribal Gods**](https://github.com/br3nt/tribal-gods) — ⭐ **8.0/10** · Claude Fable 5 · TypeScript, Three.js · 3 GFLOPS · _creator-reported_
@@ -335,13 +355,12 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Verdium Storm**](https://github.com/jimskin03/Verdium-Storm) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, TypeScript, Vite · 1.10 GFLOPS · _directory-method_
 - [**Dune Browser Game**](https://github.com/cocodedk/Dune-Browser-Game) — ⭐ **6.5/10** · Claude Opus 5 · Three.js, React, TypeScript, Vite · 1.50 GFLOPS · _directory-method_
 - [**Frosty Tactics**](https://github.com/Ninaji/Frosty-Tatics) — ⭐ **6.5/10** · Claude Fable 5 · HTML, JavaScript · 350 MFLOPS · _creator-reported_
-- [**Xiang Qi**](https://github.com/shuyangsun/az-game-xiang-qi) — ⭐ **6.5/10** · Claude Opus 4.7 · C++, AlphaZero API · 100 MFLOPS · _creator-reported_
 
 [⬆️ Back to game library](#game-library)
 
 ## Other Browser Games
 
-> 🎮 **75 verified games. Ranked by evidence-based quality score.**
+> 🎮 **72 verified games. Ranked by evidence-based quality score.**
 
 - [**Blocky Obby Dash**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Bluff Circle**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
@@ -403,8 +422,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Party Chaos — game 9**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
 - [**Sonar Maze**](https://github.com/endurovojta173/Sonar_Maze_Profiq_Contest) — ⭐ **7.5/10** · Claude Opus 5 · HTML, JavaScript · 400 MFLOPS · _creator-reported_
 - [**Age of Ops**](https://github.com/antebm/fabled-games) — ⭐ **7.0/10** · Claude Fable 5 · HTML, JavaScript · 400 MFLOPS · _creator-reported_
-- [**Batman 2D Game**](https://github.com/arnienemeth/PythonGameBatmanWithAI) — ⭐ **7.0/10** · Claude Opus 4.5 · Python, Pygame · 250 MFLOPS · _creator-reported_
-- [**Drawdown**](https://github.com/substrateagnostic/drawdown) — ⭐ **7.0/10** · Claude Opus 4.8 · Godot, GDScript · 500 MFLOPS · _creator-reported_
 - [**DUSTMAKER**](https://github.com/eriknomitch/dustmaker) — ⭐ **7.0/10** · Claude Opus 5 · HTML, JavaScript, Canvas · 220 MFLOPS · _directory-method_
 - [**Gorillas**](https://github.com/aarongarciah/gorillas) — ⭐ **7.0/10** · Claude Fable 5 · HTML, JavaScript · 220 MFLOPS · _creator-reported_
 - [**Gran Mayhem**](https://github.com/antebm/fabled-games) — ⭐ **7.0/10** · Claude Fable 5 · HTML, JavaScript · 400 MFLOPS · _creator-reported_
@@ -417,7 +434,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Moonberry Trail**](https://github.com/the-missionary-company/moonberry-trail) — ⭐ **6.5/10** · Claude Opus 5 · JavaScript, HTML, CSS · 300 MFLOPS · _directory-method_
 - [**Raccoon Heist**](https://github.com/simonw/raccoon-heist) — ⭐ **6.5/10** · Claude Fable 5 · HTML, JavaScript · 350 MFLOPS · _creator-reported_
 - [**The Unwritten Vale: Endless**](https://github.com/DAH746/fable-games) — ⭐ **6.5/10** · Claude Fable 5 · HTML, JavaScript · 350 MFLOPS · _creator-reported_
-- [**Tic Tac Toe**](https://github.com/shuyangsun/az-game-tic-tac-toe) — ⭐ **6.5/10** · Claude Opus 4.7 · C++, AlphaZero API · 80 MFLOPS · _creator-reported_
 
 [⬆️ Back to game library](#game-library)
 
@@ -427,6 +443,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 - Verify the canonical GitHub repository and numeric repository ID.
 - Inspect the README, entry point, and gameplay source. Confirm input, rules or objectives, and game state.
+- Place Godot, Unity, Unreal, Pygame, native-console, Minecraft, and other non-browser engine games in the dedicated non-browser section.
 - Accept creator, repository, directory, or build-log evidence for Claude Opus, Claude Fable, or GPT-6 Astra. Label the evidence level.
 - Do not count catalogs, skills, screenshots, visual-only scenes, empty repositories, unchanged forks, or prompt-only projects.
 - Keep the source records in [`games.json`](games.json). Keep rejected candidates in [`research/candidates.json`](research/candidates.json).

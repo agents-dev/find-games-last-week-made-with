@@ -14,6 +14,7 @@ const evidenceText = (record) => record.model_evidence ?? record.method_evidence
 
 function category(record, gameName) {
   const text = `${gameName} ${record.name} ${record.verification_notes ?? ''} ${techText(record)}`.toLowerCase();
+  if (/godot|unity|unreal|pygame|playstation|ps1|minecraft|mcfunction|datapack|cocos|libgdx|monogame|love2d|sdl|raylib|bevy|defold|construct|rpg maker|game maker|python, cli|c\+\+.*alphazero|^c,/.test(text)) return 'Non-Browser Engines';
   if (/racing|racer|kart|car game|drift|flight|mountain-bike|motorbike|formula/.test(text)) return 'Racing and Vehicles';
   if (/shooter|fps|doom|assault|zombie|surviv|combat|war|iron man|invader|battle|arena/.test(text)) return 'Action and Shooters';
   if (/puzzle|tetris|sudoku|breakout|minesweeper|word|match|snake|pinball|flap|platform|arcade/.test(text)) return 'Puzzle, Arcade, and Platformers';
@@ -65,6 +66,7 @@ const categoryIcons = {
   'Strategy, Simulation, and Sports': '♟️',
   'Three.js and WebGL': '🧊',
   'Other Browser Games': '🎮',
+  'Non-Browser Engines': '🛠️',
 };
 const slug = (title) => title.toLowerCase().replaceAll(/[^a-z0-9 ]/g, '').replaceAll(' ', '-');
 const rankedRows = [...rows].sort((a, b) => b.rating - a.rating || a.name.localeCompare(b.name));
@@ -75,6 +77,7 @@ const topPicks = rankedRows.filter((row) => {
   return true;
 }).slice(0, 15);
 const threeCount = rows.filter((row) => /three\.js|threejs|webgl|webgpu/i.test(techText(row.record))).length;
+const nonBrowserCount = rows.filter((row) => row.category === 'Non-Browser Engines').length;
 const promptCount = rows.filter((row) => row.record.prompt_urls?.length).length;
 const screenshotCount = rows.filter((row) => row.record.screenshot_urls?.length).length;
 
@@ -87,7 +90,7 @@ output += `[![Three.js](https://img.shields.io/badge/3D%20GAMES-${threeCount}-11
 output += `[![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) `;
 output += `[![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)\n\n`;
 output += `> **A source-verified field guide to games built with GPT-6 Astra, Claude Opus, and Claude Fable.**<br />\n`;
-output += `> Every counted entry has a real GitHub repository and playable game code.\n\n`;
+output += `> Every counted entry has a real GitHub repository and playable game code. Browser and non-browser engines are separated.\n\n`;
 output += `</div>\n\n---\n\n`;
 output += `## 🤯 What is this?\n\n`;
 output += `Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.\n\n`;
@@ -97,6 +100,7 @@ output += `| 🔎 Signal | 📊 Result |\n| --- | ---: |\n`;
 output += `| 🎮 Independently counted games | **${count}** |\n`;
 output += `| 📦 Independent repositories | **${repoCount}** |\n`;
 output += `| 🧊 Three.js, WebGL, or WebGPU games | **${threeCount}** |\n`;
+output += `| 🛠️ Non-browser engine games | **${nonBrowserCount}** |\n`;
 output += `| 📸 Games with verified screenshot links | **${screenshotCount}** |\n`;
 output += `| 🧠 Games with direct prompt links | **${promptCount}** |\n\n`;
 output += `## 🏆 Top-rated picks\n\n`;
@@ -131,6 +135,7 @@ for (const [title, group] of groups) {
 output += `## Method\n\n> 🔬 **Proof over promises. Repository evidence decides what gets counted.**\n\n`;
 output += `- Verify the canonical GitHub repository and numeric repository ID.\n`;
 output += `- Inspect the README, entry point, and gameplay source. Confirm input, rules or objectives, and game state.\n`;
+output += `- Place Godot, Unity, Unreal, Pygame, native-console, Minecraft, and other non-browser engine games in the dedicated non-browser section.\n`;
 output += `- Accept creator, repository, directory, or build-log evidence for Claude Opus, Claude Fable, or GPT-6 Astra. Label the evidence level.\n`;
 output += `- Do not count catalogs, skills, screenshots, visual-only scenes, empty repositories, unchanged forks, or prompt-only projects.\n`;
 output += '- Keep the source records in [`games.json`](games.json). Keep rejected candidates in [`research/candidates.json`](research/candidates.json).\n';

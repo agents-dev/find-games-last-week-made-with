@@ -9188,5 +9188,294 @@
     "quality_estimate_basis": "Playable Three.js source and direct attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "GPT-6 Astra × Smash Karts",
+    "repository_id": 1358054785,
+    "github_url": "https://github.com/amsminn/gpt-6-astra-smash-karts",
+    "evidence_url": "https://github.com/amsminn/gpt-6-astra-smash-karts/blob/main/README.md",
+    "technology": [
+      "Three.js",
+      "React",
+      "TypeScript",
+      "Vite",
+      "WebSocket",
+      "Node.js",
+      "Web Audio API"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Smash Karts Arena"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T09:58:39Z",
+    "published_on": "2026-09-05",
+    "discovery_sources": [
+      "https://github.com/amsminn/gpt-6-astra-smash-karts",
+      "https://x.com/kepochnik/status/2097286217641697459"
+    ],
+    "verification_notes": "README documents a playable multiplayer 3D kart battle with up to eight players, eleven weapons, bot practice, controls, source paths, tests, gameplay preview, and explicit gpt-6-astra attribution plus a public Codex trajectory.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 2200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for Three.js 3D rendering, eight-player networking, weapon effects, bot practice, collision, audio, and server simulation; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Strong source, gameplay, controls, tests, public trajectory, and direct GPT-6 Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "FACET FIGHTER — PlayStation 1",
+    "repository_id": 1357642265,
+    "github_url": "https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark",
+    "evidence_url": "https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark/blob/main/README.md",
+    "technology": [
+      "C",
+      "PSn00bSDK",
+      "PlayStation 1",
+      "GitHub Actions",
+      "DuckStation"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "FACET FIGHTER"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-04T22:29:48Z",
+    "published_on": "2026-09-04",
+    "discovery_sources": [
+      "https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark",
+      "https://x.com/GOROman/status/2096010653853221064"
+    ],
+    "verification_notes": "README identifies GPT-6 Astra development and provides original PS1 fighting-game source, controls, portable rule tests, GitHub Actions builds, v0.1.0 release artifacts, screenshots, and emulator verification of arcade, two-player, audio, and frame-rate behavior.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 20000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for a PlayStation 1-class native C renderer, combat simulation, audio synthesis, and 60 FPS frame budget; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Strong primary-source attribution, original game code, native build and release artifacts, controls, tests, screenshots, and documented emulator play verification.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Silent Meridian",
+    "repository_id": 1361132035,
+    "github_url": "https://github.com/stackloomdev/silent-meridian",
+    "evidence_url": "https://github.com/stackloomdev/silent-meridian/blob/main/docs/CREATION.md",
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "WebGL",
+      "Web Audio API",
+      "Vercel"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Silent Meridian"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-08T08:42:32Z",
+    "published_on": "2026-09-08",
+    "discovery_sources": [
+      "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "https://github.com/stackloomdev/silent-meridian",
+      "https://x.com/kepochnik/status/2097286217641697459"
+    ],
+    "verification_notes": "README and creation record document a playable four-chapter browser puzzle game with thirteen puzzles, public demo, source tree, 38 automated tests, browser checks, screenshots, and iterative GPT-6 Astra development in Codex.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for optional procedural WebGL depth effects, particles, lighting, puzzle rendering, JavaScript state, and synthesized audio; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Strong source and model record, public playable demo, substantial puzzle campaign, tests, browser checks, screenshots, and accessibility fallback.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "BLACKWATER — Silent Harbor",
+    "repository_id": 1357520718,
+    "github_url": "https://github.com/Hiraeth010/blackwater",
+    "evidence_url": "https://github.com/Hiraeth010/blackwater/blob/main/README.md",
+    "technology": [
+      "Three.js",
+      "React",
+      "TypeScript",
+      "Vite",
+      "Web Audio API",
+      "WebGL"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "BLACKWATER — Silent Harbor"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-04T19:26:17Z",
+    "published_on": "2026-09-04",
+    "discovery_sources": [
+      "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "https://github.com/Hiraeth010/blackwater",
+      "https://x.com/WoahWurdz/status/2095958882732355908"
+    ],
+    "verification_notes": "README documents a playable single-player Three.js tactical FPS with procedural terminal assets, weapons, enemies, mission completion, controls, tests, and build scripts. The curated source note links the creator public GPT-6 Astra statement and records browser combat and death-state verification.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js/WebGL scene rendering, procedural terminal, rain, lighting, weapon effects, enemy navigation, collision, audio, and UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Strong playable source, complete FPS loop, procedural assets, controls, tests, build path, public demo, and direct creator model attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "The Free Game",
+    "repository_id": 1359587011,
+    "github_url": "https://github.com/LucasMarquesShiva/the-free-game",
+    "evidence_url": "https://github.com/LucasMarquesShiva/the-free-game/blob/main/README.md",
+    "technology": [
+      "Godot 4.7.2",
+      "GDScript",
+      "Web export",
+      "3D simulation"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "The Free Game"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-06T23:47:06Z",
+    "published_on": "2026-09-06",
+    "discovery_sources": [
+      "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "https://github.com/LucasMarquesShiva/the-free-game",
+      "https://x.com/LucasMarquesSv/status/2096772160404504583"
+    ],
+    "verification_notes": "README documents a playable medieval village-building game with roads, autonomous workers, production chains, browser export, controls, source, tests, and local run instructions. The creator X post explicitly says the project is being built with GPT ASTRA and links the public GitHub repository.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1100000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 3D terrain, procedural buildings, workers, pathing, economy simulation, UI, and browser rendering; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Playable simulation loop, public demo and source, substantial systems, browser export, tests, clear controls, and direct creator GPT Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "CityMaker",
+    "repository_id": 1359048119,
+    "github_url": "https://github.com/derek-wangpch/OpenCityMaker",
+    "evidence_url": "https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/CREATION.md",
+    "technology": [
+      "Three.js",
+      "React",
+      "TypeScript",
+      "Vite",
+      "WebGL",
+      "IndexedDB"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "CityMaker"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-06T10:47:29Z",
+    "published_on": "2026-09-06",
+    "discovery_sources": [
+      "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "https://github.com/derek-wangpch/OpenCityMaker"
+    ],
+    "verification_notes": "README documents a playable browser 2048 puzzle with twelve cities, eleven tiers per city, original procedural Three.js buildings, controls, saves, public demo, screenshots, tests, and build commands. The creation record explicitly attributes procedural geometry for all 132 models to GPT-6 Astra.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js/WebGL board rendering, procedural building models, thumbnail previews, weather effects, animations, IndexedDB state, and UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Playable public demo, substantial content, original procedural model source, explicit model record, screenshots, tests, responsive behavior, and documented save system.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "SUNBREAK — Downhill Club",
+    "repository_id": 1358408582,
+    "github_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game",
+    "evidence_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game/blob/main/README.md",
+    "technology": [
+      "Three.js",
+      "TypeScript",
+      "Vite",
+      "WebGL2",
+      "Web Audio API",
+      "Playwright"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "SUNBREAK — Downhill Club"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T17:22:29Z",
+    "published_on": "2026-09-05",
+    "discovery_sources": [
+      "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "https://github.com/Imirushik/sunbreak-downhill-3D-game",
+      "https://x.com/Im_IrushiK/status/2096280064019353891",
+      "https://x.com/Im_IrushiK/status/2096291038172455124"
+    ],
+    "verification_notes": "README documents a complete 2.3 km procedural cel-shaded BMX race with four riders, AI competition, physics, tricks, crashes, dynamic weather, replay, generated audio, controls, source modules, and ten browser gameplay/effects checks. The creator X post explicitly says GPT-6 Astra built the whole demo and the follow-up links the repository.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 4500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js/WebGL2 terrain clipmaps, cel-shaded multi-pass rendering, 120 Hz simulation, AI riders, physics, particles, weather, post effects, audio, and replay; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "Exceptional scope and source quality: complete race loop, AI, physics, procedural world, effects, tests, capture harness, performance notes, and direct GPT-6 Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

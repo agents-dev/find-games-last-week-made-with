@@ -19,85 +19,100 @@
       "repository": "https://github.com/GlassBox-AI-Labs/gauntlet-gamesmith",
       "reason": "This is a game-generation tool, not an individual game repository."
     },
-  {
-    "repository": "https://github.com/oxalc88/futbol-excitante",
-    "reason": "This is a headless football simulation and laboratory, not a player-facing game or playable game prototype."
-  },
-  {
-    "repository": "https://github.com/rywftdghjawndal/opus5game",
-    "reason": "The repository is a motion/visual piece about the 1854 cholera outbreak, not a game with player rules or an objective."
-  },
-  {
-    "repository": "https://github.com/StarKnightt/dusk-driver",
-    "reason": "The repository is an unmodified Next.js starter with no game implementation or playable game evidence."
-  },
-  {
-    "repository": "https://github.com/chillqoder/Claude-Fable-5-test",
-    "reason": "The repository has only a one-line test README and no source, controls, objective, or playable game evidence."
-  },
-  {
-    "repository": "https://github.com/yazelin/red-cliffs-3d",
-    "reason": "This is an interactive historical battle documentary/showcase with camera controls, not a game with player objectives or win/loss rules."
-  },
-  {
-    "repository": "https://github.com/rawprogress/fable-cities",
-    "reason": "The repository contains a real city-builder game, but its README only attributes development to generic Claude Code/AI agents, not specifically Astra, Opus, or Fable."
-  },
-  {
-    "repository": "https://github.com/asp67/when-agents-rule",
-    "reason": "This is a game-like RTS benchmark/harness that can run many model providers; its README does not claim that Astra, Opus, or Fable made the repository."
-  },
-  {
-    "repository": "https://github.com/wco1/OpusGame1",
-    "reason": "The repository contains a substantial browser game, but its source and README do not provide evidence that Opus, Fable, or Astra made it."
-  },
-  {
-    "repository": "https://github.com/barretovski/astra-game-rio-demo",
-    "reason": "The description claims a GPT-6 Astra game, but the repository contains only a single file named a and no inspectable game source, entry point, controls, or objective."
-  },
-  {
-    "repository": "https://github.com/Raheefm/gpt-astra-running-game",
-    "reason": "The README claims a game, but the repository contains only README.md and no game source, entry point, controls, or playable implementation."
-  },
-  {
-    "repository": "https://github.com/jayvalaki1706/gpt-6-astra-testing",
-    "reason": "The repository is empty."
-  },
-  {
-    "repository": "https://github.com/codersusu/game-city-skylines",
-    "reason": "The description claims a Codex/Astra/Unity game, but the Git repository is empty."
-  },
-  {
-    "repository": "https://github.com/pixbs/claimlands-fable",
-    "reason": "The repository contains a real game foundation, but its README, source, and commit history do not identify Claude Fable, Opus, or Astra as the builder; the fable suffix is not sufficient attribution."
-  },
-  {
-    "repository": "https://github.com/dj-thank/STAR",
-    "reason": "The repository contains a real space exploration game, but its README and source do not identify GPT Astra, Opus, or Fable as the builder; Astra is not a model attribution in this project."
-  },
-  {
-    "repository": "https://github.com/yamaizumiminoru/astra-robo-soso-fps",
-    "reason": "The repository contains a real Three.js game, but its README attributes the concept to Astro Robo SASA and does not identify GPT Astra, GPT-6, Opus, or Fable as the builder."
-  },
-  {
-    "repository": "https://github.com/yamaizumiminoru/astra-robo-soso-tps",
-    "reason": "The repository contains a real Three.js game, but its README attributes the concept to Astro Robo SASA and does not identify GPT Astra, GPT-6, Opus, or Fable as the builder."
-  },
-  {
-    "repository": "https://github.com/Aman-Amarjit/browser-shooter",
-    "reason": "GH Archive shows fresh activity and the source tree contains a real multiplayer FPS, but the repository has no Astra, GPT-6, Opus, or Fable attribution."
-  },
-  {
-    "repository": "https://github.com/MultiGameWeb/Pro-Chess",
-    "reason": "GH Archive shows fresh activity and index.html contains a real chess game, but the repository has no Astra, GPT-6, Opus, or Fable attribution."
-  },
-  {
-    "repository": "https://github.com/stujh00/my-shooting-game",
-    "reason": "GH Archive shows fresh activity and index.html contains a real shooting game, but the repository has no Astra, GPT-6, Opus, or Fable attribution."
-  },
-  {
-    "repository": "https://github.com/hockeyjon31-glitch/Lunar-Canyon-Ridge-Race",
-    "reason": "GH Archive shows a same-day public event and the source tree contains a real 3D racing game, but metadata identifies a Gemini server capability and gives no Astra, GPT-6, Opus, or Fable attribution."
-  }
-]
+    {
+      "repository": "https://github.com/oxalc88/futbol-excitante",
+      "reason": "This is a headless football simulation and laboratory, not a player-facing game or playable game prototype."
+    },
+    {
+      "repository": "https://github.com/rywftdghjawndal/opus5game",
+      "reason": "The repository is a motion/visual piece about the 1854 cholera outbreak, not a game with player rules or an objective."
+    },
+    {
+      "repository": "https://github.com/StarKnightt/dusk-driver",
+      "reason": "The repository is an unmodified Next.js starter with no game implementation or playable game evidence."
+    },
+    {
+      "repository": "https://github.com/chillqoder/Claude-Fable-5-test",
+      "reason": "The repository has only a one-line test README and no source, controls, objective, or playable game evidence."
+    },
+    {
+      "repository": "https://github.com/yazelin/red-cliffs-3d",
+      "reason": "This is an interactive historical battle documentary/showcase with camera controls, not a game with player objectives or win/loss rules."
+    },
+    {
+      "repository": "https://github.com/rawprogress/fable-cities",
+      "reason": "The repository contains a real city-builder game, but its README only attributes development to generic Claude Code/AI agents, not specifically Astra, Opus, or Fable."
+    },
+    {
+      "repository": "https://github.com/asp67/when-agents-rule",
+      "reason": "This is a game-like RTS benchmark/harness that can run many model providers; its README does not claim that Astra, Opus, or Fable made the repository."
+    },
+    {
+      "repository": "https://github.com/wco1/OpusGame1",
+      "reason": "The repository contains a substantial browser game, but its source and README do not provide evidence that Opus, Fable, or Astra made it."
+    },
+    {
+      "repository": "https://github.com/barretovski/astra-game-rio-demo",
+      "reason": "The description claims a GPT-6 Astra game, but the repository contains only a single file named a and no inspectable game source, entry point, controls, or objective."
+    },
+    {
+      "repository": "https://github.com/Raheefm/gpt-astra-running-game",
+      "reason": "The README claims a game, but the repository contains only README.md and no game source, entry point, controls, or playable implementation."
+    },
+    {
+      "repository": "https://github.com/jayvalaki1706/gpt-6-astra-testing",
+      "reason": "The repository is empty."
+    },
+    {
+      "repository": "https://github.com/codersusu/game-city-skylines",
+      "reason": "The description claims a Codex/Astra/Unity game, but the Git repository is empty."
+    },
+    {
+      "repository": "https://github.com/pixbs/claimlands-fable",
+      "reason": "The repository contains a real game foundation, but its README, source, and commit history do not identify Claude Fable, Opus, or Astra as the builder; the fable suffix is not sufficient attribution."
+    },
+    {
+      "repository": "https://github.com/dj-thank/STAR",
+      "reason": "The repository contains a real space exploration game, but its README and source do not identify GPT Astra, Opus, or Fable as the builder; Astra is not a model attribution in this project."
+    },
+    {
+      "repository": "https://github.com/yamaizumiminoru/astra-robo-soso-fps",
+      "reason": "The repository contains a real Three.js game, but its README attributes the concept to Astro Robo SASA and does not identify GPT Astra, GPT-6, Opus, or Fable as the builder."
+    },
+    {
+      "repository": "https://github.com/yamaizumiminoru/astra-robo-soso-tps",
+      "reason": "The repository contains a real Three.js game, but its README attributes the concept to Astro Robo SASA and does not identify GPT Astra, GPT-6, Opus, or Fable as the builder."
+    },
+    {
+      "repository": "https://github.com/Aman-Amarjit/browser-shooter",
+      "reason": "GH Archive shows fresh activity and the source tree contains a real multiplayer FPS, but the repository has no Astra, GPT-6, Opus, or Fable attribution."
+    },
+    {
+      "repository": "https://github.com/MultiGameWeb/Pro-Chess",
+      "reason": "GH Archive shows fresh activity and index.html contains a real chess game, but the repository has no Astra, GPT-6, Opus, or Fable attribution."
+    },
+    {
+      "repository": "https://github.com/stujh00/my-shooting-game",
+      "reason": "GH Archive shows fresh activity and index.html contains a real shooting game, but the repository has no Astra, GPT-6, Opus, or Fable attribution."
+    },
+    {
+      "repository": "https://github.com/hockeyjon31-glitch/Lunar-Canyon-Ridge-Race",
+      "reason": "GH Archive shows a same-day public event and the source tree contains a real 3D racing game, but metadata identifies a Gemini server capability and gives no Astra, GPT-6, Opus, or Fable attribution."
+    },
+    {
+      "repository": "https://github.com/marius4lui/NUL",
+      "source": "https://x.com/kepochnik/status/2097286217641697459",
+      "reason": "The repository URL returns GitHub 404 and cannot be verified as a public game source."
+    },
+    {
+      "repository": "https://github.com/Vheissu/hit-and-run-web",
+      "source": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "reason": "The repository contains a substantial playable Three.js reconstruction, but its own README credits Codex and Claude without identifying GPT-6 Astra, Claude Opus, or Claude Fable. Do not count it under the collection constraint."
+    },
+    {
+      "repository": "https://github.com/Ryan-fm/Dwellcraft",
+      "source": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "reason": "The repository contains a real playable Babylon.js 3D home-design game, but its development record says exact GPT-6 Astra attribution awaits creator confirmation. Do not count it under the model-evidence rule."
+    }
+  ]
 }

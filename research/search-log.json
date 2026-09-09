@@ -1,5 +1,5 @@
 {
-  "target": 300,
+  "target": 900,
   "started_with": 30,
   "updated_on": "2026-09-09",
   "constraints": {
@@ -147,7 +147,18 @@
     {
       "source": "GH Archive hourly repositories and pushes",
       "date": "2026-09-09",
-      "hours_inspected": [0,1,2,3,4,5,6,7,8,9],
+      "hours_inspected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
       "status": "completed_through_hour_9",
       "new_verified": 2,
       "fresh_activity_game_units": 4,
@@ -156,7 +167,18 @@
     {
       "source": "GH Archive public-event and model-text search",
       "date": "2026-09-09",
-      "hours_inspected": [0,1,2,3,4,5,6,7,8,9],
+      "hours_inspected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
       "status": "completed_through_hour_9",
       "new_verified": 0,
       "note": "Public-event and event-text searches returned scenes, tools, and non-game repositories. Lunar Canyon Ridge Race was a real game but its metadata identified a Gemini server capability, not Astra, Opus, or Fable."
@@ -164,24 +186,95 @@
     {
       "source": "GH Archive availability check",
       "date": "2026-09-09",
-      "hours_checked": [10,11],
+      "hours_checked": [
+        10,
+        11
+      ],
       "status": "not_published",
       "new_verified": 0,
       "note": "Serial HTTP checks at 2026-09-09T10:33:44Z returned 404 for both hour 10 and hour 11. Keep the tenth fresh-game slot open until a later archive file or a direct creator source becomes available."
     },
     {
       "source": "GitHub repository search expansion",
-      "queries": ["Claude Fable game", "Claude Opus game", "Fable 5 game"],
+      "queries": [
+        "Claude Fable game",
+        "Claude Opus game",
+        "Fable 5 game"
+      ],
       "status": "completed",
       "new_verified": 91,
       "new_game_units": 92,
       "note": "Serial repository metadata, README, source-tree, and entry-point inspection expanded the collection to 300 unique counted game units. Duplicate canonical URLs were removed before final validation."
+    },
+    {
+      "source": "User Following feed + focused X search",
+      "query": "\"GPT-6 Astra\" game github",
+      "url": "https://x.com/search?q=%22GPT-6%20Astra%22%20game%20github&src=typed_query",
+      "source_post": "https://x.com/kepochnik/status/2097286217641697459",
+      "status": "completed",
+      "relevant_leads_inspected": 8,
+      "new_verified": 1,
+      "new_game_units": 1,
+      "note": "The user Following feed and focused X search produced one verified GPT-6 Astra game: amsminn/gpt-6-astra-smash-karts. It also exposed marius4lui/NUL, a GOROman GPT-6 repository lead, and video-only posts. Reject catalogs and video-only posts without a canonical playable source.",
+      "next_experiments": [
+        "Inspect marius4lui/NUL sequentially",
+        "Resolve the exact GOROman GPT-6 repository",
+        "Inspect MartinDelophy curated Astra game links"
+      ]
+    },
+    {
+      "source": "X GOROman account link resolution",
+      "query": "from:GOROman GPT-6 game",
+      "url": "https://x.com/search?q=from%3AGOROman%20GPT-6%20game&src=typed_query",
+      "source_post": "https://x.com/GOROman/status/2096010653853221064",
+      "status": "completed",
+      "relevant_leads_inspected": 1,
+      "new_verified": 1,
+      "new_game_units": 1,
+      "note": "The X post exposed a shortened GitHub link. It resolved to GOROman/gpt-6-astra-ps1-game-benchmark. README, PROMPTS.md, source tree, release, tests, screenshots, and emulator evidence verified FACET FIGHTER as an original GPT-6 Astra PlayStation 1 fighting game.",
+      "next_experiments": [
+        "Inspect MartinDelophy curated Astra game links sequentially",
+        "Run the next exact X query: \"GPT-6 Astra\" game"
+      ]
+    },
+    {
+      "source": "MartinDelophy/awesome-gpt-6-astra catalog expansion",
+      "query": "Repository owner inventory and README GitHub-link extraction",
+      "url": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "status": "completed",
+      "direct_repositories_inspected": 4,
+      "new_verified": 2,
+      "new_game_units": 2,
+      "new_rejected": 1,
+      "note": "The catalog describes 61 Astra cases. Extracted direct GitHub links, then inspected each candidate serially. Verified stackloomdev/silent-meridian and Hiraeth010/blackwater. Rejected Vheissu/hit-and-run-web because the repository credits Codex and Claude but does not identify Astra, Opus, or Fable.",
+      "next_experiments": [
+        "Inspect LucasMarquesShiva/the-free-game sequentially",
+        "Inspect Ryan-fm/Dwellcraft sequentially",
+        "Inspect derek-wangpch/OpenCityMaker sequentially"
+      ]
+    },
+    {
+      "source": "MartinDelophy catalog issue and direct-link follow-up",
+      "query": "Catalog issues plus direct repository links for GPT-6 Astra games",
+      "url": "https://github.com/MartinDelophy/awesome-gpt-6-astra/issues",
+      "status": "completed",
+      "direct_repositories_inspected": 5,
+      "new_verified": 3,
+      "new_game_units": 3,
+      "new_rejected": 1,
+      "note": "Sequentially inspected direct links from catalog issues. Verified LucasMarquesShiva/the-free-game with a creator X post naming GPT ASTRA, derek-wangpch/OpenCityMaker with a GPT-6 Astra creation record, and Imirushik/sunbreak-downhill-3D-game with a creator X post naming GPT-6 Astra. Rejected Ryan-fm/Dwellcraft because its own development record leaves Astra attribution pending. The README now separates browser and non-browser engine categories.",
+      "next_experiments": [
+        "Inspect remaining direct links from catalog issue history one at a time",
+        "Search GitHub for Godot GPT-6 Astra game",
+        "Search GitHub for Unity GPT-6 Astra game"
+      ]
     }
   ],
   "frontier": [
-    "Target met: 300 independently counted game units across 261 unique repository records",
-    "Fresh GH Archive target: 9 qualifying game units found; hours 10 and 11 were not published at the final check, so keep the tenth slot open",
+    "Target: 900 independently counted game units; current: 300 across 266 unique accessible repository records",
+    "Browser and non-browser engine categories are now separate in README",
+    "Next serial frontier: inspect remaining catalog issue links, then search Godot and Unity GPT-6 Astra games",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
-    "Do not count unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"
+    "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"
   ]
 }
