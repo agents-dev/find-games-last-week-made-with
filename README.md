@@ -29,7 +29,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | 📦 Independent repositories | **236** |
 | 🧊 Three.js, WebGL, or WebGPU games | **167** |
 | 🛠️ Non-browser engine games | **32** |
-| 📸 Games with verified screenshot links | **9** |
+| 📸 Games with verified screenshot links | **10** |
 | 🧠 Games with direct prompt links | **8** |
 
 ## 🏆 Top-rated picks
@@ -244,6 +244,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Smash Karts Arena**](https://github.com/amsminn/gpt-6-astra-smash-karts) — ⭐ **9.0/10** · GPT-6 Astra · Three.js, React, TypeScript, Vite, WebSocket, Node.js, Web Audio API · 2.20 GFLOPS · _creator-reported_
 - [**Drift Away Arrows**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Fable Kart**](https://github.com/koviq4/fable-sandbox) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, Vite, JavaScript · 900 MFLOPS · _confirmed_
+- [**Turbo Kart Grand Prix**](https://github.com/Franklin-C/turbo-kart-grand-prix) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Web Audio API · 2.40 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg) · [📸 screenshot](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/menu.jpg) · [📸 screenshot](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/hill.jpg) · [📸 screenshot](https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/star.jpg)
 - [**Apex Formula**](https://github.com/bridge-mind/apex-formula) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, TypeScript, WebGL · 1.80 GFLOPS · _confirmed_
 - [**Clay Kart**](https://github.com/godmosword/clay-kart) — ⭐ **8.0/10** · Claude Opus 5 · JavaScript, HTML, CSS · 220 MFLOPS · _confirmed_
 - [**Fable Flight**](https://github.com/Arnie016/flight-simulator-fable5) — ⭐ **8.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 2.20 GFLOPS · _creator-reported_
@@ -252,7 +253,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Iron Man: Legion Protocol**](https://github.com/Aaryan-Kapoor/Iron-Man-Fable-5) — ⭐ **8.0/10** · Claude Fable 5 · HTML, JavaScript, Three.js · 3.50 GFLOPS · _creator-reported_
 - [**Murmur**](https://github.com/pahorema/murmur) — ⭐ **8.0/10** · Claude Opus 5 · Three.js, WebGPU, JavaScript · 2.90 GFLOPS · _confirmed_
 - [**No AI's Sky**](https://github.com/jesuscurreripa/noaissky) — ⭐ **8.0/10** · GPT-6 Astra · Three.js, Vite, JavaScript, WebGL · 3 GFLOPS · _creator-reported_
-- [**Turbo Kart Grand Prix**](https://github.com/Franklin-C/turbo-kart-grand-prix) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Web Audio API · 1.80 GFLOPS · _confirmed_
 - [**Turbo Kart Rush**](https://github.com/bridge-mind/turbo-kart-rush) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL · 900 MFLOPS · _confirmed_
 - [**AEON DRIFT**](https://github.com/TommyUSN/opus5-tech-demo) — ⭐ **7.5/10** · Claude Opus 5 · WebGL2, JavaScript, Web Audio API · 900 MFLOPS · _creator-reported_
 - [**DESCENT**](https://github.com/sjwebster-bne/downhillmtb) — ⭐ **7.5/10** · Claude Opus 5 · Three.js, JavaScript, Web Audio API · 1.20 GFLOPS · _creator-reported_

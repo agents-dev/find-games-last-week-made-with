@@ -280,3 +280,41 @@ The README classifier previously inspected game names for engine keywords. That 
 ### Next experiment
 
 Search creator handles from the X results directly. Then run an exact Opus/Fable creator-first X search so the collection does not depend on Astra-only discovery.
+
+## X creator-first Opus/Fable game search — 2026-09-09
+
+Run `("Claude Opus" OR "Claude Fable" OR "Fable 5") (game OR playable) (github.com OR itch.io)` in the authenticated X feed.
+
+The search found [Franklin-C/turbo-kart-grand-prix](https://github.com/Franklin-C/turbo-kart-grand-prix), which was already verified. The creator's post explicitly says Claude Fable 5.1 built the Mario Kart-style game and links both the repository and the live Vercel demo. Upgrade the existing record with the X source, live URL, four screenshots, and the detailed README evidence. Do not create a duplicate record.
+
+Other results were articles or catalogs. No new repository passed this search.
+
+### Next experiment
+
+Search `from:Franklin_Eh (game OR playable) (github.com OR itch.io)`. Then search exact Claude Opus plus GitHub game posts. Inspect direct repositories one at a time.
+
+## X creator follow-up: Franklin_Eh — 2026-09-09
+
+Run `from:Franklin_Eh (game OR playable) (github.com OR itch.io)`.
+
+The search returned only the existing [Franklin-C/turbo-kart-grand-prix](https://github.com/Franklin-C/turbo-kart-grand-prix) post. No new Fable game repository passed verification. Keep the upgraded record and do not duplicate it.
+
+## X creator follow-up: sudoingX — 2026-09-09
+
+Run `from:sudoingX github.com`.
+
+The search found [sudoingX/octopus-invaders](https://github.com/sudoingX/octopus-invaders). GitHub verification confirms a playable browser space shooter with source, controls and a complete game loop. Its README identifies Qwen 3.5 9B and Hermes Agent, so reject it for this Astra, Claude Opus and Claude Fable collection. This is a useful negative control: verify the game and the model attribution separately.
+
+### Next experiment
+
+Search exact Claude Opus plus GitHub game posts. Inspect each direct repository one at a time and retain only projects with explicit Astra, Opus or Fable evidence.
+
+## X exact Claude Opus game search — 2026-09-09
+
+Run `"Claude Opus" game github.com`.
+
+The narrower search returned an Astra museum walkthrough article, OpenClaw material and unrelated articles. It exposed no direct GitHub game repository with Claude Opus attribution. Keep this as a low-yield probe. Do not infer that no Opus games exist.
+
+### Next experiment
+
+Search exact Claude Fable game GitHub posts. Then search GPT-6 Astra with one engine or genre term at a time.

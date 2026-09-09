@@ -757,12 +757,80 @@
         "Inspect direct GitHub links in new Astra social posts before broadening query syntax",
         "Run an exact Opus/Fable creator-first X search to avoid Astra-only coverage"
       ]
+    },
+    {
+      "source": "X creator-first Opus/Fable game search",
+      "query_key": "x-search|Claude Opus|Claude Fable|Fable 5|game|playable|github.com|itch.io",
+      "query": "(\"Claude Opus\" OR \"Claude Fable\" OR \"Fable 5\") (game OR playable) (github.com OR itch.io)",
+      "status": "completed",
+      "received_count": 7,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 1,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The X search found Franklin-C/turbo-kart-grand-prix, already verified in the collection. The creator post explicitly says Claude Fable 5.1 built the Mario Kart game and links the repository. The existing record was upgraded with the X source, live demo, four screenshots, and stronger gameplay notes. Other results were articles or catalogs.",
+      "next_experiments": [
+        "Search from:Franklin_Eh (game OR playable) (github.com OR itch.io)",
+        "Search exact Claude Opus plus GitHub game posts",
+        "Inspect Fable creator posts for direct repositories not already in games.json"
+      ]
+    },
+    {
+      "source": "X creator follow-up: Franklin_Eh",
+      "query_key": "x-search|from:Franklin_Eh|game|playable|github.com|itch.io",
+      "query": "from:Franklin_Eh (game OR playable) (github.com OR itch.io)",
+      "status": "completed",
+      "received_count": 1,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 1,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The creator search returned only the already verified Franklin-C/turbo-kart-grand-prix post. No additional Fable game repository was found.",
+      "next_experiments": [
+        "Search from:sudoingX github.com and verify any direct game repositories",
+        "Search exact Claude Opus plus GitHub game posts",
+        "Inspect direct repositories one at a time"
+      ]
+    },
+    {
+      "source": "X creator follow-up: sudoingX",
+      "query_key": "x-search|from:sudoingX|github.com",
+      "query": "from:sudoingX github.com",
+      "status": "completed",
+      "received_count": 1,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "note": "The search exposed sudoingX/octopus-invaders. GitHub verification confirms a playable browser space shooter, but its README attributes generation to Qwen 3.5 9B and Hermes Agent, so it is rejected for the Astra, Claude Opus and Claude Fable collection.",
+      "next_experiments": [
+        "Search exact Claude Opus plus GitHub game posts",
+        "Search direct Fable creator posts for repositories",
+        "Keep non-browser engine projects in the separate README category"
+      ]
+    },
+    {
+      "source": "X exact Claude Opus game search",
+      "query_key": "x-search|Claude Opus|game|github.com",
+      "query": "\"Claude Opus\" game github.com",
+      "status": "completed",
+      "received_count": 4,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The narrower search returned an Astra museum walkthrough article, OpenClaw material and unrelated articles. It exposed no direct GitHub game repository with Claude Opus attribution. Keep it as a low-yield probe and do not infer that no Opus games exist.",
+      "next_experiments": [
+        "Search exact Claude Fable game GitHub posts",
+        "Search GPT-6 Astra plus a single engine or genre term",
+        "Inspect direct repositories one at a time"
+      ]
     }
   ],
   "frontier": [
     "Target: 900 independently counted game units; current: 331 across 288 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact model-name metadata search currently has the best yield",
-    "Next serial experiment: search incoming links to Melodia Melusina, then search GPT-6 Astra project.godot and .uproject attribution",
+    "Next serial experiment: search exact Claude Opus GitHub game posts, then inspect direct repositories one at a time",
     "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
     "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"

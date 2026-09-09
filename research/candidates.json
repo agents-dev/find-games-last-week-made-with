@@ -193,6 +193,11 @@
       "repository": "https://github.com/Vheissu/emerald-bayou",
       "source": "X search: from:CtrlAltDwayne (game OR demo) (github.com OR itch.io)",
       "reason": "The repository is a substantial playable Three.js airboat game with missions, wildlife and a live deployment, but the creator's linked post does not attribute it to GPT-6 Astra, Claude Opus, or Claude Fable. The project is a valid game lead but remains unconfirmed for this collection."
+    },
+    {
+      "repository": "https://github.com/sudoingX/octopus-invaders",
+      "source": "X search: from:sudoingX github.com",
+      "reason": "The repository is a real playable pixel-art space shooter, and the X post links it directly. Its README identifies Qwen 3.5 9B and Hermes Agent as the builder, so it is outside the Astra, Claude Opus and Claude Fable scope."
     }
   ]
 }

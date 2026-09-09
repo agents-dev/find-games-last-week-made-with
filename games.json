@@ -1047,6 +1047,13 @@
     "repository_id": 1354747326,
     "github_url": "https://github.com/Franklin-C/turbo-kart-grand-prix",
     "evidence_url": "https://github.com/Franklin-C/turbo-kart-grand-prix",
+    "live_demo_url": "https://turbo-kart-grand-prix.vercel.app/",
+    "screenshot_urls": [
+      "https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/race.jpg",
+      "https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/menu.jpg",
+      "https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/hill.jpg",
+      "https://github.com/Franklin-C/turbo-kart-grand-prix/blob/main/docs/star.jpg"
+    ],
     "technology": [
       "Three.js",
       "JavaScript",
@@ -1061,17 +1068,18 @@
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "discovery_sources": [
+      "https://x.com/Franklin_Eh/status/2095136760678244497",
       "https://github.com/Franklin-C/turbo-kart-grand-prix"
     ],
-    "verification_notes": "Playable three-lap kart racer with seven AI opponents, items, physics, tests, gameplay capture, and explicit Fable 5.1 build record.",
+    "verification_notes": "The creator's X post explicitly says Claude Fable 5.1 one-shotted this Mario Kart game and links the repository and live demo. The README documents a playable three-lap kart racer with seven AI opponents, items, drift, mini-turbos, synthesized audio, source modules, tests, gameplay capture and four screenshots.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
-    "flops_estimate_raw": 1800000000,
+    "flops_estimate_raw": 2400000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Static workload estimate from documented renderer, simulation, effects, and entity complexity; not measured hardware throughput.",
-    "quality_estimate_10": 8,
-    "quality_estimate_basis": "Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a complete multi-lap race loop, seven AI opponents, item systems, drift and boost mechanics, live demo, automated tests, gameplay capture, screenshots and direct creator/model attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   },
