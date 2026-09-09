@@ -635,6 +635,21 @@
       "repository": "https://github.com/kwanghan-bae/2d-game-forge",
       "source": "GitHub code search for Phaser game Co-Authored-By Claude Opus expanded pass",
       "reason": "The repository contains a real Phaser game monorepo, but the inspected search hit was a project plan and no exact Claude Opus or Fable commit trailer was found in the repository history. Reject it under exact model-evidence rules."
+    },
+    {
+      "repository": "https://github.com/cashcon57/corkscrew",
+      "source": "GitHub code search for Tauri game Co-Authored-By Claude Opus",
+      "reason": "The repository is a native mod manager for Wine games, not a game implementation. Reject it."
+    },
+    {
+      "repository": "https://github.com/edbuildingstuff/zombie-cafe-revival",
+      "source": "GitHub code search for Tauri game Co-Authored-By Claude Opus",
+      "reason": "The repository preserves and reverse-engineers an existing mobile game and documents a future Godot rewrite, but it does not contain a qualifying self-contained new game. Reject it."
+    },
+    {
+      "repository": "https://github.com/Xian55/Emberfire",
+      "source": "GitHub code search for Tauri game Co-Authored-By Claude Opus",
+      "reason": "The repository is a reverse-engineering client and protocol project. It explicitly states that the bundled game runtime is not in the repository, so reject it as not self-contained."
     }
   ]
 }

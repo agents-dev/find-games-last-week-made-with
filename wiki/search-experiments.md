@@ -1869,3 +1869,21 @@ Accept [Aeterna Chronicle](https://github.com/crisious/aeterna-chronicle-web), [
 Reject [2d-game-forge](https://github.com/kwanghan-bae/2d-game-forge) because the inspected Phaser hit is a monorepo plan and no exact Opus or Fable commit trailer was found in its history.
 
 Score this experiment 9/10. Keep Phaser plus Opus. Search native engines and reverse-link seeds next.
+
+### Tauri/Opus native-game search
+
+Run the authenticated GitHub code search `Tauri game "Co-Authored-By: Claude Opus"`. Inspect candidates serially. Accept [Kaijudo](https://github.com/vreddi/kaijudo), a Tauri desktop card-duel game with deck management, duel screens, card definitions, online-play code and an exact Opus 4.8 commit trailer. Reject Corkscrew as a mod manager, Zombie Cafe Revival as a preservation/future-rewrite project, and Emberfire because its required game runtime is not committed.
+
+Count one new native game. Score this experiment 8/10. Keep the native-shell partition, but combine it with direct game-specific evidence.
+
+### C++/Opus native-game search
+
+Run the authenticated GitHub code search `C++ game "Co-Authored-By: Claude Opus"`. Inspect candidates serially. Accept [Gomoku Web Game](https://github.com/gww1981/gomoku-game), [Kyoril MMORPG](https://github.com/Kyoril/mmo), [OpenCiv1++](https://github.com/wicanr2/civ1_cht), [Mini Games](https://github.com/lofiski/mini-games) with three game units, and [Claude Chess](https://github.com/mglass222/claude-chess-web). Count seven new game units. Record Kyoril MMORPG, OpenCiv1++ and Mini Games under Non-Browser Engines; keep the browser titles in browser categories.
+
+Score this experiment 9/10. Keep C++ plus Opus and reverse-link from the native projects.
+
+### Godot/Opus search
+
+Run the authenticated GitHub code search `Godot game "Co-Authored-By: Claude Opus 5"`. Inspect candidates serially. Accept [CYBER SUNDAY](https://github.com/influenza-dotcom/3D-RPG), a Godot 4.7 first-person immersive-sim/RPG prototype, and [The Nine Lives of Ash](https://github.com/phirogue/SparkyGames), a Godot 4 roguelite card game. Count two new native games. Add both to Non-Browser Engines with direct scene/script links and screenshot links where present.
+
+Score this experiment 9/10. Keep Godot plus Opus and search Fable/Astra aliases next.

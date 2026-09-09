@@ -1,5 +1,384 @@
 [
   {
+    "name": "The Nine Lives of Ash",
+    "github_url": "https://github.com/phirogue/SparkyGames",
+    "game_links": [
+      "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.tscn",
+      "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.gd",
+      "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/battle.gd",
+      "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/core/combat_state.gd",
+      "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/minigames/crossing_screen.gd"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/phirogue/SparkyGames/commit/3b370c0e21522c2fc496295e25e650443a070aac",
+    "screenshot_urls": [
+      "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/02_title.png",
+      "https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/battle.png"
+    ],
+    "technology": [
+      "Godot 4",
+      "GDScript",
+      "Native desktop",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "The Nine Lives of Ash"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
+      "https://github.com/phirogue/SparkyGames"
+    ],
+    "verification_notes": "The README describes a playable Godot 4 roguelite card game for iOS and Android, documents a Windows build, and states that the prologue runs end to end. game.tscn/game.gd provide the entry flow, battle.gd and combat_state.gd implement combat, and the minigame screens provide additional playable encounters. The repository includes title and battle screenshots; the cited commit includes an exact Co-Authored-By: Claude Opus 5 trailer. This native Godot game belongs in Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 360000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot UI rendering, card combat, encounter transitions, minigames, save state and mobile/desktop presentation; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "The project has a documented playable prologue, separate combat and minigame systems, tests, screenshot evidence, native targets and exact Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "CYBER SUNDAY",
+    "github_url": "https://github.com/influenza-dotcom/3D-RPG",
+    "game_links": [
+      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scenes/game.tscn",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scripts/world/game_root.gd",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scripts/player/player.gd",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scripts/combat/attack.gd",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scripts/combat/shot_resolver.gd"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/influenza-dotcom/3D-RPG/commit/f89664f20418541b3913fcd2adfbfa2ce14626b1",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot 4.7",
+      "GDScript",
+      "Blender",
+      "GLB/glTF",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "CYBER SUNDAY"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
+      "https://github.com/influenza-dotcom/3D-RPG"
+    ],
+    "verification_notes": "The README describes a single-player first-person immersive-sim/RPG prototype in Godot 4.7. It provides the main computer-room entry scene, game scene, movement and interaction controls, weapons and combat, NPCs, stealth, quests, save slots and level flow. game_root.gd, player.gd, attack.gd and shot_resolver.gd implement direct game systems. The cited documentation commit includes an exact Co-Authored-By: Claude Opus 5 trailer. Runtime export binaries are not provided, so this is source-verified and belongs in Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 5200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 3D rendering, first-person effects, AI, physics, GLB assets, post-processing and combat systems; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "The repository documents a substantial Godot first-person game with a clear entry flow, many gameplay systems, direct scripts/scenes, authoring documentation and exact Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Mini Games",
+    "github_url": "https://github.com/lofiski/mini-games",
+    "game_links": [
+      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games_registry.dart",
+      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/game2048/domain/board.dart",
+      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/sliding_puzzle/domain/puzzle.dart",
+      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/tap_match/domain/match_grid.dart"
+    ],
+    "contained_game_links": [
+      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/game2048/domain/board.dart",
+      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/sliding_puzzle/domain/puzzle.dart",
+      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/tap_match/domain/match_grid.dart"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/lofiski/mini-games/commit/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9",
+    "screenshot_urls": [],
+    "technology": [
+      "Flutter",
+      "Dart",
+      "Android",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 3,
+    "contained_games": [
+      "2048",
+      "Sliding Puzzle",
+      "Tap Match"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for C++ game Co-Authored-By Claude Opus",
+      "https://github.com/lofiski/mini-games"
+    ],
+    "verification_notes": "The README identifies a native Android mini-game collection and lists three playable games: 2048, Sliding Puzzle and Tap Match. The registry exposes the three game definitions; each game has separate domain rules, presentation and tests. The cited commit connects the third game and includes an exact Co-Authored-By: Claude Opus 5 trailer. This is a native mobile collection and belongs in Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Flutter widget rendering, three game-state engines, touch input, storage and mobile audio; not measured hardware throughput.",
+    "quality_estimate_10": 8.9,
+    "quality_estimate_basis": "The repository contains three separately registered native games with independent rules, screens and tests, an Android release workflow and exact Opus attribution.",
+    "counted_game_units": 3,
+    "is_independent_game": true
+  },
+  {
+    "name": "OpenCiv1++ (Civilization 1 Traditional Chinese)",
+    "github_url": "https://github.com/wicanr2/civ1_cht",
+    "game_links": [
+      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/main.cpp",
+      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/game/MainCode.cpp",
+      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/game/MapManagement.cpp",
+      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/platform/SdlPresenter.cpp"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/wicanr2/civ1_cht/commit/c46be0d31758141b444b971e6ce7ba7b44908472",
+    "screenshot_urls": [
+      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif",
+      "https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/PLAY_COMPARISON_R5.md"
+    ],
+    "technology": [
+      "C++17",
+      "SDL2",
+      "Custom engine",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "OpenCiv1++"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for C++ game Co-Authored-By Claude Opus",
+      "https://github.com/wicanr2/civ1_cht"
+    ],
+    "verification_notes": "The README describes a C++17/SDL2 native rewrite of Civilization 1 with eight civilizations, ten units, technology, government, combat, diplomacy, city management, AI, space-race victory and persistent hall of fame. MainCode.cpp, MapManagement.cpp and SdlPresenter.cpp implement game logic, world management and presentation; the repository includes a comparison gameplay GIF and a 20-step play comparison. The cited commit includes an exact Co-Authored-By: Claude Opus 4.7 trailer. This is a source-verified native game and belongs in Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for SDL2 framebuffer presentation, turn-based AI, map and city rendering, translation layers and native C++ game logic; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "The repository contains a substantial native strategy game rewrite with documented mechanics, direct C++ source, automated tests, gameplay comparison evidence and exact Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Kyoril MMORPG",
+    "github_url": "https://github.com/Kyoril/mmo",
+    "game_links": [
+      "https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/client.cpp",
+      "https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/game_states/world_state.cpp",
+      "https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/ui/world_frame.cpp",
+      "https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/shared/game/game.cpp"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Kyoril/mmo/commit/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0",
+    "screenshot_urls": [
+      "https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/screenshots/char_select.png",
+      "https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/screenshots/ingame_01.png",
+      "https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/screenshots/world_editor.png"
+    ],
+    "technology": [
+      "Custom C++ engine",
+      "C++",
+      "OpenGL",
+      "MySQL",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Kyoril MMORPG"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for C++ game Co-Authored-By Claude Opus",
+      "https://github.com/Kyoril/mmo"
+    ],
+    "verification_notes": "The repository description and README identify a playable MMORPG prototype with a custom C++ engine, client, servers and tools. The README includes character-selection and in-game screenshots; client.cpp, world_state.cpp and world_frame.cpp implement the client and world state, while shared game code defines gameplay data. The cited commit includes an exact Co-Authored-By: Claude Opus 5 trailer. Runtime assets and a public live demo are not provided, so this is source-verified and belongs in Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for a native C++ 3D client, world rendering, entity updates, networking, UI and game-server interaction; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "The repository contains a real custom-engine MMORPG prototype with native client code, world-state systems, gameplay screenshots, build instructions and exact Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Claude Chess",
+    "github_url": "https://github.com/mglass222/claude-chess-web",
+    "game_links": [
+      "https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/main.js",
+      "https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/game/GameController.js",
+      "https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/game/GameState.js",
+      "https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/engine/EngineManager.js",
+      "https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/ui/BoardView.js"
+    ],
+    "live_demo_url": "https://mglass222.github.io/claude-chess-web/",
+    "evidence_url": "https://github.com/mglass222/claude-chess-web/commit/debca7b29bfc289813c111866bcf07f157430819",
+    "screenshot_urls": [],
+    "technology": [
+      "Vanilla JavaScript",
+      "chess.js",
+      "Stockfish 17.1 WebAssembly",
+      "Vite",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Claude Chess"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for C++ game Co-Authored-By Claude Opus",
+      "https://github.com/mglass222/claude-chess-web"
+    ],
+    "verification_notes": "The README describes a complete browser chess game with Stockfish opponents, eight strengths, clocks, legal-move interaction, evaluation bar, post-game analysis, replay navigation, save/load and sound. GameController and GameState implement play state, EngineManager integrates Stockfish and BoardView renders the board; the live GitHub Pages build returned HTTP 200. The cited commit includes an exact Co-Authored-By: Claude Fable 5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for browser board rendering, Stockfish WebAssembly analysis, multiple workers, clocks, evaluation graph and DOM interaction; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "The repository provides a live chess game, Stockfish AI, analysis and replay systems, direct source evidence, deployment documentation and exact Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Gomoku Web Game (五子棋)",
+    "github_url": "https://github.com/gww1981/gomoku-game",
+    "game_links": [
+      "https://github.com/gww1981/gomoku-game/blob/b3f2a891d1c434c32e4af28c09b327f51c2495e5/src/components/Game.tsx",
+      "https://github.com/gww1981/gomoku-game/blob/b3f2a891d1c434c32e4af28c09b327f51c2495e5/src/components/Board.tsx",
+      "https://github.com/gww1981/gomoku-game/blob/b3f2a891d1c434c32e4af28c09b327f51c2495e5/src/game/gameLogic.ts",
+      "https://github.com/gww1981/gomoku-game/blob/b3f2a891d1c434c32e4af28c09b327f51c2495e5/src/replay/replayEngine.ts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/gww1981/gomoku-game/commit/b3f2a891d1c434c32e4af28c09b327f51c2495e5",
+    "screenshot_urls": [],
+    "technology": [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "Socket.IO",
+      "Web Audio API",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Gomoku Web Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for C++ game Co-Authored-By Claude Opus",
+      "https://github.com/gww1981/gomoku-game"
+    ],
+    "verification_notes": "The README describes a complete Gomoku game with 15x15 board play, local two-player mode, three AI levels, LAN multiplayer, undo, timeout loss, replay playback, audio and persistent records. Game.tsx and Board.tsx provide the UI, gameLogic.ts implements win detection and state rules, and replayEngine.ts implements recorded matches. The cited commit includes an exact Co-Authored-By: Claude Opus 4.8 trailer. No public live demo URL was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React board rendering, AI move search, replay controls, Socket.IO room state and Web Audio effects; not measured hardware throughput.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "The repository contains a real board game with AI, LAN mode, replay, audio and tests, direct gameplay source and exact Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Kaijudo",
+    "github_url": "https://github.com/vreddi/kaijudo",
+    "game_links": [
+      "https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/main.tsx",
+      "https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/DuelScreen.tsx",
+      "https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/PlayPage.tsx",
+      "https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src/duel/cards.tsx",
+      "https://github.com/vreddi/kaijudo/blob/e188d5e765664271b100fd5051f37eb051a7e6ab/apps/desktop/src-tauri/tauri.conf.json"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/vreddi/kaijudo/commit/e188d5e765664271b100fd5051f37eb051a7e6ab",
+    "screenshot_urls": [],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Tauri v2",
+      "Convex",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Kaijudo"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for Tauri game Co-Authored-By Claude Opus",
+      "https://github.com/vreddi/kaijudo"
+    ],
+    "verification_notes": "The repository description identifies a Duel Masters-inspired card game. The desktop application has a title/menu flow, collection and deck-builder pages, DuelScreen and PlayPage duel screens, card definitions and an online-play path; Tauri configuration provides the native desktop shell. The cited commit includes an exact co-authored-by: Claude Opus 4.8 trailer. No public live demo URL was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 240000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for card rendering, duel state updates, deck and collection UI, online synchronization and Tauri desktop presentation; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "The repository contains a dedicated duel game with card rules, deck management, online-play code and a native Tauri shell, plus exact Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
     "name": "Yaoling Shangu (药灵山谷)",
     "github_url": "https://github.com/DSXiangLi/tcm_odyssey",
     "game_links": [

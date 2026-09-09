@@ -5582,10 +5582,121 @@
       },
       "critique_note": "The serial Opus pass produced eight new games with strong README, source and commit evidence. Keep the pattern and move to native engines and reverse-link expansion to reduce Phaser overlap.",
       "critic": "existing critique agent; conservative score after completed serial review"
+    },
+    {
+      "source": "Tauri/Opus native-game code search",
+      "query_key": "Tauri game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 1,
+      "new_rejected": 3,
+      "new_game_units": 1,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/vreddi/kaijudo"
+      ],
+      "rejected_repositories": [
+        "https://github.com/cashcon57/corkscrew",
+        "https://github.com/edbuildingstuff/zombie-cafe-revival",
+        "https://github.com/Xian55/Emberfire"
+      ],
+      "held_repositories": [],
+      "note": "Inspect the native-shell candidates serially. Accept Kaijudo as a real Tauri card-duel game with direct duel source and an exact Opus 4.8 trailer. Reject Corkscrew as a mod manager, Zombie Cafe Revival as a preservation/rewrite project without a bundled new game, and Emberfire because the runtime assets are not committed and the repository is a reverse-engineering client rather than a self-contained game.",
+      "next_experiments": [
+        "Run a C++ plus Claude Opus search",
+        "Run a Godot plus Claude Opus search",
+        "Keep native desktop games in Non-Browser Engines"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 8,
+        "false_positive_control": 9,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "The Tauri search produced one verified native game and three well-controlled false positives. Keep the native-shell partition.",
+      "critic": "existing critique agent; conservative score after completed serial review"
+    },
+    {
+      "source": "C++/Opus native-game code search",
+      "query_key": "C++ game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 5,
+      "new_verified_repositories": 5,
+      "new_rejected": 0,
+      "new_game_units": 7,
+      "unseen_count": 5,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/gww1981/gomoku-game",
+        "https://github.com/Kyoril/mmo",
+        "https://github.com/wicanr2/civ1_cht",
+        "https://github.com/lofiski/mini-games",
+        "https://github.com/mglass222/claude-chess-web"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Inspect candidates serially and accept only real games with direct implementation source and exact Opus or Fable commit trailers. The pass yielded five repositories and seven game units, including one native C++ MMORPG, one C++/SDL2 strategy rewrite, one Flutter collection with three games, and three browser games.",
+      "next_experiments": [
+        "Run a Godot plus Claude Opus search",
+        "Run a reverse-link search from native C++ and Flutter games",
+        "Search Unity and Unreal with a changed Astra or Fable alias"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 10,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The C++ partition produced an unusually high yield, including a verified multi-game Flutter repository. Keep it and expand through reverse links.",
+      "critic": "existing critique agent; conservative score after completed serial review"
+    },
+    {
+      "source": "Godot/Opus code search expanded pass",
+      "query_key": "Godot game Co-Authored-By Claude Opus 5",
+      "status": "completed",
+      "results_inspected": 2,
+      "new_verified_repositories": 2,
+      "new_rejected": 0,
+      "new_game_units": 2,
+      "unseen_count": 2,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/influenza-dotcom/3D-RPG",
+        "https://github.com/phirogue/SparkyGames"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Inspect the strongest Godot candidates serially. Accept CYBER SUNDAY and The Nine Lives of Ash after verifying their Godot scenes, gameplay scripts, screenshots where present and exact Opus 5 trailers. Both belong in Non-Browser Engines.",
+      "next_experiments": [
+        "Run a reverse-link search from Godot games",
+        "Search Unity, Unreal and Godot with Fable and Astra aliases",
+        "Continue serial native-engine collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The Godot pass produced two strong native games with high-quality source and model evidence. Keep the engine-plus-model pattern.",
+      "critic": "existing critique agent; conservative score after completed serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 567 across 491 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 577 across 501 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",
