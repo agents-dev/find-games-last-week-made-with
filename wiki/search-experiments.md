@@ -1593,3 +1593,13 @@ The critique agent scores this audit **10/10** overall: novelty **10**, yield **
 ### Next experiment
 
 Run the repository's Godot headless checks and smoke tour. Continue with another native multi-game repository.
+
+### Dropped reverse-link experiment
+
+Search GitHub code for both the full canonical URL `https://github.com/GeorgeCottrell/SpaceShowdown` and the token `GeorgeCottrell/SpaceShowdown`. Return zero results. Treat this exact reverse-link pattern as low-yield for the current index. Do not repeat it without a new seed or a changed index.
+
+The critique agent scores this experiment **4/10** overall: novelty **4**, yield **1**, verification quality **7**, repeatability **6**, source quality **7**, and false-positive control **9**. Drop the experiment. Use repository README and awesome-list searches with engine plus Astra/Opus/Fable aliases for the next pass.
+
+### Next experiment
+
+Run one serial README/list-focused search using a changed native engine and one model alias. Inspect each unseen repository, save verified games immediately, and reject catalogs, tools, visual-only scenes and broken URLs.
