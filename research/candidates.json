@@ -363,6 +363,21 @@
       "repository": "https://github.com/Zetetic-Dhruv/formal-learning-theory-book",
       "source": "GitHub REST API search: built using Claude Opus 4.6 game in README",
       "reason": "The repository is a formal learning theory textbook and companion research program. It has no playable game artifact; the attribution phrase is unrelated to game development."
+    },
+    {
+      "repository": "https://github.com/hugefiver/mystars",
+      "source": "GitHub REST API search: Fable 5.1 game in README, pushed 2026-09-09..2026-09-10",
+      "reason": "The repository has no usable README content and its tree contains only a workflow and README. No source, build, playable artifact or model attribution could be verified. Reject as unavailable evidence."
+    },
+    {
+      "repository": "https://github.com/makseq/freewill",
+      "source": "GitHub REST API search: Fable 5.1 game in README, pushed 2026-09-09..2026-09-10",
+      "reason": "The repository contains seven interactive simulations and an essay, not objective-based games. Its Petri, Babel, Trust, Trails, Market and Neighbours artifacts are open-ended research simulations without a strict win/loss or campaign loop. Reject as a simulation catalog under the current game rule."
+    },
+    {
+      "repository": "https://github.com/nigrosimone/llms-robot-arena",
+      "source": "GitHub REST API search: Fable 5.1 game in README, pushed 2026-09-09..2026-09-10",
+      "reason": "The repository contains a real browser robot-arena game, but its model-attributed artifacts are submitted bot controllers. The README does not establish that GPT-6 Astra or Fable made the game engine itself. Reject to avoid counting a game merely because model-written bots compete inside it."
     }
   ]
 }

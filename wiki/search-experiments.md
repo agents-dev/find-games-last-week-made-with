@@ -854,3 +854,31 @@ The existing critique agent scored novelty **2/10**, yield **1/10**, verificatio
 ### Next experiment
 
 Search inbound GitHub code links for one previously verified Claude-attributed game repository. Inspect every unseen linking repository serially. Require direct game source and playable or build evidence before acceptance.
+
+### Recent Fable repository partition
+
+Run the serial query `Fable 5.1 game in:readme pushed:2026-09-09..2026-09-10`. Inspect eight repositories one at a time. Accept [Turbo Kart Rush](https://github.com/claudio41cg-max/rio-rush-cross), [Branch Zero](https://github.com/JaCoderX/Branch-Zero), [BLOCKS](https://github.com/Nipale-ai/blocks-openworld), [Commander Simulator](https://github.com/tuitamogamer-gpt/mtg-commander-simulator), and [AOT FABLE 5.1](https://github.com/Ashen-Skool/Aot-Fable-5.1). Reject [mystars](https://github.com/hugefiver/mystars) as unavailable evidence, [Free Will](https://github.com/makseq/freewill) as an open-ended simulation collection, and [LLMs Robot Arena](https://github.com/nigrosimone/llms-robot-arena) because the model-attributed work is its bot controllers, not the game engine.
+
+The critique scored novelty **9/10**, yield **9/10**, verification quality **9/10**, repeatability **9/10**, source quality **9/10**, false-positive control **9/10**, and overall **9/10**. Keep this recent Fable partition. Apply the same source, attribution, game-loop and deduplication checks to the next date window.
+
+### Curated-list direct-source expansion
+
+Use the game section of [MartinDelophy/awesome-gpt-6-astra](https://github.com/MartinDelophy/awesome-gpt-6-astra) as a lead list. Follow direct GitHub source links, then inspect each repository serially. Accept [BLACKWATER](https://github.com/Hiraeth010/blackwater), [The Free Game](https://github.com/LucasMarquesShiva/the-free-game), [Magic Carpet Wizard](https://github.com/threapchills/MagicCarpetWizard), [Last Beacon](https://github.com/stackloomdev/last-beacon), [Silent Meridian](https://github.com/stackloomdev/silent-meridian), and [CityMaker](https://github.com/derek-wangpch/OpenCityMaker). Record the repository, model evidence, game loop, demo, screenshots and engine classification immediately after verification.
+
+The critique scored novelty **10/10**, yield **10/10**, verification quality **9/10**, repeatability **8/10**, source quality **9/10**, false-positive control **10/10**, and overall **9/10**. Keep this method. Do not count catalog totals, X-only entries, screenshots, or direct links without accessible game source.
+
+### Dropped precision query
+
+Run `Fable 5.1 playable game in:readme pushed:2026-09-09..2026-09-10`. It returned two curated catalogs and no new direct game repositories. The critique scored novelty **2/10**, yield **1/10**, verification quality **7/10**, repeatability **9/10**, source quality **5/10**, false-positive control **8/10**, and overall **5/10**. Drop this exact query as a primary method. Reverse-link the catalogs to direct repository targets instead.
+
+### Next experiment
+
+Expand [xianyu110/awesome-gpt-6-astra](https://github.com/xianyu110/awesome-gpt-6-astra) or [archorfight/awesome-gpt-6-astra](https://github.com/archorfight/awesome-gpt-6-astra). Inspect each unseen direct game repository serially. Require source, game loop, and GPT-6 Astra, Claude Opus, or Claude Fable evidence before counting.
+
+### Deduplication correction
+
+Recheck the recent Fable and MartinDelophy passes against canonical repository URLs before reporting yield. The Fable pass added only three new units: [Turbo Kart Rush](https://github.com/claudio41cg-max/rio-rush-cross), [Branch Zero](https://github.com/JaCoderX/Branch-Zero), and [Commander Simulator](https://github.com/tuitamogamer-gpt/mtg-commander-simulator). It confirmed [BLOCKS](https://github.com/Nipale-ai/blocks-openworld) and [AOT FABLE 5.1](https://github.com/Ashen-Skool/Aot-Fable-5.1), which were already present.
+
+The six direct repositories from the MartinDelophy catalog were also already present. Count zero new units from that expansion. The corrected critique scores the Fable method **8/10** overall and keeps it. It scores the MartinDelophy expansion **6/10** overall and drops it as a discovery method; keep it only for confirmation audits.
+
+Run the next catalog expansion against a different independent list. Deduplicate before inspection and count only new canonical repositories.

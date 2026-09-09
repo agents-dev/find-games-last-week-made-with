@@ -2953,10 +2953,162 @@
         "Inspect each unseen linking repository serially",
         "Require direct game source plus playable or build evidence before acceptance"
       ]
+    },
+    {
+      "source": "GitHub repository search: Fable 5.1 game in README, recent date partition",
+      "query_key": "gh-repo-search|Fable+5.1+game+in%3Areadme+pushed%3A2026-09-09..2026-09-10|updated-desc|50|2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 8,
+      "new_verified_repositories": 3,
+      "new_game_units": 3,
+      "new_rejected": 3,
+      "unseen_count": 8,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/claudio41cg-max/rio-rush-cross",
+        "https://github.com/JaCoderX/Branch-Zero",
+        "https://github.com/tuitamogamer-gpt/mtg-commander-simulator"
+      ],
+      "confirmed_existing_repositories": [
+        "https://github.com/Nipale-ai/blocks-openworld",
+        "https://github.com/Ashen-Skool/Aot-Fable-5.1"
+      ],
+      "rejected_repositories": [
+        "https://github.com/hugefiver/mystars",
+        "https://github.com/makseq/freewill",
+        "https://github.com/nigrosimone/llms-robot-arena"
+      ],
+      "note": "Serial inspection found three new qualifying games, confirmed two existing records and rejected three false positives. The new set includes Three.js racing, Godot bank exploration and a browser card game. Reject empty repositories, open-ended research simulations, and arenas where models wrote bots rather than the game. Deduplicate before assigning yield.",
+      "next_experiments": [
+        "Score this recent Fable partition before using another date slice",
+        "Expand a curated GPT-6 Astra game list to direct source repositories",
+        "Deduplicate before counting a catalog entry"
+      ]
+    },
+    {
+      "source": "GitHub repository search: Fable 5.1 playable game in README, recent date partition",
+      "query_key": "gh-repo-search|Fable+5.1+playable+game+in%3Areadme+pushed%3A2026-09-09..2026-09-10|updated-desc|50|2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 2,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 2,
+      "unseen_count": 2,
+      "overlap_ratio": 0.0,
+      "rejected_repositories": [
+        "https://github.com/yangqiong/gpt6-astra-3d",
+        "https://github.com/xianyu110/awesome-gpt-6-astra"
+      ],
+      "note": "The precise playable query surfaced curated catalogs rather than a new direct game repository. Those catalogs are useful lead sources, but they are not counted. Use their direct source links only after repository-level verification.",
+      "next_experiments": [
+        "Use the curated catalog's direct game-source links as a separate reverse-link expansion",
+        "Do not count catalog totals or X-only entries without an accessible GitHub game repository"
+      ]
+    },
+    {
+      "source": "Curated-list expansion: MartinDelophy/awesome-gpt-6-astra direct game-source links",
+      "query_key": "gh-readme|MartinDelophy/awesome-gpt-6-astra|game-section-source-links|2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 6,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "unseen_count": 6,
+      "overlap_ratio": 0.0,
+      "confirmed_existing_repositories": [
+        "https://github.com/Hiraeth010/blackwater",
+        "https://github.com/LucasMarquesShiva/the-free-game",
+        "https://github.com/threapchills/MagicCarpetWizard",
+        "https://github.com/stackloomdev/last-beacon",
+        "https://github.com/stackloomdev/silent-meridian",
+        "https://github.com/derek-wangpch/OpenCityMaker"
+      ],
+      "note": "The curated game section exposed six direct GitHub repositories with source, gameplay objectives, model evidence and playable or build artifacts, but canonical deduplication showed that all six were already recorded. Keep the confirmation evidence, but do not count this catalog as a source of new units.",
+      "next_experiments": [
+        "Inspect the remaining direct source links from the curated list serially",
+        "Check the catalog's updated pages for new game repositories",
+        "Keep X-only and screenshot-only entries as leads, not counted games"
+      ]
+    },
+    {
+      "source": "Critique of recent Fable and curated-list methods",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "fable_5_1_recent_game_readme": {
+          "novelty": 9,
+          "yield": 9,
+          "verification_quality": 9,
+          "repeatability": 9,
+          "source_quality": 9,
+          "false_positive_control": 9,
+          "overall": 9,
+          "decision": "keep"
+        },
+        "fable_5_1_recent_playable_game_readme": {
+          "novelty": 2,
+          "yield": 1,
+          "verification_quality": 7,
+          "repeatability": 9,
+          "source_quality": 5,
+          "false_positive_control": 8,
+          "overall": 5,
+          "decision": "drop"
+        },
+        "martin_delophy_awesome_gpt_6_astra_direct_source_expansion": {
+          "novelty": 10,
+          "yield": 10,
+          "verification_quality": 9,
+          "repeatability": 8,
+          "source_quality": 9,
+          "false_positive_control": 10,
+          "overall": 9,
+          "decision": "keep"
+        }
+      },
+      "note": "Keep the recent Fable repository partition and the direct-source catalog expansion. Drop the precise Fable playable query because it returned only catalogs and no new game repositories. Use another curated catalog's direct game-source links next.",
+      "next_experiments": [
+        "Expand xianyu110/awesome-gpt-6-astra or archorfight/awesome-gpt-6-astra direct game-source links",
+        "Inspect each unseen repository serially and deduplicate before counting",
+        "Require source, game loop and Astra/Opus/Fable evidence"
+      ]
+    },
+    {
+      "source": "Correction critique after canonical deduplication",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "fable_5_1_recent_game_readme_corrected": {
+          "novelty": 8,
+          "yield": 8,
+          "verification_quality": 9,
+          "repeatability": 9,
+          "source_quality": 9,
+          "false_positive_control": 9,
+          "overall": 8,
+          "decision": "keep"
+        },
+        "martin_delophy_awesome_gpt_6_astra_direct_source_expansion_corrected": {
+          "novelty": 2,
+          "yield": 1,
+          "verification_quality": 9,
+          "repeatability": 8,
+          "source_quality": 9,
+          "false_positive_control": 10,
+          "overall": 6,
+          "decision": "drop"
+        }
+      },
+      "note": "Canonical deduplication corrected the recent Fable partition to three new units and the MartinDelophy catalog expansion to zero new units. Keep the Fable query; drop the MartinDelophy expansion as a discovery method and retain it only for confirmation audits.",
+      "next_experiments": [
+        "Run the Fable query on the next completed push-date window with deduplication before yield scoring",
+        "Expand a different independent catalog, such as xianyu110 or archorfight",
+        "Count only new canonical repositories after inspection"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 377 across 327 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 380 across 330 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

@@ -12233,5 +12233,144 @@
     "quality_estimate_basis": "Strong direct attribution, large native source base, complete survival loop, screenshots, gameplay systems and documented human playtesting; no packaged release was supplied.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Turbo Kart Rush",
+    "repository_id": 1362560738,
+    "github_url": "https://github.com/claudio41cg-max/rio-rush-cross",
+    "game_links": [
+      "https://github.com/claudio41cg-max/rio-rush-cross",
+      "https://bridge-mind.github.io/turbo-kart-rush/"
+    ],
+    "evidence_url": "https://github.com/claudio41cg-max/rio-rush-cross#play",
+    "screenshot_urls": [
+      "https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/title.jpg",
+      "https://github.com/claudio41cg-max/rio-rush-cross/blob/main/docs/screenshots/race.jpg"
+    ],
+    "technology": [
+      "TypeScript",
+      "Three.js 0.185",
+      "WebGL2",
+      "Vite"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Turbo Kart Rush"
+    ],
+    "verification_status": "verified_source_and_live_demo_link",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-09T10:57:15Z",
+    "published_on": "2026-09-09",
+    "discovery_sources": [
+      "https://api.github.com/search/repositories?q=Fable+5.1+game+in%3Areadme+pushed%3A2026-09-09..2026-09-10",
+      "https://github.com/claudio41cg-max/rio-rush-cross"
+    ],
+    "verification_notes": "The README explicitly says five Claude Fable 5.1 sub-agents built the game from one prompt. The repository contains a complete Three.js/WebGL2 source tree, TypeScript/Vite build instructions, four tracks, eight racers, AI drivers, item combat, laps, win/results states, screenshots and a public GitHub Pages play link. Count one browser game under Racing and Vehicles.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 4800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for Three.js WebGL2 rendering, procedural track meshes, AI drivers, physics, particles, post-processing, audio synthesis and four-track scene updates; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "Strong direct Fable attribution, complete source tree, documented racing loop, AI opponents, item interactions, screenshots and a public playable deployment.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Branch Zero",
+    "repository_id": 1359073955,
+    "github_url": "https://github.com/JaCoderX/Branch-Zero",
+    "game_links": [
+      "https://github.com/JaCoderX/Branch-Zero/tree/main/apps/game"
+    ],
+    "evidence_url": "https://github.com/JaCoderX/Branch-Zero#status",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot 4.5.2",
+      "GDScript",
+      "Godot Web export",
+      "TypeScript",
+      "Vite"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Branch Zero"
+    ],
+    "verification_status": "verified_source_and_build_instructions",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-06T11:25:45Z",
+    "published_on": "2026-09-06",
+    "discovery_sources": [
+      "https://api.github.com/search/repositories?q=Fable+5.1+game+in%3Areadme+pushed%3A2026-09-09..2026-09-10",
+      "https://github.com/JaCoderX/Branch-Zero"
+    ],
+    "verification_notes": "The README explicitly credits Claude Code with Fable 5.1 construction. The repository contains a Godot 4.5.2 walkable bank game with player movement, NPC dialogue, account opening, payment and vault tasks, cooling timers, desk interactions, web export instructions and a functioning Godot source tree. It is a browser-delivered Godot game, so keep it in the web category rather than Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for Godot 3D scene rendering, character and NPC animation, collision, dialogue UI, web-export overhead and wallet/task state; not measured hardware throughput.",
+    "quality_estimate_10": 8.3,
+    "quality_estimate_basis": "Direct Fable attribution, complete Godot source and build instructions, walkable 3D scene, NPC/task loop and live-chain interaction evidence; public hosted demo was not supplied.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Commander Simulator",
+    "repository_id": 1326397489,
+    "github_url": "https://github.com/tuitamogamer-gpt/mtg-commander-simulator",
+    "game_links": [
+      "https://github.com/tuitamogamer-gpt/mtg-commander-simulator",
+      "https://mtg-commander-simulator.vercel.app/"
+    ],
+    "evidence_url": "https://github.com/tuitamogamer-gpt/mtg-commander-simulator#your-first-game",
+    "screenshot_urls": [
+      "https://github.com/tuitamogamer-gpt/mtg-commander-simulator/blob/main/assets/menu/command-table-preview.jpg"
+    ],
+    "technology": [
+      "JavaScript",
+      "Browser ES modules",
+      "WebSocket",
+      "Vercel"
+    ],
+    "model_family": [
+      "Claude Fable 5.1",
+      "ChatGPT 5.6 Soul",
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Commander Simulator"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-08-07T08:17:30Z",
+    "published_on": "2026-08-07",
+    "discovery_sources": [
+      "https://api.github.com/search/repositories?q=Fable+5.1+game+in%3Areadme+pushed%3A2026-09-09..2026-09-10",
+      "https://github.com/tuitamogamer-gpt/mtg-commander-simulator"
+    ],
+    "verification_notes": "The README explicitly lists Claude Fable 5.1, ChatGPT 5.6 Soul and ChatGPT 6 Astra as AI tools used. It contains a complete browser Commander game with a public live demo, solo AI opponents, private multiplayer, 100 built-in decks, stack and priority rules, combat, triggered abilities, deck import, saves and a documented first-game loop. Count one browser game under Card and Strategy.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for browser rules evaluation, card-state updates, local AI bounded search, animation, UI rendering, multiplayer synchronization and large card data; not measured hardware throughput.",
+    "quality_estimate_10": 9.7,
+    "quality_estimate_basis": "Strong direct multi-model attribution, extensive source, public live game, complete rules engine, local AI, multiplayer, deck import and screenshots.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
