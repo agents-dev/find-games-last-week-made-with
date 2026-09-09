@@ -1808,3 +1808,22 @@ The critique score is **9/10** overall: novelty **9**, yield **9**, verification
 ### Next experiment
 
 Run one serial exact web-engine or native-engine query with a changed model alias. Verify direct gameplay files before saving.
+
+### Unreal/Fable code-search audit
+
+Run the authenticated GitHub code search `Unreal game Co-Authored-By Claude Fable`. Inspect likely external repositories serially.
+
+Accept:
+
+- [The Fallen Citadel](https://github.com/nansu0425/nan2026-game-src) — a Unity WebGL quarter-view hack-and-slash roguelike with three classes, combat, bosses, enemies, augments, VFX, audio, a live browser build and an AI-usage document identifying Claude Opus 5, Fable 5 and Opus 4.8.
+- [GAME_CORE — Adaptive Boss Arena](https://github.com/Assassin29092005/GAME_CORE) — an Unreal Engine 5.8 native combat game with adaptive reinforcement-learning boss AI, player/boss C++ systems, Python training/inference, build/cook checks and direct Claude Fable 5 evidence.
+
+Reject [Godotstation](https://github.com/Dropgunner/Godotstation) as an incomplete Unitystation port/workflow repository and [Sharpee](https://github.com/ChicagoDave/sharpee) as an interactive-fiction framework rather than a specific AI-authored game.
+
+Verify nine source/configuration links, one screenshot link and the Fallen Citadel live URL. Count the Unity WebGL game and Unreal native game once each. This pass adds **two game units**, raising the collection to **546 counted game units across 474 repository records**. Keep both in **Non-Browser Engines** because the categorizer isolates Unity, Unreal and other native targets.
+
+The critique score is **9/10** overall: novelty **9**, yield **9**, verification quality **10**, repeatability **8**, source quality **10**, and false-positive control **9**. Keep the audit and continue with another unused engine/model pair.
+
+### Next experiment
+
+Run one serial exact engine-plus-model query using an unused engine or changed source index. Verify direct gameplay source before acceptance.

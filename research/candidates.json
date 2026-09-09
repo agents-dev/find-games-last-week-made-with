@@ -620,6 +620,16 @@
       "repository": "https://github.com/LAF-US/IDAHO-VAULT",
       "source": "GitHub code search for RPG Maker game Co-Authored-By Claude Fable",
       "reason": "The repository is a documentation vault with no playable game implementation. Reject it."
+    },
+    {
+      "repository": "https://github.com/Dropgunner/Godotstation",
+      "source": "GitHub code search for Unreal game Co-Authored-By Claude Fable",
+      "reason": "The repository documents a Godot 4 port workflow for Unitystation, but the inspected README does not prove a completed playable game build. Reject it as an incomplete port/workflow project."
+    },
+    {
+      "repository": "https://github.com/ChicagoDave/sharpee",
+      "source": "GitHub code search for Unreal game Co-Authored-By Claude Fable",
+      "reason": "The repository is a TypeScript interactive-fiction authoring platform and runtime, not a specific AI-authored game. Reject it as a framework."
     }
   ]
 }
