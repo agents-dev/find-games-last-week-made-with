@@ -384,3 +384,13 @@ The broad Fable search returned model documentation and agent repositories. The 
 ### Next experiment
 
 Return to creator-first X searches with direct GitHub links. Search one known high-yield creator handle at a time.
+
+## Known Astra creator follow-ups — 2026-09-09
+
+Run `from:CtrlAltDwayne github.com`, then `from:Im_IrushiK github.com`.
+
+The CtrlAltDwayne feed returned only the existing [emerald-bayou](https://github.com/Vheissu/emerald-bayou) and [saber-battle](https://github.com/Vheissu/saber-battle) game links. The Irushi feed returned only the existing [sunbreak-downhill-3D-game](https://github.com/Imirushik/sunbreak-downhill-3D-game) link and its GPT-6 Astra attribution. No new repository passed verification.
+
+### Next experiment
+
+Search another known Astra creator handle. Use direct GitHub links from new X posts only, and inspect each repository one at a time.

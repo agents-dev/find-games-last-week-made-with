@@ -938,6 +938,40 @@
         "Search one known high-yield creator handle at a time",
         "Inspect direct repositories one at a time"
       ]
+    },
+    {
+      "source": "X creator follow-up: CtrlAltDwayne",
+      "query_key": "x-search|from:CtrlAltDwayne|github.com",
+      "query": "from:CtrlAltDwayne github.com",
+      "status": "completed",
+      "received_count": 6,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The creator feed returned the already known emerald-bayou and saber-battle game links. Other results were unrelated software repositories. No new Astra game repository passed verification.",
+      "next_experiments": [
+        "Search from:Im_IrushiK github.com",
+        "Search one known high-yield creator handle at a time",
+        "Inspect direct repositories one at a time"
+      ]
+    },
+    {
+      "source": "X creator follow-up: Im_IrushiK",
+      "query_key": "x-search|from:Im_IrushiK|github.com",
+      "query": "from:Im_IrushiK github.com",
+      "status": "completed",
+      "received_count": 2,
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 1,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The creator feed returned only the already verified sunbreak-downhill-3D-game repository and its GPT-6 Astra attribution post. No additional game repository was found.",
+      "next_experiments": [
+        "Search another known Astra creator handle",
+        "Use direct GitHub links from new X posts only",
+        "Inspect direct repositories one at a time"
+      ]
     }
   ],
   "frontier": [
