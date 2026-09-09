@@ -63,9 +63,9 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 </div>
 
-<a id="game-library"></a>
+## Game library
 
-## 🕹️ Game library
+> 🕹️ **Browse all verified games by category.**
 
 Jump to a category:
 
@@ -79,11 +79,9 @@ Jump to a category:
 
 Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**, and any verified screenshot or prompt link. The layout wraps on narrow screens and avoids horizontal table scrolling.
 
-<a id="puzzle-arcade-and-platformers"></a>
+## Puzzle, Arcade, and Platformers
 
-## 🧩 Puzzle, Arcade, and Platformers
-
-> **43 verified games. Ranked by evidence-based quality score.**
+> 🧩 **43 verified games. Ranked by evidence-based quality score.**
 
 - [**ABYSS**](https://github.com/keisuke19831213-source/fable-arcade) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Web Audio API · 900 MFLOPS · _confirmed_
 - [**Astra Tetris**](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris) — ⭐ **8.5/10** · GPT-6 Astra · Minecraft Java datapack, mcfunction, Python, Three.js renderer · 600 MFLOPS · _creator-reported_
@@ -131,11 +129,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 [⬆️ Back to game library](#game-library)
 
-<a id="adventure-rpg-and-exploration"></a>
+## Adventure, RPG, and Exploration
 
-## 🗺️ Adventure, RPG, and Exploration
-
-> **29 verified games. Ranked by evidence-based quality score.**
+> 🗺️ **29 verified games. Ranked by evidence-based quality score.**
 
 - [**THORNMERE: The Founding Song**](https://github.com/dgahagan/THORNMERE) — ⭐ **8.5/10** · Claude Fable 5 · JavaScript, Canvas, Web Audio API · 1.10 GFLOPS · _creator-reported_
 - [**BLOCKS**](https://github.com/Nipale-ai/blocks-openworld) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Blender · 1.20 GFLOPS · _confirmed_
@@ -169,11 +165,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 [⬆️ Back to game library](#game-library)
 
-<a id="action-and-shooters"></a>
+## Action and Shooters
 
-## 💥 Action and Shooters
-
-> **69 verified games. Ranked by evidence-based quality score.**
+> 💥 **69 verified games. Ranked by evidence-based quality score.**
 
 - [**Amp Build 1**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
 - [**Amp Build 2**](https://github.com/zuwasi/Baboons-Over-London) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, JavaScript, WebGL · 1.20 GFLOPS · _confirmed_ · [🧠 prompt](https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt)
@@ -247,11 +241,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 [⬆️ Back to game library](#game-library)
 
-<a id="racing-and-vehicles"></a>
+## Racing and Vehicles
 
-## 🏎️ Racing and Vehicles
-
-> **21 verified games. Ranked by evidence-based quality score.**
+> 🏎️ **21 verified games. Ranked by evidence-based quality score.**
 
 - [**Drift Away Arrows**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Fable Kart**](https://github.com/koviq4/fable-sandbox) — ⭐ **8.5/10** · Claude Fable 5.1 · Three.js, Vite, JavaScript · 900 MFLOPS · _confirmed_
@@ -277,11 +269,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 [⬆️ Back to game library](#game-library)
 
-<a id="threejs-and-webgl"></a>
+## Three.js and WebGL
 
-## 🧊 Three.js and WebGL
-
-> **47 verified games. Ranked by evidence-based quality score.**
+> 🧊 **47 verified games. Ranked by evidence-based quality score.**
 
 - [**Airlock Escape**](https://github.com/shironagasu-ai/claude-fable5-3D-games) — ⭐ **8.5/10** · Claude Fable 5 · Three.js, cannon-es, JavaScript · 1.80 GFLOPS · _confirmed_
 - [**Astra Dash**](https://github.com/octopus7/astracraft) — ⭐ **8.5/10** · GPT-6 Astra · Three.js, Canvas 2D, WebGL, JavaScript · 1.20 GFLOPS · _confirmed_
@@ -333,11 +323,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 [⬆️ Back to game library](#game-library)
 
-<a id="strategy-simulation-and-sports"></a>
+## Strategy, Simulation, and Sports
 
-## ♟️ Strategy, Simulation, and Sports
-
-> **16 verified games. Ranked by evidence-based quality score.**
+> ♟️ **16 verified games. Ranked by evidence-based quality score.**
 
 - [**Farm Game**](https://github.com/BrilZliaN/farm-game) — ⭐ **8.0/10** · Claude Opus 5 · TypeScript, Three.js, Vite · 1.50 GFLOPS · _creator-reported_
 - [**Tribal Gods**](https://github.com/br3nt/tribal-gods) — ⭐ **8.0/10** · Claude Fable 5 · TypeScript, Three.js · 3 GFLOPS · _creator-reported_
@@ -358,11 +346,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 [⬆️ Back to game library](#game-library)
 
-<a id="other-browser-games"></a>
+## Other Browser Games
 
-## 🎮 Other Browser Games
-
-> **75 verified games. Ranked by evidence-based quality score.**
+> 🎮 **75 verified games. Ranked by evidence-based quality score.**
 
 - [**Blocky Obby Dash**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Bluff Circle**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
@@ -442,11 +428,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 [⬆️ Back to game library](#game-library)
 
-<a id="method"></a>
+## Method
 
-## 🔬 Method
-
-> **Proof over promises. Repository evidence decides what gets counted.**
+> 🔬 **Proof over promises. Repository evidence decides what gets counted.**
 
 - Verify the canonical GitHub repository and numeric repository ID.
 - Inspect the README, entry point, and gameplay source. Confirm input, rules or objectives, and game state.

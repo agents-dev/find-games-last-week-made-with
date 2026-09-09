@@ -111,15 +111,15 @@ if (screenshotCount) {
   const image = shot.record.screenshot_urls[0].replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
   output += `## 📸 Screenshot spotlight\n\n<div align="center">\n\n[<img src="${image}" alt="${esc(shot.name)} screenshot" width="760" />](${shot.record.github_url})\n\n**${esc(shot.name)}** — verified game source and screenshot.\n\n</div>\n\n`;
 }
-output += `<a id="game-library"></a>\n\n## 🕹️ Game library\n\n`;
+output += `## Game library\n\n> 🕹️ **Browse all verified games by category.**\n\n`;
 output += `Jump to a category:\n\n`;
 for (const [title, group] of groups) output += `- ${categoryIcons[title]} [${title}](#${slug(title)}) — **${group.length} games**\n`;
 output += `\n`;
 output += `Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**, and any verified screenshot or prompt link. The layout wraps on narrow screens and avoids horizontal table scrolling.\n\n`;
 
 for (const [title, group] of groups) {
-  output += `<a id="${slug(title)}"></a>\n\n## ${categoryIcons[title]} ${title}\n\n`;
-  output += `> **${group.length} verified games. Ranked by evidence-based quality score.**\n\n`;
+  output += `## ${title}\n\n`;
+  output += `> ${categoryIcons[title]} **${group.length} verified games. Ranked by evidence-based quality score.**\n\n`;
   for (const row of group) {
     const r = row.record;
     const extra = iconLinks(r);
@@ -128,7 +128,7 @@ for (const [title, group] of groups) {
   output += `\n[⬆️ Back to game library](#game-library)\n\n`;
 }
 
-output += `<a id="method"></a>\n\n## 🔬 Method\n\n> **Proof over promises. Repository evidence decides what gets counted.**\n\n`;
+output += `## Method\n\n> 🔬 **Proof over promises. Repository evidence decides what gets counted.**\n\n`;
 output += `- Verify the canonical GitHub repository and numeric repository ID.\n`;
 output += `- Inspect the README, entry point, and gameplay source. Confirm input, rules or objectives, and game state.\n`;
 output += `- Accept creator, repository, directory, or build-log evidence for Claude Opus, Claude Fable, or GPT-6 Astra. Label the evidence level.\n`;
