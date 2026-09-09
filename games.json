@@ -12075,5 +12075,54 @@
     "quality_estimate_basis": "Direct Astra attribution, complete native source, clear combat loop, build and run instructions, deterministic autoplay mode and gameplay-focused tests; reduced because a packaged release was not supplied.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Advanced Daisenryaku PC",
+    "repository_id": 1360876296,
+    "github_url": "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku",
+    "game_links": [
+      "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku/tree/main/src"
+    ],
+    "evidence_url": "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku#目前可以做什麼",
+    "screenshot_urls": [
+      "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku/blob/main/docs/original_preview.png"
+    ],
+    "technology": [
+      "C++",
+      "C++20",
+      "C17",
+      "Win32",
+      "Direct2D",
+      "DirectWrite",
+      "XAudio2",
+      "Native Windows"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Advanced Daisenryaku PC"
+    ],
+    "verification_status": "verified_source_build_requires_original_rom",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-08T03:22:08Z",
+    "published_on": "2026-09-08",
+    "discovery_sources": [
+      "https://api.github.com/search/repositories?q=%22GPT-6+Astra%22+C%2B%2B+game+in%3Areadme",
+      "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku"
+    ],
+    "verification_notes": "The README explicitly credits a GPT-6 Astra High native port milestone. It documents a C/C++ Windows implementation of the Advanced Daisenryaku turn-based strategy game with movement, attack and counterattack, production, supply, transport, capture, campaign branches, saves, original AI turns, controller input and audio. The repository contains source, build scripts, native and ROM-differential validation records, campaign checks and a preview image. The required original ROM is not included, so classify it under Non-Browser Engines and disclose that local play requires a legally obtained matching ROM.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 850000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for native 2D rendering, turn-based strategy rules, AI turns, campaign state, audio mixing and controller input; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Direct Astra attribution, native source, strategy gameplay systems, campaign validation and ROM-differential tests; reduced because the required original ROM and packaged executable are not included.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

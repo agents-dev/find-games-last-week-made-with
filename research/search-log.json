@@ -2682,10 +2682,51 @@
         "Run one different engine keyword with the same Astra and game constraints",
         "Compare accepted-game yield and benchmark false-positive rate"
       ]
+    },
+    {
+      "source": "GitHub repository search: GPT-6 Astra C++ game in README",
+      "query_key": "gh-repo-search|%22GPT-6+Astra%22+C%2B%2B+game+in%3Areadme|all|2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/eric-wen-dev-it/AdvancedDaisenryaku"
+      ],
+      "note": "The first strong unseen native-game candidate was Advanced Daisenryaku PC, a GPT-6 Astra High C/C++ Windows port with turn-based strategy, campaign, AI turns and native validation. The repository requires a legally obtained matching original ROM and does not ship an executable. The remaining search results were catalog, tooling, agent-control, or already inspected repositories and were not re-read in this serial sample.",
+      "next_experiments": [
+        "Inspect the next distinct native-game candidate from a changed query partition",
+        "Keep ROM-required ports separate from browser games and disclose missing copyrighted assets"
+      ]
+    },
+    {
+      "source": "Critique of GPT-6 Astra C++ game query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "gpt6_astra_cpp_game_readme": {
+          "novelty": 8,
+          "yield": 7,
+          "verification_quality": 9,
+          "repeatability": 9,
+          "source_quality": 9,
+          "false_positive_control": 8,
+          "overall": 8,
+          "decision": "keep"
+        }
+      },
+      "note": "The critique kept the C++ query. It found one strong native game, but the sample was narrow; retain the direct-source and attribution rules and compare the next language partition against this baseline.",
+      "next_experiments": [
+        "Run one different programming-language keyword with the same Astra and game constraints",
+        "Compare accepted-game yield and false-positive types"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 374 across 324 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 375 across 325 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

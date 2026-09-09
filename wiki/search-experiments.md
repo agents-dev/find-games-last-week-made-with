@@ -800,3 +800,7 @@ Use one new native-engine or model-alias partition. Inspect results serially, ve
 ### Critique result
 
 The critique scored the playable-game query **9/10** and kept it. It scored the standalone Godot query **7/10** and dropped it because it inspected one benchmark and added no game. Use the same strict checks with a different engine keyword, and compare accepted-game yield rather than widening the Godot search cosmetically.
+
+The next serial native partition, `"GPT-6 Astra" C++ game in:readme`, produced [Advanced Daisenryaku PC](https://github.com/eric-wen-dev-it/AdvancedDaisenryaku). It is a native Windows C/C++ port of a turn-based strategy game, with campaign state, AI turns, movement, combat, production, supply, capture, saves and ROM-differential validation. The README directly credits GPT-6 Astra High. Count it under **Non-Browser Engines**, but disclose that the original ROM is required and is not included.
+
+The critique scored the C++ method **8/10** and kept it. It has strong evidence and repeatability, but only one candidate was fully inspected. Use another language partition next and compare yield and false-positive types.
