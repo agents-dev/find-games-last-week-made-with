@@ -4137,15 +4137,15 @@
       ],
       "critique_scores": {
         "novelty": 8,
-        "yield": 8,
+        "yield": 7,
         "verification_quality": 9,
         "repeatability": 9,
         "source_quality": 9,
         "false_positive_control": 9,
-        "overall": 9,
+        "overall": 8,
         "decision": "keep"
       },
-      "critique_note": "The milestone has real player, camera, input and engine verification. Count it as a prototype, not a finished game, and preserve the Opus 4.7 version label.",
+      "critique_note": "The milestone has real player, camera, input and engine verification. Count it as a prototype, not a finished game, preserve the Opus 4.7 version label, and add interactive play checks where available.",
       "critic": "existing critique agent"
     }
   ],

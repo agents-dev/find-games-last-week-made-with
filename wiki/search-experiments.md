@@ -1203,3 +1203,17 @@ The critique agent scores this audit **9/10** overall: novelty **8**, yield **9*
 ### Next experiment
 
 Search exact Opus trailers with Godot and Unity terms serially. Inspect every created scene and script before counting a microgame. Keep engines and addons separate from playable projects.
+
+### Exact Opus Godot milestone audit
+
+Inspect [Geometry Quest](https://github.com/sly-the-fox/geometry-quest) through its exact repository commit trail. The first playable milestone provides a Merkaba player character, third-person camera, WASD/gamepad input and a configured main scene. A follow-up commit fixes enemy flash behavior and verifies Godot 4.6.2 headless startup with zero errors. Both milestone commits carry Claude Opus 4.7 trailers.
+
+Count one source-verified native game prototype and route it to the non-browser engine section. Do not present it as a finished release.
+
+### Critique result
+
+The critique agent scores this audit **8/10** overall: novelty **8**, yield **7**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it, with the prototype label and separate Opus 4.7 version label. Add interactive play checks where available.
+
+### Next experiment
+
+Apply the exact Godot milestone audit to the next unseen repository. Require distinct player, scene and gameplay source plus a successful engine check.
