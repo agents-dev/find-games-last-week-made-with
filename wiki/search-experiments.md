@@ -1575,3 +1575,21 @@ The critique agent scores this audit **9/10** overall: novelty **9**, yield **8*
 ### Next experiment
 
 Run serial headless or startup checks for the three accepted games. Continue with another native engine or Fable alias partition.
+
+### Serial Fable Godot multi-game audit
+
+Run the serial GitHub commit search `Godot game Co-Authored-By Claude Fable`. Require separate gameplay states, direct source for each game, and exact Fable evidence. Store one repository record and set `counted_game_units` to the number of independently named games that the source proves.
+
+Accept:
+
+- [Ninja Knife Dodge — Four Trials](https://github.com/Karanvir1729/ninja-knife-dodge) — Godot native mobile arcade containing Knife Dodge, Shuriken Match, Sensei Says, Quick Draw and Star Cricket. Verify the first four through the four-game merge and verify Star Cricket through its separate gameplay state and commit.
+
+Count five game units in this repository. Exclude The Loop Room because the repository describes it as a music game/toy, not one of the independent arcade games. This pass raises the collection to 536 units across 464 repositories.
+
+### Critique result
+
+The critique agent scores this audit **10/10** overall: novelty **10**, yield **10**, verification quality **9**, repeatability **9**, source quality **10**, and false-positive control **9**. Keep it. Preserve the one-record-per-repository boundary and count only independently named games with distinct gameplay source.
+
+### Next experiment
+
+Run the repository's Godot headless checks and smoke tour. Continue with another native multi-game repository.
