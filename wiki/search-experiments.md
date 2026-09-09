@@ -318,3 +318,15 @@ The narrower search returned an Astra museum walkthrough article, OpenClaw mater
 ### Next experiment
 
 Search exact Claude Fable game GitHub posts. Then search GPT-6 Astra with one engine or genre term at a time.
+
+## X exact Claude Fable game search — 2026-09-09
+
+Run `("Claude Fable" OR "Fable 5.1") game github.com`.
+
+The search found [achimala/TheLongSilence](https://github.com/achimala/TheLongSilence). GitHub verification confirms a substantial Three.js/WebGL2 browser space-exploration game with a live demo, flight, scanning, landing, encounters, custom shaders and automated browser verification. The README identifies Claude Opus 5 as the original builder. Anshu's [creator post](https://x.com/anshuc/status/2095526170972594240) explicitly says Claude Fable 5.1 overhauled the game and links the repository and demo. Add one verified game unit.
+
+The same search exposed [kalelooz/game-x](https://github.com/kalelooz/game-x), which is a game-development skill toolkit, not an individual game. Reject it.
+
+### Next experiment
+
+Search the Anshu creator feed for more direct game repositories. Then search Claude Fable with one engine at a time: Godot, Unity or Unreal.

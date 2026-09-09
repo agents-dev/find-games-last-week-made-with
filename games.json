@@ -2766,40 +2766,6 @@
     "canonical_repository_id": 1312257227
   },
   {
-    "name": "The Long Silence",
-    "repository_id": 1313614650,
-    "github_url": "https://github.com/achimala/TheLongSilence",
-    "evidence_url": "https://github.com/achimala/TheLongSilence",
-    "technology": [
-      "WebGL2",
-      "GLSL",
-      "JavaScript",
-      "Web Audio API"
-    ],
-    "gauntlet_loop": true,
-    "method_evidence": "creator-reported",
-    "verification_status": "verified",
-    "verified_on": "2026-09-09",
-    "discovery_sources": [
-      "https://somethingbig.ai/games",
-      "https://github.com/achimala/TheLongSilence"
-    ],
-    "verification_notes": "The SomethingBig games directory reports this game. The repository metadata states that Claude Opus 5 built it; the README verifies browser-playable space exploration with navigation, scanning, objectives, controls, and browser test tools.",
-    "game_count": 1,
-    "model_family": [
-      "Claude Opus 5"
-    ],
-    "model_evidence": "creator-reported",
-    "flops_estimate_raw": 900000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static workload estimate from documented renderer, simulation, effects, and entity complexity; not measured hardware throughput.",
-    "quality_estimate_10": 7.5,
-    "quality_estimate_basis": "Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.",
-    "counted_game_units": 1,
-    "is_independent_game": true
-  },
-  {
     "name": "Neon Overdrive",
     "repository_id": 1312100945,
     "github_url": "https://github.com/adisagar2003/neon-top-down-shooter",
@@ -10317,6 +10283,48 @@
     "flops_estimate_basis": "Static estimate for Three.js/WebGL2 dungeon rendering, fog-of-war masks, animated GLB assets, combat effects, particles, lighting, enemy simulation and synthesized audio; not measured hardware throughput.",
     "quality_estimate_10": 9,
     "quality_estimate_basis": "Evidence-based estimate from a complete multi-depth crawler with combat depth, enemy behaviors, progression, portals, live deployment, tests, screenshots and direct model attribution in both creator post and README.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "THE LONG SILENCE",
+    "repository_id": 1313614650,
+    "github_url": "https://github.com/achimala/TheLongSilence",
+    "evidence_url": "https://github.com/achimala/TheLongSilence",
+    "live_demo_url": "https://longsilence.anshu.dev/",
+    "technology": [
+      "Three.js",
+      "WebGL2",
+      "GLSL",
+      "JavaScript",
+      "Vite",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5",
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "THE LONG SILENCE"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-07-27T08:43:36Z",
+    "discovery_sources": [
+      "https://x.com/anshuc/status/2095526170972594240",
+      "https://github.com/achimala/TheLongSilence"
+    ],
+    "verification_notes": "The repository is a public, playable browser space-exploration game with Three.js, WebGL2, custom GLSL, seeded systems, scanning, landing, flight, encounters, audio, controls, a live demo and automated browser verification. The README identifies Claude Opus 5 as the original builder. Anshu's X post explicitly says Claude Fable 5.1 overhauled the game, made it more detailed and doubled its speed, and links this repository and the live demo.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 15000000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for a procedural WebGL2 space renderer with custom GLSL, atmospheric raymarching, terrain cubemaps, floating-origin flight, post-processing, instancing, AI traffic and procedural audio; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "Evidence-based estimate from a complete exploration loop, procedural universe, flight and landing systems, scanning, encounters, custom rendering pipeline, live demo, 50-commit public repository, automated browser verification and direct Opus/Fable attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   },

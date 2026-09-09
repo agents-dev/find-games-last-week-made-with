@@ -198,6 +198,11 @@
       "repository": "https://github.com/sudoingX/octopus-invaders",
       "source": "X search: from:sudoingX github.com",
       "reason": "The repository is a real playable pixel-art space shooter, and the X post links it directly. Its README identifies Qwen 3.5 9B and Hermes Agent as the builder, so it is outside the Astra, Claude Opus and Claude Fable scope."
+    },
+    {
+      "repository": "https://github.com/kalelooz/game-x",
+      "source": "X search: (Claude Fable OR Fable 5.1) game github.com",
+      "reason": "The X post links a repository of AI game-development skills and audits, not an individual playable game. Do not count a toolkit or skill repository as a game."
     }
   ]
 }

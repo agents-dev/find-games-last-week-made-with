@@ -825,12 +825,29 @@
         "Search GPT-6 Astra plus a single engine or genre term",
         "Inspect direct repositories one at a time"
       ]
+    },
+    {
+      "source": "X exact Claude Fable game search",
+      "query_key": "x-search|Claude Fable|Fable 5.1|game|github.com",
+      "query": "(\"Claude Fable\" OR \"Fable 5.1\") game github.com",
+      "status": "completed",
+      "received_count": 4,
+      "new_verified_repositories": 1,
+      "updated_verified_repositories": 0,
+      "new_game_units": 1,
+      "new_rejected": 1,
+      "note": "The search found achimala/TheLongSilence. GitHub verification confirms a substantial Three.js/WebGL2 browser space-exploration game with a live demo, controls, scanning, landing, encounters, custom shaders and automated browser verification. The README identifies Claude Opus 5 as the original builder, while Anshu's X post explicitly says Claude Fable 5.1 overhauled it and links the repository and demo. The same search also exposed kalelooz/game-x, which is a game-development skill toolkit rather than a game and was rejected.",
+      "next_experiments": [
+        "Search the Anshu creator feed for additional direct game repositories",
+        "Search exact Claude Fable plus Godot, Unity or Unreal one engine at a time",
+        "Inspect direct repositories one at a time"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 331 across 288 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 332 across 289 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact model-name metadata search currently has the best yield",
-    "Next serial experiment: search exact Claude Opus GitHub game posts, then inspect direct repositories one at a time",
+    "Next serial experiment: search the Anshu creator feed for direct game repositories, then search exact Claude Fable plus one engine at a time",
     "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
     "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"

@@ -39,6 +39,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | Game | Score | Built with |
 | --- | ---: | --- |
 | [**SUNBREAK — Downhill Club**](https://github.com/Imirushik/sunbreak-downhill-3D-game) | ⭐ **9.5** | GPT-6 Astra |
+| [**THE LONG SILENCE**](https://github.com/achimala/TheLongSilence) | ⭐ **9.5** | Claude Opus 5, Claude Fable 5.1 |
 | [**The Simpsons: Hit & Run — Browser Reconstruction**](https://github.com/Vheissu/hit-and-run-web) | ⭐ **9.5** | GPT-6 Astra |
 | [**ASTRA AIR COMBAT**](https://github.com/FLYING37520/astra-air-combat) | ⭐ **9.0** | GPT-6 Astra |
 | [**FACET FIGHTER**](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark) | ⭐ **9.0** | GPT-6 Astra |
@@ -52,7 +53,6 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**Astra Dash**](https://github.com/octopus7/astracraft) | ⭐ **8.5** | GPT-6 Astra |
 | [**Astra Tetris**](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris) | ⭐ **8.5** | GPT-6 Astra |
 | [**BLACKWATER — Silent Harbor**](https://github.com/Hiraeth010/blackwater) | ⭐ **8.5** | GPT-6 Astra |
-| [**Block World CN**](https://github.com/vvvvvvvvvashhh/block-world-cn) | ⭐ **8.5** | GPT-6 Astra |
 
 ## 📸 Screenshot spotlight
 
@@ -71,9 +71,9 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 Jump to a category:
 
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **32 games**
-- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **31 games**
+- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **30 games**
 - 💥 [Action and Shooters](#action-and-shooters) — **71 games**
-- 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **23 games**
+- 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **32 games**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **15 games**
@@ -122,7 +122,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Adventure, RPG, and Exploration
 
-> 🗺️ **31 verified games. Ranked by evidence-based quality score.**
+> 🗺️ **30 verified games. Ranked by evidence-based quality score.**
 
 - [**THORNMERE: The Founding Song**](https://github.com/dgahagan/THORNMERE) — ⭐ **8.5/10** · Claude Fable 5 · JavaScript, Canvas, Web Audio API · 1.10 GFLOPS · _creator-reported_
 - [**BLOCKS**](https://github.com/Nipale-ai/blocks-openworld) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Blender · 1.20 GFLOPS · _confirmed_
@@ -141,7 +141,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Ink Rogue**](https://github.com/evan-thedev/ink-rogue) — ⭐ **7.5/10** · Claude Fable 5.1 · Canvas 2D, HTML, JavaScript · 220 MFLOPS · _creator-reported_
 - [**KINDLE**](https://github.com/TonyDowney/kindle) — ⭐ **7.5/10** · Claude Opus 5 · WebGL2, HTML, JavaScript · 900 MFLOPS · _creator-reported_
 - [**Space You Land**](https://github.com/JaronKBragg7337/SYL-Full-Game) — ⭐ **7.5/10** · Claude Fable 5 · JavaScript, WebGL · 4 GFLOPS · _creator-reported_
-- [**The Long Silence**](https://github.com/achimala/TheLongSilence) — ⭐ **7.5/10** · Claude Opus 5 · WebGL2, GLSL, JavaScript, Web Audio API · 900 MFLOPS · _creator-reported_
 - [**Ashlands**](https://github.com/PeterBlenessy/ashlands) — ⭐ **7.0/10** · Claude Opus 5 · Three.js, TypeScript, WebGL2 · 1.10 GFLOPS · _directory-method_
 - [**Hollow Road**](https://github.com/afteradier/first-prompt-game) — ⭐ **7.0/10** · Claude Fable 5 · Three.js, JavaScript, Web Audio API · 1.20 GFLOPS · _creator-reported_
 - [**Jelajah Antariksa**](https://github.com/RafiulM/3d-game-fable5.1) — ⭐ **7.0/10** · Claude Fable 5.1 · HTML, JavaScript, Three.js · 1.80 GFLOPS · _creator-reported_
@@ -238,8 +237,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Racing and Vehicles
 
-> 🏎️ **23 verified games. Ranked by evidence-based quality score.**
+> 🏎️ **24 verified games. Ranked by evidence-based quality score.**
 
+- [**THE LONG SILENCE**](https://github.com/achimala/TheLongSilence) — ⭐ **9.5/10** · Claude Opus 5, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Vite, Browser · 15 GFLOPS · _confirmed_
 - [**Rogue Squadron — The Battle of Yavin**](https://github.com/PhiloLabs/fable51-worlds) — ⭐ **9.0/10** · GPT-6 Astra · TypeScript, React, Three.js, WebGL, GLSL, Vite · 4.20 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/PhiloLabs/fable51-worlds/blob/main/death-star-trench-run-gpt-astra/media/preview.gif)
 - [**Smash Karts Arena**](https://github.com/amsminn/gpt-6-astra-smash-karts) — ⭐ **9.0/10** · GPT-6 Astra · Three.js, React, TypeScript, Vite, WebSocket, Node.js, Web Audio API · 2.20 GFLOPS · _creator-reported_
 - [**Drift Away Arrows**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
