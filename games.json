@@ -12786,5 +12786,97 @@
     "quality_estimate_basis": "Live demo, complete level and ability structure, boss encounter, progression, checkpoints, saved times, source and direct Fable attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Elk Dismount",
+    "repository_id": 1358193853,
+    "github_url": "https://github.com/thevangelist/elk-dismount",
+    "game_links": [
+      "https://github.com/thevangelist/elk-dismount"
+    ],
+    "evidence_url": "https://github.com/thevangelist/elk-dismount#what-the-paper-prints",
+    "screenshot_urls": [
+      "https://github.com/thevangelist/elk-dismount/blob/main/docs/evening-run.png"
+    ],
+    "technology": [
+      "Three.js",
+      "Rapier",
+      "TypeScript",
+      "Web Audio API",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Elk Dismount"
+    ],
+    "verification_status": "verified_source_and_run_instructions",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-05T12:59:32Z",
+    "published_on": "2026-09-05",
+    "discovery_sources": [
+      "GitHub repository search: \"Claude Fable 5.1\" built game in:readme",
+      "https://github.com/thevangelist/elk-dismount"
+    ],
+    "verification_notes": "The README explicitly says the game was built as a Claude Fable 5.1 test and documents the complete loop: control a bull moose, cause traffic damage for score, avoid death, survive rounds and receive a generated newspaper report. It contains Three.js rendering, Rapier physics, traffic reactions, ragdoll injury, weather, stamina, cameras, synthesized audio and npm build instructions.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 3200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js WebGL rendering, Rapier vehicle and ragdoll physics, traffic AI, terrain, weather, particles, audio and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "Direct Fable attribution, source, documented score/survival loop, dynamic traffic, damage model, rounds, newspaper feedback and build instructions.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Neon Snake — Fable baseline",
+    "repository_id": 1354960745,
+    "github_url": "https://github.com/kinncj/neon-snake",
+    "game_links": [
+      "https://github.com/kinncj/neon-snake/tree/main/claude-code-fable",
+      "https://kinncj.github.io/neon-snake/claude-code-fable/"
+    ],
+    "live_demo_url": "https://kinncj.github.io/neon-snake/claude-code-fable/",
+    "evidence_url": "https://github.com/kinncj/neon-snake#the-game",
+    "screenshot_urls": [],
+    "technology": [
+      "Phaser 4",
+      "TypeScript",
+      "Tone.js",
+      "Canvas",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Neon Snake — Fable baseline"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-02T16:00:39Z",
+    "published_on": "2026-09-02",
+    "discovery_sources": [
+      "GitHub repository search: \"Claude Fable 5.1\" built game in:readme",
+      "https://github.com/kinncj/neon-snake"
+    ],
+    "verification_notes": "The repository contains four independent builds of one game specification. Count only the claude-code-fable baseline because it explicitly credits Claude Fable 5.1. The baseline has a live GitHub Pages build, a pure-integer deterministic snake simulation, five levels, combo progression, five palettes, five lo-fi tracks, i18n, quality tiers, replayable input logs, Playwright gates and documented playtest artifacts. The other three Qwen/opencode builds are excluded from this model-scoped count.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Phaser 4 2D rendering, deterministic simulation, CRT effects, audio, input replay and UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "Live demo, five-level progression, deterministic simulation, tests, playtest evidence, direct model attribution and clear separation from non-Fable comparison builds.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

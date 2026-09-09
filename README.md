@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 391 verified games. Real source. No prompt-only filler.
+### 393 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-391-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-287-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-190-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-393-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-289-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-191-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,17 +19,17 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 391 games. Yes, each one links to source.**
+**Yes, that is 393 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **391** |
-| 📦 Independent repositories | **287** |
-| 🧊 Three.js, WebGL, or WebGPU games | **190** |
+| 🎮 Independently counted games | **393** |
+| 📦 Independent repositories | **289** |
+| 🧊 Three.js, WebGL, or WebGPU games | **191** |
 | 🛠️ Non-browser engine games | **50** |
-| 📸 Games with verified screenshot links | **44** |
+| 📸 Games with verified screenshot links | **45** |
 | 🧠 Games with direct prompt links | **8** |
 
 ## 🏆 Top-rated picks
@@ -72,9 +72,9 @@ Jump to a category:
 
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **50 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **35 games**
-- 💥 [Action and Shooters](#action-and-shooters) — **84 games**
+- 💥 [Action and Shooters](#action-and-shooters) — **85 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **36 games**
-- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **38 games**
+- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **39 games**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **19 games**
 - 🎮 [Other Browser Games](#other-browser-games) — **76 games**
@@ -182,7 +182,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Action and Shooters
 
-> 💥 **84 verified games. Ranked by evidence-based quality score.**
+> 💥 **85 verified games. Ranked by evidence-based quality score.**
 
 - [**Commander Simulator**](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) — ⭐ **9.7/10** · Claude Fable 5.1, ChatGPT 5.6 Soul, GPT-6 Astra · JavaScript, Browser ES modules, WebSocket, Vercel · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) · [📸 screenshot](https://github.com/tuitamogamer-gpt/mtg-commander-simulator/blob/main/assets/menu/command-table-preview.jpg)
 - [**Neural Sight**](https://github.com/monstercameron/Neural-Sight) — ⭐ **9.2/10** · GPT-6 Astra · PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, Browser · 8 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/fort-clatsop.jpg) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/san-juan.jpg)
@@ -191,6 +191,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**NEON WARDEN**](https://github.com/Nipale-ai/fable-5-1-one-prompt-game) — ⭐ **9.0/10** · Claude Fable 5.1 · Three.js, GLTFLoader, WebGL, HTML, JavaScript, Blender, Browser · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Nipale-ai/fable-5-1-one-prompt-game/tree/main/fable) · [🧠 prompt](https://github.com/Nipale-ai/fable-5-1-one-prompt-game/blob/main/prompt.txt)
 - [**Saber / Descent**](https://github.com/Vheissu/saber-battle) — ⭐ **9.0/10** · GPT-6 Astra · TypeScript, Three.js, WebGL2, Vite, Blender, Browser · 6.10 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/Vheissu/saber-battle/blob/main/screenshots/01-saber-descent-temple.png) · [📸 screenshot](https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png) · [📸 screenshot](https://github.com/Vheissu/saber-battle/blob/main/screenshots/02-saber-descent-armory.png) · [📸 screenshot](https://github.com/Vheissu/saber-battle/blob/main/screenshots/04-saber-descent-blade-effects.png)
 - [**GLUP — Nila y el pez gato**](https://github.com/gavilanbe/glup) — ⭐ **8.9/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, Web Audio API, PWA, Browser · 300 MFLOPS · _confirmed_ · [🔗 files](https://github.com/gavilanbe/glup)
+- [**Elk Dismount**](https://github.com/thevangelist/elk-dismount) — ⭐ **8.8/10** · Claude Fable 5.1 · Three.js, Rapier, TypeScript, Web Audio API, Browser · 3.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/thevangelist/elk-dismount) · [📸 screenshot](https://github.com/thevangelist/elk-dismount/blob/main/docs/evening-run.png)
 - [**SQL Boss Battle Game**](https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-) — ⭐ **8.8/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas, sql.js, Web Audio API, Supabase, Browser · 600 MFLOPS · _confirmed_ · [🔗 files](https://github.com/raishaldhawan23/SQL-Boss-Battle-Game-) · [📸 screenshot](https://github.com/user-attachments/assets/f1986481-3d0b-4d7f-9240-9a5be77148d9)
 - [**VOIDRUNNER: Orbital Combat League**](https://github.com/alesha-pro/bench-portal) — ⭐ **8.7/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Web Audio, Browser · 5.50 GFLOPS · _creator-reported_ · [🔗 files](https://github.com/alesha-pro/bench-portal/tree/main/games/voidrunner-astra) · [▶️ play](https://alesha-pro.github.io/bench-portal/games/voidrunner-astra/)
 - [**VOIDBOUND: The Choir of Ash**](https://github.com/alesha-pro/bench-portal) — ⭐ **8.6/10** · GPT-6 Astra, Claude Fable 5.1 · Three.js, WebGL2, GLSL, JavaScript, Web Audio, Browser · 5.20 GFLOPS · _creator-reported_ · [🔗 files](https://github.com/alesha-pro/bench-portal/tree/main/games/voidbound-choir-of-ash) · [▶️ play](https://alesha-pro.github.io/bench-portal/games/voidbound-choir-of-ash/)
@@ -316,7 +317,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Puzzle, Arcade, and Platformers
 
-> 🧩 **38 verified games. Ranked by evidence-based quality score.**
+> 🧩 **39 verified games. Ranked by evidence-based quality score.**
 
 - [**Rift Chess**](https://github.com/HaileyStorm/rift-chess) — ⭐ **9.3/10** · GPT-6 Astra · Three.js, TypeScript, Vite, WebGL, Electron, Browser, Windows · 3.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png)
 - [**Silent Meridian**](https://github.com/stackloomdev/silent-meridian) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, WebGL, Browser · 1.10 GFLOPS · _confirmed_ · [▶️ play](https://silent-meridian.stackloom.org/) · [📸 screenshot](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png) · [📸 screenshot](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/ferry.png)
@@ -325,6 +326,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**SkySprout**](https://github.com/DUBSOpenHub/skysprout) — ⭐ **8.9/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Web Audio, Browser · 650 MFLOPS · _confirmed_ · [▶️ play](https://dubsopenhub.github.io/skysprout/) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-meadow.png) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-grotto.png) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-canopy.png)
 - [**LASTLIGHT**](https://github.com/bitofastickler/one-prompt-two-worlds) — ⭐ **8.8/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API, Browser · 1.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/bitofastickler/one-prompt-two-worlds/tree/main/games/lastlight)
 - [**Mechapede**](https://github.com/davbachman/Mechapede) — ⭐ **8.8/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API, Browser · 900 MFLOPS · _confirmed_ · [📸 screenshot](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png)
+- [**Neon Snake — Fable baseline**](https://github.com/kinncj/neon-snake) — ⭐ **8.7/10** · Claude Fable 5.1 · Phaser 4, TypeScript, Tone.js, Canvas, Browser · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/kinncj/neon-snake/tree/main/claude-code-fable)
 - [**Frost Hop**](https://github.com/MrAllNeo/frost-hop) — ⭐ **8.5/10** · GPT-6 Astra · React, JavaScript, Canvas 2D, Web Audio API, Vite · 650 MFLOPS · _confirmed_
 - [**MirrorForge**](https://github.com/leonvanzyl/claude-fable-5-mirror-game) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, WebGPU, WGSL · 4.50 GFLOPS · _creator-reported_
 - [**Super Fable Bros. — World 1-1**](https://github.com/INONONO66/fable-5.1-mario) — ⭐ **8.5/10** · Claude Fable 5.1 · Canvas 2D, JavaScript, Web Audio API, Browser · 250 MFLOPS · _confirmed_ · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/title.png) · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/gameplay.png) · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/gameplay.gif)

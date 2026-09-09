@@ -955,3 +955,14 @@ The narrower `Pygame` and `Godot` variants produced mostly star lists, catalogs 
 ### Critique result
 
 Score the combined pass **8/10**: novelty **8**, yield **7**, verification quality **9**, repeatability **8**, source quality **9**, and false-positive control **9**. Keep the date-window search, but drop the broad Pygame and Godot forms. Use a narrow Fable build phrase or a new direct-source catalog expansion next.
+
+### Narrow Fable build phrase
+
+Run `"Claude Fable 5.1" "built" game in:readme` and inspect each unseen direct repository serially. Accept:
+
+- [Elk Dismount](https://github.com/thevangelist/elk-dismount) — Three.js/Rapier traffic-survival game. Control a bull moose, create traffic damage for score, survive the round and receive a generated newspaper report. The README explicitly says the code and design came from Claude Fable 5.1 conversations.
+- [Neon Snake — Fable baseline](https://github.com/kinncj/neon-snake/tree/main/claude-code-fable) — Phaser 4 game with five levels, combo progression, deterministic simulation, palettes, music, replay logs, tests and a [live build](https://kinncj.github.io/neon-snake/claude-code-fable/). Count only the Fable baseline; exclude the Qwen and opencode comparison builds in the same repository.
+
+### Critique result
+
+Score the narrow phrase **9/10**: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it. The next pass should repeat the phrase on a later push window or use a native-engine Fable variant, while preserving the rule that multi-model repositories contribute only the explicitly attributed model build.

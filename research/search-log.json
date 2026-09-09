@@ -3430,10 +3430,60 @@
         "Expand direct source links from a new Fable catalog",
         "Keep the non-browser engine category and require explicit engine evidence"
       ]
+    },
+    {
+      "source": "Claude Fable narrow build-phrase query",
+      "query_key": "\"Claude Fable 5.1\" \"built\" game in:readme",
+      "status": "sample_completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 0,
+      "unseen_count": 2,
+      "overlap_ratio": 0.5,
+      "confirmed_existing_repositories": [
+        "https://github.com/bridge-mind/turbo-kart-rush",
+        "https://github.com/INONONO66/fable-5.1-mario"
+      ],
+      "accepted_repositories": [
+        "https://github.com/thevangelist/elk-dismount",
+        "https://github.com/kinncj/neon-snake"
+      ],
+      "accepted_game_units": [
+        "Elk Dismount",
+        "Neon Snake — Fable baseline"
+      ],
+      "note": "Serial inspection found two new source-backed Fable games. Elk Dismount is a Three.js/Rapier traffic-survival game. Neon Snake contains four model builds, but only the explicitly Fable 5.1 baseline was counted; the Qwen/opencode comparison builds were excluded.",
+      "next_experiments": [
+        "Keep the narrow built-game phrase",
+        "Run a changed Fable native-engine phrase or later push-date window",
+        "Count only the explicitly attributed model build inside comparison repositories"
+      ]
+    },
+    {
+      "source": "Critique of Claude Fable narrow build-phrase query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "note": "The narrow phrase added two new games from four inspected repositories and correctly separated a Fable baseline from non-Fable comparison builds. Keep it and use the same model-build separation for future multi-model repositories.",
+      "next_experiments": [
+        "Repeat on a later push-date window",
+        "Search a changed native-engine Fable phrase",
+        "Continue serial source and gameplay verification"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 391 across 339 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 393 across 341 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",
