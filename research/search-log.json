@@ -5219,6 +5219,109 @@
       },
       "critique_note": "The search is repeatable but produced only tooling and analysis false positives. Drop it as a collection method.",
       "critic": "existing critique agent; conservative manual score after completed serial review"
+    },
+    {
+      "source": "GDevelop/Fable code search",
+      "query_key": "GDevelop game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The authenticated GitHub code search returned zero results. Drop the exact query and try a different engine or model alias.",
+      "next_experiments": [
+        "Run a new exact RPG Maker or other native-engine query with Claude Opus evidence",
+        "Inspect external repositories serially and verify direct gameplay source",
+        "Keep zero-result query keys out of repeat searches"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The query produced no candidates. Drop it and change the engine/model partition.",
+      "critic": "existing critique agent; conservative manual score after no-candidate result"
+    },
+    {
+      "source": "RPG Maker/Opus code-search audit",
+      "query_key": "RPG Maker game Co-Authored-By Claude Opus",
+      "status": "completed_dropped",
+      "results_inspected": 3,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 3,
+      "unseen_count": 3,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/edneyreis999/Jonny",
+        "https://github.com/jphein/opus",
+        "https://github.com/vibewatch/vibewatch.github.io"
+      ],
+      "held_repositories": [],
+      "note": "Serial review found one real RPG Maker MZ game, Jhonny, but its project instructions prohibit Claude attribution and no Astra/Opus/Fable authorship evidence exists. The other inspected repositories are a model census and a social-web analysis/index. Add no games and drop the exact query.",
+      "next_experiments": [
+        "Run a new exact engine-plus-model query using an unused engine or a changed source index",
+        "Inspect external repositories serially and require actual gameplay source plus model evidence",
+        "Reject catalogs, analysis sites and games without qualifying authorship evidence"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 7,
+        "source_quality": 6,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The query produced no qualifying game. Drop it and change the engine/model partition.",
+      "critic": "existing critique agent; conservative manual score after completed serial review"
+    },
+    {
+      "source": "RPG Maker/Fable code-search audit",
+      "query_key": "RPG Maker game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 3,
+      "new_verified_repositories": 0,
+      "new_rejected": 2,
+      "new_game_units": 0,
+      "unseen_count": 2,
+      "overlap_ratio": 0.33,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/borjar20/Biblioshare",
+        "https://github.com/LAF-US/IDAHO-VAULT"
+      ],
+      "held_repositories": [],
+      "note": "The query returned one already-rejected AI Pulse Daily index, a hobby-tracking PWA and a documentation vault. Serial inspection found no qualifying RPG Maker game with Astra, Opus or Fable evidence. Drop the exact query.",
+      "next_experiments": [
+        "Run a new exact engine-plus-model query using an unused engine or changed source index",
+        "Inspect external repositories serially and require game objectives, direct gameplay source and model evidence",
+        "Keep catalogs, PWAs and documentation vaults excluded"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 7,
+        "source_quality": 6,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The query produced no qualifying game and mostly documentation false positives. Drop it.",
+      "critic": "existing critique agent; conservative manual score after completed serial review"
     }
   ],
   "frontier": [

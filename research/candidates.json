@@ -595,6 +595,31 @@
       "repository": "https://github.com/akitaonrails/clash_of_kings_analysis",
       "source": "GitHub code search for Cocos game Co-Authored-By Claude Fable",
       "reason": "The repository is static privacy and behavior analysis of an existing Cocos2d-x game, not the game implementation or an AI-authored game. Reject it as analysis."
+    },
+    {
+      "repository": "https://github.com/edneyreis999/Jonny",
+      "source": "GitHub code search for RPG Maker game Co-Authored-By Claude Opus",
+      "reason": "The repository contains a real RPG Maker MZ game, but its project instructions explicitly prohibit Claude attribution and no Astra, Opus or Fable authorship evidence is present. Reject it under the model-authored-game rule."
+    },
+    {
+      "repository": "https://github.com/jphein/opus",
+      "source": "GitHub code search for RPG Maker game Co-Authored-By Claude Opus",
+      "reason": "This repository is a census and interactive catalog of Opus projects, not a game. Reject it as a catalog."
+    },
+    {
+      "repository": "https://github.com/vibewatch/vibewatch.github.io",
+      "source": "GitHub code search for RPG Maker game Co-Authored-By Claude Opus",
+      "reason": "This repository is a social-web analysis site and report index, not a playable game. Reject it as an analysis/catalog project."
+    },
+    {
+      "repository": "https://github.com/borjar20/Biblioshare",
+      "source": "GitHub code search for RPG Maker game Co-Authored-By Claude Fable",
+      "reason": "The repository is a PWA for tracking books, films and series. It is not a game, so reject it."
+    },
+    {
+      "repository": "https://github.com/LAF-US/IDAHO-VAULT",
+      "source": "GitHub code search for RPG Maker game Co-Authored-By Claude Fable",
+      "reason": "The repository is a documentation vault with no playable game implementation. Reject it."
     }
   ]
 }

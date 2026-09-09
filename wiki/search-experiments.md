@@ -1750,3 +1750,37 @@ Add no game record. The conservative critique score is **4/10** overall: novelty
 ### Next experiment
 
 Run one serial exact engine-plus-model query using an unused engine or a changed source index. Require actual objectives, gameplay source and exact Astra, Opus or Fable evidence.
+
+### Dropped GDevelop/Fable code search
+
+Run the authenticated GitHub code search `GDevelop game Co-Authored-By Claude Fable`. It returns zero results. Add no records and do not repeat the exact query.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **8**, repeatability **7**, source quality **4**, and false-positive control **10**.
+
+### Next experiment
+
+Run one serial exact RPG Maker or other unused native-engine query with Claude Opus evidence.
+
+### Dropped RPG Maker/Opus code-search audit
+
+Run the authenticated GitHub code search `RPG Maker game Co-Authored-By Claude Opus`. Inspect the likely external hits serially.
+
+- [Jhonny](https://github.com/edneyreis999/Jonny) is a real RPG Maker MZ game, but its instructions explicitly prohibit Claude attribution and no Astra, Opus or Fable authorship evidence is present.
+- [Claude Opus census](https://github.com/jphein/opus) is a catalog, not a game.
+- [AI Pulse Daily](https://github.com/vibewatch/vibewatch.github.io) is a social-web analysis site, not a game.
+
+Add no record. The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **9**, repeatability **7**, source quality **6**, and false-positive control **10**. Drop the exact query.
+
+### Next experiment
+
+Run one serial exact engine-plus-model query using a changed engine or source index. Require direct gameplay code and qualifying Astra, Opus or Fable evidence.
+
+### Dropped RPG Maker/Fable code-search audit
+
+Run the authenticated GitHub code search `RPG Maker game Co-Authored-By Claude Fable`. It returns one already-rejected analysis index, a hobby-tracking PWA ([Biblioshare](https://github.com/borjar20/Biblioshare)) and a documentation vault ([IDAHO-VAULT](https://github.com/LAF-US/IDAHO-VAULT)). It returns no qualifying RPG Maker game. Add no records and drop the exact query.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **9**, repeatability **7**, source quality **6**, and false-positive control **10**.
+
+### Next experiment
+
+Run one serial exact engine-plus-model query using an unused engine or changed source index. Require direct gameplay source and qualifying Astra, Opus or Fable evidence.
