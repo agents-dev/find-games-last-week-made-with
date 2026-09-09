@@ -13261,5 +13261,630 @@
     "quality_estimate_basis": "Direct Opus experiment label, complete single-file source, defense/wave loop, score, ammo, narrative choices, answer grid and game-over state.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Pixel Tactical Shooter",
+    "repository_id": 1169074750,
+    "github_url": "https://github.com/Vadaski/pixel-tactical-shooter",
+    "game_links": [
+      "https://github.com/Vadaski/pixel-tactical-shooter/blob/main/index.html"
+    ],
+    "live_demo_url": "https://vadaski.github.io/pixel-tactical-shooter/",
+    "evidence_url": "https://github.com/Vadaski/pixel-tactical-shooter/commit/f7a7f2fac1f02aa457dc81d7114c16492723a838",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Pixel Tactical Shooter"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-02-28T06:18:07Z",
+    "published_on": "2026-02-28",
+    "discovery_sources": [
+      "GitHub code search for Claude Opus 4.6 game attribution",
+      "https://github.com/Vadaski/pixel-tactical-shooter"
+    ],
+    "verification_notes": "The repository README identifies a browser-playable 3D tactical shooter built with Three.js, with two playable maps, bots, weapons, objectives and deterministic gameplay tests. The initial game commit explicitly describes the game and includes a Co-Authored-By: Claude Opus 4.6 trailer. GitHub Pages is enabled at the recorded live URL.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js scene rendering, multiple maps, bots, pathfinding, weapon effects, HUD and procedural audio; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "Live demo, explicit Opus-attributed game commit, 3D tactical FPS loop, bots, maps, weapons and substantial automated gameplay coverage.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Math Mage",
+    "repository_id": 1199408768,
+    "github_url": "https://github.com/Nakamuro-unl/GodotActionGame",
+    "game_links": [
+      "https://github.com/Nakamuro-unl/GodotActionGame/tree/main/ingame"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Nakamuro-unl/GodotActionGame/commit/ab5de8db8e1b4f456faa7de70b593f64085a9ff0",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot 4.6",
+      "GDScript",
+      "Native",
+      "Web export"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Math Mage"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-04-02T10:17:39Z",
+    "published_on": "2026-03-30",
+    "discovery_sources": [
+      "GitHub code search for Claude Opus 4.6 game attribution",
+      "https://github.com/Nakamuro-unl/GodotActionGame"
+    ],
+    "verification_notes": "The Godot project contains a playable action-game structure with title/menu, in-game scene, renderer, stages, enemies, skills, result/ranking/settings screens, virtual controls and 290 passing tests. The repository's Godot instructions identify the engine and multiple implementation commits carry Co-Authored-By: Claude Opus 4.6 (1M context). Count it as source-verified because no stable public demo was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 700000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot scene rendering, enemy AI, skills, stage progression, UI, animation and input handling; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Real Godot project, structured action loop, stages, enemies, skills, mobile/web input work and direct Opus-attributed implementation commits.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "morBreaker",
+    "repository_id": 1282782755,
+    "github_url": "https://github.com/KingMordas/mor-breaker",
+    "game_links": [
+      "https://github.com/KingMordas/mor-breaker/tree/main/Assets"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/KingMordas/mor-breaker/commit/53b41b02baa12440e62b01e585ee347bfee35845",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity 6",
+      "C#",
+      "URP",
+      "Native Windows",
+      "WebGL"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "morBreaker"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-06-28T07:26:58Z",
+    "published_on": "2026-06-28",
+    "discovery_sources": [
+      "GitHub code search for Claude Opus 4.6 game attribution",
+      "https://github.com/KingMordas/mor-breaker"
+    ],
+    "verification_notes": "The Unity project is a complete 2D brick-breaker with a paddle, ball, bricks, ten levels, score/lives/win flow, local high scores and Windows/WebGL targets. The initial public-import commit explicitly describes the complete Unity project and carries Co-Authored-By: Claude Opus 4.8. Count it as source-verified because no public demo URL was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity 2D rendering, physics collisions, level state, UI and local score handling; not measured hardware throughput.",
+    "quality_estimate_10": 8.6,
+    "quality_estimate_basis": "Complete Unity source, ten hand-tuned levels, Windows/WebGL targets, high-score flow and direct Opus-attributed import commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Claude Playground AI Games Arcade",
+    "repository_id": 1201312262,
+    "github_url": "https://github.com/vi-o-al-ai/claude_playground",
+    "game_links": [
+      "https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/in-a-nutshell",
+      "https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/solitaire",
+      "https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/space-invaders",
+      "https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/splendor",
+      "https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/sudoku",
+      "https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/tic-tac-toe",
+      "https://github.com/vi-o-al-ai/claude_playground/tree/main/games/godot/runner"
+    ],
+    "live_demo_url": "https://vi-o-al-ai.github.io/claude_playground/",
+    "live_demo_urls": [
+      "https://vi-o-al-ai.github.io/claude_playground/games/in-a-nutshell/",
+      "https://vi-o-al-ai.github.io/claude_playground/games/solitaire/",
+      "https://vi-o-al-ai.github.io/claude_playground/games/space-invaders/",
+      "https://vi-o-al-ai.github.io/claude_playground/games/splendor/",
+      "https://vi-o-al-ai.github.io/claude_playground/games/sudoku/",
+      "https://vi-o-al-ai.github.io/claude_playground/games/tic-tac-toe/",
+      "https://vi-o-al-ai.github.io/claude_playground/games/runner/"
+    ],
+    "evidence_url": "https://github.com/vi-o-al-ai/claude_playground/commit/b240aa12f03808c451b61156a7c2fff7a32f7c2d",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Vite",
+      "Canvas",
+      "Godot 4.6",
+      "GDScript",
+      "Browser",
+      "Web export"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "repository_level_confirmed",
+    "game_count": 7,
+    "contained_games": [
+      "In a Nutshell",
+      "Solitaire",
+      "Space Invaders",
+      "Splendor",
+      "Sudoku",
+      "Tic Tac Toe",
+      "Zombie Lane Runner"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "In a Nutshell",
+        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "flops_estimate_raw": 250000000,
+        "quality_estimate_10": 7.8
+      },
+      {
+        "name": "Solitaire",
+        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "flops_estimate_raw": 250000000,
+        "quality_estimate_10": 7.8
+      },
+      {
+        "name": "Space Invaders",
+        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "flops_estimate_raw": 400000000,
+        "quality_estimate_10": 8.0
+      },
+      {
+        "name": "Splendor",
+        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "flops_estimate_raw": 350000000,
+        "quality_estimate_10": 8.3
+      },
+      {
+        "name": "Sudoku",
+        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "flops_estimate_raw": 220000000,
+        "quality_estimate_10": 7.9
+      },
+      {
+        "name": "Tic Tac Toe",
+        "technology": ["HTML", "JavaScript", "Vite", "Canvas", "Browser"],
+        "flops_estimate_raw": 180000000,
+        "quality_estimate_10": 7.5
+      },
+      {
+        "name": "Zombie Lane Runner",
+        "technology": ["Godot 4.6", "GDScript", "Web export", "Browser"],
+        "flops_estimate_raw": 800000000,
+        "quality_estimate_10": 8.4
+      }
+    ],
+    "verification_status": "verified_source_and_live_site",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-04-04T14:03:00Z",
+    "published_on": "2026-04-04",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus 4.6",
+      "https://github.com/vi-o-al-ai/claude_playground"
+    ],
+    "verification_notes": "The repository README describes a browser-based arcade mostly written with Claude Code and provides a live GitHub Pages site. Repository structure contains six independent web-game packages and one Godot runner package, each with game metadata and source. Package metadata identifies the six web titles; arcade.json identifies Zombie Lane Runner. The repository history includes Opus-attributed game work, including a Godot runner feature commit and the stack reorganization commit. Count each listed game once. The Godot game is routed to the separate engine section even though it has a Web export.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed_at_repository_level",
+    "flops_estimate_raw": 800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS; per-game values are in contained_game_estimates",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimates based on each game's rendering, input, state and AI or rules workload; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Seven independently named game packages, source directories, metadata, tests, live site, and repository-level Claude Code plus Opus attribution.",
+    "counted_game_units": 7,
+    "is_independent_game": true
+  },
+  {
+    "name": "Toy Box Siege",
+    "repository_id": 1200067447,
+    "github_url": "https://github.com/Jaxsbr/toy-box-siege",
+    "game_links": [
+      "https://github.com/Jaxsbr/toy-box-siege/tree/main/src"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Jaxsbr/toy-box-siege/commit/dbe337ca4392b330f74fa1d0a9b05636e84c4c1d",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "Phaser",
+      "Vite",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Toy Box Siege"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-04-03T02:13:17Z",
+    "published_on": "2026-04-03",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus 4.6",
+      "https://github.com/Jaxsbr/toy-box-siege"
+    ],
+    "verification_notes": "The README identifies a bedroom-themed tower-defense game. package.json contains a Phaser/Vite browser runtime, and the repository history contains game implementation commits for progression, enemies, levels, weapons, bosses, visual effects and playtest tuning. The cited game-juice commit includes repeated Co-Authored-By: Claude Opus 4.6 trailers. Count it as source-verified because no stable live URL was found.",
+    "gauntlet_loop": true,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Phaser rendering, tower-defense simulation, enemy waves, projectile effects, UI and level progression; not measured hardware throughput.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "Playable source, Phaser runtime, multi-level progression, enemy waves, bosses, weapons, effects and repeated Opus-attributed implementation commits.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "WordGirl",
+    "repository_id": 1290533662,
+    "github_url": "https://github.com/rickymetz/wordgirl",
+    "game_links": [
+      "https://github.com/rickymetz/wordgirl/tree/main/src/games/polygram",
+      "https://github.com/rickymetz/wordgirl/tree/main/src/games/crosshatch",
+      "https://github.com/rickymetz/wordgirl/tree/main/src/games/pierglass",
+      "https://github.com/rickymetz/wordgirl/tree/main/src/games/doublet",
+      "https://github.com/rickymetz/wordgirl/tree/main/src/games/serpentine"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/rickymetz/wordgirl/commit/d3e2e1c70260e0fee4d0bdf29bd8918998b8ddb6",
+    "screenshot_urls": [
+      "https://github.com/rickymetz/wordgirl/blob/main/public/teasers/polygram.png",
+      "https://github.com/rickymetz/wordgirl/blob/main/public/teasers/crosshatch.png",
+      "https://github.com/rickymetz/wordgirl/blob/main/public/teasers/pierglass.png",
+      "https://github.com/rickymetz/wordgirl/blob/main/public/teasers/doublet.png",
+      "https://github.com/rickymetz/wordgirl/blob/main/public/teasers/serpentine.png"
+    ],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "PWA",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 5,
+    "contained_games": [
+      "Polygram",
+      "Crosshatch",
+      "Pierglass",
+      "Doublet",
+      "Serpentine"
+    ],
+    "contained_game_estimates": [
+      {"name": "Polygram", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 180000000, "quality_estimate_10": 8.1},
+      {"name": "Crosshatch", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 180000000, "quality_estimate_10": 8.2},
+      {"name": "Pierglass", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 160000000, "quality_estimate_10": 8.0},
+      {"name": "Doublet", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 180000000, "quality_estimate_10": 8.1},
+      {"name": "Serpentine", "technology": ["React", "TypeScript", "Vite", "PWA", "Browser"], "flops_estimate_raw": 180000000, "quality_estimate_10": 8.1}
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-07-06T03:01:45Z",
+    "published_on": "2026-07-06",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus 4.6",
+      "https://github.com/rickymetz/wordgirl"
+    ],
+    "verification_notes": "The README identifies five named games: Polygram, Crosshatch, Pierglass, Doublet and Serpentine. It documents each rule loop, daily/practice modes, tutorials and puzzle completion state. Each game has a dedicated source directory and screenshot teaser. The repository history contains Opus-attributed implementation work. Count each named game once. Count as source-verified because the README gives Netlify deployment instructions but no stable public deployment URL.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS; per-game values are in contained_game_estimates",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimates for word-grid rendering, input, deterministic puzzle generation, validation and local persistence; not measured hardware throughput.",
+    "quality_estimate_10": 8.2,
+    "quality_estimate_basis": "Five independently named games with distinct source modules, detailed rule loops, tutorials, screenshots, PWA architecture and Opus-attributed development history.",
+    "counted_game_units": 5,
+    "is_independent_game": true
+  },
+  {
+    "name": "Blackjack",
+    "repository_id": 1346422427,
+    "github_url": "https://github.com/reytoyogassky/BLACKJACK",
+    "game_links": [
+      "https://github.com/reytoyogassky/BLACKJACK/tree/main/app/blackjack"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/reytoyogassky/BLACKJACK/commit/b1450baed5283dc9969877206704e892c540e7eb",
+    "screenshot_urls": [],
+    "technology": [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Supabase",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Blackjack"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-08-25T17:21:31Z",
+    "published_on": "2026-08-25",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus 4.6",
+      "https://github.com/reytoyogassky/BLACKJACK"
+    ],
+    "verification_notes": "The initial public commit is explicitly titled 'Blackjack multiplayer game' and carries a Co-Authored-By: Claude Opus 4.6 trailer. The repository contains a Next.js Blackjack page, multiplayer room routes, game logic, betting, action controls and later betting-phase fixes. A later commit also adds a separate Cekih game, but it is not counted here because the cited initial Opus attribution directly proves Blackjack only.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 350000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React rendering, card/deck logic, multiplayer state, betting controls and room UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Direct Opus-attributed initial game commit, real multiplayer source, betting/action loop, room routes and later gameplay fixes.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Realistic Survival",
+    "repository_id": 1322887597,
+    "github_url": "https://github.com/liuyixuan5678/offline-games",
+    "game_links": [
+      "https://github.com/liuyixuan5678/offline-games/tree/main/realistic-survival"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/liuyixuan5678/offline-games/commit/fad5695c1bcb8d739ba330a26e38de927813381e",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Realistic Survival"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-08-04T11:48:19Z",
+    "published_on": "2026-08-04",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/liuyixuan5678/offline-games"
+    ],
+    "verification_notes": "The repository README describes Realistic Survival as a top-down shooter with waves and upgradeable weapons. The cited commit adds a standalone realistic-survival/index.html with player controls, combat, enemies, progression and game-over/victory UI, and carries a Co-Authored-By: Claude Opus 4.6 trailer. Count only this explicitly attributed game, not the other unrelated offline games in the repository.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 450000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas rendering, shooter simulation, enemy waves, projectiles, upgrades and game-over state; not measured hardware throughput.",
+    "quality_estimate_10": 8.1,
+    "quality_estimate_basis": "Direct game-addition commit, standalone playable source, top-down combat loop, waves, upgrades and explicit Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "PVP Tetris",
+    "repository_id": 1218133620,
+    "github_url": "https://github.com/wodud1378/PVP-Tetris",
+    "game_links": [
+      "https://github.com/wodud1378/PVP-Tetris/tree/main/Tetris.App"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/wodud1378/PVP-Tetris/commit/d82a98b2ef49426587a7770c1b64434f93d2d0d9",
+    "screenshot_urls": [],
+    "technology": [
+      "C#",
+      ".NET 6",
+      "WPF",
+      "Native Windows"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "PVP Tetris"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-04-22T15:07:51Z",
+    "published_on": "2026-04-22",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/wodud1378/PVP-Tetris"
+    ],
+    "verification_notes": "The repository contains a real C# WPF desktop Tetris application, shared game core, server, AI and tests. The cited implementation commit adds a 405-line GameEngine with rotation, scoring, randomizer and a full game loop and carries multiple Co-Authored-By: Claude Opus 4.6 trailers. Route it to the separate non-browser engine section.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 550000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for WPF rendering, tetromino simulation, rotation/collision, scoring, networking and AI; not measured hardware throughput.",
+    "quality_estimate_10": 8.3,
+    "quality_estimate_basis": "Native WPF app, complete game engine, scoring/randomizer/rotation loop, server and tests, with direct Opus implementation attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Fuzhou Mahjong",
+    "repository_id": 1194554444,
+    "github_url": "https://github.com/minyic7/fuzhou-mahjong",
+    "game_links": [
+      "https://github.com/minyic7/fuzhou-mahjong/tree/main/apps/web",
+      "https://github.com/minyic7/fuzhou-mahjong/tree/main/apps/server"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/minyic7/fuzhou-mahjong/commit/6504e8234a9dc73b93f83f3363aab77e286c8d2f",
+    "screenshot_urls": [],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "WebSockets",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Fuzhou Mahjong"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-03-28T14:13:09Z",
+    "published_on": "2026-03-28",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/minyic7/fuzhou-mahjong"
+    ],
+    "verification_notes": "The repository README and source implement a real multiplayer Fuzhou Mahjong game with a React/Vite client, server room handlers, bots, tiles, scoring, claims, rounds and game-over flow. The cited commit adds the next-round game flow and carries Co-Authored-By: Claude Opus 4.6 trailers. Count it as source-verified because no stable public demo was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React rendering, tile/game-state logic, bot decisions, WebSocket synchronization and room UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Complete multiplayer client/server game, bots, scoring, claims, rounds and game-over flow, with direct Opus gameplay commit attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Quiz",
+    "repository_id": 1169226447,
+    "github_url": "https://github.com/cmarangon/quiz",
+    "game_links": [
+      "https://github.com/cmarangon/quiz/tree/develop/app"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/cmarangon/quiz/commit/f3e379f86da452d7ead719213051e093bce67c78",
+    "screenshot_urls": [],
+    "technology": [
+      "PHP",
+      "Laravel",
+      "Livewire",
+      "WebSockets",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Quiz"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-02-28T11:11:31Z",
+    "published_on": "2026-02-28",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/cmarangon/quiz"
+    ],
+    "verification_notes": "The README identifies a real Kahoot-style party trivia game with host, player and spectator screens, room codes, question types, scoring and real-time Reverb events. The cited implementation commit adds the quiz game, database models and session state machine and carries Co-Authored-By: Claude Opus 4.6 trailers. Count it as source-verified because no stable public deployment was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Livewire rendering, quiz state, real-time events, scoring and room/session logic; not measured hardware throughput.",
+    "quality_estimate_10": 8.2,
+    "quality_estimate_basis": "Real-time party game with host/player/spectator roles, multiple question types, scoring, rooms and direct Opus implementation attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "JE Trivia",
+    "repository_id": 1249527448,
+    "github_url": "https://github.com/johankiilavirta/jeopardy",
+    "game_links": [
+      "https://github.com/johankiilavirta/jeopardy/tree/main/src"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/johankiilavirta/jeopardy/commit/b091ba32e03cfb675f052f15a564979ee4690099",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "React Native",
+      "Expo",
+      "iOS",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "JE Trivia"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-05-25T19:51:06Z",
+    "published_on": "2026-05-25",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/johankiilavirta/jeopardy"
+    ],
+    "verification_notes": "The Expo/React Native project implements a Jeopardy-style trivia game with question libraries, clue presentation, buzzer input, final wagers, local/online sessions, game setup, scoring and game-over screens. The cited gameplay commit adds game-over statistics and carries Co-Authored-By: Claude Opus 4.6 trailers. Route it to the separate non-browser engine section because the primary target is native iOS.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React Native rendering, buzzer/session state, question loading, scoring and multiplayer transport; not measured hardware throughput.",
+    "quality_estimate_10": 8.2,
+    "quality_estimate_basis": "Native trivia game with local/online sessions, buzzer flow, wagers, scoring and direct Opus gameplay attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

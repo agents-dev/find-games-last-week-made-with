@@ -1075,3 +1075,83 @@ Drop all four partition methods. The critic scored the batch **5/10** overall: n
 ### Next experiment
 
 Start a new reverse-link expansion from a high-yield Opus or Fable anchor. Exclude every canonical repository before inspection. Require direct source plus playable or build evidence.
+
+### Claude Opus game code-search with native-engine triage
+
+Run the serial GitHub code search `Claude Opus 4.6 game`. Inspect repositories with an actual game README or game source. Accept three new repositories:
+
+- [Pixel Tactical Shooter](https://github.com/Vadaski/pixel-tactical-shooter) — a live Three.js/WebGL browser tactical FPS. The README documents maps, bots, weapons, objectives and tests. The initial game commit explicitly describes the game and carries a `Co-Authored-By: Claude Opus 4.6` trailer.
+- [Math Mage](https://github.com/Nakamuro-unl/GodotActionGame) — a Godot 4.6 action game with stages, enemies, skills, menus, rankings, virtual controls and 290 passing tests. Multiple implementation commits carry `Co-Authored-By: Claude Opus 4.6` trailers. Count it as source-verified because no stable public demo was found.
+- [morBreaker](https://github.com/KingMordas/mor-breaker) — a Unity 6 2D brick-breaker with ten levels, score/lives/win flow, local high scores and Windows/WebGL targets. Its initial public-import and later release commits carry `Co-Authored-By: Claude Opus 4.8` trailers. Route it to the separate non-browser-engine section even though it also has a WebGL target.
+
+This pass adds three game units and improves native-engine coverage. It confirms that code-search results are useful when the search result is only a lead and the final decision uses repository contents plus commit history. Drop candidates where `CLAUDE.md` only describes how an agent should work but the repository has no direct model-use evidence.
+
+### Critique result
+
+The existing critique agent scored this pass **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **8**, source quality **9**, and false-positive control **8**. Keep the method. The critic notes that a `Co-Authored-By` trailer is strong attribution evidence but does not prove that the model created the whole game, so retain direct source and playable/build checks. Track `morBreaker` as Claude Opus 4.8, separate from the Opus 4.6 results.
+
+### Next experiment
+
+Inspect the remaining direct Opus code-search candidates one at a time. Prioritize actual game READMEs, source trees and release or live-build evidence. Continue expanding another Opus or Fable census after this queue.
+
+### Reverse-link expansion from Claude Playground multi-stack arcade
+
+Follow the exact Claude Opus commit-attribution trail to [Claude Playground](https://github.com/vi-o-al-ai/claude_playground). Inspect the repository tree one directory at a time. Accept seven independent games from one verified repository:
+
+- [In a Nutshell](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/in-a-nutshell)
+- [Solitaire](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/solitaire)
+- [Space Invaders](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/space-invaders)
+- [Splendor](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/splendor)
+- [Sudoku](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/sudoku)
+- [Tic Tac Toe](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/web/tic-tac-toe)
+- [Zombie Lane Runner](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/godot/runner)
+
+The README describes a browser arcade mostly written with Claude Code and gives a live [GitHub Pages site](https://vi-o-al-ai.github.io/claude_playground/). The six web packages have game descriptions in `package.json`; the Godot package has `arcade.json`, Godot project files, gameplay scenes and tests. The repository history includes Opus-attributed game work, including the Godot runner feature commit. Count each package once. Route Zombie Lane Runner to the separate non-browser engine section even though it has a Web export.
+
+### Critique result
+
+The critique agent scores this expansion **8/10** overall: novelty **7**, yield **9**, verification quality **8**, repeatability **8**, source quality **9**, and false-positive control **8**. Keep it as seven repository-level Claude/Opus-provenance units. The limitation is important: attribution is not separately attached to every package, so the README and record must state that clearly.
+
+### Next experiment
+
+Search exact `Co-Authored-By Claude Opus 4.6` commit trails and inspect game-named repositories serially. Expand another multi-game repository only after verifying every contained game directory.
+
+### Exact Opus commit-trailer game search
+
+Run the serial GitHub commit search `game Co-Authored-By Claude Opus 4.6`. Inspect each game-named repository and its source. Accept:
+
+- [Toy Box Siege](https://github.com/Jaxsbr/toy-box-siege) — a Phaser/Vite bedroom tower-defense game with levels, enemy waves, weapons, bosses and visual effects. Game implementation commits carry repeated Claude Opus 4.6 trailers.
+- [WordGirl](https://github.com/rickymetz/wordgirl) — five source-backed word games: [Polygram](https://github.com/rickymetz/wordgirl/tree/main/src/games/polygram), [Crosshatch](https://github.com/rickymetz/wordgirl/tree/main/src/games/crosshatch), [Pierglass](https://github.com/rickymetz/wordgirl/tree/main/src/games/pierglass), [Doublet](https://github.com/rickymetz/wordgirl/tree/main/src/games/doublet) and [Serpentine](https://github.com/rickymetz/wordgirl/tree/main/src/games/serpentine). The README documents each rule loop and the repository history contains Opus-attributed implementation work.
+- [Blackjack](https://github.com/reytoyogassky/BLACKJACK) — a Next.js multiplayer Blackjack game with rooms, betting and player actions. Its initial game commit carries a Claude Opus 4.6 trailer. Do not count the later Cekih addition because the cited initial attribution directly proves Blackjack only.
+
+Hold [Drone Wars](https://github.com/shrimalmadhur/drone-wars). Its README and JavaScript source prove a playable Three.js aerial-combat prototype, but the exact Opus commit returned 404 during the verification pass. Retry it after GitHub rate limits clear; do not count it until the attribution URL resolves.
+
+This pass adds seven game units from three repositories. It confirms that exact commit trailers are a high-yield discovery method. Keep the 404 hold rule and inspect each game source before counting.
+
+### Critique result
+
+Manual review scores this method **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **8**, source quality **9**, and false-positive control **9**. Keep it.
+
+### Next experiment
+
+Retry Drone Wars through direct repository history after the rate limit clears. Then search exact Opus 4.6 trailers with engine terms and inspect each repository serially.
+
+### Exact Opus commit-trailer game implementation follow-up
+
+Continue the serial GitHub commit search `game Co-Authored-By Claude Opus 4.6`. Accept one explicitly attributed game from each of five repositories:
+
+- [Realistic Survival](https://github.com/liuyixuan5678/offline-games/tree/main/realistic-survival) — standalone HTML top-down shooter with waves, weapons and game-over/victory UI. The game-addition commit carries an Opus 4.6 trailer.
+- [PVP Tetris](https://github.com/wodud1378/PVP-Tetris/tree/main/Tetris.App) — C#/.NET WPF desktop game with a shared `GameEngine`, rotation, scoring, randomizer, server and tests. The engine commit carries multiple Opus 4.6 trailers. Route it to non-browser engines.
+- [Fuzhou Mahjong](https://github.com/minyic7/fuzhou-mahjong/tree/main/apps/web) — React/Vite client plus server, bots, claims, scoring, rounds and game-over flow. The next-round commit carries Opus 4.6 trailers.
+- [Quiz](https://github.com/cmarangon/quiz/tree/develop/app) — Laravel/Livewire/Reverb real-time party trivia game with host, player and spectator screens. The implementation commit carries Opus 4.6 trailers.
+- [JE Trivia](https://github.com/johankiilavirta/jeopardy/tree/main/src) — React Native/Expo Jeopardy-style game with question library, buzzer, wagers, sessions, scoring and game-over screens. A gameplay commit carries Opus 4.6 trailers. Route it to non-browser engines because the primary target is native iOS.
+
+This pass adds five game units. It confirms that exact commit trailers remain high-yield when paired with source inspection. Count only the explicitly attributed game when a repository contains unrelated games.
+
+### Critique result
+
+The critique agent scores this pass **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it. A commit trailer proves attribution for that implementation commit, but not necessarily for every file or the full repository history.
+
+### Next experiment
+
+Inspect the remaining exact-trailer candidates with game source one at a time. Retry the held Drone Wars attribution URL after GitHub rate limits clear. Then use engine-specific exact-trailer searches for Phaser, Godot, Unity, WPF and native mobile.

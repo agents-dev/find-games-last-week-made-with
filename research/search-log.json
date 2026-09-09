@@ -3878,6 +3878,146 @@
         "Preserve strict authorship and game-loop checks"
       ]
     }
+    ,{
+      "source": "Claude Opus game code-search with native-engine triage",
+      "query_key": "Claude Opus 4.6 game",
+      "status": "completed",
+      "results_inspected": 14,
+      "new_verified_repositories": 3,
+      "new_game_units": 3,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/Vadaski/pixel-tactical-shooter",
+        "https://github.com/Nakamuro-unl/GodotActionGame",
+        "https://github.com/KingMordas/mor-breaker"
+      ],
+      "note": "Serial inspection of GitHub code-search results found one live Three.js browser tactical shooter, one Godot action game, and one Unity 6 brick-breaker. Each repository has real game source. Model evidence is direct: the Pixel Tactical Shooter initial game commit names Claude Opus 4.6, Godot implementation commits carry Claude Opus 4.6 co-author trailers, and the morBreaker import and release history carries Claude Opus 4.8 co-author trailers. The engine split correctly routes Godot and Unity to the separate non-browser category.",
+      "next_experiments": [
+        "Search the remaining direct Opus code-search candidates serially, prioritizing repositories with a real game README and a co-author or build attribution",
+        "Expand direct links from another maintained Opus or Fable census",
+        "Keep rejecting CLAUDE.md-only instructions when commit history does not prove model use"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 8,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The critic confirmed strong output and evidence. Co-authored-by trailers are useful but do not prove that the model created the whole game, so retain direct source and playable/build checks. Track the Opus 4.8 morBreaker result separately from Opus 4.6 results.",
+      "critic": "existing critique agent"
+    },
+    {
+      "source": "Reverse-link expansion from Claude Playground multi-stack arcade",
+      "query_key": "Co-Authored-By Claude Opus 4.6 -> vi-o-al-ai/claude_playground",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 7,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/vi-o-al-ai/claude_playground"
+      ],
+      "note": "The repository is a real multi-stack arcade, not a catalog. Serial tree inspection found six web-game packages (In a Nutshell, Solitaire, Space Invaders, Splendor, Sudoku, Tic Tac Toe) and one Godot game (Zombie Lane Runner). Package metadata or arcade.json names each game, source directories exist, the README provides a live GitHub Pages site, and repository history provides Opus-attributed game work. Count each independent package once and route the Godot unit to the non-browser engine section.",
+      "next_experiments": [
+        "Search exact Claude Opus 4.6 commit trailers and inspect game-named repositories serially",
+        "Expand other multi-game repositories only after verifying each contained game directory",
+        "Keep repository-level attribution distinct from per-file attribution in the notes"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 9,
+        "verification_quality": 8,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 8,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "The critique agent confirmed seven distinct game units and strong source evidence, but individual per-game authorship was not established. Keep the expansion as seven repository-level Claude/Opus-provenance units and do not overstate per-file attribution.",
+      "critic": "existing critique agent"
+    },
+    {
+      "source": "Exact Opus commit-trailer game search",
+      "query_key": "game Co-Authored-By Claude Opus 4.6",
+      "status": "completed",
+      "results_inspected": 5,
+      "new_verified_repositories": 3,
+      "new_game_units": 7,
+      "new_rejected": 1,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/Jaxsbr/toy-box-siege",
+        "https://github.com/rickymetz/wordgirl",
+        "https://github.com/reytoyogassky/BLACKJACK"
+      ],
+      "held_repositories": [
+        "https://github.com/shrimalmadhur/drone-wars"
+      ],
+      "rejected_repositories": [],
+      "note": "Serial commit-trailer inspection found a Phaser tower-defense game, a five-game word-puzzle collection, and a Blackjack multiplayer game. Each accepted repository has real source and direct Opus 4.6 commit attribution. Drone Wars has real Three.js game source, but its cited commit URL returned 404 during verification, so it remains held and is not counted.",
+      "next_experiments": [
+        "Retry the held Drone Wars commit through a direct repository history check after the rate limit clears",
+        "Search exact Opus 4.6 trailers with game-engine terms one repository at a time",
+        "Inspect multi-game repositories by source directory and count only named playable units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "Exact commit-trailer search has high yield and strong primary evidence. Keep the 404 hold rule and inspect each game source before counting.",
+      "critic": "manual review"
+    },
+    {
+      "source": "Exact Opus commit-trailer game implementation follow-up",
+      "query_key": "game Co-Authored-By Claude Opus 4.6",
+      "status": "completed",
+      "results_inspected": 5,
+      "new_verified_repositories": 5,
+      "new_game_units": 5,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/liuyixuan5678/offline-games",
+        "https://github.com/wodud1378/PVP-Tetris",
+        "https://github.com/minyic7/fuzhou-mahjong",
+        "https://github.com/cmarangon/quiz",
+        "https://github.com/johankiilavirta/jeopardy"
+      ],
+      "note": "Serial source checks accepted one explicitly attributed game from each repository. Realistic Survival was added in a standalone HTML commit; PVP Tetris has a WPF GameEngine; Fuzhou Mahjong has client/server round logic; Quiz has a Laravel/Livewire real-time game; and JE Trivia has a React Native/Expo trivia runtime. Each cited implementation commit carries Claude Opus 4.6 attribution. Native WPF and iOS projects are routed to the separate non-browser section.",
+      "next_experiments": [
+        "Inspect the remaining exact-trailer candidates with game source one at a time",
+        "Verify held Drone Wars through a resolving commit or repository history URL",
+        "Use engine-specific exact-trailer searches for Phaser, Godot, Unity, WPF and native mobile"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The pass produced five direct game implementations with strong commit-level attribution and source evidence. Keep the rule to count only the explicitly attributed game when a repository contains unrelated games.",
+      "critic": "existing critique agent"
+    }
   ],
   "frontier": [
     "Target: 900 independently counted game units; current: 401 across 349 unique accessible repository records",

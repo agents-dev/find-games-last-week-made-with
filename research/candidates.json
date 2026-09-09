@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-09-09",
+  "checked_on": "2026-09-10",
   "pending": [
     {
       "game_name": "Yakko Kart",
@@ -12,6 +12,12 @@
       "creator": "Vesper",
       "source": "https://somethingbig.ai/games",
       "reason": "The game has a playable site. No public GitHub repository was identified yet."
+    },
+    {
+      "game_name": "Drone Wars",
+      "repository_hint": "shrimalmadhur/drone-wars",
+      "source": "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "reason": "The repository README and JavaScript source prove a playable Three.js aerial-combat prototype, but the exact Opus-attributed commit URL returned 404 during verification. Retry the repository history after the GitHub rate limit clears before adding it."
     }
   ],
   "rejected": [
