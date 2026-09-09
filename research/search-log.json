@@ -4117,6 +4117,44 @@
       "critic": "existing critique agent"
     },
     {
+      "source": "Exact Opus Unity game commit audit",
+      "query_key": "Unity game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 3,
+      "new_game_units": 3,
+      "new_rejected": 1,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/MahoHayashi/UnityPuzzle",
+        "https://github.com/Ares2023/BlindArena",
+        "https://github.com/danius123q5-creator/danich_game"
+      ],
+      "rejected_repositories": [
+        "https://github.com/Evergarden0101/GoldHunter"
+      ],
+      "held_repositories": [],
+      "note": "Serial commit-patch inspection accepted three actual Unity games. UnityPuzzle is a five-stage puzzle project with scene, prefabs and gameplay scripts. Blind Arena is an audio-first 2D versus project with combat, AI, networking and WebGL TTS. danich_game is a URP zombie shooter with player, zombie, weapons, vehicles, effects and LAN systems. Each cited commit carries a direct Claude Opus 4.8 trailer. GoldHunter was rejected because the inspected commit is a vanilla Canvas browser game, not a Unity project, despite appearing in the Unity search context.",
+      "next_experiments": [
+        "Run the same patch-level Unity audit for Claude Opus 4.6 separately from Opus 4.8",
+        "Search Unreal and other native-engine aliases serially after the Unity 4.6 pass",
+        "Reject browser games returned by engine-keyword searches unless the repository source proves the requested engine"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "Direct patch inspection gives strong attribution and game verification. The GoldHunter rejection shows why the engine must be confirmed from project files, not search-result context.",
+      "critic": "existing critique agent"
+    },
+    {
       "source": "Exact Opus Godot milestone audit",
       "query_key": "repo:sly-the-fox/geometry-quest Co-Authored-By Claude Opus 4.6",
       "status": "completed",
@@ -4150,7 +4188,7 @@
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 432 across 369 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 436 across 373 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

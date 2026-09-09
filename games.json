@@ -14301,5 +14301,136 @@
     "quality_estimate_basis": "First-playable Godot milestone, real player/camera/input source, enemy effect work, headless verification and direct Opus 4.7 attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Unity Puzzle Game",
+    "github_url": "https://github.com/MahoHayashi/UnityPuzzle",
+    "game_links": [
+      "https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Scenes/Main.unity",
+      "https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/GameManager.cs",
+      "https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/StageManager.cs"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/MahoHayashi/UnityPuzzle/commit/44dcdea5b61c678f968b78f4a09f1c995758ffe2",
+    "screenshot_urls": [
+      "https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Goal.png",
+      "https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Block.png"
+    ],
+    "technology": [
+      "Unity",
+      "C#",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Unity Puzzle Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "published_on": "2026-07-10",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus",
+      "https://github.com/MahoHayashi/UnityPuzzle"
+    ],
+    "verification_notes": "The repository is a Unity project with a Main.unity scene, GameManager, PlayerManager and StageManager scripts, puzzle prefabs, directional controls, goals, blocks, walls and five stage text files. The cited initial commit is titled Unity puzzle game and carries a direct Co-Authored-By: Claude Opus 4.8 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 550000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity 2D rendering, tile/prefab draws, player movement, collision, stage loading and UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.1,
+    "quality_estimate_basis": "Complete Unity project structure, five stages, puzzle-specific assets and scripts, plus direct Opus 4.8 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Blind Arena",
+    "github_url": "https://github.com/Ares2023/BlindArena",
+    "game_links": [
+      "https://github.com/Ares2023/BlindArena/blob/main/Assets/Scenes/Main.unity",
+      "https://github.com/Ares2023/BlindArena/tree/main/Assets/Scripts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Ares2023/BlindArena/commit/e7d142a73556e41063afb69f63a6f3fb9b69deeb",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity",
+      "C#",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Blind Arena"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "published_on": "2026-08-18",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus",
+      "https://github.com/Ares2023/BlindArena"
+    ],
+    "verification_notes": "The repository contains a Unity Main.unity scene, player controller, combatant, bullets, ammo, enemy AI, map generation, network session/player scripts, tutorial flow, announcer and audio-first WebGL TTS integration. The initial commit is titled Blind Arena, an audio-first 2D versus game, and carries a direct Co-Authored-By: Claude Opus 4.8 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 850000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity 2D rendering, combat simulation, enemy AI, network state, audio systems and map generation; not measured hardware throughput.",
+    "quality_estimate_10": 8.6,
+    "quality_estimate_basis": "Substantial playable-system source with combat, AI, networking, tutorial and audio-first design, backed by direct Opus 4.8 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Unity Zombie Shooter",
+    "github_url": "https://github.com/danius123q5-creator/danich_game",
+    "game_links": [
+      "https://github.com/danius123q5-creator/danich_game/blob/main/Assets/Scenes/SampleScene.unity",
+      "https://github.com/danius123q5-creator/danich_game/tree/main/Assets/Scripts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/danius123q5-creator/danich_game/commit/15a5d8a466c51cf6c5c4e209c6234b552a8aceb6",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity",
+      "C#",
+      "Universal Render Pipeline",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Unity Zombie Shooter"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "published_on": "2026-06-17",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus",
+      "https://github.com/danius123q5-creator/danich_game"
+    ],
+    "verification_notes": "The repository is a Unity URP project with a SampleScene, player controller, zombie AI, weapons and combat systems, grenades, rockets, mines, artillery, air strikes, buildables, vehicles, LAN management and endgame cinematic scripts. The initial commit is titled Unity zombie shooter game source and carries a direct Co-Authored-By: Claude Opus 4.8 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity URP rendering, zombie AI, projectile and vehicle systems, effects, LAN state and scene simulation; not measured hardware throughput.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Large coherent Unity shooter source with scene, combat, AI, weapons, vehicles and multiplayer-oriented systems, backed by direct Opus 4.8 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

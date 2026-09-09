@@ -1217,3 +1217,23 @@ The critique agent scores this audit **8/10** overall: novelty **8**, yield **7*
 ### Next experiment
 
 Apply the exact Godot milestone audit to the next unseen repository. Require distinct player, scene and gameplay source plus a successful engine check.
+
+### Exact Opus Unity game commit audit
+
+Run the serial GitHub commit search `Unity game Co-Authored-By Claude Opus`. Inspect the commit patch and project files for every game-named result. Accept:
+
+- [Unity Puzzle Game](https://github.com/MahoHayashi/UnityPuzzle) — a Unity project with a `Main.unity` scene, `GameManager`, `PlayerManager`, `StageManager`, puzzle prefabs, directional controls, goals, blocks, walls and five stage files. The cited initial commit is titled Unity puzzle game and carries a direct Claude Opus 4.8 trailer.
+- [Blind Arena](https://github.com/Ares2023/BlindArena) — a Unity audio-first 2D versus game with a main scene, player/combat scripts, bullets, ammo, enemy AI, map generation, network sessions and WebGL TTS support. The initial Blind Arena commit carries a direct Claude Opus 4.8 trailer.
+- [Unity Zombie Shooter](https://github.com/danius123q5-creator/danich_game) — a Unity URP project with a sample scene, player controller, zombie AI, weapons, grenades, rockets, mines, artillery, air strikes, vehicles, effects and LAN systems. The initial commit carries a direct Claude Opus 4.8 trailer.
+
+Reject [GoldHunter](https://github.com/Evergarden0101/GoldHunter) from this engine category. Its inspected commit is a vanilla Canvas browser game, not a Unity project, even though it appeared in the Unity-oriented search results.
+
+This pass adds three native Unity game units and raises the collection to 436 game units across 373 repositories. Keep Opus 4.8 separate from other Opus versions. Record the engine only after checking the actual project files.
+
+### Critique result
+
+The critique agent scores this method **9/10** overall: novelty **9**, yield **9**, verification quality **10**, repeatability **9**, source quality **10**, and false-positive control **10**. Keep it.
+
+### Next experiment
+
+Run the same patch-level Unity audit for Claude Opus 4.6 separately from Opus 4.8. Require gameplay-relevant Unity changes plus direct attribution. Then inspect Unreal and other native-engine aliases serially.
