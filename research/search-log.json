@@ -268,12 +268,211 @@
         "Search GitHub for Godot GPT-6 Astra game",
         "Search GitHub for Unity GPT-6 Astra game"
       ]
+    },
+    {
+      "source": "GitHub code-search engine expansion",
+      "query_key": "code-search|GPT-6 Astra|Godot|README.md|limit=100",
+      "query": "GPT-6 Astra Godot",
+      "filename": "README.md",
+      "requested_limit": 100,
+      "received_count": 13,
+      "smoke_test": {
+        "repository": "derek-wangpch/OpenCityMaker",
+        "query": "GPT-6 Astra",
+        "matched": false,
+        "limitation": "Known matching creation record was absent from code-search index."
+      },
+      "status": "completed_with_indexing_limitation",
+      "new_candidates": 5,
+      "new_verified": 2,
+      "new_game_units": 2,
+      "verified_yield": "2/2 inspected direct game candidates",
+      "note": "Repository search returned zero. README code search exposed NULLSPACE, False-Ritual, Emberlight, Cameraman, and several catalogs or evidence repositories. Verification added NULLSPACE and False Ritual. Keep the verification gate; drop this exact query form as a primary method because the known-match smoke test failed.",
+      "critique_score": 6.8,
+      "next_experiments": [
+        "Search exact attribution variant: GPT-6 Astra Godot 4",
+        "Inspect LeiGaoRobot/emberlight",
+        "Inspect splatterfacegames/cameraman only after confirming it is a game"
+      ]
+    },
+    {
+      "source": "GitHub code-search attribution variant",
+      "query_key": "code-search|GPT-6 Astra|Godot 4|README.md|limit=100",
+      "query": "GPT-6 Astra Godot 4",
+      "filename": "README.md",
+      "requested_limit": 100,
+      "received_count": 5,
+      "status": "completed",
+      "new_verified": 0,
+      "new_game_units": 0,
+      "note": "The attribution variant returned one addon and repeated known NULLSPACE and False Ritual records. It produced no new direct game repository, so do not expand this query family without a changed source or date partition.",
+      "next_experiments": [
+        "Inspect the remaining Emberlight candidate",
+        "Use the high-yield Godot monorepo lead only as a contained-game source"
+      ]
+    },
+    {
+      "source": "Godot 4 variant plus monorepo inspection",
+      "query_key": "code-search|GPT-6 Astra|Godot 4|README.md|plus monorepo follow-up",
+      "status": "completed",
+      "query_received_count": 5,
+      "new_verified_repositories": 1,
+      "new_verified_game_units": 9,
+      "new_rejected": 1,
+      "critique_score": 7,
+      "decision": "drop exact query as primary; retain explicit monorepo inspection as a secondary method",
+      "note": "The query added no new direct repository. Inspecting bannzai/godotpractice then verified nine explicitly scoped Godot projects with project.godot, main scenes, source, run/test paths, and first-party GPT-6 Astra worker evidence. Other repository folders were excluded.",
+      "next_experiments": [
+        "Search GPT-6 Astra project.godot",
+        "Search GPT-6 Astra Godot Engine in documents",
+        "Search GPT-6 Astra Godot Engine in docs"
+      ]
+    },
+    {
+      "source": "GitHub project-file search",
+      "query_key": "code-search|GPT-6 Astra|project.godot|limit=100",
+      "query": "GPT-6 Astra project.godot",
+      "requested_limit": 100,
+      "received_count": 8,
+      "status": "completed",
+      "new_verified": 1,
+      "new_game_units": 1,
+      "new_rejected": 1,
+      "note": "The query repeated False Ritual and NULLSPACE, exposed Faratas410/Gallicus-2.0 and leblancdavid/magic-carpet-remastered, plus a camera addon. Gallicus passed source, game-loop, runtime smoke, and explicit Astra-workflow checks. Magic Carpet Remastered was rejected as an unplayable initialization shell with no Astra tool evidence.",
+      "next_experiments": [
+        "Search GPT-6 Astra Godot Engine in documents",
+        "Search GPT-6 Astra Godot Engine in docs",
+        "Inspect the remaining Unreal catalog lead only after tracing a direct game repository"
+      ]
+    },
+    {
+      "source": "GitHub document-path code search",
+      "query_key": "code-search|GPT-6 Astra|Godot Engine|path:documents|limit=100",
+      "query": "GPT-6 Astra Godot Engine path:documents",
+      "requested_limit": 100,
+      "received_count": 0,
+      "status": "completed",
+      "new_verified": 0,
+      "new_game_units": 0,
+      "note": "The CLI path flag was unsupported; the GitHub path qualifier returned no indexed matches. Treat this as an index result, not proof of absence."
+    },
+    {
+      "source": "GitHub document-path code search",
+      "query_key": "code-search|GPT-6 Astra|Godot Engine|path:docs|limit=100",
+      "query": "GPT-6 Astra Godot Engine path:docs",
+      "requested_limit": 100,
+      "received_count": 1,
+      "status": "completed",
+      "new_verified": 0,
+      "new_game_units": 0,
+      "note": "The only result was an unrelated news archive about GPT-6 Astra, not a game repository. Drop this path family for the current index window."
+    },
+    {
+      "source": "Reverse-link catalog expansion",
+      "query_key": "incoming-links|marius4lui/NULLSPACE|Dev.to GPT-6 Astra list",
+      "query": "github.com/marius4lui/NULLSPACE",
+      "requested_limit": 100,
+      "received_count": 1,
+      "status": "completed_with_critique",
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "critique_score": 6.5,
+      "decision": "reject exact reverse-link chain as primary; retain as supplemental",
+      "note": "The chain moved from an Arnon-hs/open-source catalog entry to a Dev.to list and verified the Red Alert 2 browser recreation. Incoming links to that repository found only the same catalog and self-links. Verification quality was high, but yield and source coverage were weak.",
+      "next_experiments": [
+        "Search repository metadata for Astra game",
+        "Search repository metadata for gpt6-astra",
+        "Inspect fresh direct game candidates one at a time"
+      ]
+    },
+    {
+      "source": "GitHub repository metadata search",
+      "query_key": "repo-search|Astra game|limit=100",
+      "query": "Astra game",
+      "requested_limit": 100,
+      "received_count": 73,
+      "status": "completed",
+      "new_verified_repositories": 0,
+      "updated_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 4,
+      "note": "The query returned many name collisions and a small number of fresh same-day candidates. AstraCraft was re-verified and updated from four to five playable web2 game units after confirming VOIDWRENCH. Empty, harness-only, and unattributed Cocos candidates were rejected.",
+      "next_experiments": [
+        "Search exact model-name repository variants with gpt6-astra",
+        "Inspect the Unreal and Godot candidates only when a direct playable repository is present"
+      ]
+    },
+    {
+      "source": "GitHub exact model-name repository search",
+      "query_key": "repo-search|gpt6-astra|limit=100",
+      "query": "gpt6-astra",
+      "requested_limit": 100,
+      "received_count": 49,
+      "status": "completed",
+      "new_verified_repositories": 10,
+      "new_game_units": 10,
+      "new_rejected": 4,
+      "note": "The exact model-name search produced the strongest yield in this pass: ASTRA AIR COMBAT, Digi Garden, Frost Hop, Block World CN, and six Trashketball model-run repositories. The repositories have direct game source or releases. It also exposed utilities, editors and explainers that were excluded.",
+      "next_experiments": [
+        "Search the exact variant gpt6 astra game",
+        "Inspect the curated yangqiong 3D catalog for any direct GitHub game links",
+        "Search incoming links to ASTRA AIR COMBAT and Block World CN"
+      ]
+    },
+    {
+      "source": "GitHub repository phrase variant",
+      "query_key": "repo-search|gpt6 astra game|limit=100",
+      "query": "gpt6 astra game",
+      "requested_limit": 100,
+      "received_count": 1,
+      "status": "completed",
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The space-separated phrase returned only the already verified octopus7/astracraft collection. Treat this exact phrase as a low-yield variant and do not repeat it without a new date or metadata qualifier.",
+      "next_experiments": [
+        "Search README code for gpt6-astra",
+        "Search incoming links to ASTRA AIR COMBAT and Block World CN",
+        "Inspect direct GitHub links from additional curated Astra lists"
+      ]
+    },
+    {
+      "source": "GitHub repository metadata sweep critique",
+      "query_key": "critique|repo-search|gpt6-astra|limit=100",
+      "status": "completed",
+      "critique_score": 7.6,
+      "decision": "retain as incremental high-precision source; do not use as the only primary method",
+      "note": "The sweep found ten new verified game repositories with good direct-source evidence, but one Trashketball family dominated the yield and exact spelling misses file-only attribution. Verification quality was scored 8/10 and raw accepted yield was 20.4%.",
+      "next_experiments": [
+        "Run code search for the exact identifier gpt6-astra",
+        "Exclude repositories already checked in the metadata sweep",
+        "Verify game entry points and model evidence sequentially"
+      ]
+    },
+    {
+      "source": "GitHub code search exact identifier",
+      "query_key": "code-search|gpt6-astra|limit=100",
+      "query": "\"gpt6-astra\"",
+      "requested_limit": 100,
+      "received_count": 48,
+      "status": "completed",
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 1,
+      "note": "Most results were model registries, tools, catalogs or unrelated documents. Two direct game sources passed: the GPT-6 Astra Death Star Trench Run subproject in PhiloLabs/fable51-worlds and the GPT6-Astra LUMA build in TetsuakiBaba/2DAction.bench. The emollick underwater world was rejected as an exploration visualization without a game loop.",
+      "next_experiments": [
+        "Search incoming links to ASTRA AIR COMBAT and Block World CN",
+        "Inspect additional direct game repositories from curated GPT-6 Astra lists",
+        "Search README code for model-name variants and exclude known repositories"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 300 across 266 unique accessible repository records",
-    "Browser and non-browser engine categories are now separate in README",
-    "Next serial frontier: inspect remaining catalog issue links, then search Godot and Unity GPT-6 Astra games",
+    "Target: 900 independently counted game units; current: 325 across 282 unique accessible repository records",
+    "Reverse-link chains are supplemental only; exact model-name repository search currently has the best yield",
+    "Next serial experiment: search the exact variant gpt6 astra game, then inspect the yangqiong 3D catalog for direct GitHub game links",
+    "Keep browser and non-browser engine games separate in README",
     "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
     "Do not count unavailable URLs, unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"
   ]

@@ -113,6 +113,56 @@
       "repository": "https://github.com/Ryan-fm/Dwellcraft",
       "source": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
       "reason": "The repository contains a real playable Babylon.js 3D home-design game, but its development record says exact GPT-6 Astra attribution awaits creator confirmation. Do not count it under the model-evidence rule."
+    },
+    {
+      "repository": "https://github.com/splatterfacegames/cameraman",
+      "source": "GitHub code search: GPT-6 Astra + Godot 4",
+      "reason": "The repository is a Godot camera addon and demo suite. It contains no independent game product, so do not count it."
+    },
+    {
+      "repository": "https://github.com/leblancdavid/magic-carpet-remastered",
+      "source": "GitHub code search: GPT-6 Astra project.godot",
+      "reason": "The repository is a newly initialized Godot C# project shell. Its README says the first playable slice is a future milestone, and AGENTS.md says no local GPT-6 Astra tool was available. It is not a verified playable Astra-built game."
+    },
+    {
+      "repository": "https://github.com/barretovski/astra-game-rio-demo",
+      "source": "GitHub repository search: Astra game",
+      "reason": "The repository description claims a GPT-6 Astra game demo, but the repository contains only an empty file named a and no playable source, README, entry point, or game evidence."
+    },
+    {
+      "repository": "https://github.com/vaibhav-k/gpt6-astra-gameforge",
+      "source": "GitHub repository search: Astra game",
+      "reason": "This is a GPT-6 Astra game-generation and visual-QA harness. It contains prompts and orchestration code that can build a game, but not a checked-in game artifact to count."
+    },
+    {
+      "repository": "https://github.com/SakuraTCuu/AstraGame",
+      "source": "GitHub repository search: Astra game",
+      "reason": "The repository contains a real Cocos Creator exploration and combat prototype, but its README and project files provide no GPT-6 Astra, Claude Opus, or Claude Fable attribution. The Astra-like name is not sufficient evidence."
+    },
+    {
+      "repository": "https://github.com/Mungoz/astraGame",
+      "source": "GitHub repository search: Astra game",
+      "reason": "The repository has only a one-line README and no verified game source, entry point, or gameplay evidence."
+    },
+    {
+      "repository": "https://github.com/keno303/blockwerk-GPT6astra",
+      "source": "GitHub repository search: gpt6-astra",
+      "reason": "The repository explicitly describes itself as a voxel editor and says it has no game simulation. It is an editor/tool, not a game."
+    },
+    {
+      "repository": "https://github.com/writersrinivasan/GPT6Astra",
+      "source": "GitHub repository search: gpt6-astra",
+      "reason": "The repository is an educational GPT-6 Astra explainer website, not a game."
+    },
+    {
+      "repository": "https://github.com/Qw1nti/gpt6AstraThingy",
+      "source": "GitHub repository search: gpt6-astra",
+      "reason": "The repository is an Android visual-content-filtering app. It is not a game."
+    },
+    {
+      "repository": "https://github.com/emollick/abyssal-living-deep",
+      "source": "https://github.com/yangqiong/gpt6-astra-3d",
+      "reason": "The repository is a substantial playable Three.js underwater exploration and visualization, but its README presents it as an interactive ecological world rather than a game with a player objective or game loop. Do not count visual worlds without game rules."
     }
   ]
 }

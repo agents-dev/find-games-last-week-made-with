@@ -14,7 +14,8 @@ const evidenceText = (record) => record.model_evidence ?? record.method_evidence
 
 function category(record, gameName) {
   const text = `${gameName} ${record.name} ${record.verification_notes ?? ''} ${techText(record)}`.toLowerCase();
-  if (/godot|unity|unreal|pygame|playstation|ps1|minecraft|mcfunction|datapack|cocos|libgdx|monogame|love2d|sdl|raylib|bevy|defold|construct|rpg maker|game maker|python, cli|c\+\+.*alphazero|^c,/.test(text)) return 'Non-Browser Engines';
+  const runtimeText = `${gameName} ${record.name} ${techText(record)}`.toLowerCase();
+  if (/godot|unity|unreal|pygame|playstation|ps1|minecraft|mcfunction|datapack|cocos|libgdx|monogame|love2d|sdl|raylib|bevy|defold|construct|rpg maker|game maker|python, cli|c\+\+.*alphazero|^c,/.test(runtimeText)) return 'Non-Browser Engines';
   if (/racing|racer|kart|car game|drift|flight|mountain-bike|motorbike|formula/.test(text)) return 'Racing and Vehicles';
   if (/shooter|fps|doom|assault|zombie|surviv|combat|war|iron man|invader|battle|arena/.test(text)) return 'Action and Shooters';
   if (/puzzle|tetris|sudoku|breakout|minesweeper|word|match|snake|pinball|flap|platform|arcade/.test(text)) return 'Puzzle, Arcade, and Platformers';

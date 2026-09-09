@@ -6564,12 +6564,13 @@
       "GPT-6 Astra"
     ],
     "method_evidence": "confirmed",
-    "game_count": 4,
+    "game_count": 5,
     "contained_games": [
       "Astra Dash",
       "The Rain Court",
       "The Mender's Quarter",
-      "Cinder Yard"
+      "Cinder Yard",
+      "VOIDWRENCH"
     ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
@@ -6577,7 +6578,7 @@
       "https://github.com/octopus7/astracraft",
       "https://github.com/xianyu110/awesome-gpt-6-astra"
     ],
-    "verification_notes": "Repository contains Astra Dash plus three separately titled playable web2 experiments with controls and objectives. Web3 visual-only variants were not counted.",
+    "verification_notes": "Repository contains Astra Dash plus four separately titled playable web2 experiments with controls and objectives: The Rain Court, The Mender's Quarter, Cinder Yard, and VOIDWRENCH. Web3 and web4 visual-only village or scene viewers were not counted.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
     "flops_estimate_raw": 1200000000,
@@ -6586,7 +6587,7 @@
     "flops_estimate_basis": "Static workload estimate from documented renderer, simulation, effects, and entity complexity; not measured hardware throughput.",
     "quality_estimate_10": 8.5,
     "quality_estimate_basis": "Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.",
-    "counted_game_units": 4,
+    "counted_game_units": 5,
     "is_independent_game": true,
     "contained_game_estimates": [
       {
@@ -6605,10 +6606,15 @@
         "quality_estimate_10": 8.5
       },
       {
-        "name": "Cinder Yard",
-        "flops_estimate_raw": 1200000000,
-        "quality_estimate_10": 8.5
-      }
+      "name": "Cinder Yard",
+      "flops_estimate_raw": 1200000000,
+      "quality_estimate_10": 8.5
+    },
+    {
+      "name": "VOIDWRENCH",
+      "flops_estimate_raw": 1600000000,
+      "quality_estimate_10": 8.5
+    }
     ]
   },
   {
@@ -9475,6 +9481,697 @@
     "flops_estimate_basis": "Static estimate for Three.js/WebGL2 terrain clipmaps, cel-shaded multi-pass rendering, 120 Hz simulation, AI riders, physics, particles, weather, post effects, audio, and replay; not measured hardware throughput.",
     "quality_estimate_10": 9.5,
     "quality_estimate_basis": "Exceptional scope and source quality: complete race loop, AI, physics, procedural world, effects, tests, capture harness, performance notes, and direct GPT-6 Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "NULLSPACE",
+    "repository_id": 1357641535,
+    "github_url": "https://github.com/marius4lui/NULLSPACE",
+    "evidence_url": "https://github.com/marius4lui/NULLSPACE/blob/main/README.md",
+    "technology": [
+      "Godot 4.7.2",
+      "GDScript",
+      "Blender",
+      "Forward+",
+      "Linux",
+      "Windows",
+      "Android"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "NULLSPACE"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-04T22:28:32Z",
+    "published_on": "2026-09-04",
+    "discovery_sources": [
+      "https://github.com/marius4lui/NULLSPACE",
+      "https://github.com/marius4lui/NULLSPACE/blob/main/README.md"
+    ],
+    "verification_notes": "README identifies a Godot 4.7.2 first-person survival-horror game created with GPT-6 Astra through Codex. The repository contains the Godot project, player, weapon, enemy, environment, persistence and test code, a v0.3 beta release, native Linux/Windows packages, Android preview, controls, and extensive playtest and release evidence.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 2400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot Forward+ first-person rendering, original environment and creature assets, lighting, shadows, audio, AI perception, collision, persistence, and native 3D gameplay; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Strong engine-native source, playable released beta, original assets, controls, extensive automated checks, native export evidence, gameplay logs, and direct GPT-6 Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "False Ritual",
+    "repository_id": 1301736154,
+    "github_url": "https://github.com/lucas-wyd/False-Ritual",
+    "evidence_url": "https://github.com/lucas-wyd/False-Ritual/blob/main/README.md",
+    "technology": [
+      "Godot 4.3",
+      "GDScript",
+      "Forward+",
+      "macOS",
+      "Windows"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "False Ritual"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-07-15T14:58:35Z",
+    "published_on": "2026-07-15",
+    "discovery_sources": [
+      "https://github.com/lucas-wyd/False-Ritual",
+      "https://github.com/lucas-wyd/False-Ritual/blob/main/README.md"
+    ],
+    "verification_notes": "README identifies a playable Carter House psychological-horror prologue created with GPT-6 Astra in Codex. It provides Godot source instructions, controls, screenshots, downloadable macOS and Windows releases, and a documented pursuit-and-ritual sequence.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 2100000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot Forward+ first-person rendering, house geometry, lighting, audio, interactive rooms, pursuit logic, and effects; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Playable downloadable demo, source, controls, screenshots, native builds, clear engine and direct GPT-6 Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Emberlight",
+    "repository_id": 1361145296,
+    "github_url": "https://github.com/LeiGaoRobot/emberlight",
+    "evidence_url": "https://github.com/LeiGaoRobot/emberlight/blob/main/README.md",
+    "technology": [
+      "Three.js",
+      "JavaScript",
+      "WebGL",
+      "Blender",
+      "Web Audio API",
+      "GitHub Pages"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Emberlight"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-08T08:55:49Z",
+    "published_on": "2026-09-08",
+    "discovery_sources": [
+      "https://github.com/LeiGaoRobot/emberlight",
+      "https://x.com/op7418/status/2096949703829295484"
+    ],
+    "verification_notes": "README documents a playable survivors-like with a public GitHub Pages build, Three.js runtime, procedurally generated world, combat, weather, weapons, talents, bosses, controls, offline build, debug simulation hooks, and an eight-to-ten-minute survival simulation. It explicitly attributes the project to GPT-6 Astra + Blender + Godot; the shipped runtime is Three.js, so it belongs in the browser category.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 3500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js instanced 3D world, 1060000 triangles, weather, particles, enemy simulation, boss effects, post-processing, Web Audio, and adaptive rendering; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Playable public build, substantial combat loop, procedural content, source, simulation hooks, controls, performance evidence, and explicit model attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "bannzai/godotpractice — nine Godot games",
+    "repository_id": 1358772110,
+    "github_url": "https://github.com/bannzai/godotpractice",
+    "evidence_url": "https://github.com/bannzai/godotpractice/blob/main/documents/PROJECT.md",
+    "technology": [
+      "Godot 4.7",
+      "GDScript",
+      "GL Compatibility",
+      "Desktop export",
+      "Web export"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 9,
+    "contained_games": [
+      "monsterquest",
+      "そらいろ便",
+      "燈環闘技",
+      "星環防衛線",
+      "燈火の巡礼",
+      "NEON DAWN // 夜明け前線",
+      "星環の決闘",
+      "ころころ工房",
+      "こもれび回収隊"
+    ],
+    "contained_game_estimates": [
+      {
+        "quality_estimate_10": 7,
+        "flops_estimate_raw": 220000000
+      },
+      {
+        "quality_estimate_10": 7,
+        "flops_estimate_raw": 220000000
+      },
+      {
+        "quality_estimate_10": 7.5,
+        "flops_estimate_raw": 260000000
+      },
+      {
+        "quality_estimate_10": 7,
+        "flops_estimate_raw": 220000000
+      },
+      {
+        "quality_estimate_10": 7,
+        "flops_estimate_raw": 220000000
+      },
+      {
+        "quality_estimate_10": 7.5,
+        "flops_estimate_raw": 300000000
+      },
+      {
+        "quality_estimate_10": 7,
+        "flops_estimate_raw": 220000000
+      },
+      {
+        "quality_estimate_10": 7.5,
+        "flops_estimate_raw": 650000000
+      },
+      {
+        "quality_estimate_10": 7.5,
+        "flops_estimate_raw": 750000000
+      }
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-06T04:03:31Z",
+    "published_on": "2026-09-06",
+    "discovery_sources": [
+      "https://github.com/bannzai/godotpractice",
+      "https://github.com/bannzai/godotpractice/blob/main/documents/PROJECT.md",
+      "https://github.com/bannzai/godotpractice/blob/main/documents/hearing/README.md"
+    ],
+    "verification_notes": "The project plan defines nine independent games under games/<slug>/, each as a separate Godot project with project.godot, a main scene, source assets, run instructions, and game-specific verification. The plan identifies Codex CLI workers using GPT-6 Astra for the nine projects. The repository is an unpublished learning monorepo, so records are counted as playable source prototypes rather than public releases.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static per-game estimates based on the documented 2D Godot projects and the two 3D projects; not measured hardware throughput.",
+    "quality_estimate_10": 7,
+    "quality_estimate_basis": "Strong monorepo structure, nine independent source projects, explicit Astra worker record, run instructions and game-specific checks; lower score because the collection is unpublished and some projects have less individual README evidence.",
+    "counted_game_units": 9,
+    "is_independent_game": true
+  },
+  {
+    "name": "Gallicus 2.0",
+    "repository_id": 1119745165,
+    "github_url": "https://github.com/Faratas410/Gallicus-2.0",
+    "evidence_url": "https://github.com/Faratas410/Gallicus-2.0/blob/main/docs/development_workflow.md",
+    "technology": [
+      "Godot",
+      "GDScript",
+      "Forward+",
+      "Windows",
+      "Steam target"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Gallicus 2.0"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2025-12-19T19:18:48Z",
+    "published_on": "2025-12-19",
+    "discovery_sources": [
+      "https://github.com/Faratas410/Gallicus-2.0",
+      "https://github.com/Faratas410/Gallicus-2.0/blob/main/AGENTS.md"
+    ],
+    "verification_notes": "The repository contains project.godot, Main and Arena scenes, gameplay systems, audio and visual assets, runtime smoke workflows, and a documented ritual/choice game loop. The development workflow explicitly identifies GPT-6 Astra as the reference model used for implementation. The repository is source-verifiable; final Steam release is a future target.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot scene rendering, animated UI, audio, ritual arena presentation, gameplay state, and runtime effects; not measured hardware throughput.",
+    "quality_estimate_10": 8,
+    "quality_estimate_basis": "Substantial Godot game source, defined player loop, assets, tests and runtime smoke workflows, with explicit Astra development evidence; final release remains incomplete.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Red Alert 2 Browser Recreation",
+    "repository_id": 1357687809,
+    "github_url": "https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04",
+    "evidence_url": "https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04",
+    "live_demo_url": "https://xinbenlv.github.io/ra2-gpt-6-astra-2026-09-04/",
+    "technology": [
+      "TypeScript",
+      "Vite",
+      "Canvas 2D",
+      "Web Audio API"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Red Alert 2 Browser Recreation"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-04T23:59:58Z",
+    "discovery_sources": [
+      "https://dev.to/valyuai/25-gpt-6-astra-creations-every-developer-should-see-and-how-to-enrich-them-with-real-world-datasets-d53",
+      "https://github.com/xinbenlv/ra2-gpt-6-astra-2026-09-04"
+    ],
+    "verification_notes": "The repository README explicitly identifies a one-shot ChatGPT 6 Astra experiment and documents a playable browser RTS, map editor, skirmish lobby, AI, rendering, and GitHub Pages deployment. The repository contains TypeScript source, tests, and a live build.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 3800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for isometric terrain rendering, RTS entity updates, AI, map editing, asset conversion, audio and browser compositing; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a live browser build, documented RTS gameplay, map editor, source tree, tests, release history and explicit Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "ASTRA AIR COMBAT",
+    "repository_id": 1358073607,
+    "github_url": "https://github.com/FLYING37520/astra-air-combat",
+    "evidence_url": "https://github.com/FLYING37520/astra-air-combat",
+    "live_demo_url": "https://flying37520.github.io/astra-air-combat/",
+    "screenshot_urls": [
+      "https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/cockpit-rain-high.jpg",
+      "https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/islands-clear.jpg"
+    ],
+    "technology": [
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Vite",
+      "Web Audio API"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "ASTRA AIR COMBAT"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T10:24:33Z",
+    "discovery_sources": [
+      "https://github.com/FLYING37520/astra-air-combat"
+    ],
+    "verification_notes": "The repository description identifies this as a GPT-6 Astra game demo. The README documents a playable Three.js single-player air-combat game with seeded terrain, weather, 4v4 AI, ground targets, weapons, objectives, a GitHub Pages build, source modules, automated tests, and validation notes.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 4800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js terrain LOD, PBR aircraft and terrain, 4v4 AI simulation, weather, particles, audio and WebGL compositing; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Evidence-based estimate from a live deployment, substantial flight and combat loop, deterministic simulation, AI, weapons, weather, source organization, tests, build checks and explicit Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Digi Garden",
+    "repository_id": 1360776535,
+    "github_url": "https://github.com/phenomenal-manish/gpt6-astra-vs-opus5-digimon-sim",
+    "evidence_url": "https://github.com/phenomenal-manish/gpt6-astra-vs-opus5-digimon-sim/tree/main/astra-build",
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas 2D",
+      "Web Audio API"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Digi Garden"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-08T00:41:05Z",
+    "discovery_sources": [
+      "https://github.com/phenomenal-manish/gpt6-astra-vs-opus5-digimon-sim"
+    ],
+    "verification_notes": "The repository description identifies a GPT-6 Astra versus Opus 5 build comparison. The astra-build README and source contain a playable Digi Garden raising and battle loop with evolution, combat, controls, browser validation, and a complete standalone HTML/CSS/JavaScript build.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 280000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D scene drawing, sprite and effect compositing, deterministic combat, UI updates and Web Audio; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a complete playable loop, two evolutions, battle system, controls, accessibility details, browser validation and explicit Astra build separation.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Frost Hop",
+    "repository_id": 1360474377,
+    "github_url": "https://github.com/MrAllNeo/frost-hop",
+    "evidence_url": "https://github.com/MrAllNeo/frost-hop",
+    "technology": [
+      "React",
+      "JavaScript",
+      "Canvas 2D",
+      "Web Audio API",
+      "Vite"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Frost Hop"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-07T17:02:23Z",
+    "discovery_sources": [
+      "https://github.com/MrAllNeo/frost-hop"
+    ],
+    "verification_notes": "The repository description identifies an Ice Tower-style game made with GPT-6 Astra. The README documents a playable mobile web game with jumping, platforms, combos, character selection, Canvas 2D rendering, Web Audio, source modules, tests, and build instructions.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D platform rendering, cached character and wall atlases, fixed-step physics, effects, UI and Web Audio; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a complete mobile game loop, controls, physics, character selection, effects, audio, automated tests and explicit Astra attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Block World CN",
+    "repository_id": 1358900852,
+    "github_url": "https://github.com/vvvvvvvvvashhh/block-world-cn",
+    "evidence_url": "https://github.com/vvvvvvvvvashhh/block-world-cn",
+    "screenshot_urls": [
+      "https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/menu.png",
+      "https://github.com/vvvvvvvvvashhh/block-world-cn/blob/main/docs/inventory.png"
+    ],
+    "technology": [
+      "Luanti 5.17.0",
+      "Mineclonia",
+      "Lua",
+      "Native desktop"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Block World CN"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-06T07:39:27Z",
+    "discovery_sources": [
+      "https://github.com/vvvvvvvvvashhh/block-world-cn"
+    ],
+    "verification_notes": "The repository description identifies a GPT-6 Astra test. The README documents a released Luanti/Mineclonia offline game with real gathering, crafting, building, combat, saving, Windows packages, controls, source modules, acceptance notes, and a verified v0.1.0 release. Classified under Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for voxel terrain, lighting, entities, inventory and native engine rendering at the documented target workload; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a downloadable native release, real survival loop, save support, engine integration, controls, tests and explicit Astra test attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Trashketball — Out of Office (Max)",
+    "repository_id": 1358555362,
+    "github_url": "https://github.com/swathidbhat/gpt6-astra-max-codex-trashketball",
+    "evidence_url": "https://github.com/swathidbhat/gpt6-astra-max-codex-trashketball",
+    "technology": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Vite"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "Trashketball — Out of Office (Max)"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T20:57:45Z",
+    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-max-codex-trashketball"],
+    "verification_notes": "The repository name identifies a GPT-6 Astra Max Codex build. The README documents a playable first-person Three.js paper-toss game with two modeled rooms, scoring, controls, fixed-step physics, tests and build instructions.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for two-room Three.js scene rendering, PBR materials, shadows, animated ocean and physics; not measured hardware throughput.",
+    "quality_estimate_10": 8,
+    "quality_estimate_basis": "Playable source, documented physics and tests, but browser QA was not claimed.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Trashketball (High)",
+    "repository_id": 1358556806,
+    "github_url": "https://github.com/swathidbhat/gpt6-astra-high-codex-trashketball",
+    "evidence_url": "https://github.com/swathidbhat/gpt6-astra-high-codex-trashketball",
+    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
+    "model_family": ["GPT-6 Astra"],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": ["Trashketball (High)"],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T21:00:25Z",
+    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-high-codex-trashketball"],
+    "verification_notes": "The repository name identifies a GPT-6 Astra High Codex build. Its README documents a playable Three.js paper-toss game with two rooms, scoring, controls, physics and tests.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "quality_estimate_10": 8,
+    "quality_estimate_basis": "Playable source with physics tests and two-room game scope; browser QA was not claimed.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Trashketball (Ultra)",
+    "repository_id": 1358556623,
+    "github_url": "https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball",
+    "evidence_url": "https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball",
+    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
+    "model_family": ["GPT-6 Astra"],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": ["Trashketball (Ultra)"],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T21:00:06Z",
+    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-ultra-codex-trashketball"],
+    "verification_notes": "The repository name identifies a GPT-6 Astra Ultra Codex build. Its README documents a playable first-person Three.js paper-toss game with two modeled rooms, scoring, controls, and verification commands.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 2200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "quality_estimate_10": 8,
+    "quality_estimate_basis": "Playable source with two environments, physics and verification commands; browser QA was not independently rerun.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Trashketball (Extra High)",
+    "repository_id": 1357813970,
+    "github_url": "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball",
+    "evidence_url": "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball",
+    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
+    "model_family": ["GPT-6 Astra"],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": ["Trashketball (Extra High)"],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T04:09:10Z",
+    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball"],
+    "verification_notes": "The repository name identifies a GPT-6 Astra Extra High Codex build. The repository contains a Next/Vite app, game components, physics libraries, tests and public runtime assets for the Trashketball paper-toss game.",
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1700000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "quality_estimate_10": 7.5,
+    "quality_estimate_basis": "Game source, physics modules and tests are present, but this variant has a thin README and no direct browser verification claim.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Trashketball (Medium 2)",
+    "repository_id": 1357980268,
+    "github_url": "https://github.com/swathidbhat/gpt6-astra-medium-codex-trashketball-2",
+    "evidence_url": "https://github.com/swathidbhat/gpt6-astra-medium-codex-trashketball-2",
+    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
+    "model_family": ["GPT-6 Astra"],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": ["Trashketball (Medium 2)"],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T08:25:49Z",
+    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-medium-codex-trashketball-2"],
+    "verification_notes": "The repository name identifies a GPT-6 Astra Medium Codex build. It contains an app page, a dedicated trash-game module, Three.js dependencies, tests and public assets for the paper-toss game.",
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "quality_estimate_10": 7.5,
+    "quality_estimate_basis": "Game source, dedicated simulation module and tests are present, but the variant has limited README evidence and no direct browser verification claim.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Trashketball (Extra High 2)",
+    "repository_id": 1357959455,
+    "github_url": "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball-2",
+    "evidence_url": "https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball-2",
+    "technology": ["React", "TypeScript", "Three.js", "WebGL", "Vite"],
+    "model_family": ["GPT-6 Astra"],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": ["Trashketball (Extra High 2)"],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T07:58:47Z",
+    "discovery_sources": ["https://github.com/swathidbhat/gpt6-astra-extrahigh-codex-trashketball-2"],
+    "verification_notes": "The repository name identifies a GPT-6 Astra Extra High Codex build. Its README documents a playable Three.js paper-toss game with two environments, controls, fixed-step physics, procedural assets, tests and build commands.",
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "quality_estimate_10": 8,
+    "quality_estimate_basis": "Playable source with documented physics, procedural assets and tests; browser QA was not claimed.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Rogue Squadron — The Battle of Yavin",
+    "repository_id": 1355092388,
+    "github_url": "https://github.com/PhiloLabs/fable51-worlds",
+    "evidence_url": "https://github.com/PhiloLabs/fable51-worlds/tree/main/death-star-trench-run-gpt-astra",
+    "live_demo_url": "https://github.com/PhiloLabs/fable51-worlds/tree/main/death-star-trench-run-gpt-astra",
+    "screenshot_urls": [
+      "https://github.com/PhiloLabs/fable51-worlds/blob/main/death-star-trench-run-gpt-astra/media/preview.gif"
+    ],
+    "technology": [
+      "TypeScript",
+      "React",
+      "Three.js",
+      "WebGL",
+      "GLSL",
+      "Vite"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Rogue Squadron — The Battle of Yavin"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-02T18:19:55Z",
+    "discovery_sources": [
+      "https://github.com/PhiloLabs/fable51-worlds",
+      "https://github.com/yangqiong/gpt6-astra-3d"
+    ],
+    "verification_notes": "The parent README explicitly labels this subdirectory as the GPT-6 Astra build. Its README documents a complete 190-second playable browser space battle with manual trench flight, weapons, enemy fighters, objectives, controls, Three.js/WebGL/GLSL source, automated QA reports and build checks.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 4200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for procedural spacecraft and station geometry, WebGL/GLSL effects, combat simulation, volumetric explosion, audio and post-processing; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Evidence-based estimate from a complete playable mission, manual control section, combat, weapons, objective, automated QA reports, source structure and direct Astra comparison evidence.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "LUMA — The Garden of Light",
+    "repository_id": 1300954552,
+    "github_url": "https://github.com/TetsuakiBaba/2DAction.bench",
+    "evidence_url": "https://github.com/TetsuakiBaba/2DAction.bench/tree/main/GPT6-Astra",
+    "screenshot_urls": [
+      "https://github.com/TetsuakiBaba/2DAction.bench/blob/main/GPT6-Astra/screenshot.png"
+    ],
+    "technology": [
+      "HTML",
+      "Vanilla JavaScript",
+      "Canvas 2D",
+      "Web Audio API"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "LUMA — The Garden of Light"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-07-14T21:23:56Z",
+    "discovery_sources": [
+      "https://github.com/TetsuakiBaba/2DAction.bench",
+      "GitHub code search: gpt6-astra"
+    ],
+    "verification_notes": "The benchmark README defines separate browser game builds for each model, including GPT6-Astra. The GPT6-Astra directory contains LUMA source, index.html, Canvas gameplay, a complete stage, controls, collectibles, moving enemies, lives, score, restart, Web Audio, tests and screenshots.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 320000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D platform rendering, fixed-step physics, particles, parallax layers, UI and Web Audio; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "Evidence-based estimate from a complete one-stage platform game, clear objective, enemy and collectible systems, restart flow, tests, screenshot and explicit model-benchmark separation.",
     "counted_game_units": 1,
     "is_independent_game": true
   }
