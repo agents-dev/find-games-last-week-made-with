@@ -45,7 +45,7 @@
       "source": "Reverse-link web search",
       "query": "https://github.com/mshumer/Claude-of-Duty awesome list",
       "status": "completed",
-      "results_inspected": 12,
+      "results_inspected": 13,
       "new_verified": 0,
       "note": "No useful awesome list referenced the seed directly. Results were news digests, mirrors, and discussion pages."
     },
@@ -5426,10 +5426,166 @@
       },
       "critique_note": "The query produced two substantial games with strong source and model evidence and rejected two plausible framework/port false positives. Keep the audit.",
       "critic": "existing critique agent; conservative score after completed serial review"
+    },
+    {
+      "source": "RenPy/Fable code search",
+      "query_key": "RenPy game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_rejected": 0,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The authenticated GitHub code search returned zero results. Drop the exact query and change the engine/model partition.",
+      "next_experiments": [
+        "Run a new exact HaxeFlixel or other unused engine query with Claude Fable evidence",
+        "Inspect external repositories serially and verify direct gameplay source",
+        "Keep zero-result query keys out of repeat searches"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The query produced no candidates. Drop it.",
+      "critic": "existing critique agent; conservative manual score after no-candidate result"
+    },
+    {
+      "source": "HaxeFlixel/Fable code search",
+      "query_key": "HaxeFlixel game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_rejected": 0,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The authenticated GitHub code search returned zero results. Drop the exact query and change the engine/model partition.",
+      "next_experiments": [
+        "Run a new exact browser-engine query using Phaser plus Claude Fable",
+        "Inspect external repositories serially and verify direct gameplay source",
+        "Keep zero-result query keys out of repeat searches"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The query produced no candidates. Drop it.",
+      "critic": "existing critique agent; conservative manual score after no-candidate result"
+    },
+    {
+      "source": "Phaser/Fable code search expanded pass",
+      "query_key": "Phaser game Co-Authored-By Claude Fable expanded pass",
+      "status": "completed",
+      "results_inspected": 12,
+      "new_verified_repositories": 9,
+      "new_rejected": 4,
+      "new_game_units": 13,
+      "unseen_count": 9,
+      "overlap_ratio": 0.25,
+      "accepted_repositories": [
+        "https://github.com/eidas/aradama-survivors-proto",
+        "https://github.com/kolatts/beyond-boring-death-march",
+        "https://github.com/hokita/mouse2",
+        "https://github.com/macjoocan/hex-danmaku",
+        "https://github.com/remeadows/GridWatchMatchWeb",
+        "https://github.com/harlemmariscal/Para-Ti",
+        "https://github.com/virtu333/rogue-emblem",
+        "https://github.com/Deedubsy/Relight",
+        "https://github.com/theshumba/gogo-arabic"
+      ],
+      "rejected_repositories": [
+        "https://github.com/Vilin97/lean-pool",
+        "https://github.com/wix-incubator/headless-day",
+        "https://github.com/cwchanap/Gliese",
+        "https://github.com/cwchanap/Serpens"
+      ],
+      "held_repositories": [],
+      "note": "Inspect each candidate serially. Accept only repositories with a real game implementation and an exact Fable trailer in a commit. The pass yielded nine repositories and thirteen independently counted games; it also separated a Lean formalization pool, a multi-project catalog, a Phaser game with plan-only Fable evidence, and a retail simulation without a game-specific Fable trailer.",
+      "next_experiments": [
+        "Run a changed exact browser-engine search for Phaser plus Claude Opus",
+        "Run a changed native-engine search for Tauri, SDL or C++ plus Claude Fable",
+        "Use reverse-link searches from newly verified game repositories to discover additional game repos",
+        "Keep native Tauri and other desktop targets in Non-Browser Engines"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The expanded serial pass produced a high yield and strong source verification. Keep the engine-specific search family, but use different model aliases and reverse-link seeds to reduce overlap.",
+      "critic": "existing critique agent; conservative score after completed serial review"
+    },
+    {
+      "source": "Phaser/Opus code search expanded pass",
+      "query_key": "Phaser game Co-Authored-By Claude Opus expanded pass",
+      "status": "completed",
+      "results_inspected": 9,
+      "new_verified_repositories": 8,
+      "new_rejected": 1,
+      "new_game_units": 8,
+      "unseen_count": 8,
+      "overlap_ratio": 0.11,
+      "accepted_repositories": [
+        "https://github.com/crisious/aeterna-chronicle-web",
+        "https://github.com/scottmccarrison/snek",
+        "https://github.com/Giftedx/wild-haggis-survivors",
+        "https://github.com/TamirNator/heroes-clone",
+        "https://github.com/lodevel/platform-fighter",
+        "https://github.com/david-a-wheeler/brothers",
+        "https://github.com/luknet/browser-mmorpg",
+        "https://github.com/DSXiangLi/tcm_odyssey"
+      ],
+      "rejected_repositories": [
+        "https://github.com/kwanghan-bae/2d-game-forge"
+      ],
+      "held_repositories": [],
+      "note": "Inspect each candidate serially. Accept eight real Phaser games with exact Claude Opus or Fable commit trailers and direct gameplay source. Verify public demos where documented: Aeterna Chronicle's Pages URL was unavailable, while snek, Wild Haggis Survivors, Platform Fighter and Brothers returned HTTP 200. Reject 2d-game-forge because the inspected hit was a project/monorepo plan without an exact Opus or Fable commit trailer.",
+      "next_experiments": [
+        "Run a changed native-engine search for Godot, Unity, Unreal, Tauri, SDL or C++ plus Claude Opus",
+        "Run a reverse-link search from Wild Haggis Survivors, Platform Fighter and Brothers",
+        "Search Phaser README and awesome-list links with Astra and GPT-6 aliases",
+        "Keep Tauri, Capacitor and desktop targets in Non-Browser Engines"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The serial Opus pass produced eight new games with strong README, source and commit evidence. Keep the pattern and move to native engines and reverse-link expansion to reduce Phaser overlap.",
+      "critic": "existing critique agent; conservative score after completed serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 546 across 474 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 567 across 491 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

@@ -630,6 +630,11 @@
       "repository": "https://github.com/ChicagoDave/sharpee",
       "source": "GitHub code search for Unreal game Co-Authored-By Claude Fable",
       "reason": "The repository is a TypeScript interactive-fiction authoring platform and runtime, not a specific AI-authored game. Reject it as a framework."
+    },
+    {
+      "repository": "https://github.com/kwanghan-bae/2d-game-forge",
+      "source": "GitHub code search for Phaser game Co-Authored-By Claude Opus expanded pass",
+      "reason": "The repository contains a real Phaser game monorepo, but the inspected search hit was a project plan and no exact Claude Opus or Fable commit trailer was found in the repository history. Reject it under exact model-evidence rules."
     }
   ]
 }

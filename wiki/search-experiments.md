@@ -1827,3 +1827,45 @@ The critique score is **9/10** overall: novelty **9**, yield **9**, verification
 ### Next experiment
 
 Run one serial exact engine-plus-model query using an unused engine or changed source index. Verify direct gameplay source before acceptance.
+
+### Dropped RenPy/Fable code search
+
+Run the authenticated GitHub code search `RenPy game Co-Authored-By Claude Fable`. It returns zero results. Add no records and drop the exact query.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **8**, repeatability **7**, source quality **4**, and false-positive control **10**.
+
+### Next experiment
+
+Run one serial exact HaxeFlixel or other unused engine query with Claude Fable evidence.
+
+### Dropped HaxeFlixel/Fable code search
+
+Run the authenticated GitHub code search `HaxeFlixel game Co-Authored-By Claude Fable`. It returns zero results. Add no records and drop the exact query.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **8**, repeatability **7**, source quality **4**, and false-positive control **10**.
+
+### Next experiment
+
+Run one serial exact browser-engine query using Phaser plus Claude Fable.
+
+### Phaser/Fable code-search expanded pass
+
+Run the authenticated GitHub code search `Phaser "Co-Authored-By: Claude Fable 5"`. Inspect every candidate serially. Verify repository metadata, gameplay README or source, direct source paths, screenshots where present, and live deployment status.
+
+Accept these verified games: [Aradama Survivors](https://github.com/eidas/aradama-survivors-proto), [Beyond Boring: Death March](https://github.com/kolatts/beyond-boring-death-march), five games in [mouse2](https://github.com/hokita/mouse2), [Hex Danmaku](https://github.com/macjoocan/hex-danmaku), [GridWatch Match Web](https://github.com/remeadows/GridWatchMatchWeb), [Para-Ti](https://github.com/harlemmariscal/Para-Ti), [Emblem Rogue](https://github.com/virtu333/rogue-emblem), [Relight](https://github.com/Deedubsy/Relight), and [GoGo Arabic](https://github.com/theshumba/gogo-arabic).
+
+Count thirteen new game units. Mark [Relight](https://github.com/Deedubsy/Relight) as a non-browser entry because it ships a Tauri desktop target, even though it also has a browser renderer.
+
+Reject [Lean Pool](https://github.com/Vilin97/lean-pool) as a formalization catalog, [Headless Day](https://github.com/wix-incubator/headless-day) as a project catalog, [Gliese](https://github.com/cwchanap/Gliese) because its Fable evidence was plan-only rather than an exact commit trailer, and [Serpens](https://github.com/cwchanap/Serpens) as a retail simulation with no qualifying game evidence.
+
+Score this experiment 9/10. Keep this search family. Change the model alias or engine and use reverse-link seeds next.
+
+### Phaser/Opus code-search expanded pass
+
+Run the authenticated GitHub code search `Phaser "Co-Authored-By: Claude Opus"`. Inspect likely repositories serially. Verify real game source, direct links, screenshots where present, and live URLs.
+
+Accept [Aeterna Chronicle](https://github.com/crisious/aeterna-chronicle-web), [snek](https://github.com/scottmccarrison/snek), [Wild Haggis Survivors](https://github.com/Giftedx/wild-haggis-survivors), [Heroes Clone](https://github.com/TamirNator/heroes-clone), [Platform Fighter](https://github.com/lodevel/platform-fighter), [Brothers](https://github.com/david-a-wheeler/brothers), [Browser MMORPG](https://github.com/luknet/browser-mmorpg), and [Yaoling Shangu](https://github.com/DSXiangLi/tcm_odyssey). Count eight new game units. Verify live HTTP 200 responses for snek, Wild Haggis Survivors, Platform Fighter and Brothers. Record Aeterna Chronicle and the other source-verified entries without claiming live play when no public demo is documented.
+
+Reject [2d-game-forge](https://github.com/kwanghan-bae/2d-game-forge) because the inspected Phaser hit is a monorepo plan and no exact Opus or Fable commit trailer was found in its history.
+
+Score this experiment 9/10. Keep Phaser plus Opus. Search native engines and reverse-link seeds next.
