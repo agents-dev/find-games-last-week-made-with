@@ -14107,5 +14107,98 @@
     "quality_estimate_basis": "Real timed game loop with categories, difficulty, tutorial, answer cards, timer, score, clear/timeout states and Opus-attributed gameplay UI work.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Pizza Chef",
+    "repository_id": 1131003338,
+    "github_url": "https://github.com/PizzaDAO/pizza-chef",
+    "game_links": [
+      "https://github.com/PizzaDAO/pizza-chef/tree/main/src"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/PizzaDAO/pizza-chef/commit/4726f6bef14b809f5d34171fe158d80c884d8a36",
+    "screenshot_urls": [
+      "https://github.com/PizzaDAO/pizza-chef/blob/main/public/sprites/pizza-mafia.png"
+    ],
+    "technology": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Canvas",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Pizza Chef"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-01-09T10:26:36Z",
+    "published_on": "2026-01-09",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/PizzaDAO/pizza-chef"
+    ],
+    "verification_notes": "The repository contains a complete pizza-kitchen arcade game with customers, pizza slices, plates, score, streaks, bosses, power-ups, stores, levels, pause, death replay and game-over screens. The cited gameplay commit adds alien customers, UFO rendering, spawn behavior and game-over cleanup, with repeated Co-Authored-By: Claude Opus 4.6 trailers. Source includes game logic, collision tests and assets. Count as source-verified because no stable public demo was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 750000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas/UI rendering, customer and UFO systems, collisions, scoring, bosses, effects and level state; not measured hardware throughput.",
+    "quality_estimate_10": 8.6,
+    "quality_estimate_basis": "Complete arcade loop, substantial tested source, levels, bosses, power-ups, stores, score flow and direct Opus gameplay commit attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Deal or No Deal",
+    "repository_id": 1235623845,
+    "github_url": "https://github.com/srpatatas/produsa",
+    "game_links": [
+      "https://github.com/srpatatas/produsa/tree/main/src/app/deal"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/srpatatas/produsa/commit/9ad3dcd1c7806ca2e062aae30f22852a5c30166c",
+    "screenshot_urls": [
+      "https://github.com/srpatatas/produsa/blob/main/public/images/deal_intro.GIF"
+    ],
+    "technology": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Deal or No Deal"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-05-11T13:55:20Z",
+    "published_on": "2026-05-11",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/srpatatas/produsa"
+    ],
+    "verification_notes": "The repository contains a Deal or No Deal mini-game with 26 briefcases, banker offers, a prize/reveal loop and a game page under the Next.js app. The cited commit adds the game and carries repeated Co-Authored-By: Claude Opus 4.6 trailers. The same repository contains other mini-games, but only Deal or No Deal is counted because it is the explicitly attributed addition.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React rendering, briefcase state, banker offers, prize reveal, animations and game transitions; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Explicit mini-game addition, 26-briefcase loop, banker offers, reveal state, screenshot asset and direct Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

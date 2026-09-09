@@ -1169,3 +1169,20 @@ The critique agent scores this audit **8/10** overall: novelty **8**, yield **8*
 ### Next experiment
 
 Inspect direct game implementation diffs serially. Classify each result as core gameplay, supporting gameplay or repository-level attribution. Continue exact engine-specific Opus searches.
+
+### Exact Opus commit-diff expansion from remaining game repositories
+
+Inspect the remaining game-named results serially. Accept:
+
+- [Pizza Chef](https://github.com/PizzaDAO/pizza-chef/tree/main/src) — a tested React/TypeScript pizza-kitchen arcade game with customers, pizza slices, plates, score, streaks, bosses, power-ups, stores, levels, pause, death replay and game-over flow. Its alien-customer gameplay commit carries repeated Claude Opus 4.6 trailers.
+- [Deal or No Deal](https://github.com/srpatatas/produsa/tree/main/src/components/deal) — a Next.js game with 26 briefcases, banker offers, prize/reveal flow and a dedicated game page. Its game-addition commit carries repeated Claude Opus 4.6 trailers. Do not count other mini-games in the same repository without their own direct attribution.
+
+Reject game-engine and addon repositories from this pass when they do not provide a separately playable game. This pass adds two game units.
+
+### Critique result
+
+Manual review scores this pass **9/10** overall: novelty **8**, yield **8**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it.
+
+### Next experiment
+
+Continue exact commit-diff inspection for game-named repositories. Reject frameworks and addons unless a separately playable game is explicit. Retry held Drone Wars after its attribution URL or rate-limit condition clears.

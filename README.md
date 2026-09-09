@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 428 verified games. Real source. No prompt-only filler.
+### 430 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-428-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-314-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-189-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-430-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-316-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-189-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,17 +19,17 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 428 games. Yes, each one links to source.**
+**Yes, that is 430 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **428** |
-| 📦 Independent repositories | **314** |
+| 🎮 Independently counted games | **430** |
+| 📦 Independent repositories | **316** |
 | 🧊 Three.js, WebGL, or WebGPU games | **189** |
 | 🛠️ Non-browser engine games | **58** |
-| 📸 Games with verified screenshot links | **54** |
+| 📸 Games with verified screenshot links | **56** |
 | 🧠 Games with direct prompt links | **17** |
 
 ## 🏆 Top-rated picks
@@ -74,10 +74,10 @@ Jump to a category:
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **39 games**
 - 💥 [Action and Shooters](#action-and-shooters) — **94 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **36 games**
-- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **45 games**
+- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **46 games**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **23 games**
-- 🎮 [Other Browser Games](#other-browser-games) — **80 games**
+- 🎮 [Other Browser Games](#other-browser-games) — **81 games**
 
 Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**, and any verified screenshot or prompt link. The layout wraps on narrow screens and avoids horizontal table scrolling.
 
@@ -338,7 +338,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Puzzle, Arcade, and Platformers
 
-> 🧩 **45 verified games. Ranked by evidence-based quality score.**
+> 🧩 **46 verified games. Ranked by evidence-based quality score.**
 
 - [**Rift Chess**](https://github.com/HaileyStorm/rift-chess) — ⭐ **9.3/10** · GPT-6 Astra · Three.js, TypeScript, Vite, WebGL, Electron, Browser, Windows · 3.50 GFLOPS · _confirmed_ · [▶️ play](https://haileystorm.github.io/rift-chess/) · [📸 screenshot](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png)
 - [**Silent Meridian**](https://github.com/stackloomdev/silent-meridian) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, WebGL, Browser · 1.10 GFLOPS · _confirmed_ · [▶️ play](https://silent-meridian.stackloom.org/) · [📸 screenshot](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png) · [📸 screenshot](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/ferry.png)
@@ -350,6 +350,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Neon Snake — Fable baseline**](https://github.com/kinncj/neon-snake) — ⭐ **8.7/10** · Claude Fable 5.1 · Phaser 4, TypeScript, Tone.js, Canvas, Browser · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/kinncj/neon-snake/tree/main/claude-code-fable) · [▶️ play](https://kinncj.github.io/neon-snake/claude-code-fable/)
 - [**Fable Theft Auto 5.1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.6/10** · Claude Fable 5.1 · HTML, JavaScript, Three.js, WebGL, Browser · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city) · [▶️ play](https://sorrycc.github.io/fable-arcade/games/voxel-gta-city/) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city)
 - [**FinOps Odyssey**](https://github.com/chfinops/finops-odyssey) — ⭐ **8.6/10** · Claude Opus 4.8 · HTML, JavaScript, Canvas, Supabase, Browser · 650 MFLOPS · _confirmed_ · [🔗 files](https://github.com/chfinops/finops-odyssey/blob/main/game.html) · [▶️ play](https://finops-odyssey.vercel.app/game.html)
+- [**Pizza Chef**](https://github.com/PizzaDAO/pizza-chef) — ⭐ **8.6/10** · Claude Opus 4.6 · React, TypeScript, Vite, Canvas, Browser · 750 MFLOPS · _confirmed_ · [🔗 files](https://github.com/PizzaDAO/pizza-chef/tree/main/src) · [📸 screenshot](https://github.com/PizzaDAO/pizza-chef/blob/main/public/sprites/pizza-mafia.png)
 - [**Frost Hop**](https://github.com/MrAllNeo/frost-hop) — ⭐ **8.5/10** · GPT-6 Astra · React, JavaScript, Canvas 2D, Web Audio API, Vite · 650 MFLOPS · _confirmed_
 - [**MirrorForge**](https://github.com/leonvanzyl/claude-fable-5-mirror-game) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, WebGPU, WGSL · 4.50 GFLOPS · _creator-reported_
 - [**Super Fable Bros. — World 1-1**](https://github.com/INONONO66/fable-5.1-mario) — ⭐ **8.5/10** · Claude Fable 5.1 · Canvas 2D, JavaScript, Web Audio API, Browser · 250 MFLOPS · _confirmed_ · [▶️ play](https://inonono66.github.io/fable-5.1-mario/) · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/title.png) · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/gameplay.png) · [📸 screenshot](https://github.com/INONONO66/fable-5.1-mario/blob/main/docs/gameplay.gif)
@@ -480,7 +481,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Other Browser Games
 
-> 🎮 **80 verified games. Ranked by evidence-based quality score.**
+> 🎮 **81 verified games. Ranked by evidence-based quality score.**
 
 - [**Choplifter — Rescue Operations**](https://github.com/danielpradilla/choplifter) — ⭐ **8.8/10** · GPT-6 Astra · JavaScript, Phaser, HTML/CSS, Canvas, Browser · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/danielpradilla/choplifter/tree/main/choplifter-6-astra) · [▶️ play](https://www.danielpradilla.info/projects/choplifter/choplifter-6-astra/)
 - [**Missile Command**](https://github.com/argusbrown/missile_command) — ⭐ **8.6/10** · Claude Opus 4.6 · HTML, JavaScript ES modules, Canvas 2D, Web Audio API, Browser · 350 MFLOPS · _confirmed_ · [🔗 files](https://github.com/argusbrown/missile_command/blob/main/index.html)
@@ -502,6 +503,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Fuzhou Mahjong**](https://github.com/minyic7/fuzhou-mahjong) — ⭐ **8.4/10** · Claude Opus 4.6 · React, TypeScript, Vite, WebSockets, Browser · 650 MFLOPS · _confirmed_ · [🔗 files](https://github.com/minyic7/fuzhou-mahjong/tree/main/apps/web)
 - [**Dig: Deep Descent**](https://github.com/aaronshaver/dig-deep-descent) — ⭐ **8.1/10** · GPT-6 Astra · JavaScript, Canvas 2D, Browser · 260 MFLOPS · _confirmed_ · [🔗 files](https://github.com/aaronshaver/dig-deep-descent/blob/main/index.html) · [▶️ play](https://aaronshaver.github.io/dig-deep-descent/)
 - [**Blackjack**](https://github.com/reytoyogassky/BLACKJACK) — ⭐ **8.0/10** · Claude Opus 4.6 · Next.js, React, JavaScript, Supabase, Browser · 350 MFLOPS · _confirmed_ · [🔗 files](https://github.com/reytoyogassky/BLACKJACK/tree/main/app/blackjack)
+- [**Deal or No Deal**](https://github.com/srpatatas/produsa) — ⭐ **8.0/10** · Claude Opus 4.6 · Next.js, React, TypeScript, Browser · 300 MFLOPS · _confirmed_ · [🔗 files](https://github.com/srpatatas/produsa/tree/main/src/app/deal) · [📸 screenshot](https://github.com/srpatatas/produsa/blob/main/public/images/deal_intro.GIF)
 - [**Last Beacon**](https://github.com/stackloomdev/last-beacon) — ⭐ **8.0/10** · GPT-6 Astra · Canvas 2D, JavaScript, Web Audio API · 260 MFLOPS · _confirmed_
 - [**Mainspring**](https://github.com/Kelevera/mainspring) — ⭐ **8.0/10** · Claude Fable 5 · JavaScript, HTML, Canvas · 550 MFLOPS · _creator-reported_
 - [**Math Defense: The Last Frontier**](https://github.com/dmbartles/math-defense-the-last-frontier) — ⭐ **8.0/10** · Claude Opus 4.6 · HTML, JavaScript, Canvas 2D, Browser · 300 MFLOPS · _confirmed_ · [🔗 files](https://github.com/dmbartles/math-defense-the-last-frontier/blob/main/index.html)

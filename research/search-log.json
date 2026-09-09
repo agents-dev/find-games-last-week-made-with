@@ -4049,10 +4049,44 @@
       },
       "critique_note": "The game is real and the Opus contribution is direct but limited to supporting gameplay UI. Keep only with the attribution-scope label.",
       "critic": "existing critique agent"
+    },
+    {
+      "source": "Exact Opus commit-diff expansion from remaining game repositories",
+      "query_key": "game Co-Authored-By Claude Opus 4.6",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/PizzaDAO/pizza-chef",
+        "https://github.com/srpatatas/produsa"
+      ],
+      "held_repositories": [],
+      "note": "Serial inspection accepted Pizza Chef and Deal or No Deal. Pizza Chef has tested React/TypeScript game logic, customers, pizza systems, bosses, power-ups and game-over flow; its alien-customer gameplay commit carries Opus 4.6 trailers. Deal or No Deal has a 26-briefcase Next.js game and a direct Opus-attributed addition commit. Other inspected results were an addon and a game-engine framework, not standalone games.",
+      "next_experiments": [
+        "Continue exact commit-diff inspection for game-named repositories",
+        "Reject game engines and addons unless a separately playable game is explicitly present",
+        "Retry held Drone Wars attribution after the 404 or rate-limit condition clears"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "Both accepted games have direct implementation diffs, source evidence and Opus trailers. The rejection rule correctly excludes a framework and an addon.",
+      "critic": "manual review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 423 across 361 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 430 across 368 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",
