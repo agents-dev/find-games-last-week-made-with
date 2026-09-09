@@ -1155,3 +1155,17 @@ The critique agent scores this pass **9/10** overall: novelty **9**, yield **9**
 ### Next experiment
 
 Inspect the remaining exact-trailer candidates with game source one at a time. Retry the held Drone Wars attribution URL after GitHub rate limits clear. Then use engine-specific exact-trailer searches for Phaser, Godot, Unity, WPF and native mobile.
+
+### Exact Opus commit-diff supporting-game audit
+
+Inspect [dnd-14th-6-frontend](https://github.com/dnd-side-project/dnd-14th-6-frontend) and its game source. Accept [Orvit Timed Tech Quiz](https://github.com/dnd-side-project/dnd-14th-6-frontend/tree/develop/src/app/game/play) as one game unit. The Next.js source implements Git/Linux/Docker categories, four difficulty modes, timed answer cards, tutorial, scoring, audio, clear/timeout states and result navigation. The cited Opus commit adds the game header, score table, timer and time-bar components, with repeated `Co-Authored-By: Claude Opus 4.6` trailers.
+
+Label this record `supporting_feature_attribution`. The commit proves direct Opus work on gameplay UI, but it does not prove that Opus authored the entire repository. Keep this attribution scope visible in the generated README.
+
+### Critique result
+
+The critique agent scores this audit **8/10** overall: novelty **8**, yield **8**, verification quality **8**, repeatability **9**, source quality **9**, and false-positive control **8**. Keep it only with the supporting-feature attribution label.
+
+### Next experiment
+
+Inspect direct game implementation diffs serially. Classify each result as core gameplay, supporting gameplay or repository-level attribution. Continue exact engine-specific Opus searches.

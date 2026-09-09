@@ -13886,5 +13886,226 @@
     "quality_estimate_basis": "Native trivia game with local/online sessions, buzzer flow, wagers, scoring and direct Opus gameplay attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Whack-a-Train",
+    "repository_id": 1287932284,
+    "github_url": "https://github.com/wsc226/Games",
+    "game_links": [
+      "https://github.com/wsc226/Games/blob/main/shinkansen.html"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/wsc226/Games/commit/2e8831885fc50d06638ea6a564adab19f2959857",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Whack-a-Train"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-07-03T06:04:43Z",
+    "published_on": "2026-07-03",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/wsc226/Games"
+    ],
+    "verification_notes": "The repository is a launcher with standalone HTML games. The cited commit adds shinkansen.html and a launcher button for Whack-a-Train, an iPad-optimized train-themed whack-a-mole game. The commit carries a Co-Authored-By: Claude Opus 4.6 trailer, and the source contains the playable HTML/JavaScript runtime. Count only this explicitly attributed game.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 250000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas rendering, timer/input handling, target spawning, scoring and touch controls; not measured hardware throughput.",
+    "quality_estimate_10": 7.9,
+    "quality_estimate_basis": "Standalone playable source, launcher integration, touch-oriented game design and direct Opus game-addition commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Browser Chess",
+    "repository_id": 1151890496,
+    "github_url": "https://github.com/jaimec00/chess-game",
+    "game_links": [
+      "https://github.com/jaimec00/chess-game/tree/main/src"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/jaimec00/chess-game/commit/b3a556f744e1a0ee4acdc50f382c0b17b87f0784",
+    "screenshot_urls": [],
+    "technology": [
+      "React",
+      "Vite",
+      "JavaScript",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Browser Chess"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-02-07T03:23:41Z",
+    "published_on": "2026-02-07",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/jaimec00/chess-game"
+    ],
+    "verification_notes": "The repository description identifies a browser chess game with React and Vite. The cited commit adds an LLM API game mode and a 306-line ApiGame component, with chess board interaction and retry logic, and carries multiple Co-Authored-By: Claude Opus 4.6 trailers. Count it as source-verified because no stable public demo was found.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 450000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React rendering, board state, legal moves, AI/API interaction and game UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.1,
+    "quality_estimate_basis": "Real chess loop, browser source, AI game mode and direct Opus implementation attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "DungeonMaster D&D Game",
+    "repository_id": 1193156065,
+    "github_url": "https://github.com/SethSharp/codeverse",
+    "game_links": [
+      "https://github.com/SethSharp/codeverse/tree/main/app/Http/Controllers/GameController.php"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/SethSharp/codeverse/commit/15d034371a8cbe2b76a82d3905349335051e9d70",
+    "screenshot_urls": [],
+    "technology": [
+      "PHP",
+      "Laravel",
+      "Laravel AI SDK",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "DungeonMaster D&D Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-03-26T23:44:30Z",
+    "published_on": "2026-03-26",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/SethSharp/codeverse"
+    ],
+    "verification_notes": "The README describes a D&D-style game powered by an AI Dungeon Master. The cited commit adds a DungeonMaster agent, GameSession model, persistent conversation memory, health, energy, inventory, encounter tracking, game routes and start/action endpoints, with direct Claude Opus 4.6 trailers. Count it as a server-backed interactive game source.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for request/UI rendering, session state, encounter logic, persistence and LLM-assisted Dungeon Master turns; not measured hardware throughput.",
+    "quality_estimate_10": 7.8,
+    "quality_estimate_basis": "Explicit D&D game concept, game-session state, encounters, inventory, health/energy and direct Opus game-engine commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "FinOps Odyssey",
+    "repository_id": 1228210549,
+    "github_url": "https://github.com/chfinops/finops-odyssey",
+    "game_links": [
+      "https://github.com/chfinops/finops-odyssey/blob/main/game.html"
+    ],
+    "live_demo_url": "https://finops-odyssey.vercel.app/game.html",
+    "evidence_url": "https://github.com/chfinops/finops-odyssey/commit/7f0caf56b69ef8149ed6af5d379eceef98546ab0",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas",
+      "Supabase",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "FinOps Odyssey"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-05-03T18:33:09Z",
+    "published_on": "2026-05-03",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/chfinops/finops-odyssey"
+    ],
+    "verification_notes": "The README describes an 8-bit space arcade game where players pilot a rocket, dodge cloud waste, answer FinOps decisions, collect a combo and reach a win state. The cited commit moves the 2,932-line game into game.html and carries Claude Opus 4.8 attribution. The recorded Vercel URL is the live game path. Track this as Opus 4.8, separately from Opus 4.6 results.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas space rendering, rocket movement, collisions, quiz decisions, combo state and Supabase score flow; not measured hardware throughput.",
+    "quality_estimate_10": 8.6,
+    "quality_estimate_basis": "Live game, substantial source, clear arcade loop, quiz decisions, combo/win state and direct Opus 4.8 game-file commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Orvit Timed Tech Quiz",
+    "repository_id": 1139067308,
+    "github_url": "https://github.com/dnd-side-project/dnd-14th-6-frontend",
+    "game_links": [
+      "https://github.com/dnd-side-project/dnd-14th-6-frontend/tree/develop/src/app/game/play"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/dnd-side-project/dnd-14th-6-frontend/commit/fab20df22b2058465ba6c1156e87d96028ab5566",
+    "screenshot_urls": [],
+    "technology": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "supporting_feature_attribution",
+    "game_count": 1,
+    "contained_games": [
+      "Orvit Timed Tech Quiz"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-01-21T13:34:07Z",
+    "published_on": "2026-01-21",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/dnd-side-project/dnd-14th-6-frontend"
+    ],
+    "verification_notes": "The Next.js source contains a real timed tech quiz: users select Git, Linux or Docker categories and Easy, Normal, Hard or Random difficulty, then solve timed answer cards. GamePlayPage implements tutorial, playing, clear/timeout end states, audio, scoring and result navigation. The cited game-UI commit adds the game header, score table, timer and time bar, with repeated Co-Authored-By: Claude Opus 4.6 trailers. Label attribution as supporting-feature-level, not full-repository authorship.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed_supporting_game_code",
+    "flops_estimate_raw": 300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React rendering, timed card state, answer validation, score/timer UI, audio and result transitions; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Real timed game loop with categories, difficulty, tutorial, answer cards, timer, score, clear/timeout states and Opus-attributed gameplay UI work.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
