@@ -4766,10 +4766,46 @@
       },
       "critique_note": "The six audited entries have clear Pygame loops, source paths and exact Claude Opus trailers. Tiny Baby Snake provides the strongest independent runtime evidence. Keep smaller single-file games with lower quality estimates when the game loop and model evidence are explicit. Deduplicate by repository URL and enrich existing records when a later pass provides better evidence.",
       "critic": "existing critique agent"
+    },
+    {
+      "source": "Exact Fable Pygame native audit",
+      "query_key": "pygame game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 3,
+      "new_game_units": 3,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/GeorgeCottrell/SpaceShowdown",
+        "https://github.com/vidalmatheus/pyKombat",
+        "https://github.com/amccool/foodfight"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Serial inspection accepted three native Pygame games with exact Claude Fable 5 trailers. Space Showdown is a complete arcade shooter with a documented native Pygame build, headless tests and a separate SDL2 Wii port; count the port as the same game. pyKombat has native Pygame and browser/WebAssembly paths, screenshots and a live demo. Food Fight is a documented single-file Pygame arcade game with a headless self-test and Windows release.",
+      "next_experiments": [
+        "Run serial startup or headless checks for Space Showdown, pyKombat and Food Fight",
+        "Continue with another native engine or Fable alias partition",
+        "Keep one repository record when native and browser ports are the same game"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The three entries have clear Pygame gameplay, exact Fable 5 trailers and direct source or release evidence. Space Showdown has the strongest scope and test evidence. Keep pyKombat as one game despite its browser port, and do not split the Wii port into another unit.",
+      "critic": "existing critique agent"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 528 across 460 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 531 across 463 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

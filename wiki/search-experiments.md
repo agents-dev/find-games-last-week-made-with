@@ -1555,3 +1555,23 @@ The critique agent scores this audit **9/10** overall: novelty **9**, yield **9*
 ### Next experiment
 
 Run serial Pygame tests or startup checks for the six accepted games. Continue with another native engine alias and preserve the non-browser category.
+
+### Serial Fable Pygame native audit
+
+Run the serial GitHub commit search `pygame game Co-Authored-By Claude Fable`. Require a real Pygame game loop, direct gameplay source, and an exact Claude Fable trailer. Count native and browser ports as one game when they share the same repository and codebase.
+
+Accept:
+
+- [Space Showdown](https://github.com/GeorgeCottrell/SpaceShowdown) — Pygame arcade space shooter with waves, bosses, weapons, power-ups, medals, daily challenge, headless tests and a native SDL2 Wii port.
+- [pyKombat](https://github.com/vidalmatheus/pyKombat) — Pygame fighting game with local execution, browser/WebAssembly build, screenshots and a live GitHub Pages demo.
+- [Food Fight](https://github.com/amccool/foodfight) — Pygame arcade game with movement, constant fire, chefs, food ammunition, melting objective, replay and a Windows release.
+
+This pass adds three source-verified native game units and raises the collection to 531 units across 463 repositories. Keep pyKombat in the non-browser section because it supports native desktop execution. Count Space Showdown's SDL2 Wii port as the same game.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **9**, yield **8**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **9**. Keep it. Treat Space Showdown as the strongest entry because it includes headless tests and a second native port. Keep repository-level deduplication across ports.
+
+### Next experiment
+
+Run serial headless or startup checks for the three accepted games. Continue with another native engine or Fable alias partition.

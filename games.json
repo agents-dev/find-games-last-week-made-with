@@ -685,6 +685,140 @@
     "is_independent_game": true
   },
   {
+    "name": "Space Showdown",
+    "github_url": "https://github.com/GeorgeCottrell/SpaceShowdown",
+    "game_links": [
+      "https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/space_showdown.py",
+      "https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/spaceshowdown/game.py",
+      "https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/spaceshowdown/world.py",
+      "https://github.com/GeorgeCottrell/SpaceShowdown/tree/073601b42e8a45123c955ab21ba55656924dc1d0/wii/game"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/GeorgeCottrell/SpaceShowdown/commit/073601b42e8a45123c955ab21ba55656924dc1d0",
+    "screenshot_urls": [],
+    "technology": [
+      "Pygame",
+      "Python",
+      "SDL2",
+      "C",
+      "Native desktop",
+      "Native Wii"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Space Showdown"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Fable",
+      "https://github.com/GeorgeCottrell/SpaceShowdown"
+    ],
+    "verification_notes": "The README identifies Space Showdown as a complete Pygame arcade space shooter and gives a runnable command, controls, five wave types per sector, ten enemy types, four bosses, weapons, power-ups, daily challenge, medals, high scores, headless tests and a native C Wii port built with SDL2. Count the Wii port as the same game, not a second unit. The cited commit includes a direct Claude Fable 5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame arcade rendering, wave simulation, enemy/boss AI, particles, audio, HUD and the separate SDL2 Wii port; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "The repository contains a substantial, documented arcade game with multiple enemy/boss systems, procedural assets/audio, tests, headless commands and a native Wii port, plus direct Claude Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "pyKombat",
+    "github_url": "https://github.com/vidalmatheus/pyKombat",
+    "game_links": [
+      "https://github.com/vidalmatheus/pyKombat/blob/47cea3b9cbc291c42607f981e29f6eef726b25ca/main.py",
+      "https://github.com/vidalmatheus/pyKombat/tree/47cea3b9cbc291c42607f981e29f6eef726b25ca/src",
+      "https://github.com/vidalmatheus/pyKombat/blob/47cea3b9cbc291c42607f981e29f6eef726b25ca/README.md"
+    ],
+    "live_demo_url": "https://vidalmatheus.github.io/pyKombat/",
+    "evidence_url": "https://github.com/vidalmatheus/pyKombat/commit/47cea3b9cbc291c42607f981e29f6eef726b25ca",
+    "screenshot_urls": [
+      "https://github.com/vidalmatheus/pyKombat/blob/master/res/Background/MainMenu01.png",
+      "https://github.com/vidalmatheus/pyKombat/blob/master/res/Screenshot.png"
+    ],
+    "technology": [
+      "Pygame",
+      "Python",
+      "pygbag",
+      "WebAssembly",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "pyKombat"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Fable",
+      "https://github.com/vidalmatheus/pyKombat"
+    ],
+    "verification_notes": "The README identifies pyKombat as a Pygame game with a browser build powered by pygbag/WebAssembly and a local `python main.py` run path. It contains a main entrypoint, source directory, game assets, a live GitHub Pages build and screenshots. The cited commit includes a direct Claude Fable 5 trailer. Keep it in the non-browser section because the repository also supports native desktop execution.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame fighting-game rendering, sprite animation, input, combat state, HUD, audio and native/browser packaging; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "The repository has a real Pygame fighting game with local and browser run paths, a live demo, screenshots and explicit Claude Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Food Fight",
+    "github_url": "https://github.com/amccool/foodfight",
+    "game_links": [
+      "https://github.com/amccool/foodfight/blob/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753/main.py",
+      "https://github.com/amccool/foodfight/blob/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753/README.md"
+    ],
+    "live_demo_url": "https://github.com/amccool/foodfight/releases",
+    "evidence_url": "https://github.com/amccool/foodfight/commit/2b0aae7442aa6fee42ef5bc8ac8fa2a4d014a753",
+    "screenshot_urls": [],
+    "technology": [
+      "Pygame",
+      "Python",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Food Fight"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for pygame game Co-Authored-By Claude Fable",
+      "https://github.com/amccool/foodfight"
+    ],
+    "verification_notes": "The README identifies Food Fight as a single-file Pygame arcade game and gives direct run, headless self-test, build and release commands. The source implements movement, constant fire, melting ice-cream objective, chef enemies, food-pile ammunition, holes, pause and instant replay; a standalone Windows release is available. The cited commit includes a direct Claude Fable 5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 850000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame arcade rendering, chef AI, projectile collisions, objective timer, particles, replay and HUD; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "The repository contains a documented, directly runnable Pygame arcade game with a headless self-test, a Windows release and explicit Claude Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
     "name": "Frog Hopper",
     "github_url": "https://github.com/Stephenson-Software/Frog-Hopper-2D",
     "game_links": [
