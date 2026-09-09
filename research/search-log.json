@@ -4905,6 +4905,40 @@
       },
       "critique_note": "The approach found a useful source list but produced no new verified games. Drop the broad query as a collection method. Keep the handbook as a source node and follow only direct project links or exact creator claims.",
       "critic": "existing critique agent"
+    },
+    {
+      "source": "README direct-link mapping improvement",
+      "query_key": "readme-generator|contained_game_links|ninja-knife-dodge",
+      "status": "completed_kept",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [
+        "https://github.com/Karanvir1729/ninja-knife-dodge"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Improved README generation for multi-game repositories. Optional contained_game_links now maps each contained game to its matching gameplay source file. Added the mapping for Ninja Knife Dodge — Four Trials, renamed the summary metric to Included repositories, and clarified that source verification is separate from runtime playtesting. Generated README and validated all JSON files.",
+      "next_experiments": [
+        "Run a serial native-engine attribution search using a changed engine alias such as Go or Macroquad",
+        "Inspect each candidate one at a time and require actual gameplay source plus exact Astra, Opus or Fable evidence",
+        "Keep browser and non-browser engine categories separate"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The change fixes a real per-game source-link mapping defect in the generated README and makes the source-versus-runtime evidence boundary explicit.",
+      "critic": "existing critique agent; no visible response, conservative manual score recorded"
     }
   ],
   "frontier": [

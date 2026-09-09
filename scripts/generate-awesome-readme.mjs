@@ -30,6 +30,7 @@ function units(record) {
   const target = record.counted_game_units || 1;
   while (names.length < target) names.push(target === 1 ? record.name : `${record.name} — game ${names.length + 1}`);
   const estimates = record.contained_game_estimates ?? [];
+  const gameLinks = record.contained_game_links ?? record.game_links ?? [];
   return names.slice(0, target).map((name, index) => {
     const estimate = estimates[index] ?? {};
     return {
@@ -37,7 +38,7 @@ function units(record) {
       rating: estimate.quality_estimate_10 ?? record.quality_estimate_10 ?? 0,
       flops: estimate.flops_estimate_raw ?? record.flops_estimate_raw ?? 0,
       technology: estimate.technology ?? record.technology,
-      gameLink: (record.game_links ?? [])[index],
+      gameLink: gameLinks[index],
       demoLink: (record.live_demo_urls ?? [record.live_demo_url])[index],
       record,
     };
@@ -102,7 +103,7 @@ output += `**Yes, that is ${count} games. Yes, each one links to source.**\n\n`;
 output += `## ⚡ Collection at a glance\n\n`;
 output += `| 🔎 Signal | 📊 Result |\n| --- | ---: |\n`;
 output += `| 🎮 Independently counted games | **${count}** |\n`;
-output += `| 📦 Independent repositories | **${repoCount}** |\n`;
+output += `| 📦 Included repositories | **${repoCount}** |\n`;
 output += `| 🧊 Three.js, WebGL, or WebGPU games | **${threeCount}** |\n`;
 output += `| 🛠️ Non-browser engine games | **${nonBrowserCount}** |\n`;
 output += `| 📸 Games with verified screenshot links | **${screenshotCount}** |\n`;
@@ -145,6 +146,7 @@ output += `- Verify the canonical GitHub repository and numeric repository ID.\n
 output += `- Inspect the README, entry point, and gameplay source. Confirm input, rules or objectives, and game state.\n`;
 output += `- Place Godot, Unity, Unreal, Pygame, native-console, Minecraft, and other non-browser engine games in the dedicated non-browser section.\n`;
 output += `- Accept creator, repository, directory, or build-log evidence for Claude Opus, Claude Fable, or GPT-6 Astra. Label the evidence level.\n`;
+output += `- Treat source verification as proof that the game code exists; treat it separately from runtime playtesting.\n`;
 output += `- Do not count catalogs, skills, screenshots, visual-only scenes, empty repositories, unchanged forks, or prompt-only projects.\n`;
 output += '- Keep the source records in [`games.json`](games.json). Keep rejected candidates in [`research/candidates.json`](research/candidates.json).\n';
 output += `\n## 📐 Rating and FLOPS notes\n\n`;

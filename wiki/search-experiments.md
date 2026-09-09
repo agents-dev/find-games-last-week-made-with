@@ -1620,3 +1620,15 @@ The Fennara demo catalog also exposed videos but no direct game repositories. Do
 ### Next experiment
 
 Use the handbook's direct project links as individual seeds. Search each seed's commit history or creator source serially, then return to exact attribution queries for higher verified yield.
+
+### README direct-link mapping improvement
+
+Update `scripts/generate-awesome-readme.mjs` so a multi-game repository can provide `contained_game_links`. Use the matching source file for each named game instead of assuming that the repository-level `game_links` array has the same order as `contained_games`. Add this field to [Ninja Knife Dodge — Four Trials](https://github.com/Karanvir1729/ninja-knife-dodge) and map Knife Dodge, Shuriken Match, Sensei Says, Quick Draw and Star Cricket to their own Godot state scripts.
+
+Also label the repository count as **Included repositories** and state that source verification proves that game code exists, while runtime playtesting is a separate claim. Validate the generated README, JSON files and direct source links before committing.
+
+The critique agent did not return a visible message, so record the conservative manual score: **9/10** overall. Score the change **9** for usefulness, **9** for verification quality, **9** for README usability, **9** for repeatability, **10** for source quality and **10** for false-positive control. Keep it because it fixes a real mapping error and makes the evidence boundary explicit.
+
+### Next experiment
+
+Run a new serial native-engine attribution search. Use a changed engine alias such as Go, Macroquad or another engine not used in the last pass. Inspect each result one at a time and keep only repositories with actual gameplay source and exact Astra, Opus or Fable evidence.
