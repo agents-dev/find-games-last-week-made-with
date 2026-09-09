@@ -899,7 +899,9 @@
     "name": "DRIFTLANDS",
     "github_url": "https://github.com/DEADover/DRIFTLANDS",
     "evidence_url": "https://github.com/DEADover/DRIFTLANDS",
-    "screenshot_urls": ["https://github.com/DEADover/DRIFTLANDS/blob/main/docs/banner.jpg"],
+    "screenshot_urls": [
+      "https://github.com/DEADover/DRIFTLANDS/blob/main/docs/banner.jpg"
+    ],
     "technology": [
       "Three.js",
       "JavaScript",
@@ -1870,7 +1872,9 @@
     "repository_id": 1353952903,
     "github_url": "https://github.com/Nipale-ai/fable-5-1-one-prompt-game",
     "evidence_url": "https://github.com/Nipale-ai/fable-5-1-one-prompt-game/blob/main/README.md",
-    "prompt_urls": ["https://github.com/Nipale-ai/fable-5-1-one-prompt-game/blob/main/prompt.txt"],
+    "prompt_urls": [
+      "https://github.com/Nipale-ai/fable-5-1-one-prompt-game/blob/main/prompt.txt"
+    ],
     "technology": [
       "HTML",
       "JavaScript",
@@ -4386,41 +4390,6 @@
     "canonical_repository_id": 1312257227
   },
   {
-    "name": "Claude of Duty — epicsereno fork",
-    "repository_id": 1340320107,
-    "github_url": "https://github.com/epicsereno/Claude-of-Duty",
-    "evidence_url": "https://github.com/epicsereno/Claude-of-Duty",
-    "technology": [
-      "Three.js",
-      "WebGL2",
-      "JavaScript",
-      "Web Audio API"
-    ],
-    "gauntlet_loop": true,
-    "method_evidence": "inferred",
-    "verification_status": "verified_related",
-    "verified_on": "2026-09-09",
-    "discovery_sources": [
-      "https://github.com/epicsereno/Claude-of-Duty",
-      "https://github.com/mshumer/Claude-of-Duty"
-    ],
-    "verification_notes": "GitHub metadata identifies this repository as a fork of the original Claude of Duty source. The source verified game is an FPS; this fork does not document an independent Gauntlet Loop run or distinct gameplay changes.",
-    "game_count": 1,
-    "model_family": [
-      "Claude Opus 5"
-    ],
-    "model_evidence": "directory-method",
-    "flops_estimate_raw": 900000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "very-low",
-    "flops_estimate_basis": "Static workload estimate from documented renderer, simulation, effects, and entity complexity; not measured hardware throughput.",
-    "quality_estimate_10": 2,
-    "quality_estimate_basis": "Related fork only; original gameplay is verified, but this copy is not counted as an independent game.",
-    "counted_game_units": 0,
-    "is_independent_game": false,
-    "canonical_repository_id": 1312257227
-  },
-  {
     "name": "Operation Blackout",
     "repository_id": 1317784849,
     "github_url": "https://github.com/erekjiang/call-of-duty-opus5",
@@ -4920,7 +4889,9 @@
     "repository_id": 1299458470,
     "github_url": "https://github.com/jbrwilkinson/Trading-Card-Game-Fable5",
     "evidence_url": "https://github.com/jbrwilkinson/Trading-Card-Game-Fable5",
-    "prompt_urls": ["https://github.com/jbrwilkinson/Trading-Card-Game-Fable5/blob/main/docs/prompt.txt"],
+    "prompt_urls": [
+      "https://github.com/jbrwilkinson/Trading-Card-Game-Fable5/blob/main/docs/prompt.txt"
+    ],
     "technology": [
       "HTML",
       "JavaScript"
@@ -5422,86 +5393,6 @@
     "quality_estimate_basis": "Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.",
     "counted_game_units": 1,
     "is_independent_game": true
-  },
-  {
-    "name": "Fable Arcade — Keisuke edition",
-    "repository_id": 1357909016,
-    "github_url": "https://github.com/keisuke19831213-source/fable-arcade",
-    "evidence_url": "https://github.com/keisuke19831213-source/fable-arcade",
-    "technology": [
-      "HTML",
-      "JavaScript",
-      "Canvas 2D",
-      "WebGL",
-      "Web Audio API"
-    ],
-    "model_family": [
-      "Claude Fable 5.1"
-    ],
-    "method_evidence": "confirmed",
-    "game_count": 7,
-    "contained_games": [
-      "GRAVITAS",
-      "SUMI",
-      "HIBIKI",
-      "ABYSS",
-      "IGO",
-      "ITSUTSU NO HI",
-      "HOSHIKUZU NO MACHINA"
-    ],
-    "verification_status": "verified",
-    "verified_on": "2026-09-09",
-    "discovery_sources": [
-      "https://github.com/keisuke19831213-source/fable-arcade"
-    ],
-    "verification_notes": "README lists seven playable browser games with direct subpaths, controls, rules, and explicit one-session Claude Fable 5.1 attribution.",
-    "gauntlet_loop": false,
-    "model_evidence": "confirmed",
-    "flops_estimate_raw": 900000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static workload estimate from documented renderer, simulation, effects, and entity complexity; not measured hardware throughput.",
-    "quality_estimate_10": 8.5,
-    "quality_estimate_basis": "Evidence-based estimate from documented playability, controls, gameplay scope, tests, demo/source verification, and method evidence.",
-    "counted_game_units": 7,
-    "is_independent_game": true,
-    "contained_game_estimates": [
-      {
-        "name": "GRAVITAS",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8.5
-      },
-      {
-        "name": "SUMI",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8.5
-      },
-      {
-        "name": "HIBIKI",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8.5
-      },
-      {
-        "name": "ABYSS",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8.5
-      },
-      {
-        "name": "IGO",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8.5
-      },
-      {
-        "name": "ITSUTSU NO HI",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8.5
-      },
-      {
-        "name": "HOSHIKUZU NO MACHINA",
-        "flops_estimate_raw": 900000000,
-        "quality_estimate_10": 8.5
-      }
-    ]
   },
   {
     "name": "Claude of Duty — kekse1 fork",
@@ -8745,7 +8636,9 @@
     "repository_id": 1300474054,
     "github_url": "https://github.com/zuwasi/Baboons-Over-London",
     "evidence_url": "https://github.com/zuwasi/Baboons-Over-London",
-    "prompt_urls": ["https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt"],
+    "prompt_urls": [
+      "https://github.com/zuwasi/Baboons-Over-London/blob/main/prompt.txt"
+    ],
     "technology": [
       "Three.js",
       "JavaScript",
@@ -8847,21 +8740,32 @@
     "counted_game_units": 0,
     "is_independent_game": false,
     "canonical_repository_id": 1312257227
-  }
-  ,{
+  },
+  {
     "name": "Iron Man: Legion Protocol",
     "repository_id": 1266794397,
     "github_url": "https://github.com/Aaryan-Kapoor/Iron-Man-Fable-5",
     "evidence_url": "https://github.com/Aaryan-Kapoor/Iron-Man-Fable-5/blob/main/README.md",
-    "technology": ["HTML", "JavaScript", "Three.js"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Three.js"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Iron Man: Legion Protocol"],
+    "contained_games": [
+      "Iron Man: Legion Protocol"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-12T00:45:14Z",
-    "discovery_sources": ["https://github.com/Aaryan-Kapoor/Iron-Man-Fable-5", "https://x.com/TheAaryanKapoor/status/2065242326654451950"],
+    "discovery_sources": [
+      "https://github.com/Aaryan-Kapoor/Iron-Man-Fable-5",
+      "https://x.com/TheAaryanKapoor/status/2065242326654451950"
+    ],
     "verification_notes": "README, Three.js source, and creator video link describe a playable free-roam Iron Man browser game with flight, combat, missions, suits, and a procedural city; README attributes it to Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -8878,15 +8782,25 @@
     "repository_id": 1266763509,
     "github_url": "https://github.com/yunit00/game-corovans",
     "evidence_url": "https://github.com/yunit00/game-corovans/blob/main/README.md",
-    "technology": ["HTML", "JavaScript", "Three.js"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Three.js"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Korovany"],
+    "contained_games": [
+      "Korovany"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-11T23:45:48Z",
-    "discovery_sources": ["https://github.com/yunit00/game-corovans"],
+    "discovery_sources": [
+      "https://github.com/yunit00/game-corovans"
+    ],
     "verification_notes": "README and browser source contain a playable 3D action game with an elf, village, raids, skeleton ambushes, and a mountain-fort villain; README identifies it as a Fable 5 experiment.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -8903,15 +8817,24 @@
     "repository_id": 1296705245,
     "github_url": "https://github.com/houssemeddinelassoued/haaland-quest-game",
     "evidence_url": "https://github.com/houssemeddinelassoued/haaland-quest-game",
-    "technology": ["JavaScript", "Canvas"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "JavaScript",
+      "Canvas"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Super Haaland Quest"],
+    "contained_games": [
+      "Super Haaland Quest"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-07-10T16:39:08Z",
-    "discovery_sources": ["https://github.com/houssemeddinelassoued/haaland-quest-game"],
+    "discovery_sources": [
+      "https://github.com/houssemeddinelassoued/haaland-quest-game"
+    ],
     "verification_notes": "Repository description and JavaScript source contain a playable Super Mario-style platformer and identify Claude Fable 5 among the development models.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -8928,15 +8851,24 @@
     "repository_id": 1267198567,
     "github_url": "https://github.com/PierreHoule/SpaceHo2",
     "evidence_url": "https://github.com/PierreHoule/SpaceHo2",
-    "technology": ["HTML", "JavaScript"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "HTML",
+      "JavaScript"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["SpaceHo2"],
+    "contained_games": [
+      "SpaceHo2"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-12T10:08:49Z",
-    "discovery_sources": ["https://github.com/PierreHoule/SpaceHo2"],
+    "discovery_sources": [
+      "https://github.com/PierreHoule/SpaceHo2"
+    ],
     "verification_notes": "README and browser source contain a playable browser tribute to the Spaceward Ho! 4X strategy game; repository description attributes the second attempt to Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -8953,15 +8885,24 @@
     "repository_id": 1312921730,
     "github_url": "https://github.com/IshaqAlathamneh/claude-snake-game",
     "evidence_url": "https://github.com/IshaqAlathamneh/claude-snake-game/blob/main/README.md",
-    "technology": ["TypeScript", "Browser"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "TypeScript",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Snake"],
+    "contained_games": [
+      "Snake"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-07-26T15:34:02Z",
-    "discovery_sources": ["https://github.com/IshaqAlathamneh/claude-snake-game"],
+    "discovery_sources": [
+      "https://github.com/IshaqAlathamneh/claude-snake-game"
+    ],
     "verification_notes": "README and TypeScript source contain a production-quality Snake game and state that it was created and tested with Claude Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -8978,15 +8919,25 @@
     "repository_id": 1264550197,
     "github_url": "https://github.com/markcastle/hellgrid",
     "evidence_url": "https://github.com/markcastle/hellgrid/blob/master/README.md",
-    "technology": ["HTML", "JavaScript", "Three.js"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Three.js"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["HELLGRID"],
+    "contained_games": [
+      "HELLGRID"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-10T01:33:50Z",
-    "discovery_sources": ["https://github.com/markcastle/hellgrid"],
+    "discovery_sources": [
+      "https://github.com/markcastle/hellgrid"
+    ],
     "verification_notes": "README and single-file source contain a playable Doom-style first-person shooter with procedural textures, sprites, audio, levels, and Three.js; README attributes it to Claude Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -9003,15 +8954,24 @@
     "repository_id": 1264491874,
     "github_url": "https://github.com/vivmuk/fable-forge",
     "evidence_url": "https://github.com/vivmuk/fable-forge/blob/main/README.md",
-    "technology": ["HTML", "JavaScript"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "HTML",
+      "JavaScript"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["The Fable Forge"],
+    "contained_games": [
+      "The Fable Forge"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-09T23:49:24Z",
-    "discovery_sources": ["https://github.com/vivmuk/fable-forge"],
+    "discovery_sources": [
+      "https://github.com/vivmuk/fable-forge"
+    ],
     "verification_notes": "README and browser source contain a five-chapter interactive game that teaches Fable 5 capabilities; the repository directly identifies Anthropic's Claude Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -9028,15 +8988,24 @@
     "repository_id": 1265296751,
     "github_url": "https://github.com/Alex-Caian/abstracts",
     "evidence_url": "https://github.com/Alex-Caian/abstracts/blob/main/README.md",
-    "technology": ["JavaScript", "Browser"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "JavaScript",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Abstracts"],
+    "contained_games": [
+      "Abstracts"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-10T16:37:58Z",
-    "discovery_sources": ["https://github.com/Alex-Caian/abstracts"],
+    "discovery_sources": [
+      "https://github.com/Alex-Caian/abstracts"
+    ],
     "verification_notes": "README and browser source contain a playable summoning card game where concepts take form; repository description says it was created with Claude Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -9053,15 +9022,24 @@
     "repository_id": 1265015734,
     "github_url": "https://github.com/markstent/snaketris",
     "evidence_url": "https://github.com/markstent/snaketris/blob/main/README.md",
-    "technology": ["JavaScript", "Browser"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "JavaScript",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Snaketris"],
+    "contained_games": [
+      "Snaketris"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-10T11:41:54Z",
-    "discovery_sources": ["https://github.com/markstent/snaketris"],
+    "discovery_sources": [
+      "https://github.com/markstent/snaketris"
+    ],
     "verification_notes": "README and browser source contain a hybrid Snake/Tetris game designed by Claude Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -9078,15 +9056,24 @@
     "repository_id": 1292770800,
     "github_url": "https://github.com/aarongarciah/gorillas",
     "evidence_url": "https://github.com/aarongarciah/gorillas/blob/main/README.md",
-    "technology": ["HTML", "JavaScript"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "HTML",
+      "JavaScript"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Gorillas"],
+    "contained_games": [
+      "Gorillas"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-07-07T20:46:27Z",
-    "discovery_sources": ["https://github.com/aarongarciah/gorillas"],
+    "discovery_sources": [
+      "https://github.com/aarongarciah/gorillas"
+    ],
     "verification_notes": "README and browser source contain a playable MS-DOS Gorillas-style game made in one shot by Claude Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -9103,15 +9090,25 @@
     "repository_id": 1266041824,
     "github_url": "https://github.com/xoau79/3D-Minesweeper-Game-by-Fable-5",
     "evidence_url": "https://github.com/xoau79/3D-Minesweeper-Game-by-Fable-5",
-    "technology": ["HTML", "JavaScript", "Three.js"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Three.js"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["3D Minesweeper"],
+    "contained_games": [
+      "3D Minesweeper"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-11T09:24:48Z",
-    "discovery_sources": ["https://github.com/xoau79/3D-Minesweeper-Game-by-Fable-5"],
+    "discovery_sources": [
+      "https://github.com/xoau79/3D-Minesweeper-Game-by-Fable-5"
+    ],
     "verification_notes": "Repository source contains a playable 3D Minesweeper game and the repository name directly identifies Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -9128,15 +9125,24 @@
     "repository_id": 1354075461,
     "github_url": "https://github.com/joshuakoester82/treshold-fable-5-1",
     "evidence_url": "https://github.com/joshuakoester82/treshold-fable-5-1",
-    "technology": ["HTML", "JavaScript"],
-    "model_family": ["Claude Fable 5.1"],
+    "technology": [
+      "HTML",
+      "JavaScript"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["Threshold"],
+    "contained_games": [
+      "Threshold"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-09-01T22:18:28Z",
-    "discovery_sources": ["https://github.com/joshuakoester82/treshold-fable-5-1"],
+    "discovery_sources": [
+      "https://github.com/joshuakoester82/treshold-fable-5-1"
+    ],
     "verification_notes": "Repository description and source contain a playable Atari Adventure-inspired game and identify Claude Fable 5.1.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",
@@ -9153,15 +9159,25 @@
     "repository_id": 1273236325,
     "github_url": "https://github.com/leeshinhyuk/the-rooms-public",
     "evidence_url": "https://github.com/leeshinhyuk/the-rooms-public",
-    "technology": ["HTML", "JavaScript", "Three.js"],
-    "model_family": ["Claude Fable 5"],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Three.js"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
     "method_evidence": "creator-reported",
     "game_count": 1,
-    "contained_games": ["The Rooms"],
+    "contained_games": [
+      "The Rooms"
+    ],
     "verification_status": "verified",
     "verified_on": "2026-09-09",
     "repository_created_at": "2026-06-18T10:29:26Z",
-    "discovery_sources": ["https://github.com/leeshinhyuk/the-rooms-public"],
+    "discovery_sources": [
+      "https://github.com/leeshinhyuk/the-rooms-public"
+    ],
     "verification_notes": "Repository description and browser source contain a playable horror game made with Fable 5.",
     "gauntlet_loop": false,
     "model_evidence": "creator-reported",

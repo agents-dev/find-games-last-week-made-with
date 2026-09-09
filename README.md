@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 300 verified games. Real source. No prompt-only filler.
+### 293 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-300-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-208-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-156-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-293-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-207-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-149-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,15 +19,15 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 300 games. Yes, each one links to source.**
+**Yes, that is 293 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **300** |
-| 📦 Independent repositories | **208** |
-| 🧊 Three.js, WebGL, or WebGPU games | **156** |
+| 🎮 Independently counted games | **293** |
+| 📦 Independent repositories | **207** |
+| 🧊 Three.js, WebGL, or WebGPU games | **149** |
 | 📸 Games with verified screenshot links | **1** |
 | 🧠 Games with direct prompt links | **8** |
 
@@ -37,7 +37,6 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 | Game | Score | Built with |
 | --- | ---: | --- |
-| [**ABYSS**](https://github.com/keisuke19831213-source/fable-arcade) | ⭐ **8.5** | Claude Fable 5.1 |
 | [**Airlock Escape**](https://github.com/shironagasu-ai/claude-fable5-3D-games) | ⭐ **8.5** | Claude Fable 5 |
 | [**Amp Build 1**](https://github.com/zuwasi/Baboons-Over-London) | ⭐ **8.5** | Claude Fable 5 |
 | [**Astra Dash**](https://github.com/octopus7/astracraft) | ⭐ **8.5** | GPT-6 Astra |
@@ -52,6 +51,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**Wormhole**](https://github.com/AidanHT/Wormhole) | ⭐ **8.5** | Claude Fable 5 |
 | [**Apex Formula**](https://github.com/bridge-mind/apex-formula) | ⭐ **8.0** | Claude Fable 5.1 |
 | [**Astra — Chapter I: A delivery for Gundren**](https://github.com/LucasM25-max/dnd-astra) | ⭐ **8.0** | GPT-6 Astra |
+| [**Awawa Quest**](https://github.com/Rebell-Leader/claude-game) | ⭐ **8.0** | Claude Fable 5 |
 
 ## 📸 Screenshot spotlight
 
@@ -69,7 +69,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **43 games**
+- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **36 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **29 games**
 - 💥 [Action and Shooters](#action-and-shooters) — **69 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **21 games**
@@ -81,18 +81,11 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Puzzle, Arcade, and Platformers
 
-> 🧩 **43 verified games. Ranked by evidence-based quality score.**
+> 🧩 **36 verified games. Ranked by evidence-based quality score.**
 
-- [**ABYSS**](https://github.com/keisuke19831213-source/fable-arcade) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Web Audio API · 900 MFLOPS · _confirmed_
 - [**Astra Tetris**](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris) — ⭐ **8.5/10** · GPT-6 Astra · Minecraft Java datapack, mcfunction, Python, Three.js renderer · 600 MFLOPS · _creator-reported_
-- [**GRAVITAS**](https://github.com/keisuke19831213-source/fable-arcade) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Web Audio API · 900 MFLOPS · _confirmed_
-- [**HIBIKI**](https://github.com/keisuke19831213-source/fable-arcade) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Web Audio API · 900 MFLOPS · _confirmed_
-- [**HOSHIKUZU NO MACHINA**](https://github.com/keisuke19831213-source/fable-arcade) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Web Audio API · 900 MFLOPS · _confirmed_
-- [**IGO**](https://github.com/keisuke19831213-source/fable-arcade) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Web Audio API · 900 MFLOPS · _confirmed_
-- [**ITSUTSU NO HI**](https://github.com/keisuke19831213-source/fable-arcade) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Web Audio API · 900 MFLOPS · _confirmed_
 - [**MirrorForge**](https://github.com/leonvanzyl/claude-fable-5-mirror-game) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, WebGPU, WGSL · 4.50 GFLOPS · _creator-reported_
 - [**SHOVE**](https://github.com/robss2020/claude-fable-5-having-fun) — ⭐ **8.5/10** · Claude Fable 5, Claude Opus 4.8 · Python, CLI · 120 MFLOPS · _creator-reported_
-- [**SUMI**](https://github.com/keisuke19831213-source/fable-arcade) — ⭐ **8.5/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL, Web Audio API · 900 MFLOPS · _confirmed_
 - [**Wormhole**](https://github.com/AidanHT/Wormhole) — ⭐ **8.5/10** · Claude Fable 5 · TypeScript, Vite, WebGL · 2.20 GFLOPS · _creator-reported_
 - [**Crossy Farm**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_
 - [**Fable Theft Auto 5.1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas 2D, WebGL · 900 MFLOPS · _confirmed_

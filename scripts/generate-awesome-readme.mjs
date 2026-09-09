@@ -80,7 +80,7 @@ const screenshotCount = rows.filter((row) => row.record.screenshot_urls?.length)
 
 let output = `<div align="center">\n\n`;
 output += `# 🎮 Awesome AI-Built Games\n\n`;
-output += `### 300 verified games. Real source. No prompt-only filler.\n\n`;
+output += `### ${count} verified games. Real source. No prompt-only filler.\n\n`;
 output += `[![Games](https://img.shields.io/badge/GAMES-${count}-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) `;
 output += `[![Repositories](https://img.shields.io/badge/REPOSITORIES-${repoCount}-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) `;
 output += `[![Three.js](https://img.shields.io/badge/3D%20GAMES-${threeCount}-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)\n\n`;
