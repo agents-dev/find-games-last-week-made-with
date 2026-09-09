@@ -9446,6 +9446,10 @@
     "repository_id": 1358408582,
     "github_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game",
     "evidence_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game/blob/main/README.md",
+    "live_demo_url": "https://github.com/Imirushik/sunbreak-downhill-3D-game",
+    "screenshot_urls": [
+      "https://github.com/Imirushik/sunbreak-downhill-3D-game/blob/main/media/SUNBREAK-showcase-poster.jpg"
+    ],
     "technology": [
       "Three.js",
       "TypeScript",
@@ -9457,7 +9461,7 @@
     "model_family": [
       "GPT-6 Astra"
     ],
-    "method_evidence": "creator-reported",
+    "method_evidence": "confirmed",
     "game_count": 1,
     "contained_games": [
       "SUNBREAK — Downhill Club"
@@ -9474,13 +9478,13 @@
     ],
     "verification_notes": "README documents a complete 2.3 km procedural cel-shaded BMX race with four riders, AI competition, physics, tricks, crashes, dynamic weather, replay, generated audio, controls, source modules, and ten browser gameplay/effects checks. The creator X post explicitly says GPT-6 Astra built the whole demo and the follow-up links the repository.",
     "gauntlet_loop": false,
-    "model_evidence": "creator-reported",
-    "flops_estimate_raw": 4500000000,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 7500000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Static estimate for Three.js/WebGL2 terrain clipmaps, cel-shaded multi-pass rendering, 120 Hz simulation, AI riders, physics, particles, weather, post effects, audio, and replay; not measured hardware throughput.",
     "quality_estimate_10": 9.5,
-    "quality_estimate_basis": "Exceptional scope and source quality: complete race loop, AI, physics, procedural world, effects, tests, capture harness, performance notes, and direct GPT-6 Astra attribution.",
+    "quality_estimate_basis": "Evidence-based estimate from a complete race loop, multiple AI competitors, vehicle physics, tricks, dynamic weather, high-detail rendering, replay and automated browser checks, with direct creator/model attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   },
@@ -10211,6 +10215,148 @@
     "flops_estimate_basis": "Static estimate for Unreal rendering, streamed environments, C++ gameplay systems, rhythm combat, materials, audio reactivity and native desktop GPU workload; not measured hardware throughput.",
     "quality_estimate_10": 8.5,
     "quality_estimate_basis": "Evidence-based estimate from a substantial Unreal project, explicit gameplay systems, maps, source, historical Astra checkpoint, build evidence and current verification documents.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "The Simpsons: Hit & Run — Browser Reconstruction",
+    "repository_id": 1359749320,
+    "github_url": "https://github.com/Vheissu/hit-and-run-web",
+    "evidence_url": "https://github.com/Vheissu/hit-and-run-web",
+    "live_demo_url": "https://vheissu.github.io/hit-and-run-web/",
+    "screenshot_urls": [
+      "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/homer-and-marge.jpg",
+      "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/downtown.jpg",
+      "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/waterfront.jpg",
+      "https://github.com/Vheissu/hit-and-run-web/blob/main/docs/media/kwik-e-mart.jpg"
+    ],
+    "technology": [
+      "TypeScript",
+      "Three.js",
+      "WebGL",
+      "Vite",
+      "Blender",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "The Simpsons: Hit & Run — Browser Reconstruction"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-07T04:28:54Z",
+    "discovery_sources": [
+      "https://x.com/CtrlAltDwayne/status/2096872309936287887",
+      "https://github.com/Vheissu/hit-and-run-web"
+    ],
+    "verification_notes": "The creator's X post explicitly says GPT-6 Astra built the open-source browser reconstruction and links to this repository. The repository contains a live GitHub Pages build, a Three.js runtime, seven level variants, vehicles, walking, police pursuit, missions, races, campaign progression, saves, converted assets, automated checks and a production build.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 8800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js world rendering, converted geometry and textures, vehicle and pedestrian simulation, mission logic, collision, lighting, animation and browser asset streaming; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "Evidence-based estimate from a live playable campaign reconstruction with missions, races, vehicles, walking, police pursuit, saves, large converted world data, automated checks and direct creator/model attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Saber / Descent",
+    "repository_id": 1358604961,
+    "github_url": "https://github.com/Vheissu/saber-battle",
+    "evidence_url": "https://github.com/Vheissu/saber-battle",
+    "live_demo_url": "https://vheissu.github.io/saber-battle/",
+    "screenshot_urls": [
+      "https://github.com/Vheissu/saber-battle/blob/main/screenshots/01-saber-descent-temple.png",
+      "https://github.com/Vheissu/saber-battle/blob/main/screenshots/03-saber-descent-combat.png",
+      "https://github.com/Vheissu/saber-battle/blob/main/screenshots/02-saber-descent-armory.png",
+      "https://github.com/Vheissu/saber-battle/blob/main/screenshots/04-saber-descent-blade-effects.png"
+    ],
+    "technology": [
+      "TypeScript",
+      "Three.js",
+      "WebGL2",
+      "Vite",
+      "Blender",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Saber / Descent"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T22:30:05Z",
+    "discovery_sources": [
+      "https://x.com/CtrlAltDwayne/status/2096365441472209227",
+      "https://github.com/Vheissu/saber-battle"
+    ],
+    "verification_notes": "The creator's X post says the dungeon crawler used GPT-6 Astra and that the code is open source. The repository README independently identifies GPT-6 Astra and contains a live demo, five-depth dungeon structure, combat systems, enemy behaviors, supplies, portals, tests and four screenshots.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 6100000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js/WebGL2 dungeon rendering, fog-of-war masks, animated GLB assets, combat effects, particles, lighting, enemy simulation and synthesized audio; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Evidence-based estimate from a complete multi-depth crawler with combat depth, enemy behaviors, progression, portals, live deployment, tests, screenshots and direct model attribution in both creator post and README.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "VECTOR RUSH",
+    "repository_id": 1358390115,
+    "github_url": "https://github.com/ToBeWin/vector-rush",
+    "evidence_url": "https://github.com/ToBeWin/vector-rush",
+    "live_demo_url": "https://github.com/ToBeWin/vector-rush/releases/latest",
+    "screenshot_urls": [
+      "https://github.com/ToBeWin/vector-rush/blob/main/docs/media/menu.png",
+      "https://github.com/ToBeWin/vector-rush/blob/main/docs/media/gameplay.gif",
+      "https://github.com/ToBeWin/vector-rush/blob/main/docs/media/harbor.png",
+      "https://github.com/ToBeWin/vector-rush/blob/main/docs/media/wall-ride.png",
+      "https://github.com/ToBeWin/vector-rush/blob/main/docs/media/twilight.png"
+    ],
+    "technology": [
+      "Godot 4.7.2",
+      "GDScript",
+      "Blender",
+      "Native macOS",
+      "WebGL2",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "VECTOR RUSH"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-09",
+    "repository_created_at": "2026-09-05T16:59:44Z",
+    "discovery_sources": [
+      "https://x.com/AIDREAMMAN/status/2096284215126229146",
+      "https://github.com/ToBeWin/vector-rush"
+    ],
+    "verification_notes": "The X post explicitly says GPT-6 Astra made VECTOR RUSH with Godot and Blender and links to the source. The repository contains project.godot, main.tscn, Godot 4.7.2 GDScript, a macOS release, a web export, three tracks, three AI opponents, drift, nitro, medals, saves, tests and committed gameplay media. Classified under Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 2400000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 3D rendering, procedural city and track geometry, shaders, AI opponents, vehicle simulation, weather/audio presentation and native/WebGL export; not measured hardware throughput.",
+    "quality_estimate_10": 9,
+    "quality_estimate_basis": "Evidence-based estimate from a complete racing loop with three tracks, AI opponents, drift/nitro mechanics, medal progression, native release, web export, tests, screenshots and direct creator/model attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   }

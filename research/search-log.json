@@ -586,10 +586,181 @@
         "Search GPT-6 Astra project.godot and .uproject attribution serially",
         "Inspect engine-specific project files only when they include both a playable game and model evidence"
       ]
+    },
+    {
+      "source": "Melodia incoming-link and project-file attribution checks",
+      "query_key": "incoming-links|fromage3900/MelodiaMelusinaV2|project-file|GPT-6 Astra project.godot|GPT-6 Astra .uproject|GPT6 Astra project.godot|GPT6-Astra project.godot",
+      "queries": [
+        "github.com/fromage3900/MelodiaMelusinaV2",
+        "GPT-6 Astra project.godot",
+        "GPT-6 Astra .uproject",
+        "GPT6 Astra project.godot",
+        "GPT6-Astra project.godot"
+      ],
+      "status": "completed",
+      "received_count": 103,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "Incoming-link results were self-references in Melodia plus portfolio mirrors; no new game repository was exposed. The exact and spelling-variant project-file searches returned only this collection's own research notes or zero results. Do not treat repository self-search hits as discovery evidence.",
+      "next_experiments": [
+        "Search source files for GPT-6 Astra package.json and Unity project settings",
+        "Search direct GitHub links in social catalog entries from astra-gallery",
+        "Use creator or post evidence only when it resolves to an accessible game repository"
+      ]
+    },
+    {
+      "source": "Critique of Melodia and project-file branch",
+      "query_key": "critique|incoming-links|project-file|MelodiaMelusinaV2",
+      "status": "completed",
+      "critique_score": 3.8,
+      "decision": "drop both methods as primary discovery methods; retain only for provenance checks",
+      "scores": {
+        "incoming_link_search": {
+          "novelty": 3,
+          "verification": 5,
+          "yield": 1,
+          "repeatability": 7,
+          "source_reliability": 3,
+          "overall": 3.8
+        },
+        "model_name_plus_engine_filename": {
+          "novelty": 2,
+          "verification": 4,
+          "yield": 1,
+          "repeatability": 9,
+          "source_reliability": 3,
+          "overall": 3.8
+        }
+      },
+      "note": "The critique warns that collection self-search creates circular evidence and that model-plus-engine queries miss repositories where attribution and engine files are separate. Use engine-first discovery, then inspect each retained repository for model evidence.",
+      "next_experiments": [
+        "Search Godot repositories with topic:game topic:godot archived:false fork:false",
+        "Search Unreal repositories with topic:game topic:unreal-engine archived:false fork:false",
+        "For each retained repository, inspect project.godot or .uproject separately and require explicit Astra, Opus, or Fable attribution"
+      ]
+    },
+    {
+      "source": "Engine-topic and engine-name discovery sweep",
+      "query_key": "repo-search|topic:game topic:godot|topic:game topic:unreal-engine|Astra Godot|Astra Unity|limit=100",
+      "queries": [
+        "topic:game topic:godot archived:false fork:false",
+        "topic:game topic:unreal-engine archived:false fork:false",
+        "Astra Godot",
+        "Astra Unity"
+      ],
+      "status": "completed",
+      "received_count": 213,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 4,
+      "note": "The topic queries returned broad, repetitive game-engine and catalog results rather than engine-specific model-attributed projects. Astra Godot returned three repositories: one empty, one framework, and one substantial Godot RTS without model evidence. Astra Unity returned hardware samples, name collisions, and a Unity terminal game without model evidence. Reject these candidates under the attribution gate.",
+      "next_experiments": [
+        "Search creator and catalog links for direct GitHub repositories instead of broad topic metadata",
+        "Search exact attribution in package manifests only after identifying a real game repository",
+        "Use X post evidence as a lead, but require a public GitHub source before counting"
+      ]
+    },
+    {
+      "source": "X creator-first Astra game search",
+      "query_key": "x-search|GPT-6 Astra|GPT6 Astra|game|playable|github.com|itch.io",
+      "queries": [
+        "(\"GPT-6 Astra\" OR \"GPT6 Astra\") (game OR playable) (github.com OR itch.io)",
+        "from:Im_IrushiK (game OR demo) (github.com OR itch.io)"
+      ],
+      "status": "completed",
+      "received_count": 12,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 0,
+      "note": "The authenticated X feed exposed two direct game repositories. Imirushik/sunbreak-downhill-3D-game is a complete Three.js downhill BMX racer explicitly attributed to GPT-6 Astra by its creator. Vheissu/hit-and-run-web is a live Three.js Simpsons: Hit & Run browser reconstruction explicitly attributed to GPT-6 Astra in the creator's post. GOROman/gpt-6-astra-ps1-game-benchmark was already present, and the MartinDelophy and magiccreator-ai links were catalogs or known sources.",
+      "next_experiments": [
+        "Search the X post author CtrlAltDwayne for more game and GitHub links",
+        "Search the X post author Im_IrushiK for additional direct repositories",
+        "Verify each new repository independently and remove stale rejection decisions when stronger creator evidence appears"
+      ]
+    },
+    {
+      "source": "X creator follow-up: CtrlAltDwayne",
+      "query_key": "x-search|from:CtrlAltDwayne|game|demo|github.com|itch.io|Astra|Saber Descent",
+      "queries": [
+        "from:CtrlAltDwayne (game OR demo) (github.com OR itch.io)",
+        "from:CtrlAltDwayne Astra",
+        "from:CtrlAltDwayne \"Saber Descent\" github",
+        "GitHub repository search: Saber Descent"
+      ],
+      "status": "completed",
+      "received_count": 8,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 1,
+      "note": "The creator search found Vheissu/saber-battle through the X post's Saber Descent description and a GitHub repository-name search. Its README explicitly attributes the game to GPT-6 Astra and documents a complete Three.js dungeon crawler. The same X search exposed Vheissu/emerald-bayou, a substantial airboat game, but no Astra/Opus/Fable attribution was found, so it remains rejected for this collection. Stick Fighter had only a live Railway link and no public GitHub repository in the search results.",
+      "next_experiments": [
+        "Search the Vheissu GitHub account for adjacent public game repositories",
+        "Search the X feed for the exact phrase GPT-6 Astra plus Unity, Unreal, Godot, or PlayStation",
+        "Recheck unconfirmed creator-linked games only when a direct model attribution appears"
+      ]
+    },
+    {
+      "source": "X non-browser engine search",
+      "query_key": "x-search|GPT-6 Astra|GPT6 Astra|Godot|Unity|Unreal|PlayStation|github.com",
+      "query": "(\"GPT-6 Astra\" OR \"GPT6 Astra\") (Godot OR Unity OR Unreal OR PlayStation) github.com",
+      "status": "completed",
+      "received_count": 6,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "note": "The authenticated X search found ToBeWin/vector-rush. Its creator post explicitly attributes VECTOR RUSH to GPT-6 Astra and identifies Godot plus Blender. The repository contains a complete Godot antigravity racing game, project.godot, native macOS release, web export, three tracks, AI, progression, tests and screenshots. Put it in Non-Browser Engines. Other search results were articles or catalogs without direct GitHub game sources.",
+      "next_experiments": [
+        "Run exact X searches for GPT-6 Astra plus Unity and GitHub",
+        "Run exact X searches for GPT-6 Astra plus Unreal and GitHub",
+        "Run exact X searches for GPT-6 Astra plus PlayStation and GitHub"
+      ]
+    },
+    {
+      "source": "Critique of X non-browser engine search",
+      "query_key": "critique|x-search|GPT-6 Astra|Godot|Unity|Unreal|PlayStation",
+      "status": "completed",
+      "critique_score": 7,
+      "decision": "drop the combined multi-engine query from the repeat rotation; retain X creator search as a source",
+      "scores": {
+        "novelty": 9,
+        "verification": 8,
+        "yield": 4,
+        "repeatability": 7,
+        "source_reliability": 7,
+        "overall": 7
+      },
+      "note": "The query found one useful new Godot repository, but the yield was low and X indexing is unstable. Keep the verified repository. Do not infer that one creator post independently proves every implementation detail; combine post attribution with repository evidence.",
+      "next_experiments": [
+        "Search Unity separately: (\"GPT-6 Astra\" OR \"GPT6 Astra\") Unity (game OR racing OR platformer) github.com",
+        "Search Unreal separately: (\"GPT-6 Astra\" OR \"GPT6 Astra\") (\"Unreal Engine\" OR UE5) game github.com",
+        "Search PlayStation separately: (\"GPT-6 Astra\" OR \"GPT6 Astra\") (PlayStation OR PS5 OR PS4) game github.com"
+      ]
+    },
+    {
+      "source": "Split X engine searches",
+      "query_key": "x-search|Unity|Unreal Engine|UE5|PlayStation|PS5|PS4|GPT-6 Astra|github.com",
+      "queries": [
+        "(\"GPT-6 Astra\" OR \"GPT6 Astra\") Unity (game OR racing OR platformer) github.com",
+        "(\"GPT-6 Astra\" OR \"GPT6 Astra\") (\"Unreal Engine\" OR UE5) game github.com",
+        "(\"GPT-6 Astra\" OR \"GPT6 Astra\") (PlayStation OR PS5 OR PS4) game github.com"
+      ],
+      "status": "completed",
+      "received_count": 4,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "note": "The split Unity, Unreal and PlayStation searches returned no new direct GitHub game repositories. Visible results were articles, catalogs, or unrelated model discussions. Keep the split query set as a low-yield probe, not a primary method, and do not infer that no non-browser games exist.",
+      "next_experiments": [
+        "Search creator handles from the X results directly",
+        "Inspect direct GitHub links in new Astra social posts before broadening query syntax",
+        "Run an exact Opus/Fable creator-first X search to avoid Astra-only coverage"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 328 across 285 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 331 across 288 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact model-name metadata search currently has the best yield",
     "Next serial experiment: search incoming links to Melodia Melusina, then search GPT-6 Astra project.godot and .uproject attribution",
     "Keep browser and non-browser engine games separate in README",

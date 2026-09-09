@@ -105,11 +105,6 @@
       "reason": "The repository URL returns GitHub 404 and cannot be verified as a public game source."
     },
     {
-      "repository": "https://github.com/Vheissu/hit-and-run-web",
-      "source": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
-      "reason": "The repository contains a substantial playable Three.js reconstruction, but its own README credits Codex and Claude without identifying GPT-6 Astra, Claude Opus, or Claude Fable. Do not count it under the collection constraint."
-    },
-    {
       "repository": "https://github.com/Ryan-fm/Dwellcraft",
       "source": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
       "reason": "The repository contains a real playable Babylon.js 3D home-design game, but its development record says exact GPT-6 Astra attribution awaits creator confirmation. Do not count it under the model-evidence rule."
@@ -173,6 +168,31 @@
       "repository": "https://github.com/marcusllittle/Astra-Valkyries",
       "source": "GitHub code search: Astra Unreal",
       "reason": "The repository contains a real React/TypeScript shmup, but Astra is the product or game name, not evidence of GPT-6 Astra, Claude Opus, or Claude Fable. Its Unreal roadmap describes a planned visual production layer and does not establish model attribution."
+    },
+    {
+      "repository": "https://github.com/buicongnguyen/3d_astra_godot",
+      "source": "GitHub repository search: Astra Godot",
+      "reason": "This is a substantial playable Godot 4 RTS with web export and tests, but the repository provides no explicit GPT-6 Astra, Claude Opus, or Claude Fable attribution. Astra is part of the project name and is not sufficient model evidence."
+    },
+    {
+      "repository": "https://github.com/incri7/Astrael-Godot",
+      "source": "GitHub repository search: Astra Godot",
+      "reason": "The repository has only a .gitignore and no playable source, README, project file, or model evidence."
+    },
+    {
+      "repository": "https://github.com/oliverpatrick/ad-astra-godot-framework",
+      "source": "GitHub repository search: Astra Godot",
+      "reason": "The repository describes a Godot game framework, not an independently playable game, and has no GPT-6 Astra, Claude Opus, or Claude Fable attribution."
+    },
+    {
+      "repository": "https://github.com/abuyukyi101198/astra-unity",
+      "source": "GitHub repository search: Astra Unity",
+      "reason": "The repository description identifies a Unity terminal-like game, but it has no README or explicit GPT-6 Astra, Claude Opus, or Claude Fable attribution. The Astra name alone is not sufficient evidence."
+    },
+    {
+      "repository": "https://github.com/Vheissu/emerald-bayou",
+      "source": "X search: from:CtrlAltDwayne (game OR demo) (github.com OR itch.io)",
+      "reason": "The repository is a substantial playable Three.js airboat game with missions, wildlife and a live deployment, but the creator's linked post does not attribute it to GPT-6 Astra, Claude Opus, or Claude Fable. The project is a valid game lead but remains unconfirmed for this collection."
     }
   ]
 }
