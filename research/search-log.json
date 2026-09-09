@@ -5151,6 +5151,74 @@
       },
       "critique_note": "The exact Bevy query produced two strong playable games and exposed three plausible but invalid repositories. Direct source and live-demo checks provide strong verification.",
       "critic": "existing critique agent; conservative score after completed serial review"
+    },
+    {
+      "source": "Love2D/Fable code search",
+      "query_key": "Love2D game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The authenticated GitHub code search returned only this collection's own wiki and search-log files. It returned no external Love2D game with Claude Fable evidence. Drop the exact query and exclude self-referential matches.",
+      "next_experiments": [
+        "Run a new exact native-engine query using Cocos or another unused engine/model pair",
+        "Inspect external repositories serially and verify direct gameplay source",
+        "Keep self-referential collection files excluded"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The exact query produced no external candidates. Drop it and change the engine/model partition.",
+      "critic": "existing critique agent; conservative manual score after no-candidate result"
+    },
+    {
+      "source": "Cocos/Fable code-search audit",
+      "query_key": "Cocos game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 3,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 3,
+      "unseen_count": 3,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/igrdevelop/job-hunter",
+        "https://github.com/fagemx/skinforge",
+        "https://github.com/akitaonrails/clash_of_kings_analysis"
+      ],
+      "held_repositories": [],
+      "note": "Serial inspection found no qualifying Cocos game. Job Hunter is automation software, SkinForge is an AI slot-game art pipeline with a visual theme preview, and Clash of Kings Analysis is static reverse-engineering research of an existing game. Reject all three and drop the exact search branch.",
+      "next_experiments": [
+        "Run a new exact engine-plus-model query using an unused engine or source index",
+        "Inspect external repositories serially and require actual game objectives plus direct gameplay source",
+        "Reject tools, art pipelines, analysis repositories and visual-only previews"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 7,
+        "source_quality": 6,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The search is repeatable but produced only tooling and analysis false positives. Drop it as a collection method.",
+      "critic": "existing critique agent; conservative manual score after completed serial review"
     }
   ],
   "frontier": [

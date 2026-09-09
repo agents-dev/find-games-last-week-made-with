@@ -1726,3 +1726,27 @@ The critique score is **9/10** overall: novelty **9**, yield **9**, verification
 ### Next experiment
 
 Run one serial exact native-engine query with a changed engine or model alias. Exclude engine frameworks, agent kernels, incomplete previews and model-as-player projects.
+
+### Dropped Love2D/Fable code search
+
+Run the authenticated GitHub code search `Love2D game Co-Authored-By Claude Fable`. It returns only this collection's own wiki and search-log files. It returns no external Love2D game with Fable evidence. Drop the exact query and exclude self-referential matches.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **8**, repeatability **7**, source quality **4**, and false-positive control **10**.
+
+### Next experiment
+
+Run one serial exact native-engine query using Cocos plus Claude Fable or another unused engine/model pair.
+
+### Dropped Cocos/Fable code-search audit
+
+Run the authenticated GitHub code search `Cocos game Co-Authored-By Claude Fable`. Inspect the likely external hits serially. Find no qualifying game:
+
+- [Job Hunter](https://github.com/igrdevelop/job-hunter) is job automation software.
+- [SkinForge](https://github.com/fagemx/skinforge) is an AI slot-game art pipeline. Its browser preview changes visual themes but does not prove a playable objective-based game.
+- [Clash of Kings Analysis](https://github.com/akitaonrails/clash_of_kings_analysis) is static reverse-engineering research of an existing Cocos2d-x game.
+
+Add no game record. The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **9**, repeatability **7**, source quality **6**, and false-positive control **10**. Drop the exact Cocos/Fable branch.
+
+### Next experiment
+
+Run one serial exact engine-plus-model query using an unused engine or a changed source index. Require actual objectives, gameplay source and exact Astra, Opus or Fable evidence.

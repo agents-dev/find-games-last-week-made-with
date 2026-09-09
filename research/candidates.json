@@ -580,6 +580,21 @@
       "repository": "https://github.com/percy-raskova/babylon",
       "source": "GitHub code search for Bevy game Co-Authored-By Claude Fable",
       "reason": "The Bevy preview is not yet a playable game: the README says player actions are not implemented. Reject the incomplete preview under the playable-game rule."
+    },
+    {
+      "repository": "https://github.com/igrdevelop/job-hunter",
+      "source": "GitHub code search for Cocos game Co-Authored-By Claude Fable",
+      "reason": "The repository is an autonomous job-hunting and document-generation system. It is not a game, so reject it."
+    },
+    {
+      "repository": "https://github.com/fagemx/skinforge",
+      "source": "GitHub code search for Cocos game Co-Authored-By Claude Fable",
+      "reason": "The repository is an AI-native slot-game art delivery pipeline. Its browser preview swaps visual themes but does not prove an objective-based playable game, so reject it as a visual/tooling project."
+    },
+    {
+      "repository": "https://github.com/akitaonrails/clash_of_kings_analysis",
+      "source": "GitHub code search for Cocos game Co-Authored-By Claude Fable",
+      "reason": "The repository is static privacy and behavior analysis of an existing Cocos2d-x game, not the game implementation or an AI-authored game. Reject it as analysis."
     }
   ]
 }
