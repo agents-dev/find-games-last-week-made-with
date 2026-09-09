@@ -343,6 +343,11 @@
       "repository": "https://github.com/xrjjing/BigWaterMelon",
       "source": "GitHub REST API search: GPT6 Astra game in README",
       "reason": "The repository is a WeChat Canvas port of the existing Ayi1337 Melon Lab game. It explicitly says it was migrated from the original Astra game and keeps the same physics and gameplay. Treat it as a derivative runtime, not an independent counted game, to avoid duplicate counting."
+    },
+    {
+      "repository": "https://github.com/joozio/wiz-experiments",
+      "source": "Reverse-link inspection from https://github.com/joozio/dungeon-of-opus",
+      "reason": "The repository is a large collection of AI-built interactive experiments. Dungeon of Opus is a separate source-backed game repository and was accepted. Other entries, such as Ten-ish, have source and a live demo but do not provide exact Claude Opus/Fable model evidence, so do not count the collection or those entries without direct attribution."
     }
   ]
 }

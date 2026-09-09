@@ -814,3 +814,11 @@ The serial `"Claude Opus 4.6" game in:readme` search found [Silent Hill — Nati
 Run one changed Opus/Fable language or engine partition. Inspect candidates serially. Keep material native ports only when the repository contains meaningful implementation work and direct model evidence.
 
 The critique scored the Opus query **9/10** and kept it. Novelty, verification and source quality were high. Yield was limited because only one candidate was fully inspected. Add the `playable` qualifier next to test precision against catalogs and tooling.
+
+The precision query `"Claude Opus 4.6" playable game in:readme` found [Dungeon of Opus](https://github.com/joozio/dungeon-of-opus). Its README directly credits Claude Opus 4.6 and documents a complete roguelike with procedural dungeons, turn-based combat, seven enemy types, inventory, fog of war, permadeath, a boss and a public live demo. The linked [Wiz Experiments](https://github.com/joozio/wiz-experiments) collection was inspected as a reverse-link source. Keep the standalone Dungeon repository; reject the collection and entries without exact Opus/Fable attribution.
+
+### Next experiment
+
+Run one new Opus/Fable query or reverse-link pass. Inspect each unseen repository serially, and prefer direct source plus live gameplay evidence.
+
+The critique scored the precision query **9/10** and kept it. It had one accepted game from two relevant candidates, strong primary evidence, and excellent false-positive control. Test the browser-specific wording next.

@@ -2764,10 +2764,54 @@
         "Run the serial query %22Claude Opus 4.6%22 playable game in:readme",
         "Compare novel-game yield and catalog/tool false positives"
       ]
+    },
+    {
+      "source": "GitHub repository search: Claude Opus 4.6 playable game in README",
+      "query_key": "gh-repo-search|%22Claude+Opus+4.6%22+playable+game+in%3Areadme|all|2026-09-10",
+      "status": "completed",
+      "results_inspected": 2,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 1,
+      "unseen_count": 2,
+      "overlap_ratio": 0.5,
+      "accepted_repositories": [
+        "https://github.com/joozio/dungeon-of-opus"
+      ],
+      "rejected_repositories": [
+        "https://github.com/joozio/wiz-experiments"
+      ],
+      "note": "Adding playable improved precision. The query found Dungeon of Opus, a complete source-backed roguelike with explicit Claude Opus 4.6 attribution and a public live demo. The reverse-linked Wiz Experiments repository is a broad collection; its Ten-ish entry has no exact model evidence, so the catalog and unproven contained experiments remain excluded.",
+      "next_experiments": [
+        "Inspect the next distinct Opus/Fable repository result or reverse-link seed",
+        "Prefer repositories with explicit model attribution and a direct game loop"
+      ]
+    },
+    {
+      "source": "Critique of Claude Opus 4.6 playable-game query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "claude_opus_4_6_playable_game_readme": {
+          "novelty": 8,
+          "yield": 8,
+          "verification_quality": 9,
+          "repeatability": 9,
+          "source_quality": 9,
+          "false_positive_control": 10,
+          "overall": 9,
+          "decision": "keep"
+        }
+      },
+      "note": "The critique kept the precision query. It added one complete Opus game from two relevant candidates and correctly rejected a broad experiment catalog whose contained game lacked exact model evidence.",
+      "next_experiments": [
+        "Run the serial query %22Claude Opus 4.6%22 browser game in:readme",
+        "Keep the same direct-source, attribution and game-loop checks"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 376 across 326 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 377 across 327 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

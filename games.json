@@ -12175,5 +12175,51 @@
     "quality_estimate_basis": "Very strong source and gameplay evidence, complete campaign claim, native builds, tests and explicit multi-model attribution; reduced because copyrighted game data and packaged binaries are not included.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Dungeon of Opus",
+    "repository_id": 1154889626,
+    "github_url": "https://github.com/joozio/dungeon-of-opus",
+    "game_links": [
+      "https://github.com/joozio/dungeon-of-opus/tree/main/src"
+    ],
+    "live_demo_urls": [
+      "https://wiz.jock.pl/experiments/dungeon-of-opus"
+    ],
+    "evidence_url": "https://github.com/joozio/dungeon-of-opus#features",
+    "technology": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Dungeon of Opus"
+    ],
+    "verification_status": "verified",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-02-10T22:17:09Z",
+    "published_on": "2026-02-10",
+    "discovery_sources": [
+      "https://api.github.com/search/repositories?q=%22Claude+Opus+4.6%22+playable+game+in%3Areadme",
+      "https://github.com/joozio/dungeon-of-opus"
+    ],
+    "verification_notes": "The README explicitly says Claude Opus 4.6 built the complete roguelike in one file. It documents procedural dungeons, turn-based combat, seven enemy types, inventory, fog of war, multiple floors, permadeath and a final boss. The repository contains the React/TypeScript source, local Vite launch instructions and a public live demo. The game is source-backed and directly attributed, not a prompt-only catalog entry.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 240000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static workload estimate for React UI rendering, turn-based state, procedural map generation, visibility, enemy behavior, inventory, effects and input; not measured hardware throughput.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Direct Opus attribution, complete roguelike loop, source, local run instructions and public live demo.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
