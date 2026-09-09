@@ -1,0 +1,4 @@
+.agents/
+work/
+*.tmp
+games.json.tmp

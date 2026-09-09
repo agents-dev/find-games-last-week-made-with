@@ -1,0 +1,187 @@
+{
+  "target": 300,
+  "started_with": 30,
+  "updated_on": "2026-09-09",
+  "constraints": {
+    "product": "Actual game or playable game prototype",
+    "development_method": "Creator, curator, or repository evidence for GPT-6 Astra, Claude Opus, or Claude Fable; retain Gauntlet Loop evidence where present",
+    "technology": "Any"
+  },
+  "passes": [
+    {
+      "source": "GitHub repository search",
+      "query": "gauntlet-loop",
+      "status": "completed",
+      "results_inspected": 100,
+      "new_verified": 0,
+      "note": "This supplied strong candidates already in the first 30 records and a small pending frontier."
+    },
+    {
+      "source": "GitHub code search",
+      "query": "Gauntlet Loop game",
+      "status": "rate-limited",
+      "checked_at": "2026-09-09T04:44:51Z",
+      "new_verified": 0,
+      "note": "GitHub returned HTTP 403 for the authenticated code-search rate limit."
+    },
+    {
+      "source": "SomethingBig games directory",
+      "url": "https://somethingbig.ai/games",
+      "status": "completed",
+      "listed_playable_games": 47,
+      "results_inspected": 8,
+      "new_verified": 8,
+      "note": "The directory states that its listed games came from the same Gauntlet Loop prompt. Each added repository was separately checked for an actual playable game."
+    },
+    {
+      "source": "GitHub fork network",
+      "url": "https://github.com/mshumer/Claude-of-Duty/forks",
+      "status": "completed",
+      "results_inspected": 100,
+      "new_verified_related": 46,
+      "note": "Each selected repository is a GitHub-confirmed fork of the source-verified FPS. They are retained as verified_related, never as independent Loop runs."
+    },
+    {
+      "source": "Reverse-link web search",
+      "query": "https://github.com/mshumer/Claude-of-Duty awesome list",
+      "status": "completed",
+      "results_inspected": 12,
+      "new_verified": 0,
+      "note": "No useful awesome list referenced the seed directly. Results were news digests, mirrors, and discussion pages."
+    },
+    {
+      "source": "Three.js curated-list expansion",
+      "status": "completed",
+      "lists_inspected": [
+        "https://github.com/Patel230/sample-games",
+        "https://github.com/proyecto26/awesome-jsgames",
+        "https://github.com/AxiomeCG/awesome-threejs",
+        "https://github.com/michelpereira/awesome-open-source-games",
+        "https://github.com/leereilly/games"
+      ],
+      "new_verified": 0,
+      "note": "These lists have many Three.js or JavaScript games, but no new repository with a verified Gauntlet Loop connection."
+    },
+    {
+      "source": "GitHub repository search",
+      "query": "Fable 5",
+      "status": "completed",
+      "results_inspected": 100,
+      "new_verified": 30,
+      "note": "Serial repository inspection found playable Fable 5/Fable 5.1 games and collections. Non-games, visual-only scenes, empty repositories, catalogs, and skills were rejected."
+    },
+    {
+      "source": "GitHub repository search",
+      "query": "claude fable",
+      "status": "completed",
+      "results_inspected": 100,
+      "new_verified": 6,
+      "note": "Serial inspection found direct game repositories including SHOVE, Cube Basher, football, and additional game collections."
+    },
+    {
+      "source": "GitHub repository search",
+      "query": "opus5",
+      "status": "completed",
+      "results_inspected": 100,
+      "new_verified": 8,
+      "note": "Serial inspection found Opus 5 game repositories including Malandro, Starfall Scavenger, Deephaul, Operation Blackout, AEON DRIFT, Gura Gura Iseki, and Neon Overdrive."
+    },
+    {
+      "source": "Astra curated-list expansion",
+      "lists_inspected": [
+        "https://github.com/xianyu110/awesome-gpt-6-astra",
+        "https://github.com/magiccreator-ai/awesome-gpt-6-astra"
+      ],
+      "status": "completed",
+      "new_verified": 8,
+      "note": "Direct repository links were traced from both Astra catalogs. Catalogs and visual-only demos were not counted; subgames were counted only when the repository contains source, controls, and objectives."
+    },
+    {
+      "source": "GitHub repository search",
+      "query": "Astra --created 2026-09-09",
+      "status": "completed",
+      "results_inspected": 12,
+      "new_verified": 1,
+      "note": "Serial inspection found Ember Run. Several same-day Astra-named repositories were rejected as empty, tests, tools, scenes, or non-game projects. GPT-6, GPT6, and GPT Astra wording was accepted as the same Astra family when the evidence was explicit."
+    },
+    {
+      "source": "GitHub repository search",
+      "query": "GPT-6 --created 2026-09-09",
+      "status": "completed",
+      "results_inspected": 10,
+      "new_verified": 1,
+      "note": "Serial inspection found Astra Tetris. The repository contains a complete Minecraft datapack game, source, controls, tests, and explicit Astra build evidence."
+    },
+    {
+      "source": "GitHub repository search",
+      "query": "Fable --created 2026-09-09",
+      "status": "completed",
+      "results_inspected": 10,
+      "new_verified": 0,
+      "note": "No additional same-day Fable game passed source and attribution checks; existing Fable 5.1 Games was already recorded."
+    },
+    {
+      "source": "GitHub repository search",
+      "query": "Opus --created 2026-09-09",
+      "status": "completed",
+      "results_inspected": 5,
+      "new_verified": 0,
+      "note": "No same-day Opus game passed the actual-game and attribution checks; the 3D terrarium was an interactive scene, not a game."
+    },
+    {
+      "source": "Reverse-link Reddit search",
+      "query": "site:reddit.com GPT-6 Astra game GitHub",
+      "status": "completed",
+      "results_inspected": 6,
+      "new_verified": 1,
+      "note": "A same-day Reddit creator post linked No AI's Sky. The repository was created on 2026-09-08, but the game and GitHub link were published by the creator on 2026-09-09."
+    },
+    {
+      "source": "GitHub repository search",
+      "query": "gpt6 --created 2026-09-09",
+      "status": "completed",
+      "results_inspected": 8,
+      "new_verified": 0,
+      "note": "The no-hyphen GPT6 alias returned interactive scenes, a hackathon repository, and non-game projects; no additional game passed source and attribution checks."
+    },
+    {
+      "source": "GH Archive hourly repositories and pushes",
+      "date": "2026-09-09",
+      "hours_inspected": [0,1,2,3,4,5,6,7,8,9],
+      "status": "completed_through_hour_9",
+      "new_verified": 2,
+      "fresh_activity_game_units": 4,
+      "note": "Serial inspection of GH Archive found same-day active Astra-inferred games dnd-astra and astra-tomb-raider-test, plus same-day activity for existing verified games Coro Solto and World of ClaudeCraft. The archive had not published hour 10 at the check time."
+    },
+    {
+      "source": "GH Archive public-event and model-text search",
+      "date": "2026-09-09",
+      "hours_inspected": [0,1,2,3,4,5,6,7,8,9],
+      "status": "completed_through_hour_9",
+      "new_verified": 0,
+      "note": "Public-event and event-text searches returned scenes, tools, and non-game repositories. Lunar Canyon Ridge Race was a real game but its metadata identified a Gemini server capability, not Astra, Opus, or Fable."
+    },
+    {
+      "source": "GH Archive availability check",
+      "date": "2026-09-09",
+      "hours_checked": [10,11],
+      "status": "not_published",
+      "new_verified": 0,
+      "note": "Serial HTTP checks at 2026-09-09T10:33:44Z returned 404 for both hour 10 and hour 11. Keep the tenth fresh-game slot open until a later archive file or a direct creator source becomes available."
+    },
+    {
+      "source": "GitHub repository search expansion",
+      "queries": ["Claude Fable game", "Claude Opus game", "Fable 5 game"],
+      "status": "completed",
+      "new_verified": 91,
+      "new_game_units": 92,
+      "note": "Serial repository metadata, README, source-tree, and entry-point inspection expanded the collection to 300 unique counted game units. Duplicate canonical URLs were removed before final validation."
+    }
+  ],
+  "frontier": [
+    "Target met: 300 independently counted game units across 261 unique repository records",
+    "Fresh GH Archive target: 9 qualifying game units found; hours 10 and 11 were not published at the final check, so keep the tenth slot open",
+    "Keep future additions serial and require actual game plus Astra, Opus, or Fable evidence",
+    "Do not count unchanged forks, catalogs, skills, visual-only scenes, benchmarks, or generic AI-agent projects"
+  ]
+}
