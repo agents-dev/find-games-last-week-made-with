@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 436 verified games. Real source. No prompt-only filler.
+### 443 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-436-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-321-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-189-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-443-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-328-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-189-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,17 +19,17 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 436 games. Yes, each one links to source.**
+**Yes, that is 443 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **436** |
-| 📦 Independent repositories | **321** |
+| 🎮 Independently counted games | **443** |
+| 📦 Independent repositories | **328** |
 | 🧊 Three.js, WebGL, or WebGPU games | **189** |
-| 🛠️ Non-browser engine games | **64** |
-| 📸 Games with verified screenshot links | **57** |
+| 🛠️ Non-browser engine games | **71** |
+| 📸 Games with verified screenshot links | **58** |
 | 🧠 Games with direct prompt links | **17** |
 
 ## 🏆 Top-rated picks
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **64 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **71 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **39 games**
 - 💥 [Action and Shooters](#action-and-shooters) — **94 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **36 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **64 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **71 verified games. Ranked by evidence-based quality score.**
 
 - [**Gravity Box — Campaign 100**](https://github.com/nghienvothuat-a11y/GravityBox) — ⭐ **9.4/10** · GPT-6 Astra, GPT-5.6 Sol · Unity 6000.3.19f1, C#, Rigidbody physics, Native Android, Native macOS, Windows editor · 5 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C010.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C050.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Mac/C100.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Images/Level16/Coop16BothOut.png)
 - [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) — ⭐ **9.3/10** · GPT-6 Astra, Codex · Godot 4.7.2, GDScript, Blender, GLB/glTF, Native Linux, Windows export, Android preview · 7 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/marius4lui/NULLSPACE/blob/main/docs/images/environment-preview.png)
@@ -101,6 +101,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Silent Hill**](https://github.com/SlickAmogus/silent-hill-decomp) — ⭐ **8.8/10** · Claude Opus 4.6, Claude Opus 4.7, Claude Fable 5.1 · C, C++, PsyCross, SDL2, OpenAL, Native Windows, Native Linux, Native macOS · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/SlickAmogus/silent-hill-decomp/tree/pc-port/pc_port) · [▶️ play](https://sh1pc.com)
 - [**Agentic APAR Demo**](https://github.com/fathahnoor/AgenticAPARDemo) — ⭐ **8.7/10** · GPT-6 Astra, Codex · Unity 6.0.6f1, C#, URP 17.6, Unity WebGL, Browser, Windows · 3.50 GFLOPS · _confirmed_ · [▶️ play](https://fathahnoor.github.io/AgenticAPARDemo/)
 - [**DECWAR**](https://github.com/erictfree/DECWAR) — ⭐ **8.7/10** · GPT-6 Astra · TypeScript, Node.js, TCP/Telnet, Terminal, Native server · 100 MFLOPS · _confirmed_
+- [**Katan3D (Hexland)**](https://github.com/kimotomura-0101/hexland) — ⭐ **8.7/10** · Claude Opus 4.6 · Unity 6, C#, 3D, Native · 1.30 GFLOPS · _confirmed_ · [🔗 files](https://github.com/kimotomura-0101/hexland/tree/main/Assets)
 - [**Blind Arena**](https://github.com/Ares2023/BlindArena) — ⭐ **8.6/10** · Claude Opus 4.8 · Unity, C#, Native · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Ares2023/BlindArena/blob/main/Assets/Scenes/Main.unity)
 - [**morBreaker**](https://github.com/KingMordas/mor-breaker) — ⭐ **8.6/10** · Claude Opus 4.8 · Unity 6, C#, URP, Native Windows, WebGL · 500 MFLOPS · _confirmed_ · [🔗 files](https://github.com/KingMordas/mor-breaker/tree/main/Assets)
 - [**Astra Tetris**](https://github.com/Ni-Cobra/GPT-6-Astra-Minecraft-Datapack-Tetris) — ⭐ **8.5/10** · GPT-6 Astra · Minecraft Java datapack, mcfunction, Python, Three.js renderer · 600 MFLOPS · _creator-reported_
@@ -108,9 +109,12 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Calude Kodo (狩人行動)**](https://github.com/GOROman/calude-famicom-game) — ⭐ **8.5/10** · Claude Fable 5 · 6502 Assembly, C, cc65, NES / Famicom, WASM emulator, Native console · 5 MFLOPS · _confirmed_ · [▶️ play](https://goroman.github.io/cluade-famicom-emu/?pin=0&debug=1&rom=https://raw.githubusercontent.com/GOROman/calude-famicom-game/main/roms/50-coin-shine.nes) · [📸 screenshot](https://github.com/GOROman/calude-famicom-game/blob/main/docs/title_screen.png) · [📸 screenshot](https://github.com/GOROman/calude-famicom-game/blob/main/docs/screenshot.png) · [📸 screenshot](https://github.com/GOROman/calude-famicom-game/blob/main/docs/boss_fight.png)
 - [**Math Mage**](https://github.com/Nakamuro-unl/GodotActionGame) — ⭐ **8.5/10** · Claude Opus 4.6 · Godot 4.6, GDScript, Native, Web export · 700 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Nakamuro-unl/GodotActionGame/tree/main/ingame)
 - [**Melodia Melusina**](https://github.com/fromage3900/MelodiaMelusinaV2) — ⭐ **8.5/10** · GPT-6 Astra · Unreal Engine 5.8, C++, Blueprints, Blender, Native desktop · 5.20 GFLOPS · _confirmed_
+- [**Pulse Highway**](https://github.com/bccdon/musicGameUnity) — ⭐ **8.5/10** · Claude Opus 4.6 · Unity, C#, Universal Render Pipeline, Native · 1 GFLOPS · _confirmed_ · [🔗 files](https://github.com/bccdon/musicGameUnity/tree/main/Assets/Scenes)
 - [**SHOVE**](https://github.com/robss2020/claude-fable-5-having-fun) — ⭐ **8.5/10** · Claude Fable 5, Claude Opus 4.8 · Python, CLI · 120 MFLOPS · _creator-reported_
 - [**The Free Game**](https://github.com/LucasMarquesShiva/the-free-game) — ⭐ **8.5/10** · GPT-6 Astra · Godot 4.7.2, GDScript, Web export, 3D simulation · 1.10 GFLOPS · _creator-reported_
 - [**Arena Shooter 3D**](https://github.com/UniverseKing4/arena-shooter-3d) — ⭐ **8.4/10** · Claude Opus 4.6 · Kotlin, Android, OpenGL ES 2.0, Native mobile · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/UniverseKing4/arena-shooter-3d)
+- [**BurgerStacker**](https://github.com/skyeolleh/BurgerStacker) — ⭐ **8.4/10** · Claude Opus 4.6 · Unity 6, C#, Universal Render Pipeline, Native · 950 MFLOPS · _confirmed_ · [🔗 files](https://github.com/skyeolleh/BurgerStacker/tree/main/Assets/BurgerStacker)
+- [**Classic Concentration**](https://github.com/luvcal1/classic-concentration) — ⭐ **8.4/10** · Claude Opus 4.6 · Unity 6, C#, Native mobile · 600 MFLOPS · _confirmed_ · [🔗 files](https://github.com/luvcal1/classic-concentration/tree/main/Assets/Scenes)
 - [**Unity Zombie Shooter**](https://github.com/danius123q5-creator/danich_game) — ⭐ **8.4/10** · Claude Opus 4.8 · Unity, C#, Universal Render Pipeline, Native · 1.40 GFLOPS · _confirmed_ · [🔗 files](https://github.com/danius123q5-creator/danich_game/blob/main/Assets/Scenes/SampleScene.unity)
 - [**Zombie Lane Runner**](https://github.com/vi-o-al-ai/claude_playground) — ⭐ **8.4/10** · Claude Opus 4.6 · Godot 4.6, GDScript, Web export, Browser · 800 MFLOPS · _confirmed_at_repository_level_ · [🔗 files](https://github.com/vi-o-al-ai/claude_playground/tree/main/games/godot/runner) · [▶️ play](https://vi-o-al-ai.github.io/claude_playground/games/runner/)
 - [**Blackjack!**](https://github.com/kevicency/KumoWare) — ⭐ **8.3/10** · Claude Opus 4.6 · Godot 4.6, GDScript, Native · 350 MFLOPS · _confirmed_ · [🔗 files](https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/blackjack_game.gd)
@@ -120,13 +124,16 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**JE Trivia**](https://github.com/johankiilavirta/jeopardy) — ⭐ **8.2/10** · Claude Opus 4.6 · TypeScript, React Native, Expo, iOS, Native · 400 MFLOPS · _confirmed_ · [🔗 files](https://github.com/johankiilavirta/jeopardy/tree/main/src)
 - [**Milady's Knight: Blightfall**](https://github.com/crousty24-bit/Milady-s-Knight-godot) — ⭐ **8.2/10** · GPT-6 Astra · Godot 4.5.1, GDScript, Native desktop · 900 MFLOPS · _confirmed_
 - [**Minesweeper**](https://github.com/Fable-11/minesweeper) — ⭐ **8.2/10** · Claude Opus 4.6 · Python, Pygame, Native desktop · 450 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Fable-11/minesweeper)
+- [**SciShootR**](https://github.com/Scottcjn/SciShootR) — ⭐ **8.2/10** · Claude Opus 4.6 · Unity, C#, Native · 750 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Scottcjn/SciShootR/tree/main/Assets/Scenes)
 - [**Stack!**](https://github.com/kevicency/KumoWare) — ⭐ **8.2/10** · Claude Opus 4.6 · Godot 4.6, GDScript, Native · 500 MFLOPS · _confirmed_ · [🔗 files](https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/stack_game.gd)
 - [**Unity Puzzle Game**](https://github.com/MahoHayashi/UnityPuzzle) — ⭐ **8.1/10** · Claude Opus 4.8 · Unity, C#, Native · 550 MFLOPS · _confirmed_ · [🔗 files](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Scenes/Main.unity) · [📸 screenshot](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Goal.png) · [📸 screenshot](https://github.com/MahoHayashi/UnityPuzzle/blob/main/Assets/Images/Block.png)
 - [**Advanced Daisenryaku PC**](https://github.com/eric-wen-dev-it/AdvancedDaisenryaku) — ⭐ **8.0/10** · GPT-6 Astra · C++, C++20, C17, Win32, Direct2D, DirectWrite, XAudio2, Native Windows · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/eric-wen-dev-it/AdvancedDaisenryaku/tree/main/src) · [📸 screenshot](https://github.com/eric-wen-dev-it/AdvancedDaisenryaku/blob/main/docs/original_preview.png)
+- [**Basketball Game**](https://github.com/quangpham2803/Basketball-Game) — ⭐ **8.0/10** · Claude Opus 4.6 · Unity, C#, Native · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/quangpham2803/Basketball-Game/tree/main/Assets)
 - [**Gallicus 2.0**](https://github.com/Faratas410/Gallicus-2.0) — ⭐ **8.0/10** · GPT-6 Astra · Godot, GDScript, Forward+, Windows, Steam target · 1.80 GFLOPS · _creator-reported_
 - [**Reverse Loving — Gnivol**](https://github.com/trieuwu/Gnivol) — ⭐ **8.0/10** · Claude Opus 4.6 · Java, LibGDX, Desktop export, Native platform · 500 MFLOPS · _confirmed_ · [🔗 files](https://github.com/trieuwu/Gnivol)
 - [**FW16 Pong Wars**](https://github.com/boobcactus/fw16-pongwars) — ⭐ **7.8/10** · Claude Opus 4.6 · Rust, Native desktop, Windows, Framework Laptop 16 LED Matrix · 120 MFLOPS · _confirmed_ · [🔗 files](https://github.com/boobcactus/fw16-pongwars) · [📸 screenshot](https://github.com/user-attachments/assets/85d59a7b-30c6-42e0-a397-b23e60094e47)
 - [**Geometry Quest**](https://github.com/sly-the-fox/geometry-quest) — ⭐ **7.8/10** · Claude Opus 4.7 · Godot 4.6.2, GDScript, Native · 650 MFLOPS · _confirmed_ · [🔗 files](https://github.com/sly-the-fox/geometry-quest/tree/main/scripts)
+- [**Unity Puzzle Game Prototype**](https://github.com/Antivortex/omg-test) — ⭐ **7.8/10** · Claude Opus 4.6 · Unity, C#, Native · 500 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Antivortex/omg-test/tree/main/Assets/Game) · [📸 screenshot](https://github.com/Antivortex/omg-test/blob/main/Assets/Game/Resources/PuzzleImages/puzzle_01.jpg)
 - [**GemMatch**](https://github.com/dylanmtaylor/gemmatch) — ⭐ **7.5/10** · Claude Opus 4.6 · Godot 4, GDScript · 350 MFLOPS · _creator-reported_
 - [**NEON DAWN // 夜明け前線**](https://github.com/bannzai/godotpractice) — ⭐ **7.5/10** · GPT-6 Astra · Godot 4.7, GDScript, GL Compatibility, Desktop export, Web export · 300 MFLOPS · _creator-reported_
 - [**Neon Overdrive**](https://github.com/adisagar2003/neon-top-down-shooter) — ⭐ **7.5/10** · Claude Opus 5 · Godot 4.7, GDScript · 380 MFLOPS · _creator-reported_

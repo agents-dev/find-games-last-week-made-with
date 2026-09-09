@@ -1237,3 +1237,25 @@ The critique agent scores this method **9/10** overall: novelty **9**, yield **9
 ### Next experiment
 
 Run the same patch-level Unity audit for Claude Opus 4.6 separately from Opus 4.8. Require gameplay-relevant Unity changes plus direct attribution. Then inspect Unreal and other native-engine aliases serially.
+
+### Exact Opus 4.6 Unity game commit audit
+
+Run the serial GitHub commit search `Unity game Co-Authored-By Claude Opus 4.6`. Inspect each commit page and project-file list. Accept:
+
+- [Basketball Game](https://github.com/quangpham2803/Basketball-Game) — Unity basketball project with scenes and basketball assets.
+- [Pulse Highway](https://github.com/bccdon/musicGameUnity) — Unity rhythm game with a 24-level campaign, procedural audio, five-lane gameplay, bootstrap scene and source scripts.
+- [Katan3D (Hexland)](https://github.com/kimotomura-0101/hexland) — Unity 6 Catan-style 3D board game with AI opponents, exploration, scenes and board/tile assets.
+- [Classic Concentration](https://github.com/luvcal1/classic-concentration) — Unity 6 mobile game with MainMenu/GameScene, board/card logic, puzzle database, game state, audio and solve UI.
+- [SciShootR](https://github.com/Scottcjn/SciShootR) — Unity 2D shooter with LevelsScene/MainMenu, player/enemy/spawner/wave/session scripts, power-ups, damage and score systems.
+- [BurgerStacker](https://github.com/skyeolleh/BurgerStacker) — Unity 6 URP burger-stacking game with scenes, ingredient prefabs/data, HUD and customer reactions.
+- [Unity Puzzle Game Prototype](https://github.com/Antivortex/omg-test) — Unity puzzle prototype with a game assembly, puzzle start flow, puzzle image resources and game UI/core source.
+
+Each cited commit page shows a direct `Co-Authored-By: Claude Opus 4.6` trailer. This pass adds seven source-verified native game units and raises the collection to 443 units across 380 repositories. Keep these in the non-browser engine category.
+
+### Critique result
+
+The critique agent scores this audit **10/10** overall: novelty **10**, yield **10**, verification quality **10**, repeatability **9**, source quality **10**, and false-positive control **10**. Keep it.
+
+### Next experiment
+
+Perform serial build or startup validation on the seven repositories. Record which projects are source-verified only and which also run successfully. Then search Unreal and other native-engine aliases serially.

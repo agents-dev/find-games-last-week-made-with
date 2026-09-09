@@ -14432,5 +14432,297 @@
     "quality_estimate_basis": "Large coherent Unity shooter source with scene, combat, AI, weapons, vehicles and multiplayer-oriented systems, backed by direct Opus 4.8 attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Basketball Game",
+    "github_url": "https://github.com/quangpham2803/Basketball-Game",
+    "game_links": [
+      "https://github.com/quangpham2803/Basketball-Game/tree/main/Assets",
+      "https://github.com/quangpham2803/Basketball-Game/tree/main/Assets/Scenes"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/quangpham2803/Basketball-Game/commit/4a2da73f35f835166efde512b510989783a7501b",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity",
+      "C#",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Basketball Game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/quangpham2803/Basketball-Game"
+    ],
+    "verification_notes": "The cited commit is titled Basketball Game Unity project and contains a Unity project with basketball materials/assets, scenes, scripts and project settings. The commit page shows a direct Co-Authored-By: Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity 3D rendering, ball physics, player input, scene objects and basketball interactions; not measured hardware throughput.",
+    "quality_estimate_10": 8.0,
+    "quality_estimate_basis": "Unity 6 basketball project with source assets/scenes and direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Pulse Highway",
+    "github_url": "https://github.com/bccdon/musicGameUnity",
+    "game_links": [
+      "https://github.com/bccdon/musicGameUnity/tree/main/Assets/Scenes",
+      "https://github.com/bccdon/musicGameUnity/tree/main/Assets/Scripts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/bccdon/musicGameUnity/commit/f0e50ae4269d8815635a101dda8b801ab5a93d61",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity",
+      "C#",
+      "Universal Render Pipeline",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Pulse Highway"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/bccdon/musicGameUnity"
+    ],
+    "verification_notes": "The cited initial commit is titled Pulse Highway Unity rhythm game and describes a 24-level campaign, procedural audio and five-lane gameplay. It contains Unity bootstrap scenes, editor/build scripts and game source. The commit page shows a direct Co-Authored-By: Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1000000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity rendering, five-lane timing, procedural audio, level state and input evaluation; not measured hardware throughput.",
+    "quality_estimate_10": 8.5,
+    "quality_estimate_basis": "24-level rhythm-game scope, five-lane gameplay, procedural audio and direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Katan3D (Hexland)",
+    "github_url": "https://github.com/kimotomura-0101/hexland",
+    "game_links": [
+      "https://github.com/kimotomura-0101/hexland/tree/main/Assets",
+      "https://github.com/kimotomura-0101/hexland/tree/main/Assets/Scenes"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/kimotomura-0101/hexland/commit/e0ca560a8aacfd33986cee01be7fffdeaacb5f8e",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity 6",
+      "C#",
+      "3D",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Katan3D (Hexland)"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/kimotomura-0101/hexland"
+    ],
+    "verification_notes": "The initial commit is titled Katan3D (Hexland) project and describes a Unity 6 Catan-style 3D board game with AI opponents and exploration. The project contains Unity scenes, board/building/tile assets and game source. The commit page shows a direct Co-Authored-By: Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity 3D board rendering, AI turns, hex-grid state, resource rules and camera/UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "Catan-style 3D board-game scope with AI opponents, exploration, native Unity source and direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Classic Concentration",
+    "github_url": "https://github.com/luvcal1/classic-concentration",
+    "game_links": [
+      "https://github.com/luvcal1/classic-concentration/tree/main/Assets/Scenes",
+      "https://github.com/luvcal1/classic-concentration/tree/main/Assets/Scripts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/luvcal1/classic-concentration/commit/666c1de132e375501949741bc15c73cf10299f3d",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity 6",
+      "C#",
+      "Native mobile"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Classic Concentration"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/luvcal1/classic-concentration"
+    ],
+    "verification_notes": "The initial commit is titled Classic Concentration mobile game for Unity 6. It contains MainMenu and GameScene scenes, board manager, panel/card logic, game manager/state, puzzle database/rebus puzzle scripts, prize data, audio manager and solve UI. The commit page shows a direct Co-Authored-By: Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity mobile UI, board/card rendering, puzzle state, audio and scene transitions; not measured hardware throughput.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Complete mobile game structure with board, puzzle database, scenes, state flow and direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "SciShootR",
+    "github_url": "https://github.com/Scottcjn/SciShootR",
+    "game_links": [
+      "https://github.com/Scottcjn/SciShootR/tree/main/Assets/Scenes",
+      "https://github.com/Scottcjn/SciShootR/tree/main/Assets/Scripts"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Scottcjn/SciShootR/commit/1205c7acfbca9b769f060b0eee5248c32cec0826",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity",
+      "C#",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "SciShootR"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/Scottcjn/SciShootR"
+    ],
+    "verification_notes": "The initial commit is titled SciShootR Unity 2D shooter source and describes the project as formerly Starship Shooter. It contains LevelsScene and MainMenu scenes plus Player, Enemy, EnemySpawner, WaveConfig, GameSession, power-up, damage, score and scene-loading scripts. The commit page shows a direct Co-Authored-By: Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 750000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity 2D shooter rendering, enemy waves, projectile/damage logic, power-ups and score state; not measured hardware throughput.",
+    "quality_estimate_10": 8.2,
+    "quality_estimate_basis": "Dedicated shooter scenes and gameplay scripts with waves, enemies, player, damage and scoring, plus direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "BurgerStacker",
+    "github_url": "https://github.com/skyeolleh/BurgerStacker",
+    "game_links": [
+      "https://github.com/skyeolleh/BurgerStacker/tree/main/Assets/BurgerStacker",
+      "https://github.com/skyeolleh/BurgerStacker/tree/main/Assets/BurgerStacker/Scenes"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/skyeolleh/BurgerStacker/commit/2f2174ad22fbdb26551b485f65415426a5c2ab1a",
+    "screenshot_urls": [],
+    "technology": [
+      "Unity 6",
+      "C#",
+      "Universal Render Pipeline",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "BurgerStacker"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/skyeolleh/BurgerStacker"
+    ],
+    "verification_notes": "The initial commit is titled BurgerStacker game project and describes a casual burger stacking game built with Unity 6 URP. It contains BurgerStacker scenes, ingredient prefabs and ScriptableObjects, game configuration, burger preview/HUD/customer reaction UI and editor setup scripts. The commit page shows a direct Co-Authored-By: Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 950000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity URP rendering, ingredient physics, stacking, customer reactions, HUD and scene state; not measured hardware throughput.",
+    "quality_estimate_10": 8.4,
+    "quality_estimate_basis": "Coherent Unity 6 game project with ingredients, prefabs, gameplay configuration, HUD and customer-reaction systems, plus direct Opus 4.6 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Unity Puzzle Game Prototype",
+    "github_url": "https://github.com/Antivortex/omg-test",
+    "game_links": [
+      "https://github.com/Antivortex/omg-test/tree/main/Assets/Game",
+      "https://github.com/Antivortex/omg-test/tree/main/Assets/Game/Resources/PuzzleImages"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Antivortex/omg-test/commit/7b5506c6abc81973bca1eb365c27b3298fec790d",
+    "screenshot_urls": [
+      "https://github.com/Antivortex/omg-test/blob/main/Assets/Game/Resources/PuzzleImages/puzzle_01.jpg"
+    ],
+    "technology": [
+      "Unity",
+      "C#",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Unity Puzzle Game Prototype"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for Unity game Co-Authored-By Claude Opus 4.6",
+      "https://github.com/Antivortex/omg-test"
+    ],
+    "verification_notes": "The initial commit is titled Unity puzzle game prototype. It contains a Game assembly, AppController, puzzle start popup model/presenter/view, puzzle image resources and related game UI/core source. The commit page shows a direct Co-Authored-By: Claude Opus 4.6 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Unity UI, puzzle image rendering, popup state and application/game flow; not measured hardware throughput.",
+    "quality_estimate_10": 7.8,
+    "quality_estimate_basis": "Source-backed puzzle prototype with game assembly, puzzle images, popup flow and direct Opus 4.6 attribution; prototype scope remains limited.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
