@@ -1293,3 +1293,28 @@ The critique agent scores this audit **9/10** overall: novelty **10**, yield **1
 ### Next experiment
 
 Run serial build or startup validation for these nine repositories. Record which are source-verified only and which compile, launch or pass their tests. Then retry Unreal with the strict implementation filter.
+
+### Pygame native game commit audit
+
+Run the serial GitHub search `Pygame game Co-Authored-By Claude Opus`. Accept:
+
+- [Pygame Chess Bot](https://github.com/Goodest-ai/chess-bot) — Pygame chess UI and move-generation engine.
+- [Tiny Baby Snake](https://github.com/thanhkaist/tiny-baby-snake) — Snake with menus, pause, wrap-around, high score persistence and tests.
+- [Cờ Caro](https://github.com/pMplayerI/cocarovn) — Pygame Gomoku/Caro board, rules and game source.
+- [2048](https://github.com/alanwengyh-art/2048) — Pygame 2048 implementation.
+- [Pygame Tetris](https://github.com/fmam0126/TetrisPython) — Pygame Tetris source.
+- [Gomoku](https://github.com/wshen-ai/game-wuzi) — 15x15 board, win detection, AI, renderer and UI.
+- [Battle City](https://github.com/401367513/Claud-) — Pygame tank game with a runnable main entrypoint.
+- [CRITICAL HIT](https://github.com/thequantummenece/Critical_Hit) — 10-fighter Pygame-ce fighting game with arcade, local, online, combat, AI, scenes, netcode and tests.
+- [Chiki Chase](https://github.com/tzelynn/chikichase) — Pygame chase source and assets in `ancient_ref/pygame_chiki_chase.py`.
+- [Time Traveller's Dilemma](https://github.com/PrathyayPGM-ALT/Time-Traveller-s-Dilemma) — Pygame-ce narrative game with procedural eras, deduction puzzles, save state, achievements, assets and smoke tests.
+
+Check the current branch and exact source path before counting. The first source link for each accepted repository returned HTTP 200. The Basketball candidate was removed after its current tree showed no game source file. This pass adds ten source-verified native game units and raises the collection to 462 units across 399 repositories. Opus 4.7 and Opus 4.8 remain separate.
+
+### Critique result
+
+The critique agent scores this audit **9/10** overall: novelty **10**, yield **10**, verification quality **9**, repeatability **9**, source quality **10**, and false-positive control **10**. Keep it. Runtime execution remains the main evidence gap.
+
+### Next experiment
+
+Run serial runtime validation for the accepted repositories. Install or inspect dependencies, launch the game or run tests, and record source-verified versus actually runnable games.
