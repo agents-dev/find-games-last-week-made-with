@@ -1603,3 +1603,20 @@ The critique agent scores this experiment **4/10** overall: novelty **4**, yield
 ### Next experiment
 
 Run one serial README/list-focused search using a changed native engine and one model alias. Inspect each unseen repository, save verified games immediately, and reject catalogs, tools, visual-only scenes and broken URLs.
+
+### Dropped README/list-focused Godot experiment
+
+Run the authenticated GitHub code search `Godot "Claude Fable" game`. Use [Vibe Game Development Handbook](https://github.com/asashiki/vibe-game) as a list source and inspect its direct project links one at a time.
+
+Find these links:
+
+- [Awesome Claude Fable 5](https://github.com/Anil-matcha/awesome-claude-fable-5) — reject it as a use-case catalog.
+- [Midwinter Decode](https://github.com/DrEvil-TitaniumHelix/midwinter-decode) — hold it because the repository is inaccessible.
+- [LEGO Stylized Nature](https://github.com/hexianWeb/lego-stylized-nature) — reject it because the README is a Three.js TSL template and does not prove a game.
+- [World of ClaudeCraft](https://github.com/levy-street/world-of-claudecraft) — already present in the collection.
+
+The Fennara demo catalog also exposed videos but no direct game repositories. Do not add video-only demos without a canonical GitHub repository. The critique agent scores this broad list-focused experiment **6/10** overall: novelty **7**, yield **2**, verification quality **8**, repeatability **8**, source quality **8**, and false-positive control **9**. Drop it as a broad collection method. Keep the handbook as a source node and follow only direct project links or exact creator claims.
+
+### Next experiment
+
+Use the handbook's direct project links as individual seeds. Search each seed's commit history or creator source serially, then return to exact attribution queries for higher verified yield.

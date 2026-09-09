@@ -4868,6 +4868,43 @@
       },
       "critique_note": "The experiment was safe and precise but produced no candidates. Drop this exact token form. Revisit only with a new seed, a changed code-search index, or a list-focused query.",
       "critic": "existing critique agent"
+    },
+    {
+      "source": "README/list-focused code search",
+      "query_key": "github-code-search|Godot|Claude Fable|game|page 1",
+      "status": "completed_dropped",
+      "results_inspected": 4,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 2,
+      "unseen_count": 2,
+      "overlap_ratio": 0.5,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/Anil-matcha/awesome-claude-fable-5",
+        "https://github.com/hexianWeb/lego-stylized-nature"
+      ],
+      "held_repositories": [
+        "https://github.com/DrEvil-TitaniumHelix/midwinter-decode"
+      ],
+      "note": "The query found a useful handbook source, https://github.com/asashiki/vibe-game, and four direct GitHub links in its guide. World of ClaudeCraft was already verified. The Fable catalog was correctly rejected as a catalog, LEGO Stylized Nature was rejected as a TSL template/visual scene, and Midwinter Decode remains pending because its repository was inaccessible. No new game record passed this list-focused expansion.",
+      "next_experiments": [
+        "Use the handbook's direct project links as seeds for individual source verification",
+        "Search the Fennara demo catalog only when a video description exposes an exact GitHub repository",
+        "Return to exact commit attribution queries for higher verified yield"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 2,
+        "verification_quality": 8,
+        "repeatability": 8,
+        "source_quality": 8,
+        "false_positive_control": 9,
+        "overall": 6,
+        "decision": "drop"
+      },
+      "critique_note": "The approach found a useful source list but produced no new verified games. Drop the broad query as a collection method. Keep the handbook as a source node and follow only direct project links or exact creator claims.",
+      "critic": "existing critique agent"
     }
   ],
   "frontier": [

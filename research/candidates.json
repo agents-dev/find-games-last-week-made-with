@@ -18,6 +18,12 @@
       "repository_hint": "shrimalmadhur/drone-wars",
       "source": "GitHub commit search for game Co-Authored-By Claude Opus 4.6",
       "reason": "The repository README and JavaScript source prove a playable Three.js aerial-combat prototype, but the exact Opus-attributed commit URL returned 404 during verification. Retry the repository history after the GitHub rate limit clears before adding it."
+    },
+    {
+      "game_name": "Midwinter Decode",
+      "repository_hint": "DrEvil-TitaniumHelix/midwinter-decode",
+      "source": "README/list-focused code search from https://github.com/asashiki/vibe-game",
+      "reason": "The linked repository was inaccessible through authenticated GitHub metadata during this pass. Keep it pending until the canonical repository can be resolved and its game source and Fable evidence can be inspected."
     }
   ],
   "rejected": [
@@ -534,6 +540,16 @@
       "repository": "https://github.com/jorgoose/marketmon",
       "source": "Reverse-link expansion from https://github.com/jphein/opus",
       "reason": "This is a real Pokémon-style financial trading-card game, but the repository contains no direct Opus 4.6, Fable or Astra authorship evidence. Reject the catalog's unverified hackathon classification."
+    },
+    {
+      "repository": "https://github.com/Anil-matcha/awesome-claude-fable-5",
+      "source": "README/list-focused code search from https://github.com/asashiki/vibe-game",
+      "reason": "This is a catalog of Claude Fable use cases and game links. It is a discovery source, not a game repository, so do not add it to games.json."
+    },
+    {
+      "repository": "https://github.com/hexianWeb/lego-stylized-nature",
+      "source": "README/list-focused code search from https://github.com/asashiki/vibe-game",
+      "reason": "The repository description suggests a Three.js nature world, but its README is a TSL template and does not prove an objective-based game or model authorship. Reject as a template/visual scene."
     }
   ]
 }
