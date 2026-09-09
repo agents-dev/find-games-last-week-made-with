@@ -53,32 +53,92 @@ for (const group of groups.values()) group.sort((a, b) => b.rating - a.rating ||
 const count = rows.length;
 const repoCount = games.length;
 const formatFlops = (value) => value >= 1e9 ? `${(value / 1e9).toFixed(2).replace(/\.00$/, '')} GFLOPS` : `${Math.round(value / 1e6)} MFLOPS`;
-const linkList = (values) => values?.length ? values.map((url) => `[link](${url})`).join(' ') : '—';
+const iconLinks = (record) => [
+  ...(record.screenshot_urls ?? []).map((url) => `[📸 screenshot](${url})`),
+  ...(record.prompt_urls ?? []).map((url) => `[🧠 prompt](${url})`),
+].join(' · ');
+const categoryIcons = {
+  'Racing and Vehicles': '🏎️',
+  'Action and Shooters': '💥',
+  'Puzzle, Arcade, and Platformers': '🧩',
+  'Adventure, RPG, and Exploration': '🗺️',
+  'Strategy, Simulation, and Sports': '♟️',
+  'Three.js and WebGL': '🧊',
+  'Other Browser Games': '🎮',
+};
+const slug = (title) => title.toLowerCase().replaceAll(/[^a-z0-9 ]/g, '').replaceAll(' ', '-');
+const rankedRows = [...rows].sort((a, b) => b.rating - a.rating || a.name.localeCompare(b.name));
+const featuredRepos = new Set();
+const topPicks = rankedRows.filter((row) => {
+  if (featuredRepos.has(row.record.github_url)) return false;
+  featuredRepos.add(row.record.github_url);
+  return true;
+}).slice(0, 15);
+const threeCount = rows.filter((row) => /three\.js|threejs|webgl|webgpu/i.test(techText(row.record))).length;
+const promptCount = rows.filter((row) => row.record.prompt_urls?.length).length;
+const screenshotCount = rows.filter((row) => row.record.screenshot_urls?.length).length;
 
-let output = `# Awesome AI-Built Games\n\n`;
-output += `A verified list of ${count} independently counted games from ${repoCount} GitHub repositories. The collection covers Claude Opus, Claude Fable, and GPT-6 Astra projects.\n\n`;
-output += `## Contents\n\n`;
-for (const title of groups.keys()) output += `- [${title}](#${title.toLowerCase().replaceAll(/[^a-z0-9 ]/g, '').replaceAll(' ', '-')})\n`;
-output += `- [Method](#method)\n\n`;
-output += `## Rating scale\n\n`;
-output += `Rate each game from 0 to 10 using source completeness, playable mechanics, scope, tests or deployment, and strength of model evidence. FLOPS is a low-confidence static estimate of FP32 work per second at 60 FPS. It is not measured device performance or model-training compute.\n\n`;
-output += `Links in the last two columns appear only when the repository exposes a screenshot or prompt file.\n\n`;
+let output = `<div align="center">\n\n`;
+output += `# 🎮 Awesome AI-Built Games\n\n`;
+output += `### 300 verified games. Real source. No prompt-only filler.\n\n`;
+output += `[![Games](https://img.shields.io/badge/GAMES-${count}-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) `;
+output += `[![Repositories](https://img.shields.io/badge/REPOSITORIES-${repoCount}-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) `;
+output += `[![Three.js](https://img.shields.io/badge/3D%20GAMES-${threeCount}-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)\n\n`;
+output += `[![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) `;
+output += `[![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)\n\n`;
+output += `> **A source-verified field guide to games built with GPT-6 Astra, Claude Opus, and Claude Fable.**<br />\n`;
+output += `> Every counted entry has a real GitHub repository and playable game code.\n\n`;
+output += `</div>\n\n---\n\n`;
+output += `## 🤯 What is this?\n\n`;
+output += `Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.\n\n`;
+output += `**Yes, that is ${count} games. Yes, each one links to source.**\n\n`;
+output += `## ⚡ Collection at a glance\n\n`;
+output += `| 🔎 Signal | 📊 Result |\n| --- | ---: |\n`;
+output += `| 🎮 Independently counted games | **${count}** |\n`;
+output += `| 📦 Independent repositories | **${repoCount}** |\n`;
+output += `| 🧊 Three.js, WebGL, or WebGPU games | **${threeCount}** |\n`;
+output += `| 📸 Games with verified screenshot links | **${screenshotCount}** |\n`;
+output += `| 🧠 Games with direct prompt links | **${promptCount}** |\n\n`;
+output += `## 🏆 Top-rated picks\n\n`;
+output += `> **Start here. These projects have the strongest combined evidence, scope, and source quality.**\n\n`;
+output += `| Game | Score | Built with |\n| --- | ---: | --- |\n`;
+for (const row of topPicks) {
+  output += `| [**${esc(row.name)}**](${row.record.github_url}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record))} |\n`;
+}
+output += `\n`;
+if (screenshotCount) {
+  const shot = rows.find((row) => row.record.screenshot_urls?.length);
+  const image = shot.record.screenshot_urls[0].replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
+  output += `## 📸 Screenshot spotlight\n\n<div align="center">\n\n[<img src="${image}" alt="${esc(shot.name)} screenshot" width="760" />](${shot.record.github_url})\n\n**${esc(shot.name)}** — verified game source and screenshot.\n\n</div>\n\n`;
+}
+output += `<a id="game-library"></a>\n\n## 🕹️ Game library\n\n`;
+output += `Jump to a category:\n\n`;
+for (const [title, group] of groups) output += `- ${categoryIcons[title]} [${title}](#${slug(title)}) — **${group.length} games**\n`;
+output += `\n`;
+output += `Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**, and any verified screenshot or prompt link. The layout wraps on narrow screens and avoids horizontal table scrolling.\n\n`;
 
 for (const [title, group] of groups) {
-  output += `## ${title}\n\n`;
-  output += `| Game | GitHub | Rating | Estimate | Model | Technology | Evidence | Screenshot | Prompt |\n| --- | --- | ---: | ---: | --- | --- | --- | --- | --- |\n`;
+  output += `<a id="${slug(title)}"></a>\n\n## ${categoryIcons[title]} ${title}\n\n`;
+  output += `> **${group.length} verified games. Ranked by evidence-based quality score.**\n\n`;
   for (const row of group) {
     const r = row.record;
-    output += `| ${esc(row.name)} | [repo](${r.github_url}) | ${Number(row.rating).toFixed(1)} | ${formatFlops(row.flops)} | ${esc(modelText(r))} | ${esc(techText(r))} | ${esc(evidenceText(r))} | ${linkList(r.screenshot_urls)} | ${linkList(r.prompt_urls)} |\n`;
+    const extra = iconLinks(r);
+    output += `- [**${esc(row.name)}**](${r.github_url}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r))} · ${esc(techText(r))} · ${formatFlops(row.flops)} · _${esc(evidenceText(r))}_${extra ? ` · ${extra}` : ''}\n`;
   }
-  output += '\n';
+  output += `\n[⬆️ Back to game library](#game-library)\n\n`;
 }
 
-output += `## Method\n\n`;
+output += `<a id="method"></a>\n\n## 🔬 Method\n\n> **Proof over promises. Repository evidence decides what gets counted.**\n\n`;
 output += `- Verify the canonical GitHub repository and numeric repository ID.\n`;
 output += `- Inspect the README, entry point, and gameplay source. Confirm input, rules or objectives, and game state.\n`;
 output += `- Accept creator, repository, directory, or build-log evidence for Claude Opus, Claude Fable, or GPT-6 Astra. Label the evidence level.\n`;
 output += `- Do not count catalogs, skills, screenshots, visual-only scenes, empty repositories, unchanged forks, or prompt-only projects.\n`;
 output += '- Keep the source records in [`games.json`](games.json). Keep rejected candidates in [`research/candidates.json`](research/candidates.json).\n';
+output += `\n## 📐 Rating and FLOPS notes\n\n`;
+output += `The **0–10 rating** uses source completeness, playable mechanics, scope, tests or deployment, and model-evidence strength. The **FLOPS value** is a low-confidence static estimate of FP32 work per second at 60 FPS. It is not measured device performance and it is not model-training compute.\n\n`;
+output += `## 🤝 Contributing\n\n`;
+output += `Open an issue or pull request with the game repository, model evidence, playable-source path, screenshot, and original prompt when available. New entries must pass the same verification rules.\n\n`;
+output += `## ⭐ Star this collection\n\n`;
+output += `If source-backed AI game history should stay searchable, [**star the repository**](https://github.com/agents-dev/find-games-last-week-made-with). The robots made the games. Humans still have to curate the receipts. 😏\n`;
 
 fs.writeFileSync('README.md', output);
