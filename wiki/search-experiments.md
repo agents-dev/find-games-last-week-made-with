@@ -804,3 +804,13 @@ The critique scored the playable-game query **9/10** and kept it. It scored the 
 The next serial native partition, `"GPT-6 Astra" C++ game in:readme`, produced [Advanced Daisenryaku PC](https://github.com/eric-wen-dev-it/AdvancedDaisenryaku). It is a native Windows C/C++ port of a turn-based strategy game, with campaign state, AI turns, movement, combat, production, supply, capture, saves and ROM-differential validation. The README directly credits GPT-6 Astra High. Count it under **Non-Browser Engines**, but disclose that the original ROM is required and is not included.
 
 The critique scored the C++ method **8/10** and kept it. It has strong evidence and repeatability, but only one candidate was fully inspected. Use another language partition next and compare yield and false-positive types.
+
+### Claude Opus / Fable language partition
+
+The serial `"Claude Opus 4.6" game in:readme` search found [Silent Hill — Native PC Port](https://github.com/SlickAmogus/silent-hill-decomp). The README explicitly credits Claude Opus 4.6, Claude Opus 4.7 and the newer Fable model. It documents a native, fully playable start-to-finish port with maps, bosses, cutscenes, endings, combat, enemy AI, saves, alternate cameras, mod support and tests. Count one game under **Non-Browser Engines**. Require a legally obtained original disc; do not imply that the repository redistributes game data.
+
+### Next experiment
+
+Run one changed Opus/Fable language or engine partition. Inspect candidates serially. Keep material native ports only when the repository contains meaningful implementation work and direct model evidence.
+
+The critique scored the Opus query **9/10** and kept it. Novelty, verification and source quality were high. Yield was limited because only one candidate was fully inspected. Add the `playable` qualifier next to test precision against catalogs and tooling.

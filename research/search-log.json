@@ -2723,10 +2723,51 @@
         "Run one different programming-language keyword with the same Astra and game constraints",
         "Compare accepted-game yield and false-positive types"
       ]
+    },
+    {
+      "source": "GitHub repository search: Claude Opus 4.6 game in README",
+      "query_key": "gh-repo-search|%22Claude+Opus+4.6%22+game+in%3Areadme|all|2026-09-10",
+      "status": "sample_completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/SlickAmogus/silent-hill-decomp"
+      ],
+      "note": "The first strong unseen candidate was a fully playable native Silent Hill PC port. Its README explicitly attributes development assistance to Claude Opus 4.6, Claude Opus 4.7 and Claude Fable, and documents source, native build targets, full campaign coverage and tests. The original PlayStation disc is required and is not included. Keep ports with material source and gameplay work, but disclose the external game-data requirement.",
+      "next_experiments": [
+        "Inspect the next distinct Opus/Fable result from a changed language or engine partition",
+        "Do not count benchmark, replay-tool or unchanged-port repositories without independent game work"
+      ]
+    },
+    {
+      "source": "Critique of Claude Opus 4.6 game query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "claude_opus_4_6_game_readme": {
+          "novelty": 9,
+          "yield": 7,
+          "verification_quality": 9,
+          "repeatability": 9,
+          "source_quality": 10,
+          "false_positive_control": 8,
+          "overall": 9,
+          "decision": "keep"
+        }
+      },
+      "note": "The critique kept the query. It found a strong native port with explicit Opus/Fable attribution and direct source evidence. The sample was narrow, so the next pass should add the playable qualifier and compare precision.",
+      "next_experiments": [
+        "Run the serial query %22Claude Opus 4.6%22 playable game in:readme",
+        "Compare novel-game yield and catalog/tool false positives"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 375 across 325 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 376 across 326 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",
