@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 543 verified games. Real source. No prompt-only filler.
+### 544 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-543-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-419-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-190-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-544-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-420-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-190-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,14 +19,14 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 543 games. Yes, each one links to source.**
+**Yes, that is 544 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **543** |
-| 📦 Included repositories | **419** |
+| 🎮 Independently counted games | **544** |
+| 📦 Included repositories | **420** |
 | 🧊 Three.js, WebGL, or WebGPU games | **190** |
 | 🛠️ Non-browser engine games | **170** |
 | 📸 Games with verified screenshot links | **76** |
@@ -46,13 +46,13 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**SUNBREAK — Downhill Club**](https://github.com/Imirushik/sunbreak-downhill-3D-game) | ⭐ **9.5** | GPT-6 Astra |
 | [**THE LONG SILENCE**](https://github.com/achimala/TheLongSilence) | ⭐ **9.5** | Claude Opus 5, Claude Fable 5.1 |
 | [**The Simpsons: Hit & Run — Browser Reconstruction**](https://github.com/Vheissu/hit-and-run-web) | ⭐ **9.5** | GPT-6 Astra |
+| [**Wolfsbane**](https://github.com/oivindth/wolfsbane) | ⭐ **9.5** | Claude Fable 5 |
 | [**Gravity Box — Campaign 100**](https://github.com/nghienvothuat-a11y/GravityBox) | ⭐ **9.4** | GPT-6 Astra, GPT-5.6 Sol |
 | [**Ultima V: Warriors of Destiny — Traditional Chinese Remake**](https://github.com/wicanr2/u5-cht) | ⭐ **9.4** | Claude Opus 5 |
 | [**7 Minutes — City Crisis**](https://github.com/hlforever11/gpt6-city-crisis) | ⭐ **9.3** | GPT-6 |
 | [**Dragon Quest III — Ebitengine Remake**](https://github.com/wicanr2/kinginformation-dq3-re) | ⭐ **9.3** | Claude Opus 4.8 |
 | [**KamiKakushi — An Incremental RPG**](https://github.com/Raynos/kami-kakushi) | ⭐ **9.3** | Claude Opus, Claude Fable 5 |
 | [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) | ⭐ **9.3** | GPT-6 Astra, Codex |
-| [**Rift Chess**](https://github.com/HaileyStorm/rift-chess) | ⭐ **9.3** | GPT-6 Astra |
 
 ## 📸 Screenshot spotlight
 
@@ -72,7 +72,7 @@ Jump to a category:
 
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **170 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **39 games**
-- 💥 [Action and Shooters](#action-and-shooters) — **95 games**
+- 💥 [Action and Shooters](#action-and-shooters) — **96 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **36 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **46 games**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 games**
@@ -306,9 +306,10 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Action and Shooters
 
-> 💥 **95 verified games. Ranked by evidence-based quality score.**
+> 💥 **96 verified games. Ranked by evidence-based quality score.**
 
 - [**Commander Simulator**](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) — ⭐ **9.7/10** · Claude Fable 5.1, ChatGPT 5.6 Soul, GPT-6 Astra · JavaScript, Browser ES modules, WebSocket, Vercel · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) · [📸 screenshot](https://github.com/tuitamogamer-gpt/mtg-commander-simulator/blob/main/assets/menu/command-table-preview.jpg)
+- [**Wolfsbane**](https://github.com/oivindth/wolfsbane) — ⭐ **9.5/10** · Claude Fable 5 · Babylon.js, Havok, Svelte 5, TypeScript, Vite, Browser · 3.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oivindth/wolfsbane/blob/main/src/core/game.ts) · [▶️ play](https://oivindth.github.io/wolfsbane/)
 - [**KamiKakushi — An Incremental RPG**](https://github.com/Raynos/kami-kakushi) — ⭐ **9.3/10** · Claude Opus, Claude Fable 5 · TypeScript, Vite, HTML/CSS, Browser · 250 MFLOPS · _creator-reported_ · [🔗 files](https://github.com/Raynos/kami-kakushi/blob/main/src/app/main.ts) · [▶️ play](https://raynos.github.io/kami-kakushi/)
 - [**Neural Sight**](https://github.com/monstercameron/Neural-Sight) — ⭐ **9.2/10** · GPT-6 Astra · PlayCanvas, WebGPU, Gaussian splatting, JavaScript, Vite, Browser · 8 GFLOPS · _confirmed_ · [▶️ play](https://monstercameron.github.io/Neural-Sight/) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/nelson-ghost-town.jpg) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/fort-clatsop.jpg) · [📸 screenshot](https://github.com/monstercameron/Neural-Sight/blob/main/docs/images/san-juan.jpg)
 - [**ASTRA AIR COMBAT**](https://github.com/FLYING37520/astra-air-combat) — ⭐ **9.0/10** · GPT-6 Astra · TypeScript, Three.js, WebGL, Vite, Web Audio API · 4.80 GFLOPS · _confirmed_ · [▶️ play](https://flying37520.github.io/astra-air-combat/) · [📸 screenshot](https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/cockpit-rain-high.jpg) · [📸 screenshot](https://github.com/FLYING37520/astra-air-combat/blob/main/artifacts/islands-clear.jpg)

@@ -1784,3 +1784,27 @@ The conservative critique score is **4/10** overall: novelty **6**, yield **1**,
 ### Next experiment
 
 Run one serial exact engine-plus-model query using an unused engine or changed source index. Require direct gameplay source and qualifying Astra, Opus or Fable evidence.
+
+### Dropped PlayCanvas/Fable code search
+
+Run the authenticated GitHub code search `PlayCanvas game Co-Authored-By Claude Fable`. It returns only this collection's own wiki and search-log files. It returns no external PlayCanvas game with Fable evidence. Add no records and drop the exact query.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **8**, repeatability **7**, source quality **4**, and false-positive control **10**.
+
+### Next experiment
+
+Run one serial exact web-engine query using Babylon.js plus Claude Fable.
+
+### Babylon.js/Fable code-search audit
+
+Run the authenticated GitHub code search `Babylon.js game Co-Authored-By Claude Fable`. Inspect the external game candidate serially.
+
+Accept [Wolfsbane](https://github.com/oivindth/wolfsbane) — a Babylon.js/Havok/Svelte browser action RPG with movement, sprint, dodge i-frames, light and heavy attacks, signs, lock-on, wolf combat, respawn, animation, tests, a Vite build and a live GitHub Pages deployment. The cited gameplay commit carries direct Claude Fable 5 evidence. Verify four direct source links and the live URL; the live URL returned HTTP 200.
+
+This pass adds **one game unit**, raising the collection to **544 counted game units across 472 repository records**. Keep the game in the browser categories.
+
+The critique score is **9/10** overall: novelty **9**, yield **9**, verification quality **10**, repeatability **9**, source quality **10**, and false-positive control **9**. Keep the Babylon.js-plus-Fable pattern.
+
+### Next experiment
+
+Run one serial exact web-engine or native-engine query with a changed model alias. Verify direct gameplay files before saving.

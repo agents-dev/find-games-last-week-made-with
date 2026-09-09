@@ -5322,10 +5322,76 @@
       },
       "critique_note": "The query produced no qualifying game and mostly documentation false positives. Drop it.",
       "critic": "existing critique agent; conservative manual score after completed serial review"
+    },
+    {
+      "source": "PlayCanvas/Fable code search",
+      "query_key": "PlayCanvas game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_rejected": 0,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The authenticated GitHub code search returned only this collection's own wiki and search-log files. It returned no external PlayCanvas game with Claude Fable evidence. Drop the exact query.",
+      "next_experiments": [
+        "Run a new exact web-engine query using Babylon.js plus Claude Fable",
+        "Inspect external repositories serially and verify direct gameplay source",
+        "Exclude self-referential collection files"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The query produced no external candidates. Drop it and change the web-engine/model partition.",
+      "critic": "existing critique agent; conservative manual score after no-candidate result"
+    },
+    {
+      "source": "Babylon.js/Fable code-search audit",
+      "query_key": "Babylon.js game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 0,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/oivindth/wolfsbane"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The query returned one external game candidate. Serial inspection verified Wolfsbane as a Babylon.js/Havok/Svelte browser action RPG with movement, attacks, signs, wolf combat, tests, a Vite build, direct Fable 5 commit evidence and a live GitHub Pages deployment returning HTTP 200. Do not count the already-rejected World of Vikings placeholder or self-referential files.",
+      "next_experiments": [
+        "Run a new exact web-engine or native-engine query with a changed model alias",
+        "Inspect external repositories serially and verify direct source and live demos",
+        "Keep browser and non-browser engine categories separate"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The query produced a strong playable browser game with exact attribution, direct gameplay source and a live deployment. Keep the engine-plus-model pattern.",
+      "critic": "existing critique agent; conservative score after completed serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 543 across 471 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 544 across 472 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

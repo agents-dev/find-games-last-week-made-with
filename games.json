@@ -17983,5 +17983,37 @@
     "quality_estimate_basis": "Strong playable sports game with browser deployment, full regulation rule coverage, physics, local multiplayer, headless end-to-end testing and direct Fable 5 attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Wolfsbane",
+    "github_url": "https://github.com/oivindth/wolfsbane",
+    "game_links": [
+      "https://github.com/oivindth/wolfsbane/blob/main/src/core/game.ts",
+      "https://github.com/oivindth/wolfsbane/blob/main/src/actors/playerController.ts",
+      "https://github.com/oivindth/wolfsbane/blob/main/src/world/testZone.ts",
+      "https://github.com/oivindth/wolfsbane/blob/main/package.json"
+    ],
+    "live_demo_url": "https://oivindth.github.io/wolfsbane/",
+    "evidence_url": "https://github.com/oivindth/wolfsbane/commit/c3ef891e48a1c5f4a063627e9dd85fd1ae2ee007",
+    "screenshot_urls": [],
+    "technology": ["Babylon.js", "Havok", "Svelte 5", "TypeScript", "Vite", "Browser"],
+    "model_family": ["Claude Fable 5"],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": ["Wolfsbane"],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": ["GitHub code search for Babylon.js game Co-Authored-By Claude Fable", "https://github.com/oivindth/wolfsbane"],
+    "verification_notes": "The public repository is a browser third-person action RPG inspired by The Witcher 3. It documents WASD movement, sprint stamina, dodge i-frames, light and heavy attacks, signs, lock-on, wolf combat, respawn and camera orbit. Source includes the game loop, player controller, test zone, Babylon/Havok setup, Vitest tests, Svelte HUD, Vite build and GitHub Pages deployment. The cited gameplay commit carries a direct Claude Fable 5 trailer. The live demo returned HTTP 200. Count the browser game as one unit.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 3500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Babylon.js 3D rendering, Havok physics, player/wolf combat, animation, particles, HUD and browser presentation; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "Playable browser action RPG with 3D combat, physics, animation, HUD, tests, deployment and direct Fable 5 attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
