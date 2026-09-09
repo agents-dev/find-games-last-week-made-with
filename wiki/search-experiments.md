@@ -1632,3 +1632,26 @@ The critique agent did not return a visible message, so record the conservative 
 ### Next experiment
 
 Run a new serial native-engine attribution search. Use a changed engine alias such as Go, Macroquad or another engine not used in the last pass. Inspect each result one at a time and keep only repositories with actual gameplay source and exact Astra, Opus or Fable evidence.
+
+### Go/Fable incidental code-search audit
+
+Run the authenticated GitHub code search `Go game Co-Authored-By Claude Fable`. Treat it as a noisy exploratory query because `go` appears in many documentation and configuration files. Inspect candidate repositories serially.
+
+Accept:
+
+- [Idle ARPG](https://github.com/nodeJayS/idle-game) — substantial Unity/C# native idle ARPG with three-hero combat, dungeons, loot, progression, a separated GameCore simulation, native client source and a direct Claude Opus 5 trailer in the cited commit.
+- [KamiKakushi — An Incremental RPG](https://github.com/Raynos/kami-kakushi) — shipped TypeScript/Vite browser RPG with combat, quests, crafting, economy, autoplay, tests, a live GitHub Pages build and an archived Opus/Fable build plan.
+
+Reject:
+
+- [TheMarble](https://github.com/schmerbert/TheMarble) — AI-agent memory manual with test specimens, not a game.
+- [NeoStation](https://github.com/misobadev/neostation-frontend) — Flutter emulator frontend, not a game implementation.
+- [Gameplane](https://github.com/ValgulNecron/Gameplane) — game-server control panel, not a playable game.
+
+This pass adds two source-verified game units and keeps Unity in the **Non-Browser Engines** section. Verify every direct source URL; one stale KamiKakushi path was caught and corrected before saving. The collection reaches **538 counted game units across 466 repository records**.
+
+The critique score is **8/10** overall: novelty **8**, yield **8**, verification quality **9**, repeatability **7**, source quality **8**, and false-positive control **9**. Keep the result, but do not use this broad query as the default method. Prefer exact engine-plus-attribution searches in the next pass.
+
+### Next experiment
+
+Run one serial exact native-engine query using a new alias such as Macroquad or Ebiten. Require actual gameplay source and exact Astra, Opus or Fable evidence. Reject model-as-player projects, frameworks, catalogs, tools and visual-only demos.

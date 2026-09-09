@@ -550,6 +550,21 @@
       "repository": "https://github.com/hexianWeb/lego-stylized-nature",
       "source": "README/list-focused code search from https://github.com/asashiki/vibe-game",
       "reason": "The repository description suggests a Three.js nature world, but its README is a TSL template and does not prove an objective-based game or model authorship. Reject as a template/visual scene."
+    },
+    {
+      "repository": "https://github.com/schmerbert/TheMarble",
+      "source": "GitHub code search for Go game Co-Authored-By Claude Fable",
+      "reason": "The repository is an AI-agent memory manual with runnable test specimens. It is not a game, so reject it despite Fable references."
+    },
+    {
+      "repository": "https://github.com/misobadev/neostation-frontend",
+      "source": "GitHub code search for Go game Co-Authored-By Claude Fable",
+      "reason": "The repository is a Flutter frontend for managing and launching retro games. It is not a game implementation, so reject it."
+    },
+    {
+      "repository": "https://github.com/ValgulNecron/Gameplane",
+      "source": "GitHub code search for Go game Co-Authored-By Claude Fable",
+      "reason": "The repository is a Kubernetes-native game-server control panel. It is infrastructure software, not a playable game, so reject it."
     }
   ]
 }
