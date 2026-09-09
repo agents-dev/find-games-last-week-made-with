@@ -4083,10 +4083,42 @@
       },
       "critique_note": "Both accepted games have direct implementation diffs, source evidence and Opus trailers. The rejection rule correctly excludes a framework and an addon.",
       "critic": "manual review"
+    },
+    {
+      "source": "Exact Opus Godot microgame commit audit",
+      "query_key": "repo:kevicency/KumoWare Co-Authored-By Claude Opus 4.6",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_game_units": 2,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/kevicency/KumoWare"
+      ],
+      "note": "The cited Godot 4.6 commit creates two real WarioWare-style microgames: Blackjack! and Stack!. Source includes scenes, scripts, lifecycle state, rendering, tests, deck/hand logic, two-player physics, timeout, scoring and winner reporting. Repeated Claude Opus 4.6 trailers cover the design and implementation work. Route both units to the non-browser engine section.",
+      "next_experiments": [
+        "Search exact Opus trailers with Godot and Unity terms serially",
+        "Inspect every created scene/script before counting a microgame",
+        "Keep engine/framework repositories separate from playable game projects"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This is a high-confidence native-engine expansion: both units are directly created in the cited diff and have source/tests/game loops.",
+      "critic": "manual review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 430 across 368 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 432 across 369 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

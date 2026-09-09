@@ -14200,5 +14200,65 @@
     "quality_estimate_basis": "Explicit mini-game addition, 26-briefcase loop, banker offers, reveal state, screenshot asset and direct Opus attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "KumoWare Godot Microgames",
+    "repository_id": 1179768410,
+    "github_url": "https://github.com/kevicency/KumoWare",
+    "game_links": [
+      "https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/blackjack_game.gd",
+      "https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/stack_game.gd"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/kevicency/KumoWare/commit/8a4a86d4537a0a002e63f72f0902abc621aa38c6",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot 4.6",
+      "GDScript",
+      "Native"
+    ],
+    "model_family": [
+      "Claude Opus 4.6"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 2,
+    "contained_games": [
+      "Blackjack!",
+      "Stack!"
+    ],
+    "contained_game_estimates": [
+      {
+        "name": "Blackjack!",
+        "technology": ["Godot 4.6", "GDScript", "Native"],
+        "flops_estimate_raw": 350000000,
+        "quality_estimate_10": 8.3
+      },
+      {
+        "name": "Stack!",
+        "technology": ["Godot 4.6", "GDScript", "Native"],
+        "flops_estimate_raw": 500000000,
+        "quality_estimate_10": 8.2
+      }
+    ],
+    "live_demo_urls": [],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-03-12T11:08:46Z",
+    "published_on": "2026-03-12",
+    "discovery_sources": [
+      "GitHub commit search for repo:kevicency/KumoWare Co-Authored-By Claude Opus 4.6",
+      "https://github.com/kevicency/KumoWare"
+    ],
+    "verification_notes": "The Godot 4.6 repository is a WarioWare-style competitive microgame collection. The cited commit creates Blackjack! and Stack! scenes/scripts and tests. Blackjack has a deck builder, player draw phase, dealer phases, winner determination, card rendering and result state. Stack! has two-player physics arenas, falling boxes, timeout handling, scoring and winner reporting. The commit contains repeated Co-Authored-By: Claude Opus 4.6 trailers. Count both explicitly created microgames and route them to the separate non-browser category.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS; per-game values are in contained_game_estimates",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimates for Godot 2D rendering, physics, microgame state machines, card/box logic, scoring and result handling; not measured hardware throughput.",
+    "quality_estimate_10": 8.3,
+    "quality_estimate_basis": "Two directly created Godot microgames with scenes, scripts, tests, game phases, scoring and explicit Opus attribution.",
+    "counted_game_units": 2,
+    "is_independent_game": true
   }
 ]

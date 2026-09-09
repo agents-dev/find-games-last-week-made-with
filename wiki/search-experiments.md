@@ -1186,3 +1186,20 @@ Manual review scores this pass **9/10** overall: novelty **8**, yield **8**, ver
 ### Next experiment
 
 Continue exact commit-diff inspection for game-named repositories. Reject frameworks and addons unless a separately playable game is explicit. Retry held Drone Wars after its attribution URL or rate-limit condition clears.
+
+### Exact Opus Godot microgame commit audit
+
+Inspect [KumoWare](https://github.com/kevicency/KumoWare) through the exact repository commit trail `repo:kevicency/KumoWare Co-Authored-By Claude Opus 4.6`. Accept two native Godot 4.6 games from the cited commit:
+
+- [Blackjack!](https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/blackjack_game.gd) — deck builder, player draw phase, dealer phases, hand totals, winner determination, card rendering, result state and tests.
+- [Stack!](https://github.com/kevicency/KumoWare/blob/main/scripts/microgames/stack_game.gd) — two-player physics arenas, falling boxes, timeout handling, scoring and winner reporting.
+
+The commit creates the scenes, scripts and tests for both games and carries repeated Claude Opus 4.6 trailers. Route both units to the separate non-browser engine section.
+
+### Critique result
+
+Manual review scores this audit **9/10** overall: novelty **9**, yield **9**, verification quality **10**, repeatability **9**, source quality **10**, and false-positive control **10**. Keep it.
+
+### Next experiment
+
+Search exact Opus trailers with Godot and Unity terms serially. Inspect every created scene and script before counting a microgame. Keep engines and addons separate from playable projects.
