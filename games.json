@@ -12878,5 +12878,55 @@
     "quality_estimate_basis": "Live demo, five-level progression, deterministic simulation, tests, playtest evidence, direct model attribution and clear separation from non-Fable comparison builds.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "SPICE — a card game for couples",
+    "repository_id": 1354528638,
+    "github_url": "https://github.com/Hiberius/couples-card-game",
+    "game_links": [
+      "https://github.com/Hiberius/couples-card-game",
+      "https://couples-card-game.hiberius.workers.dev"
+    ],
+    "live_demo_url": "https://couples-card-game.hiberius.workers.dev",
+    "evidence_url": "https://github.com/Hiberius/couples-card-game#how-it-plays",
+    "screenshot_urls": [
+      "https://github.com/Hiberius/couples-card-game/blob/main/docs/media/phones.png",
+      "https://github.com/Hiberius/couples-card-game/blob/main/docs/media/levels.png",
+      "https://github.com/Hiberius/couples-card-game/blob/main/docs/media/end.png"
+    ],
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript ES modules",
+      "PWA",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "SPICE — a card game for couples"
+    ],
+    "verification_status": "verified_source_and_live_demo",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-09-02T08:38:17Z",
+    "published_on": "2026-09-02",
+    "discovery_sources": [
+      "GitHub repository search: Claude Fable 5.1 playable game in:readme",
+      "https://github.com/Hiberius/couples-card-game"
+    ],
+    "verification_notes": "The repository README links a live offline PWA and documents a complete two-player card-game loop with 500 questions and dares, three escalating levels, seven card formats, ten categories, pass handling, turn switching, saved favorites, custom decks and end-of-session review. Its build badge and Built With section explicitly credit Claude Fable 5.1 and Ultracode.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for a lightweight static PWA card interface, local state, animations and input; not measured hardware throughput.",
+    "quality_estimate_10": 8.6,
+    "quality_estimate_basis": "Live demo, clear turn-based rules, large content set, progressive difficulty, pass rule, custom decks, offline behavior, screenshots and explicit Fable attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

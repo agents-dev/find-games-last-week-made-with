@@ -3480,10 +3480,101 @@
         "Search a changed native-engine Fable phrase",
         "Continue serial source and gameplay verification"
       ]
+    },
+    {
+      "source": "Claude Fable native-engine triage",
+      "query_key": "\"Claude Fable 5.1\" native game in:readme",
+      "status": "sample_completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 3,
+      "unseen_count": 3,
+      "overlap_ratio": 0.0,
+      "rejected_repositories": [
+        "https://github.com/JBuildr/MKW-Quest3",
+        "https://github.com/stevemaughan/fable51-chess-24hrs",
+        "https://github.com/hiper2d/werewolf-ai-party-game"
+      ],
+      "note": "Serial inspection rejected a model-assisted port, a UCI chess benchmark engine and a social-deduction game where Fable is only a selectable player model. None is a game authored by Fable under the collection rule.",
+      "next_experiments": [
+        "Drop this broad native query because it mixes ports, benchmarks and model-as-player games",
+        "Use narrow Fable build attribution and engine terms",
+        "Require direct authorship evidence in addition to a playable artifact"
+      ]
+    },
+    {
+      "source": "Critique of Claude Fable native-engine triage",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 2,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 7,
+        "false_positive_control": 10,
+        "overall": 6,
+        "decision": "drop"
+      },
+      "note": "The pass produced no new qualifying units and exposed three recurring false-positive classes: model-assisted ports, benchmark engines and model-as-player games. Drop the broad query.",
+      "next_experiments": [
+        "Repeat the narrow Fable built-game phrase on a later push window",
+        "Search direct source links from a new Fable catalog",
+        "Keep authorship evidence separate from model-use or model-play evidence"
+      ]
+    },
+    {
+      "source": "Claude Fable playable-game query",
+      "query_key": "\"Claude Fable 5.1\" playable game in:readme",
+      "status": "sample_completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 1,
+      "new_game_units": 1,
+      "new_rejected": 2,
+      "unseen_count": 3,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/Hiberius/couples-card-game"
+      ],
+      "accepted_game_units": [
+        "SPICE — a card game for couples"
+      ],
+      "rejected_repositories": [
+        "https://github.com/thepianistdirector/wonder-relay",
+        "https://github.com/thepianistdirector/drift-concord"
+      ],
+      "note": "Serial inspection found SPICE, a live Fable-attributed offline PWA card game. Two other apparent game repositories were public planning repositories with concept art but no implementation or playable build.",
+      "next_experiments": [
+        "Keep the playable qualifier with direct live-demo checks",
+        "Search a later Fable push window",
+        "Reject planning repositories even when they contain game concepts and model references"
+      ]
+    },
+    {
+      "source": "Critique of Claude Fable playable-game query",
+      "status": "completed",
+      "critic": "existing critique agent",
+      "scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "note": "The query added one live, source-backed game and correctly rejected two planning repositories. Keep it with strict live-demo and implementation checks.",
+      "next_experiments": [
+        "Run the same query with a later push-date window",
+        "Expand a new direct Fable source catalog",
+        "Inspect every unseen result serially"
+      ]
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 393 across 341 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 394 across 342 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search a changed engine or alias partition, then inspect each unseen repository one at a time",
     "Keep browser and non-browser engine games separate in README",

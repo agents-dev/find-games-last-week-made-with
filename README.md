@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 393 verified games. Real source. No prompt-only filler.
+### 394 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-393-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-289-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-191-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-394-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-290-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-191-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,17 +19,17 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 393 games. Yes, each one links to source.**
+**Yes, that is 394 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **393** |
-| 📦 Independent repositories | **289** |
+| 🎮 Independently counted games | **394** |
+| 📦 Independent repositories | **290** |
 | 🧊 Three.js, WebGL, or WebGPU games | **191** |
 | 🛠️ Non-browser engine games | **50** |
-| 📸 Games with verified screenshot links | **45** |
+| 📸 Games with verified screenshot links | **46** |
 | 🧠 Games with direct prompt links | **8** |
 
 ## 🏆 Top-rated picks
@@ -71,7 +71,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 Jump to a category:
 
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **50 games**
-- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **35 games**
+- 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **36 games**
 - 💥 [Action and Shooters](#action-and-shooters) — **85 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **36 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **39 games**
@@ -140,12 +140,13 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Adventure, RPG, and Exploration
 
-> 🗺️ **35 verified games. Ranked by evidence-based quality score.**
+> 🗺️ **36 verified games. Ranked by evidence-based quality score.**
 
 - [**Mangoidiots Solitaire**](https://github.com/venkatarangan/mangoidiots-solitaire) — ⭐ **9.1/10** · GPT-6 Astra · Phaser, TypeScript, Vite, IndexedDB, Service Worker, Browser · 1.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-cover.png) · [📸 screenshot](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-105253.png) · [📸 screenshot](https://github.com/venkatarangan/mangoidiots-solitaire/blob/main/screenshots/mangoidiots-solitaire-105311.png)
 - [**AZURA — L'île aux toits d'argile**](https://github.com/Orgxsm/azura) — ⭐ **8.7/10** · GPT-6 Astra, Claude Code · WebGL2, HTML, JavaScript, Python build script, Browser · 1.80 GFLOPS · _confirmed_
 - [**Bad Idea**](https://github.com/ToukoUrsin/bad-idea) — ⭐ **8.7/10** · GPT-6 Astra · TypeScript, Three.js, Rapier, Vite, Web browser · 2.60 GFLOPS · _confirmed_
 - [**Reigns CEO — GPT 6 Astra Founder**](https://github.com/GaintEnemyCrabBurger/reigns-ceo) — ⭐ **8.6/10** · GPT-6 Astra · HTML, CSS, JavaScript, Browser · 600 MFLOPS · _confirmed_ · [🔗 files](https://github.com/GaintEnemyCrabBurger/reigns-ceo/tree/main/game/versions/v5-sixthirty)
+- [**SPICE — a card game for couples**](https://github.com/Hiberius/couples-card-game) — ⭐ **8.6/10** · Claude Fable 5.1 · HTML, CSS, JavaScript ES modules, PWA, Browser · 180 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Hiberius/couples-card-game) · [📸 screenshot](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/phones.png) · [📸 screenshot](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/levels.png) · [📸 screenshot](https://github.com/Hiberius/couples-card-game/blob/main/docs/media/end.png)
 - [**THORNMERE: The Founding Song**](https://github.com/dgahagan/THORNMERE) — ⭐ **8.5/10** · Claude Fable 5 · JavaScript, Canvas, Web Audio API · 1.10 GFLOPS · _creator-reported_
 - [**BLOCKS**](https://github.com/Nipale-ai/blocks-openworld) — ⭐ **8.0/10** · Claude Fable 5.1 · Three.js, JavaScript, WebGL, Blender · 1.20 GFLOPS · _confirmed_
 - [**Hollow Pines**](https://github.com/karelpelcak/Hollow-Pines-Claude-Fable5-Game) — ⭐ **8.0/10** · Claude Fable 5 · Three.js, JavaScript, Web Audio API · 900 MFLOPS · _confirmed_

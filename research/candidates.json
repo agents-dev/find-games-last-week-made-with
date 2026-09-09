@@ -423,6 +423,31 @@
       "repository": "https://github.com/wangruofeng/orbital-core-showcase",
       "source": "Direct-link expansion from magiccreator-ai/awesome-gpt-6-astra",
       "reason": "This repository is an interactive Three.js Blender-model showcase with orbit controls. It contains no game objective, progression, challenge or model attribution."
+    },
+    {
+      "repository": "https://github.com/JBuildr/MKW-Quest3",
+      "source": "Claude Fable 5.1 native game query",
+      "reason": "This is a native Quest port of the existing Mario Kart Wii game. The README says Claude Fable assisted the renderer investigation, patches and build scripts, but the game itself comes from WiiCompiled and the player's own disc. Reject as a model-assisted port, not a game authored by Fable."
+    },
+    {
+      "repository": "https://github.com/stevemaughan/fable51-chess-24hrs",
+      "source": "Claude Fable 5.1 native game query",
+      "reason": "This repository contains a UCI chess engine created for a benchmark and strength evaluation. It has no standalone game UI or game application; reject benchmark engine artifacts under the playable-game rule."
+    },
+    {
+      "repository": "https://github.com/hiper2d/werewolf-ai-party-game",
+      "source": "Claude Fable 5.1 native game query",
+      "reason": "This is a real social-deduction game, but Claude Fable 5.1 is one selectable Game Master or bot model. The README does not say Fable authored the game code, so reject it to avoid counting model-as-player projects."
+    },
+    {
+      "repository": "https://github.com/thepianistdirector/wonder-relay",
+      "source": "Claude Fable 5.1 playable game query",
+      "reason": "The README explicitly says this is a public planning repository with concept art and no product implementation or playable build. Reject it even though the proposal selects Fable as a preferred task model."
+    },
+    {
+      "repository": "https://github.com/thepianistdirector/drift-concord",
+      "source": "Claude Fable 5.1 playable game query",
+      "reason": "The README explicitly says this is a public planning repository with no working product or playable build. Its Fable references are future task preferences, not evidence of a completed Fable-authored game."
     }
   ]
 }

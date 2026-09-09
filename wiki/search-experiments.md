@@ -966,3 +966,25 @@ Run `"Claude Fable 5.1" "built" game in:readme` and inspect each unseen direct r
 ### Critique result
 
 Score the narrow phrase **9/10**: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it. The next pass should repeat the phrase on a later push window or use a native-engine Fable variant, while preserving the rule that multi-model repositories contribute only the explicitly attributed model build.
+
+### Dropped broad native-engine Fable query
+
+Run `"Claude Fable 5.1" native game in:readme`. Reject three direct candidates:
+
+- [MKW-Quest3](https://github.com/JBuildr/MKW-Quest3) is a Mario Kart Wii Quest port. Fable assisted port patches and build scripts; it did not author the game.
+- [fable51-chess-24hrs](https://github.com/stevemaughan/fable51-chess-24hrs) is a UCI chess-engine benchmark deliverable, not a standalone playable game application.
+- [werewolf-ai-party-game](https://github.com/hiper2d/werewolf-ai-party-game) is a real game, but Fable is only a selectable Game Master or bot model, not the game author.
+
+### Critique result
+
+Score the broad native query **6/10**: novelty **2**, yield **1**, verification quality **9**, repeatability **8**, source quality **7**, and false-positive control **10**. Drop it. Keep the three rejection patterns as safeguards: model-assisted ports, benchmark engines and model-as-player projects must not enter the authored-game list.
+
+### Fable playable-game query
+
+Run `"Claude Fable 5.1" playable game in:readme`. Accept [SPICE — a card game for couples](https://github.com/Hiberius/couples-card-game). It has a live offline PWA, 500 cards, three escalating levels, seven formats, ten categories, pass handling, turn switching, saved favorites and custom decks. Its README explicitly credits Claude Fable 5.1 and provides screenshots and a live URL.
+
+Reject [Wonder Relay](https://github.com/thepianistdirector/wonder-relay) and [Drift Concord](https://github.com/thepianistdirector/drift-concord). Both README files explicitly state that the repositories are planning documents with concept art and no implementation or playable build.
+
+### Critique result
+
+Score this playable-game query **8/10**: novelty **8**, yield **8**, verification quality **9**, repeatability **9**, source quality **9**, and false-positive control **10**. Keep it with strict live-demo and implementation checks. The next pass should use a later push-date window or a new direct Fable source catalog.
