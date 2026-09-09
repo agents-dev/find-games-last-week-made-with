@@ -5046,10 +5046,115 @@
       },
       "critique_note": "This exact engine query produced three strong native-game records with direct gameplay files and Opus evidence. Keep it as a high-yield search pattern, while preserving the rule that platform builds and remakes do not create duplicate game units.",
       "critic": "existing critique agent; conservative score after completed serial review"
+    },
+    {
+      "source": "Ebiten/Fable code-search audit",
+      "query_key": "Ebiten game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 2,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 1,
+      "unseen_count": 1,
+      "overlap_ratio": 0.5,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/Sineaggi/o3de-dualsense-gem"
+      ],
+      "held_repositories": [],
+      "note": "The authenticated GitHub code search returned one already-listed Africa 2 Ice plan and one O3DE DualSense integration project. No new Ebiten/Fable game passed verification. Drop the exact query and avoid counting controller gems or existing records.",
+      "next_experiments": [
+        "Run a new exact native-engine query using a changed engine alias such as Defold, Bevy or Love2D with Fable evidence",
+        "Inspect external repositories serially and verify direct gameplay source before acceptance",
+        "Keep already-listed repositories out of new-game counts"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_quality": 7,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The query is precise but produced no new game and one integration project. Drop it as a collection branch.",
+      "critic": "existing critique agent; conservative manual score after no-new-game result"
+    },
+    {
+      "source": "Defold/Fable code search",
+      "query_key": "Defold game Co-Authored-By Claude Fable",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_game_units": 0,
+      "new_rejected": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The authenticated GitHub code search returned only this collection's own wiki and search-log files. It returned no external Defold game with Claude Fable evidence. Drop the exact query and do not count self-referential matches.",
+      "next_experiments": [
+        "Run a new exact native-engine query using a changed engine/model pair",
+        "Inspect external repositories serially and verify direct gameplay source",
+        "Keep self-referential collection files excluded"
+      ],
+      "critique_scores": {
+        "novelty": 6,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 7,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The exact query produced no external candidates. Drop it and change both the engine/model search partition and the source index.",
+      "critic": "existing critique agent; conservative manual score after no-candidate result"
+    },
+    {
+      "source": "Bevy/Fable code-search audit",
+      "query_key": "Bevy game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 5,
+      "new_verified_repositories": 2,
+      "new_game_units": 2,
+      "new_rejected": 3,
+      "unseen_count": 5,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/Kizunad/Bong",
+        "https://github.com/hynding/breakneck-baseball"
+      ],
+      "rejected_repositories": [
+        "https://github.com/Myka2003/rogue-world",
+        "https://github.com/T3mps/Arcane",
+        "https://github.com/percy-raskova/babylon"
+      ],
+      "held_repositories": [],
+      "note": "The query returned several large Rust/Bevy repositories. Serial review accepted Bong, an AI-native Minecraft/Valence/Bevy sandbox with direct Claude Opus 5 evidence, and Breakneck Baseball, a playable Bevy/Rapier sports game with a live browser build and direct Claude Fable 5 commits. Reject Rogue World as an agent simulation kernel, Arcane as a game engine/editor with a sample project, and Babylon because its preview states that player actions are not implemented. Verify direct source paths and the live baseball URL before saving.",
+      "next_experiments": [
+        "Run a new exact engine-plus-model query using an unused engine or a changed attribution alias",
+        "Inspect external repositories serially and reject engine tools, simulations and incomplete previews",
+        "Keep Minecraft, Bevy and other native projects in Non-Browser Engines; count browser/native ports once"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The exact Bevy query produced two strong playable games and exposed three plausible but invalid repositories. Direct source and live-demo checks provide strong verification.",
+      "critic": "existing critique agent; conservative score after completed serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 541 across 469 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 543 across 471 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

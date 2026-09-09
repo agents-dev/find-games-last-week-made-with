@@ -1683,3 +1683,46 @@ The critique score is **9/10** overall: novelty **9**, yield **10**, verificatio
 ### Next experiment
 
 Run one serial exact query for Ebiten/Fable or another unused engine. Require a real playable loop, direct source, and exact Astra, Opus or Fable evidence.
+
+### Dropped Ebiten/Fable code-search audit
+
+Run the authenticated GitHub code search `Ebiten game Co-Authored-By Claude Fable`. One result was the already-listed Africa 2 Ice project. The other was [O3DE DualSense Gem](https://github.com/Sineaggi/o3de-dualsense-gem), a controller-integration project rather than a game. Add no new record and do not duplicate Africa 2 Ice.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **8**, repeatability **7**, source quality **7**, and false-positive control **10**. Drop this exact branch.
+
+### Next experiment
+
+Run one serial exact native-engine query with a changed engine and model alias. Prefer Defold, Bevy or Love2D plus Claude Fable evidence.
+
+### Dropped Defold/Fable code search
+
+Run the authenticated GitHub code search `Defold game Co-Authored-By Claude Fable`. It returns only this collection's own wiki and search-log files. It returns no external Defold game with Fable evidence.
+
+The conservative critique score is **4/10** overall: novelty **6**, yield **1**, verification quality **8**, repeatability **7**, source quality **4**, and false-positive control **10**. Drop the exact query and exclude self-referential collection files.
+
+### Next experiment
+
+Run one serial exact native-engine query with a changed engine/model pair, such as Bevy plus Claude Fable or Love2D plus Claude Opus.
+
+### Bevy/Fable code-search audit
+
+Run the authenticated GitHub code search `Bevy game Co-Authored-By Claude Fable`. Inspect the external repositories serially.
+
+Accept:
+
+- [Bong — AI-Native Xianxia Sandbox](https://github.com/Kizunad/Bong) — Minecraft game with a Rust Valence/Bevy 0.14 server, Fabric client, cultivation, combat, production, economy, NPCs, spirit-qi physics, HUD, skills and client/server build commands. A cited commit carries Claude Opus 5 evidence.
+- [Breakneck Baseball](https://github.com/hynding/breakneck-baseball) — playable Bevy/Rapier 3-D baseball game with regulation rules, local multiplayer, native/browser builds, a headless end-to-end test and a live GitHub Pages build. A cited commit carries Claude Fable 5 evidence.
+
+Reject:
+
+- [Rogue World](https://github.com/Myka2003/rogue-world) — agent simulation kernel, not a playable game.
+- [Arcane](https://github.com/T3mps/Arcane) — C++ game engine/editor; its ReferenceProject is not a separate verified game.
+- [Babylon](https://github.com/percy-raskova/babylon) — Bevy preview with player actions not implemented.
+
+Verify nine direct source links and the Breakneck live URL. Count Bong once for its server/client pair and Breakneck once for its browser/native builds. Keep both in **Non-Browser Engines**. This pass adds **two game units**, raising the collection to **543 counted game units across 471 repository records**.
+
+The critique score is **9/10** overall: novelty **9**, yield **9**, verification quality **9**, repeatability **9**, source quality **10**, and false-positive control **9**. Keep the Bevy search pattern and continue with another unused engine/model pair.
+
+### Next experiment
+
+Run one serial exact native-engine query with a changed engine or model alias. Exclude engine frameworks, agent kernels, incomplete previews and model-as-player projects.

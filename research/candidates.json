@@ -565,6 +565,21 @@
       "repository": "https://github.com/ValgulNecron/Gameplane",
       "source": "GitHub code search for Go game Co-Authored-By Claude Fable",
       "reason": "The repository is a Kubernetes-native game-server control panel. It is infrastructure software, not a playable game, so reject it."
+    },
+    {
+      "repository": "https://github.com/Myka2003/rogue-world",
+      "source": "GitHub code search for Bevy game Co-Authored-By Claude Fable",
+      "reason": "The README explicitly describes this repository as an Agent Simulation Kernel, not an RTS or content roguelike. Reject it as a simulation framework rather than a playable game."
+    },
+    {
+      "repository": "https://github.com/T3mps/Arcane",
+      "source": "GitHub code search for Bevy game Co-Authored-By Claude Fable",
+      "reason": "This repository is a C++ game engine and editor. Its ReferenceProject is an engine sample, not a separately verified game repository, so reject it as engine tooling."
+    },
+    {
+      "repository": "https://github.com/percy-raskova/babylon",
+      "source": "GitHub code search for Bevy game Co-Authored-By Claude Fable",
+      "reason": "The Bevy preview is not yet a playable game: the README says player actions are not implemented. Reject the incomplete preview under the playable-game rule."
     }
   ]
 }
