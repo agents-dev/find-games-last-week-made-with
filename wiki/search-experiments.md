@@ -2001,3 +2001,7 @@ Reject [PlantsVsZombies-Recode](https://github.com/rgthddei67/PlantsVsZombies-Re
 Run the SFML game query serially. Accept [Yuga Kshetra: The Final Dark God](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God) because its C++/SFML/OpenGL subproject contains a source-complete first-person voxel survival-extraction game with procedural terrain, resources, crafting, combat, hostile AI, extraction, progression, assets and dated screenshots. Its history contains exact Claude Opus 4.7 gameplay trailers.
 
 Reject [Emberfire](https://github.com/Xian55/Emberfire) because it is an incomplete MMO client/reimplementation: the bundled runtime content, maps and database are external, and the server is a placeholder. Count one new native game unit. Keep the remaining SFML result for serial inspection.
+
+### Pygame/Claude Opus native-game code-search audit
+
+Run the Pygame game query serially. Accept [Blue Ball](https://github.com/daviddgonzalez/BlueBall) because its README and source prove a runnable PyGame/Pymunk 2D physics platformer with multiple scenes, authored levels, hazards, checkpoints, AI ghost racing, genetic-algorithm training, audio and tests. Its history contains exact Claude Opus 4.8 trailers on audio and AI/game feature work. Count one new native game unit and keep the remaining Pygame result partition for serial inspection.

@@ -20183,5 +20183,55 @@
     "quality_estimate_basis": "Source-complete native voxel game with a documented extraction loop, procedural terrain, survival resources, crafting, combat, multiple enemy AI systems, dynamic difficulty, save progression, assets, shaders and dated screenshots.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Blue Ball",
+    "github_url": "https://github.com/daviddgonzalez/BlueBall",
+    "game_links": [
+      "https://github.com/daviddgonzalez/BlueBall/blob/master/README.md",
+      "https://github.com/daviddgonzalez/BlueBall/blob/master/main.py",
+      "https://github.com/daviddgonzalez/BlueBall/tree/master/src/blueball/scenes",
+      "https://github.com/daviddgonzalez/BlueBall/tree/master/src/blueball/levels",
+      "https://github.com/daviddgonzalez/BlueBall/blob/master/src/blueball/world.py",
+      "https://github.com/daviddgonzalez/BlueBall/tree/master/tests"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/daviddgonzalez/BlueBall/commit/74576376b357ce2d12eafa904b3d8fcf04f7511f",
+    "screenshot_urls": [],
+    "technology": [
+      "Python",
+      "PyGame",
+      "Pymunk",
+      "Native desktop",
+      "2D physics platformer",
+      "Genetic-algorithm AI"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Blue Ball"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-06-02T23:14:04Z",
+    "published_on": "2026-06-02",
+    "discovery_sources": [
+      "GitHub code search for Pygame game Co-Authored-By Claude Opus",
+      "https://github.com/daviddgonzalez/BlueBall"
+    ],
+    "verification_notes": "The README provides a direct python main.py play command for a PyGame and Pymunk 2D physics platformer. The repository contains menu, mode-select, play, playback and training scenes; a player entity; a physics world; dozens of level chunks and authored levels; AI ghost/race mode; procedural and genetic-algorithm training; audio; and a test suite. The inspected history contains exact Claude Opus 4.8 trailers on audio and AI/game feature work. Count it once as a native desktop game.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for PyGame 2D rendering, Pymunk physics, level streaming, AI ghost playback, audio and genetic-algorithm evaluation; not measured hardware throughput.",
+    "quality_estimate_10": 8.9,
+    "quality_estimate_basis": "Source-complete native 2D platformer with multiple play modes, physics levels, hazards, checkpoints, race ghosts, AI training, audio, deterministic world logic and tests.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
