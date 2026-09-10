@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 683 verified games. Real source. No prompt-only filler.
+### 698 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-683-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-480-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-698-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-489-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-194-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,17 +19,17 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 683 games. Yes, each one links to source.**
+**Yes, that is 698 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **683** |
-| 📦 Included repositories | **480** |
-| 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **245** |
-| 📸 Games with verified screenshot links | **109** |
+| 🎮 Independently counted games | **698** |
+| 📦 Included repositories | **489** |
+| 🧊 Three.js, WebGL, or WebGPU games | **194** |
+| 🛠️ Non-browser engine games | **246** |
+| 📸 Games with verified screenshot links | **111** |
 | 🧠 Games with direct prompt links | **17** |
 
 ## 🏆 Top-rated picks
@@ -43,6 +43,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**CYBER SUNDAY**](https://github.com/influenza-dotcom/3D-RPG) | ⭐ **9.6** | Claude Opus 5 |
 | [**OpenSamguk**](https://github.com/peppone-choi/opensamguk) | ⭐ **9.6** | Claude Opus 4.8 |
 | [**Bong — 末法残土**](https://github.com/Kizunad/Bong) | ⭐ **9.5** | Claude Opus 5 |
+| [**Deepshaft**](https://github.com/ben-gy/deepshaft) | ⭐ **9.5** | Claude Opus 5 |
 | [**General Orders: Sengoku Jidai**](https://github.com/Toribash67/sengoku_jidai) | ⭐ **9.5** | Claude Opus 4.8 |
 | [**Just Five More Minutes**](https://github.com/Giftedx/just-five-more-minutes) | ⭐ **9.5** | Claude Fable 5 |
 | [**Knife Dodge**](https://github.com/Karanvir1729/ninja-knife-dodge) | ⭐ **9.5** | Claude Fable 5.1 |
@@ -52,7 +53,6 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**The Simpsons: Hit & Run — Browser Reconstruction**](https://github.com/Vheissu/hit-and-run-web) | ⭐ **9.5** | GPT-6 Astra |
 | [**The Wandering Inn RPG**](https://github.com/GabrielGLevine/wandering-inn-rpg) | ⭐ **9.5** | Claude Fable 5.1 |
 | [**Wild Haggis Survivors**](https://github.com/Giftedx/wild-haggis-survivors) | ⭐ **9.5** | Claude Fable 5 |
-| [**Wolfsbane**](https://github.com/oivindth/wolfsbane) | ⭐ **9.5** | Claude Fable 5 |
 
 ## 📸 Screenshot spotlight
 
@@ -70,20 +70,20 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **245 games**
-- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **25 games**
-- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **54 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **246 games**
+- ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **27 games**
+- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **60 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
-- 💥 [Action and Shooters](#action-and-shooters) — **108 games**
+- 💥 [Action and Shooters](#action-and-shooters) — **110 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **106 games**
-- 🎮 [Other Browser Games](#other-browser-games) — **46 games**
+- 🎮 [Other Browser Games](#other-browser-games) — **50 games**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 games**
 
 Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**, and any verified screenshot or prompt link. The layout wraps on narrow screens and avoids horizontal table scrolling.
 
 ## Non-Browser Engines
 
-> 🛠️ **245 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **246 verified games. Ranked by evidence-based quality score.**
 
 - [**CYBER SUNDAY**](https://github.com/influenza-dotcom/3D-RPG) — ⭐ **9.6/10** · Claude Opus 5 · Godot 4.7, GDScript, Blender, GLB/glTF, Native desktop, First-person immersive sim, FPS/RPG, GUT tests · 8.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
@@ -109,6 +109,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Robo Open**](https://github.com/az9713/gpt-6-astra-tennis-game) — ⭐ **9.3/10** · GPT-6 Astra, Codex · Unity 6.0.5.7f1, C#, URP 17.5.0, Blender, Native Windows · 6 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png) · [📸 screenshot](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/play-report.png)
 - [**The Nine Lives of Ash**](https://github.com/phirogue/SparkyGames) — ⭐ **9.3/10** · Claude Opus 5 · Godot 4, GDScript, Native desktop, Native mobile · 360 MFLOPS · _confirmed_ · [🔗 files](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.tscn) · [📸 screenshot](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/02_title.png) · [📸 screenshot](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/battle.png)
 - [**Windy 10v10 AI**](https://github.com/windy10v10ai/game) — ⭐ **9.3/10** · Claude Opus 5 · Dota 2 Source 2, Dota 2 Workshop Tools, VScript TypeScript, Lua, Panorama React, Native game platform, PVE custom game · 5.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/windy10v10ai/game#readme) · [▶️ play](https://steamcommunity.com/sharedfiles/filedetails/?id=2307479570) · [📸 screenshot](https://github.com/windy10v10ai/game/blob/develop/content/materials/overviews/dota.png)
+- [**Arx II**](https://github.com/Arx-Game/arxii) — ⭐ **9.2/10** · Claude Opus 4.8 · Evennia, Python, Django, React, TypeScript, WebSocket, Telnet MUD, Server-hosted game · 780 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Arx-Game/arxii#readme)
 - [**HOLDFAST**](https://github.com/nschmeller/holdfast) — ⭐ **9.2/10** · Claude Opus 5 · Bevy 0.19, Rust, Native desktop, WebAssembly, iOS · 1.90 GFLOPS · _confirmed_ · [🔗 files](https://github.com/nschmeller/holdfast/blob/main/README.md) · [📸 screenshot](https://github.com/nschmeller/holdfast/blob/main/docs/ux-critique/12-results.jpg)
 - [**Idle ARPG**](https://github.com/nodeJayS/idle-game) — ⭐ **9.2/10** · Claude Opus 5 · Unity, C#, Native desktop · 4.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/nodeJayS/idle-game/blob/main/unity/Assets/Game/Bootstrap.cs)
 - [**PULSEBREAK**](https://github.com/xindomusic/pulsebreak) — ⭐ **9.2/10** · GPT-6 Astra, Codex · Godot 4.7.2, GDScript, Godot Mobile renderer, Native macOS, Metal · 2.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/title.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/combat.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/boss.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/upgrades.png)
@@ -335,11 +336,13 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Strategy, Simulation, and Sports
 
-> ♟️ **25 verified games. Ranked by evidence-based quality score.**
+> ♟️ **27 verified games. Ranked by evidence-based quality score.**
 
+- [**Deepshaft**](https://github.com/ben-gy/deepshaft) — ⭐ **9.5/10** · Claude Opus 5 · TypeScript, Vite, Canvas 2D raycaster, WebRTC, Trystero, Procedural audio, Browser multiplayer · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/ben-gy/deepshaft#readme) · [▶️ play](https://deepshaft.benrichardson.dev)
 - [**General Orders: Sengoku Jidai**](https://github.com/Toribash67/sengoku_jidai) — ⭐ **9.5/10** · Claude Opus 4.8 · TypeScript, React, SVG, Node.js, SQLite, Browser multiplayer · 650 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Toribash67/sengoku_jidai#readme) · [📸 screenshot](https://github.com/Toribash67/sengoku_jidai/blob/main/assets/maps/rivers/board.svg)
 - [**7 Minutes — City Crisis**](https://github.com/hlforever11/gpt6-city-crisis) — ⭐ **9.3/10** · GPT-6 · Three.js, TypeScript, Vite, Web Audio API, LocalStorage, WebGL, Browser · 2.80 GFLOPS · _confirmed_ · [▶️ play](https://hlforever11.github.io/gpt6-city-crisis/)
 - [**Claude Chess**](https://github.com/mglass222/claude-chess-web) — ⭐ **9.2/10** · Claude Fable 5 · Vanilla JavaScript, chess.js, Stockfish 17.1 WebAssembly, Vite, Browser · 650 MFLOPS · _confirmed_ · [🔗 files](https://github.com/mglass222/claude-chess-web/blob/debca7b29bfc289813c111866bcf07f157430819/src/main.js) · [▶️ play](https://mglass222.github.io/claude-chess-web/)
+- [**Recess Sports v1**](https://github.com/srgirsky/recess-sports) — ⭐ **9.1/10** · Claude Fable 5 · TypeScript, Phaser 3, Vite, Canvas/WebGL, Browser · 1.10 GFLOPS · _confirmed_ · [🔗 files](https://github.com/srgirsky/recess-sports#readme) · [▶️ play](https://srgirsky.github.io/recess-sports/)
 - [**BuildYourTown**](https://github.com/Rapsody09/buildyourtown) — ⭐ **9.0/10** · Claude Fable 5.1 · TypeScript, Vite, Canvas 2D, Docker, Browser · 1.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Rapsody09/buildyourtown) · [▶️ play](https://buildyourtown.com) · [📸 screenshot](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/overview.png) · [📸 screenshot](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/budget.png) · [📸 screenshot](https://github.com/Rapsody09/buildyourtown/blob/main/docs/screenshots/traffic.png)
 - [**Failure is Not an Option**](https://github.com/dan-lee-odinson/failure-is-not-an-option) — ⭐ **9.0/10** · GPT-6 Astra, Claude Code · TypeScript, Vite, HTML/CSS, Browser · 900 MFLOPS · _confirmed_ · [▶️ play](https://finaogame.com/demo/) · [📸 screenshot](https://github.com/dan-lee-odinson/failure-is-not-an-option/blob/main/docs/media/phase4d-title.png)
 - [**Little Flock · 小羊慢慢**](https://github.com/songkeys/little-flock) — ⭐ **9.0/10** · GPT-6 Astra · React 19, TypeScript, React Three Fiber, Drei, Go, WebSockets, PostgreSQL, Browser · 4.50 GFLOPS · _confirmed_ · [▶️ play](https://sharpherd.song.work/) · [📸 screenshot](https://github.com/songkeys/little-flock/blob/main/docs/demo-poster.jpg)
@@ -367,10 +370,11 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Puzzle, Arcade, and Platformers
 
-> 🧩 **54 verified games. Ranked by evidence-based quality score.**
+> 🧩 **60 verified games. Ranked by evidence-based quality score.**
 
 - [**Platform Fighter**](https://github.com/lodevel/platform-fighter) — ⭐ **9.4/10** · Claude Opus 4.8 · Phaser 3, Matter.js, TypeScript, Vite, Browser · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/main.ts) · [▶️ play](https://lodevel.github.io/platform-fighter/)
 - [**Rift Chess**](https://github.com/HaileyStorm/rift-chess) — ⭐ **9.3/10** · GPT-6 Astra · Three.js, TypeScript, Vite, WebGL, Electron, Browser, Windows · 3.50 GFLOPS · _confirmed_ · [▶️ play](https://haileystorm.github.io/rift-chess/) · [📸 screenshot](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png)
+- [**Scrapwall**](https://github.com/ben-gy/scrapwall) — ⭐ **9.3/10** · Claude Opus 4.8 · TypeScript, Vite, Canvas 2D, Weighted-Dijkstra pathfinding, WebRTC, Trystero, Browser multiplayer · 780 MFLOPS · _confirmed_ · [🔗 files](https://github.com/ben-gy/scrapwall#readme) · [▶️ play](https://scrapwall.benrichardson.dev) · [📸 screenshot](https://github.com/ben-gy/scrapwall/blob/main/public/og.png)
 - [**snek**](https://github.com/scottmccarrison/snek) — ⭐ **9.2/10** · Claude Opus 4.7 · Phaser 3, TypeScript, Vite, Cloudflare Workers, Durable Objects, Browser · 470 MFLOPS · _confirmed_ · [🔗 files](https://github.com/scottmccarrison/snek/blob/6648de2a84581e23ff1903e82730c252415bd339/src/main.ts) · [▶️ play](https://mccarrison.me/snek/)
 - [**Silent Meridian**](https://github.com/stackloomdev/silent-meridian) — ⭐ **9.1/10** · GPT-6 Astra · HTML, CSS, JavaScript, WebGL, Browser · 1.10 GFLOPS · _confirmed_ · [▶️ play](https://silent-meridian.stackloom.org/) · [📸 screenshot](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/depth-observatory.png) · [📸 screenshot](https://github.com/stackloomdev/silent-meridian/blob/main/docs/screenshots/ferry.png)
 - [**CityMaker — 3D Landmark 2048**](https://github.com/derek-wangpch/OpenCityMaker) — ⭐ **9.0/10** · GPT-6 Astra · Three.js, TypeScript, React, Vite, WebGL, Browser · 2.50 GFLOPS · _confirmed_ · [▶️ play](https://citymaker.0to1app.com/) · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-game.png) · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-gallery.png) · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-mobile-game.png)
@@ -381,8 +385,12 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Save the Balloons**](https://github.com/shyamathreye/devis-lab) — ⭐ **8.9/10** · Claude Opus 4.8 · JavaScript, React, Vite, Tailwind CSS, Framer Motion, Web Audio API, Browser/offline · 280 MFLOPS · _confirmed_ · [🔗 files](https://github.com/shyamathreye/devis-lab#readme)
 - [**SkySprout**](https://github.com/DUBSOpenHub/skysprout) — ⭐ **8.9/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Web Audio, Browser · 650 MFLOPS · _confirmed_ · [▶️ play](https://dubsopenhub.github.io/skysprout/) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-meadow.png) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-grotto.png) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-canopy.png)
 - [**Tap the Critter**](https://github.com/shyamathreye/devis-lab) — ⭐ **8.9/10** · Claude Opus 4.8 · JavaScript, React, Vite, Tailwind CSS, Framer Motion, Web Audio API, Browser/offline · 280 MFLOPS · _confirmed_ · [🔗 files](https://github.com/shyamathreye/devis-lab/blob/main/src/games/Unscramble.jsx)
+- [**Alfred knækker koden (Alfred Cracks the Code)**](https://github.com/MikkelAJ92/rolige-laerespil) — ⭐ **8.8/10** · Claude Fable 5 · TypeScript, React, Vite, Tailwind CSS, Vitest, PWA/offline, Browser · 260 MFLOPS · _confirmed_ · [🔗 files](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/CodeGame.tsx)
+- [**Hvad er klokken? (What Is the Time?)**](https://github.com/MikkelAJ92/rolige-laerespil) — ⭐ **8.8/10** · Claude Fable 5 · TypeScript, React, Vite, Tailwind CSS, Vitest, PWA/offline, Browser · 260 MFLOPS · _confirmed_ · [🔗 files](https://github.com/MikkelAJ92/rolige-laerespil#readme)
 - [**LASTLIGHT**](https://github.com/bitofastickler/one-prompt-two-worlds) — ⭐ **8.8/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API, Browser · 1.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/bitofastickler/one-prompt-two-worlds/tree/main/games/lastlight)
 - [**Mechapede**](https://github.com/davbachman/Mechapede) — ⭐ **8.8/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API, Browser · 900 MFLOPS · _confirmed_ · [▶️ play](https://davbachman.github.io/Mechapede/) · [📸 screenshot](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png)
+- [**Sæt viserne (Set the Hands)**](https://github.com/MikkelAJ92/rolige-laerespil) — ⭐ **8.8/10** · Claude Fable 5 · TypeScript, React, Vite, Tailwind CSS, Vitest, PWA/offline, Browser · 260 MFLOPS · _confirmed_ · [🔗 files](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/Clock.tsx)
+- [**Stav med Dino (Spell with Dino)**](https://github.com/MikkelAJ92/rolige-laerespil) — ⭐ **8.8/10** · Claude Fable 5 · TypeScript, React, Vite, Tailwind CSS, Vitest, PWA/offline, Browser · 260 MFLOPS · _confirmed_ · [🔗 files](https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/WordGame.tsx)
 - [**Gomoku Web Game**](https://github.com/gww1981/gomoku-game) — ⭐ **8.7/10** · Claude Opus 4.8 · React 19, TypeScript, Vite, Socket.IO, Web Audio API, Browser · 180 MFLOPS · _confirmed_ · [🔗 files](https://github.com/gww1981/gomoku-game/blob/b3f2a891d1c434c32e4af28c09b327f51c2495e5/src/components/Game.tsx)
 - [**Neon Snake — Fable baseline**](https://github.com/kinncj/neon-snake) — ⭐ **8.7/10** · Claude Fable 5.1 · Phaser 4, TypeScript, Tone.js, Canvas, Browser · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/kinncj/neon-snake/tree/main/claude-code-fable) · [▶️ play](https://kinncj.github.io/neon-snake/claude-code-fable/)
 - [**Fable Theft Auto 5.1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.6/10** · Claude Fable 5.1 · HTML, JavaScript, Three.js, WebGL, Browser · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city) · [▶️ play](https://sorrycc.github.io/fable-arcade/games/voxel-gta-city/) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city)
@@ -401,6 +409,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Pierglass**](https://github.com/rickymetz/wordgirl) — ⭐ **8.0/10** · Claude Opus 4.6 · React, TypeScript, Vite, PWA, Browser · 160 MFLOPS · _confirmed_ · [🔗 files](https://github.com/rickymetz/wordgirl/tree/main/src/games/pierglass) · [📸 screenshot](https://github.com/rickymetz/wordgirl/blob/main/public/teasers/polygram.png) · [📸 screenshot](https://github.com/rickymetz/wordgirl/blob/main/public/teasers/crosshatch.png) · [📸 screenshot](https://github.com/rickymetz/wordgirl/blob/main/public/teasers/pierglass.png) · [📸 screenshot](https://github.com/rickymetz/wordgirl/blob/main/public/teasers/doublet.png) · [📸 screenshot](https://github.com/rickymetz/wordgirl/blob/main/public/teasers/serpentine.png)
 - [**World 1-1**](https://github.com/sorrycc/fable-arcade) — ⭐ **8.0/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas, Browser · 240 MFLOPS · _confirmed_ · [🔗 files](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1) · [▶️ play](https://sorrycc.github.io/fable-arcade/games/mario-1-1/) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city)
 - [**Crossy Farm**](https://github.com/sorrycc/fable-arcade) — ⭐ **7.8/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas, Browser · 230 MFLOPS · _confirmed_ · [🔗 files](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car) · [▶️ play](https://sorrycc.github.io/fable-arcade/games/crossy-farm-car/) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city)
+- [**Flappy Bird**](https://github.com/astrosxmgkaung-ui/BhoneAlinkar) — ⭐ **7.8/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D, Browser · 120 MFLOPS · _confirmed_ · [🔗 files](https://github.com/astrosxmgkaung-ui/BhoneAlinkar/blob/main/index.html)
 - [**Flappy Skies**](https://github.com/sorrycc/fable-arcade) — ⭐ **7.8/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas, Browser · 220 MFLOPS · _confirmed_ · [🔗 files](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird) · [▶️ play](https://sorrycc.github.io/fable-arcade/games/flappy-bird/) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city)
 - [**Robo Tennis**](https://github.com/sorrycc/fable-arcade) — ⭐ **7.8/10** · Claude Fable 5.1 · HTML, JavaScript, Canvas, Browser · 260 MFLOPS · _confirmed_ · [🔗 files](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis) · [▶️ play](https://sorrycc.github.io/fable-arcade/games/robot-tennis/) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/flappy-bird) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-1-1) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/mario-kart-snow) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/robot-tennis) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/subway-runner) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/crossy-farm-car) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/terraria-sandbox) · [🧠 prompt](https://github.com/sorrycc/fable-arcade/tree/main/games/voxel-gta-city)
 - [**Beyond Boring: The Game**](https://github.com/kolatts/beyond-boring-the-game) — ⭐ **7.5/10** · Claude Fable 5 · Three.js, TypeScript, Vite · 1.10 GFLOPS · _creator-reported_
@@ -481,14 +490,16 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Action and Shooters
 
-> 💥 **108 verified games. Ranked by evidence-based quality score.**
+> 💥 **110 verified games. Ranked by evidence-based quality score.**
 
 - [**Commander Simulator**](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) — ⭐ **9.7/10** · Claude Fable 5.1, ChatGPT 5.6 Soul, GPT-6 Astra · JavaScript, Browser ES modules, WebSocket, Vercel · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) · [📸 screenshot](https://github.com/tuitamogamer-gpt/mtg-commander-simulator/blob/main/assets/menu/command-table-preview.jpg)
 - [**OpenSamguk**](https://github.com/peppone-choi/opensamguk) — ⭐ **9.6/10** · Claude Opus 4.8 · Kotlin, Spring Boot, Next.js, TypeScript, SVG/isometric map, PostgreSQL, Redis, Browser strategy game · 950 MFLOPS · _confirmed_ · [🔗 files](https://github.com/peppone-choi/opensamguk#readme) · [📸 screenshot](https://github.com/peppone-choi/opensamguk/blob/main/data/map/rivers/board.svg)
 - [**Just Five More Minutes**](https://github.com/Giftedx/just-five-more-minutes) — ⭐ **9.5/10** · Claude Fable 5 · Three.js, Canvas2D, TypeScript, Vite, Web Audio API, Browser · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Giftedx/just-five-more-minutes/blob/master/src/game.ts) · [▶️ play](https://ha.ggis.xyz/just-five-more-minutes/) · [📸 screenshot](https://github.com/Giftedx/just-five-more-minutes/blob/master/docs/screenshots/title.png) · [📸 screenshot](https://github.com/Giftedx/just-five-more-minutes/blob/master/docs/screenshots/parity-3d.png) · [📸 screenshot](https://github.com/Giftedx/just-five-more-minutes/blob/master/docs/screenshots/ui-mmo-full.png) · [📸 screenshot](https://github.com/Giftedx/just-five-more-minutes/blob/master/docs/screenshots/ui-score.png)
 - [**Wolfsbane**](https://github.com/oivindth/wolfsbane) — ⭐ **9.5/10** · Claude Fable 5 · Babylon.js, Havok, Svelte 5, TypeScript, Vite, Browser · 3.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oivindth/wolfsbane/blob/main/src/core/game.ts) · [▶️ play](https://oivindth.github.io/wolfsbane/)
 - [**Aeterna Chronicle**](https://github.com/crisious/aeterna-chronicle-web) — ⭐ **9.4/10** · Claude Opus 4.8 · Phaser 3, TypeScript, Vite, Browser · 1.10 GFLOPS · _confirmed_ · [🔗 files](https://github.com/crisious/aeterna-chronicle-web/blob/151985a9d7bfadbb3d0ef1bfab2416ea3a6ce148/client/src/main.ts)
+- [**Gloamrun**](https://github.com/ben-gy/gloamrun) — ⭐ **9.4/10** · Claude Opus 4.8 · TypeScript, Vite, Canvas 2D, WebRTC, Trystero, Procedural audio, Browser multiplayer · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/ben-gy/gloamrun#readme) · [▶️ play](https://gloamrun.benrichardson.dev)
 - [**JUNKRUN**](https://github.com/CoreyTrombley/JunkDrive) — ⭐ **9.4/10** · Claude Fable 5 · TypeScript, Preact, Vite, Canvas 2D, Web Audio API, Browser/PWA · 420 MFLOPS · _confirmed_ · [🔗 files](https://github.com/CoreyTrombley/JunkDrive#readme) · [📸 screenshot](https://github.com/CoreyTrombley/JunkDrive/blob/main/README.md)
+- [**Lastlight**](https://github.com/ben-gy/lastlight) — ⭐ **9.4/10** · Claude Opus 4.8 · TypeScript, Vite, Canvas 2D, DOM/CSS HUD, WebRTC, Trystero, Browser multiplayer · 720 MFLOPS · _confirmed_ · [🔗 files](https://github.com/ben-gy/lastlight#readme) · [▶️ play](https://lastlight.benrichardson.dev) · [📸 screenshot](https://github.com/ben-gy/lastlight/blob/main/public/og.png)
 - [**Brothers**](https://github.com/david-a-wheeler/brothers) — ⭐ **9.3/10** · Claude Fable 5, Claude Opus 4.8 · Phaser 3, Matter.js, JavaScript, Web Audio API, Browser · 260 MFLOPS · _confirmed_ · [🔗 files](https://github.com/david-a-wheeler/brothers/blob/2a545f4a75b06edcbcd8873d3f5dfbfbcc5188dd/src/main.js) · [▶️ play](https://brothers.dwheeler.com/)
 - [**Emblem Rogue**](https://github.com/virtu333/rogue-emblem) — ⭐ **9.3/10** · Claude Fable 5 · Phaser 3, JavaScript, Vite, Netlify, Browser · 360 MFLOPS · _confirmed_ · [🔗 files](https://github.com/virtu333/rogue-emblem/blob/d90705c46e2cf707f0b5779a99ee01d702e0423b/src/main.js) · [▶️ play](https://emblem-rogue.netlify.app/)
 - [**KamiKakushi — An Incremental RPG**](https://github.com/Raynos/kami-kakushi) — ⭐ **9.3/10** · Claude Opus, Claude Fable 5 · TypeScript, Vite, HTML/CSS, Browser · 250 MFLOPS · _creator-reported_ · [🔗 files](https://github.com/Raynos/kami-kakushi/blob/main/src/app/main.ts) · [▶️ play](https://raynos.github.io/kami-kakushi/)
@@ -709,7 +720,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Other Browser Games
 
-> 🎮 **46 verified games. Ranked by evidence-based quality score.**
+> 🎮 **50 verified games. Ranked by evidence-based quality score.**
 
 - [**Beyond Boring: Death March**](https://github.com/kolatts/beyond-boring-death-march) — ⭐ **9.4/10** · Claude Fable 5 · Phaser 3, TypeScript, Vite, Browser · 420 MFLOPS · _confirmed_ · [🔗 files](https://github.com/kolatts/beyond-boring-death-march/blob/7f22c1f9aa8afa64b1fe84d9b91ecf6eaec14170/src/main.ts) · [▶️ play](https://kolatts.github.io/beyond-boring-death-march/) · [📸 screenshot](https://github.com/kolatts/beyond-boring-death-march/blob/7f22c1f9aa8afa64b1fe84d9b91ecf6eaec14170/docs/screenshots/title.png)
 - [**Choplifter — Rescue Operations**](https://github.com/danielpradilla/choplifter) — ⭐ **8.8/10** · GPT-6 Astra · JavaScript, Phaser, HTML/CSS, Canvas, Browser · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/danielpradilla/choplifter/tree/main/choplifter-6-astra) · [▶️ play](https://www.danielpradilla.info/projects/choplifter/choplifter-6-astra/)
@@ -731,6 +742,10 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Sudden Death Strikers**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Vector Vacate**](https://github.com/pawanp3/renderwolf-fable5-chart-toppers) — ⭐ **8.5/10** · Claude Fable 5 · HTML, JavaScript, Canvas 2D · 220 MFLOPS · _confirmed_
 - [**Fuzhou Mahjong**](https://github.com/minyic7/fuzhou-mahjong) — ⭐ **8.4/10** · Claude Opus 4.6 · React, TypeScript, Vite, WebSockets, Browser · 650 MFLOPS · _confirmed_ · [🔗 files](https://github.com/minyic7/fuzhou-mahjong/tree/main/apps/web)
+- [**Catch Angel**](https://github.com/vitalirasin-web/valeriabirthday) — ⭐ **8.2/10** · Claude Fable 5 · HTML, CSS, JavaScript, DOM, Web Audio, Browser · 180 MFLOPS · _confirmed_ · [🔗 files](https://github.com/vitalirasin-web/valeriabirthday/blob/main/index.html)
+- [**Clean the Mirror**](https://github.com/vitalirasin-web/valeriabirthday) — ⭐ **8.2/10** · Claude Fable 5 · HTML, CSS, JavaScript, DOM, Web Audio, Browser · 180 MFLOPS · _confirmed_ · [🔗 files](https://vitalirasin-web.github.io/valeriabirthday/)
+- [**Pop the Chore Balloons**](https://github.com/vitalirasin-web/valeriabirthday) — ⭐ **8.2/10** · Claude Fable 5 · HTML, CSS, JavaScript, DOM, Web Audio, Browser · 180 MFLOPS · _confirmed_ · [🔗 files](https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/games.js)
+- [**Wake Lera with Coffee**](https://github.com/vitalirasin-web/valeriabirthday) — ⭐ **8.2/10** · Claude Fable 5 · HTML, CSS, JavaScript, DOM, Web Audio, Browser · 180 MFLOPS · _confirmed_ · [🔗 files](https://github.com/vitalirasin-web/valeriabirthday#readme) · [▶️ play](https://vitalirasin-web.github.io/valeriabirthday/)
 - [**Dig: Deep Descent**](https://github.com/aaronshaver/dig-deep-descent) — ⭐ **8.1/10** · GPT-6 Astra · JavaScript, Canvas 2D, Browser · 260 MFLOPS · _confirmed_ · [🔗 files](https://github.com/aaronshaver/dig-deep-descent/blob/main/index.html) · [▶️ play](https://aaronshaver.github.io/dig-deep-descent/)
 - [**Blackjack**](https://github.com/reytoyogassky/BLACKJACK) — ⭐ **8.0/10** · Claude Opus 4.6 · Next.js, React, JavaScript, Supabase, Browser · 350 MFLOPS · _confirmed_ · [🔗 files](https://github.com/reytoyogassky/BLACKJACK/tree/main/app/blackjack)
 - [**Deal or No Deal**](https://github.com/srpatatas/produsa) — ⭐ **8.0/10** · Claude Opus 4.6 · Next.js, React, TypeScript, Browser · 300 MFLOPS · _confirmed_ · [🔗 files](https://github.com/srpatatas/produsa/tree/main/src/app/deal) · [📸 screenshot](https://github.com/srpatatas/produsa/blob/main/public/images/deal_intro.GIF)

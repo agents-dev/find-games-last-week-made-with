@@ -20995,5 +20995,484 @@
     "quality_estimate_basis": "Three clearly separated playable games with a complete lobby-to-round loop, themes, difficulty levels, local leaderboard, persistent state, offline build, shared result flow and exact Opus attribution on gameplay UI.",
     "counted_game_units": 3,
     "is_independent_game": true
+  },
+  {
+    "name": "Deepshaft",
+    "github_url": "https://github.com/ben-gy/deepshaft",
+    "game_links": [
+      "https://github.com/ben-gy/deepshaft#readme",
+      "https://deepshaft.benrichardson.dev",
+      "https://github.com/ben-gy/deepshaft/blob/main/src/main.ts",
+      "https://github.com/ben-gy/deepshaft/blob/main/src/render.ts",
+      "https://github.com/ben-gy/deepshaft/tree/main/src/engine",
+      "https://github.com/ben-gy/deepshaft/tree/main/tests",
+      "https://github.com/ben-gy/deepshaft/commit/51e8cdce6bb91b7c8a23f2e92a4aec28846a10b7"
+    ],
+    "live_demo_url": "https://deepshaft.benrichardson.dev",
+    "evidence_url": "https://github.com/ben-gy/deepshaft/commit/51e8cdce6bb91b7c8a23f2e92a4aec28846a10b7",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "Vite",
+      "Canvas 2D raycaster",
+      "WebRTC",
+      "Trystero",
+      "Procedural audio",
+      "Browser multiplayer"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Deepshaft"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-08-17T08:02:57Z",
+    "published_on": "2026-08-17",
+    "discovery_sources": [
+      "Reverse-link from ben-gy/gh-game-factory index",
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/ben-gy/deepshaft"
+    ],
+    "verification_notes": "The README documents Deepshaft as a playable first-person raycast crawl through a procedural mine. It has Stope, Adit and Lode run modes, movement and turning, weapons, ammo, doors, firedamp, grates, sumps, rescue of downed co-op players, tutorial, deterministic fixed-step simulation, live 2–4 player WebRTC co-op, procedural rendering/audio, GitHub Pages hosting and 392 tests. The cited HUD/rendering commit fixes player-facing hit targets, wall projection and co-op seat colors and contains an exact Co-Authored-By: Claude Opus 5 trailer. Count the current first-person mine game once; exclude shared engine features and the factory index.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D DDA raycasting, procedural sprites/textures/audio, fixed-step enemy simulation, deterministic map generation and WebRTC co-op state; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "Complete documented first-person game loop with three modes, procedural deterministic world, combat, hazards, co-op rescue, tutorial, live demo, tests and exact Opus attribution on player-facing rendering/HUD work.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Gloamrun",
+    "github_url": "https://github.com/ben-gy/gloamrun",
+    "game_links": [
+      "https://github.com/ben-gy/gloamrun#readme",
+      "https://gloamrun.benrichardson.dev",
+      "https://github.com/ben-gy/gloamrun/blob/main/src/game.ts",
+      "https://github.com/ben-gy/gloamrun/blob/main/src/net-game.ts",
+      "https://github.com/ben-gy/gloamrun/blob/main/src/upgrades.ts",
+      "https://github.com/ben-gy/gloamrun/tree/main/src/engine",
+      "https://github.com/ben-gy/gloamrun/tree/main/tests",
+      "https://github.com/ben-gy/gloamrun/commit/d1fee2534b09c3409ed2f1521041599b72260032"
+    ],
+    "live_demo_url": "https://gloamrun.benrichardson.dev",
+    "evidence_url": "https://github.com/ben-gy/gloamrun/commit/d1fee2534b09c3409ed2f1521041599b72260032",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "Vite",
+      "Canvas 2D",
+      "WebRTC",
+      "Trystero",
+      "Procedural audio",
+      "Browser multiplayer"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Gloamrun"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-07-18T01:40:50Z",
+    "published_on": "2026-07-18",
+    "discovery_sources": [
+      "Reverse-link from ben-gy/gh-game-factory index",
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/ben-gy/gloamrun"
+    ],
+    "verification_notes": "The README documents Gloamrun as a playable endless co-op dungeon crawl with procedural floors, auto-fire nearest-monster combat, movement, dash invulnerability, upgrade drafting, escalating monster waves, bosses, downed-player revival and 2–4 player peer-to-peer rooms. The source includes the game loop, networked game mode, upgrades, shared fixed-step engine, deterministic RNG, host transfer, rematch and storage. The live GitHub Pages demo is linked, and the repository has tests for balance, P2P synchronization, host election, takeover, rematch and room codes. The cited multiplayer/gameplay systems commit contains an exact Co-authored-by: Claude Opus 4.8 trailer. Count the dungeon game once; exclude shared engine modules.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 850000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D rendering, procedural particles/audio, monster AI, fixed-step simulation, procedural floors and WebRTC snapshots; not measured hardware throughput.",
+    "quality_estimate_10": 9.4,
+    "quality_estimate_basis": "Complete documented dungeon-crawl loop with procedural escalation, combat, upgrades, co-op revival, host transfer, rematch, live demo, strong tests and exact Opus attribution on multiplayer/gameplay systems.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Scrapwall",
+    "github_url": "https://github.com/ben-gy/scrapwall",
+    "game_links": [
+      "https://github.com/ben-gy/scrapwall#readme",
+      "https://scrapwall.benrichardson.dev",
+      "https://github.com/ben-gy/scrapwall/blob/main/src/game.ts",
+      "https://github.com/ben-gy/scrapwall/blob/main/src/net-game.ts",
+      "https://github.com/ben-gy/scrapwall/blob/main/src/render.ts",
+      "https://github.com/ben-gy/scrapwall/blob/main/src/modes.ts",
+      "https://github.com/ben-gy/scrapwall/tree/main/tests",
+      "https://github.com/ben-gy/scrapwall/commit/1d1fcf4436d75948caf5ff03970f102d4035ed58"
+    ],
+    "live_demo_url": "https://scrapwall.benrichardson.dev",
+    "evidence_url": "https://github.com/ben-gy/scrapwall/commit/1d1fcf4436d75948caf5ff03970f102d4035ed58",
+    "screenshot_urls": [
+      "https://github.com/ben-gy/scrapwall/blob/main/public/og.png"
+    ],
+    "technology": [
+      "TypeScript",
+      "Vite",
+      "Canvas 2D",
+      "Weighted-Dijkstra pathfinding",
+      "WebRTC",
+      "Trystero",
+      "Browser multiplayer"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Scrapwall"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-07-18T05:12:01Z",
+    "published_on": "2026-07-18",
+    "discovery_sources": [
+      "Reverse-link from ben-gy/gh-game-factory index",
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/ben-gy/scrapwall"
+    ],
+    "verification_notes": "The README documents Scrapwall as a playable co-op grid base-defense game. It includes wall, gun, spikes, fix and clear tools, salvage harvesting, shared scrap/ammo, weighted-Dijkstra enemy pathing, three board modes, a Core-loss end condition, up to four-player host-authoritative WebRTC co-op, host transfer, rematch, procedural audio, GitHub Pages hosting and tests for rules, balance, determinism, networking and takeover. The source contains the game, networked game, renderer and modes; the repository includes an Open Graph game image. The cited initial gameplay commit contains an exact Co-Authored-By: Claude Opus 4.8 trailer. Count the base-defense game once; exclude shared engine modules.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 780000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D rendering, weighted-Dijkstra flow fields, enemy simulation, particles, fixed-step net snapshots, procedural audio and P2P state; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "Complete documented defense loop with economy, pathfinding, three modes, co-op networking, host transfer, rematch, live demo, screenshot asset, balance simulation, tests and exact Opus attribution on the initial gameplay commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Lastlight",
+    "github_url": "https://github.com/ben-gy/lastlight",
+    "game_links": [
+      "https://github.com/ben-gy/lastlight#readme",
+      "https://lastlight.benrichardson.dev",
+      "https://github.com/ben-gy/lastlight/blob/main/src/game.ts",
+      "https://github.com/ben-gy/lastlight/blob/main/src/hex.ts",
+      "https://github.com/ben-gy/lastlight/blob/main/src/modes.ts",
+      "https://github.com/ben-gy/lastlight/blob/main/src/race.ts",
+      "https://github.com/ben-gy/lastlight/blob/main/src/render.ts",
+      "https://github.com/ben-gy/lastlight/tree/main/tests",
+      "https://github.com/ben-gy/lastlight/commit/b41bb5533b2cdd3900788a8a80481f78a94fb44f"
+    ],
+    "live_demo_url": "https://lastlight.benrichardson.dev",
+    "evidence_url": "https://github.com/ben-gy/lastlight/commit/b41bb5533b2cdd3900788a8a80481f78a94fb44f",
+    "screenshot_urls": [
+      "https://github.com/ben-gy/lastlight/blob/main/public/og.png"
+    ],
+    "technology": [
+      "TypeScript",
+      "Vite",
+      "Canvas 2D",
+      "DOM/CSS HUD",
+      "WebRTC",
+      "Trystero",
+      "Browser multiplayer"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Lastlight"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-07-19T05:05:04Z",
+    "published_on": "2026-07-19",
+    "discovery_sources": [
+      "Reverse-link from ben-gy/gh-game-factory index",
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/ben-gy/lastlight"
+    ],
+    "verification_notes": "The README documents Lastlight as a playable browser settlement-survival game on a hex map. It includes a shrinking warmth ring, hearth homes, gathering huts, workshops, worker assignment, food/coal production, scouting, caches, stranded survivors, night resolution, three modes, scoring, solo play and a 2–6 player same-seed peer-to-peer race. The source includes the game, hex grid, mode rules, race flow and Canvas/DOM renderer; the repository contains a live GitHub Pages demo, Open Graph game image and tests for balance, contrast, rules, multiplayer lifecycle, rematch, takeover and UI. The cited initial gameplay commit contains an exact Co-Authored-By: Claude Opus 4.8 trailer. Count the settlement game once; exclude shared engine behavior.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 720000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas hex-map rendering, DOM HUD, settlement simulation, night resolution, procedural weather/events and WebRTC same-seed race updates; not measured hardware throughput.",
+    "quality_estimate_10": 9.4,
+    "quality_estimate_basis": "Complete documented settlement-survival loop with spatial warmth economy, workers, scouting, three modes, same-seed multiplayer, live demo, screenshot asset, extensive tests and exact Opus attribution on the initial gameplay commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Flappy Bird",
+    "github_url": "https://github.com/astrosxmgkaung-ui/BhoneAlinkar",
+    "game_links": [
+      "https://github.com/astrosxmgkaung-ui/BhoneAlinkar/blob/main/index.html",
+      "https://github.com/astrosxmgkaung-ui/BhoneAlinkar/commit/ac16aedacd95ddd4c32c8fecea5661e669db58d6"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/astrosxmgkaung-ui/BhoneAlinkar/commit/ac16aedacd95ddd4c32c8fecea5661e669db58d6",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas 2D",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Flappy Bird"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2025-09-22T18:58:59Z",
+    "published_on": "2025-09-22",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Fable game",
+      "https://github.com/astrosxmgkaung-ui/BhoneAlinkar"
+    ],
+    "verification_notes": "The repository contains a complete single-file Flappy Bird game. The source implements a responsive canvas, ready/play/dead states, gravity and flap physics, procedural pipe spawning, collision detection, scoring, localStorage best score, and mouse, touch and keyboard input. The cited gameplay/deployment commit contains an exact Co-Authored-By: Claude Fable 5 trailer. The inferred GitHub Pages URL returned HTTP 404 during verification, so no live demo is claimed. Count the source game once.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 120000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D drawing, simple physics, pipe collision, input and local score storage; not measured hardware throughput.",
+    "quality_estimate_10": 7.8,
+    "quality_estimate_basis": "Complete compact game loop with responsive canvas, multiple input methods, scoring, persistence and exact Fable attribution on the gameplay commit, but no currently reachable live deployment.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Alfred lærer klokken",
+    "github_url": "https://github.com/MikkelAJ92/rolige-laerespil",
+    "game_links": [
+      "https://github.com/MikkelAJ92/rolige-laerespil#readme",
+      "https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/Clock.tsx",
+      "https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/WordGame.tsx",
+      "https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/components/CodeGame.tsx",
+      "https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/time.ts",
+      "https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/words.ts",
+      "https://github.com/MikkelAJ92/rolige-laerespil/blob/main/src/domain/code.ts",
+      "https://github.com/MikkelAJ92/rolige-laerespil/tree/main/tests",
+      "https://github.com/MikkelAJ92/rolige-laerespil/commit/38702beecf2e40158fe22da307fc329bf3711417"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/MikkelAJ92/rolige-laerespil/commit/38702beecf2e40158fe22da307fc329bf3711417",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Vitest",
+      "PWA/offline",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 4,
+    "contained_games": [
+      "Hvad er klokken? (What Is the Time?)",
+      "Sæt viserne (Set the Hands)",
+      "Stav med Dino (Spell with Dino)",
+      "Alfred knækker koden (Alfred Cracks the Code)"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-06-09T20:13:32Z",
+    "published_on": "2026-06-09",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Fable game",
+      "https://github.com/MikkelAJ92/rolige-laerespil"
+    ],
+    "verification_notes": "The Danish README documents four games sharing a progression account: What Is the Time? reads an analog clock with adaptive difficulty; Set the Hands moves clock hands into place; Spell with Dino is a word-letter game with read-aloud support; and Alfred Cracks the Code is a Mastermind-style code-breaking game with draggable numbers and four difficulty levels. The source has separate Clock, WordGame and CodeGame components plus separate time, words and code rule modules; tests cover audio, hints, mastery, persistence, scenes, time, words and code. The cited commit adds the fourth game, its tested engine, scene system, persistence, board and wiring and contains exact Co-Authored-By: Claude Fable 5 trailers. Count the four independently playable game modes once each; exclude the shared owl, themes, levels and progression account.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 260000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React DOM rendering, Tailwind transitions, timers, drag interactions, speech/audio and local persistence across four small educational game modes; not measured hardware throughput.",
+    "quality_estimate_10": 8.8,
+    "quality_estimate_basis": "Four clearly separated playable modes with distinct rules, adaptive difficulty, persistence, sound/speech, offline PWA delivery, tests and exact Fable attribution on the fourth-game implementation commit.",
+    "counted_game_units": 4,
+    "is_independent_game": true
+  },
+  {
+    "name": "Recess Sports",
+    "github_url": "https://github.com/srgirsky/recess-sports",
+    "game_links": [
+      "https://github.com/srgirsky/recess-sports#readme",
+      "https://srgirsky.github.io/recess-sports/",
+      "https://github.com/srgirsky/recess-sports/blob/main/src/scenes/GameScene.ts",
+      "https://github.com/srgirsky/recess-sports/blob/main/src/scenes/GameSetupScene.ts",
+      "https://github.com/srgirsky/recess-sports/blob/main/src/scenes/ui/BattingView.ts",
+      "https://github.com/srgirsky/recess-sports/blob/main/src/systems/atbat.ts",
+      "https://github.com/srgirsky/recess-sports/tree/main/tests",
+      "https://github.com/srgirsky/recess-sports/commit/7c98b233a08ac0dc2df8fccff0d3627d8112af3a"
+    ],
+    "live_demo_url": "https://srgirsky.github.io/recess-sports/",
+    "evidence_url": "https://github.com/srgirsky/recess-sports/commit/7c98b233a08ac0dc2df8fccff0d3627d8112af3a",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "Phaser 3",
+      "Vite",
+      "Canvas/WebGL",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Recess Sports v1"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-07-17T21:11:47Z",
+    "published_on": "2026-07-17",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Fable game",
+      "https://github.com/srgirsky/recess-sports"
+    ],
+    "verification_notes": "The README documents Recess Sports v1 as a shipped browser baseball game: draft 9 of 30 neighborhood characters, then play a short pitch-and-swing game. The source includes Phaser scenes for boot, setup, lineup, gameplay, batting, pitch selection, scoreboards and results, plus pure draft/at-bat/innings rules and tests. The live GitHub Pages demo returned a reachable page during verification. The cited inning-break gameplay/UI commit contains exact Co-Authored-By: Claude Fable 5 trailers. The README also describes a separate Three.js v2 art-direction spike; it is still in progress and visual-only, so it is excluded from the count. Count the shipped Phaser baseball game once.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1100000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Phaser scene rendering, batting interaction, pitch timing, character presentation, Canvas/WebGL effects and browser audio; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "Shipped browser baseball loop with drafting, pitching, batting, innings, characters, scenes, live demo, tests and exact Fable attribution on a gameplay/UI commit; the unfinished Three.js spike is excluded.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Lera Birthday Mini-Games",
+    "github_url": "https://github.com/vitalirasin-web/valeriabirthday",
+    "game_links": [
+      "https://github.com/vitalirasin-web/valeriabirthday#readme",
+      "https://vitalirasin-web.github.io/valeriabirthday/",
+      "https://github.com/vitalirasin-web/valeriabirthday/blob/main/index.html",
+      "https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/games.js",
+      "https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/config.js",
+      "https://github.com/vitalirasin-web/valeriabirthday/blob/main/js/main.js",
+      "https://github.com/vitalirasin-web/valeriabirthday/commit/ff60ed966ba2b206ece5cc68f74850b75513599d"
+    ],
+    "live_demo_url": "https://vitalirasin-web.github.io/valeriabirthday/",
+    "evidence_url": "https://github.com/vitalirasin-web/valeriabirthday/commit/ff60ed966ba2b206ece5cc68f74850b75513599d",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "DOM",
+      "Web Audio",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 4,
+    "contained_games": [
+      "Wake Lera with Coffee",
+      "Clean the Mirror",
+      "Catch Angel",
+      "Pop the Chore Balloons"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-08-26T05:29:44Z",
+    "published_on": "2026-08-26",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Fable game",
+      "https://github.com/vitalirasin-web/valeriabirthday"
+    ],
+    "verification_notes": "The repository is a family birthday page that embeds four real mini-games. index.html has four separate game sections; games.js implements the loops: six coffee-button clicks fill a cup and finish the game, seven sticker buttons must be peeled, a moving dog must be caught three times, and six animated chore balloons must be popped. Each loop has input handlers, progress state, completion state and feedback effects. The GitHub Pages URL returned HTTP 200 during verification. The cited UI/game-text commit contains an exact Co-Authored-By: Claude Fable 5 trailer. Count the four independently playable mini-games; exclude the family page, gallery, audio and trivia quiz.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for DOM animation, button interaction, confetti, timed dog movement, balloon animation, Web Audio feedback and browser presentation; not measured hardware throughput.",
+    "quality_estimate_10": 8.2,
+    "quality_estimate_basis": "Four distinct playable loops with clear completion rules, progress tracking, localized text, feedback effects, source-level evidence and a reachable browser deployment; the surrounding birthday page is excluded from the count.",
+    "counted_game_units": 4,
+    "is_independent_game": true
+  },
+  {
+    "name": "Arx II",
+    "github_url": "https://github.com/Arx-Game/arxii",
+    "game_links": [
+      "https://github.com/Arx-Game/arxii#readme",
+      "https://github.com/Arx-Game/arxii/blob/main/frontend/src/game/GamePage.tsx",
+      "https://github.com/Arx-Game/arxii/blob/main/frontend/src/battles/components/BattleMapCanvas.tsx",
+      "https://github.com/Arx-Game/arxii/blob/main/frontend/e2e/game-entry.spec.ts",
+      "https://github.com/Arx-Game/arxii/blob/main/frontend/e2e/combat.spec.ts",
+      "https://github.com/Arx-Game/arxii/blob/main/docs/frontend/game_client_plan.md",
+      "https://github.com/Arx-Game/arxii/commit/b7eb4c972b962a6c8cd75ed36a7c70b8f8ac8f4a"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Arx-Game/arxii/commit/b7eb4c972b962a6c8cd75ed36a7c70b8f8ac8f4a",
+    "screenshot_urls": [],
+    "technology": [
+      "Evennia",
+      "Python",
+      "Django",
+      "React",
+      "TypeScript",
+      "WebSocket",
+      "Telnet MUD",
+      "Server-hosted game"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Arx II"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2024-02-04T07:44:48Z",
+    "published_on": "2024-02-04",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/Arx-Game/arxii"
+    ],
+    "verification_notes": "The README identifies Arx II as the sequel to Arx: After the Reckoning, built on the Evennia framework, with commands to build the React frontend and start the Evennia server. The repository includes the /game client route, scene and battle pages, player-action and combat UI, WebSocket integration, entry-flow tests and combat smoke tests. The cited combat-actions commit adds player-facing flee, cover, interpose, ready, combo, join and leave actions, telnet combat commands, web dispatch through the shared action seam and end-to-end coverage; it contains exact Co-Authored-By: Claude Opus 4.8 trailers. Count the current Arx II MUD once. No public live demo was claimed.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 780000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for server-side MUD state, combat resolution, WebSocket updates, React UI rendering and browser/telnet presentation; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Large source-complete MUD project with a runnable Evennia server, React game client, scenes, battles, player actions, combat systems, entry and smoke tests, and exact Opus attribution on player-action implementation.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

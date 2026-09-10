@@ -855,6 +855,56 @@
       "repository": "https://github.com/ben-gy/overpressure",
       "source": "Reverse-link from ben-gy/gh-game-factory index",
       "reason": "Overpressure is a real playable browser game with a strong build log, but its individual repository has no exact Astra, Opus or Fable attribution trailer. The model evidence is not repository-level. Reject it under the exact model-evidence rule."
+    },
+    {
+      "repository": "https://github.com/ben-gy/tiny-tanks",
+      "source": "Reverse-link from ben-gy/gh-game-factory index",
+      "reason": "Tiny Tanks is a real playable browser capture-the-flag tank game, but its individual repository has no exact Astra, Opus or Fable attribution trailer. Reject it under the repository-level model-evidence rule."
+    },
+    {
+      "repository": "https://github.com/ben-gy/realmfold",
+      "source": "Reverse-link from ben-gy/gh-game-factory index",
+      "reason": "Realmfold is a real playable browser tile-drafting game, but its individual repository has no exact Astra, Opus or Fable attribution trailer in commit search. Reject it under the repository-level model-evidence rule."
+    },
+    {
+      "repository": "https://github.com/ben-gy/turntide",
+      "source": "Reverse-link from ben-gy/gh-game-factory index",
+      "reason": "Turntide is a real playable browser draughts variant, but its individual repository has no exact Astra, Opus or Fable attribution trailer in commit search. Reject it under the repository-level model-evidence rule."
+    },
+    {
+      "repository": "https://github.com/ben-gy/skyhold",
+      "source": "Reverse-link from ben-gy/gh-game-factory index",
+      "reason": "Skyhold is a real playable browser building-and-climbing game, but its individual repository has no exact Astra, Opus or Fable attribution trailer. Reject it under the repository-level model-evidence rule."
+    },
+    {
+      "repository": "https://github.com/onryde/seazn.club",
+      "source": "GitHub commit search for Co-Authored-By Claude Fable game",
+      "reason": "The repository is a multi-tenant tournament-management SaaS with shared sport engines and an embedded Chess Quest feature. It is not an independently published game repository. Reject it as a platform rather than count the embedded lesson game."
+    },
+    {
+      "repository": "https://github.com/ryanskarnulis/chess",
+      "source": "GitHub commit search for Co-Authored-By Claude Fable game",
+      "reason": "The repository contains a real local-first chess app and complete board UI, but its core product is an AI-agent opponent/interface with Stockfish integration. Reject it under the model-as-player exclusion rather than count it as a standard game."
+    },
+    {
+      "repository": "https://github.com/superness/swimchain",
+      "source": "GitHub commit search for Co-Authored-By Claude Fable game",
+      "reason": "The README and tree identify Swimchain as a decentralized social-media protocol with Rust services and analytics/admin clients. It contains no standalone game or playable game loop. Reject it as non-game application software."
+    },
+    {
+      "repository": "https://github.com/joekhosbayar/mighty-frontend",
+      "source": "GitHub commit search for Co-Authored-By Claude Fable game",
+      "reason": "The README explicitly identifies this repository as the thin Web/Electron frontend module of the Mighty workspace. It requires the separate go-mighty backend, has no client-side game simulation, and cannot run the game independently. Reject it as a component repository; the backend-only repository is also excluded."
+    },
+    {
+      "repository": "https://github.com/BenMasset/masset-mcp-tools",
+      "source": "GitHub commit search for Co-Authored-By Claude Fable game",
+      "reason": "The README identifies this repository as an MCP tool suite. It includes interactive chess where Claude chooses the moves and Mystery Guest where Claude plays the hidden guest, so both are model-as-player/host experiences. The repository is not an independently published game collection; reject it under the model-as-player and catalog/tooling rules."
+    },
+    {
+      "repository": "https://github.com/BeyondCodeCollective/wearebcc.org",
+      "source": "GitHub commit search for Co-Authored-By Claude Fable game",
+      "reason": "The README identifies the repository as a corporate website with a career quiz. The game-related path is a Beyond the Game presentation deck, not a playable game. Reject it as a website/quiz and presentation artifact."
     }
   ]
 }

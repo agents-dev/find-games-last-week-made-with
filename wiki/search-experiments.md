@@ -2067,3 +2067,19 @@ Reconfirm [Breakneck Baseball](https://github.com/hynding/breakneck-baseball) as
 ### Rust/Bevy/Claude Fable sports-game audit
 
 Accept [Breakneck Baseball](https://github.com/hynding/breakneck-baseball) as one engine-based game. Its README, source and playtest screenshots prove a complete Rust/Bevy/Rapier baseball game with native desktop and browser WASM builds, CPU/2P modes, full innings, five pitches, ball flight, steals, pickoffs, advanced rules, camera modes, settings, audio, substitutions, persistence and tests. The live demo is [hynding.github.io/breakneck-baseball](https://hynding.github.io/breakneck-baseball/). Its history contains exact Claude Fable gameplay trailers. Count the baseball game once.
+
+### HTML/JavaScript/Claude Fable birthday mini-game audit
+
+Accept [Lera Birthday Mini-Games](https://github.com/vitalirasin-web/valeriabirthday) as four browser mini-games embedded in a family birthday page. The page has separate game sections for filling a coffee cup, peeling stickers, catching a moving dog and popping chore balloons. The `games.js` source includes input handlers, progress state, completion state and feedback effects for each loop, and the [GitHub Pages deployment](https://vitalirasin-web.github.io/valeriabirthday/) returned HTTP 200 during verification. The inspected [game-text/UI commit](https://github.com/vitalirasin-web/valeriabirthday/commit/ff60ed966ba2b206ece5cc68f74850b75513599d) contains an exact Claude Fable 5 trailer. Count the four mini-games; exclude the surrounding family page, gallery, audio and trivia quiz.
+
+### Python/React/Evennia/Claude Opus MUD audit
+
+Accept [Arx II](https://github.com/Arx-Game/arxii) as one standalone server-hosted MUD under Non-Browser Engines. The README identifies it as the sequel to Arx: After the Reckoning and documents an Evennia server plus React game client. The source includes the game route, scenes, battle map, player actions, WebSocket integration, entry-flow tests and combat smoke tests. The inspected [combat-actions commit](https://github.com/Arx-Game/arxii/commit/b7eb4c972b962a6c8cd75ed36a7c70b8f8ac8f4a) adds flee, cover, interpose, ready, combo, join and leave actions, web/telnet dispatch and end-to-end coverage, with exact Claude Opus 4.8 trailers. Do not claim a public live demo.
+
+### React/TypeScript/Claude Fable card-client audit
+
+Reject [mighty-frontend](https://github.com/joekhosbayar/mighty-frontend). Its README explicitly identifies it as the thin Web/Electron frontend module for the Mighty workspace and points to the separate `go-mighty` backend as the authoritative game server. The client renders state and sends moves, but has no client-side simulation and cannot run the game independently. Keep it as a rejected component repository rather than count it as a standalone game.
+
+### TypeScript/MCP/Claude Fable model-as-player audit
+
+Reject [Masset MCP Tools](https://github.com/BenMasset/masset-mcp-tools). The README identifies a suite of MCP tools, not an independent game collection. Its interactive chess tool has Claude choose the moves, and its Mystery Guest tool makes Claude the hidden host. Both are model-as-player/host experiences, so exclude them even though the repository contains real interactive UI and game rules.

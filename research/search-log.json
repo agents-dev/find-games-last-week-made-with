@@ -7500,10 +7500,636 @@
       },
       "critique_note": "This pass separated a useful reverse-link catalog from an individual real game and rejected the game only because its own repository lacked the required model trailer.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Canvas/WebRTC/Claude Opus reverse-link audit",
+      "query_key": "Reverse-link from ben-gy/gh-game-factory index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 40,
+      "accepted_repositories": [
+        "https://github.com/ben-gy/deepshaft"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Deepshaft because its README, source, tests and live page prove a playable first-person procedural mine game with three run modes, weapons, enemies, hazards, rescue co-op, deterministic fixed-step simulation, WebRTC multiplayer, tutorial and procedural Canvas rendering/audio. The inspected player-facing HUD/rendering commit contains an exact Co-Authored-By: Claude Opus 5 trailer. Count one browser game unit.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This reverse-link pass converted an indexed individual game into a verified record only after confirming its own repository-level gameplay trailer.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Canvas/WebRTC/Claude Opus dungeon-game reverse-link audit",
+      "query_key": "Reverse-link from ben-gy/gh-game-factory index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 39,
+      "accepted_repositories": [
+        "https://github.com/ben-gy/gloamrun"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Gloamrun because its README, source, tests and live page prove a playable procedural browser dungeon crawler with combat, dash, upgrades, bosses, co-op revival, deterministic fixed-step simulation, WebRTC host transfer, rematch and tutorial/balance tests. The inspected multiplayer/gameplay systems commit contains an exact Co-authored-by: Claude Opus 4.8 trailer. Count one browser game unit.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This reverse-link pass added another source-complete individual game after confirming its own exact model trailer.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Canvas/WebRTC reverse-link tank-game audit",
+      "query_key": "Reverse-link from ben-gy/gh-game-factory index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 38,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/ben-gy/tiny-tanks"
+      ],
+      "held_repositories": [],
+      "note": "Reject Tiny Tanks because it is a real browser capture-the-flag tank game, but its individual repository has no exact Astra, Opus or Fable attribution trailer. Do not accept model evidence from the separate factory repository.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This pass avoided accepting a strong game without direct repository-level model evidence.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Claude Opus reverse-link tile-game audit",
+      "query_key": "Reverse-link from ben-gy/gh-game-factory index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 37,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/ben-gy/realmfold"
+      ],
+      "held_repositories": [],
+      "note": "Reject Realmfold because it is a real playable browser tile-drafting game, but its individual repository has no exact Astra, Opus or Fable attribution trailer in commit search. Do not accept model evidence from the separate factory repository.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This reverse-link pass rejected a real individual game because its own repository lacked the required model trailer.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Canvas/WebRTC/Claude Opus reverse-link base-defense audit",
+      "query_key": "Reverse-link from ben-gy/gh-game-factory index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 36,
+      "accepted_repositories": [
+        "https://github.com/ben-gy/scrapwall"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Scrapwall because its README, source, tests and live page prove a playable co-op browser base-defense game with grid fortification, salvage/ammo economy, weighted-Dijkstra enemy pathing, three modes, deterministic fixed-step simulation, WebRTC multiplayer, host transfer, rematch and balance/determinism tests. Its initial gameplay commit contains an exact Co-Authored-By: Claude Opus 4.8 trailer. Count one browser game unit.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This reverse-link pass added a source-complete individual game with a live demo and exact model attribution in its own initial commit.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Canvas/WebRTC/Claude Opus reverse-link settlement-game audit",
+      "query_key": "Reverse-link from ben-gy/gh-game-factory index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 35,
+      "accepted_repositories": [
+        "https://github.com/ben-gy/lastlight"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Lastlight because its README, source, tests and live page prove a playable browser settlement-survival game with a hex map, warmth ring, building placement, resource production, workers, scouting, survivors, night resolution, three modes, same-seed multiplayer race and host transfer. Its initial gameplay commit contains an exact Co-Authored-By: Claude Opus 4.8 trailer. Count one browser game unit.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This reverse-link pass added another independently playable game with a live demo and exact model attribution in its own initial commit.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Claude Opus reverse-link draughts-game audit",
+      "query_key": "Reverse-link from ben-gy/gh-game-factory index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 34,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/ben-gy/turntide"
+      ],
+      "held_repositories": [],
+      "note": "Reject Turntide because it is a real playable browser draughts variant, but its individual repository has no exact Astra, Opus or Fable attribution trailer. Do not accept model evidence from the separate factory repository.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This reverse-link pass rejected another real individual game because its own repository lacked the required model trailer.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Claude Opus reverse-link building-game audit",
+      "query_key": "Reverse-link from ben-gy/gh-game-factory index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 33,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/ben-gy/skyhold"
+      ],
+      "held_repositories": [],
+      "note": "Reject Skyhold because it is a real playable browser building-and-climbing game, but its individual repository has no exact Astra, Opus or Fable attribution trailer. Do not accept model evidence from the separate factory repository.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This reverse-link pass rejected another real individual game because its own repository lacked the required model trailer.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "HTML/Canvas/Claude Fable standalone-game audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 32,
+      "accepted_repositories": [
+        "https://github.com/astrosxmgkaung-ui/BhoneAlinkar"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Flappy Bird because its single index.html contains a complete canvas game with ready/play/dead states, gravity, flap input, procedural pipes, collision, score, localStorage best score and mouse/touch/keyboard controls. Its gameplay/deployment commit contains an exact Co-Authored-By: Claude Fable 5 trailer. The inferred Pages URL returned HTTP 404, so count the verified source game without claiming a live demo.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a compact source-complete game and explicitly recorded the failed inferred deployment URL.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/React/Claude Fable multi-game audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 4,
+      "unseen_count": 31,
+      "accepted_repositories": [
+        "https://github.com/MikkelAJ92/rolige-laerespil"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Alfred lærer klokken as four independently playable browser/PWA games: What Is the Time?, Set the Hands, Spell with Dino and Alfred Cracks the Code. The README, separate components, time/word/code rules, persistence, adaptive difficulty, audio/speech, offline delivery and tests prove the four modes. The fourth-game implementation commit contains exact Co-Authored-By: Claude Fable 5 trailers. Count four game units and exclude shared progression, owl, themes and levels.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added four distinct playable modes from one small educational game repository with direct source evidence.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Phaser/Three.js/Claude Fable sports-game audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 28,
+      "accepted_repositories": [
+        "https://github.com/srgirsky/recess-sports"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Recess Sports v1 because its README, Phaser scenes, batting/draft/innings systems, tests and live page prove a shipped browser baseball game. The repository also contains a separate unfinished Three.js art-direction spike; exclude that visual-only v2 from the count. The inspected gameplay/UI commit contains exact Co-Authored-By: Claude Fable 5 trailers. Count one Phaser game unit.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added the shipped game while explicitly excluding the repository's unfinished visual-only Three.js spike.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Next.js/Kotlin/Claude Fable tournament-platform audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 30,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/onryde/seazn.club"
+      ],
+      "note": "Reject Seazn Club because it is a multi-tenant tournament-management SaaS with shared sport engines and an embedded Chess Quest feature, not an independently published game repository. Do not count the embedded lesson game under the platform/catalog rule.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check rejected a real playable feature inside a broader tournament SaaS to keep platform and standalone-game counts separate.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Python/React/Claude Fable AI-opponent chess audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 29,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/ryanskarnulis/chess"
+      ],
+      "held_repositories": [],
+      "note": "Reject the Chess app because it is centered on an AI-agent opponent/interface with Stockfish integration. The model-as-player exclusion applies even though the board and chess rules are complete.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check rejected an otherwise complete chess app because its defining product is a model-as-player interface.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "HTML/JavaScript/Claude Fable birthday mini-game audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 4,
+      "unseen_count": 28,
+      "accepted_repositories": [
+        "https://github.com/vitalirasin-web/valeriabirthday"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Lera Birthday Mini-Games as four independently playable browser mini-games embedded in a family birthday page. index.html has four separate game sections and games.js implements click-to-fill coffee, sticker peeling, moving-dog catching and animated chore-balloon popping with progress and completion state. The GitHub Pages URL returned HTTP 200. The inspected commit contains an exact Co-Authored-By: Claude Fable 5 trailer. Exclude the surrounding page, gallery, audio and trivia quiz.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This serial source audit separated four actual input-driven mini-games from non-game birthday-page content.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Rust/TypeScript/Claude Fable social-protocol audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 27,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/superness/swimchain"
+      ],
+      "held_repositories": [],
+      "note": "Reject Swimchain because its README and repository tree identify a decentralized social-media protocol with Rust services and analytics/admin clients, not a standalone game or playable game loop.",
+      "next_experiments": [
+        "Inspect the next commit-search game candidate serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial audit rejected a commit-search false positive after checking the repository description, README and complete root tree.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Python/React/Evennia/Claude Opus MUD audit",
+      "query_key": "Co-Authored-By Claude Opus game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 26,
+      "accepted_repositories": [
+        "https://github.com/Arx-Game/arxii"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Arx II as one standalone Evennia MUD. The README, React game client, scene/battle routes, player-action UI, WebSocket integration, server run flow and tests prove an actual game project. The inspected combat-actions commit contains exact Claude Opus 4.8 trailers on player-facing game actions and web/telnet dispatch. Classify it under Non-Browser Engines as a server-hosted MUD and do not claim a live demo.",
+      "next_experiments": [
+        "Inspect the next commit-search game candidate serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This serial audit accepted a large MUD project after separating its player-facing game systems from admin tooling and confirming exact Opus trailers on combat actions.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "React/TypeScript/Claude Fable card-client audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 25,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/joekhosbayar/mighty-frontend"
+      ],
+      "held_repositories": [],
+      "note": "Reject mighty-frontend because its README identifies it as the thin Web/Electron client module of the Mighty workspace. The authoritative game server is a separate go-mighty repository, the client has no simulation, and it cannot run the game independently. Do not count a component repository as a standalone game.",
+      "next_experiments": [
+        "Inspect the next commit-search game candidate serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial audit rejected a real card-game frontend because it depends on a separate authoritative backend and is not independently runnable.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/MCP/Claude Fable model-as-player audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 24,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/BenMasset/masset-mcp-tools"
+      ],
+      "held_repositories": [],
+      "note": "Reject Masset MCP Tools because it is a tool suite rather than an independent game collection. Its chess experience explicitly has Claude choose the moves, and Mystery Guest makes Claude the hidden host. Both match the model-as-player/host exclusion.",
+      "next_experiments": [
+        "Inspect the next commit-search game candidate serially",
+        "Inspect more reverse-linked individual game repositories serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial audit rejected two real interactive experiences after checking the README and source tree because they are model-as-player/host MCP tools, not standard game repositories.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "HTML/Next.js/Claude Fable corporate-site audit",
+      "query_key": "Co-Authored-By Claude Fable game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 23,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/BeyondCodeCollective/wearebcc.org"
+      ],
+      "held_repositories": [],
+      "note": "Reject wearebcc.org because its README identifies a corporate website and career quiz. The Beyond the Game path is a presentation deck and media content, not a playable game.",
+      "next_experiments": [
+        "Run one serial commit search for the next unseen game candidates",
+        "Inspect each returned repository one at a time",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial audit rejected a repository whose commit-search text used game terminology for a presentation deck and career quiz.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 683 across 532 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 698 across 541 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",
