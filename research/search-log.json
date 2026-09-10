@@ -6971,10 +6971,539 @@
       },
       "critique_note": "This pass added a source-complete native terminal sports game with direct source links, demo assets and exact gameplay attribution.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Rust/Haskell/Claude Fable rules-engine audit",
+      "query_key": "Rust game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 56,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/tfausak/pawl"
+      ],
+      "held_repositories": [],
+      "note": "Reject Pawl because its README identifies a Magic: The Gathering rules engine and the repository is a Haskell library with card data, not a standalone playable game.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check removed a plausible false positive: a rules engine with game-domain data is not itself a game.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Rust/Claude Fable board-game-service audit",
+      "query_key": "Rust game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 55,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/brdgme/brdgme"
+      ],
+      "held_repositories": [],
+      "note": "Reject brdgme because it is a real lo-fi multiplayer board-game service and collection of implementations, but the inspected current history contains no qualifying Astra, Opus or Fable attribution trailer. Do not count its contained board games without the required model evidence.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check confirmed a real multi-game service but correctly rejected it because current repository-level model evidence was absent.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Rust/Claude Fable engine-demo audit",
+      "query_key": "Rust game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 54,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/IvanPleshkov/RedLilium"
+      ],
+      "held_repositories": [],
+      "note": "Reject RedLilium because its README identifies a custom Rust game and graphics engine and its demos are renderer, physics and window examples, not an independent game with a player objective or game loop.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check rejected engine demonstrations that could otherwise look like games from repository metadata.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Rust/Claude Fable Minecraft-mod audit",
+      "query_key": "Rust game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 53,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/Fresh-glitch/vanguard-spirits"
+      ],
+      "held_repositories": [],
+      "note": "Reject Vanguard Spirits because its README identifies it as a Minecraft Fabric mod for a mod jam and requires Minecraft, Fabric API and Fabric Language Kotlin. It is an add-on, not an independently runnable game repository.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check rejected a mod repository that depends on an external host game and engine runtime.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Preact/Claude Fable browser-trading-game audit",
+      "query_key": "Rust game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 52,
+      "accepted_repositories": [
+        "https://github.com/CoreyTrombley/JunkDrive"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept JUNKRUN because its README, source and tests prove a playable browser/PWA idle-trading game with market actions, station travel, procedural sectors, route planning, ship upgrades, idle and offline income, events, encounters, quests, codex, prestige, audio, haptics and a self-contained production build. The inspected warp-lane gameplay commit contains an exact Co-Authored-By: Claude Fable 5 trailer. Count one browser game unit and exclude design plans and build artifacts.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a source-complete browser trading game with a documented loop, tests, production build and exact gameplay attribution.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "C/SDL/Lua/Claude Opus engine-generator audit",
+      "query_key": "game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 51,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/a327ex/Anchor1"
+      ],
+      "held_repositories": [],
+      "note": "Reject Anchor1 because it is the Anchor Lua/C/SDL/Box2D engine and project generator. Its compiled demo and framework examples are not an independent game, and the exact Opus trailer is only on the scaffold script.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check rejected an engine repository whose scaffold script contained the model trailer but no independently published game.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "C/Ruby/Claude Opus compiler-benchmark audit",
+      "query_key": "game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 50,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/matz/spinel"
+      ],
+      "held_repositories": [],
+      "note": "Reject Spinel because its README identifies it as a Ruby AOT compiler. Its benchmark programs include Conway's Life and a ray tracer, but the repository is compiler/tooling rather than a standalone game.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check rejected benchmark and compiler content that mentioned game-like programs without being a game.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Claude Opus cognitive-platform audit",
+      "query_key": "game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 49,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/aishvar23/LumaLoop"
+      ],
+      "held_repositories": [],
+      "note": "Reject LumaLoop because it is a cognitive-challenge platform with a catalog of playable puzzle cards and shared feed/session infrastructure, not a collection of independently published games. Do not count its cards as separate games under the catalog rule.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check avoided inflating the collection by treating a platform's puzzle-card catalog as independent games.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Claude Opus gaming-platform audit",
+      "query_key": "game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 48,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/AnAtoliy-AA/arcadeum"
+      ],
+      "held_repositories": [],
+      "note": "Reject Arcadeum because its README identifies it as a web/mobile gaming platform monorepo with shared backend engines and many widgets, not a collection of independently published game repositories. Do not count internal widgets as separate games.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check avoided treating a gaming service's internal widgets and engines as independent games.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "C/SDL/Claude Fable commercial-port audit",
+      "query_key": "Co-Authored-By Claude Fable game src",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 47,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/md0-code/metalmutant"
+      ],
+      "held_repositories": [],
+      "note": "Reject Metal Mutant because its README requires proprietary game files supplied by the user and the repository mainly contains an upstream-engine patch series and port glue. It is not an independently distributable game source.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check rejected a real port that depends on external proprietary game data and upstream source.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/React/Claude Opus multiplayer-board-game audit",
+      "query_key": "Co-Authored-By Claude Opus game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 46,
+      "accepted_repositories": [
+        "https://github.com/Toribash67/sengoku_jidai"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept General Orders: Sengoku Jidai because its README, source and tests prove a complete browser board game with deterministic rules, local hotseat, online named-seat/invite play, armies, navies, hex-map operations, cards, authoritative server views, persistence, SVG rendering and AI opponents. The inspected gameplay HUD commit contains repeated exact Co-Authored-By: Claude Opus 4.8 trailers. Count one browser board game unit.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a source-complete online and local board game with strong rules-engine, UI, AI and model-attribution evidence.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Go/Claude Opus backend-only game audit",
+      "query_key": "Co-Authored-By Claude Opus game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 45,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/joekhosbayar/go-mighty"
+      ],
+      "held_repositories": [],
+      "note": "Reject go-mighty because it contains a Go Mighty rules engine and WebSocket backend, but its README identifies the playable frontend as a separate AWS Amplify application and no client is present in this repository.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This serial check rejected a rules backend whose separate client was not in the repository.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Source-2/Claude Opus published-custom-game audit",
+      "query_key": "Co-Authored-By Claude Opus game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 44,
+      "accepted_repositories": [
+        "https://github.com/windy10v10ai/game"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Windy 10v10 AI as one Other Engine game because its README links a published Steam Workshop Dota 2 custom game and the repository contains Source 2 map/content assets, VScript gameplay, custom heroes and abilities, PVE AI, Panorama React HUD and build setup. The inspected player-facing awakening commit contains exact Co-Authored-By: Claude Opus 5 trailers. Count the custom game once and state that Dota 2 is required.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a published Source 2 custom game and documented its external Dota 2 runtime dependency.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Kotlin/Next.js/Claude Opus strategy-game audit",
+      "query_key": "Co-Authored-By Claude Opus game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 43,
+      "accepted_repositories": [
+        "https://github.com/peppone-choi/opensamguk"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept OpenSamguk because its README, game engine, game API, map data, browser client and tests prove a source-complete grand-strategy game with deterministic turns, movement, supply, diplomacy, governance, armies, sieges, naval battles, WEGO combat, replay, AI turns, persistence and tutorials. The inspected nation-editor gameplay commit contains exact Claude Opus 4.8 (1M context) trailers. Count one browser strategy game unit.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a substantial browser strategy game with a deterministic rules engine, persistent world, tested client and exact gameplay attribution.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "React/Vite/Claude Opus multi-game audit",
+      "query_key": "Co-Authored-By Claude Opus game",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 3,
+      "unseen_count": 42,
+      "accepted_repositories": [
+        "https://github.com/shyamathreye/devis-lab"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Devi Jones because its README and source prove three independently playable browser games: Save the Balloons, Mix-Up Magic and Tap the Critter. Separate game components implement word guessing, letter unscrambling and timed reflex play, with lobby, themes, difficulty, scoring, local leaderboard, sound, speech, offline operation and Vite build. The end-game result commit contains an exact Co-Authored-By: Claude Opus 4.8 trailer. Count three game units and exclude shared UI, themes and difficulty levels.",
+      "next_experiments": [
+        "Inspect remaining commit-search game candidates serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added three independently playable games from one small, source-complete browser arcade repository.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "TypeScript/Claude Opus game-factory audit",
+      "query_key": "Co-Authored-By Claude Opus game",
+      "status": "completed",
+      "results_inspected": 2,
+      "new_verified_repositories": 0,
+      "new_rejected": 2,
+      "new_game_units": 0,
+      "unseen_count": 41,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/ben-gy/gh-game-factory",
+        "https://github.com/ben-gy/overpressure"
+      ],
+      "held_repositories": [],
+      "note": "Reject gh-game-factory as an autonomous factory/catalog that builds and indexes separate game repositories. Inspect its reverse-linked Overpressure game separately: Overpressure is a real playable browser game with a strong build log, but its individual repository has no exact Astra, Opus or Fable attribution trailer; the model evidence is not repository-level. Reject both under the collection rules.",
+      "next_experiments": [
+        "Inspect more reverse-linked individual game repositories serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This pass separated a useful reverse-link catalog from an individual real game and rejected the game only because its own repository lacked the required model trailer.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 676 across 527 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 683 across 532 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

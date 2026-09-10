@@ -795,6 +795,66 @@
       "repository": "https://github.com/felipe-dos-santos81/Quake2Mac",
       "source": "GitHub code search for OpenGL game Co-Authored-By Claude Fable",
       "reason": "The repository is a real native Quake II port, but the inspected exact Fable trailers belong to texture recreation and renderer tooling, not qualifying game implementation evidence. It also requires proprietary external game data. Reject it under the exact model-evidence and independent-game rules."
+    },
+    {
+      "repository": "https://github.com/tfausak/pawl",
+      "source": "GitHub code search for Rust game Co-Authored-By Claude Fable",
+      "reason": "The README identifies Pawl as a Magic: The Gathering rules engine. Its tree is a Haskell library and card-data repository, not a standalone playable game. Reject it as engine/tooling rather than an independent game."
+    },
+    {
+      "repository": "https://github.com/brdgme/brdgme",
+      "source": "GitHub code search for Rust game Co-Authored-By Claude Fable",
+      "reason": "The repository is a real lo-fi multiplayer board-game service with multiple implemented games, but the inspected current commit history contains no qualifying Astra, Opus or Fable attribution trailer. Reject it under the exact model-evidence rule rather than count its board games."
+    },
+    {
+      "repository": "https://github.com/IvanPleshkov/RedLilium",
+      "source": "GitHub code search for Rust game Co-Authored-By Claude Fable",
+      "reason": "The README identifies RedLilium as a custom Rust game and graphics engine. Its demos are renderer, physics and window examples, not an independent game with a player objective or game loop. Reject it as engine/demo tooling."
+    },
+    {
+      "repository": "https://github.com/Fresh-glitch/vanguard-spirits",
+      "source": "GitHub code search for Rust game Co-Authored-By Claude Fable",
+      "reason": "The README identifies Vanguard Spirits as a Minecraft Fabric mod for a mod jam. It requires Minecraft, Fabric API and Fabric Language Kotlin, so it is an add-on rather than an independently runnable game repository. Reject it under the independent-game rule."
+    },
+    {
+      "repository": "https://github.com/a327ex/Anchor1",
+      "source": "GitHub code search for game Co-Authored-By Claude Opus",
+      "reason": "The repository is the Anchor Lua/C/SDL/Box2D engine and project generator. Its compiled demo and framework examples are not an independent game, and the exact Opus trailer is only on the game-scaffold script. Reject it as engine/tooling."
+    },
+    {
+      "repository": "https://github.com/matz/spinel",
+      "source": "GitHub code search for game Co-Authored-By Claude Opus",
+      "reason": "The README identifies Spinel as a Ruby AOT compiler. Its benchmark programs include Conway's Life and a ray tracer, but the repository is compiler/tooling rather than a standalone game. Reject it as tooling."
+    },
+    {
+      "repository": "https://github.com/aishvar23/LumaLoop",
+      "source": "GitHub code search for game Co-Authored-By Claude Opus",
+      "reason": "The repository is a cognitive-challenge platform with a catalog of playable puzzle cards and shared feed/session infrastructure, not a collection of independently published games. Reject it as a catalog/platform under the collection rules."
+    },
+    {
+      "repository": "https://github.com/AnAtoliy-AA/arcadeum",
+      "source": "GitHub code search for game Co-Authored-By Claude Opus",
+      "reason": "The README identifies Arcadeum as a web/mobile gaming platform monorepo with shared backend engines and many widgets. It is not a collection of independently published game repositories. Reject it as a platform/catalog."
+    },
+    {
+      "repository": "https://github.com/md0-code/metalmutant",
+      "source": "GitHub code search for game Co-Authored-By Claude Fable",
+      "reason": "The repository is a real native Metal Mutant port, but its README requires proprietary game files supplied by the user and the repository mainly contains an upstream-engine patch series and port glue. Reject it as an external-data commercial port rather than an independently distributable game."
+    },
+    {
+      "repository": "https://github.com/joekhosbayar/go-mighty",
+      "source": "GitHub commit search for Co-Authored-By Claude Opus game",
+      "reason": "The repository contains a Go Mighty rules engine and WebSocket backend, but its README identifies the playable frontend as a separate AWS Amplify application and no client is present here. Reject it as backend-only game service code."
+    },
+    {
+      "repository": "https://github.com/ben-gy/gh-game-factory",
+      "source": "GitHub commit search for Co-Authored-By Claude Opus game",
+      "reason": "The README identifies this repository as an autonomous factory/catalog that builds and indexes separate game repositories. It is not itself a game, and its indexed game logs do not provide repository-level model trailers for the individual games. Reject it as factory/catalog tooling."
+    },
+    {
+      "repository": "https://github.com/ben-gy/overpressure",
+      "source": "Reverse-link from ben-gy/gh-game-factory index",
+      "reason": "Overpressure is a real playable browser game with a strong build log, but its individual repository has no exact Astra, Opus or Fable attribution trailer. The model evidence is not repository-level. Reject it under the exact model-evidence rule."
     }
   ]
 }

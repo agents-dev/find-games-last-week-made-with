@@ -20724,5 +20724,276 @@
     "quality_estimate_basis": "The project has a polished documented game loop, nine leagues, multiple viewing modes, persistent preferences, offline cache behavior, tests, screenshots/GIF evidence and exact Fable attribution on a gameplay feature commit.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "JUNKRUN",
+    "github_url": "https://github.com/CoreyTrombley/JunkDrive",
+    "game_links": [
+      "https://github.com/CoreyTrombley/JunkDrive#readme",
+      "https://github.com/CoreyTrombley/JunkDrive/blob/main/src/app.tsx",
+      "https://github.com/CoreyTrombley/JunkDrive/tree/main/src/engine",
+      "https://github.com/CoreyTrombley/JunkDrive/tree/main/src/components",
+      "https://github.com/CoreyTrombley/JunkDrive/tree/main/src/engine/__tests__",
+      "https://github.com/CoreyTrombley/JunkDrive/blob/main/dist/index.html",
+      "https://github.com/CoreyTrombley/JunkDrive/commit/0962b66dd4620295b35da0ea24e5b667e212cb4b"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/CoreyTrombley/JunkDrive/commit/0962b66dd4620295b35da0ea24e5b667e212cb4b",
+    "screenshot_urls": [
+      "https://github.com/CoreyTrombley/JunkDrive/blob/main/README.md"
+    ],
+    "technology": [
+      "TypeScript",
+      "Preact",
+      "Vite",
+      "Canvas 2D",
+      "Web Audio API",
+      "Browser/PWA"
+    ],
+    "model_family": [
+      "Claude Fable 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "JUNKRUN"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for Rust game Co-Authored-By Claude Fable",
+      "https://github.com/CoreyTrombley/JunkDrive"
+    ],
+    "verification_notes": "The README documents JUNKRUN as a playable mobile-first idle/trading hybrid. The source contains market buy/sell actions, station travel, procedural sectors, route planning, ship upgrades, idle income, offline catch-up, events, encounters, quests, codex, prestige, audio, haptics, PWA packaging and a large Vitest suite. The repository includes a self-contained dist build. The cited warp-lane gameplay commit adds multi-stop travel and waypoint panels and contains an exact Co-Authored-By: Claude Fable 5 trailer. Count the current browser trading game once; exclude the design plans and build artifacts as separate games.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 420000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Preact UI, Canvas particle starfield, CSS animation, Web Audio synthesis, seeded market simulation, route generation, offline catch-up and PWA presentation; not measured hardware throughput.",
+    "quality_estimate_10": 9.4,
+    "quality_estimate_basis": "The project has a complete documented idle/trading loop, deep progression, procedural sectors, offline persistence, mobile/PWA delivery, tests, self-contained build and exact Fable attribution on a gameplay feature commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "General Orders: Sengoku Jidai",
+    "github_url": "https://github.com/Toribash67/sengoku_jidai",
+    "game_links": [
+      "https://github.com/Toribash67/sengoku_jidai#readme",
+      "https://github.com/Toribash67/sengoku_jidai/blob/main/packages/engine/src/index.ts",
+      "https://github.com/Toribash67/sengoku_jidai/tree/main/packages/engine/src",
+      "https://github.com/Toribash67/sengoku_jidai/tree/main/packages/web/src",
+      "https://github.com/Toribash67/sengoku_jidai/blob/main/packages/board-render/src/assemble.ts",
+      "https://github.com/Toribash67/sengoku_jidai/tree/main/packages/ai/src",
+      "https://github.com/Toribash67/sengoku_jidai/tree/main/packages/engine/test",
+      "https://github.com/Toribash67/sengoku_jidai/commit/8210aa89e5c1298137e7b412bb2d07b8b9d43080"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Toribash67/sengoku_jidai/commit/8210aa89e5c1298137e7b412bb2d07b8b9d43080",
+    "screenshot_urls": [
+      "https://github.com/Toribash67/sengoku_jidai/blob/main/assets/maps/rivers/board.svg"
+    ],
+    "technology": [
+      "TypeScript",
+      "React",
+      "SVG",
+      "Node.js",
+      "SQLite",
+      "Browser multiplayer"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "General Orders: Sengoku Jidai"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-05-31T18:56:24Z",
+    "published_on": "2026-05-31",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/Toribash67/sengoku_jidai"
+    ],
+    "verification_notes": "The README documents a playable web implementation of the board game General Orders: Sengoku Jidai with local hotseat and online named-seat/invite-link play. The source contains a deterministic rules engine, hex-map land and sea movement, armies, navies, operation cards, authoritative server views, persistence, SVG board rendering, AI opponents, game-over flow and unit/integration tests. The cited gameplay HUD commit adds round clock, initiative and game-over behavior and contains repeated exact Co-Authored-By: Claude Opus 4.8 trailers. Count the current board game once; exclude the dev-only terrain generator and documentation plans.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React/SVG hex-board rendering, deterministic rules evaluation, authoritative server serialization, AI search, realtime delivery and browser UI; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "Source-complete multiplayer board-game implementation with deterministic rules, local and online play, AI opponents, authoritative hidden-information views, persistence, SVG rendering, tests and exact Opus gameplay attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Windy 10v10 AI",
+    "github_url": "https://github.com/windy10v10ai/game",
+    "game_links": [
+      "https://github.com/windy10v10ai/game#readme",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2307479570",
+      "https://github.com/windy10v10ai/game/tree/develop/game/scripts/npc",
+      "https://github.com/windy10v10ai/game/tree/develop/game/scripts/vscripts",
+      "https://github.com/windy10v10ai/game/tree/develop/src/vscripts",
+      "https://github.com/windy10v10ai/game/tree/develop/src/panorama",
+      "https://github.com/windy10v10ai/game/blob/develop/content/maps/dota.vmap",
+      "https://github.com/windy10v10ai/game/commit/838c513c67e511d925791288359cc79c1ebcae4a"
+    ],
+    "live_demo_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2307479570",
+    "evidence_url": "https://github.com/windy10v10ai/game/commit/838c513c67e511d925791288359cc79c1ebcae4a",
+    "screenshot_urls": [
+      "https://github.com/windy10v10ai/game/blob/develop/content/materials/overviews/dota.png"
+    ],
+    "technology": [
+      "Dota 2 Source 2",
+      "Dota 2 Workshop Tools",
+      "VScript TypeScript",
+      "Lua",
+      "Panorama React",
+      "Native game platform",
+      "PVE custom game"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Windy 10v10 AI"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2020-12-03T15:39:53Z",
+    "published_on": "2020-12-03",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/windy10v10ai/game",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2307479570"
+    ],
+    "verification_notes": "The README identifies this repository as a published PVE Dota 2 custom game and links its Steam Workshop publication. The source contains Source 2 map/content assets, custom heroes and abilities, VScript gameplay modules, AI/PVE behavior, custom game rules, Panorama React HUD and build tooling. The cited player-facing awakening commit adds Crystal Maiden and Tiny gameplay features and contains exact Co-Authored-By: Claude Opus 5 trailers. Count the Windy 10v10 AI custom game once; do not count heroes, abilities or UI tabs separately. This is an Other Engine game under Non-Browser Engines and requires Dota 2 Workshop Tools to build or play.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 5800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Source 2 scene rendering, Dota 2 simulation, custom hero abilities, PVE AI, Panorama UI and networked workshop runtime; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "Published custom game with large Source 2 content and VScript codebase, PVE gameplay, custom heroes/abilities, AI systems, Panorama HUD, Steam Workshop distribution and exact Opus attribution on player-facing gameplay changes.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "OpenSamguk",
+    "github_url": "https://github.com/peppone-choi/opensamguk",
+    "game_links": [
+      "https://github.com/peppone-choi/opensamguk#readme",
+      "https://github.com/peppone-choi/opensamguk/tree/main/logic",
+      "https://github.com/peppone-choi/opensamguk/tree/main/app/game-engine/src/main",
+      "https://github.com/peppone-choi/opensamguk/tree/main/app/game-api/src/main",
+      "https://github.com/peppone-choi/opensamguk/tree/main/web/game",
+      "https://github.com/peppone-choi/opensamguk/tree/main/data/map",
+      "https://github.com/peppone-choi/opensamguk/commit/a4dc4d43d0554d6297cd98f6d5d3e5b3b3811a93"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/peppone-choi/opensamguk/commit/a4dc4d43d0554d6297cd98f6d5d3e5b3b3811a93",
+    "screenshot_urls": [
+      "https://github.com/peppone-choi/opensamguk/blob/main/data/map/rivers/board.svg"
+    ],
+    "technology": [
+      "Kotlin",
+      "Spring Boot",
+      "Next.js",
+      "TypeScript",
+      "SVG/isometric map",
+      "PostgreSQL",
+      "Redis",
+      "Browser strategy game"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "OpenSamguk"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-05-29T12:17:59Z",
+    "published_on": "2026-05-29",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/peppone-choi/opensamguk"
+    ],
+    "verification_notes": "The Korean README identifies OpenSamguk as an independent web strategy game. It documents an asynchronous operations room and living chronicle loop, deterministic Kotlin game engine, Next.js game client, world/map systems, movement and supply, personal and national commands, diplomacy, governance, field/siege/naval WEGO combat, replay, AI turns, persistence, tutorials and test gates. The repository contains game-engine handlers, game-api controllers, map data and a large web/game client with board, battle, command, map, replay and tutorial tests. The cited game-status HUD commit adds game-over, initiative and round-clock behavior and contains exact Co-Authored-By: Claude Opus 4.8 trailers. Count the current grand-strategy game once; exclude terrain generation, admin tools and documentation plans.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 950000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Next.js map rendering, SVG/isometric board composition, Kotlin turn engine, AI turns, combat resolution, replay serialization and realtime browser updates; not measured hardware throughput.",
+    "quality_estimate_10": 9.6,
+    "quality_estimate_basis": "Large source-complete strategy game with deterministic engine, persistent world, map and supply systems, diplomacy, governance, combat, replay, AI, tested browser client and exact Opus gameplay attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Devi Jones",
+    "github_url": "https://github.com/shyamathreye/devis-lab",
+    "game_links": [
+      "https://github.com/shyamathreye/devis-lab#readme",
+      "https://github.com/shyamathreye/devis-lab/blob/main/src/games/Hangman.jsx",
+      "https://github.com/shyamathreye/devis-lab/blob/main/src/games/Unscramble.jsx",
+      "https://github.com/shyamathreye/devis-lab/blob/main/src/games/WhackAMole.jsx",
+      "https://github.com/shyamathreye/devis-lab/blob/main/src/App.jsx",
+      "https://github.com/shyamathreye/devis-lab/blob/main/src/context/GameContext.jsx",
+      "https://github.com/shyamathreye/devis-lab/blob/main/src/components/RoundResult.jsx",
+      "https://github.com/shyamathreye/devis-lab/commit/c797194e981a44bab5bd85cf21b5e0ba0d73bddf"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/shyamathreye/devis-lab/commit/c797194e981a44bab5bd85cf21b5e0ba0d73bddf",
+    "screenshot_urls": [],
+    "technology": [
+      "JavaScript",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Web Audio API",
+      "Browser/offline"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 3,
+    "contained_games": [
+      "Save the Balloons",
+      "Mix-Up Magic",
+      "Tap the Critter"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-06-17T03:12:52Z",
+    "published_on": "2026-06-17",
+    "discovery_sources": [
+      "GitHub commit search for Co-Authored-By Claude Opus game",
+      "https://github.com/shyamathreye/devis-lab"
+    ],
+    "verification_notes": "The README documents three games that run entirely in the browser: Save the Balloons, a word-guessing hangman game; Mix-Up Magic, a letter-tile unscramble game; and Tap the Critter, a timed whack-a-mole reflex game. The source has separate game components, lobby, theme and difficulty pickers, round results, scores, local leaderboard, persistent player state, synthesized sound, speech, offline operation and Vite build scripts. The cited end-game result commit updates the common gameplay result surface and contains an exact Co-Authored-By: Claude Opus 4.8 trailer. Count the three independently playable games once each; do not count themes, difficulties or shared UI as games.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 280000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React rendering, Framer Motion effects, Web Audio synthesis, speech, timers, local scoring and small DOM game surfaces; not measured hardware throughput.",
+    "quality_estimate_10": 8.9,
+    "quality_estimate_basis": "Three clearly separated playable games with a complete lobby-to-round loop, themes, difficulty levels, local leaderboard, persistent state, offline build, shared result flow and exact Opus attribution on gameplay UI.",
+    "counted_game_units": 3,
+    "is_independent_game": true
   }
 ]
