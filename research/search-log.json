@@ -6398,6 +6398,40 @@
       },
       "critique_note": "This pass found a verified multi-mode Unity project and counted only its three actual game modes, excluding middleware examples.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "SDL/Claude Opus native-game result audit",
+      "query_key": "SDL game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 0,
+      "new_rejected": 2,
+      "new_game_units": 0,
+      "unseen_count": 25,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/drpaj12/PJABs_Fanbidextrous_Game",
+        "https://github.com/neguse/lub"
+      ],
+      "held_repositories": [],
+      "note": "Reject PJABs Fanbidextrous Game because it is a GameJam template with placeholder screens and design notes. Reject neguse/lub because it is a Lua-driven SDL3 game engine with samples, not an independently published game. Keep the remaining SDL result partition for serial inspection.",
+      "next_experiments": [
+        "Inspect the remaining SDL result partition serially",
+        "Search C++ and other native engines with exact Fable or Astra evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 8,
+        "false_positive_control": 10,
+        "overall": 7,
+        "decision": "keep partition, reject inspected candidates"
+      },
+      "critique_note": "The pass improved false-positive control by separating an engine and a template from standalone games. Do not count embedded samples as independent repositories.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [

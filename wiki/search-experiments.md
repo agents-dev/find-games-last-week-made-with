@@ -1983,3 +1983,9 @@ Run the serial query `Bevy game "Co-Authored-By: Claude Opus"`, then inspect dir
 Run the serial query `MonoGame game "Co-Authored-By: Claude Opus"`, then inspect each repository candidate. Reject [DTXManiaCX](https://github.com/cwchanap/DTXManiaCX) as a collection entry: it is a real .NET 8/MonoGame rhythm game rewrite, but the exact Claude Opus text is present only in an implementation plan and does not appear as a qualifying commit trailer in the inspected history. Keep it as a rejected candidate until repository-level model evidence exists.
 
 This pass adds zero game units. Keep the native-engine category broad, but require model evidence in a commit, README attribution, or equivalent repository-level source.
+
+### SDL/Claude Opus native-game result audit
+
+Inspect the SDL result partition serially. Reject [PJABs Fanbidextrous Game](https://github.com/drpaj12/PJABs_Fanbidextrous_Game) because it is a GameJam template with placeholder screens and design notes. Reject [lub](https://github.com/neguse/lub) because it is a Lua-driven SDL3 game engine with sample programs, not an independently published game. Do not count embedded samples as separate repository records.
+
+Add zero game units. Keep the remaining SDL result partition for later serial inspection and require both a real game loop and repository-level Astra, Opus or Fable evidence.

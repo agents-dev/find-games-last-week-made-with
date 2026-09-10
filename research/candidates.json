@@ -730,6 +730,16 @@
       "repository": "https://github.com/cwchanap/DTXManiaCX",
       "source": "GitHub code search for MonoGame game Co-Authored-By Claude Opus",
       "reason": "The repository is a real .NET 8/MonoGame rhythm game rewrite with gameplay source, but the inspected Opus text appears only in an implementation plan. The commit history has no qualifying Astra, Opus or Fable trailer. Reject it until repository-level model evidence exists."
+    },
+    {
+      "repository": "https://github.com/drpaj12/PJABs_Fanbidextrous_Game",
+      "source": "GitHub code search for SDL game Co-Authored-By Claude Opus",
+      "reason": "The repository is a DarkWeb GameJam template with placeholder scenes and README design notes, not a source-complete standalone game. Reject it as a template."
+    },
+    {
+      "repository": "https://github.com/neguse/lub",
+      "source": "GitHub code search for SDL game Co-Authored-By Claude Opus",
+      "reason": "The repository is a Lua-driven live-coding 3D game engine with sample programs, not one independently published game. Reject it as engine/tooling under the collection rules."
     }
   ]
 }
