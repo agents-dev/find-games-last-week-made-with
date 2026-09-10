@@ -316,7 +316,7 @@
       "query_key": "code-search|GPT-6 Astra|Godot 4|README.md|plus monorepo follow-up",
       "status": "completed",
       "query_received_count": 5,
-      "new_verified_repositories": 1,
+      "new_verified_repositories": 0,
       "new_verified_game_units": 9,
       "new_rejected": 1,
       "critique_score": 7,
@@ -336,7 +336,7 @@
       "received_count": 8,
       "status": "completed",
       "new_verified": 1,
-      "new_game_units": 1,
+      "new_game_units": 0,
       "new_rejected": 1,
       "note": "The query repeated False Ritual and NULLSPACE, exposed Faratas410/Gallicus-2.0 and leblancdavid/magic-carpet-remastered, plus a camera addon. Gallicus passed source, game-loop, runtime smoke, and explicit Astra-workflow checks. Magic Carpet Remastered was rejected as an unplayable initialization shell with no Astra tool evidence.",
       "next_experiments": [
@@ -6431,6 +6431,40 @@
         "decision": "keep partition, reject inspected candidates"
       },
       "critique_note": "The pass improved false-positive control by separating an engine and a template from standalone games. Do not count embedded samples as independent repositories.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "C++/Claude Fable native-game code-search audit",
+      "query_key": "C++ game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 0,
+      "new_rejected": 2,
+      "new_game_units": 0,
+      "unseen_count": 27,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/rgthddei67/PlantsVsZombies-Recode",
+        "https://github.com/felipe-dos-santos81/PyAitD"
+      ],
+      "held_repositories": [],
+      "note": "Reconfirm the existing Hex Danmaku record because its source and README prove a complete browser hex-grid bullet-hell game with stages, bosses, endless and hunt/RPG modes, persistence and extensive tests, and its history contains exact Claude Fable 5 and 5.1 gameplay trailers. Reject the Plants vs. Zombies rewrite and PyAitD because their exact model text was found only in plans, not qualifying repository-level attribution trailers.",
+      "next_experiments": [
+        "Inspect the remaining C++ result partition serially",
+        "Search SFML, HaxeFlixel, Solarus and other native engines with exact model evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 5,
+        "verification_quality": 10,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This pass reconfirmed one existing source-verified browser game and correctly excluded two real games whose model evidence was plan-only. It added no new unit because the game was already recorded.",
       "critic": "manual conservative score after serial review"
     }
   ],

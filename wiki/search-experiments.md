@@ -1989,3 +1989,9 @@ This pass adds zero game units. Keep the native-engine category broad, but requi
 Inspect the SDL result partition serially. Reject [PJABs Fanbidextrous Game](https://github.com/drpaj12/PJABs_Fanbidextrous_Game) because it is a GameJam template with placeholder screens and design notes. Reject [lub](https://github.com/neguse/lub) because it is a Lua-driven SDL3 game engine with sample programs, not an independently published game. Do not count embedded samples as separate repository records.
 
 Add zero game units. Keep the remaining SDL result partition for later serial inspection and require both a real game loop and repository-level Astra, Opus or Fable evidence.
+
+### C++/Claude Fable native-game code-search audit
+
+Run the C++ game query serially. Reconfirm the existing [Hex Danmaku](https://github.com/macjoocan/hex-danmaku) record because it contains a complete browser hex-grid bullet-hell game with stage progression, bosses, endless and hunt/RPG modes, persistence, art systems and extensive tests. Its history contains exact Claude Fable 5 and 5.1 gameplay trailers.
+
+Reject [PlantsVsZombies-Recode](https://github.com/rgthddei67/PlantsVsZombies-Recode) and [PyAitD](https://github.com/felipe-dos-santos81/PyAitD): both are real games with strong source, but the exact Fable text was found only in implementation plans, not qualifying repository-level attribution trailers. Add zero units because Hex Danmaku was already recorded. Keep the remaining C++ result partition for serial inspection.

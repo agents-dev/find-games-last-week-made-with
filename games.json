@@ -1012,17 +1012,18 @@
     "verified_on": "2026-09-10",
     "discovery_sources": [
       "GitHub code search for Phaser game Co-Authored-By Claude Fable",
+      "GitHub code search for C++ game Co-Authored-By Claude Fable",
       "https://github.com/macjoocan/hex-danmaku"
     ],
-    "verification_notes": "The README explicitly describes a turn-based hex bullet-hell game and identifies Hex Danmaku.html as the browser entry point. engine.jsx implements the core game loop, stages.jsx defines 24 stages and bosses, and app.jsx renders the board and HUD. The repository includes a fantasy combat art set and the cited commit includes an exact Co-Authored-By: Claude Fable 5.1 trailer.",
+    "verification_notes": "The README explicitly describes a turn-based hex bullet-hell game and identifies Hex Danmaku.html as the browser entry point. engine.jsx implements the core game loop, stages.jsx defines 24 stages and bosses, and app.jsx renders the board and HUD. The repository also contains hunt/RPG systems, local persistence and 188 automated tests. The cited history includes exact Co-Authored-By: Claude Fable 5 and Claude Fable 5.1 trailers on gameplay, boss, combat and animation commits.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
     "flops_estimate_raw": 120000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
     "flops_estimate_basis": "Static estimate for a DOM/React hex board, deterministic turn logic, sprite effects and canvas-like CSS rendering; not measured hardware throughput.",
-    "quality_estimate_10": 8.8,
-    "quality_estimate_basis": "The repository has a complete browser entry point, a documented core loop, 24 stages, boss attacks, tests and direct game source, with exact Fable attribution.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Source-complete browser bullet-hell game with multiple modes, stage progression, boss systems, RPG content, local persistence, substantial art pipeline and extensive automated tests, with exact Fable attribution.",
     "counted_game_units": 1,
     "is_independent_game": true
   },

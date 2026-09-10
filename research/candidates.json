@@ -740,6 +740,16 @@
       "repository": "https://github.com/neguse/lub",
       "source": "GitHub code search for SDL game Co-Authored-By Claude Opus",
       "reason": "The repository is a Lua-driven live-coding 3D game engine with sample programs, not one independently published game. Reject it as engine/tooling under the collection rules."
+    },
+    {
+      "repository": "https://github.com/rgthddei67/PlantsVsZombies-Recode",
+      "source": "GitHub code search for C++ game Co-Authored-By Claude Fable",
+      "reason": "The repository is a substantial C++17/SDL2/Vulkan/OpenGL Plants vs. Zombies fan game, but the inspected exact Fable text appears only in implementation plans. No qualifying attribution trailer was confirmed in the inspected commit history. Reject it until repository-level model evidence exists."
+    },
+    {
+      "repository": "https://github.com/felipe-dos-santos81/PyAitD",
+      "source": "GitHub code search for C++ game Co-Authored-By Claude Fable",
+      "reason": "The repository is a real Python/Pygame reimplementation of Alone in the Dark with substantial gameplay source, but the inspected exact Fable text appears only in implementation plans and no qualifying attribution trailer was confirmed. Reject it until repository-level model evidence exists."
     }
   ]
 }
