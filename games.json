@@ -20674,5 +20674,55 @@
     "quality_estimate_basis": "Real multiplayer game project with a published place workflow, live public demo, client/server/shared source, round loop, persistent profiles, economy, arena systems, extensive tests and exact Fable gameplay commits.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "gameday",
+    "github_url": "https://github.com/WallyMagill/gameday",
+    "game_links": [
+      "https://github.com/WallyMagill/gameday#readme",
+      "https://github.com/WallyMagill/gameday/blob/main/Cargo.toml",
+      "https://github.com/WallyMagill/gameday/tree/main/src",
+      "https://github.com/WallyMagill/gameday/tree/main/tests",
+      "https://github.com/WallyMagill/gameday/blob/main/docs/demo.gif",
+      "https://github.com/WallyMagill/gameday/commit/41846f88c74679e4abf2aff125a7c1173f805bbc"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/WallyMagill/gameday/commit/41846f88c74679e4abf2aff125a7c1173f805bbc",
+    "screenshot_urls": [
+      "https://github.com/WallyMagill/gameday/blob/main/docs/tour.png",
+      "https://github.com/WallyMagill/gameday/blob/main/docs/demo.gif"
+    ],
+    "technology": [
+      "Rust",
+      "Ratatui",
+      "Crossterm",
+      "Native desktop",
+      "Terminal sports game"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "gameday"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub code search for Rust game Co-Authored-By Claude Fable",
+      "https://github.com/WallyMagill/gameday"
+    ],
+    "verification_notes": "The README documents a runnable terminal sports board game with nine leagues, live and upcoming game ranking, a hero scoreboard, situation and last-play fragments, zoomed overview/plays/stats, TV mode, favorites, notifications, config, cache-backed offline behavior, a --once mode and tests. The repository includes a demo GIF and tour screenshot. The cited feature commit changes score-delta gameplay and tests and includes an exact Co-Authored-By: Claude Fable 5.1 trailer. Count only the current sports board game; exclude documentation and release tooling. This native terminal game belongs in Non-Browser Engines.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 180000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for terminal layout, live scoreboard polling, ranking, play summaries, Unicode rendering, caching and nine-league data handling; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "The project has a polished documented game loop, nine leagues, multiple viewing modes, persistent preferences, offline cache behavior, tests, screenshots/GIF evidence and exact Fable attribution on a gameplay feature commit.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

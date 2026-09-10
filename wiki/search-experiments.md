@@ -2056,6 +2056,10 @@ Accept [Roshambo 26](https://github.com/jonlabrie/roshambo_26) as one other-engi
 
 Reject [Boundless Engine](https://github.com/amitassaraf/boundless-engine) as voxel-engine tooling with tech-demo screenshots but no game loop. Reject [Quake2Mac](https://github.com/felipe-dos-santos81/Quake2Mac) because its Fable evidence is limited to texture/renderer tooling and it requires external commercial game data.
 
+### Rust/Claude Fable terminal-sports-game audit
+
+Accept [gameday](https://github.com/WallyMagill/gameday) as one native terminal game. Its README and source prove a runnable sports board with nine leagues, live and upcoming game ranking, a hero scoreboard, situation and last-play fragments, zoomed overview/plays/stats, TV mode, favorites, notifications, cache-backed offline behavior, `--once` output and tests. The repository includes a tour screenshot and demo GIF. Its gameplay feature commit contains an exact Claude Fable 5.1 trailer. Count only the current sports board game; exclude release tooling.
+
 ### Rust/Bevy/Claude Fable sports-game reconfirmation
 
 Reconfirm [Breakneck Baseball](https://github.com/hynding/breakneck-baseball) as one engine-based game. Its README, source and playtest screenshots prove a complete Rust/Bevy/Rapier baseball game with native desktop and browser WASM builds, CPU/2P modes, full innings, five pitches, ball flight, steals, pickoffs, advanced rules, camera modes, settings, audio, substitutions and tests. The live demo is [hynding.github.io/breakneck-baseball](https://hynding.github.io/breakneck-baseball/). Its history contains exact Claude Fable gameplay trailers. Merge stronger direct links into the existing record and do not count it twice.

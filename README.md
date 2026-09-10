@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 675 verified games. Real source. No prompt-only filler.
+### 676 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-675-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-474-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-676-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-475-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,17 +19,17 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 675 games. Yes, each one links to source.**
+**Yes, that is 676 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **675** |
-| 📦 Included repositories | **474** |
+| 🎮 Independently counted games | **676** |
+| 📦 Included repositories | **475** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **243** |
-| 📸 Games with verified screenshot links | **104** |
+| 🛠️ Non-browser engine games | **244** |
+| 📸 Games with verified screenshot links | **105** |
 | 🧠 Games with direct prompt links | **17** |
 
 ## 🏆 Top-rated picks
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **243 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **244 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **51 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **243 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **244 verified games. Ranked by evidence-based quality score.**
 
 - [**CYBER SUNDAY**](https://github.com/influenza-dotcom/3D-RPG) — ⭐ **9.6/10** · Claude Opus 5 · Godot 4.7, GDScript, Blender, GLB/glTF, Native desktop, First-person immersive sim, FPS/RPG, GUT tests · 8.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
@@ -122,6 +122,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Donify**](https://github.com/w4coder/donify) — ⭐ **9.1/10** · GPT-6 Astra · Unreal Engine 5.8.1, C++, Vulkan, Native Linux · 9 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/w4coder/donify/blob/main/docs/media/gameplay-preview.jpg) · [📸 screenshot](https://github.com/w4coder/donify/blob/main/docs/media/indoor-flight.png)
 - [**Doomarena3D**](https://github.com/kamwoh/yume) — ⭐ **9.1/10** · Claude Opus 4.8, Claude Opus 4 · Godot 4, JSON world model, GDScript engine, Native desktop, 3D FPS arena shooter, 2D Sokoban puzzle, 3D third-person collection game · 5.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/kamwoh/yume/blob/master/godot/scenes/doomarena3d.tscn) · [📸 screenshot](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif) · [📸 screenshot](https://github.com/kamwoh/yume/blob/master/docs/media/sokoban.gif) · [📸 screenshot](https://github.com/kamwoh/yume/blob/master/docs/media/lanterns.gif)
 - [**Flappy Race**](https://github.com/Baeinsoo/LeagueOfPhysical-Client) — ⭐ **9.1/10** · Claude Opus 5 · Unity 6, C#, Mirror networking, Native desktop, Flappy race, Panchigi board game, Skydive platformer · 8.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/FlappyRace.unity)
+- [**gameday**](https://github.com/WallyMagill/gameday) — ⭐ **9.1/10** · Claude Fable 5.1 · Rust, Ratatui, Crossterm, Native desktop, Terminal sports game · 180 MFLOPS · _confirmed_ · [🔗 files](https://github.com/WallyMagill/gameday#readme) · [📸 screenshot](https://github.com/WallyMagill/gameday/blob/main/docs/tour.png) · [📸 screenshot](https://github.com/WallyMagill/gameday/blob/main/docs/demo.gif)
 - [**Lanterns**](https://github.com/kamwoh/yume) — ⭐ **9.1/10** · Claude Opus 4.8, Claude Opus 4 · Godot 4, JSON world model, GDScript engine, Native desktop, 3D FPS arena shooter, 2D Sokoban puzzle, 3D third-person collection game · 5.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn) · [📸 screenshot](https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif) · [📸 screenshot](https://github.com/kamwoh/yume/blob/master/docs/media/sokoban.gif) · [📸 screenshot](https://github.com/kamwoh/yume/blob/master/docs/media/lanterns.gif)
 - [**OpenCiv1++**](https://github.com/wicanr2/civ1_cht) — ⭐ **9.1/10** · Claude Opus 4.7 · C++17, SDL2, Custom engine, Native desktop · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/src/main.cpp) · [📸 screenshot](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/videos/comparison.gif) · [📸 screenshot](https://github.com/wicanr2/civ1_cht/blob/c46be0d31758141b444b971e6ce7ba7b44908472/openciv1pp/docs/PLAY_COMPARISON_R5.md)
 - [**Panchigi**](https://github.com/Baeinsoo/LeagueOfPhysical-Client) — ⭐ **9.1/10** · Claude Opus 5 · Unity 6, C#, Mirror networking, Native desktop, Flappy race, Panchigi board game, Skydive platformer · 8.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Baeinsoo/LeagueOfPhysical-Client/blob/main/Assets/Scenes/Panchigi.unity)
