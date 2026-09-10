@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 670 verified games. Real source. No prompt-only filler.
+### 671 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-670-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-469-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-671-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-470-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,16 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 670 games. Yes, each one links to source.**
+**Yes, that is 671 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **670** |
-| 📦 Included repositories | **469** |
+| 🎮 Independently counted games | **671** |
+| 📦 Included repositories | **470** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **201** |
+| 🛠️ Non-browser engine games | **202** |
 | 📸 Games with verified screenshot links | **103** |
 | 🧠 Games with direct prompt links | **17** |
 
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **201 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **202 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **51 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **201 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **202 verified games. Ranked by evidence-based quality score.**
 
 - [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
@@ -104,6 +104,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Dragon Quest III — Ebitengine Remake**](https://github.com/wicanr2/kinginformation-dq3-re) — ⭐ **9.3/10** · Claude Opus 4.8 · Go, Ebitengine, Native desktop, Android · 1.40 GFLOPS · _confirmed_ · [🔗 files](https://github.com/wicanr2/kinginformation-dq3-re/blob/main/dq3_remake_ebitan/main.go)
 - [**GAME_CORE — Adaptive Boss Arena**](https://github.com/Assassin29092005/GAME_CORE) — ⭐ **9.3/10** · Claude Fable 5 · Unreal Engine 5.8, C++, Python, Native desktop · 7 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Assassin29092005/GAME_CORE/blob/main/GAME_CORE.uproject)
 - [**NULLSPACE**](https://github.com/marius4lui/NULLSPACE) — ⭐ **9.3/10** · GPT-6 Astra, Codex · Godot 4.7.2, GDScript, Blender, GLB/glTF, Native Linux, Windows export, Android preview · 7 GFLOPS · _confirmed_ · [🔗 files](https://github.com/marius4lui/NULLSPACE/releases/tag/v0.3) · [📸 screenshot](https://github.com/marius4lui/NULLSPACE/blob/main/docs/images/environment-preview.png)
+- [**Regolith**](https://github.com/mnorrsken/fringeworlds) — ⭐ **9.3/10** · Claude Opus 4.8, Claude Opus 5 · Godot 4.7.1, GDScript, Native desktop, 2D isometric rendering, Colony builder, Simulation and economy · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/mnorrsken/fringeworlds/blob/main/README.md)
 - [**Robo Open**](https://github.com/az9713/gpt-6-astra-tennis-game) — ⭐ **9.3/10** · GPT-6 Astra, Codex · Unity 6.0.5.7f1, C#, URP 17.5.0, Blender, Native Windows · 6 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/main-menu.png) · [📸 screenshot](https://github.com/az9713/gpt-6-astra-tennis-game/blob/main/docs/media/v2/play-report.png)
 - [**The Nine Lives of Ash**](https://github.com/phirogue/SparkyGames) — ⭐ **9.3/10** · Claude Opus 5 · Godot 4, GDScript, Native desktop, Native mobile · 360 MFLOPS · _confirmed_ · [🔗 files](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/game/scenes/game.tscn) · [📸 screenshot](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/02_title.png) · [📸 screenshot](https://github.com/phirogue/SparkyGames/blob/3b370c0e21522c2fc496295e25e650443a070aac/screenshots/reference/battle.png)
 - [**HOLDFAST**](https://github.com/nschmeller/holdfast) — ⭐ **9.2/10** · Claude Opus 5 · Bevy 0.19, Rust, Native desktop, WebAssembly, iOS · 1.90 GFLOPS · _confirmed_ · [🔗 files](https://github.com/nschmeller/holdfast/blob/main/README.md) · [📸 screenshot](https://github.com/nschmeller/holdfast/blob/main/docs/ux-critique/12-results.jpg)

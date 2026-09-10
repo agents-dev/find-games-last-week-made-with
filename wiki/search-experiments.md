@@ -2017,3 +2017,7 @@ Inspect the Godot/Opus result partition serially. Accept [Project Rondo](https:/
 ### Godot/Claude Opus 4.8 multi-game demo audit
 
 Inspect the result partition serially. Accept [Yume](https://github.com/kamwoh/yume) as one repository containing three committed, fresh-clone runnable games: [Doomarena3D](https://github.com/kamwoh/yume/blob/master/godot/scenes/doomarena3d.tscn), [Sokoban](https://github.com/kamwoh/yume/blob/master/godot/scenes/sokoban_2d.tscn) and [Lanterns](https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn). Each has dedicated world data, a launcher scene and a README gameplay GIF. Its history contains exact Claude Opus 4.8/4 implementation commits. Reject [Pendulum of Despair](https://github.com/gcko/pendulum-of-despair) because its README says engine implementation has not begun; it is design-only. Count three native game units and exclude engine-only or visual-test demos.
+
+### Godot/Claude Opus 4.8 native-game audit
+
+Accept [Regolith](https://github.com/mnorrsken/fringeworlds) because its README and source prove a runnable Godot 4.7.1 native isometric colony builder with a fixed-tick economy, resource chains, prospecting, finite deposits, mining, colonists, weather, save/load, release builds and extensive tests. Its history contains exact Claude Opus 4.8 and Opus 5 gameplay-system trailers. Count one native game unit.

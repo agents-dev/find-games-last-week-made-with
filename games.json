@@ -20400,5 +20400,58 @@
     "quality_estimate_basis": "Three source-complete committed Godot games with fresh-clone launch scenes, dedicated world data, gameplay rules, assets, tests, screenshots and exact Opus implementation history; engine-only and visual-test demos are excluded.",
     "counted_game_units": 3,
     "is_independent_game": true
+  },
+  {
+    "name": "Regolith",
+    "github_url": "https://github.com/mnorrsken/fringeworlds",
+    "game_links": [
+      "https://github.com/mnorrsken/fringeworlds/blob/main/README.md",
+      "https://github.com/mnorrsken/fringeworlds/blob/main/project.godot",
+      "https://github.com/mnorrsken/fringeworlds/blob/main/main.tscn",
+      "https://github.com/mnorrsken/fringeworlds/blob/main/main.gd",
+      "https://github.com/mnorrsken/fringeworlds/tree/main/sim",
+      "https://github.com/mnorrsken/fringeworlds/tree/main/render",
+      "https://github.com/mnorrsken/fringeworlds/tree/main/ui",
+      "https://github.com/mnorrsken/fringeworlds/tree/main/tests"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/mnorrsken/fringeworlds/commit/429d51ccef4faf41245886ac90dcb1faf1242ee7",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot 4.7.1",
+      "GDScript",
+      "Native desktop",
+      "2D isometric rendering",
+      "Colony builder",
+      "Simulation and economy"
+    ],
+    "model_family": [
+      "Claude Opus 4.8",
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Regolith"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-07-20T13:57:31Z",
+    "published_on": "2026-07-20",
+    "discovery_sources": [
+      "GitHub code search for Godot game Co-Authored-By Claude Opus 4.8",
+      "https://github.com/mnorrsken/fringeworlds"
+    ],
+    "verification_notes": "The README provides Godot 4.7.1 make run and make export commands for Regolith, a retro-styled isometric alien colony builder. It documents a real fixed-tick economy, building placement, power and production chains, prospecting and finite deposits, mining patches, colonists, housing, food, water and oxygen, storage, crafting, weather events, win/lose states, save/load, sound, release builds and a headless test suite. The repository contains main/menu scenes, pure simulation, rendering, UI, audio, assets and 193 tests. Its history contains exact Claude Opus 4.8 and Opus 5 trailers on economy, colonists, weather, mining and gameplay systems. Count the native game once.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D isometric rendering, tile and building layers, simulation ticks, UI, weather, colonist sprites and audio; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "Source-complete native colony builder with a documented economy loop, fixed-tick simulation, resource chains, prospecting, mining, colonists, hostile weather, save/load, releases, assets and extensive tests.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
