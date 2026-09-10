@@ -755,6 +755,11 @@
       "repository": "https://github.com/Xian55/Emberfire",
       "source": "GitHub code search for SFML game Co-Authored-By Claude Opus",
       "reason": "The repository is a C++/SFML MMO client and protocol/authentication monorepo, but its README says the bundled game runtime, content, maps and database are not in the repository and its server is a placeholder. Reject it as an incomplete client/reimplementation rather than an independently runnable game."
+    },
+    {
+      "repository": "https://github.com/gcko/pendulum-of-despair",
+      "source": "GitHub code search for Godot game Co-Authored-By Claude Opus 4.8",
+      "reason": "The repository contains extensive JRPG design documents and the Godot test framework, but its README explicitly says engine implementation has not begun and no game scenes, scripts or playable assets exist. Reject it as design-only."
     }
   ]
 }

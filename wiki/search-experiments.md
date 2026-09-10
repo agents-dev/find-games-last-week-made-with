@@ -2013,3 +2013,7 @@ Run the Pygame game query serially. Accept [Dot Grid](https://github.com/honzave
 ### Godot-to-Babylon/Claude Opus game audit
 
 Inspect the Godot/Opus result partition serially. Accept [Project Rondo](https://github.com/YuutaTsubasa/ProjectRondo) as one current playable browser/desktop hub game. Its README and source prove a third-person Babylon.js/Havok knight hub with movement, jump, glTF animation, lighting, scatter, audio, dialogue and tests. Exclude the future Sonic-style levels and puzzle games described by the roadmap. Its history contains exact Claude Opus 5 gameplay and presentation commits. Count one new browser game unit.
+
+### Godot/Claude Opus 4.8 multi-game demo audit
+
+Inspect the result partition serially. Accept [Yume](https://github.com/kamwoh/yume) as one repository containing three committed, fresh-clone runnable games: [Doomarena3D](https://github.com/kamwoh/yume/blob/master/godot/scenes/doomarena3d.tscn), [Sokoban](https://github.com/kamwoh/yume/blob/master/godot/scenes/sokoban_2d.tscn) and [Lanterns](https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn). Each has dedicated world data, a launcher scene and a README gameplay GIF. Its history contains exact Claude Opus 4.8/4 implementation commits. Reject [Pendulum of Despair](https://github.com/gcko/pendulum-of-despair) because its README says engine implementation has not begun; it is design-only. Count three native game units and exclude engine-only or visual-test demos.

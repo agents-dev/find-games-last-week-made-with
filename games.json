@@ -20335,5 +20335,70 @@
     "quality_estimate_basis": "Source-complete playable 3D hub game with a physics character controller, glTF animation, audio, dialogue, authored environment, tests, browser build and Tauri packaging; future levels are excluded from the count.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Yume committed demos",
+    "github_url": "https://github.com/kamwoh/yume",
+    "game_links": [
+      "https://github.com/kamwoh/yume/blob/master/README.md",
+      "https://github.com/kamwoh/yume/blob/master/godot/scenes/doomarena3d.tscn",
+      "https://github.com/kamwoh/yume/blob/master/godot/scenes/sokoban_2d.tscn",
+      "https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn",
+      "https://github.com/kamwoh/yume/tree/master/godot/data/demo_doomarena3d",
+      "https://github.com/kamwoh/yume/tree/master/godot/data/demo_sokoban",
+      "https://github.com/kamwoh/yume/tree/master/godot/data/demo_lanterns",
+      "https://github.com/kamwoh/yume/tree/master/docs/media"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/kamwoh/yume/commit/11df7cf1a0e29ec63b2f3ffe45ba14b57d623b33",
+    "screenshot_urls": [
+      "https://github.com/kamwoh/yume/blob/master/docs/media/doomarena.gif",
+      "https://github.com/kamwoh/yume/blob/master/docs/media/sokoban.gif",
+      "https://github.com/kamwoh/yume/blob/master/docs/media/lanterns.gif"
+    ],
+    "technology": [
+      "Godot 4",
+      "JSON world model",
+      "GDScript engine",
+      "Native desktop",
+      "3D FPS arena shooter",
+      "2D Sokoban puzzle",
+      "3D third-person collection game"
+    ],
+    "model_family": [
+      "Claude Opus 4.8",
+      "Claude Opus 4"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 3,
+    "contained_games": [
+      "Doomarena3D",
+      "Sokoban",
+      "Lanterns"
+    ],
+    "contained_game_links": [
+      "https://github.com/kamwoh/yume/blob/master/godot/scenes/doomarena3d.tscn",
+      "https://github.com/kamwoh/yume/blob/master/godot/scenes/sokoban_2d.tscn",
+      "https://github.com/kamwoh/yume/blob/master/godot/scenes/lanterns_3d.tscn"
+    ],
+    "verification_status": "verified_source_and_screenshots",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-04-07T00:14:33Z",
+    "published_on": "2026-04-07",
+    "discovery_sources": [
+      "GitHub code search for Godot game Co-Authored-By Claude Opus 4.8",
+      "https://github.com/kamwoh/yume"
+    ],
+    "verification_notes": "The README identifies three committed demos that run on a fresh clone: doomarena3d is a first-person arena shooter with movement, shooting, enemies and deaths; Sokoban is a 2D box-pushing puzzle; Lanterns is a third-person 3D collection game with a walkable world, player, camera, lantern collection and win rules. Each has a committed Godot launcher scene, dedicated godot/data/demo_* content, gameplay rules and a matching README GIF. The repository history contains exact Claude Opus 4.8 and Opus 4 gameplay commits, including the commit that force-tracked the three launchers. Count the three actual committed games and do not count camera-orbit renders, engine tests or roadmap-only demos.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 5200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 4 native 3D/2D rendering, JSON rule interpretation, entity simulation, camera systems, AI shooter entities and UI across three demos; not measured hardware throughput.",
+    "quality_estimate_10": 9.1,
+    "quality_estimate_basis": "Three source-complete committed Godot games with fresh-clone launch scenes, dedicated world data, gameplay rules, assets, tests, screenshots and exact Opus implementation history; engine-only and visual-test demos are excluded.",
+    "counted_game_units": 3,
+    "is_independent_game": true
   }
 ]
