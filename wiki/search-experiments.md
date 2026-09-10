@@ -2027,3 +2027,9 @@ Accept [Regolith](https://github.com/mnorrsken/fringeworlds) because its README 
 Accept [Swarm Dominion](https://github.com/johnburbridge/swarm-dominion) because its README and source prove a current playable Godot RTS prototype with unit selection, movement, combat, harvesting, progression, resource nodes, main scenes, HUD and tests. Its history contains exact Claude Opus 5 and 4.8 gameplay-system trailers. Count one native game unit and exclude roadmap-only multiplayer and later RTS features.
 
 Reject [Loom](https://github.com/ShahmeerHyat/Loom) because its public README is unrelated Godot-MCP tooling content and its own project notes say the latest build is not verified in Godot.
+
+### Godot/Claude Opus 5 vertical-slice audit
+
+Accept [Sortie](https://github.com/Attacktive/sortie) as one native Godot game. Its README documents fresh-clone execution, a title screen, a walkable field, standalone battle mode, a screenshot harness and tests. The source includes field movement, a tactical grid, unit selection, attacks, turn flow, dialogue, mission data, save/load and result screens. Its field implementation commit contains an exact Claude Opus 5 trailer. Count only the current RPG vertical slice; exclude design documents.
+
+Reject [The Synaptic Sea](https://github.com/9thLevelSoftware/the-synaptic-sea) even though it is a real Godot pre-alpha space-horror survival game. The inspected exact Claude Opus text appears only in implementation plans, and no qualifying repository-level attribution trailer was confirmed. Keep it rejected until stronger model evidence is available.

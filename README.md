@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 672 verified games. Real source. No prompt-only filler.
+### 673 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-672-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-471-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-673-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-472-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,16 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 672 games. Yes, each one links to source.**
+**Yes, that is 673 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **672** |
-| 📦 Included repositories | **471** |
+| 🎮 Independently counted games | **673** |
+| 📦 Included repositories | **472** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **203** |
+| 🛠️ Non-browser engine games | **204** |
 | 📸 Games with verified screenshot links | **103** |
 | 🧠 Games with direct prompt links | **17** |
 
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **203 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **204 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **51 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **203 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **204 verified games. Ranked by evidence-based quality score.**
 
 - [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
@@ -111,6 +111,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Idle ARPG**](https://github.com/nodeJayS/idle-game) — ⭐ **9.2/10** · Claude Opus 5 · Unity, C#, Native desktop · 4.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/nodeJayS/idle-game/blob/main/unity/Assets/Game/Bootstrap.cs)
 - [**PULSEBREAK**](https://github.com/xindomusic/pulsebreak) — ⭐ **9.2/10** · GPT-6 Astra, Codex · Godot 4.7.2, GDScript, Godot Mobile renderer, Native macOS, Metal · 2.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/title.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/combat.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/boss.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/upgrades.png)
 - [**Relight**](https://github.com/Deedubsy/Relight) — ⭐ **9.2/10** · Claude Fable 5.1 · Phaser 4, TypeScript, Vite, Tauri v2, Native desktop, Browser · 1.40 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Deedubsy/Relight/blob/b3a3f6c8f42a09841102287ac195a424c1f05e1f/packages/sim/src/sim.ts) · [📸 screenshot](https://github.com/Deedubsy/Relight/blob/b3a3f6c8f42a09841102287ac195a424c1f05e1f/docs/evidence/city-rebuild/revised-overview.png) · [📸 screenshot](https://github.com/Deedubsy/Relight/blob/b3a3f6c8f42a09841102287ac195a424c1f05e1f/docs/evidence/city-rebuild/street-restored.png)
+- [**Sortie**](https://github.com/Attacktive/sortie) — ⭐ **9.2/10** · Claude Opus 5 · Godot 4.7.2, GDScript, Native desktop, Grid tactics JRPG, Turn-based combat, GUT tests · 1.10 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Attacktive/sortie/blob/main/README.md)
 - [**STORMFALL**](https://github.com/oh-ashen-one/Opus-5-Three-Games) — ⭐ **9.2/10** · Claude Opus 5 · Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/01-stormfall-ue)
 - [**STRIKE PROTOCOL**](https://github.com/oh-ashen-one/Opus-5-Three-Games) — ⭐ **9.2/10** · Claude Opus 5 · Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/02-strike-godot)
 - [**TEACUP**](https://github.com/oh-ashen-one/Opus-5-Three-Games) — ⭐ **9.2/10** · Claude Opus 5 · Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/03-teacup-godot)

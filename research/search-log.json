@@ -6703,10 +6703,45 @@
       },
       "critique_note": "This pass added one verified native RTS prototype and rejected a misleading or unverified Godot project.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Godot/Claude Opus 5 vertical-slice audit",
+      "query_key": "Godot game Co-Authored-By Claude Opus 5",
+      "status": "completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 1,
+      "new_rejected": 1,
+      "new_game_units": 1,
+      "unseen_count": 25,
+      "accepted_repositories": [
+        "https://github.com/Attacktive/sortie"
+      ],
+      "rejected_repositories": [
+        "https://github.com/9thLevelSoftware/the-synaptic-sea"
+      ],
+      "held_repositories": [],
+      "note": "Accept Sortie because its README and source prove a fresh-clone runnable Godot 4.7.2 grid-tactics JRPG vertical slice with title, walkable field, standalone battle, movement, attacks, turn flow, dialogue, mission data, save/load and tests. Its field implementation commit contains an exact Claude Opus 5 trailer. Reject the Synaptic Sea because its game is real but the inspected Opus text is plan-only.",
+      "next_experiments": [
+        "Inspect the remaining Godot/Opus result partition serially",
+        "Search other native engines with exact Fable or Astra evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 7,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added one source-complete native Godot RPG slice and rejected a real game whose model attribution was confined to planning documents.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 663 across 516 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 673 across 524 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

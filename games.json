@@ -20505,5 +20505,57 @@
     "quality_estimate_basis": "Source-complete native RTS prototype with a clear match loop, unit selection and commands, combat, harvesting, progression, resources, scenes, documentation and extensive tests; roadmap-only features are excluded.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Sortie",
+    "github_url": "https://github.com/Attacktive/sortie",
+    "game_links": [
+      "https://github.com/Attacktive/sortie/blob/main/README.md",
+      "https://github.com/Attacktive/sortie/blob/main/project.godot",
+      "https://github.com/Attacktive/sortie/blob/main/scenes/game.tscn",
+      "https://github.com/Attacktive/sortie/blob/main/scenes/field.tscn",
+      "https://github.com/Attacktive/sortie/blob/main/scenes/battle.tscn",
+      "https://github.com/Attacktive/sortie/blob/main/core/mission_registry.gd",
+      "https://github.com/Attacktive/sortie/blob/main/scenes/battle.gd",
+      "https://github.com/Attacktive/sortie/tree/main/test"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Attacktive/sortie/commit/1d932dcfdc376a23d390a4fc99b4bd9455e17b89",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot 4.7.2",
+      "GDScript",
+      "Native desktop",
+      "Grid tactics JRPG",
+      "Turn-based combat",
+      "GUT tests"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Sortie"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-08-30T00:07:34Z",
+    "published_on": "2026-08-30",
+    "discovery_sources": [
+      "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
+      "https://github.com/Attacktive/sortie"
+    ],
+    "verification_notes": "The README provides a fresh-clone Godot 4.7.2 run command, title screen, standalone walkable field, standalone battle, screenshot harness and automated tests. The current source contains a title scene, field scene with map/player/camera/NPCs/triggers, battle scene with grid movement, unit selection, attacks, turn flow, combat animation and result screens, plus mission, dialogue and save/load systems. The inspected field commit states that it boots into a walkable 18x12 world and contains an exact Co-authored-by: Claude Opus 5 trailer. Count the current vertical-slice RPG once; do not count design documents as extra games.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1100000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D tile and sprite rendering, turn-based grid calculations, combat UI, dialogue, save/load and test instrumentation; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Source-complete native vertical slice with title, field exploration, tactical battle, dialogue, mission data, save/load, visual capture harness and extensive tests, backed by an exact gameplay commit trailer.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

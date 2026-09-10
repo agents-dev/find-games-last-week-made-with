@@ -765,6 +765,11 @@
       "repository": "https://github.com/ShahmeerHyat/Loom",
       "source": "GitHub code search for Godot game Co-Authored-By Claude Opus 4.8",
       "reason": "The repository has Godot simulation code and a project description in CLAUDE.md, but its public README is unrelated Godot-MCP tooling content and CLAUDE.md says the large recent build is not verified in Godot. Reject it until the game identity and runtime are independently verified."
+    },
+    {
+      "repository": "https://github.com/9thLevelSoftware/the-synaptic-sea",
+      "source": "GitHub code search for Godot game Co-Authored-By Claude Opus",
+      "reason": "The repository is a real Godot 4.6.2 pre-alpha space-horror survival game with substantial scenes, scripts, assets, tests and a documented core loop, but the exact Claude Opus text was found only in docs/superpowers implementation plans. The inspected repository history did not provide a qualifying Astra, Opus or Fable attribution trailer. Reject it until repository-level model evidence exists."
     }
   ]
 }
