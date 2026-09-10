@@ -2039,3 +2039,9 @@ Reject [The Synaptic Sea](https://github.com/9thLevelSoftware/the-synaptic-sea) 
 Accept [CYBERSUNDAY](https://github.com/influenza-dotcom/3D-RPG) as one native Godot game. Its README and source document a substantial single-player FPS/RPG with a first-person entry flow, movement, aiming, firearms, knives, throwable props, stealth, NPCs, quests, inventory, authored levels, saves, assets and tests. A gameplay commit contains an exact Claude Opus 5 trailer. Count only the current immersive-sim prototype; exclude editor tools and visual effects.
 
 Reject [Firebound](https://github.com/firebound/firebound) because its README explicitly describes a framework, a future prototype and a separate future complete game, not a source-complete independent game. Reject [Kicktro](https://github.com/carlemil/kicktro) because it is a GPU demoscene visual collection without game rules or an objective.
+
+### SDL/Claude Opus 5 space-game audit
+
+Accept [Starcluster](https://github.com/Jirnyak/starcluster) as one native C++/SDL2 game. Its README and source prove a runnable space-economy sandbox with an 8,192-star cluster, markets, NPC factions, contracts, colonies, fleet autopilot, local first-person flight, saves, Android support and test programs. Its history contains exact Claude Opus trailers on gameplay systems. Count the current simulation once.
+
+Reject [Dead Rising 2: Case Zero — Native PC Port](https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp). It is a real native port, but no qualifying Claude Opus attribution trailer was confirmed in the inspected history, and the proprietary game data is external to the repository.

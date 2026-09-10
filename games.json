@@ -20610,5 +20610,57 @@
     "quality_estimate_basis": "Substantial native FPS/RPG with a complete documented debt-and-hunt loop, first-person combat, stealth, NPC behavior, authored resources, save systems, level content, assets, tests and repeated exact Opus gameplay trailers.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Starcluster",
+    "github_url": "https://github.com/Jirnyak/starcluster",
+    "game_links": [
+      "https://github.com/Jirnyak/starcluster/blob/main/README.md",
+      "https://github.com/Jirnyak/starcluster/blob/main/Makefile",
+      "https://github.com/Jirnyak/starcluster/blob/main/main.cpp",
+      "https://github.com/Jirnyak/starcluster/blob/main/game.cpp",
+      "https://github.com/Jirnyak/starcluster/blob/main/cluster.cpp",
+      "https://github.com/Jirnyak/starcluster/blob/main/ship.cpp",
+      "https://github.com/Jirnyak/starcluster/blob/main/ui.cpp",
+      "https://github.com/Jirnyak/starcluster/tree/main/tests"
+    ],
+    "live_demo_url": "https://Jirnyak.github.io/starcluster/",
+    "evidence_url": "https://github.com/Jirnyak/starcluster/commit/bc827455aadd234574fa4353c3993d55dff9e907",
+    "screenshot_urls": [],
+    "technology": [
+      "C++",
+      "SDL2",
+      "Native desktop",
+      "Native Android",
+      "Space economy sandbox",
+      "N-body simulation"
+    ],
+    "model_family": [
+      "Claude Opus"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Starcluster"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-05-20T23:37:06Z",
+    "published_on": "2026-05-20",
+    "discovery_sources": [
+      "GitHub code search for SDL game Co-Authored-By Claude Opus 5",
+      "https://github.com/Jirnyak/starcluster"
+    ],
+    "verification_notes": "The README documents a runnable C++/SDL2 game with a deterministic 8,192-star cluster, local markets, NPC factions, traders, patrols, colonists, scouts, pirates, contracts, colonies, shares, fleet autopilot, first-person local flight, save/load, HUD windows and smoke tests. The source includes the executable entry point, simulation systems, ships, agents, colonies, factions, UI and test programs. The live GitHub Pages showcase is linked, and the inspected gameplay history contains exact Claude Opus trailers on market, fleet, propulsion, combat, colony and save systems. Count the current native space-economy game once.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 5200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for SDL2 rendering, 8,192-body Barnes-Hut gravity, roughly 1,000 NPC ships, markets, contracts, fleet simulation, local flight and HUD windows; not measured hardware throughput.",
+    "quality_estimate_10": 9.4,
+    "quality_estimate_basis": "Source-complete native space-economy sandbox with a clear simulation loop, large deterministic world, markets, contracts, factions, colonies, flight, persistence, Android target, live showcase and extensive test programs, backed by repeated gameplay-system trailers.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

@@ -780,6 +780,11 @@
       "repository": "https://github.com/carlemil/kicktro",
       "source": "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
       "reason": "The repository is a browser GPU demoscene visual collection with dozens of shader effects and a live demo, but it has no game rules, objective or playable game loop. Reject it as a visual showcase."
+    },
+    {
+      "repository": "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
+      "source": "GitHub code search for SDL game Co-Authored-By Claude Opus 5",
+      "reason": "The repository is a real native Windows/Linux port of the commercial Dead Rising 2: Case Zero and its README documents a complete playable runtime, but the inspected exact Claude Opus 5 text appeared in documentation/planning search results and no qualifying model attribution trailer was confirmed in the repository history. Reject it under the exact model-evidence rule and because the game data is external proprietary content."
     }
   ]
 }

@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 674 verified games. Real source. No prompt-only filler.
+### 675 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-674-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-473-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-675-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-474-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,16 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 674 games. Yes, each one links to source.**
+**Yes, that is 675 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **674** |
-| 📦 Included repositories | **473** |
+| 🎮 Independently counted games | **675** |
+| 📦 Included repositories | **474** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **205** |
+| 🛠️ Non-browser engine games | **206** |
 | 📸 Games with verified screenshot links | **103** |
 | 🧠 Games with direct prompt links | **17** |
 
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **205 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **206 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **51 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **205 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **206 verified games. Ranked by evidence-based quality score.**
 
 - [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
 - [**CYBERSUNDAY**](https://github.com/influenza-dotcom/3D-RPG) — ⭐ **9.6/10** · Claude Opus 5 · Godot 4.7, GDScript, Native desktop, First-person immersive sim, FPS/RPG, GUT tests · 8.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md)
@@ -98,6 +98,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Ghost Guild**](https://github.com/moura-code/ghost-guild) — ⭐ **9.4/10** · Claude Opus 5 · Godot 4, GDScript, 3D, Native desktop · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/moura-code/ghost-guild/blob/main/project.godot) · [📸 screenshot](https://github.com/moura-code/ghost-guild/blob/main/art_previews/catacombs.png) · [📸 screenshot](https://github.com/moura-code/ghost-guild/blob/main/art_previews/fungal_deep.png) · [📸 screenshot](https://github.com/moura-code/ghost-guild/blob/main/art_previews/the_kiln.png)
 - [**Gravity Box — Campaign 100**](https://github.com/nghienvothuat-a11y/GravityBox) — ⭐ **9.4/10** · GPT-6 Astra, GPT-5.6 Sol · Unity 6000.3.19f1, C#, Rigidbody physics, Native Android, Native macOS, Windows editor · 5 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C010.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C050.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Mac/C100.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Images/Level16/Coop16BothOut.png)
 - [**moorestech**](https://github.com/moorestech/moorestech) — ⭐ **9.4/10** · Claude Opus 5, Claude Fable 5.1 · Unity, C#, .NET, Native desktop · 5.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/moorestech/moorestech/blob/master/moorestech_client/Assets/Scenes/Game/MainGame.unity) · [📸 screenshot](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/challenge-hud-visual/01-single-world.png) · [📸 screenshot](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/issue-1101-wide-screen-hud/skit-wide.png)
+- [**Starcluster**](https://github.com/Jirnyak/starcluster) — ⭐ **9.4/10** · Claude Opus · C++, SDL2, Native desktop, Native Android, Space economy sandbox, N-body simulation · 5.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Jirnyak/starcluster/blob/main/README.md) · [▶️ play](https://Jirnyak.github.io/starcluster/)
 - [**The Fallen Citadel**](https://github.com/nansu0425/nan2026-game-src) — ⭐ **9.4/10** · Claude Opus 5, Claude Fable 5, Claude Opus 4.8 · Unity, C#, WebGL, Browser · 4.50 GFLOPS · _creator-reported_ · [🔗 files](https://github.com/nansu0425/nan2026-game-src/blob/main/Assets/Scripts/Characters/PlayerCharacterHost.cs) · [▶️ play](https://nansu0425.github.io/nan2026-game/) · [📸 screenshot](https://github.com/nansu0425/nan2026-game-src/blob/main/Documentation/images/title-screen.jpg)
 - [**Ultima V: Warriors of Destiny — Traditional Chinese Remake**](https://github.com/wicanr2/u5-cht) — ⭐ **9.4/10** · Claude Opus 5 · Go, Ebitengine, Native desktop, WebAssembly · 1.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/wicanr2/u5-cht/blob/main/cmd/u5cht/main.go)
 - [**Curse of the Dungeon Engine**](https://github.com/edrethardo/game) — ⭐ **9.3/10** · Claude Opus 5 · C++17, SDL2, Custom C++ engine, Native desktop, Nintendo Switch, First-person dungeon crawler · 9 GFLOPS · _confirmed_ · [🔗 files](https://github.com/edrethardo/game/blob/master/README.md)
