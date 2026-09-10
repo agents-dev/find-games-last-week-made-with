@@ -51,21 +51,28 @@
     "name": "CYBER SUNDAY",
     "github_url": "https://github.com/influenza-dotcom/3D-RPG",
     "game_links": [
-      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scenes/game.tscn",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scripts/world/game_root.gd",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scripts/player/player.gd",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scripts/combat/attack.gd",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/f89664f20418541b3913fcd2adfbfa2ce14626b1/scripts/combat/shot_resolver.gd"
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/DESIGN.md",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/project.godot",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/computerroom.tscn",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/game.tscn",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scripts/player/player.gd",
+      "https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/combat",
+      "https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/npc",
+      "https://github.com/influenza-dotcom/3D-RPG/tree/main/tests"
     ],
     "live_demo_url": null,
-    "evidence_url": "https://github.com/influenza-dotcom/3D-RPG/commit/f89664f20418541b3913fcd2adfbfa2ce14626b1",
+    "evidence_url": "https://github.com/influenza-dotcom/3D-RPG/commit/40b621ce679e98674ecb40851912fb48b82aa82",
     "screenshot_urls": [],
     "technology": [
       "Godot 4.7",
       "GDScript",
       "Blender",
       "GLB/glTF",
-      "Native desktop"
+      "Native desktop",
+      "First-person immersive sim",
+      "FPS/RPG",
+      "GUT tests"
     ],
     "model_family": [
       "Claude Opus 5"
@@ -81,15 +88,15 @@
       "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
       "https://github.com/influenza-dotcom/3D-RPG"
     ],
-    "verification_notes": "The README describes a single-player first-person immersive-sim/RPG prototype in Godot 4.7. It provides the main computer-room entry scene, game scene, movement and interaction controls, weapons and combat, NPCs, stealth, quests, save slots and level flow. game_root.gd, player.gd, attack.gd and shot_resolver.gd implement direct game systems. The cited documentation commit includes an exact Co-Authored-By: Claude Opus 5 trailer. Runtime export binaries are not provided, so this is source-verified and belongs in Non-Browser Engines.",
+    "verification_notes": "The README identifies CYBERSUNDAY as a single-player Godot 4.7 FPS/RPG prototype and documents the F5 entry scene, first-person movement, aiming, firearms, knives, throwable props, stealth, NPCs, quests, inventory, levels, save slots and controls. The repository contains the project entry scenes, player and combat scripts, NPC systems, authored level data, assets and a large GUT test suite. The inspected gameplay commit contains an exact Co-Authored-By: Claude Opus 5 trailer. Count the current immersive-sim prototype once; do not count its editor tools or visual effects as separate games. Runtime export binaries are not provided, so this is source-verified and belongs in Non-Browser Engines.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
-    "flops_estimate_raw": 5200000000,
+    "flops_estimate_raw": 8500000000,
     "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
     "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static estimate for Godot 3D rendering, first-person effects, AI, physics, GLB assets, post-processing and combat systems; not measured hardware throughput.",
-    "quality_estimate_10": 9.3,
-    "quality_estimate_basis": "The repository documents a substantial Godot first-person game with a clear entry flow, many gameplay systems, direct scripts/scenes, authoring documentation and exact Opus attribution.",
+    "flops_estimate_basis": "Static estimate for a native Godot 3D first-person renderer, post-processing, physics, NPC perception/GOAP, combat effects, audio, UI and level streaming; not measured hardware throughput.",
+    "quality_estimate_10": 9.6,
+    "quality_estimate_basis": "Substantial native FPS/RPG with a complete documented debt-and-hunt loop, first-person combat, stealth, NPC behavior, authored resources, save systems, level content, assets, tests and repeated exact Opus gameplay trailers.",
     "counted_game_units": 1,
     "is_independent_game": true
   },
@@ -97,10 +104,12 @@
     "name": "Mini Games",
     "github_url": "https://github.com/lofiski/mini-games",
     "game_links": [
-      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games_registry.dart",
-      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/game2048/domain/board.dart",
-      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/sliding_puzzle/domain/puzzle.dart",
-      "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/tap_match/domain/match_grid.dart"
+      "https://github.com/lofiski/mini-games/blob/main/README.md",
+      "https://github.com/lofiski/mini-games/blob/main/lib/games/game2048/game2048_definition.dart",
+      "https://github.com/lofiski/mini-games/blob/main/lib/games/sliding_puzzle/sliding_puzzle_definition.dart",
+      "https://github.com/lofiski/mini-games/blob/main/lib/games/tap_match/tap_match_definition.dart",
+      "https://github.com/lofiski/mini-games/blob/main/lib/games_registry.dart",
+      "https://github.com/lofiski/mini-games/tree/main/test/games"
     ],
     "contained_game_links": [
       "https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/game2048/domain/board.dart",
@@ -113,8 +122,9 @@
     "technology": [
       "Flutter",
       "Dart",
-      "Android",
-      "Native mobile"
+      "Native Android",
+      "Mobile puzzle games",
+      "Unit tests"
     ],
     "model_family": [
       "Claude Opus 5"
@@ -123,16 +133,16 @@
     "game_count": 3,
     "contained_games": [
       "2048",
-      "Sliding Puzzle",
+      "Number Sliding Puzzle",
       "Tap Match"
     ],
     "verification_status": "verified_source",
     "verified_on": "2026-09-10",
     "discovery_sources": [
-      "GitHub code search for C++ game Co-Authored-By Claude Opus",
+      "GitHub code search for Flutter game Co-Authored-By Claude Opus 5",
       "https://github.com/lofiski/mini-games"
     ],
-    "verification_notes": "The README identifies a native Android mini-game collection and lists three playable games: 2048, Sliding Puzzle and Tap Match. The registry exposes the three game definitions; each game has separate domain rules, presentation and tests. The cited commit connects the third game and includes an exact Co-Authored-By: Claude Opus 5 trailer. This is a native mobile collection and belongs in Non-Browser Engines.",
+    "verification_notes": "The README identifies a native Android mini-game collection and lists three playable games: 2048, a 1–15 sliding puzzle and Tap Match. The Flutter source has separate game definitions, pure rules, presentation pages, a registry that exposes all three from the home screen, audio and score persistence, signed Android release targets and dedicated tests for each game's rules and notifier. The inspected history contains exact Claude Opus trailers on the 2048, sliding-puzzle and tap-match implementation commits. Count three independent game units; do not count the shared app shell separately.",
     "gauntlet_loop": false,
     "model_evidence": "confirmed",
     "flops_estimate_raw": 180000000,
@@ -20555,59 +20565,6 @@
     "flops_estimate_basis": "Static estimate for Godot 2D tile and sprite rendering, turn-based grid calculations, combat UI, dialogue, save/load and test instrumentation; not measured hardware throughput.",
     "quality_estimate_10": 9.2,
     "quality_estimate_basis": "Source-complete native vertical slice with title, field exploration, tactical battle, dialogue, mission data, save/load, visual capture harness and extensive tests, backed by an exact gameplay commit trailer.",
-    "counted_game_units": 1,
-    "is_independent_game": true
-  },
-  {
-    "name": "CYBERSUNDAY",
-    "github_url": "https://github.com/influenza-dotcom/3D-RPG",
-    "game_links": [
-      "https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/main/DESIGN.md",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/main/project.godot",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/computerroom.tscn",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/game.tscn",
-      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scripts/player/player.gd",
-      "https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/combat",
-      "https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/npc",
-      "https://github.com/influenza-dotcom/3D-RPG/tree/main/tests"
-    ],
-    "live_demo_url": null,
-    "evidence_url": "https://github.com/influenza-dotcom/3D-RPG/commit/40b621ce679e98674ecb40851912fb48b82aa82",
-    "screenshot_urls": [],
-    "technology": [
-      "Godot 4.7",
-      "GDScript",
-      "Native desktop",
-      "First-person immersive sim",
-      "FPS/RPG",
-      "GUT tests"
-    ],
-    "model_family": [
-      "Claude Opus 5"
-    ],
-    "method_evidence": "confirmed",
-    "game_count": 1,
-    "contained_games": [
-      "CYBERSUNDAY"
-    ],
-    "verification_status": "verified_source",
-    "verified_on": "2026-09-10",
-    "repository_created_at": "2026-05-11T03:55:07Z",
-    "published_on": "2026-05-11",
-    "discovery_sources": [
-      "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
-      "https://github.com/influenza-dotcom/3D-RPG"
-    ],
-    "verification_notes": "The README identifies CYBERSUNDAY as a single-player Godot 4.7 FPS/RPG prototype and documents the F5 entry scene, first-person movement, aiming, firearms, knives, throwable props, stealth, NPCs, quests, inventory, levels, save slots and controls. The repository contains the project entry scenes, player and combat scripts, NPC systems, authored level data, assets and a large GUT test suite. The inspected gameplay commit contains an exact Co-Authored-By: Claude Opus 5 trailer. Count the current immersive-sim prototype once; do not count its editor tools or visual effects as separate games.",
-    "gauntlet_loop": false,
-    "model_evidence": "confirmed",
-    "flops_estimate_raw": 8500000000,
-    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
-    "flops_estimate_confidence": "low",
-    "flops_estimate_basis": "Static estimate for a native Godot 3D first-person renderer, post-processing, physics, NPC perception/GOAP, combat effects, audio, UI and level streaming; not measured hardware throughput.",
-    "quality_estimate_10": 9.6,
-    "quality_estimate_basis": "Substantial native FPS/RPG with a complete documented debt-and-hunt loop, first-person combat, stealth, NPC behavior, authored resources, save systems, level content, assets, tests and repeated exact Opus gameplay trailers.",
     "counted_game_units": 1,
     "is_independent_game": true
   },
