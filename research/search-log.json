@@ -6874,6 +6874,70 @@
       },
       "critique_note": "This pass added one verified Roblox multiplayer game and rejected an engine showcase plus a renderer-focused commercial-game port.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Rust/Bevy/Claude Fable sports-game reconfirmation",
+      "query_key": "Rust game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 0,
+      "new_rejected": 0,
+      "new_game_units": 0,
+      "unseen_count": 58,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Reconfirm Breakneck Baseball as an existing source-verified record. The README, source, playtest screenshots and live page prove a complete Rust/Bevy/Rapier baseball game with native and WASM builds, full innings, CPU/2P modes, pitching, batting, steals, advanced rules, cameras, settings, audio, substitutions and tests. Its history contains exact Claude Fable gameplay trailers. Merge the stronger screenshot and direct-source links without duplicating the repository.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 0,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "This pass strengthened an existing high-quality record and confirmed that the candidate must not be counted twice.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Rust/Bevy/Claude Fable sports-game audit",
+      "query_key": "Rust game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 58,
+      "accepted_repositories": [
+        "https://github.com/hynding/breakneck-baseball"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Breakneck Baseball because its README, source, playtest screenshots and live page prove a complete Rust/Bevy/Rapier baseball game with native and WASM builds, full innings, CPU/2P modes, pitching, batting, steals, advanced rules, cameras, settings, audio, substitutions and tests. Its history contains exact Claude Fable gameplay trailers.",
+      "next_experiments": [
+        "Inspect remaining Rust and native-engine result partitions serially",
+        "Search C++ and OpenGL game repositories with exact Astra or Fable evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 8,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a complete sports game with both native and browser builds, screenshots and strong gameplay evidence.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [

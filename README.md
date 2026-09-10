@@ -29,7 +29,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | 📦 Included repositories | **474** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
 | 🛠️ Non-browser engine games | **243** |
-| 📸 Games with verified screenshot links | **103** |
+| 📸 Games with verified screenshot links | **104** |
 | 🧠 Games with direct prompt links | **17** |
 
 ## 🏆 Top-rated picks
@@ -40,7 +40,6 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | --- | ---: | --- |
 | [**Commander Simulator**](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) | ⭐ **9.7** | Claude Fable 5.1, ChatGPT 5.6 Soul, GPT-6 Astra |
 | [**2048**](https://github.com/patricker/treant) | ⭐ **9.6** | Claude Fable 5 |
-| [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) | ⭐ **9.6** | Claude Fable 5 |
 | [**CYBER SUNDAY**](https://github.com/influenza-dotcom/3D-RPG) | ⭐ **9.6** | Claude Opus 5 |
 | [**Bong — 末法残土**](https://github.com/Kizunad/Bong) | ⭐ **9.5** | Claude Opus 5 |
 | [**Just Five More Minutes**](https://github.com/Giftedx/just-five-more-minutes) | ⭐ **9.5** | Claude Fable 5 |
@@ -53,6 +52,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**Wild Haggis Survivors**](https://github.com/Giftedx/wild-haggis-survivors) | ⭐ **9.5** | Claude Fable 5 |
 | [**Wolfsbane**](https://github.com/oivindth/wolfsbane) | ⭐ **9.5** | Claude Fable 5 |
 | [**Aeterna Chronicle**](https://github.com/crisious/aeterna-chronicle-web) | ⭐ **9.4** | Claude Opus 4.8 |
+| [**Beyond Boring: Death March**](https://github.com/kolatts/beyond-boring-death-march) | ⭐ **9.4** | Claude Fable 5 |
 
 ## 📸 Screenshot spotlight
 
@@ -85,7 +85,6 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 > 🛠️ **243 verified games. Ranked by evidence-based quality score.**
 
-- [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
 - [**CYBER SUNDAY**](https://github.com/influenza-dotcom/3D-RPG) — ⭐ **9.6/10** · Claude Opus 5 · Godot 4.7, GDScript, Blender, GLB/glTF, Native desktop, First-person immersive sim, FPS/RPG, GUT tests · 8.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
 - [**Knife Dodge**](https://github.com/Karanvir1729/ninja-knife-dodge) — ⭐ **9.5/10** · Claude Fable 5.1 · Godot, GDScript, Native iOS, Native iPadOS · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/play_state.gd)
@@ -95,6 +94,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Space Showdown**](https://github.com/GeorgeCottrell/SpaceShowdown) — ⭐ **9.5/10** · Claude Fable 5 · Pygame, Python, SDL2, C, Native desktop, Native Wii · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/GeorgeCottrell/SpaceShowdown/blob/073601b42e8a45123c955ab21ba55656924dc1d0/space_showdown.py)
 - [**Star Cricket**](https://github.com/Karanvir1729/ninja-knife-dodge) — ⭐ **9.5/10** · Claude Fable 5.1 · Godot, GDScript, Native iOS, Native iPadOS · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/cricket_play_state.gd)
 - [**The Wandering Inn RPG**](https://github.com/GabrielGLevine/wandering-inn-rpg) — ⭐ **9.5/10** · Claude Fable 5.1 · Godot 4.7, GDScript, Pixel art, Web export, Native desktop · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/wandering_inn_game/src/world/main.tscn) · [▶️ play](https://gabrielglevine.github.io/wandering-inn-rpg/) · [📸 screenshot](https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/docs/steam/screenshots/01_inn.png) · [📸 screenshot](https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/docs/steam/screenshots/03_combat.png) · [📸 screenshot](https://github.com/GabrielGLevine/wandering-inn-rpg/blob/main/docs/steam/screenshots/04_garden.png)
+- [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.4/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, wgpu, WebAssembly, Native desktop, 3D baseball · 4.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/) · [📸 screenshot](https://github.com/hynding/breakneck-baseball/blob/main/docs/agent/playtest/2026-08-21/23-live-gameplay.png) · [📸 screenshot](https://github.com/hynding/breakneck-baseball/blob/main/docs/agent/playtest/2026-08-21/24-perfect-contact-callout.png)
 - [**Ghost Guild**](https://github.com/moura-code/ghost-guild) — ⭐ **9.4/10** · Claude Opus 5 · Godot 4, GDScript, 3D, Native desktop · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/moura-code/ghost-guild/blob/main/project.godot) · [📸 screenshot](https://github.com/moura-code/ghost-guild/blob/main/art_previews/catacombs.png) · [📸 screenshot](https://github.com/moura-code/ghost-guild/blob/main/art_previews/fungal_deep.png) · [📸 screenshot](https://github.com/moura-code/ghost-guild/blob/main/art_previews/the_kiln.png)
 - [**Gravity Box — Campaign 100**](https://github.com/nghienvothuat-a11y/GravityBox) — ⭐ **9.4/10** · GPT-6 Astra, GPT-5.6 Sol · Unity 6000.3.19f1, C#, Rigidbody physics, Native Android, Native macOS, Windows editor · 5 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C010.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Previews/C050.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Verification/Campaign100/Mac/C100.png) · [📸 screenshot](https://github.com/nghienvothuat-a11y/GravityBox/blob/main/Docs/Images/Level16/Coop16BothOut.png)
 - [**moorestech**](https://github.com/moorestech/moorestech) — ⭐ **9.4/10** · Claude Opus 5, Claude Fable 5.1 · Unity, C#, .NET, Native desktop · 5.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/moorestech/moorestech/blob/master/moorestech_client/Assets/Scenes/Game/MainGame.unity) · [📸 screenshot](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/challenge-hud-visual/01-single-world.png) · [📸 screenshot](https://github.com/moorestech/moorestech/blob/master/docs/pr-assets/issue-1101-wide-screen-hud/skit-wide.png)
