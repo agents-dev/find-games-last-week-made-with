@@ -20619,5 +20619,56 @@
     "quality_estimate_basis": "Source-complete native space-economy sandbox with a clear simulation loop, large deterministic world, markets, contracts, factions, colonies, flight, persistence, Android target, live showcase and extensive test programs, backed by repeated gameplay-system trailers.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Roshambo 26",
+    "github_url": "https://github.com/jonlabrie/roshambo_26",
+    "game_links": [
+      "https://github.com/jonlabrie/roshambo_26/blob/main/README_DEPLOY.md",
+      "https://github.com/jonlabrie/roshambo_26/blob/main/roblox/default.project.json",
+      "https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/client/main.client.luau",
+      "https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/server/main.server.luau",
+      "https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/server/RoundCoordinator.luau",
+      "https://github.com/jonlabrie/roshambo_26/blob/main/roblox/src/shared/GameRules.luau",
+      "https://github.com/jonlabrie/roshambo_26/tree/main/roblox/tests"
+    ],
+    "live_demo_url": "https://playroshambo.com",
+    "evidence_url": "https://github.com/jonlabrie/roshambo_26/commit/1dd6eb0559cbe647e172d2093b12b132844617ba",
+    "screenshot_urls": [],
+    "technology": [
+      "Roblox Engine",
+      "Luau",
+      "Rojo",
+      "Native game platform",
+      "Multiplayer arena",
+      "WebSocket backend"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Roshambo 26"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-01-27T19:53:37Z",
+    "published_on": "2026-01-27",
+    "discovery_sources": [
+      "GitHub code search for OpenGL game Co-Authored-By Claude Fable",
+      "https://github.com/jonlabrie/roshambo_26"
+    ],
+    "verification_notes": "The repository contains a real Roblox/Rojo project with a declared DataModel, client and server entry points, shared game rules, round coordination, player profiles, arena spawn, remote events, on-site 3D stage assets, economy, progression, fireworks, shops, HUD, WebSocket-backed multiplayer and a large Luau test suite. README_DEPLOY documents the published Roblox place and the live public game site at playroshambo.com, which returned HTTP 200 during verification. The inspected gameplay commit adds a player-facing Fireworks tab and contains an exact Co-Authored-By: Claude Fable 5.1 trailer. Count the current multiplayer Roshambo game once; do not count its shared systems, tests or visual sub-features as extra games. Roblox/Luau is classified under Non-Browser Engines as an other engine platform.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Roblox client rendering, networked round state, arena presentation, player profiles, economy, UI and server coordination; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "Real multiplayer game project with a published place workflow, live public demo, client/server/shared source, round loop, persistent profiles, economy, arena systems, extensive tests and exact Fable gameplay commits.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

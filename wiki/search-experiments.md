@@ -2049,3 +2049,9 @@ Reject [Dead Rising 2: Case Zero — Native PC Port](https://github.com/wivi514/
 ### Flutter/Claude Opus 5 multi-game reconfirmation
 
 Reconfirm [Mini Games](https://github.com/lofiski/mini-games) as one native Flutter repository containing three independently playable Android puzzle games: [2048](https://github.com/lofiski/mini-games/blob/main/lib/games/game2048/game2048_definition.dart), [Number Sliding Puzzle](https://github.com/lofiski/mini-games/blob/main/lib/games/sliding_puzzle/sliding_puzzle_definition.dart) and [Tap Match](https://github.com/lofiski/mini-games/blob/main/lib/games/tap_match/tap_match_definition.dart). Each has separate rules, UI, registry integration and tests. Exact Claude Opus trailers appear on the gameplay implementation commits. Merge stronger direct links into the existing record and do not count the repository twice.
+
+### OpenGL/Claude Fable Roblox-game audit
+
+Accept [Roshambo 26](https://github.com/jonlabrie/roshambo_26) as one other-engine game under Non-Browser Engines. The repository contains a real Roblox/Rojo project with client, server and shared Luau code, round coordination, arena state, player profiles, economy, progression, stage assets, HUD, multiplayer remotes and extensive tests. Its deployment guide documents the published place and the live demo at [playroshambo.com](https://playroshambo.com), which returned HTTP 200 during verification. A player-facing gameplay commit contains an exact Claude Fable 5.1 trailer. Count only the Roshambo game; exclude its shared systems and sub-features.
+
+Reject [Boundless Engine](https://github.com/amitassaraf/boundless-engine) as voxel-engine tooling with tech-demo screenshots but no game loop. Reject [Quake2Mac](https://github.com/felipe-dos-santos81/Quake2Mac) because its Fable evidence is limited to texture/renderer tooling and it requires external commercial game data.

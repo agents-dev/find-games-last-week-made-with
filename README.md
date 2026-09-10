@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 674 verified games. Real source. No prompt-only filler.
+### 675 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-674-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-473-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-675-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-474-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,16 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 674 games. Yes, each one links to source.**
+**Yes, that is 675 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **674** |
-| 📦 Included repositories | **473** |
+| 🎮 Independently counted games | **675** |
+| 📦 Included repositories | **474** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **205** |
+| 🛠️ Non-browser engine games | **243** |
 | 📸 Games with verified screenshot links | **103** |
 | 🧠 Games with direct prompt links | **17** |
 
@@ -70,20 +70,20 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **205 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **243 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **51 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
 - 💥 [Action and Shooters](#action-and-shooters) — **106 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **106 games**
-- 🎮 [Other Browser Games](#other-browser-games) — **83 games**
+- 🎮 [Other Browser Games](#other-browser-games) — **46 games**
 - 🧊 [Three.js and WebGL](#threejs-and-webgl) — **53 games**
 
 Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**, and any verified screenshot or prompt link. The layout wraps on narrow screens and avoids horizontal table scrolling.
 
 ## Non-Browser Engines
 
-> 🛠️ **205 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **243 verified games. Ranked by evidence-based quality score.**
 
 - [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
 - [**CYBER SUNDAY**](https://github.com/influenza-dotcom/3D-RPG) — ⭐ **9.6/10** · Claude Opus 5 · Godot 4.7, GDScript, Blender, GLB/glTF, Native desktop, First-person immersive sim, FPS/RPG, GUT tests · 8.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md)
@@ -112,6 +112,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Idle ARPG**](https://github.com/nodeJayS/idle-game) — ⭐ **9.2/10** · Claude Opus 5 · Unity, C#, Native desktop · 4.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/nodeJayS/idle-game/blob/main/unity/Assets/Game/Bootstrap.cs)
 - [**PULSEBREAK**](https://github.com/xindomusic/pulsebreak) — ⭐ **9.2/10** · GPT-6 Astra, Codex · Godot 4.7.2, GDScript, Godot Mobile renderer, Native macOS, Metal · 2.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/title.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/combat.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/boss.png) · [📸 screenshot](https://github.com/xindomusic/pulsebreak/blob/main/docs/images/upgrades.png)
 - [**Relight**](https://github.com/Deedubsy/Relight) — ⭐ **9.2/10** · Claude Fable 5.1 · Phaser 4, TypeScript, Vite, Tauri v2, Native desktop, Browser · 1.40 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Deedubsy/Relight/blob/b3a3f6c8f42a09841102287ac195a424c1f05e1f/packages/sim/src/sim.ts) · [📸 screenshot](https://github.com/Deedubsy/Relight/blob/b3a3f6c8f42a09841102287ac195a424c1f05e1f/docs/evidence/city-rebuild/revised-overview.png) · [📸 screenshot](https://github.com/Deedubsy/Relight/blob/b3a3f6c8f42a09841102287ac195a424c1f05e1f/docs/evidence/city-rebuild/street-restored.png)
+- [**Roshambo 26**](https://github.com/jonlabrie/roshambo_26) — ⭐ **9.2/10** · Claude Fable 5.1 · Roblox Engine, Luau, Rojo, Native game platform, Multiplayer arena, WebSocket backend · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/jonlabrie/roshambo_26/blob/main/README_DEPLOY.md) · [▶️ play](https://playroshambo.com)
 - [**Sortie**](https://github.com/Attacktive/sortie) — ⭐ **9.2/10** · Claude Opus 5 · Godot 4.7.2, GDScript, Native desktop, Grid tactics JRPG, Turn-based combat, GUT tests · 1.10 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Attacktive/sortie/blob/main/README.md)
 - [**STORMFALL**](https://github.com/oh-ashen-one/Opus-5-Three-Games) — ⭐ **9.2/10** · Claude Opus 5 · Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/01-stormfall-ue)
 - [**STRIKE PROTOCOL**](https://github.com/oh-ashen-one/Opus-5-Three-Games) — ⭐ **9.2/10** · Claude Opus 5 · Unreal Engine 5.8, Godot 4.7, C++, GDScript, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/oh-ashen-one/Opus-5-Three-Games/tree/main/02-strike-godot)
@@ -264,12 +265,49 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Unity Puzzle Game Prototype**](https://github.com/Antivortex/omg-test) — ⭐ **7.8/10** · Claude Opus 4.6 · Unity, C#, Native · 500 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Antivortex/omg-test/tree/main/Assets/Game) · [📸 screenshot](https://github.com/Antivortex/omg-test/blob/main/Assets/Game/Resources/PuzzleImages/puzzle_01.jpg)
 - [**2048**](https://github.com/alanwengyh-art/2048) — ⭐ **7.7/10** · Claude Opus 4.8 · Pygame, Python, Native desktop · 300 MFLOPS · _confirmed_ · [🔗 files](https://github.com/alanwengyh-art/2048/blob/main/2048.py)
 - [**Pachinko Builder**](https://github.com/Johnesco/pinball) — ⭐ **7.6/10** · Claude Opus 4.7 · LÖVE 2D, Lua, Native desktop · 300 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Johnesco/pinball/blob/master/main.lua)
+- [**37 original Roblox party minigames**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
 - [**Dice Catcher**](https://github.com/ArnasJuskevicius/dice-catcher) — ⭐ **7.5/10** · Claude Opus 5 · Godot, GDScript, Native desktop · 650 MFLOPS · _confirmed_ · [🔗 files](https://github.com/ArnasJuskevicius/dice-catcher/blob/4d84d3d6d64169ba3298a13f8d3e3ffb4e0c79e7/project.godot)
 - [**GemMatch**](https://github.com/dylanmtaylor/gemmatch) — ⭐ **7.5/10** · Claude Opus 4.6 · Godot 4, GDScript · 350 MFLOPS · _creator-reported_
 - [**Godot 2048**](https://github.com/daiSky88/godot-2048) — ⭐ **7.5/10** · Claude Opus 4.6 · Godot, GDScript, Native desktop · 550 MFLOPS · _confirmed_ · [🔗 files](https://github.com/daiSky88/godot-2048/blob/3f3e4d9ce92182fed51f17d5c51132ecdc891036/project.godot)
 - [**Micro Game Jam**](https://github.com/miromustafa/micro-game-jam) — ⭐ **7.5/10** · Claude Opus 5 · Godot, GDScript, Native desktop · 1 GFLOPS · _confirmed_ · [🔗 files](https://github.com/miromustafa/micro-game-jam/blob/84deda9f0a67c5cc9b6f982d2db61e0eff0d9234/project.godot)
 - [**NEON DAWN // 夜明け前線**](https://github.com/bannzai/godotpractice) — ⭐ **7.5/10** · GPT-6 Astra · Godot 4.7, GDScript, GL Compatibility, Desktop export, Web export · 300 MFLOPS · _creator-reported_
 - [**Neon Overdrive**](https://github.com/adisagar2003/neon-top-down-shooter) — ⭐ **7.5/10** · Claude Opus 5 · Godot 4.7, GDScript · 380 MFLOPS · _creator-reported_
+- [**Party Chaos — game 10**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 11**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 12**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 13**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 14**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 15**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 16**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 17**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 18**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 19**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 2**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 20**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 21**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 22**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 23**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 24**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 25**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 26**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 27**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 28**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 29**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 3**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 30**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 31**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 32**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 33**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 34**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 35**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 36**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 37**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 4**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 5**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 6**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 7**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 8**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
+- [**Party Chaos — game 9**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
 - [**こもれび回収隊**](https://github.com/bannzai/godotpractice) — ⭐ **7.5/10** · GPT-6 Astra · Godot 4.7, GDScript, GL Compatibility, Desktop export, Web export · 750 MFLOPS · _creator-reported_
 - [**ころころ工房**](https://github.com/bannzai/godotpractice) — ⭐ **7.5/10** · GPT-6 Astra · Godot 4.7, GDScript, GL Compatibility, Desktop export, Web export · 650 MFLOPS · _creator-reported_
 - [**燈環闘技**](https://github.com/bannzai/godotpractice) — ⭐ **7.5/10** · GPT-6 Astra · Godot 4.7, GDScript, GL Compatibility, Desktop export, Web export · 260 MFLOPS · _creator-reported_
@@ -663,7 +701,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Other Browser Games
 
-> 🎮 **83 verified games. Ranked by evidence-based quality score.**
+> 🎮 **46 verified games. Ranked by evidence-based quality score.**
 
 - [**Beyond Boring: Death March**](https://github.com/kolatts/beyond-boring-death-march) — ⭐ **9.4/10** · Claude Fable 5 · Phaser 3, TypeScript, Vite, Browser · 420 MFLOPS · _confirmed_ · [🔗 files](https://github.com/kolatts/beyond-boring-death-march/blob/7f22c1f9aa8afa64b1fe84d9b91ecf6eaec14170/src/main.ts) · [▶️ play](https://kolatts.github.io/beyond-boring-death-march/) · [📸 screenshot](https://github.com/kolatts/beyond-boring-death-march/blob/7f22c1f9aa8afa64b1fe84d9b91ecf6eaec14170/docs/screenshots/title.png)
 - [**Choplifter — Rescue Operations**](https://github.com/danielpradilla/choplifter) — ⭐ **8.8/10** · GPT-6 Astra · JavaScript, Phaser, HTML/CSS, Canvas, Browser · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/danielpradilla/choplifter/tree/main/choplifter-6-astra) · [▶️ play](https://www.danielpradilla.info/projects/choplifter/choplifter-6-astra/)
@@ -693,46 +731,9 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Math Defense: The Last Frontier**](https://github.com/dmbartles/math-defense-the-last-frontier) — ⭐ **8.0/10** · Claude Opus 4.6 · HTML, JavaScript, Canvas 2D, Browser · 300 MFLOPS · _confirmed_ · [🔗 files](https://github.com/dmbartles/math-defense-the-last-frontier/blob/main/index.html)
 - [**VoxelCraft**](https://github.com/UkawaJun/Fable5-VoxelCraftGame) — ⭐ **8.0/10** · Claude Fable 5 · Python, NumPy, Voxel rendering · 7 GFLOPS · _creator-reported_
 - [**Whack-a-Train**](https://github.com/wsc226/Games) — ⭐ **7.9/10** · Claude Opus 4.6 · HTML, JavaScript, Canvas, Browser · 250 MFLOPS · _confirmed_ · [🔗 files](https://github.com/wsc226/Games/blob/main/shinkansen.html)
-- [**37 original Roblox party minigames**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
 - [**Beat Streets — Web**](https://github.com/Lewiscowles1986/beatstreets-online) — ⭐ **7.5/10** · Claude Opus 5 · TypeScript, React, Vite, Canvas · 220 MFLOPS · _creator-reported_
 - [**Bomberman Clone**](https://github.com/lifeofnicolas/bomberman-clone) — ⭐ **7.5/10** · Claude Fable 5.1 · HTML5 Canvas, JavaScript, Web Audio API · 300 MFLOPS · _creator-reported_
 - [**Ember Run**](https://github.com/mbilalameen/games.ai) — ⭐ **7.5/10** · GPT-6 Astra · Phaser 3, JavaScript, HTML Canvas, Web Audio API · 450 MFLOPS · _creator-reported_
-- [**Party Chaos — game 10**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 11**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 12**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 13**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 14**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 15**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 16**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 17**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 18**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 19**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 2**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 20**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 21**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 22**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 23**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 24**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 25**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 26**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 27**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 28**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 29**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 3**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 30**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 31**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 32**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 33**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 34**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 35**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 36**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 37**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 4**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 5**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 6**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 7**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 8**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
-- [**Party Chaos — game 9**](https://github.com/lawrenceandrewlargo/roblox-extreme-minigames) — ⭐ **7.5/10** · Claude Fable 5.1 · Roblox, Luau · 220 MFLOPS · _creator-reported_
 - [**Sonar Maze**](https://github.com/endurovojta173/Sonar_Maze_Profiq_Contest) — ⭐ **7.5/10** · Claude Opus 5 · HTML, JavaScript · 400 MFLOPS · _creator-reported_
 - [**Age of Ops**](https://github.com/antebm/fabled-games) — ⭐ **7.0/10** · Claude Fable 5 · HTML, JavaScript · 400 MFLOPS · _creator-reported_
 - [**DUSTMAKER**](https://github.com/eriknomitch/dustmaker) — ⭐ **7.0/10** · Claude Opus 5 · HTML, JavaScript, Canvas · 220 MFLOPS · _directory-method_

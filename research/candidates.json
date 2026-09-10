@@ -785,6 +785,16 @@
       "repository": "https://github.com/wivi514/Dead_Rising_2_Case_Zero_Xenon_Recomp",
       "source": "GitHub code search for SDL game Co-Authored-By Claude Opus 5",
       "reason": "The repository is a real native Windows/Linux port of the commercial Dead Rising 2: Case Zero and its README documents a complete playable runtime, but the inspected exact Claude Opus 5 text appeared in documentation/planning search results and no qualifying model attribution trailer was confirmed in the repository history. Reject it under the exact model-evidence rule and because the game data is external proprietary content."
+    },
+    {
+      "repository": "https://github.com/amitassaraf/boundless-engine",
+      "source": "GitHub code search for OpenGL game Co-Authored-By Claude Fable",
+      "reason": "The README explicitly identifies the repository as a voxel engine experiment. It has tech-demo screenshots but no game rules, objective or standalone game loop. Reject it as engine tooling/showcase."
+    },
+    {
+      "repository": "https://github.com/felipe-dos-santos81/Quake2Mac",
+      "source": "GitHub code search for OpenGL game Co-Authored-By Claude Fable",
+      "reason": "The repository is a real native Quake II port, but the inspected exact Fable trailers belong to texture recreation and renderer tooling, not qualifying game implementation evidence. It also requires proprietary external game data. Reject it under the exact model-evidence and independent-game rules."
     }
   ]
 }
