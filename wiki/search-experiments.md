@@ -2033,3 +2033,9 @@ Reject [Loom](https://github.com/ShahmeerHyat/Loom) because its public README is
 Accept [Sortie](https://github.com/Attacktive/sortie) as one native Godot game. Its README documents fresh-clone execution, a title screen, a walkable field, standalone battle mode, a screenshot harness and tests. The source includes field movement, a tactical grid, unit selection, attacks, turn flow, dialogue, mission data, save/load and result screens. Its field implementation commit contains an exact Claude Opus 5 trailer. Count only the current RPG vertical slice; exclude design documents.
 
 Reject [The Synaptic Sea](https://github.com/9thLevelSoftware/the-synaptic-sea) even though it is a real Godot pre-alpha space-horror survival game. The inspected exact Claude Opus text appears only in implementation plans, and no qualifying repository-level attribution trailer was confirmed. Keep it rejected until stronger model evidence is available.
+
+### Godot/Claude Opus 5 follow-up native audit
+
+Accept [CYBERSUNDAY](https://github.com/influenza-dotcom/3D-RPG) as one native Godot game. Its README and source document a substantial single-player FPS/RPG with a first-person entry flow, movement, aiming, firearms, knives, throwable props, stealth, NPCs, quests, inventory, authored levels, saves, assets and tests. A gameplay commit contains an exact Claude Opus 5 trailer. Count only the current immersive-sim prototype; exclude editor tools and visual effects.
+
+Reject [Firebound](https://github.com/firebound/firebound) because its README explicitly describes a framework, a future prototype and a separate future complete game, not a source-complete independent game. Reject [Kicktro](https://github.com/carlemil/kicktro) because it is a GPU demoscene visual collection without game rules or an objective.

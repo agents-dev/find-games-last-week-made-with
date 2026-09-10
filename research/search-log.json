@@ -6738,10 +6738,46 @@
       },
       "critique_note": "This pass added one source-complete native Godot RPG slice and rejected a real game whose model attribution was confined to planning documents.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Godot/Claude Opus 5 follow-up native audit",
+      "query_key": "Godot game Co-Authored-By Claude Opus 5",
+      "status": "completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 1,
+      "new_rejected": 2,
+      "new_game_units": 1,
+      "unseen_count": 22,
+      "accepted_repositories": [
+        "https://github.com/influenza-dotcom/3D-RPG"
+      ],
+      "rejected_repositories": [
+        "https://github.com/firebound/firebound",
+        "https://github.com/carlemil/kicktro"
+      ],
+      "held_repositories": [],
+      "note": "Accept CYBERSUNDAY because its README and source prove a substantial native Godot 4.7 FPS/RPG with a documented playable loop, first-person controls, combat, stealth, NPCs, levels, authored resources, save systems, assets and tests. Its gameplay history contains exact Claude Opus 5 trailers. Reject Firebound as a framework and Kicktro as a visual demoscene showcase without game rules.",
+      "next_experiments": [
+        "Inspect the remaining Godot/Opus result partition serially",
+        "Search other native engines with exact Fable or Astra evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 7,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added one high-confidence native FPS/RPG and rejected a framework plus a non-game visual showcase.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 673 across 524 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 674 across 525 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

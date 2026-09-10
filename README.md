@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 673 verified games. Real source. No prompt-only filler.
+### 674 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-673-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-472-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-674-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-473-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,16 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 673 games. Yes, each one links to source.**
+**Yes, that is 674 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **673** |
-| 📦 Included repositories | **472** |
+| 🎮 Independently counted games | **674** |
+| 📦 Included repositories | **473** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **204** |
+| 🛠️ Non-browser engine games | **205** |
 | 📸 Games with verified screenshot links | **103** |
 | 🧠 Games with direct prompt links | **17** |
 
@@ -41,6 +41,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**Commander Simulator**](https://github.com/tuitamogamer-gpt/mtg-commander-simulator) | ⭐ **9.7** | Claude Fable 5.1, ChatGPT 5.6 Soul, GPT-6 Astra |
 | [**2048**](https://github.com/patricker/treant) | ⭐ **9.6** | Claude Fable 5 |
 | [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) | ⭐ **9.6** | Claude Fable 5 |
+| [**CYBERSUNDAY**](https://github.com/influenza-dotcom/3D-RPG) | ⭐ **9.6** | Claude Opus 5 |
 | [**Bong — 末法残土**](https://github.com/Kizunad/Bong) | ⭐ **9.5** | Claude Opus 5 |
 | [**Just Five More Minutes**](https://github.com/Giftedx/just-five-more-minutes) | ⭐ **9.5** | Claude Fable 5 |
 | [**Knife Dodge**](https://github.com/Karanvir1729/ninja-knife-dodge) | ⭐ **9.5** | Claude Fable 5.1 |
@@ -52,7 +53,6 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 | [**Wild Haggis Survivors**](https://github.com/Giftedx/wild-haggis-survivors) | ⭐ **9.5** | Claude Fable 5 |
 | [**Wolfsbane**](https://github.com/oivindth/wolfsbane) | ⭐ **9.5** | Claude Fable 5 |
 | [**Aeterna Chronicle**](https://github.com/crisious/aeterna-chronicle-web) | ⭐ **9.4** | Claude Opus 4.8 |
-| [**Beyond Boring: Death March**](https://github.com/kolatts/beyond-boring-death-march) | ⭐ **9.4** | Claude Fable 5 |
 
 ## 📸 Screenshot spotlight
 
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **204 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **205 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **51 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
@@ -83,9 +83,10 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **204 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **205 verified games. Ranked by evidence-based quality score.**
 
 - [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
+- [**CYBERSUNDAY**](https://github.com/influenza-dotcom/3D-RPG) — ⭐ **9.6/10** · Claude Opus 5 · Godot 4.7, GDScript, Native desktop, First-person immersive sim, FPS/RPG, GUT tests · 8.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
 - [**Knife Dodge**](https://github.com/Karanvir1729/ninja-knife-dodge) — ⭐ **9.5/10** · Claude Fable 5.1 · Godot, GDScript, Native iOS, Native iPadOS · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/play_state.gd)
 - [**Quick Draw**](https://github.com/Karanvir1729/ninja-knife-dodge) — ⭐ **9.5/10** · Claude Fable 5.1 · Godot, GDScript, Native iOS, Native iPadOS · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Karanvir1729/ninja-knife-dodge/blob/main/States/draw_play_state.gd)

@@ -770,6 +770,16 @@
       "repository": "https://github.com/9thLevelSoftware/the-synaptic-sea",
       "source": "GitHub code search for Godot game Co-Authored-By Claude Opus",
       "reason": "The repository is a real Godot 4.6.2 pre-alpha space-horror survival game with substantial scenes, scripts, assets, tests and a documented core loop, but the exact Claude Opus text was found only in docs/superpowers implementation plans. The inspected repository history did not provide a qualifying Astra, Opus or Fable attribution trailer. Reject it until repository-level model evidence exists."
+    },
+    {
+      "repository": "https://github.com/firebound/firebound",
+      "source": "GitHub code search for Godot game Co-Authored-By Claude Opus",
+      "reason": "The README explicitly identifies the repository as the FIREBOUND FRAMEWORK. It describes a future prototype and a separate future complete game that are not included as a source-complete independent game in this repository. Reject it as framework/tooling."
+    },
+    {
+      "repository": "https://github.com/carlemil/kicktro",
+      "source": "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
+      "reason": "The repository is a browser GPU demoscene visual collection with dozens of shader effects and a live demo, but it has no game rules, objective or playable game loop. Reject it as a visual showcase."
     }
   ]
 }

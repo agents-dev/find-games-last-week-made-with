@@ -20557,5 +20557,58 @@
     "quality_estimate_basis": "Source-complete native vertical slice with title, field exploration, tactical battle, dialogue, mission data, save/load, visual capture harness and extensive tests, backed by an exact gameplay commit trailer.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "CYBERSUNDAY",
+    "github_url": "https://github.com/influenza-dotcom/3D-RPG",
+    "game_links": [
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/README.md",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/DESIGN.md",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/project.godot",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/computerroom.tscn",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scenes/game.tscn",
+      "https://github.com/influenza-dotcom/3D-RPG/blob/main/scripts/player/player.gd",
+      "https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/combat",
+      "https://github.com/influenza-dotcom/3D-RPG/tree/main/scripts/npc",
+      "https://github.com/influenza-dotcom/3D-RPG/tree/main/tests"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/influenza-dotcom/3D-RPG/commit/40b621ce679e98674ecb40851912fb48b82aa82",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot 4.7",
+      "GDScript",
+      "Native desktop",
+      "First-person immersive sim",
+      "FPS/RPG",
+      "GUT tests"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "CYBERSUNDAY"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-05-11T03:55:07Z",
+    "published_on": "2026-05-11",
+    "discovery_sources": [
+      "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
+      "https://github.com/influenza-dotcom/3D-RPG"
+    ],
+    "verification_notes": "The README identifies CYBERSUNDAY as a single-player Godot 4.7 FPS/RPG prototype and documents the F5 entry scene, first-person movement, aiming, firearms, knives, throwable props, stealth, NPCs, quests, inventory, levels, save slots and controls. The repository contains the project entry scenes, player and combat scripts, NPC systems, authored level data, assets and a large GUT test suite. The inspected gameplay commit contains an exact Co-Authored-By: Claude Opus 5 trailer. Count the current immersive-sim prototype once; do not count its editor tools or visual effects as separate games.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 8500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for a native Godot 3D first-person renderer, post-processing, physics, NPC perception/GOAP, combat effects, audio, UI and level streaming; not measured hardware throughput.",
+    "quality_estimate_10": 9.6,
+    "quality_estimate_basis": "Substantial native FPS/RPG with a complete documented debt-and-hunt loop, first-person combat, stealth, NPC behavior, authored resources, save systems, level content, assets, tests and repeated exact Opus gameplay trailers.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]
