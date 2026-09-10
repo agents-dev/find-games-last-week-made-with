@@ -20284,5 +20284,56 @@
     "quality_estimate_basis": "Source-complete native strategy game with a clear ruleset, many play modes, MCTS and learned AI, training/replay systems, scalable boards, persistence and extensive tests.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Project Rondo",
+    "github_url": "https://github.com/YuutaTsubasa/ProjectRondo",
+    "game_links": [
+      "https://github.com/YuutaTsubasa/ProjectRondo/blob/main/README.md",
+      "https://github.com/YuutaTsubasa/ProjectRondo/blob/main/package.json",
+      "https://github.com/YuutaTsubasa/ProjectRondo/tree/main/src/presentation/babylon",
+      "https://github.com/YuutaTsubasa/ProjectRondo/blob/main/src/presentation/babylon/hubScene.ts",
+      "https://github.com/YuutaTsubasa/ProjectRondo/tree/main/src/domain",
+      "https://github.com/YuutaTsubasa/ProjectRondo/tree/main/tests"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/YuutaTsubasa/ProjectRondo/commit/1d932dcfdc376a23d390a4fc99b4bd9455e17b89",
+    "screenshot_urls": [],
+    "technology": [
+      "Svelte 5",
+      "TypeScript",
+      "Babylon.js",
+      "Havok physics",
+      "Vite",
+      "Tauri v2",
+      "Browser and desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Project Rondo hub game"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-08-12T18:23:58Z",
+    "published_on": "2026-08-12",
+    "discovery_sources": [
+      "GitHub code search for Godot game Co-Authored-By Claude Opus 5",
+      "https://github.com/YuutaTsubasa/ProjectRondo"
+    ],
+    "verification_notes": "The README describes a Svelte/TypeScript/Babylon.js game migrated from a Godot prototype. The currently playable unit is a third-person 3D hub: a knight walks in a populated grassland with trees, procedural skydome, lighting, shadows, scatter, Havok collision, Idle/Walk animation, mouse-look, jump, audio, dialogue intro and a pure domain movement loop. The repository also includes source and tests for the hub, Babylon presentation, dialogue, audio and desktop packaging. Do not count the future Sonic-style levels or puzzle games promised by the hub description. The history contains exact Claude Opus 5 gameplay/presentation commits. Count only the current hub game once.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 4200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Babylon.js WebGL rendering, Havok character physics, glTF skinning, shadows, environment lighting, terrain scatter, audio and Svelte UI; not measured hardware throughput.",
+    "quality_estimate_10": 8.9,
+    "quality_estimate_basis": "Source-complete playable 3D hub game with a physics character controller, glTF animation, audio, dialogue, authored environment, tests, browser build and Tauri packaging; future levels are excluded from the count.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

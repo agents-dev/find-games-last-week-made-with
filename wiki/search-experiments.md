@@ -2009,3 +2009,7 @@ Run the Pygame game query serially. Accept [Blue Ball](https://github.com/davidd
 ### Pygame/Claude Fable native-game code-search audit
 
 Run the Pygame game query serially. Accept [Dot Grid](https://github.com/honzaves/dotgame) because its README and source prove a runnable PyGame territory strategy game with a documented ruleset, human and AI modes, MCTS, neural-network players, training, replay and tests. Its history contains exact Claude Fable 5 trailers on AI gameplay, training and replay fixes. Count one new native game unit and keep the remaining Pygame result partition for serial inspection.
+
+### Godot-to-Babylon/Claude Opus game audit
+
+Inspect the Godot/Opus result partition serially. Accept [Project Rondo](https://github.com/YuutaTsubasa/ProjectRondo) as one current playable browser/desktop hub game. Its README and source prove a third-person Babylon.js/Havok knight hub with movement, jump, glTF animation, lighting, scatter, audio, dialogue and tests. Exclude the future Sonic-style levels and puzzle games described by the roadmap. Its history contains exact Claude Opus 5 gameplay and presentation commits. Count one new browser game unit.

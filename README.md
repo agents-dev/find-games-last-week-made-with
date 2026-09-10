@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 666 verified games. Real source. No prompt-only filler.
+### 667 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-666-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-467-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-667-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-468-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,14 +19,14 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 666 games. Yes, each one links to source.**
+**Yes, that is 667 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **666** |
-| 📦 Included repositories | **467** |
+| 🎮 Independently counted games | **667** |
+| 📦 Included repositories | **468** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
 | 🛠️ Non-browser engine games | **198** |
 | 📸 Games with verified screenshot links | **100** |
@@ -72,7 +72,7 @@ Jump to a category:
 
 - 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **198 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
-- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **50 games**
+- 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **51 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
 - 💥 [Action and Shooters](#action-and-shooters) — **106 games**
 - 🏎️ [Racing and Vehicles](#racing-and-vehicles) — **106 games**
@@ -319,7 +319,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Puzzle, Arcade, and Platformers
 
-> 🧩 **50 verified games. Ranked by evidence-based quality score.**
+> 🧩 **51 verified games. Ranked by evidence-based quality score.**
 
 - [**Platform Fighter**](https://github.com/lodevel/platform-fighter) — ⭐ **9.4/10** · Claude Opus 4.8 · Phaser 3, Matter.js, TypeScript, Vite, Browser · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/lodevel/platform-fighter/blob/c5d5d1773b88cc4cb4711fbcc10652c494b58342/src/main.ts) · [▶️ play](https://lodevel.github.io/platform-fighter/)
 - [**Rift Chess**](https://github.com/HaileyStorm/rift-chess) — ⭐ **9.3/10** · GPT-6 Astra · Three.js, TypeScript, Vite, WebGL, Electron, Browser, Windows · 3.50 GFLOPS · _confirmed_ · [▶️ play](https://haileystorm.github.io/rift-chess/) · [📸 screenshot](https://github.com/HaileyStorm/rift-chess/blob/main/docs/evidence/overhaul/gallery.png)
@@ -328,6 +328,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**CityMaker — 3D Landmark 2048**](https://github.com/derek-wangpch/OpenCityMaker) — ⭐ **9.0/10** · GPT-6 Astra · Three.js, TypeScript, React, Vite, WebGL, Browser · 2.50 GFLOPS · _confirmed_ · [▶️ play](https://citymaker.0to1app.com/) · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-game.png) · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-gallery.png) · [📸 screenshot](https://github.com/derek-wangpch/OpenCityMaker/blob/master/docs/images/citymaker-mobile-game.png)
 - [**Last Metro**](https://github.com/mgoyal98/last-metro) — ⭐ **9.0/10** · GPT-6 · TypeScript, Three.js, Rapier, Vite, Web browser · 2.80 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/mgoyal98/last-metro/blob/main/docs/media/phase4d-title.png)
 - [**GridWatch Match Web**](https://github.com/remeadows/GridWatchMatchWeb) — ⭐ **8.9/10** · Claude Fable 5 · Phaser 4, React 19, TypeScript, Vite, Cloudflare Workers, Browser · 520 MFLOPS · _confirmed_ · [🔗 files](https://github.com/remeadows/GridWatchMatchWeb/blob/main/src/App.tsx) · [▶️ play](https://GridWatchMatchWeb.warsignallabs.net/)
+- [**Project Rondo hub game**](https://github.com/YuutaTsubasa/ProjectRondo) — ⭐ **8.9/10** · Claude Opus 5 · Svelte 5, TypeScript, Babylon.js, Havok physics, Vite, Tauri v2, Browser and desktop · 4.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/YuutaTsubasa/ProjectRondo/blob/main/README.md)
 - [**SkySprout**](https://github.com/DUBSOpenHub/skysprout) — ⭐ **8.9/10** · GPT-6 Astra · HTML, CSS, JavaScript, Canvas 2D, Web Audio, Browser · 650 MFLOPS · _confirmed_ · [▶️ play](https://dubsopenhub.github.io/skysprout/) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-meadow.png) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-grotto.png) · [📸 screenshot](https://github.com/DUBSOpenHub/skysprout/blob/main/docs/images/skysprout-canopy.png)
 - [**LASTLIGHT**](https://github.com/bitofastickler/one-prompt-two-worlds) — ⭐ **8.8/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API, Browser · 1.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/bitofastickler/one-prompt-two-worlds/tree/main/games/lastlight)
 - [**Mechapede**](https://github.com/davbachman/Mechapede) — ⭐ **8.8/10** · GPT-6 Astra · HTML, JavaScript, Canvas 2D, Web Audio API, Browser · 900 MFLOPS · _confirmed_ · [▶️ play](https://davbachman.github.io/Mechapede/) · [📸 screenshot](https://github.com/davbachman/Mechapede/blob/main/assets/machine-interior.png)
