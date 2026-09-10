@@ -5693,10 +5693,715 @@
       },
       "critique_note": "The Godot pass produced two strong native games with high-quality source and model evidence. Keep the engine-plus-model pattern.",
       "critic": "existing critique agent; conservative score after completed serial review"
+    },
+    {
+      "source": "Reverse-link plus creator-index expansion",
+      "query_key": "reverse-link|Giftedx/wild-haggis-survivors|full canonical URL",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 2,
+      "new_rejected": 0,
+      "new_game_units": 2,
+      "unseen_count": 2,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/Giftedx/ha-ggis-hub",
+        "https://github.com/Giftedx/just-five-more-minutes"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The exact incoming-link search returned the creator profile Giftedx/Giftedx. Its README was inspected and yielded two public playable repositories. Verify both through repository metadata, gameplay source, screenshots, live deployments and exact Claude Fable 5 commit trailers. Count one unit for each repository. Keep the hub and JFMM as separate records; Wild Haggis Survivors remains its own record.",
+      "next_experiments": [
+        "Run a new exact reverse-link search from Platform Fighter",
+        "Run a new exact reverse-link search from a native Godot or Unreal game",
+        "Continue serial native-engine collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 8,
+        "verification_quality": 10,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The exact reverse-link search reached a creator index, and the inspected README exposed two new, high-quality playable games with direct model evidence. Keep reverse-link traversal, but change the seed each pass.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Reverse-link search from Platform Fighter",
+      "query_key": "reverse-link|lodevel/platform-fighter|full canonical URL",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_rejected": 0,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The exact full-URL incoming-link search returned only this collection's own README, wiki and search log. It returned no external list or creator source. Drop this seed and change the reverse-link seed.",
+      "next_experiments": [
+        "Run a new exact reverse-link search from a native Godot game",
+        "Run a new exact reverse-link search from an Unreal game",
+        "Continue serial engine-plus-model searches"
+      ],
+      "critique_scores": {
+        "novelty": 5,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 8,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "No external incoming-link source was indexed for this seed. Do not repeat the exact query unless the index or repository state changes.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Reverse-link search from CYBER SUNDAY",
+      "query_key": "reverse-link|influenza-dotcom/3D-RPG|full canonical URL",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_rejected": 0,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The exact full-URL incoming-link search returned no GitHub code-search results. Drop this URL form and test the owner/repository token once.",
+      "next_experiments": [
+        "Test the owner/repository token form once",
+        "Run a new exact reverse-link search from an Unreal game",
+        "Continue serial engine-plus-model searches"
+      ],
+      "critique_scores": {
+        "novelty": 5,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 8,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "The Godot seed has no indexed full-URL incoming links. Change the query form once before dropping the seed family.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Reverse-link search from CYBER SUNDAY owner/repository token",
+      "query_key": "reverse-link|influenza-dotcom/3D-RPG|owner repository token",
+      "status": "completed_dropped",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_rejected": 0,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 1.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The owner/repository token incoming-link search also returned no GitHub code-search results. Drop this seed and change the source family.",
+      "next_experiments": [
+        "Run a new exact reverse-link search from an Unreal game",
+        "Search an awesome-list or creator README using an unused native engine",
+        "Continue serial engine-plus-model searches"
+      ],
+      "critique_scores": {
+        "novelty": 5,
+        "yield": 1,
+        "verification_quality": 8,
+        "repeatability": 8,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 4,
+        "decision": "drop"
+      },
+      "critique_note": "Neither incoming-link query form is indexed for this Godot repository. Do not repeat without a new index or a new seed.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Unity/Fable native-game code search",
+      "query_key": "Unity game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 1,
+      "new_rejected": 2,
+      "new_game_units": 1,
+      "unseen_count": 1,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/moorestech/moorestech"
+      ],
+      "rejected_repositories": [
+        "https://github.com/leavesprior/golden-hooves-turing-ranch",
+        "https://github.com/nhilix/StarSystemGeneration"
+      ],
+      "held_repositories": [],
+      "note": "Inspect the strongest Unity candidates serially. Accept moorestech as a real Unity open-world automated factory game with a MainGame scene, player, block placement, machines, conveyors, trains and exact Opus 5/Fable 5.1 trailers. Reject golden-hooves-turing-ranch because it is an unmodified Next.js starter with no game evidence, and StarSystemGeneration because its public repository has no README or inspected game evidence in the sampled result.",
+      "next_experiments": [
+        "Run one serial exact reverse-link search from moorestech",
+        "Search Unreal or Unity with GPT-6 Astra aliases",
+        "Continue serial native-engine collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 7,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 8,
+        "false_positive_control": 9,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "The Unity query produced one substantial native game and two controlled exclusions. Keep the engine-plus-model pattern, but inspect only candidates with direct gameplay source and exact attribution.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Godot/Fable native-game code search",
+      "query_key": "Godot game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 6,
+      "new_verified_repositories": 4,
+      "new_rejected": 2,
+      "new_game_units": 4,
+      "unseen_count": 4,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [
+        "https://github.com/GabrielGLevine/wandering-inn-rpg",
+        "https://github.com/moura-code/ghost-guild",
+        "https://github.com/JoseTomanan/hooper-game",
+        "https://github.com/archer47-qingmei/AIGameTest2"
+      ],
+      "rejected_repositories": [
+        "https://github.com/Crystalka228/Dual-Frontier",
+        "https://github.com/Surfinite/slay-the-streamer-2"
+      ],
+      "held_repositories": [],
+      "note": "Inspect the Godot candidates serially. Accept The Wandering Inn RPG, Ghost Guild, Hooper and AIGameTest2 after checking project files, scenes, gameplay systems, assets or live deployment and exact Fable/Opus trailers. Reject Dual Frontier because its README explicitly says it is not a game release and the colony simulator is only a workload for a systems-engineering experiment. Reject Slay the Streamer 2 because it is a mod for the commercial Slay the Spire 2 rather than an independent game repository.",
+      "next_experiments": [
+        "Run one serial exact reverse-link search from a newly accepted Godot game",
+        "Search Godot with GPT-6 Astra or GPT6 aliases",
+        "Continue serial native-engine collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This Godot/Fable pass produced four real games across a live browser RPG, a native roguelite, a sports prototype and a second source-verified roguelite. The two exclusions were clear catalog or dependency cases. Keep the partition and add more native games only with direct gameplay source.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Godot/GPT-6 Astra code search plus awesome-list expansion",
+      "query_key": "Godot game GPT-6 Astra",
+      "status": "completed",
+      "results_inspected": 3,
+      "new_verified_repositories": 2,
+      "new_rejected": 1,
+      "new_game_units": 2,
+      "unseen_count": 2,
+      "accepted_repositories": [
+        "https://github.com/marius4lui/NULLSPACE",
+        "https://github.com/lucas-wyd/False-Ritual"
+      ],
+      "rejected_repositories": [
+        "https://github.com/splatterfacegames/cameraman"
+      ],
+      "held_repositories": [
+        "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+        "https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook"
+      ],
+      "note": "Inspect candidates serially. Accept NULLSPACE and False Ritual because each is a real Godot game with direct source, screenshots or a release, and explicit GPT-6 Astra attribution. Reject Cameraman because it is a Godot camera add-on, not a game. The search also surfaced two useful GPT-6 Astra game lists: MartinDelophy/awesome-gpt-6-astra with 61 games and zlxxlz1026/awesome-gpt-6-astra-casebook with 13 cases. Use them as discovery sources, but require repository-level game and model evidence before adding entries.",
+      "next_experiments": [
+        "Inspect the GitHub links from the GPT-6 Astra awesome lists for unseen repositories",
+        "Run one serial exact reverse-link search from NULLSPACE",
+        "Search Unreal and Unity with GPT-6 Astra or GPT6 aliases"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 9,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "The Astra alias produced two strong native Godot games and exposed two high-value curated lists. The list counts are catalog counts, not this collection's verified-game count.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Godot/GPT6 alias code search",
+      "query_key": "Godot game GPT6",
+      "status": "completed_dropped",
+      "results_inspected": 5,
+      "new_verified_repositories": 0,
+      "new_rejected": 5,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "overlap_ratio": 0.0,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/discover3d/PrestonRigsby__The-Remainder",
+        "https://github.com/sayantanmandal1/AsterCoast",
+        "https://github.com/Pulucat/GPT6-Godot-Little-Nightmares-Inspired-Scene-Demo",
+        "https://github.com/waynchi/gamedevbench",
+        "https://github.com/yangqiong/gpt6-astra-3d"
+      ],
+      "held_repositories": [
+        "https://github.com/xianyu110/awesome-gpt-6-astra"
+      ],
+      "note": "Inspect the top GPT6-alias candidates serially. Reject The-Remainder because it is a 2023 game-jam project without model evidence; AsterCoast because it is a real Godot racer but has no qualifying model attribution; the Little Nightmares-inspired repository because it is a visual scene demo; GameDevBench because it is benchmark infrastructure; and gpt6-astra-3d because it is a catalog. Hold xianyu110/awesome-gpt-6-astra as a useful catalog seed with 86 verified playable demos, but do not count its catalog entries without GitHub repository and model evidence.",
+      "next_experiments": [
+        "Inspect GitHub links from the held GPT-6 Astra lists",
+        "Run one serial exact reverse-link search from NULLSPACE",
+        "Search Unreal or Unity with GPT-6 Astra and GPT6 aliases"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 8,
+        "source_quality": 8,
+        "false_positive_control": 10,
+        "overall": 6,
+        "decision": "drop"
+      },
+      "critique_note": "The GPT6 spelling produced no new qualifying repository, but it exposed a useful 86-demo catalog and five clear exclusions. Do not repeat the exact alias without a new source partition.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Unreal/GPT-6 Astra code search plus catalog expansion",
+      "query_key": "Unreal game GPT-6 Astra",
+      "status": "completed",
+      "results_inspected": 8,
+      "new_verified_repositories": 1,
+      "new_rejected": 6,
+      "new_game_units": 1,
+      "unseen_count": 1,
+      "accepted_repositories": [
+        "https://github.com/ShmuelSokol/3rdbhmk"
+      ],
+      "rejected_repositories": [
+        "https://github.com/BurakErdemci/gamachine",
+        "https://github.com/dmscribe/crazyhorse-gaming-engine",
+        "https://github.com/danmana/piata-unirii",
+        "https://github.com/wangruofeng/orbital-core-showcase",
+        "https://github.com/evan966890/wanderburg",
+        "https://github.com/majiayu000/astra-gallery"
+      ],
+      "held_repositories": [
+        "https://github.com/TripoGrowthLab/awesome-astra-prompts",
+        "https://github.com/Anil-matcha/awesome-gpt-6-astra"
+      ],
+      "note": "Inspect the Unreal/Fable/Astra candidates serially. Accept Third Beis HaMikdash because the repository has a real Unreal project, a downloadable Windows walkthrough, direct player movement and flight content, runtime screenshots and exact Claude Fable 5.1 and Claude Opus 5 commit trailers. Reject Gamachine and Crazy Horse because they are engine/tooling projects. Reject Piața Unirii and Orbital Core because they are interactive scene/model showcases without game rules. Reject Wanderburg because it is a real Three.js game but the repository does not provide qualifying Astra, Opus or Fable authorship evidence. The Astra Gallery and Tripo/Awesome catalogs remain discovery sources, not game records.",
+      "next_experiments": [
+        "Search Unreal game Claude Opus with a changed repository partition",
+        "Search Unity and Godot native games for unseen model-specific trailers",
+        "Continue serial engine-specific collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 7,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a strong native Unreal walkthrough and separated engine/tooling and scene-showcase false positives. The exact Fable and Opus trailers make the model attribution unusually strong.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Unity/GPT-6 Astra code search",
+      "query_key": "Unity game GPT-6 Astra",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 1,
+      "new_rejected": 2,
+      "new_game_units": 1,
+      "unseen_count": 1,
+      "accepted_repositories": [
+        "https://github.com/transitive-bullshit/ai-safety-doom"
+      ],
+      "rejected_repositories": [
+        "https://github.com/haolange/InfinityRenderPipeline",
+        "https://github.com/r1n7aro/Locus"
+      ],
+      "held_repositories": [
+        "https://github.com/Anil-matcha/awesome-gpt-6-astra",
+        "https://github.com/TripoGrowthLab/awesome-astra-prompts"
+      ],
+      "note": "The serial Unity query surfaced P(DOOM), a real live browser shooter whose README explicitly credits GPT-6 Astra with Codex, Three.js, TypeScript and Next.js. The live demo returned HTTP 200, and the repository contains level, enemy, projectile, weapon, UI, audio and automated Playwright/unit-test source. Reject InfinityRenderPipeline and Locus as Unity tooling. Hold the awesome lists as catalogs only.",
+      "next_experiments": [
+        "Search native Unity and Unreal games with Claude Opus or Claude Fable aliases",
+        "Reverse-link from P(DOOM) and inspect only unseen repositories",
+        "Continue serial engine-specific collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a complete live Three.js shooter with unusually strong source, test and model evidence, while rejecting two Unity agent/rendering tools.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Unity/Claude Opus native-game code search",
+      "query_key": "Unity game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 1,
+      "new_rejected": 1,
+      "new_game_units": 1,
+      "unseen_count": 1,
+      "accepted_repositories": [
+        "https://github.com/hamilton-junior/osrs-tower-defense"
+      ],
+      "rejected_repositories": [
+        "https://github.com/lolesch/InventoryTetris"
+      ],
+      "held_repositories": [],
+      "note": "Inspect the Unity/Opus candidates serially. Accept OSRS Tower Defense because it is a real browser tower-defense game with Canvas engine, renderer, simulation, waves, bosses, towers, traps, fusions, saves and extensive tests. Its history contains many exact Claude Opus 5 trailers on gameplay commits. The configured GitHub Pages URL redirected during verification, so keep verification source-based. Reject InventoryTetris because its inspected plan documents a Diablo-like inventory system, but the repository does not prove a standalone qualifying game or direct model-authored game scope.",
+      "next_experiments": [
+        "Search other Unity/Opus candidates from the changed result partition",
+        "Search Cocos, Bevy, MonoGame and Love2D with exact Astra/Opus/Fable evidence",
+        "Continue serial engine-specific collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a deep browser tower-defense project with repeated exact Opus gameplay commits and rejected a repository that only documents an inventory subsystem.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Cocos/Claude Opus native-game code search",
+      "query_key": "Cocos game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 2,
+      "new_verified_repositories": 1,
+      "new_rejected": 1,
+      "new_game_units": 1,
+      "unseen_count": 1,
+      "accepted_repositories": [
+        "https://github.com/TinycellCorp/Parkour"
+      ],
+      "rejected_repositories": [
+        "https://github.com/fagemx/skinforge"
+      ],
+      "held_repositories": [],
+      "note": "Inspect the Cocos candidates serially. Accept Parkour Hero (49FriendRunner) because the repository contains a complete Cocos Creator 2.4.13 endless-runner project with player, pet, buff, game-mode, UI, scenes, animations, custom physics and mini-game platform integration. Its history contains exact Claude Opus 4.5 trailers on game code and assets. Reject SkinForge because it is an AI art-delivery pipeline and explicitly says its Cocos project is separate and not included.",
+      "next_experiments": [
+        "Search Bevy, MonoGame, Love2D and Defold with exact model trailers",
+        "Reverse-link from Parkour and inspect unseen game repositories",
+        "Continue serial engine-specific collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 8,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a complete Cocos Creator game and kept the separate engine/art pipeline out of the collection.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Bevy/Claude Opus native-game code search",
+      "query_key": "Bevy game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 4,
+      "new_verified_repositories": 2,
+      "new_rejected": 1,
+      "new_game_units": 2,
+      "unseen_count": 2,
+      "accepted_repositories": [
+        "https://github.com/grgrwlkr/SimCity",
+        "https://github.com/leynos/lille"
+      ],
+      "rejected_repositories": [
+        "https://github.com/mule/rust-doodle"
+      ],
+      "held_repositories": [],
+      "note": "Inspect the Bevy candidates serially. Accept SimCity because it is a native Bevy 0.19 city simulator with map, roads, zoning, buildings, citizens, traffic, services, persistence and scenarios, with exact Fable 5 and Opus 4.8 trailers. Accept Lille because it is a runnable Bevy RTS prototype with map/world state, player and NPC spawning, camera presentation, tests and exact Opus 4.5/Fable 5 implementation trailers. Reject rust-doodle because it is a hello-world/rendering experiment sandbox.",
+      "next_experiments": [
+        "Search MonoGame, Love2D, Defold and Raylib with exact model trailers",
+        "Reverse-link from SimCity and Lille for unseen game repositories",
+        "Continue serial engine-specific collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added two source-complete native Bevy games with exact model trailers and excluded the Bevy hello-world sandbox.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "MonoGame/Claude Opus native-game code search",
+      "query_key": "MonoGame game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 2,
+      "new_verified_repositories": 0,
+      "new_rejected": 1,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/cwchanap/DTXManiaCX"
+      ],
+      "held_repositories": [],
+      "note": "DTXManiaCX is a real .NET 8/MonoGame rhythm game rewrite, but the exact Claude Opus text is only in a plan document and no qualifying model trailer appears in the inspected commit history. Reject under repository-level attribution rules.",
+      "next_experiments": [
+        "Search Love2D, Defold, Raylib and SDL with exact model trailers",
+        "Reverse-link from newly accepted Bevy and Cocos games",
+        "Continue serial engine-specific collection toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 1,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 7,
+        "decision": "keep with stronger attribution filter"
+      },
+      "critique_note": "This pass correctly rejected a real MonoGame title because the exact model evidence was plan-only rather than repository-level authorship evidence.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Love2D/Claude Opus native-game code search",
+      "query_key": "Love2D game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 2,
+      "new_verified_repositories": 0,
+      "new_rejected": 2,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "accepted_repositories": [],
+      "rejected_repositories": [
+        "https://github.com/lowkeyabu/SpiteDrivenDevelopment",
+        "https://github.com/T3mps/Arcane"
+      ],
+      "held_repositories": [],
+      "note": "Spite Driven Development is a Love2D board-game skeleton with placeholder screens and no implemented full game. Arcane is a C++ game engine with a sample reference project, not an independent game. The Opus/Fable text was plan or engine history evidence, not a qualifying game attribution for either entry.",
+      "next_experiments": [
+        "Search SDL and Odin with exact model trailers",
+        "Search Raylib, Defold and other native engines serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 1,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 8,
+        "false_positive_control": 10,
+        "overall": 7,
+        "decision": "keep"
+      },
+      "critique_note": "This pass separated a Love2D pre-alpha skeleton and an engine sample from actual finished or playable game entries.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Defold/Claude Opus native-game code search",
+      "query_key": "Defold game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 0,
+      "new_verified_repositories": 0,
+      "new_rejected": 0,
+      "new_game_units": 0,
+      "unseen_count": 0,
+      "accepted_repositories": [],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "The only result was this collection's own wiki. No external Defold game was returned.",
+      "next_experiments": [
+        "Search another native engine with exact model trailers",
+        "Reverse-link from the newly accepted native entries",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 7,
+        "yield": 1,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 4,
+        "false_positive_control": 10,
+        "overall": 6,
+        "decision": "drop exact query"
+      },
+      "critique_note": "The query produced no external candidate, so do not repeat it without a new source partition.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Raylib/Claude Opus native-game code search",
+      "query_key": "raylib game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 13,
+      "accepted_repositories": [
+        "https://github.com/HexSleeves/odin-into-the-dark"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Into the Depths because its README and source prove a runnable Odin plus Raylib turn-based roguelike with procedural floors, lighting, mining, crafting, combat, AI, persistence, tests and assets. Its history contains exact Claude Opus 4.8 gameplay and systems trailers. Leave the remaining result partition for later serial inspection.",
+      "next_experiments": [
+        "Inspect the remaining Raylib result partition serially",
+        "Search SDL, Odin and other native engines with exact model trailers",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 8,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a source-complete native roguelike and kept the exact model evidence requirement.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "SDL/Claude Opus native-game code search",
+      "query_key": "SDL game Co-Authored-By Claude Opus",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 27,
+      "accepted_repositories": [
+        "https://github.com/edrethardo/game"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Curse of the Dungeon Engine because its README and C++ source prove a native SDL2 first-person dungeon crawler with procedural levels, classes, loot, tactical AI, split-screen, online multiplayer, Switch deployment and tests. Its history contains exact Claude Opus 5 gameplay commits. Leave the larger SDL result partition for later inspection.",
+      "next_experiments": [
+        "Inspect remaining SDL result partition serially",
+        "Search Odin, Raylib and other native engines with exact model trailers",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 8,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added a large source-complete native dungeon game with exact model trailers and did not count commercial-game tooling or emulation results.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Treant Arcade native-plus-browser collection audit",
+      "query_key": "patricker/treant current arcade game index",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 68,
+      "unseen_count": 0,
+      "accepted_repositories": [
+        "https://github.com/patricker/treant"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Treant Arcade as one repository containing 68 verified game units. The current docs/src/components/arcade/games/index.ts registers 68 definitions, each has a matching React game surface and a corresponding treant-wasm Rust engine module. The live arcade https://mcts.dev/arcade/ returned HTTP 200. The history contains exact Claude Fable 5 gameplay commits. Use the current source index count of 68 because the older GAME-IDEAS roadmap text says 67.",
+      "next_experiments": [
+        "Inspect reverse links and creator sources from Treant Arcade",
+        "Search remaining SDL, Raylib and native-engine result partitions serially",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 10,
+        "false_positive_control": 9,
+        "overall": 10,
+        "decision": "keep"
+      },
+      "critique_note": "This audit found a multi-game repository with direct source for every current game definition. It counts actual playable surfaces, not the repository's MCTS library examples or roadmap-only ideas.",
+      "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Unity/Claude Opus multi-mode audit from Unreal query",
+      "query_key": "Unreal game Co-Authored-By Claude Opus 5",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 3,
+      "unseen_count": 7,
+      "accepted_repositories": [
+        "https://github.com/Baeinsoo/LeagueOfPhysical-Client"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept League of Physical as one Unity 6 repository containing three implemented game modes: Flappy Race, Panchigi and Skydive. PlayableGameProvider requires a real scene and map before a mode is offered, and the repository contains dedicated scenes, gameplay systems and tests for all three. The history contains exact Claude Opus 5 gameplay trailers. Do not count Mirror sample scenes.",
+      "next_experiments": [
+        "Inspect the remaining Unity and Unreal result partitions serially",
+        "Search SDL, Raylib, Odin and native engines with exact model trailers",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 9,
+        "yield": 9,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass found a verified multi-mode Unity project and counted only its three actual game modes, excluding middleware examples.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 577 across 501 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 663 across 516 unique accessible repository records",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

@@ -1887,3 +1887,99 @@ Score this experiment 9/10. Keep C++ plus Opus and reverse-link from the native 
 Run the authenticated GitHub code search `Godot game "Co-Authored-By: Claude Opus 5"`. Inspect candidates serially. Accept [CYBER SUNDAY](https://github.com/influenza-dotcom/3D-RPG), a Godot 4.7 first-person immersive-sim/RPG prototype, and [The Nine Lives of Ash](https://github.com/phirogue/SparkyGames), a Godot 4 roguelite card game. Count two new native games. Add both to Non-Browser Engines with direct scene/script links and screenshot links where present.
 
 Score this experiment 9/10. Keep Godot plus Opus and search Fable/Astra aliases next.
+
+### Reverse-link and creator-index expansion from Wild Haggis Survivors
+
+Run the authenticated GitHub code search for the full canonical URL of [Wild Haggis Survivors](https://github.com/Giftedx/wild-haggis-survivors). The exact result reached [Giftedx/Giftedx](https://github.com/Giftedx/Giftedx), a public creator index. Inspect its README and follow its direct repository links.
+
+Accept [ha·ggis Hub](https://github.com/Giftedx/ha-ggis-hub), a Rust/WebAssembly Canvas2D arcade lobby with keyboard/pointer movement, door proximity, game registry and live deployment, and [Just Five More Minutes](https://github.com/Giftedx/just-five-more-minutes), a Three.js first-person bedroom game with an embedded Canvas2D mini-MMO, seeded simulation, chores, combat, persistence, screenshots and live deployment. Both repositories contain gameplay source and exact Claude Fable 5 commit trailers. Count two new browser game units. Keep the hub, Wild Haggis Survivors and Just Five More Minutes as separate repository records because each is independently published.
+
+This pass raises the collection to **579 counted game units across 501 repository records**. Score it 9/10: novelty 9, yield 8, verification quality 10, repeatability 8, source quality 9 and false-positive control 9. Keep reverse-link traversal, but change the seed on every pass.
+
+### Next experiment
+
+Run one serial exact reverse-link search from [Platform Fighter](https://github.com/lodevel/platform-fighter), then inspect each external result before adding records.
+
+### Dropped reverse-link search from Platform Fighter
+
+Run the authenticated GitHub code search for the full canonical URL of [Platform Fighter](https://github.com/lodevel/platform-fighter). It returns only this collection's own README, wiki and search-log files. It returns no external list or creator source. Add no records and drop this exact seed.
+
+The conservative critique score is **4/10** overall: novelty **5**, yield **1**, verification quality **8**, repeatability **8**, source quality **4** and false-positive control **10**.
+
+### Next experiment
+
+Run one serial exact reverse-link search from a native Godot game, then inspect each external result before adding records.
+
+### Unity/Fable native-game code-search audit
+
+Run the authenticated GitHub code search `Unity game "Co-Authored-By: Claude Fable"`. Inspect the strongest candidates serially. Accept [moorestech](https://github.com/moorestech/moorestech), a Unity/C# open-world automated factory game with a MainGame scene, player systems, block placement, machines, conveyors, trains, research, screenshots and exact Claude Opus 5 and Claude Fable 5.1 commit trailers. Reject [golden-hooves-turing-ranch](https://github.com/leavesprior/golden-hooves-turing-ranch) because it is an unmodified Next.js starter with no game evidence, and [StarSystemGeneration](https://github.com/nhilix/StarSystemGeneration) because the sampled public repository has no README or inspected game evidence.
+
+Count one new native Unity game unit. This pass raises the collection to **580 counted game units across 502 repository records**. Score it 8/10: novelty 8, yield 7, verification quality 9, repeatability 8, source quality 8 and false-positive control 9. Keep the Unity-plus-model pattern and inspect direct gameplay source before acceptance.
+
+### Next experiment
+
+Run one serial exact reverse-link search from [moorestech](https://github.com/moorestech/moorestech), then search Unreal or Unity with a GPT-6 Astra alias.
+
+### Godot/Fable native-game code-search audit
+
+Run the authenticated GitHub code search `Godot game "Co-Authored-By: Claude Fable"`. Inspect the strongest candidates serially.
+
+Accept [The Wandering Inn RPG](https://github.com/GabrielGLevine/wandering-inn-rpg), a playable Godot 4.7 top-down RPG with a live web demo, [Ghost Guild](https://github.com/moura-code/ghost-guild), a Godot 4 card-combat incremental roguelite, [Hooper](https://github.com/JoseTomanan/hooper-game), a Godot 4 .NET 1v1 basketball prototype, and [AIGameTest2](https://github.com/archer47-qingmei/AIGameTest2), a source-verified Godot card roguelite. Each repository has direct gameplay source and an exact Fable or Opus trailer. Reject [Dual Frontier](https://github.com/Crystalka228/Dual-Frontier) because its README says it is not a game release and uses its colony-simulator content only as a systems-engineering workload. Reject [Slay the Streamer 2](https://github.com/Surfinite/slay-the-streamer-2) because it is a mod for a commercial game, not an independent game repository.
+
+Count four new native-engine game units. This pass raises the collection to **584 counted game units across 506 repository records**. Score it 9/10: novelty 9, yield 9, verification quality 9, repeatability 8, source quality 9 and false-positive control 9. Keep Godot/Fable and inspect exact gameplay source before acceptance.
+
+### Next experiment
+
+Run one serial exact reverse-link search from a newly accepted Godot game, then search Godot with a GPT-6 Astra or GPT6 alias.
+
+### Godot/GPT-6 Astra code-search and awesome-list expansion
+
+Run the authenticated GitHub code search `Godot game "GPT-6 Astra"`. Inspect candidates serially. Accept [NULLSPACE](https://github.com/marius4lui/NULLSPACE), a Godot 4.7.2 first-person survival-horror game with a v0.3 beta release, native gameplay source, screenshots and explicit GPT-6 Astra attribution, and [False Ritual](https://github.com/lucas-wyd/False-Ritual), a Godot 4 first-person psychological-horror prologue with macOS/Windows releases, interactive house scenes, enemy pursuit, screenshots and explicit GPT-6 Astra attribution. Reject [Cameraman](https://github.com/splatterfacegames/cameraman) because it is a Godot camera add-on, not a game.
+
+The same search surfaced [awesome-gpt-6-astra](https://github.com/MartinDelophy/awesome-gpt-6-astra), which lists 61 games and interactive projects, and [awesome-gpt-6-astra-casebook](https://github.com/zlxxlz1026/awesome-gpt-6-astra-casebook), which lists 13 cases. Treat both as discovery sources only. Their catalog counts are not this collection's verified count.
+
+Count two new native-engine game units. This pass raises the collection to **586 counted game units across 508 repository records**. Score it 10/10: novelty 10, yield 9, verification quality 10, repeatability 9, source quality 10 and false-positive control 9. Use the two awesome lists to find additional GitHub repositories, but verify every game and model claim at repository level.
+
+### Next experiment
+
+Inspect the GitHub links from the GPT-6 Astra awesome lists for unseen repositories, then run one serial exact reverse-link search from NULLSPACE.
+
+### Godot/GPT6 alias audit and catalog expansion
+
+Run the authenticated GitHub code search `Godot game GPT6`. Inspect the strongest candidates serially.
+
+Reject [The-Remainder](https://github.com/discover3d/PrestonRigsby__The-Remainder) because it is a real 2023 Godot game-jam project without GPT-6 Astra, Opus or Fable evidence. Reject [AsterCoast](https://github.com/sayantanmandal1/AsterCoast) because it is a substantial Godot open-world racer but the inspected repository does not identify a qualifying authoring model; a `gpt6test` path is not proof. Reject [the Little Nightmares-inspired scene demo](https://github.com/Pulucat/GPT6-Godot-Little-Nightmares-Inspired-Scene-Demo) because it is a lighting and scene demonstration without a game loop. Reject [GameDevBench](https://github.com/waynchi/gamedevbench) as benchmark infrastructure and [gpt6-astra-3d](https://github.com/yangqiong/gpt6-astra-3d) as a catalog.
+
+Hold [xianyu110/awesome-gpt-6-astra](https://github.com/xianyu110/awesome-gpt-6-astra) as a discovery source. Its `PLAYABLE.md` reports 86 verified playable demos, but almost all entries have only hosted demos and social posts, not GitHub game repositories. Do not count those entries without repository-level source and model evidence.
+
+This pass adds **zero game units** and keeps the total at **586 counted game units across 508 repository records**. Score it 6/10: novelty 8, yield 1, verification quality 9, repeatability 8, source quality 8 and false-positive control 10. Drop the exact GPT6 alias until a new source partition is available.
+
+### Next experiment
+
+Inspect GitHub links from the held GPT-6 Astra lists, then run one serial exact reverse-link search from [NULLSPACE](https://github.com/marius4lui/NULLSPACE).
+
+### Unreal/GPT-6 Astra audit
+
+Run the serial query `Unreal game "GPT-6 Astra"`, then inspect the linked engine and catalog sources one at a time. Accept [Third Beis HaMikdash](https://github.com/ShmuelSokol/3rdbhmk): it is a downloadable native Unreal Windows walkthrough with a `.uproject`, first-person walking, white-dove flight, interactable doors, tour/codex systems, crowd behavior, save/load, runtime screenshots and a release. Its history contains exact [Claude Fable 5.1](https://github.com/ShmuelSokol/3rdbhmk/commit/45218d02d7cd6d1cee6cc881f19c3aeee25c2f41) and Claude Opus 5 trailers. Reject [Gamachine](https://github.com/BurakErdemci/gamachine) and [Crazy Horse Gaming Engine](https://github.com/dmscribe/crazyhorse-gaming-engine) as tooling; reject [Piața Unirii](https://github.com/danmana/piata-unirii) and [Orbital Core Showcase](https://github.com/wangruofeng/orbital-core-showcase) as scene/model showcases; and reject [Wanderburg](https://github.com/evan966890/wanderburg) because its game is real but its repository has no qualifying Astra, Opus or Fable authorship evidence. This pass adds one native game and raises the frontier to 585 units across 507 repository records.
+
+### Unity/GPT-6 Astra audit
+
+Run the serial query `Unity game "GPT-6 Astra"`, then inspect each direct repository candidate. Accept [P(DOOM)](https://github.com/transitive-bullshit/ai-safety-doom): it is a complete live Doom 64-inspired browser shooter with a lab level, movement, aiming, weapons, enemies, pickups, doors, difficulty modes, boss content, screenshots, source tests and Playwright tests. Its README explicitly credits GPT-6 Astra with Codex, Three.js, TypeScript and Next.js; the live demo returned HTTP 200. Reject [InfinityRenderPipeline](https://github.com/haolange/InfinityRenderPipeline) and [Locus](https://github.com/r1n7aro/Locus) as Unity rendering/agent tooling. This pass adds one browser game and raises the frontier to 586 units across 508 repository records.
+
+### Unity/Claude Opus audit
+
+Run the serial query `Unity game "Co-Authored-By: Claude Opus"`, then inspect direct candidates. Accept [OSRS Tower Defense](https://github.com/hamilton-junior/osrs-tower-defense): it is a substantial browser tower-defense game with a Canvas engine, renderer, simulation, waves, bosses, towers, traps, fusions, progression, saves, collection log and extensive unit/Playwright tests. Its history contains many exact Claude Opus 5 trailers on gameplay commits. The configured GitHub Pages URL redirected during verification, so record source verification without claiming a live demo. Reject [InventoryTetris](https://github.com/lolesch/InventoryTetris) because the inspected repository documents an inventory subsystem rather than a qualifying standalone game. This pass adds one browser game and raises the frontier to 587 units across 509 repository records.
+
+### Cocos/Claude Opus audit
+
+Run the serial query `Cocos game "Co-Authored-By: Claude Opus"`, then inspect direct repositories. Accept [Parkour Hero (49FriendRunner)](https://github.com/TinycellCorp/Parkour): it is a complete Cocos Creator 2.4.13 2D endless-runner project with player, pet, buff, game-mode, UI, scenes, animations, custom physics and WeChat/Alipay/QQ mini-game targets. Its history contains exact Claude Opus 4.5 trailers on gameplay and asset changes. Keep it in Non-Browser Engines. Reject [SkinForge](https://github.com/fagemx/skinforge) because it is an AI art-delivery pipeline and explicitly says its Cocos project is separate and not included. This pass adds one native-engine game and raises the frontier to 588 units across 510 repository records.
+
+### Bevy/Claude Opus audit
+
+Run the serial query `Bevy game "Co-Authored-By: Claude Opus"`, then inspect direct repositories. Accept [SimCity (Bevy)](https://github.com/grgrwlkr/SimCity): it is a native Bevy 0.19 city simulator with roads, zoning, buildings, citizens, traffic, services, persistence and scenarios. Accept [Lille](https://github.com/leynos/lille): it is a runnable native Bevy RTS prototype with map/world state, player and NPC spawning, camera presentation, tests and a documented game loop. Both histories contain exact Claude Fable and Claude Opus gameplay/presentation trailers. Keep both in Non-Browser Engines. Reject [rust-doodle](https://github.com/mule/rust-doodle) as a hello-world/rendering sandbox. This pass adds two native-engine games and raises the frontier to 590 units across 512 repository records.
+
+### MonoGame/Claude Opus audit
+
+Run the serial query `MonoGame game "Co-Authored-By: Claude Opus"`, then inspect each repository candidate. Reject [DTXManiaCX](https://github.com/cwchanap/DTXManiaCX) as a collection entry: it is a real .NET 8/MonoGame rhythm game rewrite, but the exact Claude Opus text is present only in an implementation plan and does not appear as a qualifying commit trailer in the inspected history. Keep it as a rejected candidate until repository-level model evidence exists.
+
+This pass adds zero game units. Keep the native-engine category broad, but require model evidence in a commit, README attribution, or equivalent repository-level source.
