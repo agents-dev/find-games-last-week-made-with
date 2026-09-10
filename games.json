@@ -20130,5 +20130,58 @@
     "quality_estimate_basis": "Source-complete Unity 6 multiplayer client with three separately implemented game modes, dedicated scenes, gameplay systems, matchmaking, network state, UI, tests and exact Opus gameplay commits.",
     "counted_game_units": 3,
     "is_independent_game": true
+  },
+  {
+    "name": "Yuga Kshetra: The Final Dark God",
+    "github_url": "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God",
+    "game_links": [
+      "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/README.md",
+      "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/CMakeLists.txt",
+      "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source",
+      "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source/Entity",
+      "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Source/Item",
+      "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/tree/main/MineCraft-One-Week-Challenge/Screenshots"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/commit/1329b50b68454ab89edeafd16d708053dc5b666d",
+    "screenshot_urls": [
+      "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/Screenshots/day4.png"
+    ],
+    "technology": [
+      "C++",
+      "SFML 2.6",
+      "OpenGL",
+      "GLM",
+      "CMake",
+      "Native desktop",
+      "Voxel survival-extraction game"
+    ],
+    "model_family": [
+      "Claude Opus 4.7"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Yuga Kshetra: The Final Dark God"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-06-04T02:10:35Z",
+    "published_on": "2026-06-04",
+    "discovery_sources": [
+      "GitHub code search for SFML game Co-Authored-By Claude Opus",
+      "https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God"
+    ],
+    "verification_notes": "The repository contains a C++/SFML/OpenGL native first-person voxel survival-extraction game. The game subproject includes CMake build files, terrain and chunk generation, camera and input, block mining and placement, inventory, crafting and smelting, weapons and arrows, health and stamina, procedural world systems, hostile pigman and spider AI, projectile collisions, dynamic difficulty, extraction rules, save/progression systems, shaders, models, textures, audio and five dated screenshots. The inspected history contains exact Claude Opus 4.7 trailers on gameplay systems, mobs, combat, crafting, pause and input. Count the native game once.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 6500000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for native OpenGL voxel terrain, chunk meshing, entity models, AI, particles, lighting, UI and audio; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Source-complete native voxel game with a documented extraction loop, procedural terrain, survival resources, crafting, combat, multiple enemy AI systems, dynamic difficulty, save progression, assets, shaders and dated screenshots.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

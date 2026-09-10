@@ -1995,3 +1995,9 @@ Add zero game units. Keep the remaining SDL result partition for later serial in
 Run the C++ game query serially. Reconfirm the existing [Hex Danmaku](https://github.com/macjoocan/hex-danmaku) record because it contains a complete browser hex-grid bullet-hell game with stage progression, bosses, endless and hunt/RPG modes, persistence, art systems and extensive tests. Its history contains exact Claude Fable 5 and 5.1 gameplay trailers.
 
 Reject [PlantsVsZombies-Recode](https://github.com/rgthddei67/PlantsVsZombies-Recode) and [PyAitD](https://github.com/felipe-dos-santos81/PyAitD): both are real games with strong source, but the exact Fable text was found only in implementation plans, not qualifying repository-level attribution trailers. Add zero units because Hex Danmaku was already recorded. Keep the remaining C++ result partition for serial inspection.
+
+### SFML/Claude Opus native-game code-search audit
+
+Run the SFML game query serially. Accept [Yuga Kshetra: The Final Dark God](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God) because its C++/SFML/OpenGL subproject contains a source-complete first-person voxel survival-extraction game with procedural terrain, resources, crafting, combat, hostile AI, extraction, progression, assets and dated screenshots. Its history contains exact Claude Opus 4.7 gameplay trailers.
+
+Reject [Emberfire](https://github.com/Xian55/Emberfire) because it is an incomplete MMO client/reimplementation: the bundled runtime content, maps and database are external, and the server is a placeholder. Count one new native game unit. Keep the remaining SFML result for serial inspection.

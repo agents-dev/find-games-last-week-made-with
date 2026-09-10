@@ -750,6 +750,11 @@
       "repository": "https://github.com/felipe-dos-santos81/PyAitD",
       "source": "GitHub code search for C++ game Co-Authored-By Claude Fable",
       "reason": "The repository is a real Python/Pygame reimplementation of Alone in the Dark with substantial gameplay source, but the inspected exact Fable text appears only in implementation plans and no qualifying attribution trailer was confirmed. Reject it until repository-level model evidence exists."
+    },
+    {
+      "repository": "https://github.com/Xian55/Emberfire",
+      "source": "GitHub code search for SFML game Co-Authored-By Claude Opus",
+      "reason": "The repository is a C++/SFML MMO client and protocol/authentication monorepo, but its README says the bundled game runtime, content, maps and database are not in the repository and its server is a placeholder. Reject it as an incomplete client/reimplementation rather than an independently runnable game."
     }
   ]
 }

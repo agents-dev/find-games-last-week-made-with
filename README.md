@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 663 verified games. Real source. No prompt-only filler.
+### 664 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-663-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-464-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-664-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-465-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,17 +19,17 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 663 games. Yes, each one links to source.**
+**Yes, that is 664 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **663** |
-| 📦 Included repositories | **464** |
+| 🎮 Independently counted games | **664** |
+| 📦 Included repositories | **465** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **195** |
-| 📸 Games with verified screenshot links | **99** |
+| 🛠️ Non-browser engine games | **196** |
+| 📸 Games with verified screenshot links | **100** |
 | 🧠 Games with direct prompt links | **17** |
 
 ## 🏆 Top-rated picks
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **195 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **196 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **50 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **195 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **196 verified games. Ranked by evidence-based quality score.**
 
 - [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
@@ -136,6 +136,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**SEABRIGHT — A Coastal City Builder**](https://github.com/codersusu/game-city-skylines) — ⭐ **9.0/10** · GPT-6 Astra, Codex · Unity 6.0.0f1, C#, Native macOS, Metal · 4.50 GFLOPS · _confirmed_ · [📸 screenshot](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/01-starter-settlement.png) · [📸 screenshot](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/07-grown-city.png) · [📸 screenshot](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/08-stadium-detail.png) · [📸 screenshot](https://github.com/codersusu/game-city-skylines/blob/main/Artifacts/09-modern-skyline.png)
 - [**TAK Engine**](https://github.com/pocketgeek/tak-engine) — ⭐ **9.0/10** · Claude Opus 4.8 · SDL2, C++20, Native desktop · 1.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/pocketgeek/tak-engine/blob/main/README.md) · [📸 screenshot](https://github.com/pocketgeek/tak-engine/blob/main/docs/img/ingame.jpg)
 - [**VECTOR RUSH**](https://github.com/ToBeWin/vector-rush) — ⭐ **9.0/10** · GPT-6 Astra · Godot 4.7.2, GDScript, Blender, Native macOS, WebGL2, Browser · 2.40 GFLOPS · _confirmed_ · [▶️ play](https://github.com/ToBeWin/vector-rush/releases/latest) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/menu.png) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/gameplay.gif) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/harbor.png) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/wall-ride.png) · [📸 screenshot](https://github.com/ToBeWin/vector-rush/blob/main/docs/media/twilight.png)
+- [**Yuga Kshetra: The Final Dark God**](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God) — ⭐ **9.0/10** · Claude Opus 4.7 · C++, SFML 2.6, OpenGL, GLM, CMake, Native desktop, Voxel survival-extraction game · 6.50 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/README.md) · [📸 screenshot](https://github.com/Jz-Zs/Yuga-Kshetra-The-Final-Dark-God/blob/main/MineCraft-One-Week-Challenge/Screenshots/day4.png)
 - [**Zoo Keeper**](https://github.com/JamesTroy/ZooKeeper) — ⭐ **9.0/10** · Claude Opus 4.6 · Unreal Engine 5, C++, Native desktop · 2.60 GFLOPS · _confirmed_ · [🔗 files](https://github.com/JamesTroy/ZooKeeper/blob/main/Source/ZooKeeper/Core/ZooGameMode.cpp)
 - [**2048**](https://github.com/lofiski/mini-games) — ⭐ **8.9/10** · Claude Opus 5 · Flutter, Dart, Android, Native mobile · 180 MFLOPS · _confirmed_ · [🔗 files](https://github.com/lofiski/mini-games/blob/0ba7348e37919c2c4ddb53d0d63b23d31e76b7b9/lib/games/game2048/domain/board.dart)
 - [**Pocket Bomber**](https://github.com/chongdashu/love2d-pocket-bomber-game) — ⭐ **8.9/10** · Claude Opus 4.5 · LÖVE 2D 11.5, Lua, Native desktop, iOS · 700 MFLOPS · _confirmed_ · [🔗 files](https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/README.md) · [📸 screenshot](https://github.com/chongdashu/love2d-pocket-bomber-game/blob/main/docs/preview.gif)
