@@ -20453,5 +20453,57 @@
     "quality_estimate_basis": "Source-complete native colony builder with a documented economy loop, fixed-tick simulation, resource chains, prospecting, mining, colonists, hostile weather, save/load, releases, assets and extensive tests.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Swarm Dominion",
+    "github_url": "https://github.com/johnburbridge/swarm-dominion",
+    "game_links": [
+      "https://github.com/johnburbridge/swarm-dominion/blob/main/README.md",
+      "https://github.com/johnburbridge/swarm-dominion/blob/main/project.godot",
+      "https://github.com/johnburbridge/swarm-dominion/blob/main/scenes/main/main.tscn",
+      "https://github.com/johnburbridge/swarm-dominion/blob/main/scripts/main.gd",
+      "https://github.com/johnburbridge/swarm-dominion/tree/main/scripts/units",
+      "https://github.com/johnburbridge/swarm-dominion/tree/main/scripts/resources",
+      "https://github.com/johnburbridge/swarm-dominion/tree/main/tests"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/johnburbridge/swarm-dominion/commit/940aa6a0e83af2743e971513a8de16309cf3e110",
+    "screenshot_urls": [],
+    "technology": [
+      "Godot 4.3",
+      "GDScript",
+      "Native desktop",
+      "2D real-time strategy",
+      "Unit AI",
+      "GUT tests"
+    ],
+    "model_family": [
+      "Claude Opus 5",
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Swarm Dominion"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-10",
+    "repository_created_at": "2026-01-24T19:31:43Z",
+    "published_on": "2026-01-24",
+    "discovery_sources": [
+      "GitHub code search for Godot game Co-Authored-By Claude Opus 4.8",
+      "https://github.com/johnburbridge/swarm-dominion"
+    ],
+    "verification_notes": "The README provides a Godot project with a main scene, open-source 5–15 minute RTS design, unit progression, biomass resource gathering, control points, fog of war, selection, group commands, attack-move and unit combat. The repository contains Godot scenes for the main game, Mother and Drone units, biomass nodes, HUD and health bars, GDScript unit/resource systems, map data and a large GUT test suite. The inspected history contains exact Claude Opus 5 and 4.8 trailers on commands, unit behavior, rally points, controls and gameplay systems. Multiplayer and later RTS features are marked roadmap items; count the current playable RTS prototype once.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 900000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Godot 2D sprite rendering, unit steering and combat, selection overlays, resource nodes, HUD and test instrumentation; not measured hardware throughput.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "Source-complete native RTS prototype with a clear match loop, unit selection and commands, combat, harvesting, progression, resources, scenes, documentation and extensive tests; roadmap-only features are excluded.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

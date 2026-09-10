@@ -2021,3 +2021,9 @@ Inspect the result partition serially. Accept [Yume](https://github.com/kamwoh/y
 ### Godot/Claude Opus 4.8 native-game audit
 
 Accept [Regolith](https://github.com/mnorrsken/fringeworlds) because its README and source prove a runnable Godot 4.7.1 native isometric colony builder with a fixed-tick economy, resource chains, prospecting, finite deposits, mining, colonists, weather, save/load, release builds and extensive tests. Its history contains exact Claude Opus 4.8 and Opus 5 gameplay-system trailers. Count one native game unit.
+
+### Godot/Claude Opus 4.8 RTS audit
+
+Accept [Swarm Dominion](https://github.com/johnburbridge/swarm-dominion) because its README and source prove a current playable Godot RTS prototype with unit selection, movement, combat, harvesting, progression, resource nodes, main scenes, HUD and tests. Its history contains exact Claude Opus 5 and 4.8 gameplay-system trailers. Count one native game unit and exclude roadmap-only multiplayer and later RTS features.
+
+Reject [Loom](https://github.com/ShahmeerHyat/Loom) because its public README is unrelated Godot-MCP tooling content and its own project notes say the latest build is not verified in Godot.

@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 671 verified games. Real source. No prompt-only filler.
+### 672 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-671-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-470-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-672-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-471-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,16 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 671 games. Yes, each one links to source.**
+**Yes, that is 672 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **671** |
-| 📦 Included repositories | **470** |
+| 🎮 Independently counted games | **672** |
+| 📦 Included repositories | **471** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **202** |
+| 🛠️ Non-browser engine games | **203** |
 | 📸 Games with verified screenshot links | **103** |
 | 🧠 Games with direct prompt links | **17** |
 
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **202 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **203 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **51 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **202 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **203 verified games. Ranked by evidence-based quality score.**
 
 - [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
@@ -171,6 +171,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**Hollow Lullaby**](https://github.com/maweis1981/rust_bevy_lua_game) — ⭐ **8.7/10** · Claude Opus 4.8 · Bevy 0.19, Rust, Lua 5.4, Native desktop, WebAssembly · 950 MFLOPS · _confirmed_ · [🔗 files](https://github.com/maweis1981/rust_bevy_lua_game/blob/main/README.md) · [▶️ play](https://maweis.com/rust_bevy_lua_game/)
 - [**Jefftris**](https://github.com/jabernathy/jefftris) — ⭐ **8.7/10** · Claude Opus 4.7 · libGDX, Java, Native desktop · 450 MFLOPS · _confirmed_ · [🔗 files](https://github.com/jabernathy/jefftris/tree/main/src/main/java/com/jefftris)
 - [**Katan3D (Hexland)**](https://github.com/kimotomura-0101/hexland) — ⭐ **8.7/10** · Claude Opus 4.6 · Unity 6, C#, 3D, Native · 1.30 GFLOPS · _confirmed_ · [🔗 files](https://github.com/kimotomura-0101/hexland/tree/main/Assets)
+- [**Swarm Dominion**](https://github.com/johnburbridge/swarm-dominion) — ⭐ **8.7/10** · Claude Opus 5, Claude Opus 4.8 · Godot 4.3, GDScript, Native desktop, 2D real-time strategy, Unit AI, GUT tests · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/johnburbridge/swarm-dominion/blob/main/README.md)
 - [**TetrisLove2D**](https://github.com/TiagoBonamigo/TetrisLove2D) — ⭐ **8.7/10** · Claude Opus 4.6 · LÖVE 2D, Lua, Native desktop · 350 MFLOPS · _confirmed_ · [🔗 files](https://github.com/TiagoBonamigo/TetrisLove2D/blob/master/README.md)
 - [**Ages of Aether Native**](https://github.com/kglazier/Ages-Of-Aether-Native) — ⭐ **8.6/10** · Claude Opus 4.6 · Bevy 0.15, Rust, Native desktop, Android · 1.30 GFLOPS · _confirmed_ · [🔗 files](https://github.com/kglazier/Ages-Of-Aether-Native/blob/master/ROADMAP.md)
 - [**Blind Arena**](https://github.com/Ares2023/BlindArena) — ⭐ **8.6/10** · Claude Opus 4.8 · Unity, C#, Native · 850 MFLOPS · _confirmed_ · [🔗 files](https://github.com/Ares2023/BlindArena/blob/main/Assets/Scenes/Main.unity)

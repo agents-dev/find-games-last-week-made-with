@@ -760,6 +760,11 @@
       "repository": "https://github.com/gcko/pendulum-of-despair",
       "source": "GitHub code search for Godot game Co-Authored-By Claude Opus 4.8",
       "reason": "The repository contains extensive JRPG design documents and the Godot test framework, but its README explicitly says engine implementation has not begun and no game scenes, scripts or playable assets exist. Reject it as design-only."
+    },
+    {
+      "repository": "https://github.com/ShahmeerHyat/Loom",
+      "source": "GitHub code search for Godot game Co-Authored-By Claude Opus 4.8",
+      "reason": "The repository has Godot simulation code and a project description in CLAUDE.md, but its public README is unrelated Godot-MCP tooling content and CLAUDE.md says the large recent build is not verified in Godot. Reject it until the game identity and runtime are independently verified."
     }
   ]
 }

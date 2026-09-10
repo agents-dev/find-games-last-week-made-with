@@ -6668,6 +6668,41 @@
       },
       "critique_note": "This pass added one substantial source-complete native Godot colony game with exact Opus implementation history.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Godot/Claude Opus 4.8 RTS audit",
+      "query_key": "Godot game Co-Authored-By Claude Opus 4.8",
+      "status": "completed",
+      "results_inspected": 2,
+      "new_verified_repositories": 1,
+      "new_rejected": 1,
+      "new_game_units": 1,
+      "unseen_count": 26,
+      "accepted_repositories": [
+        "https://github.com/johnburbridge/swarm-dominion"
+      ],
+      "rejected_repositories": [
+        "https://github.com/ShahmeerHyat/Loom"
+      ],
+      "held_repositories": [],
+      "note": "Accept Swarm Dominion because its README and source prove a current playable Godot RTS prototype with unit selection, movement, combat, harvesting, progression, resource nodes, main scenes, HUD and tests, and its history contains exact Claude Opus 5/4.8 gameplay-system trailers. Reject Loom because the public README is unrelated Godot-MCP tooling content and its own project notes say the latest build is not verified in Godot.",
+      "next_experiments": [
+        "Inspect the remaining Godot/Opus result partition serially",
+        "Search other native engines with exact Fable or Astra evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 7,
+        "verification_quality": 10,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added one verified native RTS prototype and rejected a misleading or unverified Godot project.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [
