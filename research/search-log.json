@@ -6534,6 +6534,39 @@
       },
       "critique_note": "This pass added one source-complete native PyGame platformer and kept model evidence tied to exact repository history.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Pygame/Claude Fable native-game code-search audit",
+      "query_key": "Pygame game Co-Authored-By Claude Fable",
+      "status": "completed",
+      "results_inspected": 1,
+      "new_verified_repositories": 1,
+      "new_rejected": 0,
+      "new_game_units": 1,
+      "unseen_count": 19,
+      "accepted_repositories": [
+        "https://github.com/honzaves/dotgame"
+      ],
+      "rejected_repositories": [],
+      "held_repositories": [],
+      "note": "Accept Dot Grid because its README and source prove a runnable PyGame territory strategy game with a documented ruleset, human and AI modes, MCTS, neural-network players, training, replay and tests. Its history contains exact Claude Fable 5 trailers on AI gameplay, training and replay fixes. Leave the remaining Pygame result partition for serial inspection.",
+      "next_experiments": [
+        "Inspect the remaining Pygame result partition serially",
+        "Search other native engines with exact Fable or Astra evidence",
+        "Continue toward 900 game units"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 6,
+        "verification_quality": 10,
+        "repeatability": 8,
+        "source_quality": 9,
+        "false_positive_control": 10,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "This pass added one source-complete native PyGame strategy game and kept exact Fable evidence tied to repository history.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [

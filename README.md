@@ -2,9 +2,9 @@
 
 # 🎮 Awesome AI-Built Games
 
-### 665 verified games. Real source. No prompt-only filler.
+### 666 verified games. Real source. No prompt-only filler.
 
-[![Games](https://img.shields.io/badge/GAMES-665-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-466-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
+[![Games](https://img.shields.io/badge/GAMES-666-7c3aed?style=for-the-badge&logo=itchdotio&logoColor=white)](#game-library) [![Repositories](https://img.shields.io/badge/REPOSITORIES-467-2563eb?style=for-the-badge&logo=github&logoColor=white)](games.json) [![Three.js](https://img.shields.io/badge/3D%20GAMES-193-111827?style=for-the-badge&logo=threedotjs&logoColor=white)](#threejs-and-webgl)
 
 [![Stars](https://img.shields.io/github/stars/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=f59e0b)](https://github.com/agents-dev/find-games-last-week-made-with/stargazers) [![Forks](https://img.shields.io/github/forks/agents-dev/find-games-last-week-made-with?style=for-the-badge&logo=github&color=06b6d4)](https://github.com/agents-dev/find-games-last-week-made-with/forks)
 
@@ -19,16 +19,16 @@
 
 Most AI-game lists mix finished games, visual demos, empty repositories, and prompt collections. This list checks the repository, gameplay source, model evidence, and canonical GitHub identity before counting a game.
 
-**Yes, that is 665 games. Yes, each one links to source.**
+**Yes, that is 666 games. Yes, each one links to source.**
 
 ## ⚡ Collection at a glance
 
 | 🔎 Signal | 📊 Result |
 | --- | ---: |
-| 🎮 Independently counted games | **665** |
-| 📦 Included repositories | **466** |
+| 🎮 Independently counted games | **666** |
+| 📦 Included repositories | **467** |
 | 🧊 Three.js, WebGL, or WebGPU games | **193** |
-| 🛠️ Non-browser engine games | **197** |
+| 🛠️ Non-browser engine games | **198** |
 | 📸 Games with verified screenshot links | **100** |
 | 🧠 Games with direct prompt links | **17** |
 
@@ -70,7 +70,7 @@ Most AI-game lists mix finished games, visual demos, empty repositories, and pro
 
 Jump to a category:
 
-- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **197 games**
+- 🛠️ [Non-Browser Engines](#nonbrowser-engines) — **198 games**
 - ♟️ [Strategy, Simulation, and Sports](#strategy-simulation-and-sports) — **24 games**
 - 🧩 [Puzzle, Arcade, and Platformers](#puzzle-arcade-and-platformers) — **50 games**
 - 🗺️ [Adventure, RPG, and Exploration](#adventure-rpg-and-exploration) — **46 games**
@@ -83,7 +83,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 
 ## Non-Browser Engines
 
-> 🛠️ **197 verified games. Ranked by evidence-based quality score.**
+> 🛠️ **198 verified games. Ranked by evidence-based quality score.**
 
 - [**Breakneck Baseball**](https://github.com/hynding/breakneck-baseball) — ⭐ **9.6/10** · Claude Fable 5 · Rust, Bevy 0.15, Rapier, WebAssembly, Native desktop · 2.80 GFLOPS · _confirmed_ · [🔗 files](https://github.com/hynding/breakneck-baseball/blob/main/src/main.rs) · [▶️ play](https://hynding.github.io/breakneck-baseball/)
 - [**Bong — 末法残土**](https://github.com/Kizunad/Bong) — ⭐ **9.5/10** · Claude Opus 5 · Minecraft, Rust, Valence, Bevy 0.14 ECS, Fabric, Native desktop · 5 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kizunad/Bong/blob/main/server/src/main.rs)
@@ -129,6 +129,7 @@ Each compact row shows **rating**, **model**, **technology**, **FLOPS estimate**
 - [**AOT FABLE 5.1**](https://github.com/Ashen-Skool/Aot-Fable-5.1) — ⭐ **9.0/10** · Claude Fable 5.1 · Unity 6, C#, Universal Render Pipeline, WebGL, Native macOS · 6.50 GFLOPS · _confirmed_
 - [**Chase Game**](https://github.com/ayanamirei404/Pac_man_3d) — ⭐ **9.0/10** · Claude Opus 4.7 · Godot, GDScript, Jolt Physics, Native desktop · 4.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/ayanamirei404/Pac_man_3d/blob/4d1c704bf33161a4eb4b4ca81181f3e71c63bb3c/project.godot) · [📸 screenshot](https://raw.githubusercontent.com/ayanamirei404/Pac_man_3d/main/%E6%BC%94%E7%A4%BA%E7%85%A7%E7%89%87/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%88%B6%202026-06-04%20192312.gif)
 - [**CRITICAL HIT**](https://github.com/thequantummenece/Critical_Hit) — ⭐ **9.0/10** · Claude Opus 4.8 · Pygame-ce, Python, Native desktop · 900 MFLOPS · _confirmed_ · [🔗 files](https://github.com/thequantummenece/Critical_Hit/blob/main/main.py) · [📸 screenshot](https://github.com/thequantummenece/Critical_Hit/tree/main/assets/arenas)
+- [**Dot Grid**](https://github.com/honzaves/dotgame) — ⭐ **9.0/10** · Claude Fable 5 · Python, PyGame, NumPy, Native desktop, Territory strategy game, MCTS and neural-network AI · 1.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/honzaves/dotgame/blob/main/README.md)
 - [**FACET FIGHTER**](https://github.com/GOROman/gpt-6-astra-ps1-game-benchmark) — ⭐ **9.0/10** · GPT-6 Astra · C, PSn00bSDK, PlayStation 1, GitHub Actions, DuckStation · 20 MFLOPS · _creator-reported_
 - [**False Ritual**](https://github.com/lucas-wyd/False-Ritual) — ⭐ **9.0/10** · GPT-6 Astra, Codex · Godot 4.3, GDScript, Forward+ renderer, Native macOS, Native Windows · 6 GFLOPS · _confirmed_ · [🔗 files](https://github.com/lucas-wyd/False-Ritual/releases/latest) · [📸 screenshot](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_exterior_front.png) · [📸 screenshot](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_dining.png) · [📸 screenshot](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_living.png) · [📸 screenshot](https://github.com/lucas-wyd/False-Ritual/blob/main/art/reference/qa/carter/dusk_study.png)
 - [**Kyoril MMORPG**](https://github.com/Kyoril/mmo) — ⭐ **9.0/10** · Claude Opus 5 · Custom C++ engine, C++, OpenGL, MySQL, Native desktop · 2.20 GFLOPS · _confirmed_ · [🔗 files](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/src/mmo_client/client.cpp) · [📸 screenshot](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/screenshots/char_select.png) · [📸 screenshot](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/screenshots/ingame_01.png) · [📸 screenshot](https://github.com/Kyoril/mmo/blob/1841d90de444d988fdad1ddf5cbacbe5f7c0cfb0/screenshots/world_editor.png)

@@ -2005,3 +2005,7 @@ Reject [Emberfire](https://github.com/Xian55/Emberfire) because it is an incompl
 ### Pygame/Claude Opus native-game code-search audit
 
 Run the Pygame game query serially. Accept [Blue Ball](https://github.com/daviddgonzalez/BlueBall) because its README and source prove a runnable PyGame/Pymunk 2D physics platformer with multiple scenes, authored levels, hazards, checkpoints, AI ghost racing, genetic-algorithm training, audio and tests. Its history contains exact Claude Opus 4.8 trailers on audio and AI/game feature work. Count one new native game unit and keep the remaining Pygame result partition for serial inspection.
+
+### Pygame/Claude Fable native-game code-search audit
+
+Run the Pygame game query serially. Accept [Dot Grid](https://github.com/honzaves/dotgame) because its README and source prove a runnable PyGame territory strategy game with a documented ruleset, human and AI modes, MCTS, neural-network players, training, replay and tests. Its history contains exact Claude Fable 5 trailers on AI gameplay, training and replay fixes. Count one new native game unit and keep the remaining Pygame result partition for serial inspection.
