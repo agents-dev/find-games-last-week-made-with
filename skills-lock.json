@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "reddit-automation": {
+      "source": "flowkit-labs/skills",
+      "sourceType": "github",
+      "skillPath": "reddit-automation/SKILL.md",
+      "computedHash": "b9541be8aa1d4b0fa2e91730bc93e810c02bfb639aa951ad9a1a7612e4666c02"
+    }
+  }
+}
