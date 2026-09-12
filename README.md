@@ -931,7 +931,7 @@ The **0–10 rating** uses source completeness, playable mechanics, scope, tests
 
 ## Per-game notes
 
-Open the [per-game notes index](games/README.md) to read a short source-backed note for every named game unit. Each note links model evidence, gameplay source, and available screenshot assets. Use the placeholder only when the repository and related-source scan found no screenshot.
+Open the [games/](games/) directory or the [per-game notes index](games/README.md) to read a short source-backed note for every named game unit. Each note links model evidence, gameplay source, and available screenshot assets. Use the placeholder only when the repository and related-source scan found no screenshot.
 
 ## Contributing
 
