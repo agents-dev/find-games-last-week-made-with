@@ -8175,11 +8175,44 @@
       },
       "critique_note": "A date-partitioned commit search produced a high-yield batch. Serial source inspection separated actual gameplay repositories from Astra-name collisions, utilities, catalogs and unfinished projects. Private or unreachable demos remain source-verified only.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "Repository README screenshot source scan",
+      "query_key": "screenshot-scan:qualified-repositories:missing-games-json-screenshot-urls:serial",
+      "status": "completed",
+      "repositories_scanned_serially": 401,
+      "repositories_with_screenshot_sources": 61,
+      "image_sources_found": 142,
+      "failed_readme_requests": 56,
+      "accepted_repositories": [
+        "Repository README image links that survived the gameplay-image filter"
+      ],
+      "rejected_repositories": [],
+      "note": "Scan README markdown and HTML image tags from each qualifying repository that lacked a screenshot URL. Resolve relative links against the repository README, reject badges, logos, icons, navigation art, diagrams and progress sheets, and save surviving source URLs in research/screenshot-discoveries.json. Use source links in per-game notes; do not present placeholders as gameplay screenshots.",
+      "next_experiments": [
+        "Inspect awesome-list and creator-source pages for screenshot links not present in repository READMEs",
+        "Verify a sample of discovered image URLs serially before promoting them into games.json",
+        "Keep placeholders for repositories with no reliable screenshot source"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 8,
+        "verification_quality": 7,
+        "repeatability": 10,
+        "source_quality": 8,
+        "false_positive_control": 8,
+        "overall": 8,
+        "decision": "keep"
+      },
+      "critique_note": "The scan expanded screenshot coverage without weakening the game dataset. Some README images remain uncertain promotional or cover art, so notes label them as source assets and preserve placeholders when no image survives the filter.",
+      "critic": "manual conservative score after serial source scan"
     }
   ],
   "frontier": [
     "Target: 900 independently counted game units; current: 728 across 552 unique accessible repository records",
     "The 2026-09-10..2026-09-12 serial commit-search batch added 30 game units from 11 repositories",
+    "Per-game notes now cover 728 counted units as 692 named notes; 249 note rows have screenshot sources and 443 retain placeholders",
+    "The serial README image scan found 142 candidate image URLs across 61 repositories after filtering obvious non-game assets",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

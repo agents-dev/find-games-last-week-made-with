@@ -929,6 +929,10 @@ Each compact row shows **rating**, **model**, **technology**, **model-evidence g
 
 The **0–10 rating** uses source completeness, playable mechanics, scope, tests or deployment, and model-evidence strength. It is a curation estimate, not a review score or performance benchmark. The dataset keeps a FLOPS field as a low-confidence static FP32-work estimate at 60 FPS; it is not measured device performance or model-training compute.
 
+## Per-game notes
+
+Open the [per-game notes index](games/README.md) to read a short source-backed note for every named game unit. Each note links model evidence, gameplay source, and available screenshot assets. Use the placeholder only when the repository and related-source scan found no screenshot.
+
 ## Contributing
 
 Follow [the contribution guide](CONTRIBUTING.md). Provide the canonical repository, model-evidence URL, playable-source path, and evidence notes. Validate the dataset and regenerate this README before opening a pull request.

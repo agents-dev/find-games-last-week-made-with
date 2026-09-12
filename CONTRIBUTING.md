@@ -31,3 +31,14 @@ git diff --check
 ```
 
 Include the generated README update with the dataset update. Do not edit generated counts by hand.
+
+## Generate per-game notes
+
+Run the serial repository README scan when screenshot coverage needs an update.
+
+```sh
+node scripts/discover-readme-screenshots.mjs
+REFRESH_GAME_NOTES=1 node scripts/generate-game-notes.mjs
+```
+
+Review `research/screenshot-discoveries.json`. Treat README images as source assets, not as proof of a successful playtest. Keep a placeholder when no reliable screenshot exists. Commit the `games/` notes and the generated `games/README.md` with the source changes.

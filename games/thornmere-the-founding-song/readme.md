@@ -1,0 +1,44 @@
+# THORNMERE: The Founding Song
+
+> Verified game note.
+
+![THORNMERE: The Founding Song screenshot](https://raw.githubusercontent.com/dgahagan/THORNMERE/main/docs/screenshots/title.png)
+
+## At a glance
+
+- **Score:** 8.5/10
+- **Model:** Claude Fable 5
+- **Technology:** JavaScript, Canvas, Web Audio API
+- **Verified:** 2026-09-09
+- **Repository:** [https://github.com/dgahagan/THORNMERE](https://github.com/dgahagan/THORNMERE)
+- **Evidence:** [creator-reported model evidence](https://github.com/dgahagan/THORNMERE/blob/main/README.md)
+
+## Screenshots
+
+Use the source screenshot links below. The list records these assets from the game repository or a related source.
+
+- [screenshot 1](https://github.com/dgahagan/THORNMERE/blob/main/docs/screenshots/title.png)
+- [screenshot 2](https://github.com/dgahagan/THORNMERE/blob/main/docs/screenshots/town-street.png)
+- [screenshot 3](https://github.com/dgahagan/THORNMERE/blob/main/docs/screenshots/signboard.png)
+- [screenshot 4](https://github.com/dgahagan/THORNMERE/blob/main/docs/screenshots/dungeon-corridor.png)
+
+## Model attribution
+
+Open the evidence link above. Evidence grade: **creator-reported model evidence**.
+
+## Source description
+
+README, src, data, tests, and live HTML implement a playable first-person dungeon crawler with maze rendering, enemies, items, and audio; README attributes it to Claude Fable 5.
+
+### Gameplay source
+
+- [https://github.com/dgahagan/THORNMERE/blob/main/README.md](https://github.com/dgahagan/THORNMERE/blob/main/README.md)
+
+## Verification notes
+
+- **Status:** verified
+- **Counted units:** 1
+- **Discovery:** https://github.com/dgahagan/THORNMERE
+- **Screenshot discovery:** README image scan from the game repository
+
+[Back to the awesome list](../../README.md)

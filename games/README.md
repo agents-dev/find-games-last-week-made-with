@@ -1,0 +1,759 @@
+# Game notes
+
+Open the per-game notes. Use the source links to inspect model evidence, gameplay code, and screenshot assets.
+
+- **Counted game units:** 728
+- **Named game notes:** 692
+- **Aggregate notes:** 1 (some repositories document several units without separate names)
+- **Rows with screenshot sources:** 249
+- **Placeholder thumbnails:** 443
+- **Notes written in this run:** 692
+
+## Today
+
+- [Unfit for Print](./unfit-for-print/readme.md) — 9.7/10
+- [chess3dastra](./chess3dastra/readme.md) — 9.6/10
+- [Skylark Run](./skylark-run/readme.md) — 9.6/10
+- [Bubble Pop](./bubble-pop/readme.md) — 9.5/10
+- [Grand Theft Astra](./grand-theft-astra/readme.md) — 9.5/10
+- [Battle City](./battle-city-nickblack1919-battle-city/readme.md) — 9.4/10
+- [Haynes Quest](./haynes-quest/readme.md) — 9.4/10
+- [Balloon Pop](./balloon-pop/readme.md) — 9.3/10
+- [Explottens: Survival](./explottens-survival/readme.md) — 9.2/10
+- [Debug Dash](./debug-dash/readme.md) — 9.0/10
+
+## This week
+
+- [Unfit for Print](./unfit-for-print/readme.md) — 9.7/10
+- [chess3dastra](./chess3dastra/readme.md) — 9.6/10
+- [CYBER SUNDAY](./cyber-sunday/readme.md) — 9.6/10
+- [Skylark Run](./skylark-run/readme.md) — 9.6/10
+- [Bong — 末法残土](./bong/readme.md) — 9.5/10
+- [Bubble Pop](./bubble-pop/readme.md) — 9.5/10
+- [Grand Theft Astra](./grand-theft-astra/readme.md) — 9.5/10
+- [Just Five More Minutes](./just-five-more-minutes/readme.md) — 9.5/10
+- [Knife Dodge](./knife-dodge/readme.md) — 9.5/10
+- [Space Showdown](./space-showdown/readme.md) — 9.5/10
+- [THE LONG SILENCE](./the-long-silence/readme.md) — 9.5/10
+- [The Simpsons: Hit & Run — Browser Reconstruction](./the-simpsons-hit-run-browser-reconstruction/readme.md) — 9.5/10
+- [The Wandering Inn RPG](./the-wandering-inn-rpg/readme.md) — 9.5/10
+- [Wild Haggis Survivors](./wild-haggis-survivors/readme.md) — 9.5/10
+- [Wolfsbane](./wolfsbane/readme.md) — 9.5/10
+
+## This month
+
+- [Unfit for Print](./unfit-for-print/readme.md) — 9.7/10
+- [chess3dastra](./chess3dastra/readme.md) — 9.6/10
+- [CYBER SUNDAY](./cyber-sunday/readme.md) — 9.6/10
+- [Skylark Run](./skylark-run/readme.md) — 9.6/10
+- [Bong — 末法残土](./bong/readme.md) — 9.5/10
+- [Bubble Pop](./bubble-pop/readme.md) — 9.5/10
+- [Grand Theft Astra](./grand-theft-astra/readme.md) — 9.5/10
+- [Just Five More Minutes](./just-five-more-minutes/readme.md) — 9.5/10
+- [Knife Dodge](./knife-dodge/readme.md) — 9.5/10
+- [Space Showdown](./space-showdown/readme.md) — 9.5/10
+- [SUNBREAK — Downhill Club](./sunbreak-downhill-club/readme.md) — 9.5/10
+- [THE LONG SILENCE](./the-long-silence/readme.md) — 9.5/10
+- [The Simpsons: Hit & Run — Browser Reconstruction](./the-simpsons-hit-run-browser-reconstruction/readme.md) — 9.5/10
+- [The Wandering Inn RPG](./the-wandering-inn-rpg/readme.md) — 9.5/10
+- [Wild Haggis Survivors](./wild-haggis-survivors/readme.md) — 9.5/10
+- [Wolfsbane](./wolfsbane/readme.md) — 9.5/10
+- [Aeterna Chronicle](./aeterna-chronicle/readme.md) — 9.4/10
+- [Battle City](./battle-city-nickblack1919-battle-city/readme.md) — 9.4/10
+- [Beyond Boring: Death March](./beyond-boring-death-march/readme.md) — 9.4/10
+- [Breakneck Baseball](./breakneck-baseball/readme.md) — 9.4/10
+
+## All verified game units
+
+- [2048](./2048-alanwengyh-art-2048/readme.md) — 7.7/10
+- [2048](./2048/readme.md) — 8.9/10
+- [2048](./2048-patricker-treant/readme.md) — 9.6/10
+- [3D Game Vision Benchmark](./3d-game-vision-benchmark/readme.md) — 7.5/10
+- [3D Minesweeper](./3d-minesweeper/readme.md) — 7.0/10
+- [3D Space Shooter](./3d-space-shooter/readme.md) — 7.0/10
+- [3DFPS](./3dfps/readme.md) — 7.0/10
+- [7 Minutes — City Crisis](./7-minutes-city-crisis/readme.md) — 9.3/10
+- [8-Ball Pool](./8-ball-pool/readme.md) — 9.0/10
+- [A Game](./a-game/readme.md) — 6.8/10
+- [A Thousand Skies](./a-thousand-skies/readme.md) — 7.5/10
+- [Abstracts](./abstracts/readme.md) — 7.0/10
+- [Advanced Daisenryaku PC](./advanced-daisenryaku-pc/readme.md) — 8.0/10
+- [AEON DRIFT](./aeon-drift/readme.md) — 7.5/10
+- [AERIS — Drone Racing](./aeris-drone-racing/readme.md) — 9.0/10
+- [Aeterna Chronicle](./aeterna-chronicle/readme.md) — 9.4/10
+- [Africa 2 Ice: Paleolithic Dispersal](./africa-2-ice-paleolithic-dispersal/readme.md) — 9.1/10
+- [Afterglow](./afterglow/readme.md) — 6.5/10
+- [Age of Ops](./age-of-ops/readme.md) — 7.0/10
+- [Agentic APAR Demo](./agentic-apar-demo/readme.md) — 8.7/10
+- [Ages of Aether Native](./ages-of-aether-native/readme.md) — 8.6/10
+- [AI Choose Now!](./ai-choose-now/readme.md) — 7.8/10
+- [AIGameTest2 — Taoist card roguelite](./aigametest2-taoist-card-roguelite/readme.md) — 8.7/10
+- [Air Strider](./air-strider/readme.md) — 9.0/10
+- [Airlock Escape](./airlock-escape/readme.md) — 8.5/10
+- [Alfred knækker koden (Alfred Cracks the Code)](./alfred-kn-kker-koden-alfred-cracks-the-code/readme.md) — 8.8/10
+- [Aliasing](./aliasing/readme.md) — 8.5/10
+- [Amazons](./amazons/readme.md) — 9.6/10
+- [Amp Build 1](./amp-build-1/readme.md) — 8.5/10
+- [Amp Build 2](./amp-build-2/readme.md) — 8.5/10
+- [Amp Build 3](./amp-build-3/readme.md) — 8.5/10
+- [Anti-Reversi](./anti-reversi/readme.md) — 9.6/10
+- [AOT FABLE 5.1](./aot-fable-5-1/readme.md) — 9.0/10
+- [APERTURE — Fly Around Sculpture](./aperture-fly-around-sculpture/readme.md) — 8.9/10
+- [Apex Formula](./apex-formula/readme.md) — 8.0/10
+- [APEX GP](./apex-gp/readme.md) — 7.0/10
+- [Aradama Survivors](./aradama-survivors/readme.md) — 9.1/10
+- [Arena Shooter 3D](./arena-shooter-3d/readme.md) — 8.4/10
+- [Arx II](./arx-ii/readme.md) — 9.2/10
+- [ASHFALL](./ashfall/readme.md) — 7.0/10
+- [Ashlands](./ashlands/readme.md) — 7.0/10
+- [Association Sort](./association-sort/readme.md) — 8.3/10
+- [Asteroids](./asteroids/readme.md) — 7.8/10
+- [Asteroids](./asteroids-markm692-asteroids/readme.md) — 8.3/10
+- [Astra — Chapter I: A delivery for Gundren](./astra-chapter-i-a-delivery-for-gundren/readme.md) — 8.0/10
+- [ASTRA // First Village](./astra-first-village/readme.md) — 8.8/10
+- [ASTRA AIR COMBAT](./astra-air-combat/readme.md) — 9.0/10
+- [Astra Dash](./astra-dash/readme.md) — 8.5/10
+- [Astra Tetris](./astra-tetris/readme.md) — 8.5/10
+- [AstroHop](./astrohop/readme.md) — 7.0/10
+- [Aurora Sea](./aurora-sea/readme.md) — 8.5/10
+- [Awawa Quest](./awawa-quest/readme.md) — 8.0/10
+- [AZURA — L'île aux toits d'argile](./azura-l-ile-aux-toits-d-argile/readme.md) — 8.7/10
+- [Backroom Escape](./backroom-escape/readme.md) — 7.5/10
+- [Bad Idea](./bad-idea/readme.md) — 8.7/10
+- [Badge Realms](./badge-realms/readme.md) — 6.5/10
+- [Bagh-Chal](./bagh-chal/readme.md) — 9.6/10
+- [Balance Astronaut](./balance-astronaut/readme.md) — 7.5/10
+- [Balloon Pop](./balloon-pop/readme.md) — 9.3/10
+- [Ballz](./ballz/readme.md) — 8.0/10
+- [Basketball Game](./basketball-game-quangpham2803-basketball-game/readme.md) — 8.0/10
+- [Basketball Game](./basketball-game/readme.md) — 7.0/10
+- [Batman 2D Game](./batman-2d-game/readme.md) — 7.0/10
+- [Battle City](./battle-city/readme.md) — 7.8/10
+- [Battle City](./battle-city-nickblack1919-battle-city/readme.md) — 9.4/10
+- [BattleGrid](./battlegrid/readme.md) — 8.0/10
+- [Beach Volley FPS](./beach-volley-fps/readme.md) — 7.0/10
+- [Beat Streets — Web](./beat-streets-web/readme.md) — 7.5/10
+- [Bengaluru — After the Rain](./bengaluru-after-the-rain/readme.md) — 8.4/10
+- [Beyond Boring: Death March](./beyond-boring-death-march/readme.md) — 9.4/10
+- [Beyond Boring: The Game](./beyond-boring-the-game/readme.md) — 7.5/10
+- [Big Bite](./big-bite/readme.md) — 9.0/10
+- [Big Pig](./big-pig/readme.md) — 9.6/10
+- [Bird Tic-Toe](./bird-tic-toe/readme.md) — 6.5/10
+- [Blackjack](./blackjack/readme.md) — 8.0/10
+- [Blackjack!](./blackjack-kevicency-kumoware/readme.md) — 8.3/10
+- [BLACKLINE — Stealth Heist](./blackline-stealth-heist/readme.md) — 9.0/10
+- [BLACKSITE](./blacksite/readme.md) — 8.5/10
+- [BLACKWATER — Silent Harbor](./blackwater-silent-harbor/readme.md) — 8.5/10
+- [Blind Arena](./blind-arena/readme.md) — 8.6/10
+- [Block World CN](./block-world-cn/readme.md) — 8.5/10
+- [BLOCKS](./blocks/readme.md) — 8.0/10
+- [Blocky Obby Dash](./blocky-obby-dash/readme.md) — 8.5/10
+- [BLR / After Hours — Open World](./blr-after-hours-open-world/readme.md) — 8.4/10
+- [Blue Ball](./blue-ball/readme.md) — 8.9/10
+- [Bluff Circle](./bluff-circle/readme.md) — 8.5/10
+- [Bomberman Clone](./bomberman-clone/readme.md) — 7.5/10
+- [Bong — 末法残土](./bong/readme.md) — 9.5/10
+- [Branch Zero](./branch-zero/readme.md) — 8.3/10
+- [Brazilian Draughts](./brazilian-draughts/readme.md) — 9.6/10
+- [Breakneck Baseball](./breakneck-baseball/readme.md) — 9.4/10
+- [Breakout](./breakout/readme.md) — 7.0/10
+- [Breakout — ChatGPT Gauntlet Loop Experiment](./breakout-chatgpt-gauntlet-loop-experiment/readme.md) — 7.0/10
+- [Breakout Pygame](./breakout-pygame/readme.md) — 6.5/10
+- [Brothers](./brothers/readme.md) — 9.3/10
+- [Browser Chess](./browser-chess/readme.md) — 8.1/10
+- [Browser MMORPG](./browser-mmorpg/readme.md) — 8.9/10
+- [Bubble Pop](./bubble-pop/readme.md) — 9.5/10
+- [Bubble Wrap Simulator](./bubble-wrap-simulator/readme.md) — 7.5/10
+- [BuildYourTown](./buildyourtown/readme.md) — 9.0/10
+- [Bulls & Cows](./bulls-cows/readme.md) — 9.6/10
+- [BurgerStacker](./burgerstacker/readme.md) — 8.4/10
+- [Call of Doodie](./call-of-doodie/readme.md) — 7.0/10
+- [Calude Kodo (狩人行動)](./calude-kodo/readme.md) — 8.5/10
+- [Car Game at Sunset](./car-game-at-sunset/readme.md) — 7.0/10
+- [Car Racer](./car-racer/readme.md) — 9.0/10
+- [Card Game](./card-game/readme.md) — 8.4/10
+- [Cargo Crane](./cargo-crane/readme.md) — 8.5/10
+- [Carnival Cannon Crush](./carnival-cannon-crush/readme.md) — 8.5/10
+- [Caro / Gomoku](./caro-gomoku/readme.md) — 7.9/10
+- [Cascade](./cascade/readme.md) — 8.5/10
+- [Cat Dog Queue](./cat-dog-queue/readme.md) — 7.8/10
+- [Catch Angel](./catch-angel/readme.md) — 8.2/10
+- [Celadon: The Long Ash](./celadon-the-long-ash/readme.md) — 8.0/10
+- [Chase Game](./chase-game/readme.md) — 9.0/10
+- [chess3dastra](./chess3dastra/readme.md) — 9.6/10
+- [Chiki Chase](./chiki-chase/readme.md) — 7.8/10
+- [Chinese Word Hunt](./chinese-word-hunt/readme.md) — 6.5/10
+- [Chomp](./chomp/readme.md) — 9.6/10
+- [CHOP PRICER](./chop-pricer/readme.md) — 7.0/10
+- [Choplifter — Rescue Operations](./choplifter-rescue-operations/readme.md) — 8.8/10
+- [Cinder Yard](./cinder-yard/readme.md) — 8.5/10
+- [Circle Down](./circle-down/readme.md) — 8.5/10
+- [CityMaker — 3D Landmark 2048](./citymaker-3d-landmark-2048/readme.md) — 9.0/10
+- [Classic Concentration](./classic-concentration/readme.md) — 8.4/10
+- [Claude Bandicoot](./claude-bandicoot/readme.md) — 7.0/10
+- [Claude Build 1](./claude-build-1/readme.md) — 8.5/10
+- [Claude Build 2](./claude-build-2/readme.md) — 8.5/10
+- [Claude Build 3](./claude-build-3/readme.md) — 8.5/10
+- [Claude Chess](./claude-chess/readme.md) — 9.2/10
+- [Claude of Duty](./claude-of-duty/readme.md) — 7.5/10
+- [Claude of Duty](./claude-of-duty-mshumer-claude-of-duty/readme.md) — 6.5/10
+- [Claude of Duty: Phadda](./claude-of-duty-phadda/readme.md) — 7.5/10
+- [Claude of Tanks](./claude-of-tanks/readme.md) — 7.0/10
+- [Claude's Game](./claude-s-game/readme.md) — 6.5/10
+- [Claude\Zombies](./claude-zombies/readme.md) — 7.5/10
+- [Clawd Pop 3D](./clawd-pop-3d/readme.md) — 7.5/10
+- [Clay Kart](./clay-kart/readme.md) — 8.0/10
+- [Clean the Mirror](./clean-the-mirror/readme.md) — 8.2/10
+- [Climb](./climb/readme.md) — 9.6/10
+- [Clobber](./clobber/readme.md) — 9.6/10
+- [Cloud Bounce](./cloud-bounce/readme.md) — 9.5/10
+- [Cờ ca rô VN](./co-ca-ro-vn/readme.md) — 8.0/10
+- [Codex of Duty](./codex-of-duty/readme.md) — 7.5/10
+- [Col](./col/readme.md) — 9.6/10
+- [Combo Challenge](./combo-challenge/readme.md) — 9.3/10
+- [Combo Grid](./combo-grid/readme.md) — 8.5/10
+- [Commander Simulator](./commander-simulator/readme.md) — 9.7/10
+- [Connect Four](./connect-four/readme.md) — 9.6/10
+- [Connect Six](./connect-six/readme.md) — 9.6/10
+- [Coro Solto](./coro-solto/readme.md) — 7.0/10
+- [CRACKED](./cracked/readme.md) — 8.1/10
+- [Cram](./cram/readme.md) — 9.6/10
+- [CRITICAL HIT](./critical-hit/readme.md) — 9.0/10
+- [Crosshatch](./crosshatch/readme.md) — 8.2/10
+- [Crossy Farm](./crossy-farm/readme.md) — 8.0/10
+- [CS Clone Fable5](./cs-clone-fable5/readme.md) — 7.5/10
+- [Cube Basher](./cube-basher/readme.md) — 8.0/10
+- [Cube Run](./cube-run/readme.md) — 8.0/10
+- [Curse of the Dungeon Engine](./curse-of-the-dungeon-engine/readme.md) — 9.3/10
+- [CUSTOMS — Escape Raid](./customs-escape-raid/readme.md) — 8.0/10
+- [CYBER SUNDAY](./cyber-sunday/readme.md) — 9.6/10
+- [Cylinder Four](./cylinder-four/readme.md) — 9.6/10
+- [Deal or No Deal](./deal-or-no-deal/readme.md) — 8.0/10
+- [Debug Dash](./debug-dash/readme.md) — 9.0/10
+- [Deck Shenanigans](./deck-shenanigans/readme.md) — 7.0/10
+- [DECWAR](./decwar/readme.md) — 8.7/10
+- [Deephaul](./deephaul/readme.md) — 7.0/10
+- [Deepshaft](./deepshaft/readme.md) — 9.5/10
+- [DESCENT](./descent/readme.md) — 7.5/10
+- [DEV QUEST](./dev-quest/readme.md) — 7.5/10
+- [Dice Catcher](./dice-catcher/readme.md) — 7.5/10
+- [Dig: Deep Descent](./dig-deep-descent/readme.md) — 8.1/10
+- [Digi Garden](./digi-garden/readme.md) — 8.5/10
+- [Dodger](./dodger/readme.md) — 9.0/10
+- [DogFighter](./dogfighter/readme.md) — 8.3/10
+- [Dogs of War](./dogs-of-war/readme.md) — 7.0/10
+- [Domineering](./domineering/readme.md) — 9.6/10
+- [Donify](./donify/readme.md) — 9.1/10
+- [Doom Furniture Refurb](./doom-furniture-refurb/readme.md) — 6.5/10
+- [Doomarena3D](./doomarena3d/readme.md) — 9.1/10
+- [Dot Grid](./dot-grid/readme.md) — 9.0/10
+- [Dotpio](./dotpio/readme.md) — 8.5/10
+- [Dots & Boxes](./dots-boxes/readme.md) — 9.6/10
+- [Doublet](./doublet/readme.md) — 8.2/10
+- [Dragon Quest III — Ebitengine Remake](./dragon-quest-iii-ebitengine-remake/readme.md) — 9.3/10
+- [Dragon Quest-style RPG Game 2](./dragon-quest-style-rpg-game-2/readme.md) — 6.5/10
+- [Dragon Quest-style RPG Game 3](./dragon-quest-style-rpg-game-3/readme.md) — 6.5/10
+- [Dragons vs Machines](./dragons-vs-machines/readme.md) — 8.7/10
+- [Draughts](./draughts/readme.md) — 9.6/10
+- [Drawdown](./drawdown/readme.md) — 7.0/10
+- [Drift Away Arrows](./drift-away-arrows/readme.md) — 8.5/10
+- [DRIFTLANDS](./driftlands/readme.md) — 7.0/10
+- [Drone Arena](./drone-arena/readme.md) — 8.5/10
+- [Dune Browser Game](./dune-browser-game/readme.md) — 6.5/10
+- [Dungeon of Opus](./dungeon-of-opus/readme.md) — 8.4/10
+- [DungeonMaster D&D Game](./dungeonmaster-d-d-game/readme.md) — 7.8/10
+- [Dust Corridor](./dust-corridor/readme.md) — 7.5/10
+- [DUSTMAKER](./dustmaker/readme.md) — 7.0/10
+- [DwarfMiner](./dwarfminer/readme.md) — 8.8/10
+- [ECHO — Echo Loop Puzzler](./echo-echo-loop-puzzler/readme.md) — 9.0/10
+- [ECHO / SHIFT — Rhythm Bullet Hell](./echo-shift-rhythm-bullet-hell/readme.md) — 9.0/10
+- [Elk Dismount](./elk-dismount/readme.md) — 8.8/10
+- [Ember Run](./ember-run/readme.md) — 7.5/10
+- [Ember Tactics](./ember-tactics/readme.md) — 7.5/10
+- [Emberlight](./emberlight/readme.md) — 8.5/10
+- [Embervale](./embervale/readme.md) — 7.5/10
+- [Embervault — Procedural Roguelike](./embervault-procedural-roguelike/readme.md) — 9.0/10
+- [Emberwood](./emberwood/readme.md) — 7.5/10
+- [Emblem Rogue](./emblem-rogue/readme.md) — 9.3/10
+- [Endless Dash](./endless-dash/readme.md) — 9.5/10
+- [Energy Clicker](./energy-clicker/readme.md) — 8.0/10
+- [EUC Lean Too Much](./euc-lean-too-much/readme.md) — 8.4/10
+- [Euclid's Game](./euclid-s-game/readme.md) — 9.6/10
+- [Everdeep](./everdeep/readme.md) — 7.0/10
+- [Explottens: Survival](./explottens-survival/readme.md) — 9.2/10
+- [Fable City](./fable-city/readme.md) — 8.5/10
+- [Fable City GTA](./fable-city-gta/readme.md) — 7.5/10
+- [Fable Flight](./fable-flight/readme.md) — 8.0/10
+- [Fable Kart](./fable-kart/readme.md) — 8.5/10
+- [Fable Katamari](./fable-katamari/readme.md) — 8.0/10
+- [Fable Theft Auto 5.1](./fable-theft-auto-5-1/readme.md) — 8.0/10
+- [Fable5](./fable5/readme.md) — 7.5/10
+- [Fable5 Minecraft](./fable5-minecraft/readme.md) — 7.0/10
+- [FACET FIGHTER](./facet-fighter/readme.md) — 9.0/10
+- [Failure is Not an Option](./failure-is-not-an-option/readme.md) — 9.0/10
+- [Falling Catch](./falling-catch/readme.md) — 9.3/10
+- [Fallout Ember](./fallout-ember/readme.md) — 7.5/10
+- [False Ritual](./false-ritual/readme.md) — 9.0/10
+- [Fan Re-created Red Alert 2](./fan-re-created-red-alert-2/readme.md) — 9.0/10
+- [Fantasy League vs Field of Dreams](./fantasy-league-vs-field-of-dreams/readme.md) — 7.5/10
+- [Farm Game](./farm-game/readme.md) — 8.0/10
+- [FarmGame](./farmgame/readme.md) — 7.8/10
+- [FC 27](./fc-27/readme.md) — 8.0/10
+- [Fieldrunners 2 Remake](./fieldrunners-2-remake/readme.md) — 8.2/10
+- [Find Panda](./find-panda/readme.md) — 7.9/10
+- [FinOps Odyssey](./finops-odyssey/readme.md) — 8.6/10
+- [FireRed RPG](./firered-rpg/readme.md) — 7.5/10
+- [First Capture](./first-capture/readme.md) — 9.6/10
+- [Fish Catch](./fish-catch/readme.md) — 9.0/10
+- [Flappy Bird](./flappy-bird/readme.md) — 7.8/10
+- [Flappy Bird Opus 4.7](./flappy-bird-opus-4-7/readme.md) — 6.5/10
+- [Flappy Race](./flappy-race/readme.md) — 9.1/10
+- [Flappy Skies](./flappy-skies/readme.md) — 8.0/10
+- [Flip Match](./flip-match/readme.md) — 7.5/10
+- [Flip Runner Racing](./flip-runner-racing/readme.md) — 8.0/10
+- [Flip Wall](./flip-wall/readme.md) — 8.5/10
+- [Food Fight](./food-fight/readme.md) — 8.5/10
+- [Forest Pests](./forest-pests/readme.md) — 7.0/10
+- [Fox & Hounds](./fox-hounds/readme.md) — 9.6/10
+- [Frog Feast](./frog-feast/readme.md) — 7.5/10
+- [Frog Hopper](./frog-hopper/readme.md) — 8.1/10
+- [Frontline](./frontline/readme.md) — 9.6/10
+- [Frost Hop](./frost-hop/readme.md) — 8.5/10
+- [Frostline Kart](./frostline-kart/readme.md) — 8.0/10
+- [Frosty Tactics](./frosty-tactics/readme.md) — 6.5/10
+- [Fruit Ninja](./fruit-ninja/readme.md) — 8.8/10
+- [Fuzhou Mahjong](./fuzhou-mahjong/readme.md) — 8.4/10
+- [FW16 Pong Wars](./fw16-pong-wars/readme.md) — 7.8/10
+- [Gale](./gale/readme.md) — 9.6/10
+- [Gallicus 2.0](./gallicus-2-0/readme.md) — 8.0/10
+- [GAME_CORE — Adaptive Boss Arena](./game-core-adaptive-boss-arena/readme.md) — 9.3/10
+- [gameday](./gameday/readme.md) — 9.1/10
+- [Gauntlet Loop × Unity CLI — 2.5D RPG](./gauntlet-loop-unity-cli-2-5d-rpg/readme.md) — 7.0/10
+- [GemMatch](./gemmatch/readme.md) — 7.5/10
+- [General Orders: Sengoku Jidai](./general-orders-sengoku-jidai/readme.md) — 9.5/10
+- [Geometry Quest](./geometry-quest/readme.md) — 7.8/10
+- [Ghost Guild](./ghost-guild/readme.md) — 9.4/10
+- [Giveaway Checkers](./giveaway-checkers/readme.md) — 9.6/10
+- [Gloamrun](./gloamrun/readme.md) — 9.4/10
+- [GLUP — Nila y el pez gato](./glup-nila-y-el-pez-gato/readme.md) — 8.9/10
+- [Goal Kick](./goal-kick/readme.md) — 9.5/10
+- [Godot 2048](./godot-2048/readme.md) — 7.5/10
+- [Gogh Strike](./gogh-strike/readme.md) — 7.5/10
+- [GoGo Arabic](./gogo-arabic/readme.md) — 9.1/10
+- [Gomoku](./gomoku-patricker-treant/readme.md) — 9.6/10
+- [Gomoku](./gomoku/readme.md) — 7.9/10
+- [Gomoku Web Game](./gomoku-web-game/readme.md) — 8.7/10
+- [Gorillas](./gorillas/readme.md) — 7.0/10
+- [GPT-6 Astra Side-Scroller](./gpt-6-astra-side-scroller/readme.md) — 7.2/10
+- [Gran Mayhem](./gran-mayhem/readme.md) — 7.0/10
+- [Grand Theft Astra](./grand-theft-astra/readme.md) — 9.5/10
+- [Gravity Box — Campaign 100](./gravity-box-campaign-100/readme.md) — 9.4/10
+- [Grid Wars](./grid-wars/readme.md) — 8.0/10
+- [Gridiron GM](./gridiron-gm/readme.md) — 7.0/10
+- [GridWatch Match Web](./gridwatch-match-web/readme.md) — 8.9/10
+- [Groot Theft Bakkie](./groot-theft-bakkie/readme.md) — 7.0/10
+- [Group Survival Game](./group-survival-game/readme.md) — 7.0/10
+- [Guess the Output](./guess-the-output/readme.md) — 9.0/10
+- [Gura Gura Iseki](./gura-gura-iseki/readme.md) — 7.0/10
+- [ha·ggis Hub](./ha-ggis-hub/readme.md) — 8.9/10
+- [Haynes Quest](./haynes-quest/readme.md) — 9.4/10
+- [HELLGRID](./hellgrid/readme.md) — 8.0/10
+- [Heroes Clone](./heroes-clone/readme.md) — 9.1/10
+- [Hex](./hex/readme.md) — 9.6/10
+- [Hex Danmaku](./hex-danmaku/readme.md) — 9.2/10
+- [Hitman 2016 Demo](./hitman-2016-demo/readme.md) — 7.0/10
+- [HOLDFAST](./holdfast/readme.md) — 9.2/10
+- [Hollow Lullaby](./hollow-lullaby/readme.md) — 8.7/10
+- [Hollow Pines](./hollow-pines/readme.md) — 8.0/10
+- [Hollow Road](./hollow-road/readme.md) — 7.0/10
+- [Hollowmere](./hollowmere/readme.md) — 8.0/10
+- [Hollowmere](./hollowmere-sorrycc-fable-arcade/readme.md) — 8.0/10
+- [Hooper](./hooper/readme.md) — 8.5/10
+- [Hvad er klokken? (What Is the Time?)](./hvad-er-klokken-what-is-the-time/readme.md) — 8.8/10
+- [Hydra Minecraft](./hydra-minecraft/readme.md) — 8.0/10
+- [HypeJumper](./hypejumper/readme.md) — 8.6/10
+- [Icy Penguin Slide](./icy-penguin-slide/readme.md) — 8.6/10
+- [Idle ARPG](./idle-arpg/readme.md) — 9.2/10
+- [In a Nutshell](./in-a-nutshell/readme.md) — 8.0/10
+- [Ink Rogue](./ink-rogue/readme.md) — 7.5/10
+- [International Draughts](./international-draughts/readme.md) — 9.6/10
+- [Into the Depths](./into-the-depths/readme.md) — 8.8/10
+- [Iridium Reach](./iridium-reach/readme.md) — 7.0/10
+- [Iron Man: Legion Protocol](./iron-man-legion-protocol/readme.md) — 8.0/10
+- [Iron Resolve](./iron-resolve/readme.md) — 7.0/10
+- [Italian Draughts](./italian-draughts/readme.md) — 9.6/10
+- [JE Trivia](./je-trivia/readme.md) — 8.2/10
+- [Jefftris](./jefftris/readme.md) — 8.7/10
+- [Jelajah Antariksa](./jelajah-antariksa/readme.md) — 7.0/10
+- [Jelly Baby](./jelly-baby/readme.md) — 7.5/10
+- [Joust](./joust/readme.md) — 9.6/10
+- [Joyride](./joyride/readme.md) — 8.0/10
+- [Jump & Run](./jump-run/readme.md) — 9.5/10
+- [JUNKRUN](./junkrun/readme.md) — 9.4/10
+- [Just Five More Minutes](./just-five-more-minutes/readme.md) — 9.5/10
+- [Kaijudo](./kaijudo/readme.md) — 8.8/10
+- [KamiKakushi — An Incremental RPG](./kamikakushi-an-incremental-rpg/readme.md) — 9.3/10
+- [Kart Royale](./kart-royale/readme.md) — 7.0/10
+- [Katan3D (Hexland)](./katan3d-hexland/readme.md) — 8.7/10
+- [Keyboard Idle](./keyboard-idle/readme.md) — 8.5/10
+- [KINDLE](./kindle/readme.md) — 7.5/10
+- [Knife Dodge](./knife-dodge/readme.md) — 9.5/10
+- [Kōnane](./konane/readme.md) — 9.6/10
+- [Koroba 006](./koroba-006/readme.md) — 7.0/10
+- [Korovany](./korovany/readme.md) — 7.5/10
+- [Kyoril MMORPG](./kyoril-mmorpg/readme.md) — 9.0/10
+- [Landlord: London 2026](./landlord-london-2026/readme.md) — 7.5/10
+- [Lanterns](./lanterns/readme.md) — 9.1/10
+- [Lasker Morris](./lasker-morris/readme.md) — 9.6/10
+- [Last Beacon](./last-beacon/readme.md) — 8.0/10
+- [Last Keep](./last-keep/readme.md) — 8.5/10
+- [Last Metro](./last-metro/readme.md) — 9.0/10
+- [Lastlight](./lastlight-ben-gy-lastlight/readme.md) — 9.4/10
+- [LASTLIGHT](./lastlight/readme.md) — 8.8/10
+- [Len Choa](./len-choa/readme.md) — 9.6/10
+- [Leonida](./leonida/readme.md) — 8.0/10
+- [Leonida Stories 3D](./leonida-stories-3d/readme.md) — 8.0/10
+- [Lille](./lille/readme.md) — 8.4/10
+- [Little Flock · 小羊慢慢](./little-flock/readme.md) — 9.0/10
+- [LUMA — The Garden of Light](./luma-the-garden-of-light/readme.md) — 8.5/10
+- [Mainspring](./mainspring/readme.md) — 8.0/10
+- [Malandro — Cidade Maravilhosa](./malandro-cidade-maravilhosa/readme.md) — 7.5/10
+- [Mancala](./mancala/readme.md) — 9.6/10
+- [Mangoidiots Solitaire](./mangoidiots-solitaire/readme.md) — 9.1/10
+- [MaskGame](./maskgame/readme.md) — 8.8/10
+- [Math Defense: The Last Frontier](./math-defense-the-last-frontier/readme.md) — 8.0/10
+- [Math Mage](./math-mage/readme.md) — 8.5/10
+- [Math Racing](./math-racing/readme.md) — 9.3/10
+- [Math Shooter](./math-shooter/readme.md) — 9.3/10
+- [Mechapede](./mechapede/readme.md) — 8.8/10
+- [Melodia Melusina](./melodia-melusina/readme.md) — 8.5/10
+- [Melon Lab — 瓜体实验室](./melon-lab/readme.md) — 8.4/10
+- [Memory](./memory/readme.md) — 7.0/10
+- [Merchant's Keep](./merchant-s-keep/readme.md) — 8.4/10
+- [Metal Assault](./metal-assault/readme.md) — 7.5/10
+- [Meteor Dodge](./meteor-dodge/readme.md) — 9.5/10
+- [Micro Game Jam](./micro-game-jam/readme.md) — 7.5/10
+- [MICROSTRIDE — Run on Shoes](./microstride-run-on-shoes/readme.md) — 8.9/10
+- [Milady's Knight: Blightfall](./milady-s-knight-blightfall/readme.md) — 8.2/10
+- [Mind The Tower](./mind-the-tower/readme.md) — 8.3/10
+- [MineClaude](./mineclaude/readme.md) — 9.0/10
+- [Minecraft Clone Fable5](./minecraft-clone-fable5/readme.md) — 7.0/10
+- [Minesweeper](./minesweeper/readme.md) — 8.2/10
+- [Mirror Breakout](./mirror-breakout/readme.md) — 7.0/10
+- [Mirror Tap](./mirror-tap/readme.md) — 7.0/10
+- [MirrorForge](./mirrorforge/readme.md) — 8.5/10
+- [Missile Command](./missile-command/readme.md) — 8.6/10
+- [Mix-Up Magic](./mix-up-magic/readme.md) — 8.9/10
+- [MONQUEST](./monquest/readme.md) — 6.5/10
+- [monsterquest](./monsterquest/readme.md) — 7.0/10
+- [Moonberry Trail](./moonberry-trail/readme.md) — 6.5/10
+- [moorestech](./moorestech/readme.md) — 9.4/10
+- [morBreaker](./morbreaker/readme.md) — 8.6/10
+- [Mosswing](./mosswing/readme.md) — 8.4/10
+- [Mosswing](./mosswing-celia827-game-melon-field-lab/readme.md) — 8.1/10
+- [Mu Tōrere](./mu-torere/readme.md) — 9.6/10
+- [Multiplication Chain](./multiplication-chain/readme.md) — 9.3/10
+- [Multiplication Farm](./multiplication-farm/readme.md) — 9.3/10
+- [Murmur](./murmur/readme.md) — 8.0/10
+- [My Snowboard](./my-snowboard/readme.md) — 8.4/10
+- [Namioto](./namioto/readme.md) — 8.8/10
+- [Neon Arena](./neon-arena/readme.md) — 8.0/10
+- [NEON DAWN // 夜明け前線](./neon-dawn/readme.md) — 7.0/10
+- [Neon Dodge Arena](./neon-dodge-arena/readme.md) — 6.5/10
+- [Neon Drift](./neon-drift/readme.md) — 7.9/10
+- [Neon Overdrive](./neon-overdrive/readme.md) — 7.5/10
+- [Neon Precinct](./neon-precinct/readme.md) — 7.0/10
+- [Neon Snake — Fable baseline](./neon-snake-fable-baseline/readme.md) — 8.7/10
+- [Neon Survivor](./neon-survivor/readme.md) — 7.0/10
+- [NEON WARDEN](./neon-warden/readme.md) — 9.0/10
+- [NeonBeat](./neonbeat/readme.md) — 7.0/10
+- [Nerd of Duty](./nerd-of-duty/readme.md) — 7.5/10
+- [Neural Sight](./neural-sight/readme.md) — 9.2/10
+- [Nightfall](./nightfall/readme.md) — 8.0/10
+- [Nim](./nim/readme.md) — 9.6/10
+- [Nine Men's Morris](./nine-men-s-morris/readme.md) — 9.6/10
+- [No AI's Sky](./no-ai-s-sky/readme.md) — 8.0/10
+- [No-Tac-Toe](./no-tac-toe/readme.md) — 9.6/10
+- [NoGo](./nogo/readme.md) — 9.6/10
+- [NULLSPACE](./nullspace/readme.md) — 9.3/10
+- [Number Match](./number-match/readme.md) — 9.3/10
+- [Number Sliding Puzzle](./number-sliding-puzzle/readme.md) — 8.9/10
+- [Onslaught](./onslaught/readme.md) — 8.5/10
+- [OpenCiv1++](./openciv1/readme.md) — 9.1/10
+- [OpenSamguk](./opensamguk/readme.md) — 9.6/10
+- [Operation Blackout](./operation-blackout/readme.md) — 7.0/10
+- [Operation Blackout](./operation-blackout-taozhuo-operation-blackout/readme.md) — 7.5/10
+- [Operation Ironhold](./operation-ironhold/readme.md) — 7.5/10
+- [Ora et Labora](./ora-et-labora/readme.md) — 8.6/10
+- [Order & Chaos](./order-chaos/readme.md) — 9.6/10
+- [Origin 16-bit ARPG](./origin-16-bit-arpg/readme.md) — 7.5/10
+- [Orvit Timed Tech Quiz](./orvit-timed-tech-quiz/readme.md) — 8.0/10
+- [OSRS Tower Defense](./osrs-tower-defense/readme.md) — 9.1/10
+- [Ourcade](./ourcade/readme.md) — 8.0/10
+- [Outrun O5](./outrun-o5/readme.md) — 7.0/10
+- [Oware](./oware/readme.md) — 9.6/10
+- [P(DOOM)](./p-doom/readme.md) — 9.3/10
+- [PAC-CLONE](./pac-clone/readme.md) — 8.5/10
+- [Pachinko Builder](./pachinko-builder/readme.md) — 7.6/10
+- [Panchigi](./panchigi/readme.md) — 9.1/10
+- [Para-Ti](./para-ti/readme.md) — 8.7/10
+- [Parking Escape](./parking-escape/readme.md) — 7.5/10
+- [Parkour Hero (49FriendRunner)](./parkour-hero-49friendrunner/readme.md) — 8.5/10
+- [Party Chaos](./party-chaos/readme.md) — 7.5/10
+- [Pastel Nuketown](./pastel-nuketown/readme.md) — 7.0/10
+- [Pawn Duel](./pawn-duel/readme.md) — 9.6/10
+- [Penguin Ice](./penguin-ice/readme.md) — 7.5/10
+- [Perfect Season Draft](./perfect-season-draft/readme.md) — 8.5/10
+- [Perielio](./perielio/readme.md) — 7.5/10
+- [Phosphor Siege](./phosphor-siege/readme.md) — 8.4/10
+- [Pierglass](./pierglass/readme.md) — 8.2/10
+- [Pig](./pig/readme.md) — 9.6/10
+- [Pilgrim's Path](./pilgrim-s-path/readme.md) — 6.5/10
+- [Pinch-Five](./pinch-five/readme.md) — 9.6/10
+- [Pinehollow Funland](./pinehollow-funland/readme.md) — 8.0/10
+- [Pixel Tactical Shooter](./pixel-tactical-shooter/readme.md) — 8.8/10
+- [Pizza Chef](./pizza-chef/readme.md) — 8.6/10
+- [Platform Fighter](./platform-fighter/readme.md) — 9.4/10
+- [Pocket Bomber](./pocket-bomber/readme.md) — 8.9/10
+- [Pocket Soccer](./pocket-soccer/readme.md) — 7.0/10
+- [Polygram](./polygram/readme.md) — 8.2/10
+- [Pool Checkers](./pool-checkers/readme.md) — 9.6/10
+- [Pop Out](./pop-out/readme.md) — 9.6/10
+- [Pop the Chore Balloons](./pop-the-chore-balloons/readme.md) — 8.2/10
+- [Princess Puzzle Game](./princess-puzzle-game/readme.md) — 7.5/10
+- [Project Rondo hub game](./project-rondo-hub-game/readme.md) — 8.9/10
+- [Protocol Play](./protocol-play/readme.md) — 8.8/10
+- [Pulse Highway](./pulse-highway/readme.md) — 8.5/10
+- [PULSEBREAK](./pulsebreak/readme.md) — 9.2/10
+- [Purrfect Logic](./purrfect-logic/readme.md) — 8.5/10
+- [PVP Tetris](./pvp-tetris/readme.md) — 8.3/10
+- [Pygame Chess Bot](./pygame-chess-bot/readme.md) — 7.9/10
+- [pyKombat](./pykombat/readme.md) — 8.5/10
+- [Quadline](./quadline/readme.md) — 9.6/10
+- [Quick Draw](./quick-draw/readme.md) — 9.5/10
+- [Quiz](./quiz/readme.md) — 8.2/10
+- [Rabbit Trap](./rabbit-trap/readme.md) — 7.5/10
+- [Raccoon Heist](./raccoon-heist/readme.md) — 6.5/10
+- [Racing Game Claude](./racing-game-claude/readme.md) — 8.0/10
+- [Raft](./raft/readme.md) — 8.4/10
+- [Rail Rush](./rail-rush/readme.md) — 8.0/10
+- [Reablo 2](./reablo-2/readme.md) — 8.0/10
+- [Realistic Survival](./realistic-survival/readme.md) — 8.1/10
+- [Recess Sports v1](./recess-sports-v1/readme.md) — 9.1/10
+- [Reflex Tap](./reflex-tap/readme.md) — 7.0/10
+- [Regolith](./regolith/readme.md) — 9.3/10
+- [Reigns CEO — GPT 6 Astra Founder](./reigns-ceo-gpt-6-astra-founder/readme.md) — 8.6/10
+- [Relight](./relight/readme.md) — 9.2/10
+- [Remainder Treasure Hunt](./remainder-treasure-hunt/readme.md) — 9.3/10
+- [Reverse Loving — Gnivol](./reverse-loving-gnivol/readme.md) — 8.0/10
+- [Reversi](./reversi/readme.md) — 9.6/10
+- [Rift Chess](./rift-chess/readme.md) — 9.3/10
+- [Riftbound: Meridian Trial](./riftbound-meridian-trial/readme.md) — 7.0/10
+- [Robo Open](./robo-open/readme.md) — 9.3/10
+- [Robo Tennis](./robo-tennis/readme.md) — 8.0/10
+- [Robot Rescue](./robot-rescue/readme.md) — 9.0/10
+- [Rocket Arena](./rocket-arena/readme.md) — 8.0/10
+- [Rogue Squadron — The Battle of Yavin](./rogue-squadron-the-battle-of-yavin/readme.md) — 9.0/10
+- [Roller](./roller/readme.md) — 7.9/10
+- [RonriRoom](./ronriroom/readme.md) — 8.8/10
+- [Roshambo 26](./roshambo-26/readme.md) — 9.2/10
+- [Rummy 500](./rummy-500/readme.md) — 8.4/10
+- [Russian Draughts](./russian-draughts/readme.md) — 9.6/10
+- [Saber / Descent](./saber-descent/readme.md) — 9.0/10
+- [Sæt viserne (Set the Hands)](./s-t-viserne-set-the-hands/readme.md) — 8.8/10
+- [Sakura — Petals of the Everblossom](./sakura-petals-of-the-everblossom/readme.md) — 8.0/10
+- [Salvo](./salvo/readme.md) — 9.6/10
+- [Sands of the Restless](./sands-of-the-restless/readme.md) — 7.5/10
+- [Save the Balloons](./save-the-balloons/readme.md) — 8.9/10
+- [SciShootR](./scishootr/readme.md) — 8.2/10
+- [Scrapwall](./scrapwall/readme.md) — 9.3/10
+- [SCUMM Game](./scumm-game/readme.md) — 8.5/10
+- [SDL Skyroads](./sdl-skyroads/readme.md) — 8.5/10
+- [SEABRIGHT — A Coastal City Builder](./seabright-a-coastal-city-builder/readme.md) — 9.0/10
+- [Seaside Scoop](./seaside-scoop/readme.md) — 8.5/10
+- [Sensei Says](./sensei-says/readme.md) — 9.5/10
+- [Serpentine](./serpentine/readme.md) — 8.2/10
+- [Shift](./shift/readme.md) — 9.6/10
+- [Shogun](./shogun/readme.md) — 8.9/10
+- [SHOVE](./shove/readme.md) — 8.5/10
+- [Shuriken Match](./shuriken-match/readme.md) — 9.5/10
+- [Sigil](./sigil/readme.md) — 9.0/10
+- [Signal Drive](./signal-drive/readme.md) — 7.0/10
+- [Silent Hill](./silent-hill/readme.md) — 8.8/10
+- [Silent Meridian](./silent-meridian/readme.md) — 9.1/10
+- [Sim](./sim/readme.md) — 9.6/10
+- [SimCity (Bevy)](./simcity-bevy/readme.md) — 9.1/10
+- [Sky Flap](./sky-flap/readme.md) — 9.5/10
+- [Skydive](./skydive/readme.md) — 9.1/10
+- [Skylark Run](./skylark-run/readme.md) — 9.6/10
+- [SkySprout](./skysprout/readme.md) — 8.9/10
+- [Slide & Exit](./slide-exit/readme.md) — 8.5/10
+- [Slide Jigsaw](./slide-jigsaw/readme.md) — 8.2/10
+- [Slimetrail](./slimetrail/readme.md) — 9.6/10
+- [Smash Karts Arena](./smash-karts-arena/readme.md) — 9.0/10
+- [Snake](./snake-ishaqalathamneh-claude-snake-game/readme.md) — 7.0/10
+- [Snake](./snake/readme.md) — 7.0/10
+- [Snaketris](./snaketris/readme.md) — 7.0/10
+- [snek](./snek/readme.md) — 9.2/10
+- [Snort](./snort/readme.md) — 9.6/10
+- [Sokoban](./sokoban/readme.md) — 9.1/10
+- [Solitaire](./solitaire/readme.md) — 8.0/10
+- [Soliter](./soliter/readme.md) — 8.5/10
+- [Sonar Maze](./sonar-maze/readme.md) — 7.5/10
+- [Sortie](./sortie/readme.md) — 9.2/10
+- [Space Invaders](./space-invaders/readme.md) — 8.0/10
+- [Space Showdown](./space-showdown/readme.md) — 9.5/10
+- [Space You Land](./space-you-land/readme.md) — 7.5/10
+- [SpaceHo2](./spaceho2/readme.md) — 7.0/10
+- [Spanish Draughts](./spanish-draughts/readme.md) — 9.6/10
+- [SPEEDHELL](./speedhell/readme.md) — 7.0/10
+- [SPICE — a card game for couples](./spice-a-card-game-for-couples/readme.md) — 8.6/10
+- [Splendor](./splendor/readme.md) — 8.0/10
+- [SQL Boss Battle Game](./sql-boss-battle-game/readme.md) — 8.8/10
+- [Square Subtract](./square-subtract/readme.md) — 9.6/10
+- [Square Up](./square-up/readme.md) — 9.6/10
+- [Stack Builder](./stack-builder/readme.md) — 9.3/10
+- [Stack!](./stack/readme.md) — 8.3/10
+- [Star Catch](./star-catch/readme.md) — 9.5/10
+- [Star Cricket](./star-cricket/readme.md) — 9.5/10
+- [Star Gulp](./star-gulp/readme.md) — 8.5/10
+- [Star Jump](./star-jump/readme.md) — 8.5/10
+- [Star Runner](./star-runner/readme.md) — 8.5/10
+- [Starcluster](./starcluster/readme.md) — 9.4/10
+- [Starfall](./starfall/readme.md) — 7.0/10
+- [Starfall Scavenger](./starfall-scavenger/readme.md) — 7.5/10
+- [STARLANE — Fable 5.1 build](./starlane-fable-5-1-build/readme.md) — 9.1/10
+- [Starlight Peaks](./starlight-peaks/readme.md) — 8.5/10
+- [Stav med Dino (Spell with Dino)](./stav-med-dino-spell-with-dino/readme.md) — 8.8/10
+- [Steamed Hams: The Game](./steamed-hams-the-game/readme.md) — 7.0/10
+- [STORMFALL](./stormfall/readme.md) — 9.2/10
+- [Strand](./strand/readme.md) — 9.6/10
+- [Stride 'n Conquer](./stride-n-conquer/readme.md) — 8.5/10
+- [STRIKE PROTOCOL](./strike-protocol/readme.md) — 9.2/10
+- [Sudden Death Strikers](./sudden-death-strikers/readme.md) — 8.5/10
+- [Sudoku](./sudoku/readme.md) — 7.0/10
+- [Sudoku](./sudoku-vi-o-al-ai-claude-playground/readme.md) — 8.0/10
+- [SUNBREAK — Downhill Club](./sunbreak-downhill-club/readme.md) — 9.5/10
+- [Sunset Flap](./sunset-flap/readme.md) — 7.5/10
+- [Sunset Hollow](./sunset-hollow/readme.md) — 7.5/10
+- [Super Fable Bros. — World 1-1](./super-fable-bros-world-1-1/readme.md) — 8.5/10
+- [Super Haaland Quest](./super-haaland-quest/readme.md) — 7.0/10
+- [Surakarta](./surakarta/readme.md) — 9.6/10
+- [Surgeon Simulator](./surgeon-simulator/readme.md) — 9.1/10
+- [Swarm](./swarm/readme.md) — 8.5/10
+- [Swarm Dominion](./swarm-dominion/readme.md) — 8.7/10
+- [Tabularis Run](./tabularis-run/readme.md) — 7.5/10
+- [TAK Engine](./tak-engine/readme.md) — 9.0/10
+- [Tap Match](./tap-match/readme.md) — 8.9/10
+- [Tap the Critter](./tap-the-critter/readme.md) — 8.9/10
+- [TEACUP](./teacup/readme.md) — 9.2/10
+- [Tenaoshi](./tenaoshi/readme.md) — 8.8/10
+- [Tether](./tether/readme.md) — 7.5/10
+- [Tetris](./tetris/readme.md) — 6.5/10
+- [TetrisLove2D](./tetrislove2d/readme.md) — 8.7/10
+- [TetrisPython](./tetrispython/readme.md) — 8.0/10
+- [The Fable Forge](./the-fable-forge/readme.md) — 7.0/10
+- [The Fallen Citadel](./the-fallen-citadel/readme.md) — 9.4/10
+- [The Free Game](./the-free-game/readme.md) — 8.5/10
+- [THE LONG SILENCE](./the-long-silence/readme.md) — 9.5/10
+- [The Mender's Quarter](./the-mender-s-quarter/readme.md) — 8.5/10
+- [The Mysterious Castle](./the-mysterious-castle/readme.md) — 6.5/10
+- [The Nine Lives of Ash](./the-nine-lives-of-ash/readme.md) — 9.3/10
+- [The Rain Court](./the-rain-court/readme.md) — 8.5/10
+- [The Rooms](./the-rooms/readme.md) — 7.0/10
+- [The Simpsons: Hit & Run — Browser Reconstruction](./the-simpsons-hit-run-browser-reconstruction/readme.md) — 9.5/10
+- [The Unreliable Narrator](./the-unreliable-narrator/readme.md) — 8.8/10
+- [The Unwritten Vale: Endless](./the-unwritten-vale-endless/readme.md) — 6.5/10
+- [The Wandering Inn RPG](./the-wandering-inn-rpg/readme.md) — 9.5/10
+- [Third Beis HaMikdash](./third-beis-hamikdash/readme.md) — 9.2/10
+- [THORNMERE: The Founding Song](./thornmere-the-founding-song/readme.md) — 8.5/10
+- [Threshold](./threshold-joshuakoester82-treshold-fable-5-1/readme.md) — 6.5/10
+- [THRESHOLD](./threshold/readme.md) — 7.5/10
+- [Tic Tac Toe](./tic-tac-toe/readme.md) — 6.5/10
+- [Tic Tac Toe](./tic-tac-toe-vi-o-al-ai-claude-playground/readme.md) — 8.0/10
+- [Tic-Tac-Toe](./tic-tac-toe-patricker-treant/readme.md) — 9.6/10
+- [Time Traveller's Dilemma](./time-traveller-s-dilemma/readme.md) — 8.9/10
+- [Timing Puzzle](./timing-puzzle/readme.md) — 9.3/10
+- [Tiny Baby Snake](./tiny-baby-snake/readme.md) — 8.5/10
+- [Tiny Kingdom](./tiny-kingdom/readme.md) — 7.5/10
+- [Tiny Lives](./tiny-lives/readme.md) — 7.0/10
+- [Toads & Frogs](./toads-frogs/readme.md) — 9.6/10
+- [Tongue](./tongue/readme.md) — 8.0/10
+- [Toy Box Siege](./toy-box-siege/readme.md) — 8.7/10
+- [Trading Card Game Fable5](./trading-card-game-fable5/readme.md) — 7.5/10
+- [Trails](./trails/readme.md) — 9.6/10
+- [Trap-Three](./trap-three/readme.md) — 9.6/10
+- [Trashketball — Out of Office (Max)](./trashketball-out-of-office-max/readme.md) — 8.0/10
+- [Trashketball (Extra High 2)](./trashketball-extra-high-2/readme.md) — 8.0/10
+- [Trashketball (Extra High)](./trashketball-extra-high/readme.md) — 7.5/10
+- [Trashketball (High)](./trashketball-high/readme.md) — 8.0/10
+- [Trashketball (Medium 2)](./trashketball-medium-2/readme.md) — 7.5/10
+- [Trashketball (Ultra)](./trashketball-ultra/readme.md) — 8.0/10
+- [Treblecross](./treblecross/readme.md) — 9.6/10
+- [Trench Assault 1943](./trench-assault-1943/readme.md) — 7.0/10
+- [Tres Breakout](./tres-breakout/readme.md) — 7.0/10
+- [Tribal Gods](./tribal-gods/readme.md) — 8.0/10
+- [TsunDoku](./tsundoku/readme.md) — 8.8/10
+- [Turbo Kart Grand Prix](./turbo-kart-grand-prix/readme.md) — 8.5/10
+- [Turbo Kart Rush](./turbo-kart-rush/readme.md) — 9.0/10
+- [Turbo Kart Rush](./turbo-kart-rush-claudio41cg-max-rio-rush-cross/readme.md) — 9.3/10
+- [Turbo Turf Wars](./turbo-turf-wars/readme.md) — 7.0/10
+- [Twelve Fate](./twelve-fate/readme.md) — 8.5/10
+- [Two-Dice Pig](./two-dice-pig/readme.md) — 9.6/10
+- [UE Challenge Game](./ue-challenge-game/readme.md) — 7.8/10
+- [Ultima V: Warriors of Destiny — Traditional Chinese Remake](./ultima-v-warriors-of-destiny-traditional-chinese-remake/readme.md) — 9.4/10
+- [UltraDarkNative](./ultradarknative/readme.md) — 8.4/10
+- [Unfit for Print](./unfit-for-print/readme.md) — 9.7/10
+- [Unity Puzzle Game](./unity-puzzle-game/readme.md) — 8.1/10
+- [Unity Puzzle Game Prototype](./unity-puzzle-game-prototype/readme.md) — 7.8/10
+- [Unity Zombie Shooter](./unity-zombie-shooter/readme.md) — 8.4/10
+- [VALORANT Ascent](./valorant-ascent/readme.md) — 8.0/10
+- [Vanguard](./vanguard/readme.md) — 9.6/10
+- [VANUS // Steel Horizon](./vanus-steel-horizon/readme.md) — 8.3/10
+- [VECTOR RUSH](./vector-rush/readme.md) — 9.0/10
+- [Vector Vacate](./vector-vacate/readme.md) — 8.5/10
+- [Verdium Storm](./verdium-storm/readme.md) — 7.0/10
+- [VESPER: The Hollow Earth](./vesper-the-hollow-earth/readme.md) — 8.5/10
+- [Vespertine](./vespertine/readme.md) — 7.0/10
+- [Vibe Pixel Rally](./vibe-pixel-rally/readme.md) — 6.5/10
+- [VibePinball](./vibepinball/readme.md) — 6.5/10
+- [Voidash](./voidash/readme.md) — 8.2/10
+- [VOIDBOUND: The Choir of Ash](./voidbound-the-choir-of-ash/readme.md) — 8.5/10
+- [VOIDRUNNER: Orbital Combat League](./voidrunner-orbital-combat-league/readme.md) — 8.5/10
+- [VOIDWRENCH](./voidwrench/readme.md) — 8.5/10
+- [Voxelcraft](./voxelcraft-alfredbrowser-voxelcraft-minecraft-remake-fable-5-1/readme.md) — 8.0/10
+- [Voxelcraft](./voxelcraft/readme.md) — 8.9/10
+- [VoxelCraft](./voxelcraft-ukawajun-fable5-voxelcraftgame/readme.md) — 8.0/10
+- [Wake Lera with Coffee](./wake-lera-with-coffee/readme.md) — 8.2/10
+- [Warehouse FPS](./warehouse-fps/readme.md) — 6.5/10
+- [Web-Slinger](./web-slinger/readme.md) — 8.5/10
+- [Whack-a-Train](./whack-a-train/readme.md) — 7.9/10
+- [Whirlwind Ascension](./whirlwind-ascension/readme.md) — 7.5/10
+- [Wild Haggis Survivors](./wild-haggis-survivors/readme.md) — 9.5/10
+- [Wilderness](./wilderness/readme.md) — 8.4/10
+- [Windy 10v10 AI](./windy-10v10-ai/readme.md) — 9.3/10
+- [Wolfsbane](./wolfsbane/readme.md) — 9.5/10
+- [Workmelt](./workmelt/readme.md) — 7.5/10
+- [World 1-1](./world-1-1/readme.md) — 8.0/10
+- [World of ClaudeCraft](./world-of-claudecraft/readme.md) — 7.0/10
+- [World Threes](./world-threes/readme.md) — 9.6/10
+- [Wormhole](./wormhole/readme.md) — 8.5/10
+- [WriftHeart](./wriftheart/readme.md) — 9.1/10
+- [Wythoff's Queen](./wythoff-s-queen/readme.md) — 9.6/10
+- [Xiang Qi](./xiang-qi/readme.md) — 6.5/10
+- [Y](./y/readme.md) — 9.6/10
+- [Yaoling Shangu (药灵山谷)](./yaoling-shangu/readme.md) — 9.2/10
+- [Yuga Kshetra: The Final Dark God](./yuga-kshetra-the-final-dark-god/readme.md) — 9.0/10
+- [ZOF//DUTY](./zof-duty/readme.md) — 7.0/10
+- [Zombie Lane Runner](./zombie-lane-runner/readme.md) — 8.0/10
+- [Zombie Shooter](./zombie-shooter/readme.md) — 8.7/10
+- [Zoo Keeper](./zoo-keeper/readme.md) — 9.0/10
+- [Zooma](./zooma/readme.md) — 8.5/10
+- [こもれび回収隊](./game-bannzai-godotpractice-game-game-game-game-game/readme.md) — 7.0/10
+- [ころころ工房](./game-bannzai-godotpractice-game-game-game-game/readme.md) — 7.0/10
+- [そらいろ便](./game/readme.md) — 7.0/10
+- [星環の決闘](./game-bannzai-godotpractice-game-game-game/readme.md) — 7.0/10
+- [星環防衛線](./game-bannzai-godotpractice-game/readme.md) — 7.0/10
+- [燈火の巡礼](./game-bannzai-godotpractice-game-game/readme.md) — 7.0/10
+- [燈環闘技](./game-bannzai-godotpractice/readme.md) — 7.0/10
+- [瓜体实验室 (Melon Lab)](./melon-lab-celia827-game-melon-field-lab/readme.md) — 8.1/10

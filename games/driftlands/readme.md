@@ -1,0 +1,40 @@
+# DRIFTLANDS
+
+> Verified game note.
+
+![DRIFTLANDS screenshot](https://raw.githubusercontent.com/DEADover/DRIFTLANDS/main/docs/banner.jpg)
+
+## At a glance
+
+- **Score:** 7.0/10
+- **Model:** Claude Opus 5
+- **Technology:** Three.js, JavaScript, Vite
+- **Verified:** 2026-09-09
+- **Repository:** [https://github.com/DEADover/DRIFTLANDS](https://github.com/DEADover/DRIFTLANDS)
+- **Evidence:** [directory-method model evidence](https://github.com/DEADover/DRIFTLANDS)
+
+## Screenshots
+
+Use the source screenshot links below. The list records these assets from the game repository or a related source.
+
+- [screenshot 1](https://github.com/DEADover/DRIFTLANDS/blob/main/docs/banner.jpg)
+
+## Model attribution
+
+Open the evidence link above. Evidence grade: **directory-method model evidence**.
+
+## Source description
+
+Playable 2.5-D rally game; README records 27 Gauntlet Loop rounds and links to the live deployment.
+
+### Gameplay source
+
+- [https://github.com/DEADover/DRIFTLANDS](https://github.com/DEADover/DRIFTLANDS)
+
+## Verification notes
+
+- **Status:** verified
+- **Counted units:** 1
+- **Discovery:** https://github.com/DEADover/DRIFTLANDS
+
+[Back to the awesome list](../../README.md)

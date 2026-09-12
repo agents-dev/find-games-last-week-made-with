@@ -2093,3 +2093,9 @@ Accept [Zombie Shooter](https://github.com/poralmi233-spec/zombie-shooter), [Bat
 Reject [desafio-gaymer](https://github.com/GuidaGaita/desafio-gaymer) as a score calculator with no game loop. Reject [Astra Game Center](https://github.com/gncll/astra-game-center) and [Astra](https://github.com/windvill/Astra-) as real games without qualifying GPT-6 Astra, Claude Opus or Claude Fable evidence; do not treat the word “Astra” in a product name as model attribution. Preserve private or unreachable demos as source-verified only, and do not claim a playtest when the URL cannot be reached.
 
 Regenerate the README with date-ranked **Top games today**, **Top games this week**, and **Top games this month** sections. Use the repository verification date for today and the publication or qualifying gameplay-evidence date for the week and month windows. Keep WebGL and native-engine categories separate.
+
+### Repository README screenshot scan
+
+Scan each qualifying repository that has no `screenshot_urls` record. Read its README serially, resolve relative Markdown and HTML image links against the README URL, and reject badges, logos, icons, navigation artwork, diagrams, progress sheets and donation buttons. Save the surviving URLs in `research/screenshot-discoveries.json`.
+
+Create `games/<slug>/readme.md` for every named game unit. Link the repository, model evidence, gameplay source and screenshot sources. Use a local placeholder SVG only when no reliable source image remains. Treat a README image as a source asset, not as proof that the game was played.

@@ -1,0 +1,38 @@
+# Mainspring
+
+> Verified game note.
+
+![Mainspring screenshot placeholder](mainspring-placeholder.svg)
+
+## At a glance
+
+- **Score:** 8.0/10
+- **Model:** Claude Fable 5
+- **Technology:** JavaScript, HTML, Canvas
+- **Verified:** 2026-09-09
+- **Repository:** [https://github.com/Kelevera/mainspring](https://github.com/Kelevera/mainspring)
+- **Evidence:** [creator-reported model evidence](https://github.com/Kelevera/mainspring/blob/main/README.md)
+
+## Screenshots
+
+No screenshot source is recorded yet. Keep the placeholder until a repository, awesome list, or creator source provides an image.
+
+## Model attribution
+
+Open the evidence link above. Evidence grade: **creator-reported model evidence**.
+
+## Source description
+
+README, src, tests, and build files contain a playable clockwork engine-building roguelike with gear-loop rules and progression; README attributes it to Claude Fable 5.
+
+### Gameplay source
+
+- [https://github.com/Kelevera/mainspring/blob/main/README.md](https://github.com/Kelevera/mainspring/blob/main/README.md)
+
+## Verification notes
+
+- **Status:** verified
+- **Counted units:** 1
+- **Discovery:** https://github.com/Kelevera/mainspring
+
+[Back to the awesome list](../../README.md)
