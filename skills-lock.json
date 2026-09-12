@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "github-repo-explore": {
+      "source": "microsoft/semantic-link-labs",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/github-repo-explore/SKILL.md",
+      "computedHash": "20d40d711144c427a266796cf3285b42c8655f11d2cbabcd0353e7e1d9f9b3a9"
+    },
     "reddit-automation": {
       "source": "flowkit-labs/skills",
       "sourceType": "github",

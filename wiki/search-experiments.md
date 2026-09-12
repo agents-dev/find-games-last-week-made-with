@@ -2083,3 +2083,13 @@ Reject [mighty-frontend](https://github.com/joekhosbayar/mighty-frontend). Its R
 ### TypeScript/MCP/Claude Fable model-as-player audit
 
 Reject [Masset MCP Tools](https://github.com/BenMasset/masset-mcp-tools). The README identifies a suite of MCP tools, not an independent game collection. Its interactive chess tool has Claude choose the moves, and its Mystery Guest tool makes Claude the hidden host. Both are model-as-player/host experiences, so exclude them even though the repository contains real interactive UI and game rules.
+
+### Two-day date-partitioned commit search audit
+
+Run each GitHub commit query one at a time for `2026-09-10..2026-09-12`: exact Claude Opus trailers, exact Claude Fable trailers, `GPT-6 Astra`, and the broader `Astra` alias. Inspect the README, source tree, entry point and gameplay state for each unseen repository before accepting it.
+
+Accept [Zombie Shooter](https://github.com/poralmi233-spec/zombie-shooter), [Battle City](https://github.com/nickblack1919/battle-city), [Gabriel's Animation Studio](https://github.com/gberry747-lab/gabriels-animation-studio), [Skylark Run](https://github.com/jackpepper-vibe/SkylarkRun), [Unfit for Print](https://github.com/PPO-GG/unfit-for-print), [Math Arcade Paradise](https://github.com/mundeok/math-arcade-paradise), [BCUSCA Welcome Week Arcade](https://github.com/HaarisahHussain/Spin-The-Wheel-), [chess3dastra](https://github.com/yortch/chess3dastra), [Grand Theft Astra](https://github.com/angelaborowski/grand-theft-astra), [Haynes Quest](https://github.com/thaynes43/haynes-quest), and [Explottens: Survival](https://github.com/Werplay/playable-explottens-survivor). Together they add 30 counted game units. Count each documented mini-game only when source code shows its own input, rules or objective, state and completion/failure path. Count a multi-chapter adventure or playable ad once.
+
+Reject [desafio-gaymer](https://github.com/GuidaGaita/desafio-gaymer) as a score calculator with no game loop. Reject [Astra Game Center](https://github.com/gncll/astra-game-center) and [Astra](https://github.com/windvill/Astra-) as real games without qualifying GPT-6 Astra, Claude Opus or Claude Fable evidence; do not treat the word “Astra” in a product name as model attribution. Preserve private or unreachable demos as source-verified only, and do not claim a playtest when the URL cannot be reached.
+
+Regenerate the README with date-ranked **Top games today**, **Top games this week**, and **Top games this month** sections. Use the repository verification date for today and the publication or qualifying gameplay-evidence date for the week and month windows. Keep WebGL and native-engine categories separate.

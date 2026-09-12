@@ -21474,5 +21474,586 @@
     "quality_estimate_basis": "Large source-complete MUD project with a runnable Evennia server, React game client, scenes, battles, player actions, combat systems, entry and smoke tests, and exact Opus attribution on player-action implementation.",
     "counted_game_units": 1,
     "is_independent_game": true
+  },
+  {
+    "name": "Zombie Shooter",
+    "github_url": "https://github.com/poralmi233-spec/zombie-shooter",
+    "game_links": [
+      "https://github.com/poralmi233-spec/zombie-shooter#readme",
+      "https://poralmi233-spec.github.io/zombie-shooter/",
+      "https://github.com/poralmi233-spec/zombie-shooter/blob/main/index.html",
+      "https://github.com/poralmi233-spec/zombie-shooter/blob/main/game.js",
+      "https://github.com/poralmi233-spec/zombie-shooter/commit/abac67d58ab6526ecf45c7be9b0a232e945ba339"
+    ],
+    "live_demo_url": "https://poralmi233-spec.github.io/zombie-shooter/",
+    "evidence_url": "https://github.com/poralmi233-spec/zombie-shooter/commit/abac67d58ab6526ecf45c7be9b0a232e945ba339",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Canvas 2D",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Zombie Shooter"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-09-10T09:42:55Z",
+    "published_on": "2026-09-10",
+    "recent_game_evidence_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12",
+      "https://github.com/poralmi233-spec/zombie-shooter"
+    ],
+    "verification_notes": "The repository was created on 2026-09-10. The Russian README documents a 2D survival shooter with WASD movement, mouse aiming, left-click shooting, reload, and dash. game.js implements the Canvas renderer, player state, bullets, zombie spawning and pursuit, damage and collision, health packs, score, HUD, game-over state, restart flow, keyboard and mouse input, and the requestAnimationFrame loop. The GitHub Pages URL returned HTTP 200. The initial gameplay commit contains an exact Co-Authored-By: Claude Opus 5 trailer.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 650000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D rendering, zombie simulation, bullets, particles, collision checks, HUD and browser input; not measured hardware throughput.",
+    "quality_estimate_10": 8.7,
+    "quality_estimate_basis": "Fresh repository with a complete survival-shooter loop, multiple input systems, enemies, combat, pickups, score, restart/game-over state, direct source evidence and a reachable Pages demo.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Battle City",
+    "github_url": "https://github.com/nickblack1919/battle-city",
+    "game_links": [
+      "https://github.com/nickblack1919/battle-city#readme",
+      "https://github.com/nickblack1919/battle-city/blob/main/tanks.py",
+      "https://github.com/nickblack1919/battle-city/blob/main/battlecity/game.py",
+      "https://github.com/nickblack1919/battle-city/blob/main/battlecity/tank.py",
+      "https://github.com/nickblack1919/battle-city/tree/main/levels",
+      "https://github.com/nickblack1919/battle-city/tree/main/tests",
+      "https://github.com/nickblack1919/battle-city/commit/48ad3a7131a63e1d044a28d98017b81ee746e496"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/nickblack1919/battle-city/commit/48ad3a7131a63e1d044a28d98017b81ee746e496",
+    "screenshot_urls": [],
+    "technology": [
+      "Python",
+      "Pygame",
+      "Native desktop"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Battle City"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2021-07-03T00:05:22Z",
+    "published_on": "2026-09-11",
+    "recent_game_evidence_on": "2026-09-11",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12",
+      "https://github.com/nickblack1919/battle-city"
+    ],
+    "verification_notes": "The README identifies this repository as a Python/Pygame remake of Battle City. It documents 35 campaign stages, saved progress, endless 1P/2P waves, versus mode, a level editor, settings and difficulty presets, enemy AI variants, bonuses, gamepad controls, native Mac packaging and automated tests that start the game with dummy drivers. The source tree contains the entry point, game loop, tanks, levels, bonuses, screens and test suite. The cited September 11 gameplay-fix commit contains an exact Co-Authored-By: Claude Opus 5 trailer. No public live demo was claimed.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1150000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Pygame tile rendering, multiple tanks, enemy AI, bullets, effects, audio, level editor and native input; not measured hardware throughput.",
+    "quality_estimate_10": 9.4,
+    "quality_estimate_basis": "Large and mature native game with 35 authored stages, multiple modes, editor, AI presets, save/load, packaging, extensive tests and recent player-facing fixes with exact Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Gabriel's Animation Studio",
+    "github_url": "https://github.com/gberry747-lab/gabriels-animation-studio",
+    "game_links": [
+      "https://github.com/gberry747-lab/gabriels-animation-studio#readme",
+      "https://gberry747-lab.github.io/gabriels-animation-studio/",
+      "https://github.com/gberry747-lab/gabriels-animation-studio/blob/main/index.html",
+      "https://github.com/gberry747-lab/gabriels-animation-studio/blob/main/START-HERE.md",
+      "https://github.com/gberry747-lab/gabriels-animation-studio/commit/f3e68b8fc0165f1cbace50f6204a83192a5ceb79"
+    ],
+    "live_demo_url": "https://gberry747-lab.github.io/gabriels-animation-studio/",
+    "evidence_url": "https://github.com/gberry747-lab/gabriels-animation-studio/commit/f3e68b8fc0165f1cbace50f6204a83192a5ceb79",
+    "screenshot_urls": [],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Canvas 2D",
+      "Web Audio",
+      "Browser/iPad"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 8,
+    "contained_games": [
+      "Jump & Run",
+      "Endless Dash",
+      "Star Catch",
+      "Sky Flap",
+      "Bubble Pop",
+      "Meteor Dodge",
+      "Cloud Bounce",
+      "Goal Kick"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-09-10T20:47:45Z",
+    "published_on": "2026-09-10",
+    "recent_game_evidence_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Fable, 2026-09-10..2026-09-12",
+      "https://github.com/gberry747-lab/gabriels-animation-studio"
+    ],
+    "verification_notes": "The README documents a single-file browser/iPad game where the player draws a stick figure and plays eight mini-games. index.html contains separate controls and labels for Jump & Run, Endless Dash, Star Catch, Sky Flap, Bubble Pop, Meteor Dodge, Cloud Bounce and Goal Kick. The source implements separate game initialization, targets and update rules: stars, obstacles, enemies, platforms, gaps, bubbles, meteors, cloud height and scored goals. It includes hearts, score state, restart/results, pointer and keyboard controls, Canvas rendering, audio feedback and local best-score persistence. The GitHub Pages URL is documented as the play link. The cited initial gameplay commit contains an exact Co-Authored-By: Claude Fable 5.1 trailer. Count the eight independently playable mini-games; exclude the drawing editor and shared avatar system.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 420000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D drawing, eight mini-game simulations, collision checks, particles, audio, input and score persistence; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "Eight clearly separated playable modes with distinct targets and mechanics, drawing input, responsive controls, results/restart flows, persistence, iPad support, direct source evidence and a published demo.",
+    "counted_game_units": 8,
+    "is_independent_game": true
+  },
+  {
+    "name": "Skylark Run",
+    "github_url": "https://github.com/jackpepper-vibe/SkylarkRun",
+    "game_links": [
+      "https://github.com/jackpepper-vibe/SkylarkRun#readme",
+      "https://skylark-run.vercel.app",
+      "https://github.com/jackpepper-vibe/SkylarkRun/blob/master/src/main.js",
+      "https://github.com/jackpepper-vibe/SkylarkRun/tree/master/src/plane",
+      "https://github.com/jackpepper-vibe/SkylarkRun/tree/master/src/heli",
+      "https://github.com/jackpepper-vibe/SkylarkRun/tree/master/tools",
+      "https://github.com/jackpepper-vibe/SkylarkRun/commit/44f2aa94dc069523d8a4e30090231486f82d31a3"
+    ],
+    "live_demo_url": "https://skylark-run.vercel.app",
+    "evidence_url": "https://github.com/jackpepper-vibe/SkylarkRun/commit/44f2aa94dc069523d8a4e30090231486f82d31a3",
+    "screenshot_urls": [],
+    "technology": [
+      "JavaScript",
+      "Three.js",
+      "WebGL",
+      "Web Audio",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Skylark Run"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-08-06T21:04:00Z",
+    "published_on": "2026-09-11",
+    "recent_game_evidence_on": "2026-09-11",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12",
+      "https://github.com/jackpepper-vibe/SkylarkRun"
+    ],
+    "verification_notes": "The README documents an open-cockpit browser flight game with a monoplane ring course over countryside and a helicopter hover course over a night city. It documents takeoff, gates, gold gates, fuel, hazards, weather, sector progression, runway approach, landing quality, damage, local logbooks, a score board and smoke tests. The source has separate plane and helicopter flight/world/HUD modules, a shared frame loop and explicit Three.js/WebGL rendering. The live Vercel URL returned HTTP 200. The cited game-documentation commit contains an exact Co-Authored-By: Claude Opus 5 trailer. The README states that the former Rotor Run was folded into this single game, so count one unit.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 3200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js/WebGL terrain, instanced scenery, aircraft and helicopter flight, weather, post-processing, cockpit UI, audio and collision; not measured hardware throughput.",
+    "quality_estimate_10": 9.6,
+    "quality_estimate_basis": "Deep browser flight loop with two craft implementations, procedural worlds, hazards, scoring, sectors, landing states, weather, score persistence, smoke tests, live demo and exact Opus attribution.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Unfit for Print",
+    "github_url": "https://github.com/PPO-GG/unfit-for-print",
+    "game_links": [
+      "https://github.com/PPO-GG/unfit-for-print#readme",
+      "https://unfit.cards",
+      "https://github.com/PPO-GG/unfit-for-print/blob/main/app/composables/useYjsGameEngine.ts",
+      "https://github.com/PPO-GG/unfit-for-print/tree/main/app/components/game",
+      "https://github.com/PPO-GG/unfit-for-print/blob/main/app/pages/game/[code].vue",
+      "https://github.com/PPO-GG/unfit-for-print/commit/3e70231203788c184f9453381894acb234b0bdfa"
+    ],
+    "live_demo_url": "https://unfit.cards",
+    "evidence_url": "https://github.com/PPO-GG/unfit-for-print/commit/3e70231203788c184f9453381894acb234b0bdfa",
+    "screenshot_urls": [
+      "https://github.com/PPO-GG/unfit-for-print/blob/main/.github/assets/main_menu.webp",
+      "https://github.com/PPO-GG/unfit-for-print/blob/main/.github/assets/ingame.webp"
+    ],
+    "technology": [
+      "TypeScript",
+      "Nuxt 4",
+      "Vue 3",
+      "Yjs CRDT",
+      "WebSocket",
+      "Browser/PWA"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Unfit for Print"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2025-05-17T01:50:26Z",
+    "published_on": "2026-09-11",
+    "recent_game_evidence_on": "2026-09-11",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12",
+      "https://github.com/PPO-GG/unfit-for-print"
+    ],
+    "verification_notes": "The README identifies Unfit for Print as a browser party game: players create or join a lobby, take turns judging, submit white cards to black-card prompts, score rounds and race to a target. It documents real-time synchronization, bots, card packs, spectators, chat, host controls, a PWA and tests. The game rules live in useYjsGameEngine.ts and the source tree contains the game board, player hand, score, winner and game-over components. The live unfit.cards URL returned HTTP 200. The cited game-state commit contains an exact Co-Authored-By: Claude Opus 5 trailer. The repository README provides lobby and in-game screenshots, which are stored as evidence links.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 520000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Vue rendering, Yjs state synchronization, WebSocket multiplayer, card transitions, chat, bots, audio and PWA presentation; not measured hardware throughput.",
+    "quality_estimate_10": 9.7,
+    "quality_estimate_basis": "Complete multiplayer party-game loop with authoritative rule source, bots, lobbies, spectators, card packs, host controls, tests, screenshots, live demo and exact Opus attribution on gameplay state work.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Math Arcade Paradise",
+    "github_url": "https://github.com/mundeok/math-arcade-paradise",
+    "game_links": [
+      "https://github.com/mundeok/math-arcade-paradise/blob/master/PROJECT_FULL_SUMMARY.md",
+      "https://github.com/mundeok/math-arcade-paradise/blob/master/src/games/registry.js",
+      "https://github.com/mundeok/math-arcade-paradise/tree/master/src/games",
+      "https://github.com/mundeok/math-arcade-paradise/tree/master/tests",
+      "https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/mundeok/math-arcade-paradise/commit/6084d3bcafe3057b87a409ff1b20c84be90ed445",
+    "screenshot_urls": [],
+    "technology": [
+      "JavaScript",
+      "HTML",
+      "Canvas 2D",
+      "Static browser app"
+    ],
+    "model_family": [
+      "Claude Opus 4.8"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 11,
+    "contained_games": [
+      "Combo Challenge",
+      "Falling Catch",
+      "Math Racing",
+      "Timing Puzzle",
+      "Number Match",
+      "Stack Builder",
+      "Math Shooter",
+      "Multiplication Chain",
+      "Balloon Pop",
+      "Remainder Treasure Hunt",
+      "Multiplication Farm"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-08-25T23:51:08Z",
+    "published_on": "2026-09-10",
+    "recent_game_evidence_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12",
+      "https://github.com/mundeok/math-arcade-paradise"
+    ],
+    "verification_notes": "The project summary defines Math Arcade Paradise as a static HTML/JavaScript educational arcade and lists 11 implemented games: combo, catch, racing, timing, matching, stack, shooting, chain, balloons, remainder treasure and multiplication farm. src/games/registry.js registers the implemented game modules, and the source tree contains separate files for the game modes. The repository also includes game browser smoke tests and focused tests for the farm mode. The cited menu/game commit contains an exact Co-Authored-By: Claude Opus 4.8 trailer. The inferred GitHub Pages and Vercel URLs returned HTTP 404 during verification, so no live demo is claimed. Exclude the dummy entry and hidden legacy delivery experiment from the count.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 300000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Canvas 2D educational arcade rendering, eleven rule modules, timed input, particles, audio, score persistence and browser layout; not measured hardware throughput.",
+    "quality_estimate_10": 9.3,
+    "quality_estimate_basis": "Eleven separately registered game modes with documented rules, source modules, tests, a shared state machine and exact Opus attribution; no live deployment claim is made because the inferred URLs returned 404.",
+    "counted_game_units": 11,
+    "is_independent_game": true
+  },
+  {
+    "name": "BCUSCA Welcome Week Arcade",
+    "github_url": "https://github.com/HaarisahHussain/Spin-The-Wheel-",
+    "game_links": [
+      "https://github.com/HaarisahHussain/Spin-The-Wheel-#readme",
+      "https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/registry.js",
+      "https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/quiz.js",
+      "https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/server/games/robot.js",
+      "https://github.com/HaarisahHussain/Spin-The-Wheel-/blob/main/src/games/Game.jsx",
+      "https://github.com/HaarisahHussain/Spin-The-Wheel-/tree/main/tests",
+      "https://github.com/HaarisahHussain/Spin-The-Wheel-/commit/524f72ec3757e5993e09a10649b60f064a2b8eac"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/HaarisahHussain/Spin-The-Wheel-/commit/524f72ec3757e5993e09a10649b60f064a2b8eac",
+    "screenshot_urls": [],
+    "technology": [
+      "JavaScript",
+      "React",
+      "Express",
+      "Socket.IO",
+      "WebSocket",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 3,
+    "contained_games": [
+      "Debug Dash",
+      "Guess the Output",
+      "Robot Rescue"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-09-09T21:35:21Z",
+    "published_on": "2026-09-11",
+    "recent_game_evidence_on": "2026-09-11",
+    "discovery_sources": [
+      "GitHub commit search for game GPT-6 Astra, 2026-09-10..2026-09-12",
+      "https://github.com/HaarisahHussain/Spin-The-Wheel-"
+    ],
+    "verification_notes": "The README identifies this as a React/Express/Socket.IO arcade for public displays, student phones and a host. It names three game modes: Debug Dash, Guess the Output and Robot Rescue. The registry provides separate adapters; quiz.js generates and scores the two code challenges, robot.js generates blocked-grid boards and evaluates movement programs, and Game.jsx provides separate player/display interfaces. The README and tests document solo and live multiplayer, timed rounds, scores, queues, host controls and end-to-end checks. The September 11 feature commit credits GPT-6 Astra (Medium). The inferred deployment URLs returned HTTP 404 during verification, so no live demo is claimed. Count the three game modes; exclude the shared event, queue, host and wheel systems.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 470000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React screens, timed quiz rules, grid-program simulation, WebSocket multiplayer, display projections and event state; not measured hardware throughput.",
+    "quality_estimate_10": 9.0,
+    "quality_estimate_basis": "Three separately implemented games with server-authoritative rules, solo/live modes, host operations, queues, tests and explicit GPT-6 Astra credit; deployment is not claimed because the inferred URLs returned 404.",
+    "counted_game_units": 3,
+    "is_independent_game": true
+  },
+  {
+    "name": "chess3dastra",
+    "github_url": "https://github.com/yortch/chess3dastra",
+    "game_links": [
+      "https://github.com/yortch/chess3dastra#readme",
+      "https://yortch.github.io/chess3dastra/",
+      "https://github.com/yortch/chess3dastra/blob/main/src/app.js",
+      "https://github.com/yortch/chess3dastra/blob/main/src/search.js",
+      "https://github.com/yortch/chess3dastra/blob/main/src/flat-board.js",
+      "https://github.com/yortch/chess3dastra/tree/main/src",
+      "https://github.com/yortch/chess3dastra/commit/fd76149969af950523c6827a057c4171f8cf3f9d"
+    ],
+    "live_demo_url": "https://yortch.github.io/chess3dastra/",
+    "evidence_url": "https://github.com/yortch/chess3dastra/commit/fd76149969af950523c6827a057c4171f8cf3f9d",
+    "screenshot_urls": [
+      "https://github.com/yortch/chess3dastra/blob/main/docs/screenshots/3d-dark.png",
+      "https://github.com/yortch/chess3dastra/blob/main/docs/screenshots/2d-dark.png"
+    ],
+    "technology": [
+      "HTML",
+      "JavaScript",
+      "Three.js",
+      "WebGL",
+      "chess.js",
+      "Browser"
+    ],
+    "model_family": [
+      "GPT-6 Astra"
+    ],
+    "method_evidence": "creator-reported",
+    "game_count": 1,
+    "contained_games": [
+      "chess3dastra"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-09-11T19:40:33Z",
+    "published_on": "2026-09-11",
+    "recent_game_evidence_on": "2026-09-11",
+    "discovery_sources": [
+      "GitHub commit search for game Astra, 2026-09-10..2026-09-12",
+      "https://github.com/yortch/chess3dastra"
+    ],
+    "verification_notes": "The README explicitly identifies chess3dastra as a fully playable 3D and 2D chess game built end-to-end with GPT-6 Astra. It documents full chess rules, three computer difficulty levels, click and keyboard moves, notation input, undo, move history, captures, themes and localStorage save/restore. The source contains the Three.js 3D renderer, an accessible DOM/SVG 2D renderer, chess.js rules, a negamax/alpha-beta computer opponent in a Web Worker, Node tests and Playwright browser tests. The README provides two gameplay screenshots. The GitHub Pages URL returned HTTP 200. The cited initial game commit and README provide explicit GPT-6 Astra creator evidence.",
+    "gauntlet_loop": false,
+    "model_evidence": "creator-reported",
+    "flops_estimate_raw": 1800000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js/WebGL chess rendering, DOM/SVG fallback, alpha-beta search, Web Worker orchestration, animations and browser UI; not measured hardware throughput.",
+    "quality_estimate_10": 9.6,
+    "quality_estimate_basis": "Complete chess game with 3D and 2D views, full rules, three AI strengths, worker search, persistence, screenshots, live deployment, unit tests, Playwright tests and explicit Astra build evidence.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Grand Theft Astra",
+    "github_url": "https://github.com/angelaborowski/grand-theft-astra",
+    "game_links": [
+      "https://github.com/angelaborowski/grand-theft-astra#readme",
+      "https://github.com/angelaborowski/grand-theft-astra/tree/main/apps/web/src/features/game",
+      "https://github.com/angelaborowski/grand-theft-astra/blob/main/apps/web/src/features/game/components/game.tsx",
+      "https://github.com/angelaborowski/grand-theft-astra/blob/main/apps/web/src/features/game/components/stunt-course.tsx",
+      "https://github.com/angelaborowski/grand-theft-astra/blob/main/packages/core/src/gameplay-v2.ts",
+      "https://github.com/angelaborowski/grand-theft-astra/tree/main/apps/server/tests",
+      "https://github.com/angelaborowski/grand-theft-astra/commit/c5e718d48430f9bd97e006c7bacd6d7eeb45ef7"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/angelaborowski/grand-theft-astra/commit/c5e718d48430f9bd97e006c7bacd6d7eeb45ef7",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "React",
+      "React Three Fiber",
+      "WebGL",
+      "Cloudflare Workers",
+      "Browser multiplayer"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Grand Theft Astra"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-09-10T16:58:03Z",
+    "published_on": "2026-09-10",
+    "recent_game_evidence_on": "2026-09-10",
+    "discovery_sources": [
+      "GitHub commit search for game Astra/Fable, 2026-09-10..2026-09-12",
+      "https://github.com/angelaborowski/grand-theft-astra"
+    ],
+    "verification_notes": "The README describes a multiplayer browser-game prototype set in a 3D Red Square. It documents third-person movement, running, jumping, crouching, vehicles, helicopter controls, combat/equipment, missions, shelter and parcel-delivery journeys, persistent progress, server-validated actions, multiplayer world updates, assets and tests. The web source contains the game session, player and vehicle controllers, mission panels, world entities, stunt course, inventory, map and conversation systems; the shared core contains gameplay rules and tests. A player-facing movement commit contains an exact Co-Authored-By: Claude Fable 5.1 trailer, and the repository also has Fable-attributed conversation work. The inferred Vercel/Pages URLs were not reachable during verification, so no live demo is claimed.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 4200000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for React Three Fiber/WebGL scene rendering, multiplayer state, vehicle physics, mission logic, world entities, effects and server synchronization; not measured hardware throughput.",
+    "quality_estimate_10": 9.5,
+    "quality_estimate_basis": "Broad source-complete 3D multiplayer prototype with authored environment, movement, vehicles, missions, combat, persistence, server validation, tests and exact Fable attribution on player-facing work.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Haynes Quest",
+    "github_url": "https://github.com/thaynes43/haynes-quest",
+    "game_links": [
+      "https://github.com/thaynes43/haynes-quest#readme",
+      "https://github.com/thaynes43/haynes-quest/tree/main/src/game",
+      "https://github.com/thaynes43/haynes-quest/blob/main/src/game/obby.ts",
+      "https://github.com/thaynes43/haynes-quest/blob/main/src/game/combat.ts",
+      "https://github.com/thaynes43/haynes-quest/blob/main/src/client/GameScreen.tsx",
+      "https://github.com/thaynes43/haynes-quest/blob/main/tests/e2e/journey.mjs",
+      "https://github.com/thaynes43/haynes-quest/commit/9ccc7a8d89210f6da9ba12e031e124eade52ba6b"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/thaynes43/haynes-quest/commit/9ccc7a8d89210f6da9ba12e031e124eade52ba6b",
+    "screenshot_urls": [
+      "https://github.com/thaynes43/haynes-quest/blob/main/docs/assets/media/bestie-pink/v001/browser-beauty.png"
+    ],
+    "technology": [
+      "TypeScript",
+      "React",
+      "Three.js",
+      "WebGL",
+      "Browser",
+      "Private preview"
+    ],
+    "model_family": [
+      "Claude Fable 5.1"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Haynes Quest"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-09-10T21:02:24Z",
+    "published_on": "2026-09-10",
+    "recent_game_evidence_on": "2026-09-11",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Fable, 2026-09-10..2026-09-12",
+      "https://github.com/thaynes43/haynes-quest"
+    ],
+    "verification_notes": "The README describes a private browser adventure with two playable chapters, equipment, traversal, enemies, bosses, combat, memory recovery and age progression. src/game/obby.ts implements obstacle-course movement, collision, hazards, checkpoints and recovery; src/game/combat.ts implements enemy pursuit, attacks, damage and defeat; GameScreen.tsx connects the runtime to the browser UI; and the Playwright journey test drives completed keyboard and touch journeys. The cited commit contains exact Co-Authored-By: Claude Fable 5.1 trailers and records the delivered two-chapter playtest. The private preview URL was not reachable from this verification environment, so no public live demo is claimed. Count the complete adventure as one game, not one game per chapter.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 1600000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Three.js/WebGL scene rendering, avatar and enemy animation, obstacle collision, combat state, browser UI, save handling and server synchronization; not measured hardware throughput.",
+    "quality_estimate_10": 9.4,
+    "quality_estimate_basis": "The repository contains a documented two-chapter playable release, separate movement and combat systems, browser UI, server-owned progression, automated keyboard/touch journeys and exact Fable attribution on gameplay work.",
+    "counted_game_units": 1,
+    "is_independent_game": true
+  },
+  {
+    "name": "Explottens: Survival — Playable Ad",
+    "github_url": "https://github.com/Werplay/playable-explottens-survivor",
+    "game_links": [
+      "https://github.com/Werplay/playable-explottens-survivor#readme",
+      "https://github.com/Werplay/playable-explottens-survivor/blob/master/src/GameScene.ts",
+      "https://github.com/Werplay/playable-explottens-survivor/blob/master/src/Hud.ts",
+      "https://github.com/Werplay/playable-explottens-survivor/blob/master/src/data.ts",
+      "https://github.com/Werplay/playable-explottens-survivor/commit/eb0183f356fc23283704b5f0d1d2882838a02155"
+    ],
+    "live_demo_url": null,
+    "evidence_url": "https://github.com/Werplay/playable-explottens-survivor/commit/eb0183f356fc23283704b5f0d1d2882838a02155",
+    "screenshot_urls": [],
+    "technology": [
+      "TypeScript",
+      "Phaser 3",
+      "Canvas2D",
+      "Playable ad",
+      "Browser"
+    ],
+    "model_family": [
+      "Claude Opus 5"
+    ],
+    "method_evidence": "confirmed",
+    "game_count": 1,
+    "contained_games": [
+      "Explottens: Survival"
+    ],
+    "verification_status": "verified_source",
+    "verified_on": "2026-09-12",
+    "repository_created_at": "2026-09-11T08:29:39Z",
+    "published_on": "2026-09-11",
+    "recent_game_evidence_on": "2026-09-11",
+    "discovery_sources": [
+      "GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12",
+      "https://github.com/Werplay/playable-explottens-survivor"
+    ],
+    "verification_notes": "The README documents a self-contained Phaser 3 playable ad with drag movement, automatic firing, timed enemy waves, XP gems, level-up choices, mini-boss and boss, HUD, win/death states and a store end card. GameScene.ts implements movement, waves, weapons, pickups and progression; Hud.ts implements health, XP, level-up and end-card state; data.ts contains the game tables. The repository includes an exact Co-Authored-By: Claude Opus 5 trailer on player-facing gameplay commits. Count the playable-ad experience as one game; the Unity source it recreates is not counted separately.",
+    "gauntlet_loop": false,
+    "model_evidence": "confirmed",
+    "flops_estimate_raw": 850000000,
+    "flops_estimate_unit": "estimated FP32 operations per second at 60 FPS",
+    "flops_estimate_confidence": "low",
+    "flops_estimate_basis": "Static estimate for Phaser Canvas2D rendering, animated sprites, timed enemy waves, collision, projectiles, pickups, HUD and level-up state; not measured hardware throughput.",
+    "quality_estimate_10": 9.2,
+    "quality_estimate_basis": "The project has a clear playable loop, self-contained build target, documented runtime checks across viewports, substantial game source and exact Opus attribution on gameplay implementation.",
+    "counted_game_units": 1,
+    "is_independent_game": true
   }
 ]

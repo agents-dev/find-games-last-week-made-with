@@ -8126,10 +8126,60 @@
       },
       "critique_note": "This serial audit rejected a repository whose commit-search text used game terminology for a presentation deck and career quiz.",
       "critic": "manual conservative score after serial review"
+    },
+    {
+      "source": "GitHub commit search date-partitioned recent-game audit",
+      "query_key": "commit-search:game:(Co-Authored-By Claude Opus|Co-Authored-By Claude Fable|GPT-6 Astra|Astra):committer-date:2026-09-10..2026-09-12",
+      "status": "completed",
+      "queries_run_serially": [
+        "game \"Co-Authored-By: Claude Opus\" committer-date:2026-09-10..2026-09-12",
+        "game \"Co-Authored-By: Claude Fable\" committer-date:2026-09-10..2026-09-12",
+        "GPT-6 Astra committer-date:2026-09-10..2026-09-12",
+        "Astra committer-date:2026-09-10..2026-09-12"
+      ],
+      "new_verified_repositories": 11,
+      "new_game_units": 30,
+      "accepted_repositories": [
+        "https://github.com/poralmi233-spec/zombie-shooter",
+        "https://github.com/nickblack1919/battle-city",
+        "https://github.com/gberry747-lab/gabriels-animation-studio",
+        "https://github.com/jackpepper-vibe/SkylarkRun",
+        "https://github.com/PPO-GG/unfit-for-print",
+        "https://github.com/mundeok/math-arcade-paradise",
+        "https://github.com/HaarisahHussain/Spin-The-Wheel-",
+        "https://github.com/yortch/chess3dastra",
+        "https://github.com/angelaborowski/grand-theft-astra",
+        "https://github.com/thaynes43/haynes-quest",
+        "https://github.com/Werplay/playable-explottens-survivor"
+      ],
+      "rejected_repositories": [
+        "https://github.com/GuidaGaita/desafio-gaymer",
+        "https://github.com/gncll/astra-game-center",
+        "https://github.com/windvill/Astra-"
+      ],
+      "note": "Use the two-day commit window to find fresh model-attributed work, then inspect every candidate serially. Accept only repositories with model evidence and a real game loop. The accepted batch adds 30 counted game units, including multi-game repositories with explicit per-game source and rules. Reject Astra-name collisions and non-game utilities.",
+      "next_experiments": [
+        "Continue the date-partitioned commit search with a new date window",
+        "Expand from accepted repositories through incoming links and creator sources",
+        "Continue toward 900 game units without weakening model or gameplay evidence"
+      ],
+      "critique_scores": {
+        "novelty": 10,
+        "yield": 10,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "A date-partitioned commit search produced a high-yield batch. Serial source inspection separated actual gameplay repositories from Astra-name collisions, utilities, catalogs and unfinished projects. Private or unreachable demos remain source-verified only.",
+      "critic": "manual conservative score after serial review"
     }
   ],
   "frontier": [
-    "Target: 900 independently counted game units; current: 698 across 541 unique accessible repository records",
+    "Target: 900 independently counted game units; current: 728 across 552 unique accessible repository records",
+    "The 2026-09-10..2026-09-12 serial commit-search batch added 30 game units from 11 repositories",
     "Reverse-link chains and curated lists are supplemental; exact game-specific attribution search currently has the best yield",
     "Next serial experiment: search repository READMEs and awesome-list files using a changed engine plus Astra/Opus/Fable alias, then inspect each unseen repository one at a time",
     "Dropped reverse-link experiment: exact SpaceShowdown URL and owner/repository token returned zero GitHub code-search results; do not repeat without a new seed or index",

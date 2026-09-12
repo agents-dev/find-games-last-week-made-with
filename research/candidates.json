@@ -1,5 +1,5 @@
 {
-  "checked_on": "2026-09-10",
+  "checked_on": "2026-09-12",
   "pending": [
     {
       "game_name": "Yakko Kart",
@@ -905,6 +905,21 @@
       "repository": "https://github.com/BeyondCodeCollective/wearebcc.org",
       "source": "GitHub commit search for Co-Authored-By Claude Fable game",
       "reason": "The README identifies the repository as a corporate website with a career quiz. The game-related path is a Beyond the Game presentation deck, not a playable game. Reject it as a website/quiz and presentation artifact."
+    },
+    {
+      "repository": "https://github.com/GuidaGaita/desafio-gaymer",
+      "source": "GitHub commit search for game Co-Authored-By Claude Opus, 2026-09-10..2026-09-12",
+      "reason": "The README and source tree identify this Android/Kotlin project as a score calculator and ranking form. It computes points and displays a GAME OVER message but contains no playable game loop, player input beyond form fields, world, rules engine or game state. Reject it as a utility app."
+    },
+    {
+      "repository": "https://github.com/gncll/astra-game-center",
+      "source": "GitHub commit search for game Astra, 2026-09-10..2026-09-12",
+      "reason": "Astra Game Center is a real browser game center with several playable titles, but the repository uses Astra as the product name and no public repository or commit evidence attributes the games to GPT-6 Astra, Claude Opus, or Claude Fable. Reject until repository-level model evidence appears."
+    },
+    {
+      "repository": "https://github.com/windvill/Astra-",
+      "source": "GitHub commit search for game Astra, 2026-09-10..2026-09-12",
+      "reason": "Astra is a real browser action-survival game, but the repository name is the game title and no public repository or commit evidence attributes it to GPT-6 Astra, Claude Opus, or Claude Fable. Do not treat the word Astra alone as model evidence."
     }
   ]
 }

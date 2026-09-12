@@ -1,0 +1,39 @@
+import fs from 'node:fs';
+
+const records = JSON.parse(fs.readFileSync('games.json', 'utf8'));
+const errors = [];
+const urls = new Set();
+const required = ['name', 'github_url', 'evidence_url', 'technology', 'model_family', 'verification_status', 'verified_on', 'verification_notes'];
+const evidenceLevels = new Set(['confirmed', 'confirmed_at_repository_level', 'confirmed_supporting_game_code', 'creator-reported', 'directory-method', 'repository/topic trail', 'inferred']);
+const fail = (index, message) => errors.push(`record ${index + 1}: ${message}`);
+
+for (const [index, record] of records.entries()) {
+  for (const field of required) {
+    const value = record[field];
+    if (value === undefined || value === null || value === '' || (Array.isArray(value) && value.length === 0)) fail(index, `missing ${field}`);
+  }
+  if (!/^https:\/\/github\.com\/[^/]+\/[^/]+\/?$/.test(record.github_url ?? '')) fail(index, `github_url is not a canonical repository URL: ${record.github_url}`);
+  if (!/^https:\/\/.+/.test(record.evidence_url ?? '')) fail(index, 'evidence_url must be a public HTTPS URL');
+  if (urls.has(record.github_url)) fail(index, `duplicate github_url: ${record.github_url}`);
+  urls.add(record.github_url);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.verified_on ?? '')) fail(index, 'verified_on is not YYYY-MM-DD');
+  if (!Number.isInteger(record.game_count) || record.game_count < 1) fail(index, 'game_count must be a positive integer');
+  if (!Number.isInteger(record.counted_game_units) || record.counted_game_units < 0) fail(index, 'counted_game_units must be a non-negative integer');
+  if (record.is_independent_game && record.counted_game_units < 1) fail(index, 'independent game record must count at least one game unit');
+  if (!record.is_independent_game && record.counted_game_units !== 0) fail(index, 'non-independent record must not count game units');
+  if (record.is_independent_game && !evidenceLevels.has(record.model_evidence)) fail(index, `model_evidence is not an accepted evidence level: ${record.model_evidence}`);
+  if (record.counted_game_units > 1 && !record.contained_games?.length) fail(index, 'multi-unit record must identify the counted units or a documented aggregate');
+  if (record.contained_games?.length > 1 && record.contained_games.length !== record.counted_game_units) fail(index, 'contained_games must match counted_game_units when individual games are listed');
+  if (!Number.isFinite(record.quality_estimate_10) || record.quality_estimate_10 < 0 || record.quality_estimate_10 > 10) fail(index, 'quality_estimate_10 must be between 0 and 10');
+  if (!Number.isFinite(record.flops_estimate_raw) || record.flops_estimate_raw <= 0) fail(index, 'flops_estimate_raw must be positive');
+}
+
+const active = records.filter((record) => record.is_independent_game && record.counted_game_units > 0);
+const units = active.reduce((total, record) => total + record.counted_game_units, 0);
+if (errors.length) {
+  console.error(`Validation failed with ${errors.length} error(s):`);
+  for (const error of errors) console.error(`- ${error}`);
+  process.exitCode = 1;
+} else {
+  console.log(`Validated ${records.length} dataset records, ${active.length} qualifying repositories, and ${units} counted game units.`);
+}
