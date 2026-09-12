@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import path from 'node:path';
 
 const allRecords = JSON.parse(fs.readFileSync('games.json', 'utf8'));
 const games = allRecords.filter((record) => record.is_independent_game && record.counted_game_units > 0);
@@ -137,12 +138,26 @@ const topMonth = uniqueRanked((row) => {
   const date = recentDate(row.record);
   return date >= monthStart && date <= today;
 }, 20);
+const gameNoteLinks = new Map();
+const gamesDirectory = path.join(process.cwd(), 'games');
+if (fs.existsSync(gamesDirectory)) {
+  for (const entry of fs.readdirSync(gamesDirectory, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const notePath = path.join(gamesDirectory, entry.name, 'readme.md');
+    if (!fs.existsSync(notePath)) continue;
+    const note = fs.readFileSync(notePath, 'utf8');
+    const title = note.match(/^# (.+)$/m)?.[1];
+    const repository = note.match(/^- \*\*Repository:\*\* \[(https:\/\/github\.com\/[^)]+)\]/m)?.[1];
+    if (title && repository) gameNoteLinks.set(`${repository}\n${title}`, `games/${entry.name}/readme.md`);
+  }
+}
+const gameNoteUrl = (row) => gameNoteLinks.get(`${row.record.github_url}\n${row.name}`) ?? row.record.github_url;
 const periodTable = (title, description, items) => {
   let text = `## ${title}\n\n> ${description}\n\n`;
   if (!items.length) return `${text}_No verified entries match this period yet._\n\n`;
   text += `| Rank | Game | Score | Model | Verified date |\n| ---: | --- | ---: | --- | --- |\n`;
   items.forEach((row, index) => {
-    text += `| ${index + 1} | [**${esc(row.name)}**](${row.record.github_url}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record))} | ${esc(row.record.verified_on ?? recentDate(row.record))} |\n`;
+    text += `| ${index + 1} | [**${esc(row.name)}**](${gameNoteUrl(row)}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record))} | ${esc(row.record.verified_on ?? recentDate(row.record))} |\n`;
   });
   return `${text}\n`;
 };
@@ -193,18 +208,19 @@ output += periodTable('Top games this month', `Rank the highest-rated games with
 output += `## Top-rated picks\n\n`;
 output += `> **Start here. These projects have the strongest combined evidence, scope, and source quality. Ratings do not replace evidence grades.**\n\n`;
 output += `| Game | Score | Built with | Evidence |\n| --- | ---: | --- | --- |\n`;
-for (const row of topPicks) output += `| [**${esc(row.name)}**](${row.record.github_url}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record))} | [${evidence(row.record).icon} ${esc(evidence(row.record).label)}](${row.record.evidence_url}) |\n`;
+for (const row of topPicks) output += `| [**${esc(row.name)}**](${gameNoteUrl(row)}) | ⭐ **${Number(row.rating).toFixed(1)}** | ${esc(modelText(row.record))} | [${evidence(row.record).icon} ${esc(evidence(row.record).label)}](${row.record.evidence_url}) |\n`;
 output += `\n`;
 if (screenshotCount) {
   const shot = rows.find((row) => row.record.screenshot_urls?.length);
   const image = shot.record.screenshot_urls[0].replace('https://github.com/', 'https://raw.githubusercontent.com/').replace('/blob/', '/');
-  output += `## Screenshot spotlight\n\n<div align="center">\n\n[<img src="${image}" alt="${esc(shot.name)} screenshot" width="760" />](${shot.record.github_url})\n\n**${esc(shot.name)}** — source and screenshot linked in the dataset.\n\n</div>\n\n`;
+  output += `## Screenshot spotlight\n\n<div align="center">\n\n[<img src="${image}" alt="${esc(shot.name)} screenshot" width="760" />](${gameNoteUrl(shot)})\n\n**${esc(shot.name)}** — source and screenshot linked in the dataset.\n\n</div>\n\n`;
 }
 output += `## Game library\n\n> **Browse curated game units by category.**\n\n`;
 output += `Jump to a category:\n\n`;
 for (const [title, group] of groups) output += `- ${categoryIcons[title]} [${title}](#${slug(title)}) — **${unitTotal(group)} game units**\n`;
 output += `\n### How to use this guide\n\n`;
-output += `- Select a game title to open its canonical GitHub repository.\n`;
+output += `- Select a game title to open its local per-game note in [games/](games/).\n`;
+output += `- Select the repository link inside the note to open the canonical GitHub source.\n`;
 output += `- Select **files** to inspect linked gameplay source. Select **play** for a published demo.\n`;
 output += `- Read the evidence grade before relying on a model-attribution claim. The rating is a curation aid, not a benchmark.\n\n`;
 output += `Each compact row shows **rating**, **model**, **technology**, **model-evidence grade**, and relevant source links. FLOPS estimates remain in the dataset but are omitted here because they are static, low-confidence estimates.\n\n`;
@@ -218,7 +234,7 @@ for (const [title, group] of groups) {
     const directLinks = [row.gameLink ? `[files](${row.gameLink})` : '', row.demoLink ? `[play](${row.demoLink})` : ''].filter(Boolean).join(' · ');
     const grade = evidence(r);
     const aggregate = row.aggregateLabel ? ` · **${row.unitCount} documented units:** ${esc(row.aggregateLabel)}` : '';
-    output += `- [**${esc(row.name)}**](${r.github_url}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r))} · ${esc(compactTechText(r, row.technology))} · [${grade.icon} ${grade.label}](${r.evidence_url})${aggregate}${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
+    output += `- [**${esc(row.name)}**](${gameNoteUrl(row)}) — ⭐ **${Number(row.rating).toFixed(1)}/10** · ${esc(modelText(r))} · ${esc(compactTechText(r, row.technology))} · [${grade.icon} ${grade.label}](${r.evidence_url})${aggregate}${directLinks ? ` · ${directLinks}` : ''}${extra ? ` · ${extra}` : ''}\n`;
   }
   output += `\n[Back to game library](#game-library)\n\n`;
 }
