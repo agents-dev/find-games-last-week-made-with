@@ -8206,6 +8206,45 @@
       },
       "critique_note": "The scan expanded screenshot coverage without weakening the game dataset. Some README images remain uncertain promotional or cover art, so notes label them as source assets and preserve placeholders when no image survives the filter.",
       "critic": "manual conservative score after serial source scan"
+    },
+    {
+      "source": "Awesome-list game-count expansion",
+      "query_key": "awesome-lists:games:minimum-15:serial-readme-count",
+      "status": "completed",
+      "checked_at": "2026-09-12",
+      "lists_inspected": 14,
+      "accepted_lists": 10,
+      "rejected_lists": 4,
+      "accepted_game_entry_counts": {
+        "michelpereira/awesome-open-source-games": 316,
+        "201flaviosilva-labs/Open-Source-Games": 381,
+        "edm00se/awesome-board-games": 267,
+        "herrherrmann/awesome-multiplayer-games": 89,
+        "Calinou/awesome-gamedev": 78,
+        "bruce965/awesome-foss-games": 40,
+        "michelpereira/awesome-games-of-coding": 42,
+        "awesome-online-games/awesome-browser-games": 18,
+        "instax-dutta/awesome-browser-games": 41,
+        "bearlikelion/awesome-godot-games": 17
+      },
+      "note": "Inspect each README serially. Count only named game entries in gameplay sections and reject lists below 15 games or lists dominated by tools, assets, engines, and tutorials. Publish the accepted repositories and reproducible counting rules in awesomelists.md.",
+      "next_experiments": [
+        "Recount accepted lists after upstream README changes",
+        "Expand each accepted list through its direct game links without duplicating games.json records",
+        "Inspect engine-specific awesome lists serially and keep game counts separate from asset counts"
+      ],
+      "critique_scores": {
+        "novelty": 8,
+        "yield": 9,
+        "verification_quality": 9,
+        "repeatability": 9,
+        "source_quality": 9,
+        "false_positive_control": 9,
+        "overall": 9,
+        "decision": "keep"
+      },
+      "critique_note": "The accepted set uses direct GitHub README evidence and an explicit 15-game threshold. Mixed resource catalogs and short lists were rejected instead of inflating the index.",
+      "critic": "manual conservative score after serial README audit"
     }
   ],
   "frontier": [

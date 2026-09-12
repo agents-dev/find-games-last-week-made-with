@@ -186,6 +186,7 @@ output += `</div>\n\n---\n\n`;
 output += `## What is this?\n\n`;
 output += `This is a curated index of playable game units with public GitHub source and evidence that connects them to GPT-6 Astra, Claude Opus, or Claude Fable. “Curated” does not mean every attribution has the same strength: the per-entry evidence grade states whether the model claim is direct, creator-reported, repository-level, or inferred.\n\n`;
 output += `The source of truth is [games.json](games.json). It was last verified on **${verifiedOn}**.\n\n`;
+output += `Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.\n\n`;
 output += `## Collection at a glance\n\n`;
 output += `| Signal | Result |\n| --- | ---: |\n`;
 output += `| Counted game units | **${count}** |\n`;

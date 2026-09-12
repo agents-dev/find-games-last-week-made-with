@@ -2068,6 +2068,10 @@ Reconfirm [Breakneck Baseball](https://github.com/hynding/breakneck-baseball) as
 
 Accept [Breakneck Baseball](https://github.com/hynding/breakneck-baseball) as one engine-based game. Its README, source and playtest screenshots prove a complete Rust/Bevy/Rapier baseball game with native desktop and browser WASM builds, CPU/2P modes, full innings, five pitches, ball flight, steals, pickoffs, advanced rules, camera modes, settings, audio, substitutions, persistence and tests. The live demo is [hynding.github.io/breakneck-baseball](https://hynding.github.io/breakneck-baseball/). Its history contains exact Claude Fable gameplay trailers. Count the baseball game once.
 
+### Awesome-list game-count audit
+
+Inspect each candidate list serially. Accept only a list with at least 15 named game entries. Count gameplay rows under the list's game headings, then exclude table-of-contents links, engines, libraries, assets, tutorials, tools, contribution links, and other non-game resources. On 2026-09-12, this produced ten accepted lists in [awesomelists.md](../awesomelists.md), ranging from 17 to 381 counted games. Reject short or mixed lists even when their repository has a large star count.
+
 ### HTML/JavaScript/Claude Fable birthday mini-game audit
 
 Accept [Lera Birthday Mini-Games](https://github.com/vitalirasin-web/valeriabirthday) as four browser mini-games embedded in a family birthday page. The page has separate game sections for filling a coffee cup, peeling stickers, catching a moving dog and popping chore balloons. The `games.js` source includes input handlers, progress state, completion state and feedback effects for each loop, and the [GitHub Pages deployment](https://vitalirasin-web.github.io/valeriabirthday/) returned HTTP 200 during verification. The inspected [game-text/UI commit](https://github.com/vitalirasin-web/valeriabirthday/commit/ff60ed966ba2b206ece5cc68f74850b75513599d) contains an exact Claude Fable 5 trailer. Count the four mini-games; exclude the surrounding family page, gallery, audio and trivia quiz.

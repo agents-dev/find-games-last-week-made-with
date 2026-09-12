@@ -21,6 +21,8 @@ This is a curated index of playable game units with public GitHub source and evi
 
 The source of truth is [games.json](games.json). It was last verified on **2026-09-12**.
 
+Browse [the awesome-list index](awesomelists.md) for verified game catalogs with their counted entry totals.
+
 ## Collection at a glance
 
 | Signal | Result |
